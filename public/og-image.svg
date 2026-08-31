@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#18181b"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Geometric pattern -->
+  <g opacity="0.1">
+    <path d="M0 315 L100 215 L100 415 Z" fill="url(#logoGradient)"/>
+    <path d="M1100 315 L1200 215 L1200 415 Z" fill="url(#accentGradient)"/>
+  </g>
+  
+  <!-- Grid pattern -->
+  <g stroke="#27272a" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+  
+  <!-- Logo icon -->
+  <g transform="translate(80, 80)">
+    <rect x="4" y="4" width="72" height="72" rx="16" fill="#18181b"/>
+    <rect x="4" y="4" width="72" height="72" rx="16" stroke="url(#logoGradient)" stroke-width="2" fill="none"/>
+    <path d="M16 40 L32 24 L32 56 Z" fill="url(#logoGradient)" opacity="0.9"/>
+    <path d="M20 40 L32 28 L32 52 Z" fill="#18181b"/>
+    <path d="M40 28 L40 52 L50 52 L50 42 L60 52 L70 52 L70 28 L60 28 L60 38 L50 28 Z" fill="url(#logoGradient)"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="180" y="120" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#e4e4e7">
+    <tspan fill="url(#logoGradient)">Nexora</tspan><tspan fill="url(#accentGradient)">Comic</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="180" y="160" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#a1a1aa">
+    Ciência • Tecnologia • Cultura Geek
+  </text>
+  
+  <!-- Decorative line -->
+  <line x1="80" y1="200" x2="300" y2="200" stroke="url(#logoGradient)" stroke-width="2"/>
+  
+  <!-- Description -->
+  <text x="80" y="260" font-family="Inter, system-ui, sans-serif" font-size="28" fill="#e4e4e7">
+    Uma publicação digital que conecta ciência, tecnologia,
+  </text>
+  <text x="80" y="300" font-family="Inter, system-ui, sans-serif" font-size="28" fill="#e4e4e7">
+    espaço, inteligência artificial e cultura geek.
+  </text>
+  
+  <!-- Categories -->
+  <g transform="translate(80, 360)">
+    <rect x="0" y="0" width="120" height="36" rx="18" fill="#8b5cf620" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="60" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#8b5cf6" text-anchor="middle">Ciência</text>
+    
+    <rect x="140" y="0" width="130" height="36" rx="18" fill="#06b6d420" stroke="#06b6d4" stroke-width="1"/>
+    <text x="205" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#06b6d4" text-anchor="middle">Tecnologia</text>
+    
+    <rect x="290" y="0" width="100" height="36" rx="18" fill="#f59e0b20" stroke="#f59e0b" stroke-width="1"/>
+    <text x="340" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#f59e0b" text-anchor="middle">Espaço</text>
+    
+    <rect x="410" y="0" width="80" height="36" rx="18" fill="#ec489920" stroke="#ec4899" stroke-width="1"/>
+    <text x="450" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#ec4899" text-anchor="middle">IA</text>
+    
+    <rect x="510" y="0" width="100" height="36" rx="18" fill="#10b98120" stroke="#10b981" stroke-width="1"/>
+    <text x="560" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#10b981" text-anchor="middle">Futuro</text>
+    
+    <rect x="630" y="0" width="90" height="36" rx="18" fill="#ef444420" stroke="#ef4444" stroke-width="1"/>
+    <text x="675" y="24" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#ef4444" text-anchor="middle">Games</text>
+  </g>
+  
+  <!-- URL -->
+  <text x="80" y="560" font-family="JetBrains Mono, monospace" font-size="24" fill="#8b5cf6">
+    nexoracomic.com
+  </text>
+</svg>
