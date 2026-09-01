@@ -1,0 +1,19 @@
+        </article>
+
+        {/* Related Articles — FASE 7 */}
+        <section className="container mx-auto px-4 py-12 border-t border-border" aria-labelledby="related-heading">
+          <h2
+            id="related-heading"
+            className="section-title text-foreground mb-6 flex items-center gap-3"
+          >
+            <span className="w-1.5 h-8 bg-gold rounded-full"></span>
+            Você também pode gostar
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {relatedArticles.map((rel) => (
+              <ArticleCard key={rel.id} article={rel} />
+            ))}
+        </div>
+        </section>
+
+        {/* Newsletter CTA */}

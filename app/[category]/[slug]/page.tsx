@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Newsletter from '@/components/Newsletter';
 import { ArticleBreadcrumbs } from '@/components/Breadcrumbs';
+import ArticleCard from '@/components/ArticleCard';
 import { Article, SITE_URL } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 
@@ -19,6 +20,18 @@ const getArticle = (category: string, slug: string): Article | null => {
   return DEMONSTRATION_ARTICLES.find(
     (article) => article.category.slug === category && article.slug === slug
   ) || null;
+};
+
+// Related articles: same category first (excluding current), then newest
+// from other categories to complete the row. Uses only real content.
+const getRelatedArticles = (current: Article, limit = 3): Article[] => {
+  const sameCategory = DEMONSTRATION_ARTICLES.filter(
+    (a) => a.category.slug === current.category.slug && a.id !== current.id
+  );
+  const others = DEMONSTRATION_ARTICLES.filter(
+    (a) => a.category.slug !== current.category.slug && a.id !== current.id
+  );
+  return [...sameCategory, ...others].slice(0, limit);
 };
 
 export async function generateStaticParams() {
@@ -69,6 +82,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   if (!article) {
     notFound();
   }
+
+  const relatedArticles = getRelatedArticles(article, 3);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -267,6 +282,22 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             </section>
           )}
         </article>
+
+        {/* Related Articles */}
+        <section
+          className="container mx-auto px-4 py-12 border-t border-border"
+          aria-labelledby="related-heading"
+        >
+          <h2 id="related-heading" className="section-title text-foreground mb-6 flex items-center gap-3">
+            <span className="w-1.5 h-8 bg-gold rounded-full"></span>
+            Você também pode gostar
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {relatedArticles.map((rel) => (
+              <ArticleCard key={rel.id} article={rel} />
+            ))}
+          </div>
+        </section>
 
         {/* Newsletter CTA */}
         <Newsletter />
