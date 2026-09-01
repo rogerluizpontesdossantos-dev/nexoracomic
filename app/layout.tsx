@@ -91,6 +91,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       lang="pt-BR"
       className={`${inter.variable} h-full antialiased`}
     >
+      <head>
+        {/* Google AdSense — connection/verification script only (official snippet).
+            No ad units are rendered anywhere; AdSlot remains disabled. */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9710418432642580"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         {children}
         <Analytics />
