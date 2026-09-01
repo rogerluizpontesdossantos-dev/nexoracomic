@@ -4,15 +4,27 @@ import { useState } from 'react';
 
 export default function FooterNewsletter() {
   const [email, setEmail] = useState('');
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) {
-      // TODO: Integrate with email provider
-      setEmail('');
-      alert('Obrigado por se inscrever! Verifique seu email para confirmar.');
-    }
+    if (!email || loading) return;
+    setLoading(true);
+    // TODO: Integrate with email provider (e.g. Mailchimp via /api/subscribe)
+    await new Promise((r) => setTimeout(r, 300));
+    setSubmitted(true);
+    setEmail('');
+    setLoading(false);
   };
+
+  if (submitted) {
+    return (
+      <p className="text-sm text-green-400">
+        ✉️ Obrigado! Verifique seu email para confirmar.
+      </p>
+    );
+  }
 
   return (
     <form className="space-y-2" onSubmit={handleSubmit}>
@@ -22,14 +34,16 @@ export default function FooterNewsletter() {
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Seu email"
         required
-        className="w-full px-4 py-2 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+        disabled={loading}
+        className="w-full px-4 py-2 rounded-lg border border-border bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-60"
         aria-label="Email para newsletter"
       />
       <button
         type="submit"
-        className="w-full px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+        disabled={loading}
+        className="w-full px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors disabled:opacity-60"
       >
-        Inscrever-se
+        {loading ? 'Enviando...' : 'Inscrever-se'}
       </button>
     </form>
   );

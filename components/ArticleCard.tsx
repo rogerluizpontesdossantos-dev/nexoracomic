@@ -22,7 +22,7 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
             </div>
           )}
         </Link>
-        <div className="flex flex-col gap-1 min-w-0">
+                  <div className="flex flex-col gap-1 min-w-0">
           <Link
             href={`/${article.category.slug}`}
             className="text-xs font-medium text-primary hover:text-primary/80 transition-colors"

@@ -17,10 +17,25 @@
   --input: #1a1a1f;
   --ring: #d4af37;
   
-  --gold: #d4af37;
+    --gold: #d4af37;
   --gold-light: #f4d03f;
   --gold-dark: #b8860b;
   --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+
+  /* Editorial / categoria cores — reforço visual semântico */
+  --cat-ciencia: #8b5cf6;
+  --cat-tecnologia: #06b6d4;
+  --cat-espaco: #f59e0b;
+  --cat-ia: #ec4899;
+  --cat-futuro: #10b981;
+  --cat-games: #ef4444;
+  --cat-filmes: #f97316;
+  --cat-quadrinhos: #6366f1;
+  --cat-curiosidades: #14b8a6;
+
+  /* Acentos secundários para interações */
+  --focus-ring: #2563eb;
+  --card-hover: #1a1a1f;
 }
 
 @theme inline {
@@ -189,14 +204,79 @@ html {
   overflow: hidden;
 }
 
-/* Card hover effect */
+/* Typography utilities for editorial feel */
+.display-title {
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.cat-title {
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.article-title {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.prose-title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Editorial link states */
+.link-gold {
+  color: var(--gold);
+  transition: color 0.15s ease, text-shadow 0.15s ease;
+}
+
+.link-gold:hover {
+  color: var(--gold-light);
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+}
+
+/* Card hover — elevação sutil */
 .card-hover {
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card-hover:hover {
   transform: translateY(-2px);
   border-color: var(--primary);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Smooth image zoom on hover */
+.group img {
+  transition: transform 0.4s ease;
+}
+
+.group:hover img {
+  transform: scale(1.04);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .card-hover:hover {
+    transform: none;
+  }
+
+     .group:hover img {
+    transform: none;
+  }
 }
 
 /* Gradient text */
@@ -206,6 +286,8 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* Hero glow effects */
 
 /* Hero glow effects */
 .hero-glow {

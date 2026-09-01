@@ -52,16 +52,16 @@ export default function Home() {
               
               {/* Secondary Featured */}
               <div className="flex flex-col gap-4">
-                <h2 className="text-lg font-semibold text-foreground flex items-center gap-2">
-                  <span className="w-1 h-6 bg-[#d4af37] rounded-full"></span>
+                                <h2 className="section-title text-foreground flex items-center gap-2">
+                  <span className="w-1 h-6 bg-gold rounded-full"></span>
                   Últimas Publicações
                 </h2>
                 {latestArticles.map((article) => (
                   <ArticleCard key={article.id} article={article} variant="compact" />
                 ))}
-                <Link 
-                  href="/pesquisar" 
-                  className="text-sm text-[#d4af37] hover:text-[#f4d03f] transition-colors mt-2"
+                                <Link
+                  href="/pesquisar"
+                  className="text-sm link-gold mt-2"
                 >
                   Ver todas as publicações →
                 </Link>
@@ -81,14 +81,20 @@ export default function Home() {
           return (
             <section key={section.title} className="border-b border-border">
               <div className="container mx-auto px-4 py-8 md:py-12">
-                <div className="flex items-center justify-between mb-6">
-                  <h2 className="text-xl md:text-2xl font-bold text-foreground flex items-center gap-3">
-                    <span 
-                      className="w-1 h-8 rounded-full"
+                                <div className="flex items-center justify-between mb-6">
+                  <h2 className="section-title text-foreground flex items-center gap-3">
+                    <span
+                      className="w-1.5 h-8 rounded-full"
                       style={{ backgroundColor: CATEGORIES.find(c => c.slug === section.categories[0])?.color || '#d4af37' }}
                     ></span>
                     {section.title}
                   </h2>
+                  <Link
+                    href="/categorias"
+                    className="text-sm link-gold"
+                  >
+                    Ver todas as categorias →
+                  </Link>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -104,11 +110,11 @@ export default function Home() {
         {/* Categories Grid */}
         <section className="border-b border-border">
           <div className="container mx-auto px-4 py-8 md:py-12">
-            <h2 className="text-xl md:text-2xl font-bold text-foreground mb-6 flex items-center gap-3">
-              <span className="w-1 h-8 bg-[#d4af37] rounded-full"></span>
+                        <h2 className="section-title text-foreground mb-6 flex items-center gap-3">
+              <span className="w-1.5 h-8 bg-gold rounded-full"></span>
               Explore por Categoria
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {CATEGORIES.map((category) => (
                 <CategoryCard 
                   key={category.id} 

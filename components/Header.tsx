@@ -22,17 +22,23 @@ export default function Header() {
           <Logo size="md" showTagline={false} />
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-1">
+                    <div className="hidden lg:flex items-center gap-1">
             {CATEGORIES.slice(0, 6).map((category) => (
               <Link
                 key={category.id}
                 href={`/${category.slug}`}
-                className={`px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
+                className={`relative px-4 py-2.5 text-sm font-medium rounded-lg transition-all duration-200 ${
                   isActiveLink(`/${category.slug}`)
-                    ? 'text-primary bg-primary/10'
+                    ? 'text-primary bg-primary/10 shadow-inner'
                     : 'text-muted-foreground hover:text-foreground hover:bg-card'
                 }`}
               >
+                {isActiveLink(`/${category.slug}`) && (
+                  <span
+                    className="absolute bottom-0 left-1/2 -translate-x-1/2 w-6 h-0.5 rounded-full"
+                    style={{ backgroundColor: category.color }}
+                  />
+                )}
                 {category.name}
               </Link>
             ))}
