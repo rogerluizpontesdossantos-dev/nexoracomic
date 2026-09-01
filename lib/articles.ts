@@ -480,7 +480,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Simulações com a IA também ajudam a testar e balancear jogos, criando bots que exploram o conteúdo por milhares de horas antes do lançamento, reduzindo a chance de bugs e desequilíbrios percebidos pelos jogadores.</p>
 
       <h2>O Futuro</h2>
-      <p>A inteligência artificial nos games tende a gerar mundos mais vivos, com personagens que lembram interações, cooperam em equipes e reagem de forma imprevisível, tornando cada partida uma experiência única.</p>
+      <p>A inteligência artificial nos games tende a gerar <a href="/games/o-que-e-ray-tracing">mundos mais vivos</a>, com personagens que lembram interações, cooperam em equipes e reagem de forma imprevisível, tornando cada partida uma experiência única.</p>
     `,
     category: {
       id: 'games',
