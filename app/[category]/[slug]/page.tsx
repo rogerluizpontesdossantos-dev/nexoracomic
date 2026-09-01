@@ -9,10 +9,10 @@ import { Article } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 
 interface ArticlePageProps {
-  params: {
+  params: Promise<{
     category: string;
     slug: string;
-  };
+  }>;
 }
 
 const getArticle = (category: string, slug: string): Article | null => {
@@ -29,7 +29,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
-  const article = getArticle(params.category, params.slug);
+  const { category, slug } = await params;
+  const article = getArticle(category, slug);
   
   if (!article) {
     return {
@@ -61,8 +62,9 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
   };
 }
 
-export default function ArticlePage({ params }: ArticlePageProps) {
-  const article = getArticle(params.category, params.slug);
+export default async function ArticlePage({ params }: ArticlePageProps) {
+  const { category, slug } = await params;
+  const article = getArticle(category, slug);
 
   if (!article) {
     notFound();
@@ -122,10 +124,11 @@ export default function ArticlePage({ params }: ArticlePageProps) {
       <main className="flex-1">
         {/* Breadcrumbs */}
         <div className="container mx-auto px-4 py-4">
-          <ArticleBreadcrumbs 
-            categorySlug={article.category.slug} 
-            categoryName={article.category.name} 
-            articleTitle={article.title} 
+          <ArticleBreadcrumbs
+            categorySlug={article.category.slug}
+            categoryName={article.category.name}
+            articleTitle={article.title}
+            articleSlug={article.slug}
           />
         </div>
 

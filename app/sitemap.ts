@@ -1,5 +1,8 @@
 import { MetadataRoute } from 'next';
 import { CATEGORIES } from '@/lib/types';
+import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
+
+export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://nexoracomic.com';
@@ -46,5 +49,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...categoryRoutes];
+  // Article routes
+  const articleRoutes: MetadataRoute.Sitemap = DEMONSTRATION_ARTICLES.map((article) => ({
+    url: `${baseUrl}/${article.category.slug}/${article.slug}`,
+    lastModified: new Date(article.updatedAt || article.publishedAt),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...categoryRoutes, ...articleRoutes];
 }

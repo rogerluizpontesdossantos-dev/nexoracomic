@@ -1,22 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0f;
+  --background: #050508;
   --foreground: #e4e4e7;
-  --card: #18181b;
+  --card: #111114;
   --card-foreground: #e4e4e7;
-  --primary: #8b5cf6;
-  --primary-foreground: #ffffff;
-  --secondary: #27272a;
+  --primary: #d4af37;
+  --primary-foreground: #050508;
+  --secondary: #1a1a1f;
   --secondary-foreground: #e4e4e7;
-  --accent: #06b6d4;
-  --accent-foreground: #ffffff;
-  --muted: #27272a;
+  --accent: #c9a227;
+  --accent-foreground: #050508;
+  --muted: #1a1a1f;
   --muted-foreground: #a1a1aa;
-  --border: #27272a;
-  --input: #27272a;
-  --ring: #8b5cf6;
+  --border: #2a2a2f;
+  --input: #1a1a1f;
+  --ring: #d4af37;
   
+  --gold: #d4af37;
+  --gold-light: #f4d03f;
+  --gold-dark: #b8860b;
   --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
   --font-mono: var(--font-jetbrains-mono), monospace;
 }
@@ -204,6 +207,55 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* Hero glow effects */
+.hero-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.hero-glow--primary {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.3) 0%, transparent 70%);
+}
+
+.hero-glow--secondary {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(201, 162, 39, 0.2) 0%, transparent 70%);
+}
+
+/* Geometric grid pattern */
+.geometric-grid {
+  background-image: 
+    linear-gradient(rgba(212, 175, 55, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(212, 175, 55, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Pulse glow animation */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.7; }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
 }
 
 /* Reduced motion */

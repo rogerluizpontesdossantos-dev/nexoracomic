@@ -1,8 +1,8 @@
 'use client';
 
 import { useMemo } from 'react';
-import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 
 export default function SearchResults() {

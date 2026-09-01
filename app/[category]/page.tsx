@@ -7,9 +7,9 @@ import { CATEGORIES, Article } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     category: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -19,7 +19,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: CategoryPageProps) {
-  const category = CATEGORIES.find((c) => c.slug === params.category);
+  const { category: categorySlug } = await params;
+  const category = CATEGORIES.find((c) => c.slug === categorySlug);
   
   if (!category) {
     return {
@@ -36,8 +37,9 @@ export async function generateMetadata({ params }: CategoryPageProps) {
   };
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const category = CATEGORIES.find((c) => c.slug === params.category);
+export default async function CategoryPage({ params }: CategoryPageProps) {
+  const { category: categorySlug } = await params;
+  const category = CATEGORIES.find((c) => c.slug === categorySlug);
 
   if (!category) {
     notFound();
@@ -45,7 +47,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
 
   // Filter demonstration articles by category
   const categoryArticles: Article[] = DEMONSTRATION_ARTICLES.filter(
-    (article) => article.category.slug === params.category
+    (article) => article.category.slug === categorySlug
   );
 
   const breadcrumbJsonLd = {

@@ -22,8 +22,8 @@ export default function Logo({ size = 'md', showTagline = false }: LogoProps) {
           aria-hidden="true"
         />
         <div className="font-bold tracking-tight">
-          <span className="text-primary group-hover:text-primary/80 transition-colors">Nexora</span>
-          <span className="text-accent group-hover:text-accent/80 transition-colors">Comic</span>
+          <span className="text-white group-hover:text-zinc-300 transition-colors">Nexora</span>
+          <span className="text-[#d4af37] group-hover:text-[#f4d03f] transition-colors">Comic</span>
         </div>
       </div>
       {showTagline && (

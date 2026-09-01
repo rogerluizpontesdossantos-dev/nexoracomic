@@ -11,10 +11,8 @@ const nextConfig: NextConfig = {
   },
   // Ensure trailing slashes are not used
   trailingSlash: false,
-  // Ensure SSG routes are properly generated
-  output: undefined,
-  // Note: output: 'export' is not compatible with useSearchParams
-  // The search page uses client-side search instead
+  // Use static export to ensure all routes work on Vercel
+  output: 'export',
 };
 
 export default nextConfig;

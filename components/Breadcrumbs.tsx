@@ -46,13 +46,13 @@ export function CategoryBreadcrumbs({ categorySlug, categoryName }: { categorySl
   );
 }
 
-export function ArticleBreadcrumbs({ categorySlug, categoryName, articleTitle }: { categorySlug: string; categoryName: string; articleTitle: string }) {
+export function ArticleBreadcrumbs({ categorySlug, categoryName, articleTitle, articleSlug }: { categorySlug: string; categoryName: string; articleTitle: string; articleSlug: string }) {
   return (
     <Breadcrumbs
       items={[
         { name: 'Home', href: '/' },
         { name: categoryName, href: `/${categorySlug}` },
-        { name: articleTitle, href: `/${categorySlug}/${articleTitle.toLowerCase().replace(/\s+/g, '-')}` },
+        { name: articleTitle, href: `/${categorySlug}/${articleSlug}` },
       ]}
     />
   );
