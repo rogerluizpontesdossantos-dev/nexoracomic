@@ -967,5 +967,1032 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'journal'
       }
     ]
+  },
+  {
+    id: '16',
+    slug: 'telescopio-espacial-james-webb',
+    title: 'Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo',
+    excerpt: 'O James Webb é o telescópio mais poderoso já lançado. Entenda como ele funciona, por que observa em infravermelho e o que ele já revelou sobre o cosmos.',
+    content: `
+      <h2>O Sucessor do Hubble</h2>
+      <p>Lançado em dezembro de 2021, o Telescópio Espacial James Webb (JWST) é o observatório espacial mais poderoso já construído. Com espelho primário de 6,5 metros de diâmetro — quase três vezes o do Hubble —, ele captura luz de objetos que brilharam quando o universo era bebê, há mais de 13 bilhões de anos.</p>
+
+      <h2>Por Que Observar em Infravermelho?</h2>
+      <p>O Webb não tira fotos "normais". Ele enxerga luz infravermelha, invisível aos olhos humanos. Isso é decisivo por dois motivos:</p>
+      <ul>
+        <li><strong>Universo em expansão:</strong> a luz das galáxias mais distantes é esticada pelo efeito Doppler, saindo do visível e indo para o infravermelho</li>
+        <li><strong>Poeira cósmica:</strong> nuvens de gás e poeira que bloqueiam a luz visível ficam transparentes ao infravermelho, revelando estrelas em formação</li>
+      </ul>
+
+      <h2>Engenharia Extrema: O Escudo Solar</h2>
+      <p>Para detectar calor infravermelho extremamente fraco, o próprio telescópio precisa estar mais frio que os objetos que observa. Por isso ele carrega um escudo solar do tamanho de uma quadra de tênis, feito de cinco camadas de kapton aluminizado, que mantém os instrumentos a cerca de -233 °C.</p>
+
+      <h3>O Espelho Dobrável</h3>
+      <p>Nenhum foguete caberia com um espelho de 6,5 metros aberto. A solução foi dividir o espelho em 18 segmentos hexagonais que se desdobraram no espaço e foram alinhados com precisão de nanômetros ao longo de meses.</p>
+
+      <h2>Principais Descobertas</h2>
+      <ul>
+        <li><strong>Galáxias primordiais:</strong> estruturas mais maduras do que o esperado nos primeiros 500 milhões de anos após o Big Bang</li>
+        <li><strong>Atmosferas de <a href="/espaco/exoplanetas-a-busca-por-mundos-habitaveis">exoplanetas</a>:</strong> detecção de água, dióxido de carbono e metano em mundos distantes</li>
+        <li><strong>Berçários estelares:</strong> imagens sem precedentes da nebulosa de Carina e da Nebulosa do Anel</li>
+        <li><strong>Química no espaço:</strong> moléculas orgânicas complexas identificadas em nuvens interestelares</li>
+      </ul>
+
+      <h2>Como Ler as Cores das Imagens?</h2>
+      <p>As imagens famosas do Webb são composições em cores falsas: cada tom mapeia um comprimento de onda infravermelho diferente. As cores não são "como o humano veria", mas codificam informação científica — temperatura, composição química e velocidade.</p>
+
+      <h2>Conclusão</h2>
+      <p>O James Webb ainda tem décadas de combustível pela frente e deve reescrever capítulos inteiros da astronomia. Cada nova imagem é, literalmente, um recorte da história do <a href="/espaco/como-buracos-negros-funcionam">universo profundo</a> chegando à Terra.</p>
+    `,
+    category: {
+      id: 'espaco',
+      slug: 'espaco',
+      name: 'Espaço',
+      description: 'Astronomia, NASA, planetas, estrelas e missões espaciais',
+      color: '#f59e0b'
+    },
+    tags: ['james webb', 'telescópio', 'astronomia', 'infravermelho', 'universo'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-21',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80',
+    imageAlt: 'Telescópio espacial em órbita da Terra com painéis solares estendidos',
+    sources: [
+      {
+        title: 'NASA - James Webb Space Telescope',
+        url: 'https://science.nasa.gov/mission/webb/',
+        type: 'agency'
+      },
+      {
+        title: 'ESA - Webb',
+        url: 'https://www.esa.int/Science_Exploration/Space_Science/Webb',
+        type: 'agency'
+      },
+      {
+        title: 'STScI - Webb Science',
+        url: 'https://www.stsci.edu/',
+        type: 'university'
+      }
+    ]
+  },
+  {
+    id: '17',
+    slug: 'exoplanetas-a-busca-por-mundos-habitaveis',
+    title: 'Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar',
+    excerpt: 'Milhares de planetas já foram confirmados fora do Sistema Solar. Descubra como os cientistas os detectam e o que torna um exoplaneta potencialmente habitável.',
+    content: `
+      <h2>O Que São Exoplanetas?</h2>
+      <p>Exoplanetas são planetas que orbitam estrelas diferentes do Sol. O primeiro confirmado ao redor de uma estrela parecida com o Sol foi anunciado em 1995 — descoberta que rendeu o Prêmio Nobel de Física de 2019. Desde então, o catálogo já ultrapassou 5.500 mundos confirmados, e a conta cresce todo mês.</p>
+
+      <h2>Como Detectar um Planeta que Não Conseguimos Ver?</h2>
+      <p>Exoplanetas são minúsculos e fracos comparados às suas estrelas. Por isso, quase sempre os detectamos por efeitos indiretos:</p>
+      <ul>
+        <li><strong>Trânsito:</strong> medimos o pequeno mergulho no brilho da estrela quando o planeta passa na frente — método campeão em número de descobertas</li>
+        <li><strong>Velocidade radial:</strong> o planeta faz a estrela "balançar" levemente, o que aparece como deslocamento no espectro de luz</li>
+        <li><strong>Microlente gravitacional:</strong> a gravidade de uma estrela de fundo amplifica a luz de outra, criando assinaturas de planetas</li>
+        <li><strong>Imagem direta:</strong> a técnica mais difícil, que exige bloquear o ofuscamento da estrela</li>
+      </ul>
+
+      <h2>Os Tipos de Mundos Encontrados</h2>
+      <ul>
+        <li><strong>Jupiters quentes:</strong> gigantes gasosos orbitando muito perto de suas estrelas</li>
+        <li><strong>Super-Terras:</strong> rochosos, maiores que a Terra mas menores que Netuno</li>
+        <li><strong>Mini-Netunos:</strong> com atmosferas espessas de gás</li>
+        <li><strong>Planetas terrestres:</strong> similares em tamanho à Terra, os alvos mais promissores</li>
+      </ul>
+
+      <h2>O Que é a Zona Habitável?</h2>
+      <p>A zona habitável é a faixa de distância em que um planeta pode manter água líquida na superfície — nem tão perto que a água evapore, nem tão longe que congele. É um filtro inicial, não uma garantia: Vênus e Marte estão nas bordas da zona habitável do Sol e são inóspitos. A atmosfera, o campo magnético e a atividade geológica importam tanto quanto a distância.</p>
+
+      <h2>Estudando Atmosferas a Anos-luz de Distância</h2>
+      <p>Quando um exoplaneta transita sua estrela, uma fração mínima da luz atravessa a atmosfera dele. Ao decompor essa luz em espectro, cientistas identificam moléculas como vapor de água, metano e dióxido de carbono. O <a href="/espaco/telescopio-espacial-james-webb">Telescópio James Webb</a> foi o primeiro a conseguir esse tipo de análise com detalhe em planetas rochosos de tamanho terrestre, como os do sistema TRAPPIST-1.</p>
+
+      <h2>Biassinaturas: Sinais de Vida?</h2>
+      <p>O grande objetivo é encontrar gases que, na Terra, são produzidos por organismos vivos — como oxigênio e metano em equilíbrio. Nenhuma detecção desse tipo foi confirmada até hoje, e a ciência é deliberadamente cautelosa: composições incomuns podem ter origens geológicas. A busca segue com instrumentos cada vez mais sensíveis.</p>
+
+      <h2>Conclusão</h2>
+      <p>Em três décadas, passamos de "será que existem?" para um catálogo de milhares de mundos com atmosferas sendo lidas espectro a espectro. A resposta à pergunta mais antiga da humanidade — estamos sozinhos? — pode vir justamente daí, do estudo paciente dos <a href="/espaco/como-buracos-negros-funcionam">extremos do cosmos</a>.</p>
+    `,
+    category: {
+      id: 'espaco',
+      slug: 'espaco',
+      name: 'Espaço',
+      description: 'Astronomia, NASA, planetas, estrelas e missões espaciais',
+      color: '#f59e0b'
+    },
+    tags: ['exoplanetas', 'astronomia', 'zona habitável', 'vida extraterrestre', 'universo'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-21',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
+    imageAlt: 'Representação artística de um exoplaneta orbitando uma estrela distante no espaço',
+    sources: [
+      {
+        title: 'NASA Exoplanet Exploration',
+        url: 'https://science.nasa.gov/exoplanets/',
+        type: 'agency'
+      },
+      {
+        title: 'NASA Exoplanet Archive',
+        url: 'https://exoplanetarchive.ipac.caltech.edu/',
+        type: 'agency'
+      },
+      {
+        title: 'ESO - Exoplanets',
+        url: 'https://www.eso.org/public/exoplanets/',
+        type: 'agency'
+      }
+    ]
+  },
+  {
+    id: '18',
+    slug: 'missoes-artemis',
+    title: 'Missões Artemis: O Caminho de Volta à Lua e Além',
+    excerpt: 'Meio século após a Apollo, a humanidade se prepara para voltar à Lua. Entenda o programa Artemis, suas etapas e por que a Lua é trampolim para Marte.',
+    content: `
+      <h2>Por Que Voltar à Lua?</h2>
+      <p>O programa Artemis da NASA tem como objetivo levar humanos de volta à superfície lunar pela primeira vez desde a missão Apollo 17, em 1972. Mas, diferente da corrida espacial do século XX, o objetivo não é só visitar: é <strong>permanecer</strong>. A ideia é construir infraestrutura duradoura que sirva de base para missões cada vez mais distantes.</p>
+
+      <h2>As Etapas do Programa</h2>
+      <ul>
+        <li><strong>Artemis I (2022):</strong> voo de teste não tripulado da nave Orion ao redor da Lua, validando sistemas de vida e reentrada atmosférica</li>
+        <li><strong>Artemis II:</strong> primeira missão tripulada, com orbita lunar — quatro astronautas contornarão a Lua e voltarão à Terra</li>
+        <li><strong>Artemis III:</strong> o pouso tripulado, previsto para levar a primeira mulher e a primeira pessoa negra à superfície lunar, na região do polo sul</li>
+      </ul>
+
+      <h2>O Foguete SLS e a Nave Orion</h2>
+      <p>O Space Launch System (SLS) é um dos foguetes mais potentes já construídos, capaz de enviar mais de 27 toneladas em direção à Lua em uma única missão. A bordo, a nave Orion é projetada para viagens de longa duração com tripulação, com escudo térmico reforçado para suportar velocidades de reentry maiores que as das missões em órbita terrestre baixa.</p>
+
+      <h2>Por Que o Polo Sul da Lua?</h2>
+      <p>A região do polo sul lunar abriga crateras permanentemente sombreadas onde existe <strong>gelo de água</strong>. Esse recurso é estratégico: pode ser convertido em água potável, oxigênio para respirar e até combustível para foguetes. Quem domina a água lunar doma o custo de operar além da Terra.</p>
+
+      <h2>A Estação Espacial Lunar Gateway</h2>
+      <p>Em paralelo, parceiros internacionais trabalham na Gateway, uma pequena estação espacial que orbitará a Lua. Ela servirá de plataforma de transferência entre a Terra e a superfície, além de laboratório em ambiente de microgravidade profunda.</p>
+
+      <h3>Parceiros e Economia Espacial</h3>
+      <p>O Artemis conta com contribuições da ESA, JAXA, CSA e de empresas privadas, incluindo as naves de pouso contratadas pelo programa CLPS. Esse modelo de parceria reduz custos e acelera o ritmo das missões.</p>
+
+      <h2>Da Lua para Marte</h2>
+      <p>A Lua funciona como ensaio geral para o <a href="/espaco/exoplanetas-a-busca-por-mundos-habitaveis">objetivo final: Marte</a>. Tecnologias de sobrevivência, geração de recursos locais e operações de longa duração em ambiente hostil serão validadas a apenas três dias de viagem da Terra, antes de serem levadas para um destino de meses de distância.</p>
+
+      <h2>Conclusão</h2>
+      <p>O programa Artemis representa uma mudança de mentalidade: da visita única para a presença contínua. Se as próximas etapas se confirmarem, veremos, ainda nesta década, humanos caminhando novamente no solo lunar — desta vez para ficar e preparar o <a href="/espaco/telescopio-espacial-james-webb">próximo salto</a> ao sistema solar profundo.</p>
+    `,
+    category: {
+      id: 'espaco',
+      slug: 'espaco',
+      name: 'Espaço',
+      description: 'Astronomia, NASA, planetas, estrelas e missões espaciais',
+      color: '#f59e0b'
+    },
+    tags: ['artemis', 'lua', 'nasa', 'exploração espacial', 'marte'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-22',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=800&q=80',
+    imageAlt: 'Foguete em lançamento rumo ao espaço com destroços de nuvens de fumaça',
+    sources: [
+      {
+        title: 'NASA - Artemis Program',
+        url: 'https://www.nasa.gov/artemis/',
+        type: 'agency'
+      },
+      {
+        title: 'ESA - Orion European Service Module',
+        url: 'https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion',
+        type: 'agency'
+      },
+      {
+        title: 'NASA - Lunar Exploration',
+        url: 'https://science.nasa.gov/moon/',
+        type: 'agency'
+      }
+    ]
+  },
+  {
+    id: '19',
+    slug: 'microbioma-intestinal',
+    title: 'Microbioma Intestinal: O Universo de Bactérias que Moram em Você',
+    excerpt: 'Trilhões de microrganismos vivem no seu intestino e influenciam digestão, imunidade e até humor. Descubra o que a ciência já sabe sobre o microbioma.',
+    content: `
+      <h2>O Que é o Microbioma?</h2>
+      <p>O microbioma intestinal é o conjunto de trilhões de microrganismos — bactérias, fungos, vírus e arqueias — que vivem no nosso trato digestivo. Só de bactérias são cerca de 38 trilhões de células, número comparável ao das nossas próprias células. Juntas, elas pesam aproximadamente 1 a 2 kg e carregam centenas de vezes mais genes do que o genoma humano.</p>
+
+      <h2>Não São Invasoras: São Parceiras</h2>
+      <p>Longe de serem invasores, esses microrganismos fazem parte do nosso funcionamento. Entre suas funções:</p>
+      <ul>
+        <li><strong>Digestão:</strong> decompõem fibras que o corpo humano não consegue digerir sozinho, produzindo ácidos graxos de cadeia curta que nutrem as células do intestino</li>
+        <li><strong>Imunidade:</strong> "treinam" o sistema imunológico e ajudam a diferenciar aliados de ameaças — grande parte das células imunológicas do corpo vive no intestino</li>
+        <li><strong>Vitaminas:</strong> participam da produção de vitamina K e algumas do complexo B</li>
+        <li><strong>Proteção:</strong> ocupam espaço e recursos, dificultando a proliferação de patógenos</li>
+      </ul>
+
+      <h2>O Eixo Intestino-Cérebro</h2>
+      <p>Uma das descobertas mais surpreendentes das últimas décadas é a comunicação constante entre intestino e cérebro, feita pelo nervo vago, por hormônios e por moléculas imunológicas. Estudos em animais e pesquisas preliminares em humanos associam a composição do microbioma a <a href="/ciencia/por-que-humanos-sonham">processos cerebrais</a>, sono, estresse e humor. A área é promissora, mas ainda em fase inicial: nenhuma "bactéria do bom humor" isolada foi comprovada para uso clínico amplo.</p>
+
+      <h2>O Que Molda Seu Microbioma?</h2>
+      <ul>
+        <li><strong>Dieta:</strong> o fator mais poderoso — mais fibras e variedade de vegetais alimentam uma diversidade maior de bactérias</li>
+        <li><strong>Nascimento e infância:</strong> parto vaginal e amamentação semeiam as primeiras colônias</li>
+        <li><strong>Antibióticos:</strong> funcionam contra infecções, mas também reduzem bactérias benéficas, e a recuperação pode levar meses</li>
+        <li><strong>Estilo de vida:</strong> exercício, sono, contato com natureza e até ter animais de estimação influenciam a composição</li>
+      </ul>
+
+      <h2>Probióticos e Prebióticos: O Que Funciona?</h2>
+      <p>Probióticos são microrganismos vivos presentes em iogurtes, kefir e suplementos; prebióticos são fibras que servem de alimento para as bactérias boas. A evidência mais sólida ainda aponta para a mudança de dieta completa — mais fibras e mais variedade — do que para suplementos isolados. Efeito de probiótico específico varia de pessoa para pessoa, porque cada microbioma é único.</p>
+
+      <h2>Transplante de Fezes: Uma Terapia Real</h2>
+      <p>Pode parecer estranho, mas o transplante de microbiota fecal (TMF) é um tratamento aprovado para infecções recorrentes por <em>Clostridioides difficile</em>, uma bactéria resistente a antibióticos. Ao transferir microbioma de um doador saudável, reequilibra-se a flora do paciente — com taxas de sucesso altas. Pesquisas avaliam seu uso em outras condições, mas com cautela.</p>
+
+      <h2>Conclusão</h2>
+      <p>O microbioma intestinal transformou a forma de entender a saúde humana: deixamos de ver o corpo como um organismo isolado e passamos a vê-lo como um ecossistema. Cuidar das bactérias que vivem em nós — com dieta rica e variada, uso criterioso de antibióticos e hábitos saudáveis — é cuidar de nós mesmos, numa conexão que vai da <a href="/curiosidades/curiosidades-do-corpo-humano">biologia do corpo</a> à medicina do futuro.</p>
+    `,
+    category: {
+      id: 'ciencia',
+      slug: 'ciencia',
+      name: 'Ciência',
+      description: 'Biologia, física, química, neurociência e descobertas científicas',
+      color: '#8b5cf6'
+    },
+    tags: ['microbioma', 'bactérias', 'saúde', 'intestino', 'biologia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-23',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80',
+    imageAlt: 'Microscope image of bacteria in laboratory research',
+    sources: [
+      {
+        title: 'NIH - Human Microbiome Project',
+        url: 'https://www.hmpdacc.org/',
+        type: 'agency'
+      },
+      {
+        title: 'Nature Reviews Microbiology',
+        url: 'https://www.nature.com/nrmicro/',
+        type: 'journal'
+      },
+      {
+        title: 'Harvard T.H. Chan School - The Microbiome',
+        url: 'https://www.hsph.harvard.edu/nutritionsource/microbiome/',
+        type: 'university'
+      }
+    ]
+  },
+  {
+    id: '20',
+    slug: 'particulas-subatomicas-cern',
+    title: 'Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos',
+    excerpt: 'Quarks, léptons e bósons: entenda do que a matéria é feita e como o LHC do CERN recria condições do universo primitivo para desvendá-las.',
+    content: `
+      <h2>Do Que Tudo é Feito?</h2>
+      <p>Se você dividir qualquer objeto em pedaços cada vez menores, chega a átomos. Divida mais, encontra prótons, nêutrons e elétrons. E se continuar dividindo? Chegamos às partículas fundamentais — aquelas que, até onde a ciência sabe hoje, não têm partes menores. Entender essas peças é o objetivo da física de partículas.</p>
+
+      <h2>O Modelo Padrão: A Tabela Periódica do Minúsculo</h2>
+      <p>O Modelo Padrão é a teoria que descreve as partículas fundamentais e três das quatro forças fundamentais. Ele organiza a matéria em duas grandes famílias:</p>
+      <ul>
+        <li><strong>Quarks:</strong> se combinam em trio para formar prótons e nêutrons. Nunca foram observados isolados — um fenômeno chamado confinamento</li>
+        <li><strong>Léptons:</strong> incluem o elétron e os neutrinos, partículas quase sem massa que atravessam seu corpo aos bilhões por segundo</li>
+      </ul>
+      <p>A essas famílias somam-se as partículas mensageiras das forças: fótons (eletromagnetismo), glúons (força nuclear forte) e bósons W e Z (força nuclear fraca).</p>
+
+      <h2>O Bóson de Higgs: A Partícula que Dá Massa</h2>
+      <p>Em 2012, o CERN anunciou a descoberta do bóson de Higgs, a última peça prevista pelo Modelo Padrão. Ele está ligado ao campo de Higgs, que preenche o universo: partículas que interagem com esse campo "sentem" massa, como quem atravessa uma piscina cheia. Sem esse mecanismo, átomos não existiriam como conhecemos.</p>
+
+      <h2>Como o LHC Funciona?</h2>
+      <p>O Large Hadron Collider (LHC) é um acelerador de 27 km de circunferência, enterrado a cerca de 100 metros sob a fronteira França-Suíça. Ele acelera prótons a 99,9999991% da velocidade da luz em dois feixes que circulam em sentidos opostos, até colidi-los de frente dentro de detectores gigantescos como ATLAS e CMS.</p>
+
+      <h3>Detector é Nome Grande para Máquina Maior Ainda</h3>
+      <p>Os detectores do LHC têm tamanho de catedrais e funcionam como câmeras em ultra-slow-motion de 40 milhões de fotos por segundo. Cada colisão gera um chuveiro de partículas, e computadores filtram em tempo real os eventos mais interessantes para armazenamento.</p>
+
+      <h2>Recriando o Universo Primitivo</h2>
+      <p>Colisões de alta energia reproduzem condições semelhantes às de frações de segundo após o Big Bang. Foi assim que cientistas estudaram o plasma de quarks e glúons, estado da matéria que existiu quando o universo tinha microssegundos de idade. Cada novo patamar de energia é uma janela para <a href="/espaco/como-buracos-negros-funcionam">fenômenos cósmicos</a> em escala de laboratório.</p>
+
+      <h2>Os Limites do Modelo Padrão</h2>
+      <p>Por mais bem-sucedido que seja, o Modelo Padrão não explica tudo: não inclui a gravidade descrita pela relatividade geral, não dá conta da <a href="/espaco/telescopio-espacial-james-webb">matéria escura</a> e da energia escura, e deixa perguntas abertas sobre a assimetria entre matéria e antimatéria. O experimento poderia confirmar a existência de uma quinta força ou partículas ainda desconhecidas a qualquer momento.</p>
+
+      <h2>Conclusão</h2>
+      <p>O estudo das partículas subatômicas é a busca pelo código-fonte da realidade. A cada colisão no CERN, físicos testam os limites do que sabemos sobre a matéria — um trabalho que já rendeu dezenas de Prêmios Nobel e segue gerando tecnologias inesperadas, como a www que nasceu no laboratório e as técnicas de imagem médica derivadas de detectores de partículas.</p>
+    `,
+    category: {
+      id: 'ciencia',
+      slug: 'ciencia',
+      name: 'Ciência',
+      description: 'Biologia, física, química, neurociência e descobertas científicas',
+      color: '#8b5cf6'
+    },
+    tags: ['física de partículas', 'cern', 'lhc', 'bóson de higgs', 'física'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-24',
+    readingTime: 8,
+    featuredImage: 'https://images.unsplash.com/photo-1451188502541-13943edb6acb?w=800&q=80',
+    imageAlt: 'Detector de partículas do CERN com estrutura circular metálica complexa',
+    sources: [
+      {
+        title: 'CERN - The Large Hadron Collider',
+        url: 'https://home.cern/science/accelerators/large-hadron-collider',
+        type: 'agency'
+      },
+      {
+        title: 'CERN - The Standard Model',
+        url: 'https://home.cern/science/physics/standard-model',
+        type: 'agency'
+      },
+      {
+        title: 'Energy.gov - Particle Physics',
+        url: 'https://www.energy.gov/science/doe-explainsparticles-and-particle-physics',
+        type: 'agency'
+      }
+    ]
+  },
+  {
+    id: '21',
+    slug: 'algoritmos-de-busca',
+    title: 'Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta',
+    excerpt: 'Você digita uma pergunta e recebe milhões de resultados em milésimos de segundo. Entenda como mecanismos de busca rastreiam, indexam e rankeiam a web.',
+    content: `
+      <h2>Três Etapas: Rastrear, Indexar, Rankear</h2>
+      <p>Todo mecanismo de busca funciona em três camadas. Primeiro, <strong>robôs de rastreamento</strong> (crawlers) percorrem a web seguindo links e descobrindo páginas novas. Depois, o conteúdo é analisado e guardado no <strong>índice</strong>, uma estrutura de dados gigantesca que funciona como o sumário reverso de toda a web. Por fim, quando você busca algo, o <strong>algoritmo de ranking</strong> decide quais páginas do índice respondem melhor à sua consulta — tudo em menos de um segundo.</p>
+
+      <h2>O Índice Invertido: A Ideia Genial</h2>
+      <p>A peça-chave da busca moderna é o índice invertido. Em vez de procurar texto em milhões de páginas a cada consulta, o sistema mapeia cada palavra para a lista de páginas que a contêm. É como se cada palavra tivesse sua própria lista telefônica de documentos. Isso transforma uma busca lenta em uma consulta quase instantânea.</p>
+
+      <h2>Como o Ranking Decide a Ordem?</h2>
+      <p>Os sistemas de rankeamento avaliam centenas de sinais. Os principais grupos:</p>
+      <ul>
+        <li><strong>Relevância:</strong> o quanto o conteúdo corresponde à intenção da busca, incluindo sinônimos e contexto</li>
+        <li><strong>Autoridade:</strong> links de outros sites funcionam como votos de confiança — a base do histórico PageRank</li>
+        <li><strong>Qualidade e frescor:</strong> conteúdo útil, completo e atualizado tende a pontuar mais</li>
+        <li><strong>Experiência da página:</strong> velocidade, adaptação a celular e segurança (HTTPS)</li>
+        <li><strong>Localização:</strong> buscas com intenção local priorizam resultados geograficamente próximos</li>
+      </ul>
+
+      <h2>A Era da Busca Semântica</h2>
+      <p>Antigamente, buscadores casavam palavras literalmente. Hoje, modelos de linguagem entendem que "remédio para dor de cabeça" e "o que tomar para enxaqueca" têm a mesma intenção. Técnicas de <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">aprendizado de máquina</a> representam palavras e frases como vetores numéricos, permitindo comparar significados, não apenas letras.</p>
+
+      <h3>RankBrain, BERT e Modelos de Linguagem</h3>
+      <p>Há anos os buscadores usam redes neurais para interpretar consultas ambíguas e trechos de texto. Esses sistemas aprendem com bilhões de interações, refinando continuamente a compreensão de linguagem natural — inclusive perguntas faladas.</p>
+
+      <h2>O Lado de Quem Publica: SEO</h2>
+      <p>Para quem cria conteúdo, otimizar para buscadores (SEO) significa tornar páginas fáceis de rastrear e claramente úteis: títulos descritivos, estrutura com subtítulos, carregamento rápido, <a href="/tecnologia/ciberseguranca-para-iniciantes">endereços seguros</a> e links internos coerentes. Um sitemap em XML, por exemplo, avisa ao buscador quais páginas existem — assim como o robots.txt define o que pode ou não ser rastreado.</p>
+
+      <h2>Limitações e Vieses</h2>
+      <ul>
+        <li><strong>Câmera de eco:</strong> personalização pode reforçar visões que a pessoa já tem</li>
+        <li><strong>Manipulação:</strong> técnicas de spam tentam enganar o ranking, e os buscadores respondem com atualizações constantes</li>
+        <li><strong>Respostas diretas:</strong> ao exibir a resposta na própria página de resultados, o tráfego para sites de origem pode diminuir</li>
+      </ul>
+
+      <h2>Conclusão</h2>
+      <p>Algoritmos de busca são uma das infraestruturas invisíveis mais importantes da internet: rastreiam bilhões de páginas, interpretam linguagem humana e entregam respostas em milissegundos. Entender como funcionam ajuda tanto a encontrar melhor quanto a publicar conteúdo que realmente merece ser encontrado.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['algoritmos', 'mecanismos de busca', 'seo', 'google', 'indexação'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-25',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+    imageAlt: 'Notebook exibindo resultados de busca com gráficos de dados ao fundo',
+    sources: [
+      {
+        title: 'Google Search Central - How Search Works',
+        url: 'https://developers.google.com/search/docs/fundamentals/how-search-works',
+        type: 'company'
+      },
+      {
+        title: 'Stanford - The PageRank Citation Ranking',
+        url: 'https://ilpubs.stanford.edu/422/',
+        type: 'university'
+      },
+      {
+        title: 'Bing Webmaster Tools',
+        url: 'https://www.bing.com/webmasters/about',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '22',
+    slug: 'realidade-virtual-vs-aumentada',
+    title: 'Realidade Virtual vs Aumentada: Qual é a Diferença?',
+    excerpt: 'VR imerge, RA sobrepõe. Entenda como cada tecnologia funciona, onde já são usadas hoje e para onde caminham com os óculos mistos.',
+    content: `
+      <h2>Duas Tecnologias, Duas Filosofias</h2>
+      <p>A realidade virtual (VR) <strong>substitui</strong> o que você vê: os óculos bloqueiam o mundo real e exibem um ambiente 100% digital. A realidade aumentada (AR) <strong>soma</strong> camadas digitais ao mundo real, mantendo-o visível. Se a VR isola, a RA informa. Entre os dois extremos existe ainda a realidade mista (MR), que combina os dois mundos — objetos virtuais que interagem com o ambiente físico.</p>
+
+      <h2>Como a VR Funciona</h2>
+      <p>Um headset de VR usa duas telas pequenas (uma por olho) que exibem imagens levemente deslocadas, criando sensação de profundidade estereoscópica. Sensores de movimento acompanham a rotação e a posição da cabeça, e o sistema re-renderiza a cena em tempo real para manter a ilusão. Para funcionar sem enjoos, o rastreamento precisa ser rápido — idealmente 90 frames por segundo ou mais — e o movimento virtual deve corresponder ao real.</p>
+
+      <h3>Por Que Algumas Pessoas Sentem Enjoo?</h3>
+      <p>O chamado "cybersickness" surge quando olhos e corpo discordam: você vê movimento, mas o labirinto do ouvido interno não registra. Reduzir latência, elevar o framerate e oferecer pontos de referência estáveis na cena diminuem o problema.</p>
+
+      <h2>Como a AR Funciona</h2>
+      <p>AR começa por uma câmera que captura o mundo e um software que entende o ambiente: detecta planos (chão, mesas), superfícies e, com mais precisão, até profundidade via sensores de tempo de voo ou LiDAR. Sobre essa leitura, o sistema ancora elementos virtuais fixos no espaço. É assim que móveis virtuais "ficam de pé" no seu quarto ou legendas acompanham peças de maquinário.</p>
+
+      <h2>Onde Cada uma Brilha Hoje</h2>
+      <ul>
+        <li><strong>VR:</strong> jogos imersivos, treinamento de pilotos e cirurgiões, terapia de fobias, encontros sociais virtuais</li>
+        <li><strong>AR:</strong> filtros de redes sociais, visualização de móveis, instruções de montagem sobrepostas, navegação em aeroportos e jogos como Pokémon GO</li>
+        <li><strong>MR:</strong> design colaborativo em escala real, simulações industriais e visualização médica</li>
+      </ul>
+
+      <h2>Os Desafios de Cada Uma</h2>
+      <ul>
+        <li><strong>VR:</strong> peso e calor dos headsets, preço, necessidade de espaço livre e conteúdo ainda restrito a nichos</li>
+        <li><strong>AR:</strong> brilho limitado ao ar livre, campo de visão estreito nos óculos atuais e desafios de bateria</li>
+        <li><strong>Ambas:</strong> privacidade — mapear ambientes levanta questões sobre <a href="/tecnologia/ciberseguranca-para-iniciantes">dados e segurança</a> de imagens capturadas dentro de casa</li>
+      </ul>
+
+      <h2>VR e AR nos Games</h2>
+      <p>A indústria de jogos foi a primeira a levar ambas ao grande público. Headsets autônomos dispensaram computador e cabos, e títulos de sucesso mostraram que a imersão vende. Do lado técnico, a demanda por gráficos em tempo real impulsionou o <a href="/games/evolucao-dos-motores-graficos">desenvolvimento dos motores gráficos</a>, que hoje alimentam também simulações profissionais.</p>
+
+      <h2>Conclusão</h2>
+      <p>VR e AR não competem: resolvem problemas diferentes. A VR substitui o mundo quando você quer imersão total; a RA enriquece o mundo quando você quer informação no lugar certo. Com os óculos mistos convergindo as duas tecnologias, a tendência é que a fronteira entre real e virtual fique cada vez mais <a href="/futuro/computacao-vestivel">vestível</a> — literalmente.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['realidade virtual', 'realidade aumentada', 'vr', 'ar', 'metaverso'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-26',
+    readingTime: 6,
+    featuredImage: 'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&q=80',
+    imageAlt: 'Pessoa usando headset de realidade virtual com luzes neon ao fundo',
+    sources: [
+      {
+        title: 'Meta Quest - How VR Works',
+        url: 'https://www.meta.com/quest/',
+        type: 'company'
+      },
+      {
+        title: 'Apple - ARKit Developer Documentation',
+        url: 'https://developer.apple.com/augmented-reality/arkit/',
+        type: 'company'
+      },
+      {
+        title: 'IEEE - Virtual and Augmented Reality',
+        url: 'https://spectrum.ieee.org/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '23',
+    slug: 'aprendizado-de-maquina-explicado',
+    title: 'Aprendizado de Máquina Explicado: Como Computadores Aprendem',
+    excerpt: 'Sem regras programadas à mão, máquinas aprendem padrões a partir de exemplos. Entenda os três tipos de aprendizado e como funcionam na prática.',
+    content: `
+      <h2>Programar Sem Programar Cada Regra</h2>
+      <p>Na programação tradicional, o humano escreve todas as regras: "se o e-mail contém X, marque como spam". No aprendizado de máquina (machine learning), a lógica inverte: mostramos milhares de exemplos de e-mails marcados como spam ou não, e o algoritmo <strong>descobre sozinho</strong> os padrões que separam os dois grupos. O resultado é um modelo — uma função matemática ajustada pelos dados.</p>
+
+      <h2>Os Três Tipos de Aprendizado</h2>
+      <ul>
+        <li><strong>Supervisionado:</strong> os dados vêm com rótulos ("esta foto é um gato"). É o método por trás de reconhecimento de imagens, previsão de preços e diagnóstico assistido — como na <a href="/inteligencia-artificial/inteligencia-artificial-na-medicina">IA na medicina</a></li>
+        <li><strong>Não supervisionado:</strong> os dados não têm rótulos, e o algoritmo busca estruturas escondidas, como agrupar clientes com comportamento parecido</li>
+        <li><strong>Por reforço:</strong> um agente tenta, erra e aprende com recompensas — técnica usada para ensinar IA a jogar, controlar robôs e otimizar modelos de linguagem</li>
+      </ul>
+
+      <h2>Como o Treinamento Funciona na Prática</h2>
+      <p>Treinar um modelo é um processo de ajuste por tentativa e erro guiado por matemática. Em redes neurais, o fluxo é:</p>
+      <ul>
+        <li>O modelo recebe um exemplo e faz uma previsão</li>
+        <li>Uma função de erro mede a distância entre a previsão e a resposta correta</li>
+        <li>O algoritmo de retropropagação (backpropagation) calcula quanto cada conexão contribuiu para o erro</li>
+        <li>Os pesos das conexões são ajustados um pouquinho, e o ciclo se repete milhões de vezes</li>
+      </ul>
+      <p>Com dados e computação suficientes, esse processo simples, repetido em escala, produz modelos capazes de traduzir idiomas, gerar imagens e conversar.</p>
+
+      <h2>Treino, Validação e Teste</h2>
+      <p>Para saber se um modelo aprendeu de verdade, os dados são divididos: uma parte treina, outra valida ajustes e uma terceira — nunca vista durante o treino — testa o desempenho final. Esse cuidado evita o principal perigo da área: o <strong>overfitting</strong>, quando o modelo "decora" os exemplos de treino em vez de generalizar, e se sai mal com dados novos.</p>
+
+      <h3>Baselines e Métricas</h3>
+      <p>Nem tudo é acurácia. Em problemas desbalanceados (como detectar fraudes raras), métricas como precisão, recall e a curva ROC contam a história real. Comparar sempre com um baseline simples evita celebrar modelos que não agregam valor.</p>
+
+      <h2>Para Onde Vai a IA a Partir Daqui</h2>
+      <p>O aprendizado de máquina é o motor da <a href="/inteligencia-artificial/inteligencia-artificial-generativa">IA generativa</a>: modelos de linguagem são, essencialmente, máquinas de previsão treinadas com volumes gigantescos de texto. As próximas fronteiras envolvem modelos menores e mais eficientes, aprendizado com menos dados e sistemas mais <a href="/inteligencia-artificial/etica-e-vieses-da-ia">transparentes e justos</a>.</p>
+
+      <h2>Conclusão</h2>
+      <p>Aprendizado de máquina não é mágica: é estatística, otimização e muitos dados trabalhando juntos. Entender seus fundamentos — exemplos rotulados, funções de erro e validação honesta — é a melhor defesa tanto para criar boas soluções quanto para avaliar criticamente as promessas que cercam a inteligência artificial.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['machine learning', 'aprendizado de máquina', 'redes neurais', 'ia', 'algoritmos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-27',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80',
+    imageAlt: 'Representação visual de rede neural artificial com conexões luminosas',
+    sources: [
+      {
+        title: 'Google - Machine Learning Crash Course',
+        url: 'https://developers.google.com/machine-learning/crash-course',
+        type: 'company'
+      },
+      {
+        title: 'MIT - Introduction to Machine Learning',
+        url: 'https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/',
+        type: 'university'
+      },
+      {
+        title: 'Nature - Machine Learning',
+        url: 'https://www.nature.com/subjects/machine-learning',
+        type: 'journal'
+      }
+    ]
+  },
+  {
+    id: '24',
+    slug: 'etica-e-vieses-da-ia',
+    title: 'Ética e Vieses da IA: Quando o Algoritmo Herda Nossos Preconceitos',
+    excerpt: 'Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa.',
+    content: `
+      <h2>IA Neutra? Não Existe</h2>
+      <p>Modelos de IA aprendem com dados criados por humanos — e dados humanos carregam desigualdades históricas. Quando um sistema de seleção de currículos treina com contratações do passado, ele pode aprender padrões discriminatórios e repeti-los em escala, com a aparência de neutralidade técnica. O viés não está na matemática, mas no material de estudo.</p>
+
+      <h2>De Onde Vêm os Vieses</h2>
+      <ul>
+        <li><strong>Viés de dados:</strong> amostras incompletas ou desbalanceadas — reconhecimento facial treinado majoritariamente com rostos de tom de pele claro erra mais com grupos sub-representados</li>
+        <li><strong>Viés de rótulo:</strong> as próprias etiquetas refletem julgamentos humanos, como avaliações de desempenho históricas</li>
+        <li><strong>Viés de proxy:</strong> o modelo usa variáveis neutras (CEP, por exemplo) que funcionam como substitutos de características protegidas</li>
+        <li><strong>Viés de feedback:</strong> o sistema reforça as próprias decisões — quem não é mostrado, não gera cliques, e a IA aprende que "não vale mostrar"</li>
+      </ul>
+
+      <h2>Casos que Viraram Alerta</h2>
+      <p>Diversos episódios documentados mostraram os riscos: ferramentas de recrutamento que penalizavam currículos de mulheres; sistemas de reconhecimento facial com taxas de erro muito maiores para mulheres de pele escura; algoritmos de saúde que subestimaram a gravidade de pacientes negros por usar gastos com saúde como proxy de necessidade médica. Nenhum desses sistemas "decidiu" discriminar — eles ampliaram padrões que já existiam.</p>
+
+      <h2>Transparência e Explicabilidade</h2>
+      <p>Modelos complexos funcionam como caixas que não mostram facilmente o raciocínio. A área de <strong>explicabilidade (XAI)</strong> busca responder: por que o modelo tomou essa decisão? Para decisões que afetam vidas — crédito, saúde, justiça —, saber o porquê é requisito de justiça e de contestação. Regulações recentes, como o AI Act europeu, começam a exigir transparência proporcional ao risco de cada aplicação.</p>
+
+      <h3>Quem é Responsável?</h3>
+      <p>Quando um sistema erra, a responsabilidade se distribui entre quem coletou os dados, quem treinou o modelo, quem o implantou e quem decidiu usá-lo. Estabelecer cadeias claras de responsabilidade é um dos maiores desafios de governança da tecnologia.</p>
+
+      <h2>Como Reduzir Vieses na Prática</h2>
+      <ul>
+        <li><strong>Auditar os dados:</strong> mapear representatividade antes de treinar</li>
+        <li><strong>Testar por grupos:</strong> medir desempenho separadamente para diferentes perfis, não só na média</li>
+        <li><strong>Diversificar equipes:</strong> times diversos identificam problemas que times homogêneos não percebem</li>
+        <li><strong>Manter humano no circuito:</strong> decisões de alto impacto devem ter revisão humana, como na <a href="/inteligencia-artificial/inteligencia-artificial-na-medicina">aplicação médica da IA</a></li>
+        <li><strong>Monitorar depois do lançamento:</strong> viés pode surgir com o tempo e com novos dados</li>
+      </ul>
+
+      <h2>O Papel de Cada Um</h2>
+      <p>Ética em IA não é tarefa só de engenheiros. Usuários podem questionar decisões automatizadas, exigir explicações e apoiar regulação. Entender como o <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">aprendizado de máquina funciona</a> é o primeiro passo para cobrar sistemas melhores — inclusive nos <a href="/tecnologia/algoritmos-de-busca">algoritmos que organizam a informação</a> que consumimos todos os dias.</p>
+
+      <h2>Conclusão</h2>
+      <p>A IA amplifica o que entra nela: o bom e o problemático. Vieses não são motivo para rejeitar a tecnologia, mas razão para construí-la com rigor — dados representativos, testes honestos, transparência e supervisão humana. Uma IA mais justa é um projeto contínuo, não um checkbox.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['ética na ia', 'vieses algorítmicos', 'justiça', 'responsabilidade', 'regulação'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-28',
+    readingTime: 8,
+    featuredImage: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80',
+    imageAlt: 'Balança da justiça ao lado de circuitos eletrônicos representando ética em inteligência artificial',
+    sources: [
+      {
+        title: 'UNESCO - Ethics of Artificial Intelligence',
+        url: 'https://www.unesco.org/en/artificial-intelligence/recommendation-ethics',
+        type: 'agency'
+      },
+      {
+        title: 'NIST - AI Risk Management Framework',
+        url: 'https://www.nist.gov/itl/ai-risk-management-framework',
+        type: 'agency'
+      },
+      {
+        title: 'EU - AI Act',
+        url: 'https://artificialintelligenceact.eu/',
+        type: 'other'
+      }
+    ]
+  },
+  {
+    id: '25',
+    slug: 'como-funciona-o-cgi',
+    title: 'Como Funciona o CGI: A Ciência Por Trás dos Efeitos Especiais',
+    excerpt: 'De dinossauros a planetas inteiros, o CGI constrói mundos no computador. Entenda modelagem 3D, texturização, iluminação e renderização em etapas.',
+    content: `
+      <h2>O Que é CGI?</h2>
+      <p>CGI (computer-generated imagery) é qualquer imagem criada por computador para o audiovisual. O momento que mudou a história foi Jurassic Park (1993), quando dinossauros digitais conviveram com atores de forma convincente pela primeira vez. Três décadas depois, a maior parte dos blockbusters carrega centenas de planos gerados ou complementados digitalmente.</p>
+
+      <h2>Etapa 1: Modelagem 3D</h2>
+      <p>Tudo começa com a modelagem: escultores digitais criam a geometria do personagem ou cenário — uma malha de polígonos que define a forma. Para criaturas orgânicas, artistas esculpem versões digitais como se fossem argila, e até scans 3D de atores servem de base para capturar anatomia realista.</p>
+
+      <h2>Etapa 2: Texturização e Rigging</h2>
+      <ul>
+        <li><strong>Texturas:</strong> pinturas digitais que definem cor, rugosidade, reflexo e relevo da superfície — pele, escamas, metal ou madeira</li>
+        <li><strong>Rigging:</strong> criação do "esqueleto" virtual, com juntas e controles que animadores usam para mover o personagem</li>
+        <li><strong>Expressões:</strong> sistemas de faciais capturam atuações reais e as transferem para o personagem digital</li>
+      </ul>
+
+      <h2>Etapa 3: Animação e Física</h2>
+      <p>Animadores dão vida, peso e intenção ao personagem — a física de como um corpo se move vende a ilusão. Elementos como água, fogo, fumaça e destruição são resolvidos por simulações que calculam partículas e fluidos seguindo leis físicas, quadro a quadro. É aqui que <a href="/filmes-series/ficcao-cientifica-x-ciencia-real">ciência real e ficção se encontram</a>: quanto mais fiel a física, mais crível a fantasia.</p>
+
+      <h2>Etapa 4: Iluminação e Renderização</h2>
+      <p>A iluminação virtual posiciona fontes de luz que interagem com os materiais da cena. O renderizador então calcula como cada raio de luz quica e reflete — um processo parecido com o <a href="/games/o-que-e-ray-tracing">ray tracing usado nos games</a>, mas com qualidade de quadro único que pode levar minutos ou horas por imagem em fazendas de renderização com milhares de processadores.</p>
+
+      <h3>Composição (Compositing)</h3>
+      <p>Na etapa final, elementos separados — atuação real, fundo digital, criaturas, partículas, correção de cor — são combinados em um único plano coerente. O objetivo do bom CGI é ser invisível: quando você não percebe que ele está lá, é porque funcionou.</p>
+
+      <h2>O Debate: CGI Prático x Digital</h2>
+      <p>Filmes como Mad Max: Fury Road, com suas acrobacias práticas, e O Senhor dos Anéis, com exércitos digitais criados pelo software de simulação Massive, mostraram o valor de combinar efeitos práticos com digitais. A regra de ouro da indústria: o CGI brilha quando ancora em algo real — miniaturas, figurinos, locações — e quando serve à história, não à vitrine técnica.</p>
+
+      <h2>Conclusão</h2>
+      <p>O CGI é a síntese de arte, matemática e engenharia: cada plano monumental nasce de geometria, ótica simulada e horas de processamento. E com <a href="/inteligencia-artificial/inteligencia-artificial-generativa">IA generativa</a> entrando no fluxo de produção, a próxima década promete reescrever de novo as regras do que é possível mostrar na tela.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['cgi', 'efeitos especiais', 'cinema', 'vfx', 'renderização'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-29',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80',
+    imageAlt: 'Estúdio de produção cinematográfica com telas verdes e equipamentos de filmagem',
+    sources: [
+      {
+        title: 'Autodesk - VFX and Animation Tools',
+        url: 'https://www.autodesk.com/',
+        type: 'company'
+      },
+      {
+        title: 'CGSociety - Computer Graphics Society',
+        url: 'https://cgsociety.org/',
+        type: 'publication'
+      },
+      {
+        title: 'ACM SIGGRAPH',
+        url: 'https://www.siggraph.org/',
+        type: 'university'
+      }
+    ]
+  },
+  {
+    id: '26',
+    slug: 'futuro-do-streaming',
+    title: 'O Futuro do Streaming: Onde a TV Por Assinatura Digital Está Indo',
+    excerpt: 'Preços sobem, catálogos mudam e novidades transformam o mercado. Entenda as tendências que vão definir a próxima década do streaming.',
+    content: `
+      <h2>Do Crescimento Explosivo à Maturidade</h2>
+      <p>A década de 2010 foi a era da expansão: catálogos enormes, preços baixos e assinaturas disparando. A década de 2020 inverteu o jogo — o mercado entrou em fase de maturidade, com menos pessoas dispostas a assinar mais um serviço. O novo desafio das plataformas é reter assinantes em um mercado saturado, e isso está mudando tudo: preço, catálogo e até a experiência.</p>
+
+      <h2>Tendência 1: O Fim do Preço Único</h2>
+      <ul>
+        <li><strong>Planos com anúncios:</strong> alternativas mais baratas financiadas por publicidade voltaram ao mercado e viraram opção padrão em grandes plataformas</li>
+        <li><strong>Restrição de compartilhamento:</strong> limites a senhas compartilhadas empurraram usuários para assinaturas individuais ou planos de casa</li>
+        <li><strong>Preço por nível:</strong> qualidade de imagem e downloads variam conforme o plano escolhido</li>
+      </ul>
+
+      <h2>Tendência 2: Fragmentação e Agregação</h2>
+      <p>Com dezenas de serviços concorrentes, o usuário se vê obrigado a escolher: assinar tudo custa mais que a TV a cabo da era anterior. A resposta do mercado é a <strong>agregação</strong> — pacotes combinando plataformas, vendidos por operadoras ou dentro dos próprios apps, funcionando como a "TV por assinatura da era digital".</p>
+
+      <h2>Tendência 3: Live e Eventos ao Vivo</h2>
+      <p>Esportes e eventos ao vivo viraram o novo campo de batalha: futebol, lutas e premiações chegam ao streaming com exclusividade. Conteúdo ao vivo é um dos últimos motivos fortes para assinar — e não dá para esperar no catálogo.</p>
+
+      <h2>Tendência 4: Conteúdo Local e Nicho</h2>
+      <p>Produções locais em idiomas locais faturam bilhões e comprovam que audiência global vem do específico. Nichos antes ignorados — documentários, comédia stand-up, animes — viraram linhas de negócio próprias, e plataformas verticais dedicadas a um único tema ganham espaço contra gigantes generalistas.</p>
+
+      <h2>Tendência 5: IA na Experiência</h2>
+      <p>Modelos de <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">aprendizado de máquina</a> já decidem thumbnails personalizados, recomendam títulos e otimizam a qualidade de vídeo conforme sua conexão. No futuro, dublagens e legendas geradas por <a href="/inteligencia-artificial/inteligencia-artificial-generativa">IA generativa</a> devem ampliar o alcance de produções locais — com debate aberto sobre direitos de atores e dubladores.</p>
+
+      <h2>Tendência 6: Interatividade e Novos Formatos</h2>
+      <p>Episódios com decisões do espectador, formatos verticais para celular e conteúdos curtos de minutos refletem mudanças de consumo. A fronteira entre plataforma de séries e rede social está cada vez mais tênue.</p>
+
+      <h2>Conclusão</h2>
+      <p>O streaming que venceu a TV a cabo agora enfrenta sua própria encruzilhada: custo de conteúdo alto, mercado saturado e consumidores mais exigentes. As plataformas que sobreviverão serão as que equilibrarem preço justo, catálogo enxuto e experiência que respeite o tempo — e o dinheiro — do assinante. Enquanto isso, os <a href="/filmes-series/como-funciona-o-cgi">efeitos digitais</a> e a produção continuam evoluindo atrás das câmeras.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['streaming', 'plataformas', 'entretenimento', 'conteúdo digital', 'séries'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-30',
+    readingTime: 6,
+    featuredImage: 'https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&q=80',
+    imageAlt: 'Controle remoto apontado para TV com streaming de conteúdo',
+    sources: [
+      {
+        title: 'Nielsen - Streaming Data',
+        url: 'https://www.nielsen.com/insights/',
+        type: 'publication'
+      },
+      {
+        title: 'Deloitte - Digital Media Trends',
+        url: 'https://www2.deloitte.com/us/en/insights/industry/technology/digital-media-trends.html',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '27',
+    slug: 'evolucao-dos-motores-graficos',
+    title: 'A Evolução dos Motores Gráficos: Dos Pixels ao Tempo Real Fotorrealista',
+    excerpt: 'Dos cubos coloridos aos mundos abertos realistas, a história dos motores gráficos é uma corrida contra os limites do hardware.',
+    content: `
+      <h2>O Que é um Motor Gráfico?</h2>
+      <p>O motor gráfico (game engine) é o software que transforma código e arte em imagens na tela, em tempo real. Ele cuida de renderização, física, iluminação, partículas e da comunicação com o hardware. É a fundação invisível de quase todo jogo moderno — e também de filmes, simulações e até <a href="/tecnologia/realidade-virtual-vs-aumentada">aplicações de realidade virtual</a>.</p>
+
+      <h2>A Era Pioneira: Software Puro</h2>
+      <p>Nos anos 1990, cada estúdio escrevia seu próprio renderizador do zero. Doom (1993) e Quake (1996), da id Software, foram marcos: o motor de Quake introduziu iluminação dinâmica e geometria 3D real, e a ideia de licenciar o motor para outros estúdios criou a indústria de engines que existe até hoje.</p>
+
+      <h2>Unreal e Unity Democratizam o Desenvolvimento</h2>
+      <ul>
+        <li><strong>Unreal Engine (1998):</strong> nasceu com o jogo de mesmo nome e evoluiu para uma das engines mais usadas do mundo, com licenciamento acessível e ferramentas visuais poderosas</li>
+        <li><strong>Unity (2005):</strong> apostou na facilidade e no suporte a dezenas de plataformas — do celular ao console —, abrindo o mercado para estúdios independentes</li>
+      </ul>
+      <p>Com essas ferramentas, equipes pequenas passaram a produzir jogos que antes exigiam dezenas de engenheiros especializados em programação gráfica.</p>
+
+      <h2>As Gerações Visuais</h2>
+      <ul>
+        <li><strong>Anos 2000:</strong> shaders programáveis permitiram água, cabelo e materiais críveis; normal maps trouxeram detalhes sem pesar a geometria</li>
+        <li><strong>Anos 2010:</strong> PBR (renderização baseada em física) padronizou como materiais reagem à luz, e o mundo aberto virou padrão da indústria AAA</li>
+        <li><strong>A era da luz global:</strong> técnicas como path tracing em tempo real e iluminação global dinâmica aproximaram o visual dos jogos das renderizações cinematográficas</li>
+      </ul>
+
+      <h2>Ray Tracing e o Salto Atual</h2>
+      <p>A chegada do <a href="/games/o-que-e-ray-tracing">ray tracing acelerado por hardware</a> em 2018 marcou a maior virada em duas décadas: sombras, reflexos e iluminação calculados por simulação física de raios de luz, não por truques. Com upscaling inteligente (DLSS e equivalentes), o custo do realismo caiu a ponto de caber em consoles domésticos.</p>
+
+      <h3>Nanite e geometria infinita</h3>
+      <p>Avanços recentes de engines como a Unreal Engine 5 introduziram sistemas de geometria que transmitem bilhões de polígonos de forma inteligente, eliminando o gargalo clássico de contagem de triângulos e permitindo detalhes de escala cinematográfica direto no editor.</p>
+
+      <h2>Motores Além dos Games</h2>
+      <p>Filmes usam engines para pré-visualização e sets virtuais com telas LED gigantes; arquitetura, automóveis e medicina treinam e projetam em ambientes 3D em tempo real. A fronteira entre renderização para jogos e para cinema praticamente desapareceu — e o <a href="/games/inteligencia-artificial-nos-games">papel da IA nos games</a> cresce junto, gerando texturas, animações e até diálogos.</p>
+
+      <h2>Conclusão</h2>
+      <p>De renderizadores escritos à mão a plataformas completas com IA embarcada, os motores gráficos evoluíram de ferramenta técnica para infraestrutura criativa universal. Cada geração de hardware novo é seguida, meses depois, por jogos que parecem impossíveis — e a curva não dá sinais de desaceleração.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['motores gráficos', 'game engines', 'unreal engine', 'unity', 'renderização'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-01-31',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80',
+    imageAlt: 'Setup de desenvolvimento de jogos com telas mostrando editores 3D',
+    sources: [
+      {
+        title: 'Unreal Engine - Official Site',
+        url: 'https://www.unrealengine.com/',
+        type: 'company'
+      },
+      {
+        title: 'Unity - Real-Time Development Platform',
+        url: 'https://unity.com/',
+        type: 'company'
+      },
+      {
+        title: 'NVIDIA - Developer Graphics',
+        url: 'https://developer.nvidia.com/',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '28',
+    slug: 'cloud-gaming',
+    title: 'Cloud Gaming: Jogar Sem Console, Direto da Nuvem',
+    excerpt: 'E se o "console" fosse um datacenter a milhares de quilômetros? Entenda como funciona o gaming na nuvem, seus ganhos e seus limites.',
+    content: `
+      <h2>O Que é Cloud Gaming?</h2>
+      <p>No cloud gaming, o jogo roda em um servidor potente em um datacenter, e não no seu aparelho. O servidor processa os gráficos, comprime a imagem em vídeo e transmite pela internet — como uma Netflix interativa. Seus botões viajam no sentido contrário, e cada aperto precisa chegar ao servidor em milésimos de segundo.</p>
+
+      <h2>Como Funciona a Corrente Técnica</h2>
+      <ul>
+        <li><strong>Renderização remota:</strong> GPUs de datacenter executam o jogo com qualidade alta, independentemente do seu hardware</li>
+        <li><strong>Codificação de vídeo:</strong> cada quadro é comprimido quase instantaneamente (codecs como H.265 e AV1)</li>
+        <li><strong>Transmissão:</strong> a imagem viaja por redes de baixa latência, idealmente por rotas curtas até você</li>
+        <li><strong>Entrada do jogador:</strong> seus comandos sobem pelo mesmo caminho, fechando o ciclo</li>
+      </ul>
+
+      <h2>Latência: O Inimigo Número Um</h2>
+      <p>Cada milissegundo conta. Do clique ao pixel na tela, o sinal percorre entrada, rede, servidor, renderização, codificação, rede de volta e decodificação — tudo precisa somar menos de ~60-80 ms para uma experiência confortável, e o dobro disso já incomoda em jogos rápidos. Por isso a localização dos datacenters e a qualidade da sua conexão pesam mais que a velocidade bruta de download.</p>
+
+      <h3>Wi-Fi Faz Diferença</h3>
+      <p>Grande parte dos problemas de jogabilidade vem da rede doméstica: congestionamento no Wi-Fi, roteadores antigos e outros dispositivos baixando arquivos. Cabo de rede e uma conexão estável de pelo menos 15-25 Mbps resolvem a maioria dos casos.</p>
+
+      <h2>O Que Você Ganha</h2>
+      <ul>
+        <li><strong>Custo inicial baixo:</strong> dispensa console ou PC caro; roda em celular, notebook modesto ou smart TV</li>
+        <li><strong>Jogo imediato:</strong> sem downloads de dezenas de gigabytes nem atualizações demoradas</li>
+        <li><strong>Continuidade:</strong> começa no sofá, continua no celular no caminho — progresso salvo na nuvem</li>
+        <li><strong>Acesso a catálogos:</strong> assinaturas com centenas de títulos prontos para jogar</li>
+      </ul>
+
+      <h2>Os Limites Atuais</h2>
+      <ul>
+        <li><strong>Dependência total da rede:</strong> sem internet estável, não há jogo — diferente de um console offline</li>
+        <li><strong>Propriedade:</strong> em muitos serviços, você acessa catálogo, não possui os jogos; se um título sai, ele sai</li>
+        <li><strong>Competitivo de elite:</strong> em esportes eletrônicos de precisão, milissegundos decidem, e o local ainda vence</li>
+        <li><strong>Compressão:</strong> a imagem viaja comprimida, o que pode suavizar detalhes em cenas rápidas</li>
+      </ul>
+
+      <h2>Tecnologia que Se Apoia em Outra</h2>
+      <p>O cloud gaming caminha junto com a evolução das redes móveis e dos datacenters: quanto menor a latência das redes 5G, mais viável jogar de qualquer lugar. Do lado do servidor, o mesmo <a href="/games/evolucao-dos-motores-graficos">avanço dos motores gráficos</a> e das GPUs que impulsiona os jogos locais garante a qualidade da nuvem. E modelos de <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">aprendizado de máquina</a> já ajudam a comprimir vídeo de forma mais inteligente, poupando banda.</p>
+
+      <h2>Conclusão</h2>
+      <p>O cloud gaming não substitui o hardware local de uma hora para outra, mas já é uma forma real e cada vez melhor de jogar — especialmente para quem quer acessar títulos pesados sem investir em máquina cara. Assim como o streaming venceu o DVD com o tempo, a nuvem disputa o futuro do videogame, um milissegundo de cada vez.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['cloud gaming', 'gaming na nuvem', 'streaming de jogos', 'latência', '5g'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-02-01',
+    readingTime: 6,
+    featuredImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80',
+    imageAlt: 'Controle de videogame com luzes azul e roxa em ambiente escuro',
+    sources: [
+      {
+        title: 'NVIDIA GeForce NOW',
+        url: 'https://www.nvidia.com/geforce-now/',
+        type: 'company'
+      },
+      {
+        title: 'Xbox Cloud Gaming',
+        url: 'https://www.xbox.com/play',
+        type: 'company'
+      },
+      {
+        title: 'IEEE - Cloud Gaming Latency Studies',
+        url: 'https://spectrum.ieee.org/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '29',
+    slug: 'computacao-vestivel',
+    title: 'Computação Vestível: A Tecnologia que Você Veste',
+    excerpt: 'Relógios inteligentes, anéis e óculos: dispositivos vestíveis monitoram saúde, conectam rotinas e apontam para uma computação cada vez mais pessoal.',
+    content: `
+      <h2>O Que é Computação Vestível?</h2>
+      <p>Computação vestível (wearables) é a categoria de dispositivos eletrônicos usados no corpo que coletam dados, exibem informações e se conectam a outros aparelhos. O termo vai muito além do smartwatch: inclui anéis, óculos, roupas com sensores e até adesivos eletrônicos de monitoramento contínuo.</p>
+
+      <h2>Os Principais Formatos Hoje</h2>
+      <ul>
+        <li><strong>Smartwatches:</strong> o formato campeão — notificações, chamadas, treinos e sensores de saúde no pulso</li>
+        <li><strong>Braceletes de atividade:</strong> mais simples e com bateria duradoura, focados em passos, sono e exercícios</li>
+        <li><strong>Smart rings:</strong> discretos, monitoram sono, batimentos e recuperação sem chamar atenção</li>
+        <li><strong>Óculos inteligentes:</strong> câmera, áudio e assistentes de voz, com caminhos para a <a href="/tecnologia/realidade-virtual-vs-aumentada">realidade aumentada</a></li>
+        <li><strong>Tecidos inteligentes:</strong> sensores integrados a roupas medem movimento e sinais vitais em pesquisa e esporte de alta performance</li>
+      </ul>
+
+      <h2>Sensores: Os Olhos do Wearable</h2>
+      <p>O que um smartwatch realmente faz é medir o corpo com pequenos sensores ópticos e elétricos. A fotopletismografia usa luz para detectar o fluxo sanguíneo e estimar batimentos cardíacos; eletrodos medem atividade elétrica do coração (ECG); acelerômetros e giroscópios interpretam movimento e sono; oxímetros calculam a saturação de oxigênio pelo tom do sangue.</p>
+
+      <h3>Da Medição à Saúde Real</h3>
+      <p>Dispositivos atuais já detectam fibrilação atrial, caídas e padrões de sono, e vários passam por regulação de órgãos de saúde em certos países. O alerta importante: são instrumentos de promoção de bem-estar e triagem — não substituem equipamentos médicos nem diagnóstico profissional.</p>
+
+      <h2>Os Desafios</h2>
+      <ul>
+        <li><strong>Bateria:</strong> quanto mais sensor e tela, mais energia — o trade-off permanente da categoria</li>
+        <li><strong>Precisão:</strong> medições no pulso variam com tatuagens, tom de pele, ajuste da pulseira e movimento</li>
+        <li><strong>Privacidade:</strong> dados de saúde são sensíveis; vale checar como cada fabricante armazena e compartilha — o mesmo cuidado da <a href="/tecnologia/ciberseguranca-para-iniciantes">segurança digital no dia a dia</a></li>
+        <li><strong>Ansiedade por dados:</strong> monitorar tudo pode virar obsessão; especialistas recomendam usar métricas como guia, não como julgamento</li>
+      </ul>
+
+      <h2>Para Onde Caminha</h2>
+      <p>A fronteira da computação vestível é a invisibilidade: dispositivos cada vez menores, alimentados por calor corporal ou luz, integrados a roupas comuns. Com <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">modelos de IA</a> analisando dados contínuos, a promessa é sair da simples contagem de passos para antecipar problemas de saúde e adaptar o ambiente às suas necessidades — um passo rumo à <a href="/futuro/cidades-inteligentes-do-futuro">conexão entre corpo, cidade e tecnologia</a>.</p>
+
+      <h2>Conclusão</h2>
+      <p>Computação vestível transformou sensores antes restritos a hospitais em companheiros diários de bolso — ou de pulso. O desafio da próxima década não é adicionar mais sensores, e sim transformar os dados gerados em decisões úteis, com privacidade e precisão que inspirem confiança.</p>
+    `,
+    category: {
+      id: 'futuro',
+      slug: 'futuro',
+      name: 'Futuro',
+      description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes',
+      color: '#10b981'
+    },
+    tags: ['wearables', 'smartwatch', 'saúde digital', 'sensores', 'tecnologia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-02-02',
+    readingTime: 6,
+    featuredImage: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80',
+    imageAlt: 'Relógio inteligente moderno exibindo métricas de atividade física',
+    sources: [
+      {
+        title: 'NIH - Wearable Health Devices',
+        url: 'https://www.nih.gov/',
+        type: 'agency'
+      },
+      {
+        title: 'IEEE - Wearables Standards',
+        url: 'https://standards.ieee.org/',
+        type: 'publication'
+      },
+      {
+        title: 'FDA - Digital Health',
+        url: 'https://www.fda.gov/medical-devices/digital-health',
+        type: 'agency'
+      }
+    ]
+  },
+  {
+    id: '30',
+    slug: 'transporte-autonomo',
+    title: 'Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar',
+    excerpt: 'Sensores, algoritmos e níveis de automação: entenda a tecnologia por trás dos veículos autônomos e os desafios para a adoção em massa.',
+    content: `
+      <h2>O Que é um Veículo Autônomo?</h2>
+      <p>Um veículo autônomo combina sensores que percebem o mundo com software que decide como dirigir. Câmeras identificam faixas, sinais e pedestres; radares medem distância e velocidade mesmo na chuva; e o lidar — um radar de luz — desenha um mapa 3D do entorno com precisão de centímetros. Juntos, eles alimentam um sistema que prevê o que acontece a seguir e controla direção, aceleração e freio.</p>
+
+      <h2>Os Níveis de Automação (0 a 5)</h2>
+      <ul>
+        <li><strong>Níveis 0-2:</strong> assistências — controle de cruzeiro adaptativo, correção de faixa. O motorista responde por tudo (o "autopiloto" de fábrica está aqui)</li>
+        <li><strong>Nível 3:</strong> o carro dirige sozinho em condições limitadas, mas exige pronto atendimento a pedidos de retomada</li>
+        <li><strong>Níveis 4-5:</strong> o sistema assume integralmente dentro de um domínio (nível 4, como táxis autônomos em rotas mapeadas) ou em qualquer lugar (nível 5, ainda não existente)</li>
+      </ul>
+
+      <h2>IA no Comando</h2>
+      <p>Dirigir é um problema de <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">aprendizado de máquina</a>: redes neurais treinadas com milhões de quilômetros dirigidos aprendem a interpretar cenas e prever comportamentos de pedestres e outros carros. Empresas que operam táxis autônomos em cidades dos EUA e da China acumulam corridas reais sem motorista todos os dias — a prova de que a tecnologia funciona, dentro de limites.</p>
+
+      <h2>Por Que Ainda Não Está em Todo Lugar?</h2>
+      <ul>
+        <li><strong>Casos de borda:</strong> o difícil não é a estrada vazia, é a situação inédita — objeto caído, agente de trânsito gesticulando, chuva forte com pintura apagada</li>
+        <li><strong>Responsabilidade legal:</strong> em um acidente, quem responde? Fabricante, software ou pessoa a bordo? Legislações ainda se adaptam</li>
+        <li><strong>Custo dos sensores:</strong> conjuntos completos de lidar, radar e computação encarecem o veículo</li>
+        <li><strong>Confiança pública:</strong> acidentes raros e muito noticiados pesam mais na percepção do que estatísticas comparativas</li>
+      </ul>
+
+      <h2>Segurança em Números</h2>
+      <p>A promessa é reduzir as mortes no trânsito — a maioria causada por erro humano: distração, álcool, excesso de velocidade. Sistemas de assistência já demonstram redução real de colisões, e operadores autônomos publicam relatórios de segurança comparando suas frotas com motoristas humanos. O debate honesto exige dados verificados e auditoria independente, não marketing.</p>
+
+      <h3>Além do Carro Particular</h3>
+      <p>Caminhões, táxis, entrega de última milha e agricultura devem adotar automação antes do carro de passeio: rotas repetitivas e economia operacional clara. As <a href="/futuro/cidades-inteligentes-do-futuro">cidades inteligentes</a> planejam vias e sinais pensando também nesses veículos.</p>
+
+      <h2>Mobilidade Elétrica e Conectada</h2>
+      <p>O transporte autônomo caminha junto com a eletrificação: motores elétricos respondem melhor ao controle computacional e a infraestrutura de recarga se planeja junto com frotas automatizadas. Veículos conectados entre si (V2X) prometem conversar uns com os outros, antecipando frenagens e otimizando fluxo — menos congestionamento e mais segurança.</p>
+
+      <h2>Conclusão</h2>
+      <p>O transporte autônomo é uma corrida de resistência, não de velocidade: avança bairro a bairro, rota a rota, com cada acidente estudado e cada regulamento ajustado. O carro 100% autônomo em qualquer rua ainda é futuro — mas o transporte sem motorista em rotas específicas já é presente, e tende a se espalhar silenciosamente até virar cotidiano.</p>
+    `,
+    category: {
+      id: 'futuro',
+      slug: 'futuro',
+      name: 'Futuro',
+      description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes',
+      color: '#10b981'
+    },
+    tags: ['veículos autônomos', 'carros autônomos', 'direção autônoma', 'mobilidade', 'ia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2024-02-03',
+    readingTime: 7,
+    featuredImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    imageAlt: 'Carro autônomo com sensores e visualização digital de trajetória',
+    sources: [
+      {
+        title: 'NHTSA - Automated Vehicles',
+        url: 'https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety',
+        type: 'agency'
+      },
+      {
+        title: 'SAE International - J3016 Levels of Driving Automation',
+        url: 'https://www.sae.org/standards/content/j3016_202104/',
+        type: 'other'
+      },
+      {
+        title: 'Waymo Safety Report',
+        url: 'https://waymo.com/safety/',
+        type: 'company'
+      }
+    ]
   }
 ];

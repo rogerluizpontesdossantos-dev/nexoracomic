@@ -1,7 +1,7 @@
 # NexoraComic — Plano de Crescimento Editorial
 
-> Documento de planejamento. Nenhum destes artigos está implementado ainda.
-> Estado atual: **15 artigos publicados** em 9 categorias.
+> Documento de planejamento.
+> Estado atual: **30 artigos publicados** em 9 categorias — **Meta 30 concluída** (todas as categorias prioritárias com 3–5 artigos).
 
 ## Inventário atual (15 artigos)
 
