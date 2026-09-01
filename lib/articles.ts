@@ -39,7 +39,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       </ul>
       
       <h2>A Primeira Foto de um Buraco Negro</h2>
-      <p>Em 2019, o Event Horizon Telescope capturou a primeira imagem direta de um buraco negro, especificamente o buraco negro supermassivo no centro da galáxia M87. Essa imagem confirmou muitas previsões teóricas sobre buracos negros.</p>
+      <p>Em 2019, o Event Horizon Telescope capturou <a href="/filmes-series/ficcao-cientifica-x-ciencia-real">a primeira imagem direta de um buraco negro</a>, especificamente o buraco negro supermassivo no centro da galáxia M87. Essa imagem confirmou muitas previsões teóricas sobre buracos negros.</p>
       
       <h2>O Que Acontece se Você Cair em um Buraco Negro?</h2>
       <p>Para um observador externo, você pareceria se mover cada vez mais lentamente conforme se aproxima do horizonte de eventos, nunca realmente cruzando-o. Para você, a experiência seria diferente - você cruzaria o horizonte de eventos sem perceber, mas seria esticado e comprimido pelas forças de maré extremas.</p>
@@ -765,7 +765,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Laboratórios ao redor do mundo trabalham nesses desafios, com resultados promissores em experimentos de ganho de energia. Ainda há um caminho longo até a geração comercial, mas a fusão permanece uma das apostas mais importantes para o futuro energético.</p>
 
       <h2>Conclusão</h2>
-      <p>Se viabilizada, a fusão nuclear pode oferecer energia limpa, segura e abundante por décadas, ajudando a reduzir emissões e a impulsionar o desenvolvimento sustentável. Acompanhar essa corrida é acompanhar uma das maiores promessas tecnológicas do nosso tempo.</p>
+      <p>Se viabilizada, a fusão nuclear pode oferecer energia limpa, segura e abundante por décadas, ajudando a <a href="/futuro/cidades-inteligentes-do-futuro">reduzir emissões</a> e a impulsionar o desenvolvimento sustentável. Acompanhar essa corrida é acompanhar uma das maiores promessas tecnológicas do nosso tempo.</p>
     `,
     category: {
       id: 'futuro',
@@ -874,7 +874,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
       <h2>Desafios Éticos e Regulação</h2>
       <ul>
-        <li><strong>Vieses nos dados:</strong> modelos podem replicar desigualdades dos dados usados no treino</li>
+        <li><strong><a href="/inteligencia-artificial/inteligencia-artificial-generativa">Vieses nos dados</a>:</strong> modelos podem replicar desigualdades dos dados usados no treino</li>
         <li><strong>Privacidade:</strong> proteger informações sensíveis de saúde</li>
         <li><strong>Regulação:</strong> garantir segurança e responsabilidade antes do uso amplo</li>
         <li><strong>Supervisão humana:</strong> decisões clínicas finais permanecem com os médicos</li>
