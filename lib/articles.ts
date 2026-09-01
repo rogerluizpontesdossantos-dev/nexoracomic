@@ -203,7 +203,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2024-01-13',
     readingTime: 5,
-    featuredImage: 'https://images.unsplash.com/photo-1614728853970-3661c7eca0a5?w=800&q=80',
+    featuredImage: 'https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=800&q=80',
     imageAlt: 'Superfície de Marte mostrando sua cor vermelha característica com rochas e dunas',
     sources: [
       {
@@ -369,7 +369,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2024-01-11',
     readingTime: 6,
-    featuredImage: 'https://images.unsplash.com/photo-1528319725584-dd8028ca0744?w=800&q=80',
+    featuredImage: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80',
     imageAlt: 'Ilustração abstrata de cérebro humano com luzes coloridas representando sonhos',
     sources: [
       {

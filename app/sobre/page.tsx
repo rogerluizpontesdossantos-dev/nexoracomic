@@ -2,10 +2,10 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Sobre | NexoraComic',
+  title: 'Sobre',
   description: 'Conheça a NexoraComic - uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek.',
   alternates: {
-    canonical: 'https://nexoracomic.com/sobre',
+    canonical: '/sobre',
   },
 };
 

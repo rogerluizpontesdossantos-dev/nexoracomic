@@ -1,11 +1,12 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 
 export const metadata = {
-  title: 'Termos de Uso | NexoraComic',
+  title: 'Termos de Uso',
   description: 'Termos de uso da NexoraComic. Leia nossos termos e condições antes de usar nosso site.',
   alternates: {
-    canonical: 'https://nexoracomic.com/termos-de-uso',
+    canonical: '/termos-de-uso',
   },
 };
 
@@ -20,7 +21,7 @@ export default function TermosUsoPage() {
           
           <div className="prose prose-invert max-w-none space-y-6">
             <p className="text-sm text-muted-foreground">
-              Última atualização: {new Date().toLocaleDateString('pt-BR')}
+              Última atualização: 15 de janeiro de 2024
             </p>
             
             <p>
@@ -97,7 +98,8 @@ export default function TermosUsoPage() {
             
             <h2>10. Contato</h2>
             <p>
-              Para questões sobre estes termos, entre em contato: contato@nexoracomic.com
+              Para questões sobre estes termos, entre em contato através da nossa{' '}
+              <Link href="/contato" className="text-primary hover:underline">página de contato</Link>.
             </p>
             
             <div className="bg-card/50 border border-border p-4 rounded-lg text-sm text-muted-foreground">

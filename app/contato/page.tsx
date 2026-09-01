@@ -3,10 +3,10 @@ import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata = {
-  title: 'Contato | NexoraComic',
+  title: 'Contato',
   description: 'Entre em contato com a equipe da NexoraComic para dúvidas, sugestões ou parcerias.',
   alternates: {
-    canonical: 'https://nexoracomic.com/contato',
+    canonical: '/contato',
   },
 };
 
@@ -24,11 +24,18 @@ export default function ContatoPage() {
           <div className="mt-12 pt-8 border-t border-border">
             <h2 className="text-xl font-semibold mb-4">Outras Formas de Contato</h2>
             <p className="text-muted-foreground mb-4">
-              TODO: Adicionar informações de contato reais quando disponíveis
+              Você também pode entrar em contato por email. Respondemos o mais breve possível.
             </p>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Email: contato@nexoracomic.com</li>
-              <li>Redes Sociais: TODO</li>
+              <li>
+                Email:{' '}
+                <a
+                  href="mailto:contato@nexoracomic.com"
+                  className="text-primary hover:underline"
+                >
+                  contato@nexoracomic.com
+                </a>
+              </li>
             </ul>
           </div>
         </div>

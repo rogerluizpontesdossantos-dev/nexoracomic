@@ -16,6 +16,13 @@ export interface Article {
   relatedArticles?: string[];
 }
 
+// Site-wide constants — single source of truth for the canonical domain.
+// NOTE: nexoracomic.com is the intended production domain. If it is not
+// connected in Vercel yet, update SITE_URL to the active domain
+// (e.g. https://nexoracomic.vercel.app) so canonical/OG URLs stay valid.
+export const SITE_NAME = 'NexoraComic';
+export const SITE_URL = 'https://nexoracomic.com';
+
 export interface Category {
   id: string;
   slug: string;

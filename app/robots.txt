@@ -9,3 +9,4 @@ Disallow: /admin/
 
 # Sitemap
 Sitemap: https://nexoracomic.com/sitemap.xml
+

@@ -1,11 +1,12 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 
 export const metadata = {
-  title: 'Política de Privacidade | NexoraComic',
+  title: 'Política de Privacidade',
   description: 'Política de privacidade da NexoraComic. Saiba como coletamos, usamos e protegemos seus dados pessoais.',
   alternates: {
-    canonical: 'https://nexoracomic.com/politica-de-privacidade',
+    canonical: '/politica-de-privacidade',
   },
 };
 
@@ -20,7 +21,7 @@ export default function PoliticaPrivacidadePage() {
           
           <div className="prose prose-invert max-w-none space-y-6">
             <p className="text-sm text-muted-foreground">
-              Última atualização: {new Date().toLocaleDateString('pt-BR')}
+              Última atualização: 15 de janeiro de 2024
             </p>
             
             <p>
@@ -86,7 +87,8 @@ export default function PoliticaPrivacidadePage() {
             
             <h2>7. Contato</h2>
             <p>
-              Para questões sobre esta política de privacidade, entre em contato: contato@nexoracomic.com
+              Para questões sobre esta política de privacidade, entre em contato através da nossa{' '}
+              <Link href="/contato" className="text-primary hover:underline">página de contato</Link>.
             </p>
             
             <div className="bg-card/50 border border-border p-4 rounded-lg text-sm text-muted-foreground">

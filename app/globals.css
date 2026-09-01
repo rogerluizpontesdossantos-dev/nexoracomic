@@ -21,7 +21,6 @@
   --gold-light: #f4d03f;
   --gold-dark: #b8860b;
   --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
-  --font-mono: var(--font-jetbrains-mono), monospace;
 }
 
 @theme inline {
@@ -41,7 +40,6 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --font-sans: var(--font-inter);
-  --font-mono: var(--font-jetbrains-mono);
 }
 
 * {

@@ -5,10 +5,10 @@ import { CATEGORIES } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 
 export const metadata = {
-  title: 'Categorias | NexoraComic',
+  title: 'Categorias',
   description: 'Explore todas as categorias de conteúdo da NexoraComic: ciência, tecnologia, espaço, inteligência artificial, games, filmes, quadrinhos e muito mais.',
   alternates: {
-    canonical: 'https://nexoracomic.com/categorias',
+    canonical: '/categorias',
   },
 };
 

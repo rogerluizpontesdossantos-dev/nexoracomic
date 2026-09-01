@@ -1,11 +1,11 @@
 import { MetadataRoute } from 'next';
-import { CATEGORIES } from '@/lib/types';
+import { CATEGORIES, SITE_URL } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://nexoracomic.com';
+  const baseUrl = SITE_URL;
 
   // Static routes
   const staticRoutes: MetadataRoute.Sitemap = [

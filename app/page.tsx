@@ -11,9 +11,6 @@ import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 export const metadata = {
   title: 'NexoraComic - Ciência, Tecnologia e Cultura Geek',
   description: 'NexoraComic é uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek.',
-  alternates: {
-    canonical: 'https://nexoracomic.com',
-  },
 };
 
 // Group articles by category

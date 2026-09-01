@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { SITE_NAME, SITE_URL } from "@/lib/types";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -8,33 +9,30 @@ const inter = Inter({
   display: "swap",
 });
 
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
-  subsets: ["latin"],
-  display: "swap",
-});
-
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "NexoraComic - Ciência, Tecnologia e Cultura Geek",
     template: "%s | NexoraComic"
   },
   description: "NexoraComic é uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek. Artigos sobre astronomia, física, games, filmes e curiosidades científicas.",
   keywords: ["ciência", "tecnologia", "espaço", "astronomia", "inteligência artificial", "games", "filmes", "quadrinhos", "curiosidades", "futuro", "nerd", "geek"],
-  authors: [{ name: "NexoraComic" }],
-  creator: "NexoraComic",
-  publisher: "NexoraComic",
-  metadataBase: new URL("https://nexoracomic.com"),
+  authors: [{ name: SITE_NAME }],
+  creator: SITE_NAME,
+  publisher: SITE_NAME,
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://nexoracomic.com",
-    siteName: "NexoraComic",
+    url: SITE_URL,
+    siteName: SITE_NAME,
     title: "NexoraComic - Ciência, Tecnologia e Cultura Geek",
     description: "Uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek.",
     images: [
       {
-        url: "https://nexoracomic.com/og-image.svg",
+        url: "/og-image.svg",
         width: 1200,
         height: 630,
         alt: "NexoraComic - Ciência, Tecnologia e Cultura Geek",
@@ -45,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NexoraComic - Ciência, Tecnologia e Cultura Geek",
     description: "Uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek.",
-    images: ["https://nexoracomic.com/og-image.svg"],
+    images: ["/og-image.svg"],
   },
   robots: {
     index: true,
@@ -70,12 +68,39 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const websiteJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE_NAME,
+    url: SITE_URL,
+    inLanguage: 'pt-BR',
+    description: 'Publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek.',
+  };
+
+  const organizationJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: `${SITE_URL}/logo-icon.svg`,
+  };
+
   return (
     <html
       lang="pt-BR"
-      className={`${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
+      className={`${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground">{children}</body>
+      <body className="min-h-full flex flex-col bg-background text-foreground">
+        {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+      </body>
     </html>
   );
 }

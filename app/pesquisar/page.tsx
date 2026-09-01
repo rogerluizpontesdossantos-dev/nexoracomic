@@ -5,10 +5,10 @@ import SearchForm from '@/components/SearchForm';
 import SearchResults from '@/components/SearchResults';
 
 export const metadata = {
-  title: 'Pesquisar | NexoraComic',
+  title: 'Pesquisar',
   description: 'Pesquise artigos sobre ciência, tecnologia, espaço e cultura geek no NexoraComic.',
   alternates: {
-    canonical: 'https://nexoracomic.com/pesquisar',
+    canonical: '/pesquisar',
   },
 };
 

@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Newsletter from '@/components/Newsletter';
 import { ArticleBreadcrumbs } from '@/components/Breadcrumbs';
-import { Article } from '@/lib/types';
+import { Article, SITE_URL } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 
 interface ArticlePageProps {
@@ -76,6 +76,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     headline: article.title,
     description: article.excerpt,
     image: article.featuredImage,
+    mainEntityOfPage: `${SITE_URL}/${article.category.slug}/${article.slug}`,
     author: {
       '@type': 'Person',
       name: article.author.name,
