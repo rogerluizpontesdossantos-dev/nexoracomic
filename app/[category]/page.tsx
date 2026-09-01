@@ -29,10 +29,17 @@ export async function generateMetadata({ params }: CategoryPageProps) {
   }
 
   return {
-    title: `${category.name} | NexoraComic`,
+    title: category.name,
     description: category.description,
     alternates: {
       canonical: `https://nexoracomic.com/${category.slug}`,
+    },
+    openGraph: {
+      title: `${category.name} | NexoraComic`,
+      description: category.description,
+      type: 'website',
+      url: `https://nexoracomic.com/${category.slug}`,
+      images: [{ url: '/og-image.svg', width: 1200, height: 630, alt: `NexoraComic - ${category.name}` }],
     },
   };
 }
@@ -45,10 +52,10 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     notFound();
   }
 
-  // Filter demonstration articles by category
+  // Filter demonstration articles by category, newest first
   const categoryArticles: Article[] = DEMONSTRATION_ARTICLES.filter(
     (article) => article.category.slug === categorySlug
-  );
+  ).sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',

@@ -21,8 +21,12 @@ const articlesByCategory = CATEGORIES.reduce((acc, category) => {
   return acc;
 }, {} as Record<string, typeof DEMONSTRATION_ARTICLES>);
 
-const featuredArticle = DEMONSTRATION_ARTICLES[0];
-const latestArticles = DEMONSTRATION_ARTICLES.slice(1, 4);
+const featuredArticle = DEMONSTRATION_ARTICLES.slice()
+  .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())[0];
+const latestArticles = DEMONSTRATION_ARTICLES.slice()
+  .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+  .filter((a) => a.id !== featuredArticle.id)
+  .slice(0, 3);
 
 // Category sections with their articles
 const categorySections = [
