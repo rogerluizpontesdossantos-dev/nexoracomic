@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ArticleCard from '@/components/ArticleCard';
-import Breadcrumbs, { CategoryBreadcrumbs } from '@/components/Breadcrumbs';
+import { CategoryBreadcrumbs } from '@/components/Breadcrumbs';
 import { CATEGORIES, Article } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 

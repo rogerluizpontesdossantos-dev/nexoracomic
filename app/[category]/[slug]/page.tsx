@@ -4,8 +4,8 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Newsletter from '@/components/Newsletter';
-import Breadcrumbs, { ArticleBreadcrumbs } from '@/components/Breadcrumbs';
-import { CATEGORIES, Article } from '@/lib/types';
+import { ArticleBreadcrumbs } from '@/components/Breadcrumbs';
+import { Article } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 
 interface ArticlePageProps {

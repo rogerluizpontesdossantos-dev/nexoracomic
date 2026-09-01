@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { CATEGORIES } from '@/lib/types';
 
 interface BreadcrumbItem {
   name: string;

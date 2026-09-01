@@ -72,7 +72,7 @@ export default function TermosUsoPage() {
             
             <h2>5. Limitação de Responsabilidade</h2>
             <p>
-              O NexoraComic não garante que o site funcionará sem interrupções ou erros. O site é fornecido "como está" sem garantias de qualquer tipo. Não somos responsáveis por danos diretos, indiretos, incidentais ou consequentes resultantes do uso do site.
+              O NexoraComic não garante que o site funcionará sem interrupções ou erros. O site é fornecido &quot;como está&quot; sem garantias de qualquer tipo. Não somos responsáveis por danos diretos, indiretos, incidentais ou consequentes resultantes do uso do site.
             </p>
             
             <h2>6. Isenção de Responsabilidade</h2>
