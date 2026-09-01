@@ -11,7 +11,8 @@ export default function FooterNewsletter() {
     e.preventDefault();
     if (!email || loading) return;
     setLoading(true);
-    // TODO: Integrate with email provider (e.g. Mailchimp via /api/subscribe)
+    // Newsletter do rodapé é exibida como "em breve" até a integração com um
+    // provedor de email (ex.: Brevo/Mailchimp) ser configurada.
     await new Promise((r) => setTimeout(r, 300));
     setSubmitted(true);
     setEmail('');
@@ -21,7 +22,7 @@ export default function FooterNewsletter() {
   if (submitted) {
     return (
       <p className="text-sm text-green-400">
-        ✉️ Obrigado! Verifique seu email para confirmar.
+        ✉️ Registrado! A newsletter será ativada em breve.
       </p>
     );
   }

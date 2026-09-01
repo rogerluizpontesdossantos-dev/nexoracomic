@@ -116,8 +116,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <ul>
         <li><strong>Alucinações:</strong> Modelos podem gerar informações falsas com confiança</li>
         <li><strong>Vieses:</strong> Podem reproduzir vieses presentes nos dados de treinamento</li>
-        <li><strong>Uso indevido:</strong> Risco de deepfakes e desinformação</li>
-        <li><strong>Consumo de energia:</strong> Treinamento requer recursos computacionais massivos</li>
+        <li><strong>Uso indevido:</strong> Risco de <a href="/tecnologia/ciberseguranca-para-iniciantes">deepfakes e golpes digitais</a></li>
+        <li><strong>Consumo de energia:</strong> Treinamento requer recursos computacionais massivos (veja também: <a href="/futuro/energia-limpa-fusao-nuclear">o futuro da energia</a>)</li>
       </ul>
       
       <h2>O Futuro da IA Generativa</h2>
@@ -266,10 +266,10 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <h2>Aplicações Práticas</h2>
       <p>Áreas onde a computação quântica pode ter grande impacto:</p>
       <ul>
-        <li><strong>Criptografia:</strong> Quebra de sistemas criptográficos atuais</li>
+        <li><strong><a href="/tecnologia/ciberseguranca-para-iniciantes">Criptografia</a>:</strong> quebra de sistemas criptográficos atuais</li>
         <li><strong>Descoberta de medicamentos:</strong> Simulação de moléculas complexas</li>
         <li><strong>Otimização:</strong> Problemas de logística e roteamento</li>
-        <li><strong>Inteligência artificial:</strong> Treinamento mais eficiente de modelos</li>
+        <li><strong>Inteligência artificial:</strong> <a href="/inteligencia-artificial/inteligencia-artificial-generativa">Treinamento de modelos de IA</a> mais eficiente</li>
       </ul>
       
       <h2>O Estado Atual da Tecnologia</h2>
@@ -324,7 +324,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Proposta por Hobson e McCarley em 1977, esta teoria sugere que os sonhos são o resultado do cérebro tentando interpretar sinais neurais aleatórios durante o sono REM. O tronco cerebral envia sinais ao córtex, que então cria uma narrativa para fazer sentido desses sinais.</p>
       
       <h3>Teoria da Consolidação da Memória</h3>
-      <p>Evidências sugerem que os sonhos desempenham um papel na consolidação de memórias. Durante o sono, o cérebro processa e armazena informações adquiridas durante o dia, e os sonhos podem ser um subproduto desse processo.</p>
+      <p>Evidências sugerem que os sonhos desempenham um papel na <a href="/curiosidades/curiosidades-do-corpo-humano">consolidação de memórias</a>. Durante o sono, o cérebro processa e armazena informações adquiridas durante o dia, e os sonhos podem ser um subproduto desse processo.</p>
       
       <h3>Teoria da Simulação de Ameaças</h3>
       <p>Esta teoria evolutiva, proposta por Revonsuo, sugere que os sonhos servem como um mecanismo de simulação de ameaças, permitindo que pratiquemos respostas a perigos em um ambiente seguro.</p>
@@ -416,7 +416,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Cada pixel pode exigir vários raios para manter a imagem nítida e sem ruído. Como uma tela em resolução alta tem milhões de pixels, o esforço computacional cresce rapidamente. É por isso que o ray tracing histórico, usado em filmes, levava horas para renderizar um único quadro.</p>
 
       <h3>O Papel do Hardware Especializado</h3>
-      <p>Placas de vídeo modernas incluem núcleos dedicados a acelerar o cálculo de intersecção entre raios e geometria. Isso permitiu levar o ray tracing, antes usado apenas em efeitos especiais de cinema, para o tempo real dos jogos.</p>
+      <p>Placas de vídeo modernas incluem núcleos dedicados a acelerar o cálculo de intersecção entre raios e geometria. Isso permitiu levar o ray tracing, antes usado apenas em <a href="/filmes-series/ficcao-cientifica-x-ciencia-real">efeitos especiais de cinema</a>, para o tempo real dos jogos.</p>
 
       <h2>Ray Tracing versus Rasterização</h2>
       <p>A rasterização, método tradicional, projeta polígonos e aplica "truques" visuais para simular luz. É eficiente, porém limitada. O ray tracing oferece iluminação fisicamente correta, mas com custo maior. Hoje, o mais comum é combinar as duas técnicas para equilibrar qualidade e desempenho.</p>
@@ -457,7 +457,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'A IA dos jogos evoluiu de simples padrões de movimento para sistemas que reagem ao comportamento do jogador. Veja como ela funciona.',
     content: `
       <h2>O Que é a IA em um Jogo?</h2>
-      <p>Diferente da IA generativa usada em chat e criação de conteúdo, a IA de jogos é projetada para controlar personagens não jogáveis (NPCs) de forma que pareçam inteligentes: perseguir, se esconder, cooperar e reagir às ações do jogador.</p>
+      <p>Diferente da <a href="/inteligencia-artificial/inteligencia-artificial-generativa">IA generativa</a> usada em chat e criação de conteúdo, a IA de jogos é projetada para controlar personagens não jogáveis (NPCs) de forma que pareçam inteligentes: perseguir, se esconder, cooperar e reagir às ações do jogador.</p>
 
       <h2>Os Primeiros Algoritmos</h2>
       <p>Nos primeiros jogos de fliperama, como os clássicos de 1972, a "IA" era um conjunto de padrões fixos. O inimigo seguia trajetórias predeterminadas, criando dificuldade por previsibilidade e velocidade. Não havia tomada de decisão real.</p>
@@ -521,7 +521,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Filmes como Interestelar popularizaram os buracos de minhoca como atalhos espaciais. A física real, descrita pela relatividade geral, permite a existência teórica desses atalhos, mas ainda não há evidência observacional ou tecnologia capaz de criá-los.</p>
 
       <h3>O Buraco Negro Real</h3>
-      <p>A primeira imagem real de um buraco negro, registrada em 2019 pelo Event Horizon Telescope, confirmou que a simulação feita para o cinema estava surpreendentemente próxima do comportamento previsto pela física.</p>
+      <p>A primeira imagem real de um <a href="/espaco/como-buracos-negros-funcionam">buraco negro</a>, registrada em 2019 pelo Event Horizon Telescope, confirmou que a simulação feita para o cinema estava surpreendentemente próxima do comportamento previsto pela física.</p>
 
       <h2>Robôs e Inteligência Artificial</h2>
       <p>O cinema costuma retratar IA com consciência e emoções humanas. Na prática, os sistemas de IA atuais são ferramentas de padrões, sem consciência real. Ainda assim, a ficção levanta questões éticas importantes sobre autonomia e vieses que a pesquisa leva a sério.</p>
@@ -574,7 +574,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Muitos heróis devem seus poderes à radiação. Na prática, a radiação ionizante é perigosa e não concede superpoderes. No entanto, a história dos quadrinhos ajuda a popularizar a ideia de que fenômenos físicos podem transformar a matéria — algo que a ciência de fato estuda em contextos limitados e controlados.</p>
 
       <h2>Mutações Genéticas</h2>
-      <p>A noção de "mutantes" inspirada na genética tem raízes reais: mutações acontecem o tempo todo no DNA. A edição genética moderna, que permite modificar genes de forma precisa, aproxima parte da fantasia da realidade, embora ainda longe de gerar poderes extraordinários.</p>
+      <p>A noção de "mutantes" inspirada na genética tem raízes reais: mutações acontecem o tempo todo no DNA. A <a href="/ciencia/edicao-genetica-crispr">edição genética moderna</a>, que permite modificar genes de forma precisa, aproxima parte da fantasia da realidade, embora ainda longe de gerar poderes extraordinários.</p>
 
       <h3>Biotecnologia e Influência</h3>
       <p>Técnicas como a edição de genes abrem portas para tratamentos de doenças hereditárias. Os quadrinhos, ao especular sobre mutações, ajudam o público a desenvolver curiosidade e debate sobre esses avanços.</p>
@@ -641,7 +641,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>O coração bate cerca de uma vez por segundo em repouso e bombeia o sangue por uma rede de vasos que, somados, percorrem milhares de quilômetros. A circulação transporta oxigênio e nutrientes para cada célula do corpo.</p>
 
       <h3>Por Que Dormimos?</h3>
-      <p>Durante o sono, o corpo consolida memórias e realiza reparos. Estudos indicam que o sono é essencial para a família, a atenção e o equilíbrio emocional, além de influenciar diretamente a performance do dia seguinte.</p>
+      <p>Durante o <a href="/ciencia/por-que-humanos-sonham">sono</a>, o corpo consolida memórias e realiza reparos. Estudos indicam que o sono é essencial para a família, a atenção e o equilíbrio emocional, além de influenciar diretamente a performance do dia seguinte.</p>
 
       <h2>Curiosidades Sobre os Sentidos</h2>
       <ul>
@@ -695,13 +695,13 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Transporte público inteligente, aplicativos de compartilhamento e sinais adaptativos ajudam a reduzir congestionamentos e tempos de deslocamento, promovendo cidades mais acessíveis.</p>
 
       <h2>Energia e Sustentabilidade</h2>
-      <p>Redes elétricas inteligentes equilibram oferta e demanda, integrando fontes renováveis como solar e eólica. Prédios eficientes e telhados verdes reduzem o consumo, contribuindo para metas de emissão mais ambiciosas.</p>
+      <p>Redes elétricas inteligentes equilibram oferta e demanda, integrando <a href="/futuro/energia-limpa-fusao-nuclear">fontes renováveis</a> como solar e eólica. Prédios eficientes e telhados verdes reduzem o consumo, contribuindo para metas de emissão mais ambiciosas.</p>
 
       <h2>Governança e Participação</h2>
       <p>Plataformas digitais aproximam cidadãos e gestores, permitindo reclamações, consultas e transparência. A análise de dados ajuda órgãos públicos a priorizar investimentos com base em evidências.</p>
 
       <h2>Desafios e Privacidade</h2>
-      <p>Coletar grandes volumes de dados levanta questões de privacidade e segurança. Cidades inteligentes precisam equilibrar inovação com proteção dos dados dos cidadãos, exigindo regras claras e infraestrutura segura.</p>
+      <p>Coletar grandes volumes de dados levanta questões de privacidade e <a href="/tecnologia/ciberseguranca-para-iniciantes">segurança</a>. Cidades inteligentes precisam equilibrar inovação com proteção dos dados dos cidadãos, exigindo regras claras e infraestrutura segura.</p>
 
       <h2>Conclusão</h2>
       <p>As cidades inteligentes representam uma promissora convergência entre tecnologia, infraestrutura e pessoas. O sucesso dessas iniciativas dependerá não apenas da tecnologia, mas de como ela será usada para tornar a vida urbana mais humana e sustentável.</p>

@@ -39,7 +39,13 @@ export async function generateMetadata({ params }: CategoryPageProps) {
       description: category.description,
       type: 'website',
       url: `https://nexoracomic.com/${category.slug}`,
-      images: [{ url: '/og-image.svg', width: 1200, height: 630, alt: `NexoraComic - ${category.name}` }],
+      images: [{ url: '/og-image.png', width: 1200, height: 630, alt: `NexoraComic - ${category.name}` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${category.name} | NexoraComic`,
+      description: category.description,
+      images: ['/og-image.png'],
     },
   };
 }

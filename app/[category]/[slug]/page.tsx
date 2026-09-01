@@ -8,6 +8,7 @@ import { ArticleBreadcrumbs } from '@/components/Breadcrumbs';
 import ArticleCard from '@/components/ArticleCard';
 import { Article, SITE_URL } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
+import AdSlot from '@/components/AdSlot';
 
 interface ArticlePageProps {
   params: Promise<{
@@ -223,6 +224,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               <div dangerouslySetInnerHTML={{ __html: article.content }} />
             )}
           </div>
+
+          {/* Ad placeholder — disabled until AdSense approval (AdSlot renders null) */}
+          <AdSlot slot="article-bottom" size="rectangle" className="mt-12" />
 
           {/* Sources */}
           {article.sources && article.sources.length > 0 && (

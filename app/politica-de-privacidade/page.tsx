@@ -63,9 +63,21 @@ export default function PoliticaPrivacidadePage() {
               <li>Para proteger nossos direitos e propriedade</li>
             </ul>
             
-            <h2>4. Cookies</h2>
+            <h2>4. Cookies e Publicidade</h2>
             <p>
               Usamos cookies para melhorar sua experiência de navegação, analisar o tráfego do site e personalizar conteúdo. Você pode configurar seu navegador para recusar cookies.
+            </p>
+            <p>
+              O NexoraComic poderá exibir anúncios por meio do Google AdSense no futuro. Quando isso ocorrer, o Google e seus parceiros poderão usar cookies para veicular anúncios com base em visitas anteriores a este ou a outros sites. Você pode desativar a publicidade personalizada nas{' '}
+              <a
+                href="https://www.google.com/settings/ads"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                Configurações de Anúncios do Google
+              </a>
+              . Esta seção será atualizada quando a publicidade for efetivamente ativada.
             </p>
             
             <h2>5. Seus Direitos</h2>

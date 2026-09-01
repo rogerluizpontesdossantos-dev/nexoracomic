@@ -13,12 +13,13 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Integrate with form submission service
+    // O envio real exigirá um serviço de formulário (ex.: Formspree/Web3Forms)
+    // ou backend próprio. Enquanto isso, orientamos o contato direto por email.
     setSubmitted(true);
     setTimeout(() => {
       setSubmitted(false);
       setFormData({ name: '', email: '', subject: '', message: '' });
-    }, 3000);
+    }, 8000);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -28,7 +29,15 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div className="bg-primary/10 border border-primary text-primary px-6 py-4 rounded-lg">
-        Mensagem enviada com sucesso! Entraremos em contato em breve.
+        <p className="font-medium mb-2">Obrigado pelo contato!</p>
+        <p className="text-sm">
+          Enquanto o formulário não está conectado a um serviço de envio, escreva
+          diretamente para{' '}
+          <a href="mailto:contato@nexoracomic.com" className="underline hover:no-underline">
+            contato@nexoracomic.com
+          </a>{' '}
+          — respondemos o mais breve possível.
+        </p>
       </div>
     );
   }

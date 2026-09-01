@@ -11,13 +11,14 @@ export default function Newsletter() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (email && consent) {
+      // Newsletter é exibida como "em breve" até a integração com um
+      // provedor de email (ex.: Brevo/Mailchimp) ser configurada.
       setSubmitted(true);
-      // TODO: Integrate with email provider
       setTimeout(() => {
         setEmail('');
         setConsent(false);
         setSubmitted(false);
-      }, 3000);
+      }, 6000);
     }
   };
 
@@ -34,7 +35,7 @@ export default function Newsletter() {
           
           {submitted ? (
             <div className="bg-primary/10 border border-primary text-primary px-6 py-4 rounded-lg">
-              Obrigado por se inscrever! Verifique seu email para confirmar.
+              Recebemos seu interesse! Nossa newsletter está sendo preparada e você receberá o primeiro email assim que for lançada.
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
