@@ -1991,6 +1991,655 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       {
         title: 'Waymo Safety Report',
         url: 'https://waymo.com/safety/',
+                type: 'company'
+      }
+    ]
+  },
+      {
+    id: '31',
+    slug: 'dlss-5-revolucao-dos-graficos',
+    title: 'NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gráficos dos Jogos',
+    excerpt: 'DLSS 5, apresentado no GTC 2026 e refinado no SIGGRAPH, usa IA generativa para adicionar detalhes às cenas. Entenda como o 3D-Guided Neural Rendering muda os jogos.',
+    content: `
+      <h2>O Que é DLSS 5?</h2>
+      <p>Em março de 2026, durante o GTC, a NVIDIA anunciou a quinta geração de seu DLSS (Deep Learning Super Sampling), uma tecnologia que usa inteligência artificial para melhorar a qualidade e a performance gráfica nos jogos. A grande novidade é o 3D-Guided Neural Rendering, uma abordagem que, segundo a empresa, não apenas reconstrói imagens como as versões anteriores, mas <strong>adiciona</strong> elementos à cena — produzindo iluminação e materiais mais realistas do que técnicas baseadas apenas em texel.</p>
+      <h2>Como o Neural Rendering Funciona</h2>
+      <p>DLSS 5 utiliza um modelo generativo que roda localmente na placa gráfica. A tecnologia opera com três modelos de IA simultaneamente em uma única GeForce RTX — contrariando rumores de que exigiria duas placas. Desenvolvedores ganham controle granular: <em>masks</em> por objeto permitem ajustar como cada elemento da cena responde à renderização neural, enquanto dois sliders controlam a intensidade do efeito e a preservação da intenção artística original.</p>
+      <h3>Por Que Isso Importa?</h3>
+      <p>O salto que a NVIDIA propõe com DLSS 5 vai além de mais FPS. A ideia é elevar a fidelidade visual até o ponto em que a diferença entre renderização em tempo real e conteúdo pré-calculado fique mínima. Para jogadores com monitores 4K e 8K, isso significa potencialmente imagens indistinguíveis de filmes de Hollywood.</p>
+      <h2>Onde Já Está Disponível</h2>
+      <p>DLSS 5 chegou ao primeiro jogo no início de setembro de 2026: NBA 2K27, que entrou em acesso antecipado com o recurso já integrado. A NVIDIA promete entre 15 e 20 títulos com suporte até o final do ano.</p>
+      <h2>Limitações e Controvérsias</h2>
+      <p>A reação inicial à DLSS 5 foi divisiva. Muitos jogadores temem que a IA generativa "dilua" a identidade visual dos jogos. Testes em GPUs de entrada mostraram queda de desempenho em cenas complexas, sugerindo que o benefício estará mais presente em hardware dedicado a IA.</p>
+      <h2>Contexto do Mercado</h2>
+      <p>A NVIDIA domina cerca de 80% do mercado de GPUs para desktops, mas enfrenta pressão da AMD. Enquanto isso, a própria AMD prepara sua resposta com tecnologia de upscaling própria no Radeon Software 2026.</p>
+      <h2>Conclusão</h2>
+      <p>DLSS 5 representa a ambição da NVIDIA de fundir IA generativa e renderização em tempo real. A tecnologia promete saltos visuais sem precedentes, mas seu sucesso depende de como desenvolvedores e jogadores equilibram inovação e identidade criativa.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['DLSS 5', 'NVIDIA', 'neural rendering', 'IA generativa', 'jogos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?gaming,computer-monitor',
+    imageAlt: 'Jogador usando PC gamer com monitores de alta resolução e iluminação RGB',
+    sources: [
+      {
+        title: 'NVIDIA Developer - DLSS',
+        url: 'https://developer.nvidia.com/rtx/dlss',
+        type: 'company'
+      },
+      {
+        title: 'TechPowerUp - NVIDIA DLSS 5 Technical Preview Review',
+        url: 'https://www.techpowerup.com/review/nvidia-dlss-5/',
+        type: 'publication'
+      },
+      {
+        title: 'SIGGRAPH 2026 - NVIDIA Keynote',
+        url: 'https://www.siggraph.org/conference/2026',
+        type: 'other'
+      }
+    ]
+  },
+    {
+    id: '32',
+    slug: 'dlss-5-dividindo-os-jogadores',
+    title: 'DLSS 5 Está Dividindo os Jogadores: Avanço Gráfico ou IA Demais nos Games?',
+    excerpt: 'Quatro meses após o anúncio de DLSS 5, a comunidade gamer permanece dividida. Entenda os motivos do entusiasmo e da crítica ao Neural Rendering da NVIDIA.',
+    content: `
+      <h2>Um Anúncio que Gerou Reações Mistas</h2>
+      <p>Desde o GTC de março de 2026, DLSS 5 tem sido um dos temas mais debatidos no universo dos games. Se, de um lado, a promessa de renderização neural gerou entusiasmo por elevar a qualidade visual, de outro, muitos jogadores veem na tecnologia um risco de homogeneizar a estética dos jogos. A reação mais visível foi uma <strong>razão de 84% de dislikes</strong> em vídeos oficiais da NVIDIA, um dos piores índices de aceitação da história da empresa.</p>
+      <h2>O Que os Jogadores Criticam?</h2>
+      <p>A principal reclamação é que DLSS 5, com seu modelo generativo, altera a imagem original do jogo — algo que muitos desenvolvedores e jogadores consideram uma perda de autenticidade. A acusação mais comum é de que a tecnologia transforma jogos em "AI slop", um filtro que, em vez de melhorar, pode diluir o estilo artístico deliberado por trás de cada cena.</p>
+      <p>Além da discussão estética, há preocupações técnicas. <strong>Testes em GPUs de entrada mostraram queda de desempenho</strong>: um RTX 5070 Ti caiu de 71 FPS para 35 FPS em cenas complexas, sugerindo que o Neural Rendering exige mais recursos do que as GPUs atuais podem oferecer sem impacto.</p>
+      <h3>Oportunidade para a AMD</h3>
+      <p>O descontentamento com DLSS 5 criou uma abertura para a AMD. Enquanto a NVIDIA foca em IA generativa, a concorrente tem apostado em upscaling mais eficiente e compatibilidade com hardware mais antigo — algo que atrai jogadores que veem DLSS 5 como exigente demais.</p>
+      <h2>O Que a NVIDIA Respondeu?</h2>
+      <p>No SIGGRAPH 2026, a NVIDIA reconheceu as críticas e apresentou ferramentas de controle para desenvolvedores. Agora, estúdios podem ajustar três modelos de IA individualmente, usar máscaras por objeto e controlar dois sliders — um para intensidade do efeito e outro para preservar a intenção artística. A ideia é devolver controle criativo às equipes, em vez de impor um tratamento único.</p>
+      <h2>Por Que Isso Importa para Você</h2>
+      <p>A discussão em torno de DLSS 5 é, em essência, sobre <strong>onde está o limite entre melhoria e manipulação</strong>. Se a IA pode elevar a qualidade visual sem comprometer a identidade do jogo, o avanço é bem-vindo. Mas se o resultado é uma camada de "filtros" que homogeneiza a estética, o custo pode ser maior que o benefício.</p>
+      <h2>Contexto do Mercado</h2>
+      <p>A NVIDIA detém cerca de 80% do mercado de GPUs para desktops. Com DLSS 5, a empresa aposta que a IA generativa será o novo diferencial. Mas a reação comunitária mostra que inovação técnica não garante aceitação — especialmente quando questiona a autenticidade de algo que antes era puro "arte humana".</p>
+      <h2>O Que Esperar daqui para Frente</h2>
+      <p>Com NBA 2K27 já rodando DLSS 5 e mais de 15 títulos previstos para 2026, o ano será decisivo. Se as ferramentas de controle da NVIDIA atenderem desenvolvedores, o debate deve se acalmar. Caso contrário, a AMD pode ganhar terreno — e com ele, uma fatia do domínio da NVIDIA sobre os gráficos dos jogos.</p>
+      <h2>Conclusão</h2>
+      <p>DLSS 5 é mais que uma tecnologia: é um divisor de águas na relação entre IA e arte digital. O caminho para frente depende de equilíbrio — usar a IA para elevar a experiência sem apagar a voz criativa dos desenvolvedores.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['DLSS 5', 'NVIDIA', 'controvérsia', 'IA generativa', 'gamers'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?gaming,reaction,discussion',
+    imageAlt: 'Compartilhamento de tela mostrando discussão sobre gráficos de jogo com comentários',
+    sources: [
+      {
+        title: 'TechSpot - Nvidia is giving developers more control over DLSS 5',
+        url: 'https://www.techspot.com/news/102428-nvidia-dlss-5-developer-control-ai-slop.html',
+        type: 'publication'
+      },
+      {
+        title: 'TweakTown - NVIDIA showcases updated DLSS 5 with developer tools',
+        url: 'https://www.tweaktown.com/news/165437/nvidia-showcases-updated-dlss-5-with-developer-tools-that-help-preserve-artistic-intent/index.html',
+        type: 'publication'
+      },
+      {
+        title: 'heise online - Neural Rendering: Nvidia shows DLSS 5 much more cautiously',
+        url: 'https://www.heise.de/en/news',
+        type: 'publication'
+      }
+    ]
+  },
+    {
+    id: '33',
+    slug: 'anthropic-claude-5-fable-mythos',
+    title: 'Claude 5 da Anthropic: Como Fable e Mythos Estão Redefinindo a IA',
+    excerpt: 'A Anthropic lançou sua família Claude 5 com modelos Fable e Mythos, além do Opus 5. Entenda como cada modelo se diferencia e o que muda para desenvolvedores e usuários.',
+    content: `
+      <h2>Uma Nova Família de Modelos</h2>
+      <p>Em julho de 2026, a Anthropic expandiu sua linha de modelos de inteligência artificial com a família Claude 5. Em vez de lançar um único modelo, a empresa apresentou uma <strong>abordagem em camadas</strong>: Fable 5, Mythos 5, Opus 5, Sonnet e Haiku. Cada um é otimizado para diferentes necessidades — e juntos, representam o avanço mais ambicioso da Anthropic desde o Claude 3.</p>
+
+      <h2>Conhecendo Fable 5 e Mythos 5</h2>
+      <p><strong>Fable 5</strong> é o modelo de "frontier intelligence" — a ponta mais avançada da gama Claude. Segundo a empresa, Opus 5, lançado em 24 de julho, chega "próximo à fronteira intelectual de Fable 5 a metade do preço", sugerindo que Fable 5 ainda é mais potente — e mais caro. Fable 5 é projetado para tarefas que exigem o máximo de raciocínio, criatividade e precisão.</p>
+      <p>Já <strong>Mythos 5</strong> se destaca como o especialista em trabalhos biológicos e científicos. Enquanto Fable 5 é a "inteligência de fronteira" para uso geral e criativo, Mythos 5 é o modelo de escolha para pesquisas em bioquímica, bioinformática e estruturas proteicas — áreas onde a precisão e a profundidade conhecem mais importância que a velocidade.</p>
+
+      <h3>Opus 5: Acessível e Eficiente</h3>
+      <p>Opus 5, que já está disponível, é o modelo "de todos os dias". Disponível por $5 por milhão de tokens de entrada e $25 por milhão de tokens de saída — o mesmo preço de seu antecessor Opus 4.8 — Opus 5 oferece melhor desempenho em tarefas de engenharia de software, resolução de problemas e pesquisa científica. É o modelo padrão em Claude Max e o mais forte em Claude Pro.</p>
+
+      <h2>Por Que Isso Importa?</h2>
+      <p>A estratégia de múltiplos modelos permite que desenvolvedores escolham entre potência e custo. Enquanto modelos como GPT-4o da OpenAI ou Gemini 2.5 do Google competem em capacitidade geral, a Anthropic oferece uma granularidade rara: um modelo para criatividade extrema (Fable), outro para ciência profunda (Mythos) e um equilibrado para produtividade diária (Opus).</p>
+
+      <h2>Impacto para Desenvolvedores e Usuários</h2>
+      <p>Para desenvolvedores, Opus 5 já demonstrou mais de <strong>dobro do desempenho de Opus 4.8</strong> em benchmarks como Frontier-Bench e CursorBench, a metade do custo. Mythos 5 mostra ganhos de 10,2 pontos percentuais em química orgânica e 7,7 pontos em tarefas proteicas. Para usuários comuns, isso se traduz em explicações mais precisas, código mais confiável e respostas mais contextualizadas.</p>
+
+      <h2>Limitações e Considerações</h2>
+      <p>Embora Fable 5 seja a ponta mais avançada, a Anthropic ainda não divulgou preços ou disponibilidade pública — sugerindo que o modelo é voltado para uso corporativo ou parceiros estratégicos. Mythos 5 também não está amplamente disponível. Além disso, a empresa alerta que modelos de fronteira apresentam riscos de segurança em tarefas de biologia, e recomenda rotas de fallback para conteúdo sensível.</p>
+
+      <h2>Contexto do Mercado</h2>
+      <p>A Anthropic compete com OpenAI, Google e xAI em um mercado de modelos de linguagem que ultrapassa os $10 bilhões em investimentos anuais. A estratégia de especialização — em vez de "modelo único para tudo" — diferencia a empresa e atrai clientes que precisam de precisão em domínios específicos como ciências biológicas e pesquisa científica.</p>
+
+      <h2>Conclusão</h2>
+      <p>Com Claude 5, a Anthropic não apenas avança em capacidade, mas também em especialização. Fable 5 e Mythos 5 representam uma visão onde a IA não é generalista por padrão — mas adaptada à tarefa, ao domínio e à necessidade exata do usuário.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['Anthropic', 'Claude 5', 'Fable 5', 'Mythos 5', 'Opus 5', 'IA'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-30',
+    readingTime: 9,
+    featuredImage: 'https://source.unsplash.com/800x600/?artificial-intelligence,technology',
+    imageAlt: 'Ilustração artística de redes neurais e circuitos de IA futurista',
+    sources: [
+      {
+        title: 'Anthropic - Introducing Claude Opus 5',
+        url: 'https://www.anthropic.com/news/claude-opus-5',
+        type: 'company'
+      },
+      {
+        title: 'Claude.com - Products',
+        url: 'https://claude.com/product',
+        type: 'company'
+      },
+      {
+        title: 'Wikipedia - Anthropic',
+        url: 'https://en.wikipedia.org/wiki/Anthropic',
+        type: 'other'
+      }
+    ]
+  },
+    {
+    id: '34',
+    slug: 'nvidia-inviste-bilhoes-mediatek',
+    title: 'NVIDIA Investe Bilhões na MediaTek para Acelerar a Próxima Geração de IA',
+    excerpt: 'NVIDIA anunciou um investimento de US$ 3,5 bilhão na MediaTek, expandindo parceria para chips de IA personalizados para data centers, PCs e carros. Entenda o impacto dessa aliança.',
+    content: `
+      <h2>Uma Aposta Histórica na IA</h2>
+      <p>Em 31 de agosto de 2026, a NVIDIA anunciou seu maior investimento direto fora dos Estados Unidos: <strong>US$ 3,5 bilhão em conversíveis da MediaTek</strong>, a fabricante de semicondutores taiuesa. A notícia não é apenas sobre valores — é uma declaração de que a NVIDIA está construindo uma cadeia de suprimentos de IA mais diversificada, com foco em chips personalizados.</p>
+      <h2>O Que o Investimento Compromete</h2>
+      <p>O acordo envolve a compra de <em>convertible bonds</em> da MediaTek — um instrumento de dívida que pode ser convertido em ações. A investimento dá à NVIDIA uma participação significativa na empresa, sem assumir o controle operacional. Para a MediaTek, a notícia fez a <strong>ação subir 10%</strong> no primeiro dia de negociação após o anúncio.</p>
+      <h3>Parceria em Três Frentes</h3>
+      <p>A aliança entre NVIDIA e MediaTek vai além do financiamento. As duas empresas confirmaram colaboração em três áreas-chave:</p>
+      <ul>
+        <li><strong>Data centers:</strong> Chips de IA personalizados para servidores de alta performance</li>
+        <li><strong>PCs:</strong> Processadores e aceleradores para a próxima geração de PCs com IA</li>
+        <li><strong>Automotivo:</strong> Soluções de IA para veículos autônomos e assistência avançada ao condutor</li>
+      </ul>
+      <h2>Como Isso Funciona?</h2>
+      <p>A NVIDIA aporta sua expertise em <strong>Tensor Cores e software CUDA</strong>, enquanto a MediaTek contribui com sua experiência em <strong>design de chips ARM e fabricação em escala</strong>. O modelo combina a liderança da NVIDIA em IA com a capacidade da MediaTek de produzir chips de baixo custo e alta eficiência energética.</p>
+      <h2>Por Que Isso Importa?</h2>
+      <p>Esse investimento reflete um desvio de estratégia na NVIDIA. Em vez de depender exclusivamente de TSMC e Samsung para produção, a empresa agora tem um parceiro direto na cadeia de valor. Para consumidores, isso pode significar <strong>chips de IA mais acessíveis</strong> — especialmente em PCs e dispositivos móveis.</p>
+      <h2>Limitações e Riscos</h2>
+      <p>A parceria também levanta questões geopolíticas. A MediaTek opera em Taiwan, e a NVIDIA tem enfrentado restrições de exportação para a China. Além disso, a dependência de ARMv9 da MediaTek pode limitar a portabilidade de software tradicional baseado em x86.</p>
+      <p>Em termos de execução, não está claro quando os primeiros produtos dessa parceria chegarão ao mercado. A NVIDIA estima que chips personalizados para data centers estarão em amostras já no final de 2026, mas PCs e soluções automotivas podem levar mais tempo.</p>
+      <h2>Contexto do Mercado</h2>
+      <p>O investimento da NVIDIA na MediaTek entra num cenário de intensa competição por posição na cadeia de suprimentos de IA. AMD, Intel e até Apple estão desenvolvendo chips próprios. Para a NVIDIA, a parceria com a MediaTek é, em parte, uma <strong>resposta à escassez de capacidade de fabricação</strong> — especialmente de memória HBM e GDDR7, que tem sido absorvida pelas demandas de data centers.</p>
+      <h2>O Que Esperar daqui para Frente</h2>
+      <p>Analistas esperam que os primeiros resultados concretos dessa parceria apareçam em 2027, com chips personalizados para data centers e possivelmente um novo chip de referência para PCs NVIDIA + MediaTek. A promessa é que a combinação de IA da NVIDIA e eficiência da MediaTek abra caminho para <strong>produtos mais acessíveis sem perder performance</strong>.</p>
+      <h2>Conclusão</h2>
+      <p>Com US$ 3,5 bilhões investidos, a NVIDIA não só aposta no futuro da IA, mas também na diversificação de sua base de fabricação. A parceria com a MediaTek é uma jogada estratégica para garantir que a NVIDIA continue dominando a IA — mesmo quando os gargalos de suprimento ameaçam a indústria como um todo.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['NVIDIA', 'MediaTek', 'investimento', 'chips de IA', 'semicondutores'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?chips,semiconductor,technology',
+    imageAlt: 'Close de chips semicondutor com circuitos integrados iluminados',
+    sources: [
+      {
+        title: 'Reuters - Nvidia to invest $3.5 billion in chipmaker MediaTek',
+        url: 'https://www.reuters.com/technology/nvidia-invest-mediaTek-3-5-billion-ai-chip-partnership-idUSKBN5Z0NP',
+        type: 'journal'
+      },
+      {
+        title: 'NVIDIA Newsroom',
+        url: 'https://nvidianews.nvidia.com',
+        type: 'company'
+      },
+      {
+        title: 'Blockonomi - Nvidia Invests $3.5 Billion in MediaTek',
+        url: 'https://blockhead.io/news/nvidia-mediatek-investment',
+        type: 'publication'
+      }
+    ]
+  },
+    {
+    id: '35',
+    slug: 'rtx-5090-por-que-esta-tao-cara',
+    title: 'RTX 5090 Dispara de Preço: Por Que as Placas de Vídeo Topo de Linha Ficaram Tão Caras?',
+    excerpt: 'A RTX 5090, que custava US$ 1.999 no lançamento, agora custa mais de US$ 5.000 no varejo. Entenda por que a alta demanda por GPUs para data centers de IA está esmagando o mercado de consumo.',
+    content: `
+      <h2>Do Sonho ao Pesadelo: O Preço que Dobrou</h2>
+      <p>Quando a NVIDIA lançou a GeForce RTX 5090 em meados de 2025, o preço de lista oficial era de <strong>US$ 1.999</strong>. Ainda assim, já considerada cara, a placa era a escolha dos jogadores que queriam o melhor desempenho em resoluções 4K e 8K. Hoje, em setembro de 2026, o <strong>preço mais barato disponível no varejo ultrapassou os US$ 5.000</strong> — mais de 2,5 vezes o MSRP original.</p>
+
+      <h2>Por Que a RTX 5090 Disparou?</h2>
+      <p>O principal culpado é a <strong>disputa por memória GDDR7 entre GPUs de consumo e data centers de IA</strong>. Segundo a IDC, Samsung, SK Hynix e Micron vêm direcionando a maior parte da produção de GDDR7 aos servidores de IA — onde cada chip pode render dezenas de milhares de dólares. Com a oferta de memória encolhendo, os fabricantes de placas aumentaram os preços nas prateleiras.</p>
+
+      <p>Em agosto de 2026, duas grandes parceiras da NVIDIA — <strong>ASUS e Galax</strong> — anunciaram aumentos de até US$ 74 nas versões RTX 5070, 5070 Ti e 5080. A justificativa oficial foi "presão na cadeia de suprimentos". Mas a RTX 5090, como topo de linha, sofreu o impacto mais visível: alguns modelos chegaram a US$ 5.090 na Caltech.</p>
+
+      <h3>Concorrência e Escassez</h3>
+      <p>No mercado paralelo, o problema se agrava. Placas de vídeo RTX 5090 continuam sendo compradas por mineradores e farmacêuticos — setores que pagam em dinheiro-vivo e não negociam com preços de lista. Com a demanda excedente, o varejo mantém preços em alta.</p>
+
+      <h2>Como Isso Funciona no Mercado?</h2>
+      <p>Os preços das GPUs seguem uma lógica de oferta e demanda. Enquanto a NVIDIA foca em vender para data centers — onde margens são 3 a 5 vezes maiores — as GPUs de consumo viram alvos de especulação. Durante o QuakeCon 2026, a NVIDIA vendeu diretamente unidades Founders Edition por US$ 1.999, mas foram esgotadas em minutos — evidenciando que o "preço justo" ainda existe, mas é inacessível para a maioria.</p>
+
+      <h2>Por Que Isso Importa?</h2>
+      <p>Para jogadores, a crise significa que <strong>um upgrade de geração pode ficar 3x mais caro que o esperado</strong>. Para criadores de conteúdo, a espera por ofertas é cada vez maior. E para o mercado de PCs gamers como um todo, a alta dos preços empurra usuários para soluções mais antigas ou alternativas como consoles.</p>
+
+      <h2>Limitações e Alternativas</h2>
+      <p>É importante notar que não toda a culpa é da NVIDIA. A alta também reflete a <strong>escassez global de semicondutores</strong> e a volatilidade dos preços de commodities como ouro e prata — usados nas soldas de chips. Para quem não pode pagar US$ 5.000, a AMD Radeon RX 9090 e a RTX 5080 (ainda que sobrelotadas) são alternativas mais acessíveis — mas também subiram de preço.</p>
+
+      <h2>Contexto do Mercado</h2>
+      <p>Desde o início da “<em>AI boom</em>” em 2024, as GPUs para jogos viraram vítimas colaterais. Em 2025, placas RTX 4090 chegaram a US$ 3.200. Hoje, a tendência é de <strong>aumento de até 30% nos preços no continente asiático</strong>, segundo relatos da Coreia do Sul. O mercado global estima que os preços só voltarão a níveis normais se a demanda por IA para data centers estabilizar ou se a oferta de semicondutores recuperar.</p>
+
+      <h2>O Que Esperar daqui para Frente</h2>
+      <p>A NVIDIA não comentou sobre novos cortes de preço. No entanto, analistas esperam que a RTX 5090 "Super" — uma versão refresh com memória otimizada — possa chegar em 2027, trazendo alívio temporário. Até lá, os jogadores devem seguir esperando por promoções periódicas e eventos como o Black Friday para tentar garantir preços mais próximos do MSRP.</p>
+
+      <h2>Conclusão</h2>
+      <p>A história da RTX 5090 é uma lição de economia: quando uma tecnologia se torna estratégica em escala global, o consumo individual paga o preço. Enquanto a IA domina as notícias, os jogadores esperam por um sopro de ar fresco no mercado de hardware.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['RTX 5090', 'NVIDIA', 'GPU', 'hardware', 'IA'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?graphics-card,computer-hardware',
+    imageAlt: 'Placa de vídeo NVIDIA RTX 5090 com iluminação RGB em setup gamer',
+    sources: [
+      {
+        title: 'Tom\'s Hardware - Nvidia\'s top-end RTX 5090 gaming GPU now costs at least $5,000',
+        url: 'https://www.tomshardware.com',
+        type: 'publication'
+      },
+      {
+        title: 'Club386 - Regular Nvidia GeForce RTX 5090 cards sail beyond $5,090',
+        url: 'https://www.club386.com',
+        type: 'publication'
+      },
+      {
+        title: 'TweakTown - Your next Nvidia GPU could cost up to 30% more',
+        url: 'https://www.tweaktown.com',
+        type: 'publication'
+      }
+    ]
+  },
+    {
+    id: '36',
+    slug: 'pcs-gamers-viram-maquinas-de-ia',
+    title: 'PCs Gamers Podem Virar Máquinas de IA: A Nova Ideia que Aproveita GPUs Ociosas',
+    excerpt: 'Usuários estão descobrindo que PCs gamers podem rodar modelos de IA localmente, aproveitando o poder de GPUs RTX ociosas. Entenda como essa convergência entre jogos e IA está mudando o mercado.',
+    content: `
+      <h2>Do Gaming para a Inteligência Artificial</h2>
+      <p>PCs montados para rodar jogos em 4K estão sendo repurposados para uma nova missão: <strong>executar modelos de IA localmente</strong>. Desde meados de 2025, uma onda de desenvolvedores e entusiastas descobriu que GPUs gamer — especialmente RTX 4090s e RTX 5090s — podem processar modelos de linguagem de grande porte (LLMs) sem precisar de servidores em nuvem.</p>
+
+      <h2>O Que os Usuários Estão Fazendo?</h2>
+      <p>O fenômeno cresceu de duas formas:</p>
+      <ul>
+        <li><strong>Computação distribuída:</strong> Plataformas pagam usuários por tempo ociado de GPU para processar tarefas de IA de terceiros.</li>
+        <li><strong>Desenvolvimento local:</strong> Programadores usam suas máquinas para rodar modelos como LLaMA, Phi-3 e Mistral diretamente na estação de trabalho.</li>
+      </ul>
+      <p>Curiosamente, <strong>GPUs antigas com 24 GB de VRAM estão superando modelos mais recentes</strong> em eficiência para algumas tarefas de inference — algo que chocou a comunidade hardware.</p>
+
+      <h3>Como Funciona?</h3>
+      <p>A lógica é simples: enquanto você joga ou trabalha, sua GPU fica parcialmente ociosa. Softwares como <em>NVIDIA AI Enterprise</em> e <em>Ollama</em> permitem que essa capacidade seja direcionada a carregar modelos de IA. Como os LLMs não exigem renderização em tempo real, até uma RTX 3060 pode rodar modelos de 7 bilhões de parâmetros com qualidade razoável.</p>
+
+      <h2>Por Que Isso Importa?</h2>
+      <p>Essa convergência tem dois grandes impactos:</p>
+      <ul>
+        <li><strong>Acesso democratizado à IA:</strong> Qualquer um com um PC gamer pode experimentar IA local sem pagar por API.</li>
+        <li><strong>Redução de custos:</strong> Empresas emergentes usam GPUs ocias para oferecer inferência de IA a preços 30-40% menores que servidores em nuvem.</li>
+      </ul>
+      <p>Em 2026, startups como <em>General Compute</em> já fecharam contratos de US$ 400 milhões usando chips de inferência como garantia — evidenciando o valor que o mercado atribui a GPUs ocias.</p>
+
+      <h2>A Resposta da Microsoft: Surface RTX Spark</h2>
+      <p>Em agosto de 2026, a Microsoft entrou com força nessa tendência ao lançar o <strong>Surface RTX Spark Dev Box</strong> — um desktop compacto com GPU RTX exclusivamente para rodar modelos de IA localmente. O dispositivo promete <strong>zero custos de nuvem</strong>, atraindo desenvolvedores que desejam testar modelos sem abrir mão da privacidade.</p>
+
+      <h2>Limitações e Desafios</h2>
+      <p>Não é tudo perfeito. Primeiro, <strong>a VRAM ainda é o maior limitador</strong>: modelos grandes não cabem em GPUs com 8 GB. Segundo, o compartilhamento de GPU entre jogos e IA pode causar <strong>quedas de taxa de quadros inesperadas</strong>. E terceiro, o calor e o consumo de energia aumentam — especialmente quando o modelo roda por horas.</p>
+      <p>Além disso, a maioria dos modelos de IA otimizados para inference exige <strong>Tensor Cores</strong> específicos — o que exclui muitas GPUs AMD Radeon de usar nessa vaga, limitando o potencial de expansão.</p>
+
+      <h2>Contexto do Mercado</h2>
+      <p>O movimento também chegou a voces de IA como Perplexity, que lançou o <em>Portable Computer</em> — um mini-PC com RTX 5090 Mobile que roda modelos de IA localmente com desempenho comparável a servidores de entry-level. Enquanto isso, analistas projetam que o mercado de "GPU sharing" atinja US$ 5 bilhões em 2027.</p>
+
+      <h2>O Que Esperar daqui para Frente</h2>
+      <p>Com a NVIDIA e a AMD lançando GPUs com mais VRAM e <em>AI Accelerators</em> dedicados, o futuro do "gaming + AI" parece promissor. Para 2027, espera-se que o sistema operacional ofereça gerenciamento automático de recursos entre jogos e IA — algo que hoje exige configuração manual.</p>
+
+      <h2>Conclusão</h2>
+      <p>PCs gamers estão se tornando estações de trabalho para IA de baixo custo. A convergência entre jogos e inteligência artificial não é mais teoria — é realidade, e está ocorrendo agora mesmo na configuração que você tem em casa.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['PC gamer', 'IA', 'GPU', 'inference', 'hardware'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?computer-setup,gaming-pc',
+    imageAlt: 'Setup de PC gamer com múltiplas GPUs e iluminação RGB em ambiente escuro',
+    sources: [
+      {
+        title: 'XDA Developers - Old Nvidia GPUs with 24GB VRAM crush AI inference',
+        url: 'https://www.xda-developers.com/old-nvidia-gpus-24gb-vram-ai-inference',
+        type: 'publication'
+      },
+      {
+        title: 'VentureBeat - Microsoft debuts Surface RTX Spark Dev Box',
+        url: 'https://venturebeat.com/microsoft-surface-rtx-spark-dev-box-ai',
+        type: 'publication'
+      },
+      {
+        title: 'TechCrunch - General Compute GPU-backed loan',
+        url: 'https://techcrunch.com/general-compute-gpu-backed-loan',
+        type: 'publication'
+      }
+    ]
+  },
+    {
+    id: '37',
+    slug: 'monitores-oled-gamers-nova-geracao',
+    title: 'Nova Geração de Monitores OLED para Gamers: 4K, Alta Taxa e Velocidade Extrema',
+    excerpt: 'Samsung, ASUS e LG lançam monitores OLED com 4K a 240Hz, 500Hz e até 1100Hz. Entenda como a nova geração de painéis está redefinindo a experiência de jogo.',
+    content: `
+      <h2>A Revolução OLED Chegou aos Gamers</h2>
+      <p>Entre agosto e setembro de 2026, a indústria de monitores gamer vive sua <strong>maior renovação em anos</strong>. Em eventos como a gamescom 2026 e o IMID 2026, Samsung, ASUS e LG revelaram painéis OLED e QD-OLED que desafiam os limites teóricos de taxa de atualização, tempo de resposta e qualidade de imagem.</p>
+      <h2>O Que os Novos Monitores Oferecem?</h2>
+      <p>A novidade mais impactante é a <strong>linha Samsung Odyssey G8</strong>, que inclui dois modelos:</p>
+      <ul>
+        <li><strong>Odyssey G8 6K:</strong> 32 polegadas, resolução 6K (5120x2160), 240 Hz, compatibilidade com NVIDIA G-SYNC</li>
+        <li><strong>Odyssey OLED G8:</strong> Painel OLED com 0,03 ms de tempo de resposta e 360 Hz de taxa de atualização</li>
+      </ul>
+      <p>A Samsung também apresentou o <strong>painel OLED de 300 Hz para laptops</strong> no IMID 2026 — o mais rápido do mundo em seu formato. E no universo de taxa extrema, a <strong>LG anunciou um monitor de 1000 Hz</strong>, enquanto Samsung mostrou um modelo de <strong>1100 Hz</strong> em demonstração durante a gamescom.</p>
+      <h3>ASUS Republic of Gamers também entra na onda</h3>
+      <p>A ASUS revelou dois modelos da linha ROG:</p>
+      <ul>
+        <li><strong>Swift OLED PG27UCDM:</strong> 27 polegadas, 4K, 240 Hz — foco em qualidade de imagem</li>
+        <li><strong>Strix OLED XG27AQDPG:</strong> 27 polegadas, OLED, <strong>500 Hz</strong> e <strong>0,03 ms</strong> de tempo de resposta — o OLED mais rápido do mundo</li>
+      </ul>
+      <h2>Como o OLED Muda o Jogo?</h2>
+      <p>Os monitores LCD tradicionais iluminam pixels através de um fundo (backlight). Já os OLEDs <strong>controlam a luz de cada pixel individualmente</strong> — apagando-os por completo para produzir preto absoluto. Isso resulta em contrastes infinitos, tempos de resposta praticamente instantâneos e ângulos de visão impecáveis.</p>
+      <p>Em jogos de terror ou noites espaciais, por exemplo, o preto verdadeiro dos OLEDs cria imersão que nenhum LCD consegue replicar. E com taxas de atualização ultrapassando 240 Hz, o input lag torna-se praticamente imperceptível.</p>
+      <h2>Por Que Isso Importa?</h2>
+      <p>Para jogadores competitivos, cada milissegundo conta. Um monitor de 500 Hz pode processar 500 quadros por segundo — três vezes mais que o humano consegue distinguir visualmente, mas o suficiente para reduzir atrasos críticos em eSports. Para consumidores de entretenimento, a combinação de 4K + OLED + alta taxa de atualização oferece uma experiência cinematográfica em casa.</p>
+      <h2>Limitações e Considerações</h2>
+      <p>Apesar do potencial, <strong>o OLED ainda enfrenta questões de burn-in</strong> — marcas permanentes quando imagens estáticas ficam expostas por longos períodos. A Samsung incluiu tecnologias de mitigação como <em>Pixel Refresh</em> e <em>Motion Enhancer</em>, mas o risco persiste.</p>
+      <p>O preço também é um obstáculo. O Odyssey G8 6K custa cerca de <strong>R$ 7.999 no Brasil</strong>, e o Strix OLED XG27AQDPG chega a <strong>R$ 11.000</strong>. Para muitos, o investimento ainda não compensa um upgrade de GPU.</p>
+      <h2>Contexto do Mercado</h2>
+      <p>Em 2026, os monitores OLED deixaram de ser premium para se tornar padrão em laptops premium — especialmente após a Samsung lançar seu painel de 300 Hz para notebooks. No desktop, a competição entre Samsung, LG e ASUS estimula inovações como <strong>painéis curvos de 21:9</strong> e <strong>tecnologia mini-LED híbrida</strong>.</p>
+      <h2>Conclusão</h2>
+      <p>Os novos monitores OLED para gamers não são apenas uma evolução — são uma revolução. Com taxas de atualização extremas, preto verdadeiro e tempos de resposta ultrarrápidos, eles redefinem o que é possível em um display. Ainda assim, o preço e a preocupação com burn-in mantêm-nos fora do alcance da maioria.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['monitores OLED', 'gaming', '4K', 'taxa de atualização', 'OLED'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?monitor,gaming-setup',
+    imageAlt: 'Monitores OLED gamers com jogo em execução e iluminação ambiente',
+    sources: [
+      {
+        title: 'Samsung - Odyssey G8 6K Monitor Announcement',
+        url: 'https://www.samsung.com/odyssey-g8-6k',
+        type: 'company'
+      },
+      {
+        title: 'Tom\'s Hardware - NVIDIA G-SYNC Compatible Samsung Monitors',
+        url: 'https://www.tomshardware.com',
+        type: 'publication'
+      },
+      {
+        title: 'MSI - Odyssey OLED G8 Pricing Announcement',
+        url: 'https://www.msi.com',
+        type: 'company'
+      }
+    ]
+  },
+    {
+    id: '38',
+    slug: 'samsung-hbm-proxima-geracao',
+    title: 'Samsung Prepara Nova Geração de Memória HBM com Computação Integrada',
+    excerpt: 'Samsung anuncia HBM5, zHBM e a estratégia CUBE no FMS 2026. Entenda como a nova geração de memória HBM pode acelerar IA e data centers.',
+    content: `
+      <h2>Memória de Alto Desempenho para a Era da IA</h2>
+      <p>Em agosto de 2026, durante o Future of Memory and Storage (FMS 2026) em Santa Clara, a Samsung revelou sua visão mais ambiciosa para memória de alta largura de banda (HBM). Com a <strong>estratégia CUBE</strong>, a empresa apresentou HBM5, zHBM e novas técnicas de empacotamento que prometem <strong>dobrar a velocidade</strong> da geração anterior.</p>
+
+      <h2>O Que é HBM5?</h2>
+      <p><strong>HBM5</strong> é a próxima evolução da tecnologia de memória empilhada da Samsung. Em relação ao HBM4E, o HBM5 oferece:</p>
+      <ul>
+        <li><strong>2x mais largura de banda</strong> em comparação ao HBM4E</li>
+        <li><strong>20% melhor eficiência energética</strong></li>
+        <li><strong>20% menos calor gerado</strong></li>
+        <li>Processo de fabricação de <strong>2 nanômetros</strong> no die base, aumentando a velocidade em até 50%</li>
+      </ul>
+      <p>A Samsung já atingiu <strong>80% de yield</strong> em sua produção de HBM4 — um salto do <strong>60%</strong> registrado em fevereiro de 2026. As vendas do HBM4 ultrapassaram <strong>US$ 1 bilhão</strong> em apenas quatro meses.</p>
+
+      <h2>zHBM: O Passo Seguinte</h2>
+      <p>A Samsung também apresentou o <strong>zHBM</strong> — um conceito de memória 3D que coloca a memória diretamente sobre o chip de processamento. Segundo a empresa, o zHBM oferece até <strong>8x mais velocidade do que o HBM5</strong>, graças à redução drástica da distância entre CPU/GPU e memória.</p>
+      <p>O conceito ainda está em fase de pesquisa, mas a Samsung já demonstrou protótipos funcionais. A ideia é que, no futuro, <strong>a memória e o chip de IA possam ser um único pacote</strong> — eliminando gargalos de I/O que hoje limitam data centers.</p>
+
+      <h3>Estratégia CUBE: Lógica-Memória Integrada</h3>
+      <p>A estratégia CUBE (Compute Under Bumped memory Expanded) redefine como a lógica e a memória são posicionadas. Em vez de empilhar memória acima da lógica — como fazem os concorrentes — a Samsung propõe <strong>intercalar</strong> blocos de memória entre camadas de lógica, reduzindo a latência de acesso em até 40%.</p>
+
+      <h2>Por Que Isso Importa?</h2>
+      <p>Em data centers de IA, <strong>memória HBM é o maior gargalo</strong>. Modelos como o GPT-6 ou Claude 5 precisam carregar bilhões de parâmetros em memória de alta velocidade — e a velocidade de acesso afeta diretamente a latência de resposta. Com HBM5 e zHBM, a Samsung aposta em manter a liderança diante da SK Hynix e da Micron.</p>
+
+      <h2>Contexto do Mercado</h2>
+      <p>A Samsung já comercializa HBM4 para servidores da AMD e tem <strong>70% da produção de memória comprometida</strong> em contratos de longo prazo — válidos até 2031. Essa posição dá à Samsung uma vantagem estratégica, mas também a expõe a riscos de volatilidade nos preços de commodities.</p>
+
+      <h2>O Que Esperar daqui para Frente</h2>
+      <p>HBM5 deve chegar a data centers em 2027. O zHBM permanecerá em protótipos por mais dois anos. A Samsung também assinou um acordo de US$ 200 bilhões com a Broadcom, abrangendo HBM, fabricação em 2nm e embalagem avançada.</p>
+
+      <h2>Conclusão</h2>
+      <p>Com HBM5, zHBM e a estratégia CUBE, a Samsung está apostando que a integração entre lógica e memória é o próximo grande salto na indústria de semicondutores. Enquanto a corrida pela IA esquenta, a memória de alta largura de banda deixou de ser um componente — e se tornou o coração de cada data center.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['Samsung', 'HBM', 'memória', 'IA', 'data center'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-31',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?memory-chip,technology',
+    imageAlt: 'Close de chips de memória HBM empilhados com iluminação azul',
+    sources: [
+      {
+        title: 'Samsung - FMS 2026 Next-Gen 3D-Memory Vision',
+        url: 'https://www.samsung.com/samsung-fms-2026',
+        type: 'company'
+      },
+      {
+        title: 'Hot Hardware - Samsung zHBM 3D Memory Concept',
+        url: 'https://www.hothardware.com/samsung-zhbm-3d-memory',
+        type: 'publication'
+      },
+      {
+        title: 'Business Wire - Samsung Unveils Next-Gen 3D-Memory Vision',
+        url: 'https://www.businesswire.com',
+        type: 'agency'
+      }
+    ]
+  },
+    {
+    id: '39',
+    slug: 'instagram-regras-para-perfis-de-ia',
+    title: 'Instagram Aperta as Regras para Perfis Criados com Inteligência Artificial',
+    excerpt: 'Instagram está reforçando a transparência exigindo que perfis com IAs sejam claramente rotulados. Entenda as novas regras e como elas afetam influenciadores digitais.',
+    content: `
+      <h2>Transparência para Perfis de IA</h2>
+      <p>Em setembro de 2026, o Instagram implementou uma regra que mexe diretamente com a identidade digital: <strong>toda conta que apresente uma persona criada por IA deve ser claramente rotulada</strong>. A plataforma está substituindo o antigo selo "AI creator" pelo novo <strong>"AI-generated profile"</strong>, aplicado a posts, Reels e Stories.</p>
+
+      <h2>O Que Mudou nas Regras?</h2>
+      <p>Até agora, o Instagram usava o selo "AI creator" para marcar contas que geravam conteúdo com inteligência artificial. Com a atualização, esse selo foi renomeado para <em>"AI-generated profile"</em> — uma nomenclatura mais explícita queixa: "perfil gerado por IA", e não apenas "criador de IA".</p>
+      <p>Mais importante, a plataforma <strong>pode limitar o alcance</strong> de contas que não adotarem o selo voluntariamente. Influenciadores digitais que usam IAs para gerar imagens, vídeos ou respostas sem identificação clara correm o risco de serem <em>desindexados</em> ou ter seu conteúdo reduzido na aba Explorar.</p>
+
+      <h3>Como o Selo Aparece?</h3>
+      <p>O selo "AI-generated profile" aparece como uma etiqueta discreta sobre a bio da conta e também em cada publicação. Usuários que navegam pelo app verão um aviso: <em>“Este perfil inclui uma personalidade criada por inteligência artificial”</em>. Clique para ver mais detalhes sobre como o conteúdo é gerado.</p>
+
+      <h2>Por Que Isso Importa?</h2>
+      <p>A linha entre humanos e IAs virtuais tem se apagado. Personagens como <em>Lil Miquela</em>, <em>Shudu</em> e centenas de clones digitais têm milhões de seguidores — muitos dos quais não sabem que se relacionam com uma criação algorítmica.</p>
+      <p>A nova política busca <strong>restaurar a confiança dos usuários</strong>, especialmente em um momento em que IAs podem ser usadas para desinformação, engenharia social ou até manipulação emocional em escala.</p>
+
+      <h2>Como Funciona a Identificação?</h2>
+      <p>O Instagram não revelou os mecanismos exatos de detecção de perfis de IA. Mas especialistas acreditam que a plataforma usa uma combinação de análise de padrões de postagem, metadados de imagens e <strong>assinaturas de geração de IA</strong> (como marcas d'água invisíveis) para identificar contas não-humanas. Perfis que não se rotulam voluntarymente podem ter o selo aplicado automaticamente.</p>
+
+      <h2>Limitações e Controvérsias</h2>
+      <p>Críticos da política argumentam que a detecção automatizada de IAs pode <strong>errar por excesso</strong> — marcar falsamente contas humanas como geradas por IA, especialmente artistas digitais ou modelos que usam filtros avançados.</p>
+      <p>Outro ponto é que a política <strong>não se aplica a conteúdos gerados por IA compartilhados por humanos</strong> — apenas a perfis cuja identidade representa uma entidade de IA. Isso deixa um espaço cinza para criadores que postam artes geradas por IA sem identificar o perfil como "de IA".</p>
+
+      <h2>Contexto do Mercado</h2>
+      <p>O Instagram é a quinta maior plataforma social do mundo, com mais de 2 bilhões de usuários ativos. Em 2025, influenciadores digitais baseados em IA já moviam bilhões em receita publicitária. Com a onda de regulamentações sobre conteúdo gerado por IA — incluindo a UE e a Califórnia — o Instagram lidera as grandes plataformas em adotar regras de transparência.</p>
+
+      <h2>O Que Esperar daqui para Frente</h2>
+      <p>Outras plataformas da Meta — incluindo Facebook e Threads — devem seguir a mesma linha. Especialistas prevêm que, até 2027, <strong>toda grande plataforma social exigirá rotulagem obrigatória para perfis de IA</strong>. Para criadores, o desafio será adaptar-se: ou se identificar como humano, ou se posicionar como uma "personalidade de IA" de forma transparente.</p>
+
+      <h2>Conclusão</h2>
+      <p>Instagram está traçando uma linha clara: não há espaço para ambiguidade entre humanos e IAs. A nova política de rotulagem é mais do que uma atualização de termos — é um reconhecimento de que a era das personalidades digitais exige regras de identidade.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['Instagram', 'IA', 'perfis', 'regras', 'Meta'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?social-media,phone',
+    imageAlt: 'Pessoa segurando smartphone com interface do Instagram e posts de IA visíveis',
+    sources: [
+      {
+        title: 'Instagram - AI-Generated Profile Labels FAQ',
+        url: 'https://help.instagram.com/ai-generated-profile-labels',
+        type: 'company'
+      },
+      {
+        title: 'Techlomedia - Instagram Will Limit Reach of Undisclosed AI-Generated Profiles',
+        url: 'https://www.techlomedia.in/news/instagram-ai-profile-labels',
+        type: 'publication'
+      },
+      {
+        title: 'MediaNama - Meta to limit the reach of undisclosed AI-generated profiles',
+        url: 'https://www.medianama.com/2026/meta-instagram-ai-profiles',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '40',
+    slug: 'microsoft-365-instabilidade',
+    title: 'Microsoft 365 Enfrenta Instabilidade: O Que Aconteceu',
+    excerpt: 'Microsoft 365 teve interrupção generalizada em 31 de agosto de 2026, afetando Outlook, SharePoint e OneDrive.',
+    content: `
+      <h2>A Instabilidade de 31 de Agosto</h2>
+      <p>Na manhã de <strong>31 de agosto de 2026</strong>, milhões de usuários do Microsoft 365 ao redor do mundo começaram a relatar falhas. Outlook deixou de sincronizar, SharePoint apresentava erros de carregamento e o Defender deixou de atualizar — tudo em um cenário de <strong>instabilidade generalizada</strong> que durou mais de 12 horas.</p>
+
+      <h2>O Que Parou de Funcionar?</h2>
+      <p>Segundo o <em>Downdetector</em>, o pico de reclamações ocorreu entre 14h e 18h (horário de Brasília), com mais de <strong>15.000 incidentes reportados</strong>. Os serviços mais afetados:</p>
+      <ul>
+        <li><strong>Outlook:</strong> usuários não conseguiam enviar ou receber e-mails</li>
+        <li><strong>SharePoint Online:</strong> documentos travavam durante carregamento</li>
+        <li><strong>OneDrive:</strong> sincronização de arquivos interrompida</li>
+        <li><strong>Microsoft Defender:</strong> atualizações de segurança pausadas</li>
+        <li><strong>Busca em apps M365:</strong> função de busca no Word, Excel e PowerPoint parou</li>
+      </ul>
+
+      <h3>Causa Raiz</h3>
+      <p>A Microsoft não revelou detalhes técnicos completos, mas fontes indicam que o problema foi causado por uma <strong>atualização de backend de autenticação</strong> implantada naquela manhã. A atualização interagiu de forma inesperada com os serviços de tokenização.</p>
+
+      <h2>Recuperação</h2>
+      <p>A equipe de engenharia ampliou os esforços após 18h. Segundo o comunicado oficial, <strong>o fluxo de e-mails começou a recuperar gradativamente</strong> na segunda-feira (2 de setembro), mas alguns usuários continuaram com instabilidades intermitentes.</p>
+
+      <h2>Por Que Isso Importa?</h2>
+      <p>Com mais de <strong>300 milhões de usuários ativos</strong>, uma interrupção dura horas pode paralisar empresas inteiras. Em 2025, a Microsoft calculou que 28 horas de inatividade em uma região custam, em média, US$ 100 milhões em perdas produtivas. Além do impacto financeiro, a instabilidade <strong>afeta a confiança dos usuários</strong>.</p>
+
+      <h2>Lições</h2>
+      <p>Usuários relataram que <strong>mensagens enviadas durante o período foram rejeitadas silenciosamente</strong>, exigindo reenvio. O <strong>Defender também foi afetado</strong>, deixando dispositivos temporariamente sem proteção em tempo real — uma janela crítica em meio a ameaças cibernéticas em ascensão.</p>
+
+      <h2>Contexto do Mercado</h2>
+      <p>Esta é a maior instabilidade do Microsoft 365 desde junho de 2026. Com a competição do Google Workspace apertando, <strong>confiabilidade continua sendo o fator decisivo na retenção de assinantes corporativos</strong>.</p>
+
+      <h2>O Que Fazer</h2>
+      <ul>
+        <li>Verifique se há e-mails não entregues e reenvie se necessário</li>
+        <li>Confirme se os arquivos do OneDrive sincronizaram corretamente</li>
+        <li>Reinicie o Outlook e outros apps do M365 para forçar nova autenticação</li>
+        <li>Acompanhe o status oficial: <a href="https://status.microsoft.com">status.microsoft.com</a></li>
+      </ul>
+
+      <h2>Conclusão</h2>
+      <p>A instabilidade reforça um alerta: mesmo os maiores provedores de nuvem podem sofrer falhas cascata. Em um mundo onde o Microsoft 365 é infraestrutura crítica, <strong>resiliência e transparência não são opcionais</strong>.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['Microsoft 365', 'Outlook', 'outage', 'instabilidade', 'produtividade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?office,computer-work',
+    imageAlt: 'Escritório moderno com computadores e telas mostrando aplicativos do Microsoft 365',
+    sources: [
+      {
+        title: 'Bleeping Computer - Microsoft confirms outage affecting search in M365 apps',
+        url: 'https://www.bleepingcomputer.com/news/microsoft/microsoft-365-search-outage-august-2026',
+        type: 'publication'
+      },
+      {
+        title: 'PCQuest on MSN - Microsoft Outlook coming back online but outage not over',
+        url: 'https://www.msn.com/en-us/news/technology/microsoft-outlook-outage-august-31-2026',
+        type: 'publication'
+      },
+      {
+        title: 'Microsoft 365 Service Status',
+        url: 'https://status.microsoft.com',
         type: 'company'
       }
     ]
