@@ -2643,5 +2643,996 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'company'
       }
     ]
+  },
+  {
+    id: '41',
+    slug: 'telescopio-especial-roman-nova-era-observacao',
+    title: 'Telescópio Espacial Roman: A Nova Era de Observação do Universo',
+    excerpt: 'O Telescópio Espacial Romano Nancy Grace, substituto do Hubble, está prestes a revolucionar nossa visão do cosmos. Entenda o que ele investigará quando for lançado.',
+    content: `
+      <h2>O Legado do Hubble Ganha um Sucessor</h2>
+      <p>Enquanto o <strong>Telescópio Espacial James Webb</strong> se consolidou como o grande instrumento da década para o infravermelho, a NASA prepara um novo olhar sobre o universo visível: o Telescópio Romano Nancy Grace, batizado em homenagem à primeira chefe de astronomia da NASA.</p>
+
+      <h2>O Que o Roman Vai Estudar?</h2>
+      <p>Diferente do JWST, focado em galáxias extremamente distantes, o Roman terá um <strong>campo de visão centenas de vezes maior</strong>. Isso o torna ideal para dois objetivos centrais:</p>
+      <ul>
+        <li><strong>Energia escura:</strong> mapear a expansão acelerada do universo observando milhões de supernovas</li>
+        <li><strong>Planetas extrassolares:</strong> usar microlente gravitacional para encontrar mundos que outros métodos não detectam</li>
+      </ul>
+
+      <h2>Microlente Gravitacional: Como Encontrar Planetas "Invisíveis"</h2>
+      <p>A técnica de microlente explora o efeito de distorção da luz previsto pela <strong>relatividade geral</strong>. Quando um planeta passa na frente de uma estrela distante, sua gravidade curva e amplifica a luz — revelando inclusões invisíveis a olho nu. O Roman deve descobrir milhares de novos exoplanetas por esse método.</p>
+
+      <h2>Por Que Isso Importa?</h2>
+      <p>Combinado ao JWST, o Roman permitirá que astrônomos conectem a descoberta de mundos distantes ao estudo detalhado de suas atmosferas. É um passo importante na busca por planetas que possam reunir condições semelhantes às da Terra.</p>
+
+      <h2>Contexto do Mercado e da Agenda Espacial</h2>
+      <p>Marcado para a janela de lançamento de <strong>2027</strong>, o Roman se soma a uma série de missões ambiciosas da NASA. A demora no cronograma foi amplamente debatida, mas a agência afirma que os instrumentos passaram por testes conclusivos no início de 2026.</p>
+
+      <h2>Conclusão</h2>
+      <p>O Roman não substitui o Webb — ele o complementa. Enquanto um enxerga o passado profundo do universo em infravermelho, o outro é o grande mapeador da expansão cósmica. Juntos, eles devem escrever o próximo capítulo da astronomia.</p>
+    `,
+    category: {
+      id: 'espaco',
+      slug: 'espaco',
+      name: 'Espaço',
+      description: 'Astronomia, NASA, planetas, estrelas e missões espaciais',
+      color: '#f59e0b'
+    },
+    tags: ['telescópio', 'NASA', 'exoplanetas', 'energia escura', 'astronomia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?telescope,space,astronomy',
+    imageAlt: 'Ilustração de telescópio espacial apontado para um céu estrelado',
+    sources: [
+      {
+        title: 'NASA - Nancy Grace Roman Space Telescope',
+        url: 'https://roman.gsfc.nasa.gov',
+        type: 'agency'
+      },
+      {
+        title: 'Space.com - Roman telescope microlensing exoplanet search',
+        url: 'https://www.space.com/roman-telescope-exoplanet-microlensing',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '42',
+    slug: 'artemis-caminho-de-volta-a-lua',
+    title: 'Artemis: O Caminho de Volta à Lua Passa por Grandes Desafios',
+    excerpt: 'O programa Artemis da NASA avança rumo à volta de humanos à Lua. Entre sucessos e atrasos, entenda o que esperar das próximas missões.',
+    content: `
+      <h2>O Retorno à Lua Após Mais de Meio Século</h2>
+      <p>O programa <strong>Artemis</strong> é a aposta da NASA para levar a primeira mulher e a primeira pessoa negra à superfície lunar — e estabelecer uma presença duradoura no polo sul do satélite. Após o sucesso das missões não tripuladas, a agência prepara os próximos passos do plano.</p>
+
+      <h2>Os Pilares do Programa</h2>
+      <ul>
+        <li><strong>Artemis III:</strong> primeira missão tripulada proposta para tocar a superfície lunar</li>
+        <li><strong>Gateway:</strong> estação orbital que servirá de porta de entrada para missões profundas</li>
+        <li><strong>LSDA:</strong> sistema de pouso para espaço profundo ainda em validação para o pouso final</li>
+      </ul>
+
+      <h2>Desafios Técnicos e Cronograma</h2>
+      <p>O maior desafio atual é o sistema de pouso lunar, que precisa ser validado antes do lançamento tripulado. Em 2026, a NASA e seus parceiros comerciais vêm relatando atrasos em testes de integração — alimentando <strong>especulações</strong> de que a primeira alunissagem prevista pode escorregar para a janela seguinte, embora a agência insista que segue no cronograma.</p>
+
+      <h2>Por Que o Polo Sul Lunar Importa?</h2>
+      <p>O polo sul lunar guarda <strong>gelo de água em crateras permanentemente sombreadas</strong>. Além de vital para sustentar astronautas, a água pode ser decomposta em hidrogênio e oxigênio — combustível e ar para missões mais profundas, como a ida a Marte.</p>
+
+      <h2>Contexto Internacional</h2>
+      <p>A corrida lunar voltou a aquecer. Diversos programas privados e agências internacionais anunciaram missões ao satélite nos próximos anos. Nesse cenário, o Artemis se torna não só um projeto científico, mas também estratégico, definindo regras de uso da órbita e do solo lunar.</p>
+
+      <h2>Conclusão</h2>
+      <p>A volta à Lua é um passo técnico gigantesco e também um ensaio para o sistema solar. Se o Artemis cumprir o papel de base lunar permanente, a humanidade dará o primeiro passo firme para se tornar uma espécie multiplanetária.</p>
+    `,
+    category: {
+      id: 'espaco',
+      slug: 'espaco',
+      name: 'Espaço',
+      description: 'Astronomia, NASA, planetas, estrelas e missões espaciais',
+      color: '#f59e0b'
+    },
+    tags: ['Artemis', 'NASA', 'Lua', 'exploração espacial', 'Gateway'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?moon,space,astronaut',
+    imageAlt: 'Astronauta caminhando na superfície lunar com a Terra ao fundo',
+    sources: [
+      {
+        title: 'NASA - Artemis Program',
+        url: 'https://www.nasa.gov/specials/artemis',
+        type: 'agency'
+      },
+      {
+        title: 'Ars Technica - Artemis timeline and landing system updates',
+        url: 'https://arstechnica.com/science/artemis-timeline-2026',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '43',
+    slug: 'ia-medicina-detecao-precoce-de-doencas',
+    title: 'IA na Medicina: O Avanço da Detecção Precoce de Doenças',
+    excerpt: 'Modelos de inteligência artificial vêm ajudando a identificar doenças em estágios iniciais. Entenda os avanços, os limites e as preocupações éticas dessa revolução na saúde.',
+    content: `
+      <h2>Um Novo Aliado no Consultório</h2>
+      <p>A inteligência artificial deixou de ser promessa para se tornar ferramenta cotidiana em hospitais e clínicas. Em 2026, <strong>modelos de visão computacional e de linguagem</strong> são usados para analisar exames de imagem, apoiar diagnósticos e até sugerir planos de tratamento — sempre com a supervisão de profissionais de saúde.</p>
+
+      <h2>Onde a IA Tem Ajudado Mais</h2>
+      <ul>
+        <li><strong>Radiologia:</strong> detecção de tumores e fraturas em raios-X, tomografias e ressonâncias</li>
+        <li><strong>Oftalmologia:</strong> triagem de doenças como retinopatia diabética por análise de retina</li>
+        <li><strong>Dermatologia:</strong> análise de lesões de pele para alertar sobre possíveis melanomas</li>
+        <li><strong>Oncologia:</strong> apoio na priorização de casos urgentes em exames de rastreio</li>
+      </ul>
+
+      <h2>Como Funciona por Trás dos Panos</h2>
+      <p>A maioria dos sistemas é treinada com <strong>grandes conjuntos de imagens e históricos clínicos anonimizados</strong>. Ao aprender padrões sutis, o modelo sinaliza achados que podem passar despercebidos ao olho humano — funcionando mais como um <em>segundo par de olhos</em> do que como um substituto do médico.</p>
+
+      <h2>Limitações e Preocupações Éticas</h2>
+      <p>Os avanços vêm acompanhados de alertas. Modelos treinados com dados viesados podem <strong>reproduzir desigualdades</strong>, como diagnosticar melhor pacientes de determinados grupos populacionais. Há também o risco de <strong>falsos positivos</strong>, que geram ansiedade e custos desnecessários, e dúvidas sobre responsabilidade legal em caso de erro.</p>
+
+      <h2>O Papel da Regulação</h2>
+      <p>Agências reguladoras começaram a criar fluxos específicos de aprovação para dispositivos baseados em IA. A meta é garantir que as ferramentas sejam <strong>seguras, transparentes e monitoradas</strong> após entrarem em uso — um debate ainda em evolução em escala global.</p>
+
+      <h2>Conclusão</h2>
+      <p>A IA na medicina não substitui o julgamento clínico humano, mas expande suas capacidades. O caminho mais promissor é o da colaboração: tecnologia para agilizar e ampliar o alcance, médicos para interpretar, decidir e cuidar. O desafio é garantir que essa parceria seja justa e segura para todos os pacientes.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['IA', 'medicina', 'saúde', 'diagnóstico', 'ética'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?healthcare,ai,medicine',
+    imageAlt: 'Médico analisando exames em tela com ajuda de sistemas de IA',
+    sources: [
+      {
+        title: 'Nature Medicine - AI in diagnostic imaging review',
+        url: 'https://www.nature.com/articles/s41591-ai-medicine-review',
+        type: 'journal'
+      },
+      {
+        title: 'WHO - Ethics and governance of artificial intelligence for health',
+        url: 'https://www.who.int/publications/ai-health',
+        type: 'agency'
+      }
+    ]
+  },
+  {
+    id: '44',
+    slug: 'etica-e-vieses-ia-os-desafios-da-inteligencia-artificial',
+    title: 'Ética e Vieses: Os Grandes Desafios da Inteligência Artificial em 2026',
+    excerpt: 'Quanto mais a IA se espalha, mais urgente fica a pergunta: como garantir que ela seja justa? Entenda o problema dos vieses e o que especialistas propõem.',
+    content: `
+      <h2>A IA Cada Vez Mais Presente, Cada Vez Mais Questionada</h2>
+      <p>De entrevistas de emprego a concessão de crédito, algoritmos de IA decidem cada vez mais sobre a vida das pessoas. Em 2026, esse avanço ampliou um debate que não sai do centro das discussões tecnológicas: <strong>como evitar que essas decisões reproduzam preconceitos humanos</strong>.</p>
+
+      <h2>De Onde Vêm os Vieses?</h2>
+      <p>Os vieses costumam nascer nos <strong>dados</strong>. Se um modelo é treinado com históricos que já refletem discriminações passadas, ele tende a repeti-las — e até amplificá-las. Alguns exemplos comuns:</p>
+      <ul>
+        <li>Modelos de recrutamento que penalizam currículos com características associadas a grupos minoritários</li>
+        <li>Sistemas de crédito que negam financiamento com base em padrões enviesados</li>
+        <li>Reconhecimento facial com taxas de erro maiores para certos tons de pele</li>
+      </ul>
+
+      <h2>O que Especialistas Propõem</h2>
+      <p>Pesquisadores defendem <strong>transparência e auditoria</strong>: documentar quais dados entram nos modelos, testá-los em populações diversas e permitir que falhas sejam reveladas sem represálias. Também ganha força a ideia de <em>IA explicável</em> — sistemas capazes de justificar suas decisões de forma compreensível.</p>
+
+      <h2>Regulação: O Que Está em Jogo</h2>
+      <p>Leis de proteção de dados já existentes estão sendo ampliadas para cobrir algoritmos de decisão automatizada. Regulamentações setoriais também deram seus primeiros passos, exigindo <strong>avaliações de impacto antes do lançamento</strong> de sistemas de alto risco. Há, porém, divergências sobre o quanto a regulação pode frear a inovação.</p>
+
+      <h2>O Papel das Empresas e da Sociedade</h2>
+      <p>Especialistas argumentam que a responsabilidade não pode recair apenas sobre um setor. <strong>Cooperação entre desenvolvedores, pesquisadores, reguladores e sociedade civil</strong> é apontada como necessária para criar padrões que equilibrem progresso e proteção.</p>
+
+      <h2>Conclusão</h2>
+      <p>A IA não é intrinsecamente justa nem injusta — ela reflete as escolhas de quem a constrói. Torná-la mais ética é um desafio de engenharia, mas, acima de tudo, um desafio de sociedade. O futuro da tecnologia depende menos de sua capacidade de calcular e mais de sua capacidade de servir a todos, sem deixar ninguém para trás.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['IA', 'ética', 'vieses', 'regulação', 'IA explicável'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?ethics,ai,algorithm',
+    imageAlt: 'Balança da justiça sobrepostas a circuitos e dados digitais representando ética em IA',
+    sources: [
+      {
+        title: 'Stanford HAI - Algorithmic bias and fairness research',
+        url: 'https://hai.stanford.edu/algorithmic-bias',
+        type: 'university'
+      },
+      {
+        title: 'UNESCO - Recommendation on the Ethics of Artificial Intelligence',
+        url: 'https://www.unesco.org/en/artificial-intelligence/ethics',
+        type: 'agency'
+      }
+    ]
+  },
+  {
+    id: '45',
+    slug: 'computacao-quantica-2026-avancos-e-desafios',
+    title: 'Computação Quântica em 2026: Avanços Reais e Desafios Ainda Longe de Acabar',
+    excerpt: 'A computação quântica deixou os laboratórios e ganhou tração comercial. Mas entre promessas de mercado e limitações técnicas, o que é realidade e o que ainda é especulação?',
+    content: `
+      <h2>Uma Tecnologia Que Deixa a Teoria em Direção ao Mercado</h2>
+      <p>Em 2026, a computação quântica está no centro das atenções da indústria de tecnologia. Grandes empresas e startups ampliaram investimentos em processadores quânticos, prometendo resolver problemas que computadores clássicos levariam séculos para calcular.</p>
+
+      <h2>O Que já é Realidade</h2>
+      <ul>
+        <li><strong>Protótipos com mais qubits:</strong> chips de teste ultrapassaram milhares de qubits físicos, ainda que com correção de erros limitada</li>
+        <li><strong>Serviços de nuvem quântica:</strong> é possível rodar experimentos à distância em máquinas de terceiros</li>
+        <li><strong>Aplicações em química:</strong> simulações de moléculas para materiais e medicamentos já geram resultados úteis</li>
+      </ul>
+
+      <h2>Os Desafios Que Permanecem</h2>
+      <p>O maior obstáculo técnico é a <strong>correção de erros</strong>. Qubits são extremamente sensíveis a ruídos e perturbações, e corrigir as falhas exige um número ainda gigantesco de qubits adicionais. Por isso, máquinas <em>tolerantes a falhas</em> em larga escala continuam sendo alvo de prazos cada vez mais frouxos por parte das empresas.</p>
+
+      <h2>Entre Promessa e Exagero</h2>
+      <p>Especialistas alertam que parte do entusiasmo do mercado antecipa resultados que podem levar anos. É válido tratar com ceticismo <strong>afirmações de supremacia prática</strong>: embora máquinas atuais superem clássicos em tarefas específicas, ainda não há aplicações que compitam, de forma ampla e constante, com supercomputadores tradicionais.</p>
+
+      <h2>O Que Esperar daqui para Frente</h2>
+      <p>O consenso entre pesquisadores é que a computação quântica segue um caminho incremental, e não um salto abrupto. Os próximos marcos devem vir de <strong>melhorias na correção de erros e na integração com sistemas clássicos</strong>, viabilizando nichos cada vez maiores de uso real.</p>
+
+      <h2>Conclusão</h2>
+      <p>A computação quântica é uma das áreas mais promissoras deste século, mas exige paciência. Separar o que já funciona do que ainda é especulação é essencial para acompanhar o tema sem cair em promessas exageradas. A revolução, quando vier, será química, econômica e social — mas ainda está em construção.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['computação quântica', 'qubits', 'tecnologia', 'ciência', 'IA'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?quantum,physics,computer',
+    imageAlt: 'Representação de computador quântico com fios e circuitos refrigerados',
+    sources: [
+      {
+        title: 'Science - Quantum computing error correction progress',
+        url: 'https://www.science.org/quantum-error-correction',
+        type: 'journal'
+      },
+      {
+        title: 'MIT Technology Review - Quantum computing reality check',
+        url: 'https://www.technologyreview.com/quantum-computing-2026',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '46',
+    slug: '5g-6g-a-proxima-era-da-conectividade',
+    title: '5G Avançado e 6G: O Que Vem depois da Revolução da Conectividade',
+    excerpt: 'Enquanto o 5G maduro se consolida no mundo, o 6G já começa a ser desenhado. Entenda o que muda, quais promessas existem e o que ainda é especulação.',
+    content: `
+      <h2>Do 5G Maduro ao 6G no Horizonte</h2>
+      <p>A internet móvel vive um momento de transição. O <strong>5G avançado</strong>, evolução do 5G original, chegou ao mercado prometendo maiores velocidades e menor latência, enquanto padrões do <strong>6G</strong> começam a ser discutidos em fóruns internacionais — com previsões de chegada para o final da década.</p>
+
+      <h2>O Que o 5G Avançado Traz</h2>
+      <ul>
+        <li><strong>Maior eficiência espectral:</strong> mais dados na mesma faixa de frequência</li>
+        <li><strong>Latência ultrabaixa:</strong> relevante para veículos autônomos e realidade virtual</li>
+        <li><strong>Conectividade massiva:</strong> suporte a milhões de dispositivos de internet das coisas por área</li>
+      </ul>
+
+      <h2>Por Que o 6G Seria Diferente</h2>
+      <p>O 6G promete ir além da comunicação: a ideia é uma rede <strong>integrada a sensores e inteligência artificial</strong>, capaz de localizar, sentir e até "enxergar" o ambiente ao seu redor. Frequências mais altas poderiam permitir velocidades de dezenas de gigabits por segundo — abrindo caminho para experiências imersivas em escala.</p>
+
+      <h2>Desafios e Especulações</h2>
+      <p>Parte do que se materializa sobre o 6G ainda é <strong>especulação de laboratório</strong>. Estudos iniciais enfrentam obstáculos claros: altos custos de infraestrutura, consumo energético e questões de saúde e privacidade que ainda precisam ser estudadas. O padrão final deve ser definido apenas nos próximos anos, e os detalhes tecnológicos podem mudar.</p>
+
+      <h2>Impacto no Cotidiano</h2>
+      <p>Na prática, especialistas esperam que o 6G amplie modelos de trabalho remoto, saúde digital, educação imersiva e cidades conectadas. A promessa é de um mundo em que a rede é <strong>invisível e onipresente</strong> — mas os tijolos dessa construção ainda estão sendo assentados.</p>
+
+      <h2>Conclusão</h2>
+      <p>O 5G avançado já é realidade e está sendo adotado em rede; o 6G, por sua vez, é mais um plano do que um produto final. Acompanhar essa evolução exige paciência e ceticismo saudável diante de projeções apressadas. A conectividade do futuro será extraordinária — mas chegará, como sempre, um passo de cada vez.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['5G', '6G', 'conectividade', 'internet', 'telecomunicações'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?network,5g,signal',
+    imageAlt: 'Torre de transmissão de sinal com visualização de ondas de conectividade',
+    sources: [
+      {
+        title: 'GSMA - 5G Advanced and 6G vision',
+        url: 'https://www.gsma.com/futurenetworks/6g',
+        type: 'company'
+      },
+      {
+        title: 'ITU - IMT-2030 framework for 6G',
+        url: 'https://www.itu.int/imt2030-framework-6g',
+        type: 'agency'
+      }
+    ]
+  },
+  {
+    id: '47',
+    slug: 'microbioma-intestinal-bacterias-que-controlam-o-corpo',
+    title: 'Microbioma Intestinal: As Bactérias Que Influenciam o Corpo Inteiro',
+    excerpt: 'O conjunto de microrganismos do intestino vai além da digestão e pode influenciar imunidade, humor e até saúde mental. Entenda a ciência por trás do microbioma.',
+    content: `
+      <h2>Um Universo de Microrganismos Dentro de Nós</h2>
+      <p>Trilões de bactérias, fungos e vírus vivem no nosso intestino — um conjunto que chamamos de <strong>microbioma</strong>. Longe de serem "vilões", boa parte desses microrganismos é essencial para a nossa saúde, ajudando na digestão e na produção de vitaminas.</p>
+
+      <h2>O Que a Ciência Descobriu</h2>
+      <p>Pesquisas recentes revelam que o microbioma se comunica com o resto do corpo de formas surpreendentes. Algumas descobertas vêm ganhando força:</p>
+      <ul>
+        <li><strong>Imunidade:</strong> bactérias intestinais treinam o sistema de defesa e influenciam inflamações</li>
+        <li><strong>Humores e cérebro:</strong> o chamado "eixo intestino-cérebro" pode se relacionar com estresse e humor</li>
+        <li><strong>Metabolismo:</strong> a composição das bactérias pode afetar como absorvemos nutrientes e ganhamos peso</li>
+      </ul>
+
+      <h2>O Eixo Intestino-Cérebro</h2>
+      <p>O intestino possui sua própria rede de neurônios e produz neurotransmissores como a serotonina. Estudos apontam que <strong>a saúde mental pode ser influenciada pelo que comemos</strong>, abrindo caminho para tratamentos que combinem dieta e terapias de base microbiana — uma área ainda em exploração.</p>
+
+      <h2>Como Cuidar do Microbioma</h2>
+      <p>Embora a ciência ainda esteja evoluindo, especialistas apontam hábitos associados a um microbioma saudável:</p>
+      <ul>
+        <li>Alimentação rica em fibras, com frutas, vegetais e grãos</li>
+        <li>Consumo moderado de alimentos fermentados</li>
+        <li>Redução de ultraprocessados e de uso indiscriminado de antibióticos</li>
+        <li>Rotinas de sono e atividade física</li>
+      </ul>
+
+      <h2>Limitações dos Estudos</h2>
+      <p>É importante lembrar que muitas relações do microbioma ainda são <strong>associações, e não causas comprovadas</strong>. A diversidade entre pessoas torna difícil generalizar, e os efeitos precisam ser confirmados com estudos mais amplos e longitudinais.</p>
+
+      <h2>Conclusão</h2>
+      <p>O microbioma intestinal redefiniu a forma como entendemos a saúde. Embora não exista "receita mágica", a ciência aponta que cuidar da alimentação e do estilo de vida também é cuidar do vasto ecossistema que vive conosco.</p>
+    `,
+    category: {
+      id: 'ciencia',
+      slug: 'ciencia',
+      name: 'Ciência',
+      description: 'Biologia, física, química, neurociência e descobertas científicas',
+      color: '#8b5cf6'
+    },
+    tags: ['microbioma', 'intestino', 'saúde', 'bactérias', 'ciência'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?microbiome,bacteria,health',
+    imageAlt: 'Ilustração de bactérias intestinais saudáveis em ambiente microscópico',
+    sources: [
+      {
+        title: 'Nature Reviews - Gut microbiome and human health',
+        url: 'https://www.nature.com/nrgastro/gut-microbiome-health',
+        type: 'journal'
+      },
+      {
+        title: 'Harvard T.H. Chan - The gut-brain connection',
+        url: 'https://www.hsph.harvard.edu/nutritionsource/gut-brain',
+        type: 'university'
+      }
+    ]
+  },
+  {
+    id: '48',
+    slug: 'cern-novas-particulas-e-o-futuro-da-fisica',
+    title: 'CERN e o Futuro da Física de Partículas: O Que Vem Depois do LHC',
+    excerpt: 'Depois da descoberta do bóson de Higgs, o CERN planeja experimentos ainda mais ambiciosos. Entenda o que está em debate e o que pode mudar nossa visão da matéria.',
+    content: `
+      <h2>O LHC e a Era de Descobertas</h2>
+      <p>O Grande Colisor de Hádrons (LHC), do CERN, foi o palco da descoberta do <strong>bóson de Higgs</strong> e de dezenas de outras medições importantes da física. Em 2026, o acelerador passa por upgrades para explorar fenômenos raros e testar os limites do Modelo Padrão.</p>
+
+      <h2>O Que Está em Debate</h2>
+      <p>Físicos se dividem sobre como investir no futuro. Entre as principais propostas:</p>
+      <ul>
+        <li><strong>Aceleradores maiores:</strong> máquinas ainda mais energéticas para produzir partículas nunca antes vistas</li>
+        <li><strong>Colisores de múons:</strong> tecnologia promissora, mas de alto risco técnico</li>
+        <li><strong>Experimentos de precisão:</strong> aprofundar medições em vez de buscar partículas novas</li>
+      </ul>
+
+      <h2>Por Que Isso Importa?</h2>
+      <p>O Modelo Padrão é a teoria mais bem-sucedida da física, mas está incompleto. Ele não explica a <strong>matéria escura</strong>, a maior parte da energia do universo, nem por que a matéria venceu a antimatéria após o Big Bang. Buscar respostas para essas lacunas é o motor central dos novos experimentos.</p>
+
+      <h2>Desafios Financeiros e Técnicos</h2>
+      <p>Projetos de gigantes como o futuro colisor planejado geram intenso debate orçamentário. Os custos são bilionários, e a comunidade científica discute se o retorno científico compensa diante de outras prioridades de pesquisa. Não há consenso, e as decisões seguem em aberto.</p>
+
+      <h2>Rumores e Especulações</h2>
+      <p>Nas redes, circulam <strong>rumores não confirmados</strong> sobre sinais de partículas exóticas detectadas pelo LHC. Até o momento, a publicação de novas descobertas depende de análises revisadas por pares e de confirmação independente — sem anúncios oficiais conclusivos.</p>
+
+      <h2>Conclusão</h2>
+      <p>O futuro da física de partículas está sendo desenhado agora, em laboratórios e comitês de decisão. Seja construindo máquinas maiores ou trazendo mais precisão ao que existe, a busca por conhecimento sobre a natureza fundamental do universo continua — e cada passo nos aproxima de respostas maiores.</p>
+    `,
+    category: {
+      id: 'ciencia',
+      slug: 'ciencia',
+      name: 'Ciência',
+      description: 'Biologia, física, química, neurociência e descobertas científicas',
+      color: '#8b5cf6'
+    },
+    tags: ['CERN', 'LHC', 'partículas', 'física', 'bóson de Higgs'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?cern,physics,particle',
+    imageAlt: 'Túnel de acelerador de partículas com detectores e cabos',
+    sources: [
+      {
+        title: 'CERN - Future circular collider study',
+        url: 'https://home.cern/science/future-circular-collider',
+        type: 'agency'
+      },
+      {
+        title: 'Symmetry Magazine - The future of particle physics',
+        url: 'https://www.symmetrymagazine.org/future-of-particle-physics',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '49',
+    slug: 'ia-generativa-no-design-de-games',
+    title: 'IA Generativa no Design de Games: Como a Tecnologia Está Mudando a Criação de Jogos',
+    excerpt: 'Da arte procedural a NPCs que conversam, a IA generativa está redefinindo como os jogos são criados. Entenda as oportunidades e os receios dos estúdios.',
+    content: `
+      <h2>Uma Revolução Nos Bastidores dos Jogos</h2>
+      <p>A indústria de games é conhecida por agregar enormes equipes de arte, programação e design. Agora, a <strong>IA generativa</strong> promete acelerar parte desse processo — gerando texturas, cenários, diálogos e até companheiros de equipe controlados por IA.</p>
+
+      <h2>Onde a IA Está Sendo Usada</h2>
+      <ul>
+        <li><strong>Arte procedural:</strong> criação de ambientes e objetos sem desenhar cada detalhe à mão</li>
+        <li><strong>Narrativa dinâmica:</strong> diálogos e missões que respondem às escolhas do jogador</li>
+        <li><strong>NPCs mais vivos:</strong> personagens que mantêm conversas abertas, e não apenas falas roteirizadas</li>
+        <li><strong>Testes automatizados:</strong> IA que ajuda a encontrar bugs jogando o título em velocidade acelerada</li>
+      </ul>
+
+      <h2>Os Benefícios para Estúdios Independentes</h2>
+      <p>Para estúdios pequenos, a IA generativa pode reduzir custos e <strong>nivelar o campo de jogo</strong>, permitindo criar mundos ambiciosos sem orçamentos de gigantes. Isso tem o potencial de trazer mais diversidade criativa ao mercado.</p>
+
+      <h2>Receios e Controvérsias</h2>
+      <p>O entusiasmo vem acompanhado de tensões. Profissionais de arte e roteiro temem a desvalorização de seus ofícios, e há <strong>debates sobre direitos autorais</strong> quando modelos são treinados com obras existentes sem autorização. Estúdios e sindicatos discutem regras claras de uso e remuneração.</p>
+
+      <h2>Qualidade e Criatividade</h2>
+      <p>Críticos apontam que a IA tende a produzir padrões medianos, e que a <strong>criatividade humana continua sendo essencial</strong> para dar identidade a um jogo. O consenso emergente é usar a IA como ferramenta de apoio — não como substituta do processo criativo.</p>
+
+      <h2>Conclusão</h2>
+      <p>A IA generativa está transformando a produção de games, mas o resultado final ainda depende de pessoas com visão e talento. O equilíbrio entre automação e autoria definirá como será o próximo capítulo da criação de jogos.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['IA generativa', 'games', 'game design', 'indústria', 'criatividade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?video-game,ai,art',
+    imageAlt: 'Controle de videogame cercado por elementos de arte digital e IA',
+    sources: [
+      {
+        title: 'Game Developers Conference - AI in game production',
+        url: 'https://gdconf.com/ai-game-production',
+        type: 'publication'
+      },
+      {
+        title: 'Polygon - The business of AI in video games',
+        url: 'https://www.polygon.com/ai-in-video-games',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '50',
+    slug: 'cloud-gaming-2026-jogar-na-nuvem',
+    title: 'Cloud Gaming em 2026: O Jogar na Nuvem Finalmente Amadureceu?',
+    excerpt: 'Depois de anos de promessas, o cloud gaming se expandiu. Entenda o estado atual da tecnologia, seus limites de latência e por que ela não substituiu os consoles.',
+    content: `
+      <h2>A Promessa de Jogar Sem Hardware Caro</h2>
+      <p>O <strong>cloud gaming</strong> sempre prometeu o mesmo: rodar jogos pesados sem precisar de um PC ou console potente, transmitindo o jogo pela internet. Em 2026, a tecnologia avançou bastante, mas a pergunta central continua sendo se ela já é boa o bastante para o grande público.</p>
+
+      <h2>O Que Mudou nos Últimos Anos</h2>
+      <ul>
+        <li><strong>Bibliotecas maiores:</strong> catálogos de centenas de títulos AAA disponíveis sem download</li>
+        <li><strong>Melhor latência:</strong> servidores mais próximos e infraestrutura de rede aprimorada em várias regiões</li>
+        <li><strong>Qualidade de imagem:</strong> streaming em alta resolução com codecs mais eficientes</li>
+      </ul>
+
+      <h2>A Questão da Latência</h2>
+      <p>O principal limite do cloud gaming é o <strong>atraso entre o clique e o que aparece na tela</strong>. Em jogos competitivos, cada milissegundo importa, e a transmissão pela nuvem ainda coloca jogadores em desvantagem em relação a quem joga localmente. Para jogos mais casuais, porém, a experiência já é considerada satisfatória.</p>
+
+      <h2>Por Que Não Substituiu Consoles</h2>
+      <p>Apesar do crescimento, o cloud gaming não eliminou os aparelhos dedicados. Motivos incluem o <strong>alto custo de dados</strong>, a dependência de conexões estáveis e as limitações de direitos de streaming por título. Muitos estúdios também preferem manter vendas tradicionais.</p>
+
+      <h2>O Modelo de Negócio em Transformação</h2>
+      <p>Empresas experimentaram diferentes assinaturas e modelos de acesso. Algumas plataformas permitem experimentar demos na nuvem antes de comprar, o que ajuda na decisão de compra. Há ainda <strong>especulação</strong> de novas parcerias entre estúdios e provedores para ampliar catálogos, mas nenhum anúncio fechado foi confirmado.</p>
+
+      <h2>Limitações e Ceticismo</h2>
+      <p>Embora os avanços sejam reais, especialistas ainda enxergam barreiras importantes. Os custos de infraestrutura continuam elevados, e muitas regiões ainda não têm a estrutura ideal de rede para rodar jogos na nuvem com qualidade. A dependência de conexões rápidas e estáveis segue sendo um obstáculo para a democratização da tecnologia.</p>
+
+      <h2>Conclusão</h2>
+      <p>O cloud gaming amadureceu como alternativa, mas não como substituto do jogo local. Ele é a opção ideal para quem busca conveniência e mobilidade — enquanto consoles e PCs continuam sendo o refúgio de quem quer máxima qualidade e desempenho.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['cloud gaming', 'streaming', 'games', 'latência', 'nuvem'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?cloud,gaming,streaming',
+    imageAlt: 'Controle de videogame conectado a ícones de nuvem e streaming digital',
+    sources: [
+      {
+        title: 'The Verge - The state of cloud gaming',
+        url: 'https://www.theverge.com/cloud-gaming-2026',
+        type: 'publication'
+      },
+      {
+        title: 'IGN - Cloud gaming latency and performance tests',
+        url: 'https://www.ign.com/cloud-gaming-latency-2026',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '51',
+    slug: 'futuro-do-streaming-2026-consolidacao',
+    title: 'O Futuro do Streaming em 2026: Consolidação e Novos Modelos',
+    excerpt: 'O mercado de streaming passou por uma onda de fusões e mudanças. Entenda como as plataformas estão se reorganizando e o que isso significa para os assinantes.',
+    content: `
+      <h2>De Várias Assinaturas a Menos Plataformas</h2>
+      <p>Depois de anos de expansão, o mercado de streaming viveu uma fase de <strong>consolidação</strong>. O número de plataformas se reduziu e grandes grupos passaram a agrupar catálogos, em um movimento que promete mudar a forma como consumimos filmes e séries.</p>
+
+      <h2>O Que Motiva a Consolidação</h2>
+      <p>A competição ficou cara: produzir conteúdo exclusivo exige investimentos bilionários, e a rentabilidade das plataformas sofreu pressão. Unir catálogos e fundir operações ajuda as empresas a <strong>cortar custos e ganhar escala</strong>, além de reduzir a rotatividade de assinantes.</p>
+
+      <h2>Consequências Práticas para o Público</h2>
+      <ul>
+        <li><strong>Menos contas:</strong> o assinante passa a acessar mais conteúdo em uma única assinatura</li>
+        <li><strong>Mudança de catálogos:</strong> séries de uma plataforma podem migrar ou ser removidas</li>
+        <li><strong>Preços e planos:</strong> novas opções com e sem publicidade podem se multiplicar</li>
+      </ul>
+
+      <h2>O Papel da Publicidade</h2>
+      <p>Os planos com anúncios se tornaram a principal porta de entrada em várias plataformas. A publicidade permite <strong>preços menores para o assinante</strong> e cria uma nova fonte de receita — mas também levanta debates sobre a experiência de assistir conteúdo.</p>
+
+      <h2>Novos Modelos no Horizonte</h2>
+      <p>Além da fusão de operações, surgem iniciativas experimentais, como <strong>janelas exclusivas para eventos e lançamentos em streaming</strong>. Há também <strong>especulação</strong> sobre novas alianças entre estúdios e operadoras de telefonia, embora nada tenha sido oficialmente confirmado.</p>
+
+      <h2>Conclusão</h2>
+      <p>A consolidação do streaming reflete um mercado que amadureceu após anos de crescimento explosivo. Para o público, o resultado é mais praticidade e menos escolha dispersa — mas o equilíbrio entre preço, catálogo e publicidade continuará definindo a experiência de cada assinante.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['streaming', 'filmes', 'séries', 'consolidação', 'indústria'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?streaming,movies,tv',
+    imageAlt: 'Controle remoto diante de uma televisão exibindo catálogo de streaming',
+    sources: [
+      {
+        title: 'Variety - The consolidation era of streaming',
+        url: 'https://variety.com/streaming-consolidation-2026',
+        type: 'publication'
+      },
+      {
+        title: 'Hollywood Reporter - The future of streaming business models',
+        url: 'https://www.hollywoodreporter.com/streaming-future-2026',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '52',
+    slug: 'ia-no-cinema-transformando-os-bastidores',
+    title: 'IA no Cinema: Como a Inteligência Artificial Transforma os Bastidores',
+    excerpt: 'A inteligência artificial está revolucionando desde efeitos visuais até roteiros e restauração de imagens. Entenda as aplicações e a polêmica que acompanham essa mudança.',
+    content: `
+      <h2>Dos Efeitos Visuais aos Roteiros</h2>
+      <p>A indústria do cinema sempre esteve na frente quando o assunto é tecnologia. Em 2026, a <strong>inteligência artificial</strong> chega com força não só na tela, mas em praticamente todas as etapas da produção — dos efeitos especiais à pré-produção.</p>
+
+      <h2>Onde a IA Está Sendo Usada</h2>
+      <ul>
+        <li><strong>Efeitos visuais:</strong> substituição de rostos, rejuvenescimento de atores e remoção de falhas em cenas</li>
+        <li><strong>Roteiros e tratamento de texto:</strong> apoio na geração de ideias e na estruturação de narrativas</li>
+        <li><strong>Restauração:</strong> recuperação de filmes antigos com cores e resolução aprimoradas</li>
+        <li><strong>Dublagem:</strong> sincronização de lábios e traduções mais naturais</li>
+      </ul>
+
+      <h2>Os Benefícios Criativos</h2>
+      <p>A IA pode acelerar processos caros e demorados, permitindo que artistas gastem mais tempo em decisões criativas. A restauração de obras clássicas, por exemplo, tem permitido ao público revisitar filmes históricos com qualidade nunca vista.</p>
+
+      <h2>A Polêmica que Divide a Indústria</h2>
+      <p>O uso de IA também gera tensões. <strong>Atores e roteiristas</strong> questionam limites éticos, como o uso de imagens de artistas já falecidos sem consentimento e a substituição de equipes criativas. O tema virou pauta de negociações sindicais em vários países, com regras ainda em construção.</p>
+
+      <h2>O Que É Realidade e o Que É Exagero</h2>
+      <p>É preciso separar recursos já consolidados de <strong>promessas exageradas</strong>. Enquanto ferramentas de apoio como remoção de objetos e restauração são realidades cotidianas, gerar filmes inteiros automaticamente ainda é ficção distante — e, para muitos, indesejada.</p>
+
+      <h2>Conclusão</h2>
+      <p>A IA no cinema é uma ferramenta poderosa, mas seu futuro depende de decisões sobre ética, direitos e criatividade. A tecnologia pode ampliar a imaginação de cineastas, desde que regras claras protejam as pessoas por trás das câmeras e a magia que faz o cinema ser o que é.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['IA', 'cinema', 'efeitos visuais', 'roteiros', 'indústria'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?film,camera,cinema',
+    imageAlt: 'Câmera de cinema em set de filmagem com paletas de efeitos visuais',
+    sources: [
+      {
+        title: 'The Hollywood Reporter - AI in movie production',
+        url: 'https://www.hollywoodreporter.com/ai-film-production-2026',
+        type: 'publication'
+      },
+      {
+        title: 'WGA - AI and the writing process guidelines',
+        url: 'https://www.wga.org/ai-guidelines',
+        type: 'agency'
+      }
+    ]
+  },
+  {
+    id: '53',
+    slug: 'hqs-digitais-streaming-de-quadrinhos',
+    title: 'HQs Digitais: O Streaming de Quadrinhos Chega à Maturidade',
+    excerpt: 'Da leitura em tablets a novas formas de narrativa, o mundo dos quadrinhos digitais se expande. Entenda as tendências que definem o futuro dos gibis.',
+    content: `
+      <h2>Quadrinhos Além do Papel</h2>
+      <p>O mercado de quadrinhos vive uma nova era. Embora o papel continue tendo seus fãs, as <strong>HQs digitais</strong> conquistaram espaço com leitura em tablets, celulares e plataformas de assinatura — mudando a forma como os leitores consomem e como os criadores distribuem suas obras.</p>
+
+      <h2>O Que Está em Alta</h2>
+      <ul>
+        <li><strong>Streaming de HQs:</strong> plataformas de assinatura com acesso a grandes acervos</li>
+        <li><strong>Webcomics:</strong> histórias publicadas diretamente na internet, atualizadas em capítulos</li>
+        <li><strong>Formatos interativos:</strong> narrativas com som, movimento e escolhas do leitor</li>
+        <li><strong>Distribuição global:</strong> obras que alcançam leitores de vários países sem barreiras de logística</li>
+      </ul>
+
+      <h2>Como a Leitura Digital Funciona</h2>
+      <p>Plataformas de leitura adaptam a página ao formato do dispositivo, permitindo zoom e navegação fluida. Algumas versões exploram o "scrolling vertical" — inspirado em leitura de redes sociais —, que se tornou popular entre novos leitores e atrai quem não lia quadrinhos antes.</p>
+
+      <h2>Oportunidades para Novos Criadores</h2>
+      <p>A distribuição digital <strong>reduz barreiras de entrada</strong>. Autores independentes conseguem publicar sem depender de editoras, alcançar comunidades de nicho e transformar seguidores em público pagante. Isso amplia a diversidade de vozes no gênero.</p>
+
+      <h2>Desafios e Ceticismo</h2>
+      <p>O modelo ainda enfrenta questionamentos: a <strong>cobrança por capítulos</strong> pode fragmentar a leitura, e a pirataria continua sendo um problema. Há também a preocupação de que formatos interativos e verticais descaracterizem a essência da arte sequencial, embora muitos artistas vejam nisso uma evolução criativa.</p>
+
+      <h2>Conclusão</h2>
+      <p>As HQs digitais não eliminam o papel, mas ampliam as possibilidades de narrativa, alcance e experimentação. Para leitores e criadores, a era digital abre um universo novo — onde a imaginação dos quadrinhos encontra novas telas e novas linguagens.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['HQs digitais', 'quadrinhos', 'webcomics', 'streaming', 'arte sequencial'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?comics,tablet,reading',
+    imageAlt: 'Quadrinhos digitais em tablet com personagens em cores vibrantes',
+    sources: [
+      {
+        title: 'Comic Book Resources - The rise of digital comics',
+        url: 'https://www.cbr.com/digital-comics-streaming',
+        type: 'publication'
+      },
+      {
+        title: 'ICv2 - Digital comics market analysis',
+        url: 'https://icv2.com/digital-comics-market-2026',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '54',
+    slug: 'superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos',
+    title: 'Superpoderes e Ciência Real: A Física Por Trás dos Quadrinhos',
+    excerpt: 'Voar, ficar invisível e ter força sobre-humana parecem ficção pura. Mas a ciência real ajuda a explicar quais superpoderes seriam possíveis e quais são impossíveis.',
+    content: `
+      <h2>Onde a Ficção Encontra a Ciência</h2>
+      <p>Quadrinhos de super-heróis brincam com as fronteiras da física. Alguns poderes, embora pareçam absurdos, têm raízes em conceitos científicos reais. Outros, porém, esbarram em limitações físicas que a ficção simplesmente ignora.</p>
+
+      <h2>Poderes que Têm Ciência por Trás</h2>
+      <ul>
+        <li><strong>Força e resistência:</strong> músculos geram força por contração; limites reais dependem da biologia e da energia disponível</li>
+        <li><strong>Invisibilidade:</strong> materiais e metamateriais já conseguem desviar a luz em escalas pequenas</li>
+        <li><strong>Velocidade:</strong> a resistência do ar e as curvas de força tornariam movimento extremamente rápido um desafio físico</li>
+        <li><strong>Campo de força:</strong> conceitos como blindagem por plasma são estudados, mas estão longe de virar realidade</li>
+      </ul>
+
+      <h2>O Problema da Energia</h2>
+      <p>Poderes exigem energia. Um corpo humano precisa de <strong>milhares de calorias</strong> para sustentar esforço extremo, e gerar raios ou voar consumiria energia equivalente a usinas inteiras. Essa é uma das maiores barreiras científicas para reproduzir superpoderes.</p>
+
+      <h2>O Que a Física Torna Improvável</h2>
+      <p>Alguns poderes desafiam princípios fundamentais. Além de limites de velocidade impostos pela física, a <strong>teletransporte e a viagem no tempo</strong> colidem com a estrutura da causalidade. Para a ciência atual, eles permanecem mais poesia do que possibilidade.</p>
+
+      <h2>O Valor Educativo dos Quadrinhos</h2>
+      <p>Apesar das impossibilidades, os quadrinhos cumprem um papel valioso: <strong>despertar interesse por ciência</strong>. Discussões sobre física de super-heróis viram porta de entrada para entender relatividade, energia e biologia — transformando ficção em curiosidade real.</p>
+
+      <h2>Conclusão</h2>
+      <p>Os superpoderes são um espelho da imaginação humana e, ao mesmo tempo, um exercício de ciência. Mesmo que nenhum de nós desenvolva poderes, pensar sobre eles nos ensina a respeitar as incríveis — e rigorosas — leis da natureza que governam o mundo real.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['super-heróis', 'quadrinhos', 'física', 'ciência', 'superpoderes'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?superhero,comics,energy',
+    imageAlt: 'Silhueta de super-herói com descargas de energia e efeitos de física',
+    sources: [
+      {
+        title: 'Phys.org - The science of superpowers',
+        url: 'https://phys.org/the-science-of-superpowers',
+        type: 'journal'
+      },
+      {
+        title: 'Scientific American - Physics of superheroes explained',
+        url: 'https://www.scientificamerican.com/physics-superheroes',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '55',
+    slug: 'oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar',
+    title: 'Oceanos Profundos: O Que Ainda Não Conhecemos do Fundo do Mar',
+    excerpt: 'Mais de 80% do oceano continua inexplorado. Entre espécies desconhecidas e fenômenos extremos, descubra por que o fundo do mar é uma das últimas fronteiras do planeta.',
+    content: `
+      <h2>A Fronteira Mais Próxima e Menos Conhecida</h2>
+      <p>Quando imaginamos explorar o desconhecido, pensamos no espaço. Mas há um lugar igualmente misterioso bem aqui na Terra: <strong>as profundezas do oceano</strong>. Estima-se que grande parte do fundo do mar nunca tenha sido mapeada em detalhe e que um número imenso de espécies ainda esteja por ser descoberto.</p>
+
+      <h2>Um Ambiente Extremo</h2>
+      <p>Nas fossas oceânicas, condições são hostis: <strong>escuridão total, pressões esmagadoras e frio intenso</strong>. Mesmo assim, a vida prospera. Fontes hidrotermais no fundo do mar abrigam ecossistemas que não dependem da luz solar, alimentando-se de energia química e desafiando o que achávamos que era necessário para a vida.</p>
+
+      <h2>Descobertas Que Impressionam</h2>
+      <ul>
+        <li><strong>Espécies novas:</strong> organismos bizarros surgem a cada expedição</li>
+        <li><strong>Compostos úteis:</strong> substâncias com potencial para medicamentos e biotecnologia</li>
+        <li><strong>Registros do clima:</strong> sedimentos profundos guardam a história do clima do planeta</li>
+      </ul>
+
+      <h2>Por Que Explorar é Tão Difícil</h2>
+      <p>Mergulhar no fundo do mar é tecnologicamente desafiador e caro. A pressão esmaga equipamentos comuns, e a comunicação subaquática é limitada. Por isso, veículos operados à distância e missões robóticas são essenciais, mas ainda alcançam apenas uma fração da vasta extensão oceânica.</p>
+
+      <h2>O Futuro da Exploração</h2>
+      <p>Novas tecnologias de mapeamento, sensores e robôs autônomos prometem acelerar a exploração. O objetivo é <strong>mapear a fundo o oceano</strong> e entender melhor a biodiversidade marinha — essencial para proteger ecossistemas e lidar com mudanças climáticas.</p>
+
+      <h2>Conclusão</h2>
+      <p>O oceano profundo é um lembrete de quanto ainda temos a aprender sobre nosso próprio planeta. Cada expedição revela que a vida é mais resistente e variada do que imaginamos — e que as maiores descobertas podem estar muito abaixo da superfície.</p>
+    `,
+    category: {
+      id: 'curiosidades',
+      slug: 'curiosidades',
+      name: 'Curiosidades',
+      description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns',
+      color: '#14b8a6'
+    },
+    tags: ['oceano', 'profundezas', 'exploração', 'biodiversidade', 'ciência'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?ocean,deep,underwater',
+    imageAlt: 'Fundo do oceano escuro com luz de um submersível explorando',
+    sources: [
+      {
+        title: 'NOAA - Ocean exploration and research',
+        url: 'https://oceanexplorer.noaa.gov',
+        type: 'agency'
+      },
+      {
+        title: 'Nature - Deep-sea biodiversity discoveries',
+        url: 'https://www.nature.com/deep-sea-biodiversity',
+        type: 'journal'
+      }
+    ]
+  },
+  {
+    id: '56',
+    slug: 'matematica-do-universo-padroes-escondidos-na-natureza',
+    title: 'A Matemática do Universo: Os Padrões Escondidos na Natureza',
+    excerpt: 'Das conchas às flores e às proporções do corpo humano, a matemática se esconde na natureza. Entenda como padrões e números ajudam a desvendar o mundo.',
+    content: `
+      <h2>A Linguagem Secreta do Mundo</h2>
+      <p>Repare em uma concha espiralada, nas pétalas de um girassol ou nos galhos de uma árvore. Atrás de tanta beleza há uma estrutura matemática. A ideia de que <strong>a natureza fala a linguagem dos números</strong> fascina cientistas há séculos.</p>
+
+      <h2>Padrões que Se Repetem</h2>
+      <p>Alguns padrões aparecem em contextos muito diferentes, sugerindo que há princípios gerais de organização na natureza:</p>
+      <ul>
+        <li><strong>Sequência de Fibonacci:</strong> números que aparecem nas espirais de plantas e conchas</li>
+        <li><strong>Fractais:</strong> formas que se repetem em escalas cada vez menores, como em samambaias e nuvens</li>
+        <li><strong>Simetria:</strong> equilíbrios encontrados na maioria das formas de vida</li>
+      </ul>
+
+      <h2>Fibonacci e a Proporção Áurea</h2>
+      <p>A sequência de Fibonacci (1, 1, 2, 3, 5, 8...) aparece com frequência na natureza — no arranjo das sementes do girassol, por exemplo. Embora a "proporção áurea" seja frequentemente romantizada, cientistas alertam que nem sempre ela está presente; muitas vezes, são <strong>padrões aproximados, e não regras exatas</strong>.</p>
+
+      <h2>Por Que Isso Importa</h2>
+      <p>Entender esses padrões ajuda a prever fenômenos, a projetar materiais e a compreender a evolução. A matemática não é apenas um instrumento abstrato — é uma ferramenta poderosa para <strong>decodificar o funcionamento do mundo</strong>.</p>
+
+      <h2>Limites da Analogia</h2>
+      <p>É importante não exagerar: a natureza não segue fórmulas rígidas de forma consciente. Os padrões emergem de processos evolutivos e físicos, e a matemática é o nosso modelo para entendê-los — não uma força que determina cada detalhe.</p>
+
+      <h2>Conclusão</h2>
+      <p>A matemática é uma janela privilegiada para observar o universo. Ao reconhecê-la na beleza que nos rodeia, entendemos melhor tanto a natureza quanto o poder das ideias humanas de descrevê-la.</p>
+    `,
+    category: {
+      id: 'curiosidades',
+      slug: 'curiosidades',
+      name: 'Curiosidades',
+      description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns',
+      color: '#14b8a6'
+    },
+    tags: ['matemática', 'Fibonacci', 'fractais', 'natureza', 'padrões'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?fractal,math,nature',
+    imageAlt: 'Espiral dourada sobre uma flor, ilustrando padrões matemáticos da natureza',
+    sources: [
+      {
+        title: 'Plus Magazine - Nature\'s numbers and patterns',
+        url: 'https://plus.maths.org/natures-numbers',
+        type: 'publication'
+      },
+      {
+        title: 'Simons Foundation - The mathematics of natural patterns',
+        url: 'https://www.simonsfoundation.org/mathematics-nature-patterns',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '57',
+    slug: 'computacao-wearable-gadgets-que-usamos-no-corpo',
+    title: 'Computação Vestível: O Futuro dos Gadgets que Usamos no Corpo',
+    excerpt: 'Relógios, óculos e até roupas inteligentes estão evoluindo. Entenda como a computação vestível pode transformar saúde, produtividade e o nosso dia a dia.',
+    content: `
+      <h2>Tecnologia Que Veste</h2>
+      <p>Os relógios inteligentes abriram caminho para uma era em que a tecnologia vai muito além dos bolsos. A <strong>computação vestível</strong> — de pulseiras e óculos a roupas com sensores — promete integrar dados, saúde e comunicação diretamente ao corpo humano.</p>
+
+      <h2>O Que Já Está no Mercado</h2>
+      <ul>
+        <li><strong>Relógios e pulseiras:</strong> monitoramento de batimentos, sono e atividades</li>
+        <li><strong>Óculos inteligentes:</strong> notificações e realidade aumentada nas lentes</li>
+        <li><strong>Roupas com sensores:</strong> tecidos que medem sinais vitais e movimento</li>
+        <li><strong>Auriculares com IA:</strong> assistentes que respondem sem o uso das mãos</li>
+      </ul>
+
+      <h2>Revolução na Saúde</h2>
+      <p>O maior impacto vem da área da saúde. Dispositivos vestíveis podem <strong>detectar arritmias, alertar sobre quedas e acompanhar doenças crônicas</strong> em tempo real. Médicos passam a contar com dados contínuos, e não apenas com medições feitas em consultório.</p>
+
+      <h2>Desafios e Preocupações</h2>
+      <p>A adoção em massa levanta questões importantes. O <strong>uso de dados de saúde</strong> exige cuidados com privacidade, e a precisão dos sensores ainda varia bastante. Há também o risco de dependência tecnológica e de alertas que geram mais ansiedade do que benefício.</p>
+
+      <h2>O Que Vem por Aí</h2>
+      <p>Especialistas projetam dispositivos ainda mais discretos e integrados — de lentes de contato inteligentes a implantes experimentais. Embora algumas dessas ideias sejam <strong>especulações de laboratório</strong>, a tendência de computação cada vez mais pessoal parece irreversível.</p>
+
+      <h2>Conclusão</h2>
+      <p>A computação vestível promete tornar a tecnologia mais próxima, útil e invisível. Seus benefícios para a saúde são reais, mas exigem equilíbrio entre inovação, privacidade e qualidade de vida. O futuro dos gadgets não está apenas nas mãos — está também em nós.</p>
+    `,
+    category: {
+      id: 'futuro',
+      slug: 'futuro',
+      name: 'Futuro',
+      description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes',
+      color: '#10b981'
+    },
+    tags: ['wearable', 'computação vestível', 'saúde', 'futuro', 'tecnologia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?smartwatch,wearable,tech',
+    imageAlt: 'Mão com smartwatch medindo sinais vitais e gráficos de saúde na tela',
+    sources: [
+      {
+        title: 'MobiHealthNews - Wearable technology trends',
+        url: 'https://www.mobihealthnews.com/wearable-tech-trends',
+        type: 'publication'
+      },
+      {
+        title: 'Wearable Technologies - The future of on-body computing',
+        url: 'https://www.wearable-technologies.com/future-on-body',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '58',
+    slug: 'energia-de-fusao-avancos-rumo-a-energia-limpa',
+    title: 'Energia de Fusão: Os Avanços Rumo à Energia Limpa Ilimitada',
+    excerpt: 'A fusão nuclear é a promessa de energia praticamente infinita e limpa. Entenda os recentes avanços tecnológicos, os recordes de laboratório e o caminho ainda longo para a rede elétrica.',
+    content: `
+      <h2>A Energia das Estrelas na Terra</h2>
+      <p>Estrelas como o Sol produzem energia por <strong>fusão nuclear</strong> — a união de núcleos atômicos leves. Reproduzir esse processo de forma controlada na Terra é o sonho de décadas: gerar energia abundante, limpa e sem os resíduos de longo prazo da fissão tradicional.</p>
+
+      <h2>Os Recentes Avanços</h2>
+      <p>Nos últimos anos, experimentos em todo o mundo registraram <strong>ganhos importantes de calor e energia</strong>, aproximando-se do ponto de equilíbrio em que o processo gera mais energia do que consome. Embora as condições sejam distintas entre reatores experimentais, o progresso renovou o otimismo da área.</p>
+
+      <h2>As Principais Rotas Tecnológicas</h2>
+      <ul>
+        <li><strong>Tokamaks:</strong> câmaras magnéticas em formato de rosca — a abordagem mais pesquisada</li>
+        <li><strong>Stellarators:</strong> campos magnéticos com formatos complexos, mais estáveis porém difíceis de construir</li>
+        <li><strong>Fusão inercial:</strong> compressão de minúsculas cápsulas por lasers de alta potência</li>
+      </ul>
+
+      <h2>O Que Ainda Falta</h2>
+      <p>Apesar dos recordes, dois desafios enormes permanecem: <strong>sustentar a reação por longos períodos</strong> e transformar o calor gerado em eletricidade de forma eficiente e economicamente viável. Nenhuma usina comercial de fusão opera em escala real ainda.</p>
+
+      <h2>Ceticismo e Perspectivas</h2>
+      <p>Especialistas alertam que prazos otimistas de algumas startups e promessas de "fusão nos próximos anos" devem ser vistos com cautela. Embora o progresso seja real, <strong>a fusão comercial ainda é considerada distante</strong> — as estimativas mais realistas falam em décadas.</p>
+
+      <h2>Conclusão</h2>
+      <p>A fusão nuclear representa uma das tecnologias mais transformadoras já imaginadas. Se algum dia for comercializada, poderia impactar a energia, o clima e a geopolítica mundial. Por enquanto, é uma corrida de maratona — e não de sprint — em que cada experimento é um passo importante rumo ao horizonte.</p>
+    `,
+    category: {
+      id: 'futuro',
+      slug: 'futuro',
+      name: 'Futuro',
+      description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes',
+      color: '#10b981'
+    },
+    tags: ['fusão nuclear', 'energia', 'tokamak', 'futuro', 'ciência'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?fusion,nuclear,energy',
+    imageAlt: 'Reator de fusão com plasma brilhante em câmara magnética de laboratório',
+    sources: [
+      {
+        title: 'ITER - International Fusion Energy Organization',
+        url: 'https://www.iter.org',
+        type: 'university'
+      },
+      {
+        title: 'Nature Physics - Recent advances in fusion energy research',
+        url: 'https://www.nature.com/physics-fusion-advances-2026',
+        type: 'journal'
+      }
+    ]
   }
 ];
