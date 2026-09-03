@@ -3634,5 +3634,1891 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'journal'
       }
     ]
+  },
+  {
+    id: '59',
+    slug: 'marvel-novidades-universo-dos-herois-2026',
+    title: 'Marvel: As Principais Novidades que Estão Movimentando o Universo dos Heróis em 2026',
+    excerpt: 'De lançamentos nos cinemas a novas sagas nos quadrinhos, o universo Marvel vive um ano intenso. Entenda o que vem por aí para os heróis em 2026.',
+    content: `
+      <h2>Um Ano de Grandes Movimentações</h2>
+      <p>O universo dos heróis da Marvel nunca descansa. Em 2026, a editora e a Marvel Studios seguem ampliando suas histórias, conectando personagens, renovando sagas e levantando expectativas do público que acompanha cada fase desse universo de décadas.</p>
+
+      <h2>O Fenômeno de Spider-Man no Cinema</h2>
+      <p>A maior chegada do ano nas telonas foi <strong>Spider-Man: Brand New Day</strong>, estrelado por Tom Holland e dirigido por Destin Daniel Cretton. Com Zendaya, Sadie Sink, Florence Pugh e Marisa Tomei no elenco, a aventura se tornou um dos maiores sucessos de bilheteria de 2026, levando Peter Parker a um ponto de virada decisivo em sua trajetória.</p>
+
+      <h2>Os Vingadores Voltam em Dezembro</h2>
+      <p>Para o fim do ano, o aguardado <strong>Avengers: Doomsday</strong> chega aos cinemas em dezembro, sob a direção dos irmãos Russo. O filme reúne um elenco gigantesco, com nomes como Robert Downey Jr., Pedro Pascal, Anthony Mackie, Florence Pugh e Chris Hemsworth, e promete consolidar a nova direção do universo nas telas.</p>
+
+      <h2>O Papel de Robert Downey Jr. na Nova Fase</h2>
+      <p>Uma das maiores surpresas dos últimos tempos foi o retorno de Robert Downey Jr. ao MCU — não como o Tony Stark que o público conheceu, mas como <strong>Dr. Doom</strong>. A revelação reconfigurou as apostas dos fãs e ligou o diretores dos próximos grandes eventos a uma narrativa de vilania, magia e ameaças que cruzam o multiverso.</p>
+
+      <h2>Nos Quadrinhos, Novas Sagas e Novos Heróis</h2>
+      <p>Nas bancas e nas plataformas digitais, a Marvel tem renovado seus títulos principais. A editora continua explorando sagas que unem diferentes gerações de heróis, resgata personagens clássicos e apresenta novas identidades que disputam a atenção dos leitores mais jovens.</p>
+
+      <h2>Streaming: Séries Que Ampliam o Universo</h2>
+      <p>No streaming, a Marvel segue usando o formato de séries para explorar personagens coadjuvantes, expandir tramas deixadas em aberto pelos filmes e apresentar o terreno para os próximos cruzamentos. As produções funcionam como peças que se encaixam no grande quebra-cabeça contado pelo estúdio.</p>
+
+      <h2>O Que Esperar dos Próximos Passos</h2>
+      <p>Com o sucesso recente e o calendário de estreias previstas para os próximos anos, o universo Marvel caminha para uma nova era. A expectativa é de que as conexões entre filmes, séries e quadrinhos se tornem cada vez mais profundas, mantendo viva a tradição de décadas de histórias em quadrinhos.</p>
+
+      <h2>Conclusão</h2>
+      <p>Os heróis da Marvel seguem tão presentes quanto antes. Entre cinema, quadrinhos e streaming, 2026 reforça que esse universo continua se renovando — e que, para os fãs, sempre haverá uma nova história pelo caminho.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['Marvel', 'MCU', 'super-heróis', 'quadrinhos', 'Avengers'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?marvel,superhero,comics',
+    imageAlt: 'Colagem de heróis com efeitos visuais inspirados no universo Marvel',
+    sources: [
+      {
+        title: 'Marvel Oficial - Notícias e Anúncios',
+        url: 'https://www.marvel.com/news',
+        type: 'company'
+      },
+      {
+        title: 'Variety - Marvel Studios e Cinema',
+        url: 'https://variety.com/t/marvel/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '60',
+    slug: 'spider-man-historia-futuro-nos-quadrinhos-da-marvel',
+    title: 'Spider-Man: Novas Histórias e o Futuro do Herói nos Quadrinhos da Marvel',
+    excerpt: 'O Homem-Aranha vive um momento marcante entre páginas e telas. Conheça as novidades das HQs e como o herói segue relevante.',
+    content: `
+      <h2>O Herói de Muitas Gerações</h2>
+      <p>Poucos personagens dos quadrinhos são tão reconhecidos quanto o <strong>Homem-Aranha</strong>. Criado por Stan Lee e Steve Ditko em 1962, o herói equilibra os dilemas de Peter Parker com as responsabilidades de quem salva Nova York. Em 2026, ele segue no centro das atenções da Marvel.</p>
+
+      <h2>A Vida de Peter Parker nos Quadrinhos</h2>
+      <p>Nas páginas dos quadrinhos, Peter Parker continua lidando com os desafios que sempre definiram o personagem: a vida pessoal, a rotina no trabalho e as batalhas contra vilões clássicos e ameaças inéditas. A editora mantém o herói em várias revistas simultâneas, explorando diferentes lados da sua história.</p>
+
+      <h2>Uma Nova Geração de Escaladores</h2>
+      <p>Além de Peter, o universo do Homem-Aranha ganhou força com outros heróis, como Miles Morales, que conquistou legiões de fãs e protagonizou eventos importantes. A presença de vários personagens aranha permite à Marvel contar histórias de tons variados, do drama urbano à aventura mais leve.</p>
+
+      <h2>O Sucesso no Cinema</h2>
+      <p>Fora das páginas, o herói brilhou nas telonas com <strong>Spider-Man: Brand New Day</strong>, estrelado por Tom Holland. Dirigido por Destin Daniel Cretton, o filme se tornou um dos maiores sucessos de 2026 e atraiu novos leitores para os quadrinhos, em um movimento que costuma impulsionar vendas e renovar o interesse pelo personagem.</p>
+
+      <h2>As Vilões em Destaque</h2>
+      <p>O universo do herói também é marcado por uma das maiores galerias de vilões dos quadrinhos, do Duende Verde ao Doutor Octopus. Nos últimos anos, novas pessoas também ganharam espaço, com tramas que exploram as fraquezas e as ambições por trás de cada ameaça.</p>
+
+      <h2>O Futuro do Herói</h2>
+      <p>Para os próximos anos, a Marvel deve seguir equilibrando a tradição com a inovação. A expectativa é de que Peter Parker continue sendo o coração da franquia, enquanto o universo aranha se expande e se conecta com cada vez mais personagens.</p>
+
+      <h2>Conclusão</h2>
+      <p>O Homem-Aranha segue como um dos pilares da Marvel, tanto nos quadrinhos quanto no cinema. As novidades de 2026 mostram um herói em constante reinvenção — e com fôlego de sobra para conquistar novas gerações.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['Spider-Man', 'Homem-Aranha', 'quadrinhos', 'Marvel', 'super-heróis'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?spiderman,superhero,comics',
+    imageAlt: 'Ilustração urbana de um herói aranha escalando um edifício',
+    sources: [
+      {
+        title: 'Marvel Oficial - Spider-Man nos Quadrinhos',
+        url: 'https://www.marvel.com/comics',
+        type: 'company'
+      },
+      {
+        title: 'The Hollywood Reporter - Spider-Man: Brand New Day',
+        url: 'https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-2026',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '61',
+    slug: 'avengers-nova-fase-universo-marvel',
+    title: 'Avengers: O Que Esperar da Nova Fase do Universo Marvel',
+    excerpt: 'Com Doomsday chegando aos cinemas, os Vingadores iniciam uma nova era. Entenda o que está em jogo e o que esperar dos heróis.',
+    content: `
+      <h2>Uma Nova Era para os Heróis Mais Poderosos</h2>
+      <p>Os <strong>Vingadores</strong> sempre foram o coração do Universo Marvel nas telonas. Depois de anos de reviravoltas, o time se prepara para uma nova fase, que promete redefinir o equilíbrio de forças entre heróis, vilões e os rumos de uma narrativa cada vez maior.</p>
+
+      <h2>Avengers: Doomsday no Cinema</h2>
+      <p>O grande marco dessa nova era é <strong>Avengers: Doomsday</strong>, dirigido pelos irmãos Russo e programado para chegar aos cinemas em <strong>dezembro de 2026</strong>. A produção reúne um elenco impressionante, incluindo Robert Downey Jr., Pedro Pascal, Chris Hemsworth, Anthony Mackie e Chris Evans, em uma história que promete elevar risco e escala.</p>
+
+      <h2>O Retorno de Robert Downey Jr. como Dr. Doom</h2>
+      <p>Uma das revelações mais comentadas foi o retorno de Robert Downey Jr. — desta vez não como Tony Stark, mas como <strong>Dr. Doom</strong>. O personagem, um dos grandes vilões dos quadrinhos, ocupa um papel central na trama e aponta para conflitos muito maiores, ligados ao poder e ao destino de vários mundos.</p>
+
+      <h2>Uma História Que Cruza o Multiverso</h2>
+      <p>A nova fase dos Vingadores caminha lado a lado com a ideia do <strong>multiverso</strong>. A possibilidade de cruzar realidades dá espaço para encontros inusitados, resgates de versões alternativas de personagens e o surgimento de ameaças que nenhum herói consegue enfrentar sozinho.</p>
+
+      <h2>Novos Rostos no Time</h2>
+      <p>Além dos veteranos, a nova formação deve receber novos personagens de diferentes franquias da Marvel. A aposta do estúdio é unir gerações, dando protagonismo a heróis que surgiram no streaming e em filmes recentes, enquanto mantém os pilares que o público já conhece.</p>
+
+      <h2>O Que o Futuro Reserva</h2>
+      <p>Espera-se que, após Doomsday, o universo Marvel siga construindo um caminho rumo a um novo grande evento coletivo. A direção criativa aponta para uma narrativa que conecta passado, presente e futuro, respeitando a trajetória do MCU enquanto abre espaço para o novo.</p>
+
+      <h2>Conclusão</h2>
+      <p>A nova fase dos Vingadores promete ser uma das mais importantes da história do cinema de super-heróis. Com um elenco gigante, ameaças cósmicas e reviravoltas, os heróis mais poderosos da Terra se preparam para escrever mais um capítulo inesquecível.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Avengers', 'Vingadores', 'Marvel', 'MCU', 'cinema'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-28',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?avengers,cinema,superhero',
+    imageAlt: 'Grupo de heróis em pose épica com luzes dramáticas de cinema',
+    sources: [
+      {
+        title: 'Marvel Studios - Avengers: Doomsday',
+        url: 'https://www.marvel.com/movies/avengers-doomsday',
+        type: 'company'
+      },
+      {
+        title: 'Variety - Avengers: Doomsday notícias',
+        url: 'https://variety.com/t/avengers-doomsday/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '62',
+    slug: 'dc-comics-nova-fase-dos-herois-2026',
+    title: 'DC Comics: A Nova Fase dos Heróis Que Está Chamando Atenção em 2026',
+    excerpt: 'A DC vive um momento de renovação entre quadrinhos, cinema e séries. Conheça os lançamentos e a nova fase que domina o ano.',
+    content: `
+      <h2>Um Momento de Reinvenção</h2>
+      <p>A <strong>DC Comics</strong> passa por uma das fases mais ambiciosas de sua história. Com uma nova direção criativa nos quadrinhos e um esforço coordenado para unificar cinema, séries e HQs, a editora busca recolocar seus maiores heróis em evidência.</p>
+
+      <h2>O Novo Universo DC nas Telas</h2>
+      <p>No audiovisual, a DC Studios, liderada por James Gunn e Peter Safran, deu início ao chamado <strong>DCU (DC Universe)</strong>, um universo compartilhado que substitui a antiga fase do cinema. O marco foi o filme <strong>Superman</strong>, dirigido por Gunn, que reabilitou a imagem do Homem de Aço e preparou o terreno para os próximos lançamentos.</p>
+
+      <h2>Novos Títulos e Sagas nos Quadrinhos</h2>
+      <p>Nas páginas, a editora aposta em uma programação renovada. Lançamentos como <strong>Batman</strong>, <strong>Superman</strong> em novos formatos, <strong>Teen Titans</strong> e <strong>Zatanna</strong> estão entre os destaques, com equipes criativas que misturam veteranos e novos autores. A proposta é unir o respeito à tradição com a ousadia de novas narrativas.</p>
+
+      <h2>A Chegada das Séries</h2>
+      <p>Na televisão, a série <strong>Lanterns</strong>, baseada no universo do Green Lantern, estreou em 2026 pela HBO. Estrelada por Kyle Chandler e Aaron Pierre, a produção mistura investigação e ficção científica e foi criada por nomes como Chris Mundy, Damon Lindelof e Tom King, chamando atenção tanto do público quanto da crítica.</p>
+
+      <h2>Heróis Clássicos em Destaque</h2>
+      <p>Personagens como Superman, Batman e a Mulher-Maravilha seguem como pilares da editora. Ao mesmo tempo, a DC dá espaço para outros nomes, como a Supergirl — que ganhou destaque tanto nos quadrinhos quanto em adaptações — e para o crescimento do universo dos Lanternas.</p>
+
+      <h2>Balanço entre Tradição e Novidade</h2>
+      <p>A nova fase da DC busca equilibrar a herança de décadas de histórias com a busca por novos públicos. Isso aparece tanto na diversidade de títulos quanto nas abordagens que aproximam os heróis de temas contemporâneos.</p>
+
+      <h2>Conclusão</h2>
+      <p>A DC encerra a primeira metade da década em plena transformação. Entre quadrinhos, filmes e streaming, os grandes heróis da editora se renovam para as novas gerações, mantendo viva a magia que há décadas fascina leitores e espectadores.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['DC Comics', 'DCU', 'super-heróis', 'quadrinhos', 'cinema'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?dc,superhero,comics',
+    imageAlt: 'Silhueta de heróis da DC com fundo azul dramático',
+    sources: [
+      {
+        title: 'DC Comics - Notícias Oficiais',
+        url: 'https://www.dc.com/news',
+        type: 'company'
+      },
+      {
+        title: 'DC Studios - Universo DC',
+        url: 'https://www.dcstudios.com',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '63',
+    slug: 'superman-futuro-homem-de-aco-universo-dc',
+    title: 'Superman e o Futuro do Homem de Aço no Universo da DC',
+    excerpt: 'Após o novo filme do herói, Superman se reposiciona no centro do universo DC. Entenda os rumos do Homem de Aço.',
+    content: `
+      <h2>O Herói Que Recomeça</h2>
+      <p>O <strong>Superman</strong> sempre foi mais do que um herói: ele é um símbolo. Em 2025, o personagem ganhou um novo começo nos cinemas com um filme dirigido por James Gunn, que colocou o Homem de Aço no centro desse novo universo compartilhado da DC.</p>
+
+      <h2>O Novo Capítulo no Cinema</h2>
+      <p>Interpretado por David Corenswet, o Superman do novo DCU trouxe uma abordagem que mistura a grandiosidade do herói com a simplicidade humana de Clark Kent. O filme foi recebido como o pontapé de uma nova era e definiu o tom para os próximos projetos da DC Studios.</p>
+
+      <h2>Clark Kent e a Vida Dupla</h2>
+      <p>A essência do personagem sempre esteve no equilíbrio entre o alienígena de poderes impressionantes e o jornalista de Metrópolis. A nova fase explora justamente essa dualidade, destacando a relação de Clark com o planeta que escolheu proteger e com as pessoas que o inspiram.</p>
+
+      <h2>Aliados e Vilões no Radar</h2>
+      <p>O universo do Homem de Aço é rico em aliados e inimigos. Da Fortaleza da Solidão à Liga da Justiça, Superman carrega um elenco de apoio marcante. Ao mesmo tempo, seus grandes vilões continuam sendo explorados, com tramas que testam tanto sua força quanto seus valores.</p>
+
+      <h2>Nos Quadrinhos</h2>
+      <p>Nos quadrinhos, Superman segue como um dos títulos mais importantes da DC. Novas sagas, novas versões do personagem e histórias que reimaginam sua origem mantêm a chama do herói acesa para leitores antigos e novos.</p>
+
+      <h2>Um Símbolo Para as Novas Gerações</h2>
+      <p>Mais do que força, o Superman representa esperança. Em um mundo em constante mudança, o personagem continua servindo como referência de bondade, coragem e compromisso com o bem — valores que atravessam gerações.</p>
+
+      <h2>Conclusão</h2>
+      <p>O futuro do Homem de Aço parece promissor. Com um novo filme, novas histórias em quadrinhos e um universo inteiro sendo construído ao seu redor, Superman se mantém como um dos maiores e mais queridos heróis de todos os tempos.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['Superman', 'Homem de Aço', 'DC Comics', 'DCU', 'super-heróis'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-30',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?superman,hero,sky',
+    imageAlt: 'Homem voando em direção ao céu com capa ao vento',
+    sources: [
+      {
+        title: 'DC Comics - Superman',
+        url: 'https://www.dc.com/superman',
+        type: 'company'
+      },
+      {
+        title: 'DC Studios - Superman (2025)',
+        url: 'https://www.dcstudios.com/superman',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '64',
+    slug: 'batman-novas-historias-desafios-cavaleiro-das-trevas',
+    title: 'Batman: Novas Histórias e Desafios Para o Cavaleiro das Trevas',
+    excerpt: 'O Batman segue explorando novos dilemas entre quadrinhos, cinema e séries. Veja os desafios do Cavaleiro das Trevas na nova fase.',
+    content: `
+      <h2>O Herói de Gotham em Nova Fase</h2>
+      <p>Poucos personagens dos quadrinhos despertam tanta paixão quanto o <strong>Batman</strong>. Em 2026, o Cavaleiro das Trevas segue protagonizando novas histórias que renovam seu mito, sem perder a essência sombria que o tornou tão marcante.</p>
+
+      <h2>Gotham e Seus Mistérios</h2>
+      <p>Gotham City continua sendo a grande personagem das histórias do Batman. Entre corrupção, crimes e uma galeria de vilões memoráveis, a cidade oferece um terreno fértil para tramas que unem investigação, ação e drama psicológico.</p>
+
+      <h2>Novas HQs em Destaque</h2>
+      <p>Nas bancas, o Batman é um dos títulos mais presentes da DC. Novas sagas exploram tanto a versão mais clássica do herói quanto releituras ousadas, incluindo formações alternativas e parcerias com outros personagens. A proposta é manter o morcego relevante para diferentes tipos de leitores.</p>
+
+      <h2>Das Páginas às Telas</h2>
+      <p>O personagem também domina o audiovisual. Seja em animações, séries ou filmes, o Batman continua sendo um dos heróis mais adaptados da história. A DC tem apostado em abordagens variadas, que vão do tom mais realista a aventuras que celebram o lado mais fantástico do universo de Gotham.</p>
+
+      <h2>Os Desafios do Herói Sem Poderes</h2>
+      <p>Diferente de muitos outros heróis, o Batman não possui superpoderes. Sua força vem da disciplina, do intelecto e da preparação. É justamente esse limite humano que torna suas histórias tão envolventes: cada vitória é conquistada à base de esforço e escolhas difíceis.</p>
+
+      <h2>Além de Bruce Wayne</h2>
+      <p>O universo do Batman vai muito além de Bruce Wayne. Os Robins, a Batgirl e a Bat-Família formam uma rede de personagens que amplia as tramas e dá ao herói uma dimensão mais humana, pautada em laços e lealdade.</p>
+
+      <h2>Conclusão</h2>
+      <p>O Cavaleiro das Trevas segue firme como um dos maiores ícones da cultura pop. Com novas histórias, novos desafios e um universo sempre em expansão, Batman continua provando por que atravessa gerações como o herói mais humano de todos.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['Batman', 'Cavaleiro das Trevas', 'DC Comics', 'Gotham', 'quadrinhos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-29',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?batman,gotham,night',
+    imageAlt: 'Silhueta de morcego sobre a cidade à noite',
+    sources: [
+      {
+        title: 'DC Comics - Batman',
+        url: 'https://www.dc.com/batman',
+        type: 'company'
+      },
+      {
+        title: 'DC Comics - Novidades do Batman',
+        url: 'https://www.dc.com/news',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '65',
+    slug: 'hbo-max-lancamentos-geek-2026',
+    title: 'HBO Max: Os Lançamentos Geek que Prometem Dominar o Streaming em 2026',
+    excerpt: 'Entre séries de fantasia, ficção científica e grandes franquias, o catálogo geek da Max ganha força em 2026. Confira o que vem por aí.',
+    content: `
+      <h2>Uma Plataforma em Expansão</h2>
+      <p>O streaming vive um momento de consolidação, e a <strong>HBO Max</strong> — hoje chamada de <strong>Max</strong> — segue como um dos grandes nomes do segmento. Em 2026, a plataforma aposta forte em conteúdo geek para conquistar tanto os fãs de longa data quanto novos assinantes.</p>
+
+      <h2>Fantasia e Séries de Peso</h2>
+      <p>A Max construiu uma reputação com séries de fantasia de grande orçamento. Títulos que misturam intriga, dragões e mundos elaborados continuam sendo o carro-chefe da plataforma, atraindo um público fiel que acompanha cada nova temporada.</p>
+
+      <h2>Ficção Científica em Alta</h2>
+      <p>A ficção científica também tem espaço garantido no catálogo. Com produções que exploram desde espaço e tecnologia até distopias e futuros possíveis, a plataforma oferece opções para quem gosta de histórias que instigam o pensamento e a imaginação.</p>
+
+      <h2>O Universo DC Novo e Velho</h2>
+      <p>Parte importante do conteúdo geek da Max vem do universo DC. A série <strong>Lanterns</strong>, baseada no universo do Green Lantern, estreou em 2026 e chamou atenção por unir investigação e ficção científica. Ao lado de animações e títulos clássicos, a franquia reforça a presença da plataforma entre os fãs de super-heróis.</p>
+
+      <h2>Animação e Animes</h2>
+      <p>Além das séries live-action, a Max investe em animação e anime, segmentos que crescem entre o público jovem e os admiradores da cultura japonesa. A variedade de estilos e gêneros amplia o alcance da plataforma.</p>
+
+      <h2>O Que Esperar dos Próximos Meses</h2>
+      <p>Com um catálogo em constante renovação, a expectativa é que a Max continue trazendo novidades ao longo de 2026. A aposta em grandes franquias, efeitos visuais e narrativas robustas mantém a plataforma no centro do debate sobre o futuro do entretenimento audiovisual.</p>
+
+      <h2>Conclusão</h2>
+      <p>Para quem gosta de cultura geek, a Max é um destino cada vez mais relevante. Com séries de fantasia, ficção científica, animação e o universo DC, a plataforma se consolida como uma das mais completas do streaming em 2026.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['HBO Max', 'Max', 'streaming', 'séries', 'ficção científica'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?streaming,series,technology',
+    imageAlt: 'Tela de streaming com série de fantasia em destaque',
+    sources: [
+      {
+        title: 'Max - Plataforma de Streaming',
+        url: 'https://www.max.com',
+        type: 'company'
+      },
+      {
+        title: 'Variety - Max streaming lançamentos',
+        url: 'https://variety.com/t/max/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '66',
+    slug: 'backrooms-lenda-da-internet-chega-ao-streaming',
+    title: 'O Terror das Backrooms Chega ao Streaming e Transforma uma Lenda da Internet em Filme',
+    excerpt: 'Da creepypasta do 4chan às telas: a lenda das Backrooms vira filme. Entenda como a história assustou a internet e conquistou o cinema.',
+    content: `
+      <h2>Uma Lenda Nascida na Internet</h2>
+      <p>Poucas histórias de terror nasceram tão organicamente da internet quanto as <strong>Backrooms</strong>. Tudo começou com uma imagem e um texto anônimo no fórum 4chan: a ideia de salas de escritório vazias, sem fim, para onde pessoas poderiam "escapar" ao passar por paredes erradas da realidade.</p>
+
+      <h2>Como Surgiu a Creepypasta</h2>
+      <p>A premissa virou um fenômeno. A imagem de um espaço amarelo e mal iluminado, combinada com a descrição de um labirinto infinito, gerou milhares de relatos, vídeos e discussões. A lenda cresceu e ganhou interpretações, tornando-se uma das creepypastas mais conhecidas da década.</p>
+
+      <h2>Das Páginas dos Fóruns às Telas</h2>
+      <p>O salto para o audiovisual começou com vídeos de <strong>found footage</strong> na internet, criados por fãs. A abordagem, inspirada em filmes de terror de gravação amadora, deu um ar ainda mais real à história e conquistou milhões de visualizações.</p>
+
+      <h2>O Filme das Backrooms em 2026</h2>
+      <p>O sucesso abriu caminho para o cinema. Um filme baseado na lenda, dirigido por <strong>Kane Parsons</strong> — conhecido exatamente por popularizar a versão das Backrooms em vídeos na internet —, foi produzido e programado para 2026, levando a história da web para um público ainda maior.</p>
+
+      <h2>O Que Explica Tanto Fascínio</h2>
+      <p>O terror das Backrooms funciona por uma sensação familiar: o medo de espaços vazios, do tédio que vira pânico e da ideia de estar preso em um lugar que parece comum, mas onde algo está errado. Essa mistura de banalidade e estranheza é o que torna a história tão perturbadora.</p>
+
+      <h2>Os Limites entre Ficção e Realidade</h2>
+      <p>Um dos elementos que mais cativam é a forma como as Backrooms flutuam entre a ficção e a sensação de "quase real". Muitos relatos relatam ter sonhado ou imaginado espaços parecidos, o que amplifica a inquietação e o apelo da história.</p>
+
+      <h2>Conclusão</h2>
+      <p>As Backrooms mostram como a internet é capaz de criar mitos contemporâneos. Da imagem anônima de um fórum ao filme de 2026, a lenda prova que boas histórias de terror podem nascer em qualquer lugar — inclusive nos cantos mais inesperados da web.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Backrooms', 'terror', 'cinema', 'creepypasta', 'internet'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?empty,office,creepy',
+    imageAlt: 'Corredor de escritório vazio e com luz amarelada sinistra',
+    sources: [
+      {
+        title: 'Variety - Filme das Backrooms em desenvolvimento',
+        url: 'https://variety.com/t/backrooms/',
+        type: 'publication'
+      },
+      {
+        title: 'Wikipedia - The Backrooms',
+        url: 'https://en.wikipedia.org/wiki/The_Backrooms',
+        type: 'other'
+      }
+    ]
+  },
+  {
+    id: '67',
+    slug: 'series-fantasia-ficcao-cientifica-em-destaque-na-hbo-max',
+    title: 'As Séries de Fantasia e Ficção Científica que Estão Ganhando Destaque na HBO Max',
+    excerpt: 'Da fantasia épica à ficção científica moderna, a Max reúne séries que dominam as conversas. Conheça as tendências do gênero.',
+    content: `
+      <h2>O Território das Grandes Narrativas</h2>
+      <p>A <strong>fantasia</strong> e a <strong>ficção científica</strong> sempre tiveram espaço garantido na Max. No streaming, essas histórias atraem quem busca universos expansivos, personagens marcantes e questões existenciais — e a plataforma vem explorando esse território com cada vez mais investimento.</p>
+
+      <h2>Fantasia Épica e Universos Complexos</h2>
+      <p>A fantasia segue como um dos grandes trunfos da plataforma. Séries que constroem mundos detalhados, com política, magia e conflitos entre reinos, continuam conquistando fãs e alimentando discussões semana a semana. A qualidade da produção e os elencos robustos são marcas desse tipo de conteúdo.</p>
+
+      <h2>Ficção Científica Para Refletir</h2>
+      <p>A ficção científica, por sua vez, dialoga com o presente de forma poderosa. Seja explorando tecnologia, sociedades futuristas ou dilemas éticos, as séries do gênero convidam o espectador a questionar o próprio mundo enquanto se diverte.</p>
+
+      <h2>A Mistura de Gêneros</h2>
+      <p>Uma tendência forte é a mistura de gêneros. Produções que unem fantasia com mistério, ou ficção científica com investigação, têm atraído novos públicos. A série <strong>Lanterns</strong>, por exemplo, combina elementos de ficção científica com uma trama de investigação, mostrando como as fronteiras entre gêneros estão cada vez mais fluidas.</p>
+
+      <h2>Animação e Formas Alternativas de Contar</h2>
+      <p>Além do live-action, a animação e as minisséries ganham espaço. Formatos mais curtos ou mais ousados permitem explorar ideias experimentais e histórias que não caberiam em produções tradicionais.</p>
+
+      <h2>O Crescimento do Fandom</h2>
+      <p>Falar de fantasia e ficção científica é falar de fandom. Séries populares geram teorias, fan arts e comunidades inteiras na internet — um fenômeno que reforça a importância dessas histórias e mantém o gênero sempre em alta.</p>
+
+      <h2>Conclusão</h2>
+      <p>A Max se consolida como um dos grandes estúdios de fantasia e ficção científica do streaming. Com universos ricos, gêneros em fusão e um público apaixonado, a plataforma segue alimentando a imaginação de quem ama boas histórias.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['fantasia', 'ficção científica', 'séries', 'Max', 'streaming'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-31',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?fantasy,science-fiction,space',
+    imageAlt: 'Imagem de galáxia futurista com tons de fantasia',
+    sources: [
+      {
+        title: 'Max - Plataforma de Streaming',
+        url: 'https://www.max.com',
+        type: 'company'
+      },
+      {
+        title: 'Collider - Max séries e notícias',
+        url: 'https://collider.com/max/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '68',
+    slug: 'netflix-novidades-geek-catalogo-2026',
+    title: 'Netflix: As Principais Novidades Geek que Chegam ao Catálogo em 2026',
+    excerpt: 'Da ficção científica ao anime, a Netflix amplia seu catálogo geek em 2026. Veja o que a plataforma reserva para os fãs.',
+    content: `
+      <h2>Streaming que Abraça a Cultura Geek</h2>
+      <p>A <strong>Netflix</strong> é, há anos, uma das maiores plataformas de streaming do mundo — e boa parte disso se deve à força do seu conteúdo geek. Em 2026, a empresa segue investindo em ficção científica, fantasia, anime e adaptações de grandes franquias.</p>
+
+      <h2>Ficção Científica e Fantasia</h2>
+      <p>O gênero de ficção científica é um dos pilares da plataforma, com produções que exploram distopias, tecnologias e universos paralelos. Ao lado da fantasia, esses títulos conquistam um público que busca histórias grandiosas e cheias de imaginação.</p>
+
+      <h2>Anime e Animação em Expansão</h2>
+      <p>A Netflix vem ampliando sua presença no mundo do anime. Parcerias com estúdios japoneses e uma biblioteca cada vez maior de séries animadas tornaram a plataforma um dos destinos favoritos dos fãs de animação.</p>
+
+      <h2>Adaptações de Grandes Franquias</h2>
+      <p>As adaptações de jogos, livros e HQs seguem como aposta importante. A plataforma transforma franquias queridas em séries e filmes, levando personagens amados para novas audiências. Algumas dessas produções geram expectativa e debate antes mesmo da estreia.</p>
+
+      <h2>O Peso das Novidades na Plataforma</h2>
+      <p>O catálogo geek da Netflix se renova constantemente. Cada mês traz novos títulos, o que mantém a plataforma relevante para quem vive acompanhando as novidades do setor.</p>
+
+      <h2>O Futuro da Cultura Geek no Streaming</h2>
+      <p>Com o crescimento do interesse global por esse tipo de conteúdo, a tendência é que a Netflix continue apostando cada vez mais em produção geek. A disputa por lançamentos e a qualidade das histórias devem seguir aquecidas.</p>
+
+      <h2>Conclusão</h2>
+      <p>Para quem ama cultura geek, a Netflix segue como uma das plataformas essenciais. Com anime, ficção científica, fantasia e adaptações, o catálogo de 2026 promete manter os fãs ocupados por muitos e muitos streamings.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Netflix', 'streaming', 'séries', 'anime', 'ficção científica'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?netflix,streaming,geek',
+    imageAlt: 'Tela de plataforma de streaming com conteúdo de ficção',
+    sources: [
+      {
+        title: 'Netflix Tudum - Novidades',
+        url: 'https://www.netflix.com/tudum',
+        type: 'company'
+      },
+      {
+        title: 'Collider - Netflix notícias',
+        url: 'https://collider.com/netflix/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '69',
+    slug: 'resident-evil-retorno-da-franquia-nova-adaptacao',
+    title: 'Resident Evil: O Retorno da Franquia e o Que Esperar da Nova Adaptação',
+    excerpt: 'De jogos a novos projetos, Resident Evil vive um ano de renascimento. Veja o que é fato, o que é expectativa e o que vem por aí.',
+    content: `
+      <h2>Uma Franquia Que Não Morre</h2>
+      <p>Poucas franquias de terror sobrevivem tão bem quanto <strong>Resident Evil</strong>. Criada pela Capcom em 1996, a série inspirou dezenas de jogos, filmes, quadrinhos e séries. Em 2026, o universo de Raccoon City vive um momento de renascimento — e muita expectativa.</p>
+
+      <h2>O Retorno Triunfal nos Jogos</h2>
+      <p>O grande nome da franquia neste ano é o jogo <strong>Resident Evil Requiem</strong>, lançado pela Capcom em fevereiro de 2026. Dirigido por Koshi Nakanishi, o título trouxe Leon S. Kennedy de volta e apresentou a nova protagonista Grace Ashcroft, conquistando a crítica e o público e reforçando a força da série de jogos.</p>
+
+      <h2>A Busca por uma Nova Adaptação</h2>
+      <p>Quando o assunto é o audiovisual, a situação é marcada por expectativa. A série live-action da Netflix, lançada em 2022, teve apenas uma temporada, e o filme-reboot <strong>Welcome to Raccoon City</strong> (2021) não gerou sequências confirmadas. Diante disso, fãs e veículos acompanham as especulações em torno de novas adaptações.</p>
+
+      <h2>Fato X Rumores</h2>
+      <p>É importante separar o que é fato do que é rumor. Enquanto os jogos têm uma trajetória clara e lançamentos marcados, os planos para novas séries ou filmes de Resident Evil ainda não foram confirmados de forma definitiva. Qualquer anúncio sobre elenco, data ou estúdio deve ser tratado com cautela até ser oficializado.</p>
+
+      <h2>O Universo Que Não Pára de Crescer</h2>
+      <p>Fora dos jogos e das telas, Resident Evil segue expandindo em outras frentes, como quadrinhos, animações e colecionáveis. Essa presença constante mantém a marca viva entre gerações e sustenta a demanda por novos conteúdos.</p>
+
+      <h2>O Que Esperar dos Próximos Anos</h2>
+      <p>A tendência é que a Capcom siga explorando a franquia tanto nos jogos quanto em parcerias audiovisuais. Para os fãs, o mais importante é acompanhar as fontes oficiais, já que muito do que circula na internet sobre adaptações ainda é especulação.</p>
+
+      <h2>Conclusão</h2>
+      <p>Resident Evil mostra que sabe se reinventar. Se nos jogos o retorno é uma realidade celebrada, no audiovisual a palavra de ordem é expectativa. Enquanto novos anúncios não chegam, a franquia segue viva — e ansiosa para os próximos capítulos.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Resident Evil', 'Capcom', 'jogos', 'séries', 'terror'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?resident-evil,zombie,horror',
+    imageAlt: 'Imagem sombria de ambiente apocalíptico com tons de horror',
+    sources: [
+      {
+        title: 'Capcom - Resident Evil oficial',
+        url: 'https://game.capcom.com/residentevil/',
+        type: 'company'
+      },
+      {
+        title: 'IGN - Resident Evil notícias',
+        url: 'https://www.ign.com/resident-evil',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '70',
+    slug: 'series-ficcao-cientifica-fantasia-mais-aguardadas-netflix',
+    title: 'As Séries de Ficção Científica e Fantasia Mais Aguardadas da Netflix',
+    excerpt: 'A Netflix aposta em histórias grandiosas para 2026. Conheça as séries de ficção científica e fantasia que movimentam o catálogo.',
+    content: `
+      <h2>O Mundo dos Maiores Universos</h2>
+      <p>A <strong>Netflix</strong> entende que ficção científica e fantasia são sinônimos de fidelidade e entusiasmo. Por isso, a plataforma segue investindo em séries que apostam em mundos novos, personagens profundos e histórias que prendem o espectador do início ao fim.</p>
+
+      <h2>Ficção Científica em Nova Escala</h2>
+      <p>As produções de ficção científica na plataforma variam do drama introspectivo à grande aventura espacial. O gênero permite explorar avanços tecnológicos, dilemas éticos e futuros possíveis, sempre com o propósito de instigar a imaginação do público.</p>
+
+      <h2>Fantasia Para Todos os Gostos</h2>
+      <p>A fantasia, por sua vez, oferece um vasto leque de opções: de reinos medievais a mundos urbanos com toque de magia. A diversidade de abordagens mostra como o gênero consegue dialogar com diferentes públicos e plataformas de gosto.</p>
+
+      <h2>Anime: A Força da Animação</h2>
+      <p>Um dos grandes trunfos da plataforma é o anime. Com títulos de ação, aventura e fantasia vindo de grandes estúdios japoneses, a Netflix se firmou como um destino central para quem acompanha animações de qualidade.</p>
+
+      <h2>Adaptações que Geram Expectativa</h2>
+      <p>As adaptações de livros, jogos e quadrinhos seguem entre as mais aguardadas. A transformação de histórias queridas em séries atrai tanto quem já conhece o material original quanto quem está descobrindo esses universos pela primeira vez.</p>
+
+      <h2>O Que Esperar dos Lançamentos</h2>
+      <p>A expectativa para 2026 é de um catálogo recheado. Entre novas temporadas, estreias inéditas e histórias originais, a Netflix promete manter os fãs de ficção e fantasia bem servidos ao longo de todo o ano.</p>
+
+      <h2>Conclusão</h2>
+      <p>Para os amantes de grandes histórias, a Netflix continua sendo uma plataforma essencial. Com ficção científica, fantasia, anime e adaptações, o catálogo de 2026 reforça o papel do streaming na formação de memórias e novas paixões.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['ficção científica', 'fantasia', 'séries', 'Netflix', 'anime'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-27',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?science-fiction,netflix,fantasy',
+    imageAlt: 'Ilustração de mundo futurista com elementos de fantasia',
+    sources: [
+      {
+        title: 'Netflix Tudum - Novidades',
+        url: 'https://www.netflix.com/tudum',
+        type: 'company'
+      },
+      {
+        title: 'Collider - Netflix notícias',
+        url: 'https://collider.com/netflix/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '71',
+    slug: 'disney-plus-novidades-marvel-star-wars-2026',
+    title: 'Disney+: As Novidades de Marvel e Star Wars que Movimentam o Streaming em 2026',
+    excerpt: 'Marvel e Star Wars seguem como as grandes forças do Disney+. Veja o que chega à plataforma em 2026.',
+    content: `
+      <h2>O Gigante do Entretenimento Interativo</h2>
+      <p>O <strong>Disney+</strong> se firmou como uma das plataformas de streaming mais relevantes do mundo, em grande parte graças a duas das maiores franquias da cultura pop: <strong>Marvel</strong> e <strong>Star Wars</strong>. Em 2026, ambas seguem movimentando o catálogo do serviço.</p>
+
+      <h2>Marvel nas Telas Pequenas</h2>
+      <p>O universo Marvel usa o streaming para expandir seus personagens e tramas. Séries no Disney+ permitem aprofundar histórias que dialogam com os filmes do estúdio, apresentando novos heróis e desenvolvendo enredos que alimentam as grandes narrativas do universo.</p>
+
+      <h2>Star Wars: Uma Galáxia Sem Limites</h2>
+      <p>Star Wars também encontrou no Disney+ um lar para suas séries. Produções que exploram os cantos mais distantes da galáxia, com novas histórias e personagens, mantêm a franquia viva entre fãs de todas as idades.</p>
+
+      <h2>Os Vingadores e o Multiverso</h2>
+      <p>Com o retorno dos Vingadores nas telonas, o streaming prepara o terreno para o público acompanhar as conexões entre as histórias. O conceito de multiverso amplia as possibilidades narrativas e abre espaço para encontros e surpresas que só uma franquia tão vasta conseguiria proporcionar.</p>
+
+      <h2>O Peso de Grandes Franquias</h2>
+      <p>Mais do que conteúdo, Marvel e Star Wars representam a identidade do Disney+. Para a plataforma, essas franquias são sinônimo de fidelização e de um público que acompanha cada episódio e cada nova revelação.</p>
+
+      <h2>O Que Esperar dos Próximos Meses</h2>
+      <p>Para 2026, a tendência é de um calendário intenso, com novas séries, novos filmes entrando no catálogo e histórias que continuam se cruzando. A aposta da Disney é manter essas duas marcas como o coração do streaming.</p>
+
+      <h2>Conclusão</h2>
+      <p>O Disney+ segue apostando no que mais sabe fazer: reunir fãs de todo o mundo em torno das maiores histórias da cultura pop. Com Marvel e Star Wars à frente, a plataforma mantém sua posição de destaque em 2026.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Disney+', 'Marvel', 'Star Wars', 'streaming', 'séries'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?disney,space,galaxy',
+    imageAlt: 'Cena de ficção científica com naves e galáxia ao fundo',
+    sources: [
+      {
+        title: 'Disney+ - Plataforma',
+        url: 'https://www.disneyplus.com',
+        type: 'company'
+      },
+      {
+        title: 'StarWars.com - Notícias',
+        url: 'https://www.starwars.com',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '72',
+    slug: 'the-mandalorian-e-grogu-futuro-de-star-wars',
+    title: 'The Mandalorian e Grogu: O Futuro de Star Wars Após a Nova Fase da Franquia',
+    excerpt: 'Com um novo filme nos cinemas, The Mandalorian e Grogu renovam o fôlego de Star Wars. Entenda os rumos da galáxia.',
+    content: `
+      <h2>A Dupla Que Conquistou a Galáxia</h2>
+      <p>Poucos personagens recentes de <strong>Star Wars</strong> conquistaram tanta afeição quanto o Mandaloriano e o pequeno Grogu. Da série que virou fenômeno no streaming ao cinema, essa dupla se tornou o coração da franquia nos últimos anos.</p>
+
+      <h2>O Filme nos Cinemas</h2>
+      <p>Em 2026, a dupla ganhou as telonas com o filme <strong>The Mandalorian and Grogu</strong>, dirigido por Jon Favreau — criador da série que deu origem à história. Com Pedro Pascal como protagonista, a produção levou a galáxia de Star Wars de volta ao cinema em grande estilo.</p>
+
+      <h2>Uma Nova Fase para Star Wars</h2>
+      <p>O longa marca uma nova fase da franquia, unindo o público das séries ao universo dos filmes. A abordagem aproveita a afeição criada no streaming para ampliar as possibilidades da história, apostando em ação, humor e emoção.</p>
+
+      <h2>O Que o Filme Significa Para o Futuro</h2>
+      <p>The Mandalorian and Grogu funciona como um elo entre diferentes eras de Star Wars. Ao conectar personagens amados a novos rumos, a produção abre caminho para conflitos e alianças que podem definir os próximos capítulos da saga.</p>
+
+      <h2>De Volta ao Universo Central</h2>
+      <p>Com o sucesso da dupla, a franquia reforça uma tendência: aproximar as histórias do streaming das grandes aventuras do cinema. Essa integração deve manter Star Wars no centro do debate sobre o futuro do entretenimento.</p>
+
+      <h2>O Que Esperar dos Próximos Lançamentos</h2>
+      <p>A expectativa é que Star Wars continue expandindo seus universos, equilibrando novas histórias no streaming com grandes eventos no cinema. A galáxia, ao que parece, está longe de ficar sem aventuras.</p>
+
+      <h2>Conclusão</h2>
+      <p>The Mandalorian e Grogu provaram que o futuro de Star Wars passa pela renovação e pelo carinho aos personagens. Com um filme de sucesso e novas histórias no horizonte, a franquia segue brilhando em uma galáxia muito, muito distante.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Star Wars', 'Mandalorian', 'Grogu', 'Disney+', 'cinema'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?mandalorian,starwars,space',
+    imageAlt: 'Capa de Mandaloriano viajando pelo espaço profundo',
+    sources: [
+      {
+        title: 'StarWars.com - The Mandalorian and Grogu',
+        url: 'https://www.starwars.com',
+        type: 'company'
+      },
+      {
+        title: 'Deadline - The Mandalorian and Grogu',
+        url: 'https://deadline.com/the-mandalorian-and-grogu',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '73',
+    slug: 'disney-marvel-star-wars-novas-franquias-entretenimento-geek',
+    title: 'Disney: Como Marvel, Star Wars e Novas Franquias Estão Moldando o Entretenimento Geek',
+    excerpt: 'Da magia dos parques às telas, a Disney une Marvel, Star Wars e novas histórias. Veja como a empresa molda a cultura geek.',
+    content: `
+      <h2>Uma Empresa do Mundo Geek</h2>
+      <p>A <strong>Disney</strong> se tornou, nos últimos anos, uma das maiores forças do entretenimento geek. Unindo <strong>Marvel</strong>, <strong>Star Wars</strong> e uma crescente coleção de franquias, a empresa transformou histórias de quadrinhos, filmes e jogos em experiências que atravessam todas as plataformas.</p>
+
+      <h2>Marvel: O Universo em Expansão</h2>
+      <p>O universo Marvel é um dos pilares dessa estratégia. Entre cinema e streaming, a Marvel Studios conecta filmes, séries e personagens, alimentando uma narrativa que se renova a cada ano e mantém o público sempre investido nas próximas estreias.</p>
+
+      <h2>Star Wars: Uma Galáxia Sem Fim</h2>
+      <p>Star Wars é outro gigante do portfólio. Com séries no streaming e filmes no cinema, a franquia conseguiu renovar seu público e expandir suas histórias, passando de uma saga de filmes para um universo completo e interligado.</p>
+
+      <h2>Novas Franquias no Radar</h2>
+      <p>Além dos gigantes já consolidados, a Disney investe em novas histórias. Do universo da Pixar à exploração de clássicos em novos formatos, a empresa busca constantemente ampliar seu catálogo de entretenimento e criar novas paixões.</p>
+
+      <h2>Parques e Experiências</h2>
+      <p>O alcance vai além das telas. Nos parques temáticos, a Disney leva personagens de Marvel e Star Wars para experiências imersivas, reforçando o vínculo do público com essas histórias de uma forma que nenhum outro estúdio consegue replicar.</p>
+
+      <h2>O Peso Definitivo no Streaming</h2>
+      <p>O Disney+ tornou-se o ponto de encontro dessas franquias. Ao reunir Marvel, Star Wars e demais marcas em um só lugar, a plataforma centraliza o entretenimento geek e cria uma base sólida de assinantes apaixonados.</p>
+
+      <h2>Conclusão</h2>
+      <p>A Disney segue redefinindo o que significa entretenimento geek. Com Marvel, Star Wars e novas franquias se cruzando em todos os formatos, a empresa encerra mais um ano reafirmando seu papel como a casa das maiores histórias da cultura pop.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Disney', 'Marvel', 'Star Wars', 'entretenimento', 'geek'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-26',
+    readingTime: 8,
+    featuredImage: 'https://source.unsplash.com/800x600/?disney,entertainment,geek',
+    imageAlt: 'Colagem de ícones geek com a magia dos parques da Disney',
+    sources: [
+      {
+        title: 'Disney+ - Plataforma',
+        url: 'https://www.disneyplus.com',
+        type: 'company'
+      },
+      {
+        title: 'The Walt Disney Company - Notícias',
+        url: 'https://thewaltdisneycompany.com',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '74',
+    slug: 'gta-vi-o-retorno-mais-aguardado-de-2026',
+    title: 'GTA VI: O Retorno Mais Aguardado de 2026 e Tudo o Que Sabemos Antes do Lançamento',
+    excerpt: 'Depois de mais de uma década de espera, GTA VI chega em novembro. Conheça a dupla de protagonistas, a nova cidade e o que esperar do jogo.',
+    content: `
+      <h2>A Espera Chega ao Fim</h2>
+      <p>Poucos lançamentos de jogos geram tanta expectativa quanto um novo <strong>Grand Theft Auto</strong>. Em 2026, a espera finalmente termina: a Rockstar Games prepara a estreia de <strong>GTA VI</strong>, o jogo mais aguardado da indústria nos últimos anos.</p>
+
+      <h2>Quando Chega e Onde Jogar</h2>
+      <p>O jogo está previsto para ser lançado em <strong>19 de novembro de 2026</strong> para <strong>PlayStation 5</strong> e <strong>Xbox Series X/S</strong>. Após dois adiamentos e uma longa produção, a nova aventura segue o sucesso de GTA V, lançado em 2013.</p>
+
+      <h2>Uma História Inspirada em Bonnie e Clyde</h2>
+      <p>Pela primeira vez na série principal, a história terá dois protagonistas centrais: <strong>Jason Duval</strong> e <strong>Lucia Caminos</strong>, um casal de criminosos cuja dinâmica lembra a de Bonnie e Clyde. A parceria entre os dois promete uma narrativa marcada por confiança, tensão e mal-entendidos.</p>
+
+      <h2>De Volta a Vice City</h2>
+      <p>O cenário acompanha a dupla em <strong>Leonida</strong>, um estado fictício inspirado na Flórida. O destaque fica para <strong>Vice City</strong>, a cidade influenciada por Miami que marcou gerações desde o clássico de 2002, agora recriada em um mundo aberto moderno e detalhado.</p>
+
+      <h2>Um Mundo Vivo e Detalhado</h2>
+      <p>A Rockstar mergulhou na cultura dos anos 2020 para construir um mundo rico. O jogo inclui atividades variadas, cidades costeiras e uma ambientação que parodia a cultura americana contemporânea, mantendo o bom humor característico da franquia.</p>
+
+      <h2>Vazamentos e Expectativa</h2>
+      <p>Como todo grande título, GTA VI também lidou com vazamentos durante a produção, o que aumentou ainda mais a curiosidade dos fãs. Ainda assim, muita coisa permanece sob sigilo, e a expectativa é de novidades até o lançamento.</p>
+
+      <h2>Conclusão</h2>
+      <p>GTA VI promete renovar a franquia sem abandonar o que a consagrou. Com novos protagonistas, uma cidade histórica e anos de desenvolvimento, o lançamento de 2026 deve marcar mais um capítulo inesquecível na história dos games.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['GTA VI', 'GTA', 'Rockstar', 'games', 'Vice City'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?grand-theft-auto,game,neon,vice',
+    imageAlt: 'Cidade noturna de inspiração retrô com luzes neon de jogo de mundo aberto',
+    sources: [
+      {
+        title: 'Rockstar Games - GTA VI',
+        url: 'https://www.rockstargames.com/VI',
+        type: 'company'
+      },
+      {
+        title: 'IGN - Grand Theft Auto VI',
+        url: 'https://www.ign.com/games/grand-theft-auto-6',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '75',
+    slug: 'supergirl-woman-of-tomorrow-filme-do-novo-universo-dc',
+    title: 'Supergirl: Woman of Tomorrow — O Novo Filme da Garota de Aço no Universo da DC',
+    excerpt: 'Com Milly Alcock no papel principal, o filme de Supergirl estreou em 2026 e expandiu o novo universo da DC. Conheça a produção.',
+    content: `
+      <h2>Uma Nova Estrela nas Telonas</h2>
+      <p>A heroína ganhou o centro do palco no novo <strong>Universo DC</strong>. <strong>Supergirl</strong> chegou aos cinemas em 2026 com um filme próprio, consolidando a personagem como uma das principais da nova fase da franquia.</p>
+
+      <h2>Data de Estreia</h2>
+      <p>O filme <strong>Supergirl: Woman of Tomorrow</strong> estreou em <strong>junho de 2026</strong>, tornando-se o segundo grande filme do recriado universo da DC Studios nas telonas, logo após o novo Superman.</p>
+
+      <h2>A Garota de Aço em Cena</h2>
+      <p>No papel principal está <strong>Milly Alcock</strong>, que interpreta Kara Zor-El, a prima de Superman. A produção explora a jornada de uma jovem kryptoniana lidando com seu poder, seu passado e o peso de ser uma heroína em uma galáxia cheia de desafios.</p>
+
+      <h2>Direção e Roteiro</h2>
+      <p>O filme é dirigido por <strong>Craig Gillespie</strong>, com roteiro de <strong>Ana Nogueira</strong>. A direção criativa busca unir a grandiosidade dos quadrinhos com uma história de caráter mais introspectivo, focada na jornada pessoal da protagonista.</p>
+
+      <h2>Conexões com o Universo DC</h2>
+      <p>A produção reúne nomes conhecidos do novo universo, incluindo <strong>David Corenswet</strong> (nosso mais recente Superman) e <strong>Jason Momoa</strong>, criando laços com outros filmes da franquia. A ideia é que Supergirl ocupe um lugar central na expansão dessa nova fase.</p>
+
+      <h2>As Expectativas da Nova Fase</h2>
+      <p>Com Supergirl em destaque, o novo Universo DC amplia seu elenco de heróis e prepara o terreno para personagens cada vez mais variados. A personagem, antes coadjuvante, agora tem peso de protagonista em uma produção própria.</p>
+
+      <h2>Conclusão</h2>
+      <p>Supergirl marca um passo importante para o novo universo da DC. Ao dar protagonismo a uma personagem querida pelo público, o estúdio reforça sua aposta em histórias celebrando a diversidade de heróis — e a Garota de Aço vence essa batalha em grande estilo.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Supergirl', 'DC', 'cinema', 'super-heróis', 'DCU'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-20',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?supergirl,woman,hero,dc',
+    imageAlt: 'Jovem heroína voando com capa vermelha em céu dramático',
+    sources: [
+      {
+        title: 'DC Studios - Supergirl',
+        url: 'https://www.dcstudios.com/supergirl',
+        type: 'company'
+      },
+      {
+        title: 'Variety - Supergirl (2026)',
+        url: 'https://variety.com/t/supergirl/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '76',
+    slug: 'harry-potter-serie-hbo-max-reboot-fantasia',
+    title: 'Harry Potter: A Série do HBO Max Que Pretende Rebobinar a Fantasia na Televisão',
+    excerpt: 'Um novo Harry Potter chega à TV como uma série de fantasia da HBO. Veja o elenco, a equipe criativa e as expectativas em torno do projeto.',
+    content: `
+      <h2>O Mundo Mágico na Televisão</h2>
+      <p>O universo de <strong>Harry Potter</strong> está prestes a ganhar um novo formato. A HBO desenvolve uma série de fantasia baseada nos livros de J.K. Rowling, funcionando como um reboot da famosa saga de filmes e apostando em uma nova forma de contar essas histórias.</p>
+
+      <h2>Uma Série Pensada Para a TV</h2>
+      <p>Diferente dos filmes, a série terá mais tempo para adaptar cada livro. A proposta é trazer uma versão fiel e aprofundada da jornada de Harry, com espaço para desenvolver personagens, tramas e detalhes que ficaram de fora das produções anteriores.</p>
+
+      <h2>Elenco Principal Revelado</h2>
+      <p>O trio central conta com <strong>Dominic McLaughlin</strong> como Harry Potter, <strong>Alastair Stout</strong> como Rony Weasley e <strong>Arabella Stanton</strong> como Hermione Granger. O elenco adulto inclui <strong>John Lithgow</strong> como Alvo Dumbledore, <strong>Paapa Essiedu</strong> como Severo Snape, <strong>Janet McTeer</strong> como Minerva McGonagall e <strong>Nick Frost</strong> como Rúbeo Hagrid.</p>
+
+      <h2>Equipe Criativa</h2>
+      <p>O projeto é capitaneado por <strong>Francesca Gardiner</strong> e <strong>Jon Brown</strong> na direção de showrunning, com <strong>Mark Mylod</strong> dirigindo episódios. A produção reúne a HBO à Warner Bros. Television, mantendo a abrangência e a qualidade esperadas de uma grande série de streaming.</p>
+
+      <h2>Como Será Exibida</h2>
+      <p>A série está prevista para ser exibida na <strong>HBO</strong>, trazendo também para o <strong>HBO Max</strong> (e, em algumas regiões, para o Max) todo o conteúdo do mundo mágico. A distribuição amplia o alcance da história para assinantes de todo o mundo.</p>
+
+      <h2>Expectativas e Cuidado com os Fãs</h2>
+      <p>Por se tratar de uma franquia extremamente amada, a série carrega grandes expectativas. A aposta em um elenco novo e em uma adaptação mais fiel busca conquistar tanto quem cresceu com os livros quanto uma nova geração de fãs.</p>
+
+      <h2>Conclusão</h2>
+      <p>O novo Harry Potter promete trazer a magia de volta de um jeito diferente. Ao apostar em uma série de fantasia detalhada para a televisão, a HBO dá novos ares a uma história que continua encantando o mundo todo.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Harry Potter', 'HBO Max', 'fantasia', 'séries', 'streaming'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?harry-potter,fantasy,magic,castle',
+    imageAlt: 'Castelo mágico com atmosfera de fantasia e luzes encantadas',
+    sources: [
+      {
+        title: 'Warner Bros. Television - Harry Potter',
+        url: 'https://www.warnerbros.com/tv/harry-potter',
+        type: 'company'
+      },
+      {
+        title: 'BBC - Elenco da série Harry Potter',
+        url: 'https://www.bbc.com/news/articles/c5ygp0908g9o',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '77',
+    slug: 'the-witcher-temporada-final-netflix',
+    title: 'The Witcher: A Temporada Final e o Futuro da Fantasia na Netflix',
+    excerpt: 'A série de fantasia da Netflix se aproxima do fim. Veja o que esperar da temporada final com Liam Hemsworth.',
+    content: `
+      <h2>Um Capítulo Que Está para Terminar</h2>
+      <p>Uma das principais apostas de fantasia da <strong>Netflix</strong> está perto de se despedir. <strong>The Witcher</strong>, série baseada nas obras de Andrzej Sapkowski, prepara sua temporada final, encerrando a jornada de Geralt de Rívia de um jeito que deve emocionar os fãs.</p>
+
+      <h2>A Troca de Protagonista</h2>
+      <p>Uma das mudanças mais marcantes da série foi a troca de protagonista. Após a saída de Henry Cavill, <strong>Liam Hemsworth</strong> assumiu o papel de Geralt a partir de uma das temporadas mais recentes. A transição gerou discussões, mas não abalou a produção.</p>
+
+      <h2>O Trio Central</h2>
+      <p>Além de Geralt, a história gira em torno de <strong>Ciri</strong>, vivida por Freya Allan, e <strong>Yennefer</strong>, interpretada por Anya Chalotra. A dinâmica entre os três é o coração da série, e a temporada final promete dar o desfecho para os arcos desses personagens.</p>
+
+      <h2>O Fim da Série</h2>
+      <p>A decisão de encerrar a série após a temporada final marca o fim de uma era para a fantasia no streaming. A Netflix optou por dar um desfecho à história, ao mesmo tempo em que mantém o interesse por spin-offs e produtos ligados ao universo de The Witcher.</p>
+
+      <h2>Uma Fantasia Fiel ao Espírito Original</h2>
+      <p>A série foi elogiada por sua atmosfera, monstros e mundo sombrio, ainda que tenha se desviado em vários pontos dos livros. A temporada final busca equilibrar ação, drama e os dilemas morais que sempre marcaram a franquia.</p>
+
+      <h2>O Que Esperar</h2>
+      <p>Para os fãs, a temporada final representa uma chance de ver o destino de Geralt, Ciri e Yennefer se fechar. Resta saber se a despedida será à altura de uma das histórias de fantasia mais acompanhadas da última década.</p>
+
+      <h2>Conclusão</h2>
+      <p>The Witcher se prepara para encerrar sua jornada na Netflix. Com um novo protagonista, arcos em aberto e a promessa de um final marcante, a temporada final deve reservar emoções de sobra para quem acompanha essa saga de espadas, magia e escolhas difíceis.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['The Witcher', 'Netflix', 'fantasia', 'séries', 'Liam Hemsworth'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-28',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?witcher,fantasy,sword,medieval',
+    imageAlt: 'Cavaleiro de armadura medievais empunhando espada em clima de fantasia',
+    sources: [
+      {
+        title: 'Netflix Tudum - The Witcher',
+        url: 'https://www.netflix.com/tudum/topics/the-witcher',
+        type: 'company'
+      },
+      {
+        title: 'Collider - The Witcher temporada final',
+        url: 'https://collider.com/tag/the-witcher/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '78',
+    slug: 'welcome-to-derry-serie-terror-do-max',
+    title: 'Welcome to Derry: A Série de Terror do Max Que Reconstrói o Universo de Stephen King',
+    excerpt: 'Antes de It, a cidade já escondia seus segredos. Welcome to Derry explora a origem do terror no universo de Stephen King para o streaming.',
+    content: `
+      <h2>Um Terror que Antecede a História</h2>
+      <p>O universo criado por <strong>Stephen King</strong> ganhou fôlego no streaming. <strong>Welcome to Derry</strong>, série de terror baseada em <strong>It</strong>, mergulha nos segredos que precedem as histórias clássicas do palhaço Pennywise, ampliando o mito para além dos livros e filmes.</p>
+
+      <h2>Uma Cidade Tomada pelo Medo</h2>
+      <p>A série reconstrói a cidade de <strong>Derry</strong> em um período antes dos eventos conhecidos pelos fãs. A produção explora como o mal se instalou na cidade, misturando horror, drama e elementos fantásticos em uma narrativa densa.</p>
+
+      <h2>Criação e Produção</h2>
+      <p><strong>Welcome to Derry</strong> foi criada por <strong>Jason Fuchs</strong> e <strong>Brad Caleb Kane</strong>, com o envolvimento de nomes ligados aos filmes de <strong>It</strong>. A equipe buscou respeitar o material de King enquanto construía uma história nova e original.</p>
+
+      <h2>O Retorno de Pennywise</h2>
+      <p>Um dos grandes atrativos é a presença de <strong>Pennywise</strong>, vivido por <strong>Bill Skarsgård</strong>, que retoma o papel icônico. O personagem continua sendo o centro do terror, alimentando a tensão que faz a história tão marcante.</p>
+
+      <h2>Onde Ver</h2>
+      <p>A série chega a uma ampla audiência por meio da <strong>Max</strong> (antiga HBO Max), reforçando a aposta da plataforma no terror de qualidade. Com uma primeira temporada já exibida, a produção se consolida como um novo capítulo do universo de King no streaming.</p>
+
+      <h2>Um Capítulo para Fãs e Novatos</h2>
+      <p>Para quem já conhece It, a série ajuda a entender melhor os horrores de Derry. Para quem está chegando agora, é uma porta de entrada acessível para um dos universos de terror mais influentes da literatura.</p>
+
+      <h2>Conclusão</h2>
+      <p>Welcome to Derry mostra como o terror pode evoluir no formato de série. Ao expandir o universo de Stephen King com uma história própria e aterrorizante, a produção do Max se afirma como destaque para os amantes do gênero.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Welcome to Derry', 'Stephen King', 'It', 'terror', 'Max'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-25',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?clown,horror,terror,derry',
+    imageAlt: 'Imagem sombria de cidade pequena com atmosfera de terror',
+    sources: [
+      {
+        title: 'Max - Welcome to Derry',
+        url: 'https://www.max.com/shows/welcome-to-derry',
+        type: 'company'
+      },
+      {
+        title: 'Variety - Welcome to Derry',
+        url: 'https://variety.com/t/welcome-to-derry/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '79',
+    slug: 'ahsoka-temporada-2-teaser-e-data-de-estreia',
+    title: 'Ahsoka: Temporada 2 Ganha Teaser e Data de Estreia — O Que Sabemos',
+    excerpt: 'A Lucasfilm divulgou o primeiro teaser da segunda temporada de Ahsoka. Relembre onde a primeira parou e o que esperar do retorno de Rosario Dawson.',
+    content: `
+      <h2>Ahsoka Está de Volta</h2>
+      <p>A <strong>Lucasfilm</strong> divulgou, no StarWars.com, o primeiro teaser trailer da segunda temporada de <em>Ahsoka</em>, junto com informações sobre a estreia. A confirmação oficial chegou depois que a própria Rosario Dawson, protagonista da série, já havia anunciado que a nova temporada estava a caminho.</p>
+
+      <h2>Onde a Primeira Temporada Parou</h2>
+      <p>A primeira temporada terminou com Ahsoka Tano e Sabine Wren presas numa galáxia distante, no mundo de Peridea, enquanto Thrawn — o Grande Almirante caído — iniciava seu plano de retorno. No conhecido Universo Expandido dos fãs, <a href="/filmes-series/the-mandalorian-e-grogu-futuro-de-star-wars">o futuro de Star Wars na tela passa por esse fio narrativo</a>, e a segunda temporada deve retomar exatamente esse ponto.</p>
+
+      <h3>O Que o Teaser Indica</h3>
+      <ul>
+        <li>O retorno de personagens centrais da primeira temporada</li>
+        <li>A continuação do confronto entre Ahsoka e Thrawn</li>
+        <li>A produção do estúdio com a mesma equipe criativa da primeira fase</li>
+      </ul>
+
+      <h2>Quando Estreia?</h2>
+      <p>Segundo o anúncio oficial da Lucasfilm, a temporada 2 tem data de estreia divulgada junto com o teaser. Antes disso, a previsão pública era que a série retornasse em <strong>2027</strong>, conforme anunciado por Rosario Dawson em maio. Consulte o material oficial para a data exata confirmada.</p>
+
+      <h2>Por Que a Série Importa para Star Wars</h2>
+      <p><em>Ahsoka</em> é a ponte entre a animação — <em>The Clone Wars</em> e <em>Star Wars Rebels</em> — e o live-action, trazendo para a tela personagens que os fãs acompanharam por anos. Com o novo filme de <a href="/filmes-series/disney-plus-novidades-marvel-star-wars-2026">Mandalorian e Grogu já em produção no universo do streaming</a>, a segunda temporada reforça a estratégia da Lucasfilm de expandir a era New Republic.</p>
+
+      <h2>Conclusão</h2>
+      <p>O teaser confirma que a série segue viva e ambiciosa. Para os fãs que aguardavam notícias desde o final da primeira temporada, é o sinal de que o retorno de Ahsoka à tela está finalmente próximo.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Star Wars', 'Ahsoka', 'Disney+', 'Lucasfilm', 'séries'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?starwars,galaxy,sciencefiction',
+    imageAlt: 'Paisagem espacial com tons alaranjados inspirada em Star Wars',
+    sources: [
+      {
+        title: 'StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date',
+        url: 'https://www.starwars.com/news',
+        type: 'company'
+      },
+      {
+        title: 'Variety - Cobertura de Star Wars',
+        url: 'https://variety.com/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '80',
+    slug: 'star-wars-starfighter-novo-filme-ryan-gosling',
+    title: 'Star Wars: Starfighter: O Novo Filme da Saga Terá Ryan Gosling como Protagonista',
+    excerpt: 'A Lucasfilm confirmou Star Wars: Starfighter, novo filme da franquia estrelado por Ryan Gosling. Entenda o que se sabe da produção que já aparece no material oficial.',
+    content: `
+      <h2>Uma Nova História na Galáxia</h2>
+      <p>A <strong>Lucasfilm</strong> confirmou <strong>Star Wars: Starfighter</strong>, novo filme da saga com <strong>Ryan Gosling</strong> no papel principal. A produção apresenta uma aventura inédita, fora dos caminhos já trilhados pelos episódios principais, e já aparece entre os destaques do <a href="/filmes-series/disney-plus-novidades-marvel-star-wars-2026">calendário de novidades da Disney para Star Wars</a>.</p>
+
+      <h2>Ryan Gosling no Universo Star Wars</h2>
+      <p>A escolha de Gosling reforça a aposta da Lucasfilm em grandes nomes de Hollywood para conduzir a nova era da franquia. O ator, conhecido por papéis marcantes em dramas e blockbusters, chega para protagonizar uma história que deve equilibrar ação espacial e profundidade emocional — receita que tem dado certo em <a href="/filmes-series/the-mandalorian-e-grogu-futuro-de-star-wars">The Mandalorian e Grogu</a>.</p>
+
+      <h3>O Que se Sabe Até Agora</h3>
+      <ul>
+        <li>Uma história original, sem ligação direta com os eventos dos episódios I a IX</li>
+        <li>Produção da Lucasfilm com equipe criativa dedicada</li>
+        <li>Estreia prevista para 2027, conforme o calendário oficial divulgado</li>
+      </ul>
+
+      <h2>A Nova Era de Star Wars nos Cinemas</h2>
+      <p>Depois de anos com o foco no streaming, a franquia retoma o protagonismo nos cinemas. Entre <em>Ahsoka</em> na televisão, filmes em produção e novos jogos, o <strong>Starfighter</strong> simboliza a estratégia de expandir a galáxia em todas as direções — do grande écran às plataformas interativas.</p>
+
+      <h2>Conclusão</h2>
+      <p>Com Ryan Gosling à frente e um conceito novo, Star Wars: Starfighter promete ser um dos eventos de cinema dos próximos anos. Para os fãs, é mais um sinal de que a galáxia está em plena expansão.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Star Wars', 'Ryan Gosling', 'Lucasfilm', 'cinema', 'Disney+'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-31',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?starwars,spaceship,galaxy',
+    imageAlt: 'Nave estelar cruzando o espaço sideral em cena inspirada em Star Wars',
+    sources: [
+      {
+        title: 'StarWars.com - Notícias oficiais',
+        url: 'https://www.starwars.com/news',
+        type: 'company'
+      },
+      {
+        title: 'Variety - Cobertura de cinema',
+        url: 'https://variety.com/v/film/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '81',
+    slug: 'lanterns-serie-hbo-dc-studios-hal-jordan-john-stewart',
+    title: 'Lanterns: A Série da HBO que Aproxima os Lanternas Verdes do Estilo True Detective',
+    excerpt: 'Kyle Chandler e Aaron Pierre estrelam Lanterns, nova série da HBO e DC Studios que leva Hal Jordan e John Stewart para uma investigação terrestre de outro mundo.',
+    content: `
+      <h2>Os Lanternas Verdes Chegam ao Live-Action</h2>
+      <p>Entre as apostas mais ambiciosas do novo universo DC está <strong>Lanterns</strong>, série criada por <strong>Chris Mundy</strong>, <strong>Damon Lindelof</strong> e <strong>Tom King</strong> para a HBO. A produção é um dos pilares do <a href="/quadrinhos/dc-comics-nova-fase-dos-herois-2026">plano da DC Studios para sua nova fase</a>, que busca reconectar cinema, TV e quadrinhos.</p>
+
+      <h2>Hal Jordan e John Stewart</h2>
+      <p>Na trama, <strong>Kyle Chandler</strong> interpreta Hal Jordan, o veterano lendário do corpo, ao lado de <strong>Aaron Pierre</strong> como John Stewart, o recruta recém-chegado. A dinâmica entre o experiente e o estreante promete ancorar a série, mostrando os dois heróis como verdadeiros policiais intergalácticos em território terrestre.</p>
+
+      <h2>Investigação com Tom de Procedural</h2>
+      <p>O grande diferencial de Lanterns é o tom: uma investigação sombria, com clima de drama policial de prestige, sobre um assassinato no coração dos Estados Unidos que esconde consequências cósmicas. É uma abordagem rara para super-heróis na TV — mais próxima de séries de investigação do que de blockbusters.</p>
+
+      <h3>Elenco e Produção</h3>
+      <ul>
+        <li>Kyle Chandler (Friday Night Lights) como Hal Jordan</li>
+        <li>Aaron Pierre como John Stewart</li>
+        <li>Criação de Chris Mundy, Damon Lindelof e Tom King</li>
+        <li>Produção da DC Studios para a HBO/Max</li>
+      </ul>
+
+      <h2>Quando Estreia</h2>
+      <p>A série tem estreia prevista para <strong>2026</strong> na HBO, com exibição também no Max. Para os fãs que acompanham o universo da DC nas telas — de <a href="/quadrinhos/superman-futuro-homem-de-aco-universo-dc">Superman aos heróis emergentes</a> —, Lanterns representa o próximo grande passo do universo ampliado.</p>
+
+      <h2>Conclusão</h2>
+      <p>Lanterns tem tudo para surpreender: elenco de peso, criadores respeitados e uma proposta que troca espetáculo vazio por atmosfera e mistério. O corpo dos Lanternas Verdes nunca foi tão promissor no live-action.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Lanterns', 'DC Studios', 'HBO', 'Lanterna Verde', 'séries'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-31',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?green,lantern,space',
+    imageAlt: 'Luz verde iluminando a escuridão em clima de investigação cósmica',
+    sources: [
+      {
+        title: 'HBO - Lanterns (série oficial)',
+        url: 'https://www.hbo.com/lanterns',
+        type: 'company'
+      },
+      {
+        title: 'The Verge - Entertainment',
+        url: 'https://www.theverge.com/entertainment',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '82',
+    slug: 'spider-man-brand-new-day-em-cartaz-2026',
+    title: 'Spider-Man: Brand New Day Está em Cartaz: O Novo Capítulo de Tom Holland nos Cinemas',
+    excerpt: 'Spider-Man: Brand New Day chegou aos cinemas e se tornou um dos maiores sucessos de 2026. Relembre o elenco, a história e o que o filme significa para o MCU.',
+    content: `
+      <h2>Peter Parker de Volta às Telas</h2>
+      <p><strong>Spider-Man: Brand New Day</strong> está em cartaz e consolidou-se como um dos grandes eventos de bilheteria de 2026. Estrelado por <strong>Tom Holland</strong> e dirigido por <strong>Destin Daniel Cretton</strong>, o filme abre um novo capítulo para o herói dentro do <a href="/filmes-series/avengers-nova-fase-universo-marvel">MCU em plena fase de transição</a>.</p>
+
+      <h2>Um Recomeço para o Herói</h2>
+      <p>Depois dos eventos que apagaram sua identidade da memória do mundo, Peter Parker vive uma vida mais simples em Nova York. O filme explora esse recomeço — um "dia novo", como sugere o título — equilibrando a rotina do jovem fotógrafo com as responsabilidades do aranha.</p>
+
+      <h2>Elenco de Peso</h2>
+      <ul>
+        <li>Tom Holland retorna como Peter Parker / Spider-Man</li>
+        <li>Zendaya reprisa seu papel como MJ</li>
+        <li>Sadie Sink e Florence Pugh se juntam ao elenco</li>
+        <li>Marisa Tomei volta como May, em participações</li>
+      </ul>
+
+      <h2>Bilheteria e Recepção</h2>
+      <p>A produção da Sony e Marvel Studios rapidamente entrou para a lista de maiores sucessos do ano, com números que reforçam a força do personagem nas bilheteiras mundiais. A crítica destacou o equilíbrio entre ação, humor e drama — e a química do elenco.</p>
+
+      <h2>O Papel do Filme no Universo Marvel</h2>
+      <p>Mais do que um filme isolado, <em>Brand New Day</em> ajuda a costurar a narrativa que leva ao grande evento do estúdio. O capítulo do aranha dialoga com o <a href="/quadrinhos/marvel-novidades-universo-dos-herois-2026">momento movimentado do universo Marvel em 2026</a>, entre cinema, séries e quadrinhos.</p>
+
+      <h2>Conclusão</h2>
+      <p>Spider-Man: Brand New Day prova que o herói continua sendo a âncora do MCU. Com um novo começo narrativo e sucesso de público, o filme deixa a expectativa pelos próximos passos de Peter Parker ainda maior.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Spider-Man', 'Tom Holland', 'Marvel', 'MCU', 'cinema'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-30',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?spiderman,superhero,city',
+    imageAlt: 'Silhueta de herói agachado em arranha-céu ao entardecer em Nova York',
+    sources: [
+      {
+        title: 'Variety - Film News',
+        url: 'https://variety.com/v/film/news/',
+        type: 'publication'
+      },
+      {
+        title: 'Sony Pictures - Spider-Man: Brand New Day',
+        url: 'https://www.sonypictures.com/',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '83',
+    slug: 'netflix-setembro-2026-destaques-geek',
+    title: 'Netflix em Setembro de 2026: os Destaques Geek do Mês no Streaming',
+    excerpt: 'A grade de lançamentos da Netflix para setembro de 2026 reúne adaptações, animes e séries de fantasia. Veja o que observar no catálogo do streaming neste mês.',
+    content: `
+      <h2>O Mês da Netflix</h2>
+      <p>Setembro chegou e, com ele, uma nova leva de lançamentos na <strong>Netflix</strong>. O catálogo de 2026 segue a estratégia de combinar produções originais de grande orçamento com adaptações de sucessos da cultura pop — um movimento que o <a href="/filmes-series/netflix-novidades-geek-catalogo-2026">catálogo geek da plataforma já vinha consolidando ao longo do ano</a>.</p>
+
+      <h2>Destaques do Catálogo</h2>
+      <ul>
+        <li>Novas temporadas de séries de fantasia de grande apelo</li>
+        <li>Adaptações de best-sellers com Florence Pugh em destaque</li>
+        <li>Animes e produções asiáticas em expansão constante</li>
+        <li>Documentários sobre casos reais que dominam as listas de mais assistidos</li>
+      </ul>
+
+      <h2>Fantasia e Adaptações em Alta</h2>
+      <p>O mês mantém o ritmo de adaptações literárias. <em>East of Eden</em>, com <strong>Florence Pugh</strong>, baseada no clássico de John Steinbeck, é uma das apostas da plataforma, ao lado de títulos de terror e suspense que dominam o top 10. É a continuação natural do <a href="/filmes-series/futuro-do-streaming-2026-consolidacao">processo de consolidação do streaming em 2026</a>.</p>
+
+      <h3>O Que Observar no Mês</h3>
+      <ul>
+        <li>As escolhas da plataforma entre franquias consolidadas e apostas autorais</li>
+        <li>O desempenho de produções internacionais no top 10 global</li>
+        <li>Como as adaptações de best-sellers se comportam junto ao público</li>
+      </ul>
+
+      <h2>O Calendário Geek do Ano</h2>
+      <p>Com a Netflix priorizando cada vez mais eventos semanais, setembro é um bom termômetro para o resto do ano. Entre temporadas finais — como a de <a href="/filmes-series/the-witcher-temporada-final-netflix">The Witcher</a> — e novas apostas, o streaming segue como a casa da ficção científica e da fantasia.</p>
+
+      <h2>Conclusão</h2>
+      <p>Setembro de 2026 reforça a Netflix como plataforma central para o público geek. Com adaptações de peso, animes e temporadas aguardadas, o mês promete manter o serviço no centro das conversas.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Netflix', 'streaming', 'lançamentos', 'séries', 'setembro 2026'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?streaming,television,sofa',
+    imageAlt: 'Sala de estar com TV acesa exibindo catálogo de streaming',
+    sources: [
+      {
+        title: 'Netflix Tudum - Go Behind the Streams',
+        url: 'https://www.netflix.com/tudum/',
+        type: 'company'
+      },
+      {
+        title: 'The Verge - Streaming',
+        url: 'https://www.theverge.com/streaming',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '84',
+    slug: 'coyote-vs-acme-filme-do-looney-tunes',
+    title: 'Coyote vs. Acme: a História do Filme que Foi Engavetado e Renasceu',
+    excerpt: 'Engavetado pela Warner Bros. Discovery, Coyote vs. Acme virou símbolo da luta por cinema completo. Entenda a trajetória do filme do Looney Tunes até a chegada ao público.',
+    content: `
+      <h2>O Filme que Quiseram Apagar</h2>
+      <p>Poucos filmes tiveram uma trajetória tão acidentada quanto <strong>Coyote vs. Acme</strong>. A produção da Warner Bros. Pictures, estrelada pelos personagens do <strong>Looney Tunes</strong>, foi concluída e depois <strong>engavetada</strong> pela Warner Bros. Discovery em 2023, em decisão que se tornou um dos casos mais polêmicos da indústria — semelhante ao trajeto conturbado de <a href="/filmes-series/backrooms-lenda-da-internet-chega-ao-streaming">projetos que nascem de fenômenos da internet</a>.</p>
+
+      <h2>A Premissa: Um Processo Contra a Acme</h2>
+      <p>No filme, o eterno perseguidor do Papa-Léguas decide entrar na justiça contra a Acme, o fornecedor dos artefatos que nunca funcionam. A premissa é simples e irresistível: cada explosão frustrada vira uma prova no processo. Uma mistura de live-action e animação, com humor físico clássico dos desenhos.</p>
+
+      <h2>A Tragédia e a Ressurreição</h2>
+      <p>Apesar de concluído e bem avaliado em exibições de teste, o filme foi arquivado para abatimento fiscal. A reação foi imediata: diretores, roteiristas e o público protestaram, transformando o filme em símbolo da resistência contra o descarte de cinema pronto. O movimento — junto com mudanças no comando da Warner — abriu caminho para o retorno do projeto.</p>
+
+      <h3>Por Que o Caso Importa</h3>
+      <ul>
+        <li>Expõe práticas contábeis que descartam filmes concluídos por impostos</li>
+        <li>Mostra o poder da reação de fãs e criadores sobre decisões corporativas</li>
+        <li>Reforça o valor do cinema live-action/animação bem executado</li>
+      </ul>
+
+      <h2>De Engavetado a Fenômeno</h2>
+      <p>A saga de Coyote vs. Acme já é contada como exemplo em análises sobre <a href="/filmes-series/hbo-max-lancamentos-geek-2026">lançamentos e estratégias de plataformas e estúdios</a>. O filme que quase nunca foi visto se tornou, ironicamente, um dos títulos mais comentados do Looney Tunes em décadas.</p>
+
+      <h2>Conclusão</h2>
+      <p>Coyote vs. Acme sobreviveu ao arquivamento e à indiferença corporativa. Sua trajetória — do descarte à ressurreição — é um lembrete de que, às vezes, o público vence: e de que o Coiote, afinal, nunca desiste.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Coyote vs. Acme', 'Looney Tunes', 'Warner Bros.', 'cinema', 'animação'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-29',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?cartoon,desert,coyote',
+    imageAlt: 'Deserto estilizado em clima de animação clássica de perseguições',
+    sources: [
+      {
+        title: 'The Verge - Entertainment',
+        url: 'https://www.theverge.com/entertainment',
+        type: 'publication'
+      },
+      {
+        title: 'Variety - Cobertura de cinema',
+        url: 'https://variety.com/v/film/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '85',
+    slug: 'crossover-star-wars-marvel-comics-2026',
+    title: 'Star Wars × Marvel: o Crossover Editorial que Une Duas Maiores Máquinas de Histórias',
+    excerpt: 'A Marvel Comics e a Lucasfilm preparam um crossover entre os universos de Star Wars e Marvel. Entenda o que o anúncio oficial revelou e por que o evento é histórico.',
+    content: `
+      <h2>Um Encontro que os Fãs Esperavam</h2>
+      <p>A <strong>Marvel Comics</strong> e a <strong>Lucasfilm</strong> — ambas sob o guarda-chuva da Disney — anunciaram um <strong>crossover editorial</strong> que promete cruzar o universo Star Wars com o universo Marvel. O anúncio saiu no StarWars.com e movimentou o mercado de quadrinhos à época, reforçando o momento de expansão que o <a href="/quadrinhos/marvel-novidades-universo-dos-herois-2026">universo Marvel vive nos quadrinhos em 2026</a>.</p>
+
+      <h2>Como Funciona um Crossover Entre Universos</h2>
+      <p>Sendo propriedades da mesma corporação, os dois universos podem se cruzar sem barreiras de direitos — algo raro no mercado editorial. A Marvel, que publica as HQs de Star Wars desde 2015, conhece os dois mundos como ninguém: foi ela que devolveu a saga aos quadrinhos após a aquisição da Lucasfilm pela Disney.</p>
+
+      <h3>O Que se Sabe do Projeto</h3>
+      <ul>
+        <li>Crossover editorial entre as marcas Star Wars e Marvel</li>
+        <li>Anúncio oficial feito pelos canais da Lucasfilm e Marvel Comics</li>
+        <li>Encontro inédito de personagens das duas franquias nos quadrinhos</li>
+      </ul>
+
+      <h2>Precedentes Históricos</h2>
+      <p>Não é o primeiro encontro entre universos. A Marvel já publicou crossovers experimentais, e a história dos quadrinhos está cheia de encontros entre marcas. Mas um crossover em escala entre <strong>Star Wars</strong> e <strong>Marvel</strong>, com repercussão mainstream, tem outro peso: é um evento de catálogo, colecionável e conversa.</p>
+
+      <h2>Impacto no Mercado de Quadrinhos</h2>
+      <p>Eventos assim movimentam lojas e plataformas digitais — importante num momento em que o <a href="/quadrinhos/hqs-digitais-streaming-de-quadrinhos">mercado de HQs digitais cresce e se diversifica</a>. Para os leitores, é uma chance de ver dinâmicas impossíveis: jedi e heróis compartilhando páginas, mitologias dialogando.</p>
+
+      <h2>Conclusão</h2>
+      <p>Star Wars × Marvel é o tipo de evento que só o mundo atual dos quadrinhos permite. Com o selo da Disney unindo as propriedades, o crossover tem potencial de se tornar um dos lançamentos mais comentados do ano nas prateleiras — e nas pilhas de leitura dos fãs.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['Star Wars', 'Marvel Comics', 'crossover', 'Lucasfilm', 'quadrinhos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-28',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?comics,cosplay,sciencefiction',
+    imageAlt: 'Quadrinhos abertos com luz neon verde e azul em clima espacial',
+    sources: [
+      {
+        title: 'StarWars.com - Notícias oficiais',
+        url: 'https://www.starwars.com/news',
+        type: 'company'
+      },
+      {
+        title: 'Marvel - Comics',
+        url: 'https://www.marvel.com/comics',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '86',
+    slug: 'linha-absolute-dc-quadrinhos-2026',
+    title: 'Linha Absolute da DC: o Universo Paralelo que Redefiniu os Clássicos nos Quadrinhos',
+    excerpt: 'Absolute Batman, Absolute Superman e Absolute Wonder Woman reinventam os heróis da DC. Entenda o que é a linha Absolute e por que ela virou fenômeno editorial.',
+    content: `
+      <h2>O Que é a Linha Absolute?</h2>
+      <p>Lançada em 2024 sob a liderança de <strong>Scott Snyder</strong>, a linha <strong>Absolute</strong> da DC Comics reimagina os heróis da editora em um universo alternativo. Sem o legado de décadas de continuidade, os personagens ganham origens repensadas e novas dinâmicas — o mesmo espírito de renovação que marca a <a href="/quadrinhos/dc-comics-nova-fase-dos-herois-2026">nova fase da DC nas telas e nas páginas</a>.</p>
+
+      <h2>Os Três Pilares do Universo Absolute</h2>
+      <ul>
+        <li><strong>Absolute Batman</strong>: um Bruce Wayne operário, sem fortuna, que constrói o manto do morcego com engenhosidade de classe trabalhadora</li>
+        <li><strong>Absolute Superman</strong>: um Kal-El sem Krypton como o conhecemos, chegando à Terra como estrangeiro absoluto</li>
+        <li><strong>Absolute Wonder Woman</strong>: uma Diana criada no submundo, com uma história de origem radicalmente diferente</li>
+      </ul>
+
+      <h2>Por Que Virou Fenômeno</h2>
+      <p>Os números de venda e as constantes reimpressões mostraram que havia um público enorme para histórias acessíveis de entradas de heróis. A linha se tornou um dos maiores sucessos editoriais da DC na última década, atraindo tanto leitores antigos quanto novos — e abrindo caminho para expansões como <strong>Absolute Green Lantern</strong>, que amplia o selo para além do trio inicial.</p>
+
+      <h3>O Diferencial Editorial</h3>
+      <ul>
+        <li>Pontos de entrada limpos: nenhuma bagagem de continuidade exigida</li>
+        <li>Criadores de peso em cada título, com direção criativa centralizada</li>
+        <li>Formato premium e troféu para o leitor de livraria</li>
+      </ul>
+
+      <h2>Absolute e o Futuro da DC</h2>
+      <p>Com o universo principal da DC em reorganização e as telas cheias de projetos — do <a href="/quadrinhos/superman-futuro-homem-de-aco-universo-dc">retorno de Superman ao cinema</a> às séries da HBO —, a linha Absolute funciona como um laboratório: prova conceitos, testa dinâmicas e mostra que a DC aprendeu a multiplicar pontos de entrada para o leitor.</p>
+
+      <h2>Conclusão</h2>
+      <p>A linha Absolute provou que reinvenção não é apagar o passado, mas recontá-lo com liberdade. Para quem quer voltar a ler quadrinhos — ou começar —, é um dos melhores lugares para chegar agora mesmo.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['DC Comics', 'Absolute Batman', 'Absolute Superman', 'quadrinhos', 'Scott Snyder'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-27',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?comics,superhero,batman',
+    imageAlt: 'Páginas de quadrinhos com ilustrações dramáticas de super-heróis',
+    sources: [
+      {
+        title: 'DC.com - Blog e lançamentos',
+        url: 'https://www.dc.com/blog',
+        type: 'company'
+      },
+      {
+        title: 'DC.com - Latest Comics',
+        url: 'https://www.dc.com/comics',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '87',
+    slug: 'dc-setembro-2026-teen-titans-novas-series',
+    title: 'DC em Setembro de 2026: Teen Titans #1 e as Novas Séries da Editora',
+    excerpt: 'A DC estrena em setembro de 2026 uma leva de novas séries, com Teen Titans #1 e outros títulos inéditos que reforçam a estratégia editorial da editora.',
+    content: `
+      <h2>Setembro Cheio de Estreias na DC</h2>
+      <p>O catálogo oficial da <strong>DC Comics</strong> para setembro de 2026 é uma declaração de intenção: a editora estreia uma leva de títulos inéditos, com <strong>Teen Titans (2026-) #1</strong> entre os destaques, ao lado de <em>Legion of Super-Heroes</em>, <em>The Doom Patrol</em>, <em>Superman: The Stranger</em> e <em>Batman/Superman/Weird Al: World's Weirdest</em>. É o tipo de movimento que acompanha a <a href="/quadrinhos/dc-comics-nova-fase-dos-herois-2026">nova fase da DC Comics em 2026</a>.</p>
+
+      <h2>Teen Titans #1: A Nova Geração</h2>
+      <p>Os <strong>Jovens Titãs</strong> sempre foram a casa das novas gerações de heróis — e a nova série chega para ancorar essa tradição. A formação reúne nomes consagrados e promessas, com a missão de ser o ponto de entrada para jovens leitores no universo DC, papel que sempre coube à equipe desde a era Marv Wolfman e George Pérez.</p>
+
+      <h2>Uma Grade de Lançamentos Diversificada</h2>
+      <p>Além dos Titãs, o mês confirma o investimento em títulos variados: a <strong>Liga da Justiça Sombria</strong> ganha espaço com <em>The Deadman</em>, a <strong>Doom Patrol</strong> retorna em nova série, e os <strong>Novos Deuses</strong> seguem em destaque com <em>Mister Miracle: Source of Freedom</em>. A grade mostra que a editora quer falar com públicos diferentes ao mesmo tempo.</p>
+
+      <h3>Destaques do Catálogo de Setembro</h3>
+      <ul>
+        <li><strong>Teen Titans (2026-) #1</strong> — a nova geração em destaque</li>
+        <li><strong>Legion of Super-Heroes (2026-) #1</strong> — o século 31 de volta</li>
+        <li><strong>The Doom Patrol (2026-) #1</strong> — a equipe mais estranha retorna</li>
+        <li><strong>Superman: The Stranger (2026-) #1</strong> — mistério no mundo do Homem de Aço</li>
+        <li><strong>The Deadman (2026-) #4</strong> — o supernatural ganha mais um capítulo</li>
+      </ul>
+
+      <h2>A Estratégia: Muitas Portas de Entrada</h2>
+      <p>A política de lançar múltiplas séries nº 1 no mesmo mês segue a lógica que funcionou com a linha <a href="/quadrinhos/linha-absolute-dc-quadrinhos-2026">Absolute da DC</a>: dar ao leitor vários pontos de entrada limpos, sem exigir bagagem de continuidade. Cada nº 1 é uma porta — e setembro abre várias ao mesmo tempo.</p>
+
+      <h2>Conclusão</h2>
+      <p>Setembro de 2026 consolida a DC como editora em plena ebulição criativa. Com Teen Titans à frente e uma grade diversificada, a editora aposta em variedade e acessibilidade — a receita que tem dado certo nos últimos anos.</p>
+    `,
+    category: {
+      id: 'quadrinhos',
+      slug: 'quadrinhos',
+      name: 'Quadrinhos',
+      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
+      color: '#6366f1'
+    },
+    tags: ['DC Comics', 'Teen Titans', 'quadrinhos', 'novas séries', 'setembro 2026'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-02',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?comics,teen,superhero,team',
+    imageAlt: 'Grupo de heróis jovens ilustrados em estilo de quadrinhos contemporâneo',
+    sources: [
+      {
+        title: 'DC.com - Blog',
+        url: 'https://www.dc.com/blog',
+        type: 'company'
+      },
+      {
+        title: 'DC.com - Latest Comics & Graphic Novels',
+        url: 'https://www.dc.com/comics',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '88',
+    slug: 'the-duskbloods-fromsoftware-switch-2',
+    title: 'The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2',
+    excerpt: 'Dos criadores de Elden Ring, The Duskbloods é a aposta da FromSoftware para o Nintendo Switch 2: um action RPG multiplayer sombrio sobre os Bloodsworn.',
+    content: `
+      <h2>FromSoftware Fora da Caixa</h2>
+      <p>Depois de redefinir o gênero com <em>Dark Souls</em>, <em>Bloodborne</em> e <em>Elden Ring</em>, a <strong>FromSoftware</strong> prepara seu projeto mais inesperado: <strong>The Duskbloods</strong>, exclusivo do <strong>Nintendo Switch 2</strong>. O anúncio surpreendeu a indústria — e reacendeu o debate sobre o <a href="/games/evolucao-dos-motores-graficos">papel das engines e do hardware nas grandes produções</a>.</p>
+
+      <h2>O Que é The Duskbloods</h2>
+      <p>Trata-se de um <strong>action RPG multiplayer</strong> com estrutura <strong>PvPvE</strong> — jogadores contra jogadores e contra o ambiente. Os combatentes, chamados <strong>Bloodsworn</strong>, disputam objetivos em partidas que misturam cooperação e traição, num mundo de fantasia gótica com estética de vampiros que remete ao clima de Bloodborne.</p>
+
+      <h3>O Que Sabemos do Jogo</h3>
+      <ul>
+        <li>Exclusividade para Nintendo Switch 2, segundo a página oficial no site da Nintendo</li>
+        <li>Desenvolvido pela FromSoftware, criadora de Elden Ring e Dark Souls</li>
+        <li>Multiplayer PvPvE com foco em partidas competitivas por objetivos</li>
+        <li>Direção de Hidetaka Miyazaki, à frente do estúdio</li>
+      </ul>
+
+      <h2>A Aposta da Nintendo</h2>
+      <p>Para o Switch 2, ter uma exclusividade da FromSoftware é uma jogada de peso. A Nintendo historicamente dialoga menos com o público de jogos hardcore de fantasia sombria — e <em>The Duskbloods</em> sinaliza uma estratégia de ampliar o público do console com experiências de terceira vertente: nem família, nem portáteis, mas autores de culto. O mesmo espírito de novidade que cercou <a href="/games/gta-vi-o-retorno-mais-aguardado-de-2026">os grandes lançamentos aguardados de 2026</a>.</p>
+
+      <h2>Multiplicador e a Lição de Elden Ring</h2>
+      <p>A FromSoftware já mostrou com Elden Ring que sabe casar mundo aberto e dificuldade característica. O desafio agora é outro: provar que a fórmula de combate tático funciona no formato de partidas multiplayer. Se conseguir, o jogo pode abrir um novo segmento para o gênero — e para o console da Nintendo.</p>
+
+      <h2>Conclusão</h2>
+      <p>The Duskbloods é uma daquelas apostas que só estúdios seguros de si fazem. Entre a estética gótica, a mecânica PvPvE e a exclusividade no Switch 2, o jogo promete ser um dos títulos mais comentados dos próximos anos — e mais um capítulo da incrível fase da FromSoftware.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['The Duskbloods', 'FromSoftware', 'Nintendo Switch 2', 'games', 'PvPvE'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-26',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?gothic,castle,fog',
+    imageAlt: 'Castelo gótico envolto em névoa em atmosfera sombria de fantasia',
+    sources: [
+      {
+        title: 'Nintendo - The Duskbloods (página oficial)',
+        url: 'https://www.nintendo.com/us/store/products/',
+        type: 'company'
+      },
+      {
+        title: 'IGN - Notícias',
+        url: 'https://www.ign.com/news',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '89',
+    slug: 'star-wars-zero-company-jogo-estrategia',
+    title: 'Star Wars Zero Company: o Jogo de Táticas da BIT REACTOR Coloca Você no Comando',
+    excerpt: 'Desenvolvido pela BIT REACTOR com participação da Respawn, Star Wars Zero Company leva a saga para o gênero de estratégia tática por turnos.',
+    content: `
+      <h2>Star Wars Entra no Campo de Batalha Tático</h2>
+      <p>O universo <strong>Star Wars</strong> segue em expansão nos games — e a nova parada é <strong>Star Wars Zero Company</strong>, jogo de <strong>estratégia tática por turnos</strong> desenvolvido pela <strong>BIT REACTOR</strong>, estúdio fundado por veteranos da franquia XCOM, com colaboração da <strong>Respawn Entertainment</strong> e publicação da EA. É mais um sinal de que a era de expansão da saga nas telas — de <a href="/filmes-series/ahsoka-temporada-2-teaser-e-data-de-estreia">Ahsoka na TV</a> aos filmes nos cinemas — chega também aos jogos.</p>
+
+      <h2>O Jogo</h2>
+      <p>Em Zero Company, o jogador comanda um esquadrão de elite de operativos de diferentes facções da galáxia em operações secretas durante uma guerra não contada. A estrutura lembra os grandes nomes do gênero: gestão de esquadrão, missões por objetivos, consequências permanentes para as escolhas — e a assinatura Star Wars em cada detalhe, de blasters a AT-STs.</p>
+
+      <h3>O Que Sabemos do Projeto</h3>
+      <ul>
+        <li>Desenvolvido pela BIT REACTOR, com veteranos de XCOM na liderança</li>
+        <li>Colaboração da Respawn Entertainment (Titanfall, Star Wars Jedi)</li>
+        <li>Estratégia por turnos com esquadrão personalizado</li>
+        <li>Anunciado oficialmente nos canais da Lucasfilm Games e EA</li>
+      </ul>
+
+      <h2>Por Que o Gênero Faz Sentido</h2>
+      <p>O universo Star Wars sempre teve forte apelo tático — de X-Wing a KOTOR, a saga sempre dialogou com estratégia. Um jogo de esquadrão por turnos preenche um espaço que a franquia não explorava desde títulos clássicos, e se beneficia do renascimento do gênero pós-XCOM e pós-<a href="/games/inteligencia-artificial-nos-games">avanços de IA nos inimigos e simulações dos jogos</a>.</p>
+
+      <h2>Conclusão</h2>
+      <p>Star Wars Zero Company é a prova de que a galáxia cabe em qualquer gênero. Com a BIT REACTOR à frente e a força da marca, o título tem tudo para conquistar tanto fãs de estratégia quanto aficionados pela saga — mais um tabuleiro onde a guerra nas estrelas será travada.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['Star Wars', 'Zero Company', 'BIT REACTOR', 'estratégia', 'games'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-25',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?tactics,space,war',
+    imageAlt: 'Mapa tático futurista com unidades em posição de combate espacial',
+    sources: [
+      {
+        title: 'StarWars.com - Games + Interactive',
+        url: 'https://www.starwars.com/news',
+        type: 'company'
+      },
+      {
+        title: 'IGN - Star Wars Zero Company',
+        url: 'https://www.ign.com/news',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '90',
+    slug: 'the-witcher-4-cd-projekt-red-nova-saga',
+    title: 'The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia',
+    excerpt: 'A CD Projekt Red confirmou The Witcher 4 como o início de uma nova saga. Entenda o que se sabe do jogo que sucede a trilogia de Geralt de Rívia.',
+    content: `
+      <h2>Depois de Geralt, Uma Nova História</h2>
+      <p>Com a trilogia de Geralt de Rívia concluída, a <strong>CD Projekt Red</strong> trabalha no próximo capítulo da franquia: <strong>The Witcher 4</strong>, que inaugura uma <strong>nova saga</strong> dentro do universo criado por Andrzej Sapkowski. O anúncio oficial posiciona o título como o começo de uma nova trilogia planejada — e um dos lançamentos mais aguardados da indústria, num calendário que inclui <a href="/games/gta-vi-o-retorno-mais-aguardado-de-2026">os grandes lançamentos que definem esta geração</a>.</p>
+
+      <h2>Uma Nova Protagonista</h2>
+      <p>A revelação mais marcante é que a nova saga tem <strong>Ciri</strong> como protagonista. A filha adotiva de Geralt, empunhando a espada de loba, assume o centro da história — uma escolha que conecta a nova trilogia ao final da anterior, mas promete um recomeço temático e geográfico para a saga.</p>
+
+      <h2>Unreal Engine 5 e Ambição Técnica</h2>
+      <p>Diferente dos jogos anteriores, que usavam engine própria (REDEngine), a nova saga é desenvolvida em <strong>Unreal Engine 5</strong>, em parceria com a Epic Games. A mudança sinaliza a ambição técnica do projeto e o compromisso da CDPR com um novo patamar de <a href="/games/evolucao-dos-motores-graficos">evolução dos motores gráficos</a>.</p>
+
+      <h3>O Que Sabemos Até Agora</h3>
+      <ul>
+        <li>Ciri como protagonista da nova saga</li>
+        <li>Desenvolvimento em Unreal Engine 5, em parceria com a Epic Games</li>
+        <li>Primeiro capítulo de uma nova trilogia planejada</li>
+        <li>Produção já em fase principal, conforme atualizações da CDPR</li>
+      </ul>
+
+      <h2>Enquanto Isso, na Netflix...</h2>
+      <p>Paralelamente ao jogo, a franquia segue viva no streaming com a <a href="/filmes-series/the-witcher-temporada-final-netflix">temporada final da série da Netflix</a>. O momento é de transição para The Witcher em todas as frentes: o fim de um ciclo na TV e o começo de outro nos consoles.</p>
+
+      <h2>Conclusão</h2>
+      <p>The Witcher 4 é a aposta da CD Projekt Red em consolidar a franquia para a próxima década. Com Ciri na liderança, Unreal Engine 5 e uma nova trilogia no horizonte, o lobo branco deixa um legado — e uma herdeira.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['The Witcher 4', 'CD Projekt Red', 'Ciri', 'games', 'Unreal Engine 5'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-24',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?medieval,fantasy,forest',
+    imageAlt: 'Floresta nebulosa medieval com atmosfera de fantasia sombria',
+    sources: [
+      {
+        title: 'IGN - Notícias',
+        url: 'https://www.ign.com/news',
+        type: 'publication'
+      },
+      {
+        title: 'CD Projekt Red - Site oficial',
+        url: 'https://www.cdprojektred.com/en/news',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '91',
+    slug: 'xbox-series-x-25-anos-celebracao',
+    title: 'Xbox Series X e os 25 Anos do Xbox: o que a Geração Atual Aprendeu com o Legado',
+    excerpt: 'O Xbox completa 25 anos em 2026. Entre celebrações e lançamentos, olhamos para o legado da marca da Microsoft e o lugar da Series X nesta história.',
+    content: `
+      <h2>Um Quadrante de Prata</h2>
+      <p>Em 2026, o <strong>Xbox</strong> completa <strong>25 anos</strong>. Do lançamento original de 2001 — quando a Microsoft entrou de sopetão na briga dos consoles — até a era atual do Game Pass e do ecossistema multiplataforma, a trajetória da marca é uma das mais curiosas da indústria. A celebração do quarter century chega num momento de reflexão sobre o que vem a seguir.</p>
+
+      <h2>O Legado: Do Halo ao Game Pass</h2>
+      <p>O Xbox mudou o jogo mais de uma vez: popularizou o disco rígido nos consoles, padronizou o multiplayer online com a Xbox Live e, mais recentemente, redefiniu a ideia de posse com o <strong>Game Pass</strong>. A geração atual, liderada pela <strong>Series X</strong>, carrega esse legado — com foco em retrocompatibilidade, potência e serviços.</p>
+
+      <h3>Marcos de 25 Anos</h3>
+      <ul>
+        <li><strong>2001</strong>: o Xbox original e Halo: Combat Evolved</li>
+        <li><strong>2005</strong>: Xbox 360 e a era de ouro do multiplayer</li>
+        <li><strong>2013</strong>: One e a aposta em entretenimento integrado</li>
+        <li><strong>2020</strong>: Series X|S e o ecossistema de assinatura</li>
+      </ul>
+
+      <h2>A Geração Atual em Perspectiva</h2>
+      <p>A Series X chegou com a promessa de potência — o "quadradão" de 12 teraflops — mas a história desta geração se escreveu mais nos serviços do que no hardware. Entre aquisições gigantescas, exclusivos indo para outras plataformas e o Game Pass consolidado, a Microsoft redefiniu o que significa ser plataforma — um movimento que acompanha o <a href="/games/cloud-gaming-2026-jogar-na-nuvem">avanço do cloud gaming e do jogo sem fronteiras de hardware</a>.</p>
+
+      <h2>E Depois?</h2>
+      <p>Os rumos da marca seguem em debate: mais consoles, mais serviços, mais multiplataforma. O que os 25 anos mostram é uma marca disposta a se reinventar — às vezes acertando, às vezes errando, sempre com o <a href="/games/monitores-oled-gamers-nova-geracao">hardware e as telas dos jogadores</a> como destino final da experiência.</p>
+
+      <h2>Conclusão</h2>
+      <p>Um quarto de século depois, o Xbox é prova de que a indústria de games é feita de ciclos longos e reinvenções constantes. A Series X é mais um capítulo — e os próximos 25 anos prometem ser tão imprevisíveis quanto os anteriores.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['Xbox', 'Microsoft', 'Xbox Series X', 'games', 'Game Pass'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-23',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?gaming,console,xbox',
+    imageAlt: 'Console de videogame preto em setup gamer com iluminação verde',
+    sources: [
+      {
+        title: 'The Verge - Gaming',
+        url: 'https://www.theverge.com/gaming',
+        type: 'publication'
+      },
+      {
+        title: 'Xbox Wire - Notícias oficiais',
+        url: 'https://news.xbox.com/',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '92',
+    slug: 'ps5-live-tv-sony-novo-recurso',
+    title: 'PS5 Live TV: a Sony Transforma o Console em Central de Transmissões ao Vivo',
+    excerpt: 'A Sony anunciou o Live TV no PS5, recurso que leva canais e transmissões ao vivo para o console. Entenda o que muda para quem usa o PS5 além dos jogos.',
+    content: `
+      <h2>O PS5 Além dos Jogos</h2>
+      <p>A <strong>Sony</strong> anunciou o <strong>Live TV no PS5</strong>, novo recurso que transforma o console em uma central de transmissões ao vivo. A função — noticiada pelo IGN entre as novidades da plataforma — reforça a estratégia da companhia de posicionar o PlayStation como hub de entretenimento, e não apenas máquina de jogos.</p>
+
+      <h2>O Que é o Live TV</h2>
+      <p>O recurso organiza <strong>canais e transmissões ao vivo</strong> diretamente na interface do PS5, permitindo acompanhar esportes, eventos e programação linear sem sair do sistema. É a resposta da Sony a um comportamento claro do público: o console que já centraliza jogos, streaming e social agora também organiza a TV ao vivo.</p>
+
+      <h3>O Que o Recurso Oferece</h3>
+      <ul>
+        <li>Acesso a transmissões ao vivo direto da interface do PS5</li>
+        <li>Integração com serviços de streaming e canais parceiros</li>
+        <li>Navegação unificada entre jogos, apps e TV ao vivo</li>
+        <li>Disponibilidade gradual por região e serviço</li>
+      </ul>
+
+      <h2>Por Que a Jogada Faz Sentido</h2>
+      <p>A guerra agora é pela sala de estar. Com a concorrência das smart TVs e dos sticks de streaming, consoles precisam justificar sua presença sob a televisão — e o Live TV é a resposta da Sony. A medida acompanha o movimento do mercado, em que <a href="/games/cloud-gaming-2026-jogar-na-nuvem">serviços em nuvem e conteúdo sob demanda redefinem o hardware de jogos</a>.</p>
+
+      <h2>O Console como Centro do Entretenimento</h2>
+      <p>Com o PS5, a Sony já vinha expandindo o ecossistema: remote play, integração com acessórios, adaptações de <a href="/filmes-series/resident-evil-retorno-da-franquia-nova-adaptacao">grandes franquias de games para o streaming</a> e agora a TV ao vivo. O console deixa de ser um aparelho de jogos e vira a peça central do home theater — posição que a marca ocupou com o PS2 e agora busca reconquistar.</p>
+
+      <h2>Conclusão</h2>
+      <p>O Live TV é mais um passo na consolidação do PS5 como centro de entretenimento da casa. Para quem já usava o console como hub de streaming, a novidade encurta o caminho até a programação ao vivo — e mantém a Sony um passo à frente na disputa pela sala de estar.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['PS5', 'PlayStation', 'Sony', 'Live TV', 'tecnologia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-08-22',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?playstation,gaming,television',
+    imageAlt: 'Console de videogame conectado à TV em sala de estar moderna',
+    sources: [
+      {
+        title: 'IGN - Notícias',
+        url: 'https://www.ign.com/news',
+        type: 'publication'
+      },
+      {
+        title: 'PlayStation - Site oficial',
+        url: 'https://www.playstation.com/',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '93',
+    slug: 'ia-hollywood-google-suno-disputa-2026',
+    title: 'IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios',
+    excerpt: 'Entre processos contra geradores de música e a corrida do Google por parcerias com estúdios, a relação entre IA e Hollywood define o futuro do entretenimento.',
+    content: `
+      <h2>Dois Lados da Mesma Moeda</h2>
+      <p>A relação entre <strong>inteligência artificial</strong> e <strong>Hollywood</strong> nunca foi tão tensa — nem tão próxima. De um lado, estúdios e artistas processam empresas de IA; do outro, gigantes da tecnologia disputam parcerias com os mesmos estúdios. A análise publicada pelo The Verge em setembro de 2026 resumiu o momento: <strong>o Google precisa de Hollywood mais do que os estúdios precisam de IA</strong>.</p>
+
+      <h2>O Google e a Corrida pelo Conteúdo</h2>
+      <p>Para treinar e posicionar suas ferramentas generativas de vídeo e música, empresas como o Google dependem de direitos, marcas e talentos. Por isso, a companhia busca acordos com estúdios e detentores de catálogo — enquanto os estúdios, conscientes do próprio valor, negociam de posição de força. O resultado é um tabuleiro em que o <a href="/inteligencia-artificial/inteligencia-artificial-generativa">avanço da IA generativa</a> depende tanto de engenharia quanto de licenciamento.</p>
+
+      <h2>Suno sob Fogo Cruzado</h2>
+      <p>No front musical, a <strong>Suno</strong> — gerador de músicas por IA — segue alvo de ações judiciais movidas por gravadoras e artistas, que questionam o uso de obras protegidas no treinamento dos modelos e a imitação de vozes e estilos. O caso virou símbolo do dilema jurídico da era generativa: onde termina a inspiração e começa a cópia? A discussão dialoga diretamente com os debates sobre <a href="/inteligencia-artificial/etica-e-vieses-ia-os-desafios-da-inteligencia-artificial">ética e vieses da inteligência artificial</a>.</p>
+
+      <h3>Os Pontos Central da Disputa</h3>
+      <ul>
+        <li>Direitos autorais sobre dados de treinamento de modelos generativos</li>
+        <li>Imitação de voz e estilo de artistas reais</li>
+        <li>Licenciamento de catálogos de estúdios e gravadoras para IA</li>
+        <li>Regulação do uso de IA em produções audiovisuais</li>
+      </ul>
+
+      <h2>Hollywood no Comando das Negociações</h2>
+      <p>Depois das greves que já estabeleceram regras mínimas para IA em roteiros e atuações, os estúdios sabem que o conteúdo é o ativo mais valioso da equação. O cinema já experimenta a tecnologia nos bastidores — como mostra a <a href="/filmes-series/ia-no-cinema-transformando-os-bastidores">atuação da IA na transformação dos bastidores do cinema</a> —, mas quem define os termos do jogo são os detentores dos direitos.</p>
+
+      <h2>Conclusão</h2>
+      <p>A disputa entre IA e Hollywood não é tecnológica: é negocial. Quem controla histórias, vozes e imagens controla o combustível da próxima geração de ferramentas criativas. E, por enquanto, os portões do conteúdo continuam nas mãos dos estúdios.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['IA', 'Hollywood', 'Google', 'Suno', 'direitos autorais'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-01',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?artificialintelligence,cinema,studio',
+    imageAlt: 'Mesa de edição de cinema com telas exibindo interfaces de inteligência artificial',
+    sources: [
+      {
+        title: 'The Verge - Entertainment',
+        url: 'https://www.theverge.com/entertainment',
+        type: 'publication'
+      },
+      {
+        title: 'The Verge - AI',
+        url: 'https://www.theverge.com/ai-artificial-intelligence',
+        type: 'publication'
+      }
+    ]
   }
 ];
