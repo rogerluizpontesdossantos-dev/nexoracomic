@@ -5520,5 +5520,592 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'publication'
       }
     ]
+  },
+  {
+    id: '94',
+    slug: 'bepicolombo-inicia-chegada-mercurio-2026',
+    title: 'BepiColombo Inicia a Chegada a Mercúrio: o Fim de uma Travessia de Oito Anos',
+    excerpt: 'Lançada em 2018, a missão ESA/JAXA começou a fase de chegada a Mercúrio. Entenda por que o planeta mais próximo do Sol é um dos mais difíceis de alcançar.',
+    content: `
+      <h2>O Último Trecho de uma Jornada Épica</h2>
+      <p>Em 3 de setembro de 2026, a ESA confirmou o início da fase de chegada da <strong>BepiColombo</strong> a Mercúrio. Lançada em 20 de outubro de 2018 a bordo de um foguete Ariane 5, a missão conjunta da <strong>Agência Espacial Europeia (ESA)</strong> e da <strong>JAXA</strong>, do Japão, passou os últimos oito anos atravessando o Sistema Solar em uma rota cuidadosamente coreografada de sobrevôos — incluindo passagens pela Terra, por Vênus e seis por Mercúrio — para perder velocidade o suficiente para ser capturada pela gravidade do planeta.</p>
+
+      <h2>Por Que Mercúrio é Tão Difícil de Alcançar?</h2>
+      <p>Pode parecer contraintuitivo, mas chegar ao planeta mais próximo do Sol exige mais energia do que alcançar planetas muito mais distantes. Perto do Sol, a gravidade acelera qualquer nave a velocidades altíssimas — e frear diante disso é um desafio enorme. Não por acaso, a ESA compara o esforço de chegada a Mercúrio com o de alcançar Saturno. Para economizar combustível, a BepiColombo usou a propulsão elétrica solar ao longo da travessia, desligada em meados de 2026, e completou o resto do caminho com sobrevôos e manobras finais.</p>
+
+      <h3>Duas Naves, Um Planetinha Hostil</h3>
+      <ul>
+        <li><strong>Mercury Planetary Orbiter (ESA):</strong> vai mapear a superfície e estudar o interior do planeta</li>
+        <li><strong>Mio, o Mercury Magnetospheric Orbiter (JAXA):</strong> vai investigar o campo magnético e o ambiente ao redor</li>
+        <li><strong>Chegada em dezembro de 2026:</strong> início das operações científicas regulares previsto para abril de 2027</li>
+      </ul>
+
+      <h2>O Que a Missão Quer Responder</h2>
+      <p>Mercúrio é o planeta menos explorado do Sistema Solar interno — só a MESSENGER, da NASA, já o orbitou antes. A BepiColombo, segunda missão da história a orbitar o planeta, busca explicar por que há gelo nas crateras polares de um mundo escaldado, como funciona o campo magnético de Mercúrio e o que são os misteriosos "hollows", depressões singulares em sua superfície. Cada resposta ajuda a montar o quebra-cabeça da formação de todo o Sistema Solar — o mesmo tipo de pergunta que move <a href="/espaco/missoes-artemis">as missões de volta à Lua</a> e observatórios como o <a href="/espaco/telescopio-espacial-james-webb">James Webb</a>.</p>
+
+      <h2>Dezembro de 2026: o Momento Decisivo</h2>
+      <p>A inserção orbital é a parte mais arriscada de qualquer missão interplanetária: é quando a nave freia exatamente o necessário para ser capturada, sem mergulhar no planeta nem escapar para o espaço. Se tudo der certo, no fim de 2026 os dois orbitadores se separarão e assumirão órbitas complementares, iniciando em 2027 a ciência que deve reescrever o que sabemos sobre Mercúrio.</p>
+
+      <h2>Conclusão</h2>
+      <p>A chegada da BepiColombo fecha uma travessia de oito anos e abre uma nova era para o estudo do planeta mais esquisito da vizinhança solar. Em um ano em que o espaço segue em franca ebulição — da Lua a exoplanetas —, Mercúrio, o esquecido, está prestes a virar centro das atenções.</p>
+    `,
+    category: {
+      id: 'ciencia',
+      slug: 'ciencia',
+      name: 'Ciência',
+      description: 'Biologia, física, química, neurociência e descobertas científicas',
+      color: '#8b5cf6'
+    },
+    tags: ['BepiColombo', 'ESA', 'JAXA', 'Mercúrio', 'exploração espacial'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?mercury,planet,space',
+    imageAlt: 'Planeta Mercúrio em tons de cinza craterizado sobre fundo espacial escuro',
+    sources: [
+      {
+        title: 'ESA - BepiColombo Science & Exploration',
+        url: 'https://www.esa.int/Science_Exploration/Space_Science/BepiColombo',
+        type: 'agency'
+      },
+      {
+        title: 'Space.com - Space News',
+        url: 'https://www.space.com/news',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '95',
+    slug: 'nvidia-compra-hugging-face-129-bilhoes-ia',
+    title: 'NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA',
+    excerpt: 'A NVIDIA confirmou a compra do Hugging Face, a maior plataforma open-source de modelos de IA, por US$ 12,93 bilhões. Entenda o que isso muda no tabuleiro da inteligência artificial.',
+    content: `
+      <h2>O Anúncio que Mexeu com o Ecossistema Open-Source</h2>
+      <p>No início de setembro de 2026, a <strong>NVIDIA</strong> confirmou a aquisição do <strong>Hugging Face</strong> por <strong>US$ 12,93 bilhões</strong>. O anúncio saiu no newsroom oficial da empresa e ganhou reportagem de veículos como o TechCrunch e o The Verge. O Hugging Face é a plataforma onde desenvolvedores do mundo inteiro hospedam, testam e compartilham modelos de IA abertos — algo como o que o GitHub representa para código. Em 2023, a empresa havia sido avaliada em US$ 4,5 bilhões; o valor acordado mais que dobra esse patrimônio.</p>
+
+      <h2>Por Que a NVIDIA Quer uma Plataforma de Modelos?</h2>
+      <p>A NVIDIA domina o hardware que treina e roda modelos de inteligência artificial — e já vinha expandindo para a camada de software e infraestrutura, como se vê em movimentos recentes da própria empresa. Com o Hugging Face sob seu guarda-chuva, a companhia passa a controlar também o ponto de encontro da comunidade de IA aberta, de onde saem os modelos que depois rodam em GPUs NVIDIA. É a integração vertical completa: chips, bibliotecas, modelos e distribuição.</p>
+
+      <h3>O Que Está em Jogo</h3>
+      <ul>
+        <li><strong>US$ 12,93 bilhões</strong> é o valor confirmado da aquisição</li>
+        <li>O Hugging Face centraliza centenas de milhares de modelos open-source</li>
+        <li>A NVIDIA deve intensificar as otimizações entre a plataforma e seu ecossistema de GPUs</li>
+        <li>A comunidade questiona como ficará a neutralidade da plataforma</li>
+      </ul>
+
+      <h2>Open-Source Sob o Comando de um Gigante</h2>
+      <p>A tensão central do negócio é cultural. Parte da força do Hugging Face vem justamente de ser um terreno neutro, onde empresas concorrentes publicam modelos lado a lado. Se a plataforma passar a favorecer o ecossistema NVIDIA — ou restringir rivais —, a comunidade pode migrar para alternativas. Ainda não há detalhes públicos sobre mudanças de licenciamento ou governança; até que haja, a promessa oficial é de expansão, não de contenção.</p>
+
+      <h2>Um Tabuleiro que Se Reorganiza</h2>
+      <p>O negócio chega em um momento de concentração acelerada na indústria de IA, com gigantes disputando desde modelos e chips até energia e talento. Para quem acompanha a área — e já discutimos aqui <a href="/inteligencia-artificial/inteligencia-artificial-generativa">como funciona a IA generativa</a> e <a href="/inteligencia-artificial/etica-e-vieses-da-ia">os dilemas éticos do setor</a> —, a compra do Hugging Face é o tipo de movimento que redefine o que "IA aberta" significa na prática.</p>
+
+      <h2>Conclusão</h2>
+      <p>A NVIDIA comprou mais do que uma empresa: comprou o balcão principal do movimento open-source de IA. Se a operação vai democratizar ainda mais o acesso a modelos avançados ou concentrá-lo nas mãos de um único fornecedor é a pergunta que vai definir 2027 — e a resposta, por enquanto, está em aberto.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['NVIDIA', 'Hugging Face', 'IA', 'open-source', 'aquisição'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?technology,computer,chip',
+    imageAlt: 'Placa de circuito iluminada em tons verdes simbolizando hardware de inteligência artificial',
+    sources: [
+      {
+        title: 'NVIDIA Newsroom - NVIDIA to Acquire Hugging Face',
+        url: 'https://nvidianews.nvidia.com/',
+        type: 'company'
+      },
+      {
+        title: 'TechCrunch - AI News',
+        url: 'https://techcrunch.com/category/artificial-intelligence/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '96',
+    slug: 'hubble-decagono-polo-sul-saturno',
+    title: 'O Decágono de Saturno: Hubble Descobre Padrão Gigante no Polo Sul do Planeta',
+    excerpt: 'O Hubble identificou uma onda atmosférica de dez lados circulando o polo sul de Saturno — a primeira estrutura regular desse tipo no hemisfério sul do planeta.',
+    content: `
+      <h2>Um Hexágono Ganha um Espelho no Sul</h2>
+      <p>Há décadas, o <strong>hexágono do polo norte de Saturno</strong> é uma das estruturas mais icônicas do Sistema Solar: um jato atmosférico de seis lados com largura maior que a da Terra. Em 2026, observações do <strong>Telescópio Espacial Hubble</strong> revelaram que o planeta ganhou um contraponto no outro extremo: um <strong>padrão de dez lados — um decágono — circulando o polo sul</strong>. A descoberta foi publicada como science release pela ESA/Hubble e repercutiu em portais como Space.com e ScienceDaily.</p>
+
+      <h2>O Que os Dados Mostram</h2>
+      <p>Segundo a análise, o decágono começou a se formar nos últimos anos e ainda está evoluindo — o que dá aos cientistas uma chance rara de observar o nascimento de uma dessas estruturas em tempo quase real. No norte, o hexágono existe há décadas de forma estável; o padrão sulista é mais novo, menor e dinâmico. As imagens mostram uma onda de jato que divide a atmosfera em camadas que giram em velocidades diferentes.</p>
+
+      <h3>Fatos e Pontos em Aberto</h3>
+      <ul>
+        <li><strong>Confirmado:</strong> padrão de dez lados ao redor do polo sul de Saturno, observado pelo Hubble</li>
+        <li><strong>Confirmado:</strong> primeira estrutura regular de jato vista no hemisfério sul do planeta</li>
+        <li><strong>Em aberto:</strong> o mecanismo exato que gera esses polígonos atmosféricos ainda é debatido</li>
+        <li><strong>Em aberto:</strong> se o decágono vai se estabilizar, mudar de forma ou se dissipar</li>
+      </ul>
+
+      <h2>Por Que Polígonos Aparecem em Atmosferas?</h2>
+      <p>Quando um jato de vento circula ao redor de um polo e encontra perturbações, a onda pode se organizar em lados regulares — uma instabilidade conhecida em laboratório e reproduzida em simulações. O número de lados depende da velocidade do jato e das propriedades da atmosfera. Saturno, com sua atmosfera profunda e sem continentes para atrapalhar, é o laboratório natural perfeito: um polo tem seis lados, o outro, agora, dez. E se você gosta de mistérios do cosmos em escalas ainda maiores, vale revisitar <a href="/espaco/como-buracos-negros-funcionam">como os buracos negros funcionam</a>.</p>
+
+      <h2>Um Observatório Veteraníssimo em Plena Forma</h2>
+      <p>A descoberta reforça que, mesmo após 36 anos de operação, o Hubble continua produzindo ciência de primeira linha — como nas comemorações de aniversário do telescópio. Com o <a href="/espaco/telescopio-espacial-james-webb">James Webb cobrindo o infravermelho</a> e o <a href="/espaco/telescopio-especial-roman-nova-era-observacao">Roman chegando para ampliar o campo de visão</a>, a astronomia vive um momento em que veteranos e novatos trabalham juntos.</p>
+
+      <h2>Conclusão</h2>
+      <p>O decágono do polo sul lembra que Saturno ainda guarda surpresas a uma década de luz de distância de qualquer previsão entediante. O gigante dos anéis agora tem dois polos geométricos — e os cientistas têm um novo quebra-cabeça atmosférico para resolver.</p>
+    `,
+    category: {
+      id: 'espaco',
+      slug: 'espaco',
+      name: 'Espaço',
+      description: 'Astronomia, NASA, planetas, estrelas e missões espaciais',
+      color: '#f59e0b'
+    },
+    tags: ['Saturno', 'Hubble', 'ESA', 'astronomia', 'atmosfera'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?saturn,planet,rings',
+    imageAlt: 'Planeta Saturno com anéis visíveis sobre fundo estrelado escuro',
+    sources: [
+      {
+        title: 'ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole',
+        url: 'https://esahubble.org/',
+        type: 'agency'
+      },
+      {
+        title: 'ScienceDaily - Top Science News',
+        url: 'https://www.sciencedaily.com/',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '97',
+    slug: 'pandora-missao-nasa-exoplanetas-comeca-observacoes',
+    title: 'Pandora: a Missão da NASA que Começou a Decifrar Atmosferas de Exoplanetas',
+    excerpt: 'Depois do lançamento e da fase de comissionamento, o pequeno satélite Pandora iniciou observações científicas. O objetivo: separar a assinatura dos planetas da dos próprios astros que eles orbitam.',
+    content: `
+      <h2>Um Pequeno Satélite com uma Grande Missão</h2>
+      <p>Enquanto os gigantes da astronomia dominam as manchetes, uma missão compacta começou seu trabalho em silêncio. O <strong>Pandora</strong>, satélite da <strong>NASA</strong> dedicado a exoplanetas, concluiu o lançamento, a captura de sinal e o comissionamento — com primeiras imagens de teste registradas em janeiro de 2026 — e agora <strong>iniciou a fase de observações científicas</strong>, como anuncia a própria agência. O alvo: estudar em profundidade pelo menos 20 planetas conhecidos fora do Sistema Solar e as estrelas que eles orbitam.</p>
+
+      <h2>O Problema que o Pandora Vai Atacar</h2>
+      <p>Estudar a atmosfera de um exoplaneta parece simples na teoria: quando o planeta passa na frente da sua estrela, parte da luz é filtrada pela atmosfera e deixa impressões digitais químicas no espectro. O problema é que <strong>manchas e regiões brilhantes da estrela contaminam a medição</strong> — elas imitam ou apagam exatamente os sinais que os astrônomos procuram, como vapor de água e nuvens. O Pandora resolve o quebra-cabeça olhando para os dois ao mesmo tempo: monitora o brilho da estrela em luz visível enquanto coleta dados infravermelhos do trânsito planetário, separando o que é sinal do planeta e o que é ruído da estrela.</p>
+
+      <h3>O Que Já Está Confirmado</h3>
+      <ul>
+        <li>Missão da NASA operando em conjunto com estudos de exoplanetas do Goddard Space Flight Center</li>
+        <li>Primeiras imagens de engenharia capturadas em 20 de janeiro de 2026, durante o comissionamento</li>
+        <li>Início das observações científicas anunciado pela agência em 2026</li>
+        <li>Meta: caracterizar atmosferas de pelo menos 20 exoplanetas conhecidos, buscando nuvens, névoas e água</li>
+      </ul>
+
+      <h2>Por Que Missões Pequenas Importam</h2>
+      <p>O Pandora faz parte de uma turma de pequenas missões que entregam ciência focada por uma fração do custo dos grandes observatórios. Em vez de varrer o céu atrás de mundos novos, ele investiga a fundo planetas já conhecidos — o trabalho de fundição que prepara o terreno para os telescópios do futuro. A estratégia complementa o que o <a href="/espaco/telescopio-espacial-james-webb">James Webb faz em escala monumental</a> e o que <a href="/espaco/exoplanetas-a-busca-por-mundos-habitaveis">a busca por mundos habitáveis</a> precisa para avançar: dados limpos, planeta por planeta.</p>
+
+      <h2>Conclusão</h2>
+      <p>Com o Pandora em operação, a era dos "anéis de dados" sobre atmosferas alienígenas ganha um novo capítulo. Se o pequeno satélite entregar o que promete, a lista de mundos com atmosferas bem medidas vai crescer — e, com ela, as chances de encontrar, um dia, uma assinatura que a gente não consiga explicar.</p>
+    `,
+    category: {
+      id: 'espaco',
+      slug: 'espaco',
+      name: 'Espaço',
+      description: 'Astronomia, NASA, planetas, estrelas e missões espaciais',
+      color: '#f59e0b'
+    },
+    tags: ['Pandora', 'NASA', 'exoplanetas', 'astronomia', 'missão espacial'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?satellite,space,stars',
+    imageAlt: 'Satélite de observação espacial com painéis solares estendidos sobre campo estelar',
+    sources: [
+      {
+        title: 'NASA Science - Missão Pandora',
+        url: 'https://science.nasa.gov/mission/pandora/',
+        type: 'agency'
+      },
+      {
+        title: 'NASA - NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars',
+        url: 'https://www.nasa.gov/news/',
+        type: 'agency'
+      }
+    ]
+  },
+  {
+    id: '98',
+    slug: 'playstation-state-of-play-setembro-2026-resumo',
+    title: 'State of Play de Setembro de 2026: Todos os Anúncios da Sony em Um Só Lugar',
+    excerpt: 'A Sony reuniu novidades pesadas em seu evento de setembro: controladores de GTA VI, Until Dawn 2, Final Fantasy VII Revelation e muito mais. Veja o resumo do que foi anunciado.',
+    content: `
+      <h2>O Evento que Pegou os Jogadores de Surpresa</h2>
+      <p>A <strong>Sony</strong> realizou em 3 de setembro de 2026 mais um <strong>State of Play</strong> — e, desta vez, em dose dupla, com apresentação principal e edição Japão em sequência. O evento confirmou datas de lançamento, revelou trailers e anunciou hardware novo, virando o assunto do momento entre jogadores, como registraram o <strong>PlayStation.Blog</strong> oficial e portais como IGN e Polygon.</p>
+
+      <h2>Os Destaques Confirmados</h2>
+      <ul>
+        <li><strong>Grand Theft Auto VI:</strong> revelação dos controladores DualSense em edições limitadas inspiradas em Vice City</li>
+        <li><strong>Until Dawn 2</strong> chega em 28 de janeiro, pela Firesprite</li>
+        <li><strong>Final Fantasy VII Revelation</strong> tem lançamento confirmado em 8 de abril de 2027, no PS5</li>
+        <li><strong>Ghost of Yōtei: Most Wanted:</strong> Jin Sakai retorna em nova revelação da Sucker Punch</li>
+        <li><strong>Metro 2039</strong> chega em 4 de fevereiro de 2027, com gameplay revelado no PS5 Pro</li>
+        <li><strong>LEGO PlayStation:</strong> primeira olhada no set que transforma o clássico console em peças de montar</li>
+        <li><strong>Final Fantasy Resonance:</strong> demo disponível, com Sephiroth confirmado</li>
+        <li><strong>Gran Turismo 7 Spec IV:</strong> atualização chegando em duas partes ao longo do ano</li>
+      </ul>
+
+      <h3>O Que Chama Atenção no Line-up</h3>
+      <p>Três pontos se destacam. Primeiro, a Sony transformou o State of Play em vitrine de datas concretas — menos promessas vagas, mais calendário. Segundo, a presença de <strong>Final Fantasy VII Revelation</strong> confirma o ritmo do capítulo final da trilogia remake, com a Square Enix já detalhando o lançamento em seu site oficial. Terceiro, o evento reforçou o apetite por produtos de cultura pop fora dos jogos, como o set da LEGO — na esteira de colaborações como as que unem <a href="/games/star-wars-zero-company-jogo-estrategia">franquias de games e marcas de entretenimento</a>.</p>
+
+      <h2>Esperas e Silêncios</h2>
+      <p>Nem tudo foi festa: a ausência de <strong>Intergalactic: The Heretic Prophet</strong>, o novo RPG espacial da Naughty Dog, chamou atenção e motivou manchetes na IGN sobre os "no-shows" do evento. Para quem aguardava o jogo, o recado é de paciência — a Sony optou por focar o line-up em projetos com janelas de lançamento definidas. A estratégia acompanha um mercado que prefere prometer menos e entregar mais, diferente do padrão de anúncios antecipados que já <a href="/games/cloud-gaming-2026-jogar-na-nuvem">remodela a indústria</a> há alguns anos.</p>
+
+      <h2>Conclusão</h2>
+      <p>O State of Play de setembro de 2026 desenhou o calendário do PS5 até 2027: GTA VI em modo máxima potência, terror em janeiro, RPG de peso em abril e uma leva de surpresas. Se a Sony manterá o ritmo até o fim do ano é a pergunta que agora move a comunidade — e os rumores sobre o próximo evento já começaram.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['PlayStation', 'Sony', 'State of Play', 'GTA VI', 'Final Fantasy'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 7,
+    featuredImage: 'https://source.unsplash.com/800x600/?gaming,console,controller',
+    imageAlt: 'Controle de videogame branco sobre mesa com iluminação azul de setup gamer',
+    sources: [
+      {
+        title: 'PlayStation.Blog - State of Play & State of Play Japan: all announcements',
+        url: 'https://blog.playstation.com/',
+        type: 'company'
+      },
+      {
+        title: 'IGN - Latest News',
+        url: 'https://www.ign.com/articles',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '99',
+    slug: 'final-fantasy-vii-revelation-data-lancamento-2027',
+    title: 'Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027',
+    excerpt: 'A Square Enix confirmou que Final Fantasy VII Revelation chega ao PS5 em 8 de abril de 2027, encerrando a trilogia remake. Entenda o que se sabe e o que esperar do capítulo final.',
+    content: `
+      <h2>O Capítulo Final Tem Calendário</h2>
+      <p>Depois de anos de expectativa, a <strong>Square Enix</strong> confirmou a data de lançamento de <strong>Final Fantasy VII Revelation</strong>: <strong>8 de abril de 2027</strong>, no PS5. O anúncio foi feito em 3 de setembro de 2026 no State of Play da Sony, com post oficial no <strong>PlayStation.Blog</strong> e página dedicada no site da própria Square Enix — e com direito a destaque nas manchetes da IGN e do Polygon na mesma hora. É o terceiro e último capítulo da trilogia que reimaginou o RPG que redefiniu o gênero em 1997.</p>
+
+      <h2>Da Surpresa de 2015 ao Fim de um Ciclo</h2>
+      <p>Quando o remake foi anunciado, em 2015, poucos imaginavam que o projeto se tornaria uma trilogia inteira. <em>Final Fantasy VII Remake</em> (2020) cobriu apenas o segmento de Midgar; <em>Rebirth</em> (2024) expandiu o mundo para o "remake trilogy" completo. Agora, <em>Revelation</em> promete fechar a história de Cloud, Tifa, Aerith, Barret e companhia — incluindo os rumores sobre como a Square Enix vai lidar com o momento mais discutido do jogo original, sobre o qual os desenvolvedores mantêm silêncio estratégico.</p>
+
+      <h3>O Que Está Confirmado Até Agora</h3>
+      <ul>
+        <li><strong>Lançamento:</strong> 8 de abril de 2027, no PS5</li>
+        <li><strong>Anúncio oficial:</strong> State of Play de setembro de 2026, com post no PlayStation.Blog</li>
+        <li><strong>Trilogia:</strong> Revelation encerra a reimaginação moderna de Final Fantasy VII</li>
+        <li><strong>Reutilização:</strong> a Square Enix vem reaproveitando e ampliando a base técnica dos capítulos anteriores</li>
+      </ul>
+
+      <h2>Por Que Este Lançamento é Tão Pesado</h2>
+      <p>Final Fantasy VII é muito mais que um jogo: é um marco cultural que levou o JRPG ao mainstream mundial. A trilogia remake virou o caso de referência em como reimaginar um clássico sem trair o original — mudando a estrutura, expandindo personagens secundários e arriscando revelações novas. Revelation carrega o peso de fechar esse arco com dignidade, e o mercado acompanha cada movimento: a disputa por atenção do público de RPG em 2027 promete ser acirrada, com <a href="/games/the-witcher-4-cd-projekt-red-nova-saga">The Witcher 4 também no radar dos jogadores</a>.</p>
+
+      <h2>O Que Fica Para Descobrir</h2>
+      <p>Fora do PS5, a Square Enix ainda não detalhou outras plataformas nem datações específicas por região. Faltam, também, informações sobre edições especiais e pré-venda — o que deve vir em eventos futuros, seguindo o padrão de divulgação da companhia. Até lá, o que resta é reler a teoria dos fãs, revisitar os capítulos anteriores e esperar o próximo trailer.</p>
+
+      <h2>Conclusão</h2>
+      <p>Com data marcada, Revelation transforma 2027 no ano em que uma das histórias mais amadas dos games finalmente chega ao fim — na forma de um dos lançamentos mais aguardados da geração. Que a Lifestream nos acompanhe.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['Final Fantasy VII', 'Square Enix', 'RPG', 'PlayStation', 'trilogia remake'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 6,
+    featuredImage: 'https://source.unsplash.com/800x600/?videogame,fantasy,rpg',
+    imageAlt: 'Cenário de fantasia com luzes neon azuis e verdes evocando RPG japonês moderno',
+    sources: [
+      {
+        title: 'PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027',
+        url: 'https://blog.playstation.com/',
+        type: 'company'
+      },
+      {
+        title: 'Square Enix - Site Oficial',
+        url: 'https://www.square-enix-games.com/',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '100',
+    slug: 'artificial-luca-guadagnino-filme-sam-altman-nyff',
+    title: 'Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York',
+    excerpt: '“Artificial”, novo drama de Luca Guadagnino com distribuição da Neon e inspirado na ascensão de Sam Altman e da OpenAI, terá estreia mundial no New York Film Festival.',
+    content: `
+      <h2>Quando Hollywood Vira o Próprio Assunto</h2>
+      <p>A inteligência artificial já transformou os bastidores do cinema — agora virou protagonista. <strong>Artificial</strong>, novo filme de <strong>Luca Guadagnino</strong> (<em>Challengers</em>, <em>Call Me by Your Name</em>), terá sua <strong>estreia mundial no New York Film Festival</strong>, como revelou a Variety com exclusividade. A produção, da distribuidora <strong>Neon</strong>, é um drama inspirado na ascensão de <strong>Sam Altman</strong> e da OpenAI — o embate entre visão tecnológica, ambição corporativa e as implicações de criar algo que ninguém sabe controlar por completo.</p>
+
+      <h2>O Contexto: IA na Mira do Cinema</h2>
+      <p>Não é a primeira vez que a indústria transforma tecnologia em narrativa, mas o momento é singular. A IA generativa entrou no cotidiano do público — e também nas disputas trabalhistas de Hollywood, tema que <a href="/inteligencia-artificial/ia-hollywood-google-suno-disputa-2026">já movimenta gigantes da tecnologia e estúdios</a>. Guadagnino, diretor de estilo sensual e elogiado pela direção de atores, é uma escolha curiosa para o tema: em vez de ficção científica distópica, a aposta é no drama humano por trás da corrida da IA — os egos, as rupturas e o conselho que derrubou e reelegeu Altman em dias frenéticos de 2023.</p>
+
+      <h3>O Que Está Confirmado</h3>
+      <ul>
+        <li><strong>Filme:</strong> Artificial, dirigido por Luca Guadagnino</li>
+        <li><strong>Distribuição:</strong> Neon</li>
+        <li><strong>Estreia mundial:</strong> New York Film Festival</li>
+        <li><strong>Tema:</strong> drama inspirado no universo de Sam Altman e da OpenAI</li>
+      </ul>
+
+      <h2>Festival como Palco de Apostas</h2>
+      <p>Estrear em festival é uma declaração de intenção: a Neon, responsável por lançamentos que dominaram temporadas de premiações, trata Artificial como filme de prestígio, não como merchandising de tecnologia. O New York Film Festival tem histórico de abrir janelas para produções que depois disputam o Oscar — e o timing não poderia ser melhor: enquanto o público debate o papel da IA no trabalho, na arte e na vida, o cinema responde com o que faz de melhor, <a href="/filmes-series/ia-no-cinema-transformando-os-bastidores">transformando em drama os bastidores da própria revolução</a>.</p>
+
+      <h2>Conclusão</h2>
+      <p>Artificial promete fazer pelo debate sobre IA o que os grandes dramas corporativos fizeram pelas redes sociais e pelo capitalismo de plataforma: dar rosto, conflito e ambiguidade ao fenômeno. A estreia no NYFF será o primeiro teste — e, se a reação for boa, prepare-se para ouvir esse nome com frequência na corrida de premiações.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Artificial', 'Luca Guadagnino', 'OpenAI', 'cinema', 'Neon'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 5,
+    featuredImage: 'https://source.unsplash.com/800x600/?cinema,film,camera',
+    imageAlt: 'Câmera de cinema profissional em estúdio com iluminação dramática',
+    sources: [
+      {
+        title: 'Variety - Luca Guadagnino’s ‘Artificial’ to World Premiere at New York Film Festival (EXCLUSIVE)',
+        url: 'https://variety.com/v/film/',
+        type: 'publication'
+      },
+      {
+        title: 'The Verge - Entertainment',
+        url: 'https://www.theverge.com/entertainment',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '101',
+    slug: 'the-odyssey-imax-70mm-recorde-nolan',
+    title: 'The Odyssey de Christopher Nolan: IMAX 70mm Estendido e Vendas que Batem Recordes',
+    excerpt: 'The Odyssey prolonga a exibição em IMAX 70mm e ultrapassa US$ 450 milhões em bilheteria IMAX. Entenda por que o filme de Nolan redefiniu a experiência de cinema em 2026.',
+    content: `
+      <h2>Uma Janela que Não Fecha</h2>
+      <p>Poucos filmes dominam o ano no cinema como <strong>The Odyssey</strong>, de <strong>Christopher Nolan</strong>. De acordo com a Variety, a produção estendeu novamente sua exibição em <strong>IMAX 70mm</strong> ao longo de setembro, enquanto as vendas de ingressos IMAX do filme ultrapassam <strong>US$ 450 milhões</strong> — número inédito para a tecnologia na história. Em um mercado que discute o futuro das salas, Nolan entregou o argumento mais eloquente possível: lotar sessões em formato premium por meses.</p>
+
+      <h2>Por Que o IMAX 70mm é Tão Cobiçado</h2>
+      <p>O formato que Nolan defende é o mais nobre da fotografia em película: negativo de 15 perfurações, imagens com resolução e profundidade que nenhum digital alcança, projetado em telas de vários andares. O número de salas equipadas no mundo é minúsculo — o que transforma cada sessão em evento. O filme já tinha entrado no radar do público geek por seu elenco e escala épica; agora, virou peregrinação: fãs atravessam países para assistir nas poucas telas 70mm do planeta, um fenômeno que remete ao impacto cultural de <a href="/filmes-series/spider-man-brand-new-day-em-cartaz-2026">lançamentos que transformam o cinema em evento</a>.</p>
+
+      <h3>Números e Fatos</h3>
+      <ul>
+        <li><strong>US$ 450+ milhões</strong> em vendas globais de ingressos IMAX para The Odyssey</li>
+        <li><strong>Extensão da janela IMAX 70mm</strong> confirmada pela Variety para o mês de setembro</li>
+        <li><strong>Fenômeno de salas:</strong> sessões esgotadas e revenda de ingressos em mercados-chave</li>
+        <li><strong>Nolan:</strong> defensor histórico da película e dos formatos premium de projeção</li>
+      </ul>
+
+      <h2>O Que Isso Diz Sobre o Cinema em 2026</h2>
+      <p>A performance de Odyssey acontece num mercado que se reconstrói depois de anos de turbulência — streaming, greves, janelas curtas. O filme prova que existe um público para o "ir ao cinema" como experiência irrepetível, algo que plataformas não replicam. A indústria já responde: estúdios reservam telas IMAX com anos de antecedência, e o formato 70mm volta ao vocabulário do público comum. Em um ano em que até <a href="/filmes-series/hbo-max-lancamentos-geek-2026">os streamings disputam atenção com eventos culturais</a>, o cinema de evento se reafirma.</p>
+
+      <h2>Conclusão</h2>
+      <p>The Odyssey não é só um sucesso de bilheteria: é uma tese vencedora sobre o futuro das salas. Enquanto a janela IMAX 70mm seguir aberta, cada sessão é um manifesto — de que alguns filmes, como alguns mitos, pedem para serem vistos na maior tela possível.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['The Odyssey', 'Christopher Nolan', 'IMAX', 'cinema', 'bilheteria'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 5,
+    featuredImage: 'https://source.unsplash.com/800x600/?cinema,projector,screen',
+    imageAlt: 'Projetor de cinema vintage projetando feixe de luz em sala escura',
+    sources: [
+      {
+        title: 'Variety - ‘The Odyssey’ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million',
+        url: 'https://variety.com/v/film/',
+        type: 'publication'
+      },
+      {
+        title: 'IMAX - Site Oficial',
+        url: 'https://www.imax.com/',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '102',
+    slug: 'supergirl-hbo-max-data-streaming',
+    title: 'Supergirl Define Data de Chegada ao Streaming: Quando Ver o Filme da DC no HBO Max',
+    excerpt: 'Depois da passagem pelos cinemas, Supergirl: Woman of Tomorrow já tem data marcada no HBO Max. Entenda a janela de streaming e o que isso significa para o novo universo DC.',
+    content: `
+      <h2>Do Cinema Para o Sofá, com Data Marcada</h2>
+      <p>A estratégia de janelas do novo universo DC acabou de ganhar um marco: <strong>Supergirl</strong> — o filme protagonizado pela priminha do Homem de Aço no DCU — já tem <strong>data oficial de estreia no HBO Max</strong>, como anunciou a Variety. A movimentação acende o cronômetro para quem esperou a chegada do filme ao streaming e reforça o ritmo acelerado do estúdio em transformar cada lançamento em evento multiplataforma.</p>
+
+      <h2>Por Que a Janela de Streaming é Tão Observada</h2>
+      <p>O período entre o cinema e o streaming virou indicador estratégico da indústria. Janelas curtas aumentam o impacto no assinante e no engajamento da plataforma, mas podem canibalizar a bilheteria; janelas longas protegem as salas, mas deixam os fãs esperando. No caso da DC, a Warner Bros. Discovery calibrou a medida para equilibrar receitas — e cada anúncio é lido como um recado sobre o plano da casa, tema que <a href="/filmes-series/hbo-max-lancamentos-geek-2026">domina as conversas sobre o catálogo geek da plataforma</a>.</p>
+
+      <h3>O Contexto no Novo DCU</h3>
+      <ul>
+        <li><strong>Supergirl: Woman of Tomorrow</strong> integra a nova fase do universo DC nos cinemas</li>
+        <li>O filme é parte do calendário 2026 do DCU, ao lado de projetos já em cartaz e por vir</li>
+        <li>O DCU alterna cinemas e streamings como peças do mesmo ecossistema narrativo</li>
+        <li>Com a data no HBO Max, o filme entra na corrida pelo engajamento do segundo semestre</li>
+      </ul>
+
+      <h2>Supergirl no Centro da Fase DC</h2>
+      <p>Kara Zor-El chegou ao DCU com a missão de provar que a casa tem heróis além do Homem de Aço — e a aposta dialoga com a linha editorial que já movimentou os quadrinhos, como mostramos ao cobrir <a href="/quadrinhos/superman-futuro-homem-de-aco-universo-dc">o futuro do Superman no universo DC</a>. No cinema, a personagem carrega o tom mais cósmico e afiado do material de Tom King, e a expectativa é que o desempenho no streaming ajude a calibrar os próximos passos da personagem na fase.</p>
+
+      <h2>Conclusão</h2>
+      <p>Com data marcada no HBO Max, Supergirl entra na fase mais estratégica de seu ciclo: converter interesse em assinaturas e manter o novo DCU no centro do debate geek. Agora é esperar o contador zerar — e ver se a Garota de Aço domina também o streaming.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Supergirl', 'DC', 'HBO Max', 'streaming', 'DCU'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 5,
+    featuredImage: 'https://source.unsplash.com/800x600/?space,stars,red',
+    imageAlt: 'Nebulosa avermelhada e campo estelar evocando espaço cósmico do universo DC',
+    sources: [
+      {
+        title: 'Variety - ‘Supergirl’ Sets HBO Max Streaming Release Date',
+        url: 'https://variety.com/v/film/',
+        type: 'publication'
+      },
+      {
+        title: 'DC - Site Oficial',
+        url: 'https://www.dc.com/',
+        type: 'company'
+      }
+    ]
+  },
+  {
+    id: '103',
+    slug: 'star-wars-starfighter-kade-auberon-ryan-gosling',
+    title: 'Star Wars: Starfighter: Ryan Gosling é Kade Auberon — o Que a Revelação Diz Sobre o Filme',
+    excerpt: 'A Lucasfilm confirmou o nome do personagem de Ryan Gosling em Star Wars: Starfighter. Um herói inédito, um período inédito: entenda a aposta do novo filme da saga.',
+    content: `
+      <h2>O Nome Atrás do Piloto</h2>
+      <p>Quem é o personagem de <strong>Ryan Gosling</strong> em <strong>Star Wars: Starfighter</strong>? A pergunta ganhou resposta oficial em meados de agosto de 2026, quando o <strong>StarWars.com</strong> revelou que o ator vive <strong>Kade Auberon</strong> — um nome que não pertence a nenhum canto conhecido do cânone, e é justamente esse o ponto. Anunciado na Star Wars Celebration de 2025 com Gosling protagonista e Shawn Levy na direção, o filme segue como um dos projetos mais aguardados da nova fase da Lucasfilm no cinema.</p>
+
+      <h2>Um Personagem 100% Original</h2>
+      <p>Starfighter aposta em um protagonista que não carrega o peso de décadas de histórias: Kade Auberon não apareceu em filmes, séries ou quadrinhos anteriores. A escolha segue a estratégia declarada do projeto de contar uma história nova, em um período ainda não explorado pela cronologia — o oposto da abordagem de produções que revisitam eras consagradas. Para a Lucasfilm, é uma forma de atrair o público de Gosling sem exigir um currículo de fã veterano; para o público geek, é o charme do desconhecido, na esteira do que a fase atual vem fazendo com <a href="/filmes-series/the-mandalorian-e-grogu-futuro-de-star-wars">expansões que vão além da saga Skywalker</a>.</p>
+
+      <h3>O Que Está Confirmado</h3>
+      <ul>
+        <li><strong>Ryan Gosling</strong> vive Kade Auberon, personagem original, em Star Wars: Starfighter</li>
+        <li>Revelação oficial feita pelo StarWars.com em agosto de 2026</li>
+        <li><strong>Shawn Levy</strong> assina a direção do longa</li>
+        <li>História nova, situada em um período não explorado pela franquia</li>
+      </ul>
+
+      <h2>O Movimento de Tabuleiro da Lucasfilm</h2>
+      <p>A revelação chega em um momento movimentado: 2026 viu <strong>The Mandalorian and Grogu</strong> levar a saga de volta aos cinemas e depois ao Disney+, enquanto <a href="/filmes-series/ahsoka-temporada-2-teaser-e-data-de-estreia">Ahsoka se prepara para a segunda temporada</a> e <a href="/games/star-wars-zero-company-jogo-estrategia">novos jogos expandem o universo</a> em outras mídias. Starfighter, com sua estrela de Hollywood e um personagem inédito, é a peça de longo prazo — a aposta de que a galáxia pode crescer sem depender apenas dos nomes que já a tornaram famosa.</p>
+
+      <h2>Conclusão</h2>
+      <p>De Kade Auberon sabemos, por enquanto, só o nome — e é exatamente aí que mora a estratégia. Ao dar rosto novo a uma saga milenar, Star Wars: Starfighter se posiciona como o teste definitivo de que a Força ainda tem histórias inéditas a contar. O pano foi erguido; falta ver a nave decolar.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Star Wars', 'Starfighter', 'Ryan Gosling', 'Lucasfilm', 'cinema'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 5,
+    featuredImage: 'https://source.unsplash.com/800x600/?spacecraft,space,stars',
+    imageAlt: 'Nave espacial cruzando campo estelar em cena de ficção científica',
+    sources: [
+      {
+        title: 'StarWars.com - Ryan Gosling is Kade Auberon in Star Wars: Starfighter',
+        url: 'https://www.starwars.com/news',
+        type: 'company'
+      },
+      {
+        title: 'Space.com - Space Movies & Shows',
+        url: 'https://www.space.com/news',
+        type: 'publication'
+      }
+    ]
+  },
+  {
+    id: '104',
+    slug: 'avatar-the-last-airbender-temporada-3-fire-nation-2027',
+    title: 'Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Nação do Fogo',
+    excerpt: 'A Netflix confirmou que a terceira e última temporada da adaptação live-action de Avatar estreia em 2027, com Daniel Dae Kim de volta como o Senhor do Fogo Ozai.',
+    content: `
+      <h2>O Último Livro Ganhou Data</h2>
+      <p>A jornada de Aang está prestes a terminar. A <strong>Netflix</strong> confirmou que <strong>Avatar: The Last Airbender</strong>, sua adaptação live-action do clássico animado, retorna em <strong>2027</strong> para a <strong>terceira e última temporada</strong> — a que finalmente leva o Team Avatar ao coração da <strong>Nação do Fogo</strong>. O anúncio foi feito pelo Tudum, portal oficial de notícias da plataforma, que também revelou o retorno de <strong>Daniel Dae Kim</strong> como o <strong>Senhor do Fogo Ozai</strong>, o grande antagonista da saga.</p>
+
+      <h2>Do Terremoto ao Incêndio: o Caminho até Aqui</h2>
+      <p>A primeira temporada, de 2024, cobriu o Livro Um (Água) e dividiu a crítica entre fidelidade e adaptação. A segunda temporada trouxe o Reino da Terra, a chegada de <strong>Toph</strong> (vivida por Miya Cech) e a ascensão de <strong>Azula</strong>, elevando as apostas e o orçamento. Agora, a temporada final precisa costurar o confronto com Ozai, o Cometa de Sozin e o destino do mundo — arcos que fãs do desenho de 2005 conhecem de cor e que a versão live-action vem reescrevendo com mudanças próprias.</p>
+
+      <h3>O Que Está Confirmado</h3>
+      <ul>
+        <li><strong>Estreia:</strong> Temporada 3 chega à Netflix em 2027</li>
+        <li><strong>Temporada final:</strong> adaptação do Livro Três, Fogo, encerrando a série</li>
+        <li><strong>Daniel Dae Kim</strong> retorna como Ozai, com primeira imagem divulgada</li>
+        <li>Elenco principal segue liderado por Gordon Cormier (Aang) e Kiawentiio (Katara)</li>
+      </ul>
+
+      <h2>Por Que a Temporada 3 é o Teste Definitivo</h2>
+      <p>Adaptar a Nação do Fogo significa lidar com os episódios mais icônicos da animação — a invasão do Dia do Eclipse, os mestres de firebending, a luta final e o dilema moral de Aang sobre tirar uma vida. É a temporada em que o programa precisa provar que sua releitura mais lenta e dramática funciona quando a história chega ao clímax. A aposta da Netflix em encerrar a série com propósito — em vez de prolongar temporadas — acompanha a estratégia da plataforma de <a href="/filmes-series/netflix-setembro-2026-destaques-geek">calibrar o catálogo com eventos claros de calendário</a>.</p>
+
+      <h2>Conclusão</h2>
+      <p>Em 2027, Aang enfrenta Ozai — e a Netflix enfrenta a expectativa de duas gerações de fãs ao mesmo tempo. Se a adaptação acertar o pouso do Cometa de Sozin, a série entra para a curta lista de remakes live-action que honram o original. Tudo indica que o elemento final vai arder bonito.</p>
+    `,
+    category: {
+      id: 'filmes-series',
+      slug: 'filmes-series',
+      name: 'Filmes e Séries',
+      description: 'Ficção científica, tecnologia no cinema e análise de produções',
+      color: '#f97316'
+    },
+    tags: ['Avatar', 'The Last Airbender', 'Netflix', 'fantasia', 'séries'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 5,
+    featuredImage: 'https://source.unsplash.com/800x600/?fire,flames,epic',
+    imageAlt: 'Chamas laranjas em movimento evocando o elemento fogo da Nação do Fogo',
+    sources: [
+      {
+        title: 'Netflix Tudum - Avatar: The Last Airbender (Temporada 3 em 2027)',
+        url: 'https://www.netflix.com/tudum/avatar-the-last-airbender',
+        type: 'company'
+      },
+      {
+        title: 'Netflix Tudum - Página oficial da série',
+        url: 'https://www.netflix.com/tudum',
+        type: 'company'
+      }
+    ]
   }
 ];
