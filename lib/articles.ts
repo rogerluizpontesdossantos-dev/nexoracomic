@@ -6107,5 +6107,60 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'company'
       }
     ]
+  },
+    
+  // [AUTO:BEGIN] Artigos gerados pela automação do Radar GTA 6 (não editar manualmente dentro desta região).
+  {
+    id: '105',
+    slug: 'rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105',
+    title: 'Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar',
+    excerpt: 'Rockstar Games defende mecânica de abastecimento em GTA 6 e promete que sistema será rápido demais para incomodar jogadores.',
+    content: `
+      <h2>Rockstar defende abastecimento em GTA 6</h2>
+      <p>A Rockstar Games está confiante de que a mecânica de abastecimento em GTA 6 não será um incômodo para os jogadores. Segundo a empresa, o sistema será rápido demais para incomodar, mantendo a fluidez que a franquia é conhecida.</p>
+      <p><strong>Classificação:</strong> Fato confirmado · <strong>Fonte:</strong> Portal especializado em games (adrenaline.com.br) · <strong>Publicação original:</strong> 03/09/2026</p>
+      <p>Esta informação foi confirmada por fontes confiáveis e pode ser tratada como fato.</p>
+      <h2>O Que Sabemos Até Agora</h2>
+      <p>Segundo a fonte consultada, a Rockstar Games defende mecânica de abastecimento em GTA 6 e promete que sistema será rápido demais para incomodar. A informação foi veiculada por <strong>adrenaline.com.br</strong>, classificada neste artigo como <em>Portal especializado em games</em>.</p>
+      <h3>Detalhes da Fonte</h3>
+      <ul>
+        <li><strong>Veículo:</strong> Bing News (inglês)</li>
+        <li><strong>Domínio:</strong> adrenaline.com.br</li>
+        <li><strong>Classificação editorial:</strong> Fato confirmado</li>
+        <li><strong>Indicadores:</strong> linguagem factual em fonte especializada/jornalística (tier 3–4)</li>
+      </ul>
+      <h2>Contexto: O Caminho Até Aqui</h2>
+      <p>Grand Theft Auto VI é um dos jogos mais aguardados da próxima geração. Desenvolvido pela Rockstar Games, o título promete retornar a Vice City e a fictícia Flórida de Leonida, com os protagonistas Jason e Lucia. A Take-Two Interactive, holding controladora da Rockstar, tem mantido o lançamento para o segundo semestre de 2025, embora rumores sobre possíveis atrasos circulem periodicamente na imprensa especializada.</p>
+      <p>Esta nova informação se encaixa nesse cenário de expectativa. Por vir de fonte confiável, o dado pode ser considerado parte do quadro oficial do desenvolvimento do jogo.</p>
+      <h2>Impacto para a Comunidade Gamer</h2>
+      <p>Notícias sobre GTA 6 costumam gerar grande repercussão entre jogadores e na indústria como um todo. Com esta confirmação, a comunidade pode começar a se preparar para os próximos passos do lançamento.</p>
+      <h2>Conclusão</h2>
+      <p>A Rockstar Games defende mecânica de abastecimento em GTA 6 e promete que sistema será rápido demais para incomodar. Esta informação foi confirmada por fontes confiáveis e pode ser tratada como fato. Acompanhe o NexoraComic para mais atualizações sobre GTA 6 e outros títulos relevantes da indústria gamer.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['GTA 6', 'Rockstar Games', 'games', 'abastecimento', 'mecânicas'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-03',
+    readingTime: 4,
+    featuredImage: 'https://source.unsplash.com/800x600/?gaming,gta,videogame',
+    imageAlt: 'Imagem relacionada a Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar',
+    sources: [
+      {
+        title: 'adrenaline.com.br — Rockstar defende abastecimento em GTA 6',
+        url: 'https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/',
+        type: 'publication'
+      }
+    ]
   }
+  // [AUTO:END]
+// [AUTO:END]
+
+
+  
 ];
