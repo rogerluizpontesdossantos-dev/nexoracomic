@@ -1,10 +1,10 @@
 // auto-run.mjs — execução REAL do pipeline GTA 6
 // Busca notícias, seleciona pauta, gera artigo, insere no acervo
 import { runPipeline } from '../lib/auto/pipeline.mjs';
+import { PROJECT_ROOT } from '../lib/auto/store.mjs';
 import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import path from 'node:path';
 
-const PROJECT_ROOT = process.cwd();
 const LOG_DIR = path.join(PROJECT_ROOT, '.automation', 'logs');
 
 function ensureLogDir() {
