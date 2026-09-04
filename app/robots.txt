@@ -8,5 +8,5 @@ Disallow: /_next/
 Disallow: /admin/
 
 # Sitemap
-Sitemap: https://nexoracomic.com/sitemap.xml
+Sitemap: https://nexoracomic.vercel.app/sitemap.xml
 

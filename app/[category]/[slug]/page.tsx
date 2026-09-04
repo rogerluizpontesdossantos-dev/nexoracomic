@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     title: article.title,
     description: article.excerpt,
     alternates: {
-      canonical: `https://nexoracomic.com/${article.category.slug}/${article.slug}`,
+      canonical: `${SITE_URL}/${article.category.slug}/${article.slug}`,
     },
     openGraph: {
       title: article.title,
@@ -104,7 +104,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       name: 'NexoraComic',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://nexoracomic.com/logo-icon.svg',
+        url: `${SITE_URL}/logo-icon.svg`,
       },
     },
   };
@@ -117,19 +117,19 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://nexoracomic.com',
+        item: SITE_URL,
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: article.category.name,
-        item: `https://nexoracomic.com/${article.category.slug}`,
+        item: `${SITE_URL}/${article.category.slug}`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: article.title,
-        item: `https://nexoracomic.com/${article.category.slug}/${article.slug}`,
+        item: `${SITE_URL}/${article.category.slug}/${article.slug}`,
       },
     ],
   };

@@ -14,14 +14,54 @@ export interface Article {
   readingTime: number;
   sources?: Source[];
   relatedArticles?: string[];
+  meta?: ArticleAutomationMeta;
+}
+
+// Metadados de proveniência dos artigos gerados pela automação
+// (Radar GTA 6 / Minecraft / Terraria). Formato emitido por
+// buildArticle() em lib/auto/pipeline.mjs — registrado em lib/articles.ts.
+// Campos extra do pipeline são tolerados via index signature, sem "any".
+export interface ArticleAutomationMeta {
+  /** ISO timestamp da geração do artigo */
+  generatedAt: string;
+  /** Identificador do gerador (ex.: "auto-pipeline") */
+  generator: string;
+  /** Classificação editorial da pauta ("confirmed" | "rumor" | "speculation") */
+  classification: string;
+  /** Título original da pauta que originou o artigo */
+  pautaTitle: string;
+  /** URL da fonte original da pauta */
+  pautaUrl: string;
+  /** Domínio da fonte da pauta */
+  pautaSource: string;
+  /** Hash interno da pauta (controle anti-duplicação) */
+  pautaId: string;
+  /** Tópico editorial do radar (gta6 | minecraft | terraria) */
+  topic?: string;
+  /** Tema de imagem detectado (ex.: "gta6-vice-city"); pode faltar em artigos
+   *  gerados quando a busca do Commons não categoriza a imagem */
+  imageTheme?: string;
+  /** Licença Creative Commons da imagem de capa */
+  imageLicense: string;
+  /** Autor/artista da imagem de capa */
+  imageArtist: string;
+  /** URL da página do arquivo no Wikimedia Commons (quando disponível) */
+  imageCommonsUrl: string | null;
+  /** Query usada na busca da imagem no Commons (quando disponível) */
+  imageSearchQuery: string | null;
+  /** Pauta completa (formato livre) — compatibilidade com variações do pipeline */
+  pauta?: unknown;
+  /** Quaisquer campos adicionais emitidos pelo gerador */
+  [key: string]: unknown;
 }
 
 // Site-wide constants — single source of truth for the canonical domain.
-// NOTE: nexoracomic.com is the intended production domain. If it is not
-// connected in Vercel yet, update SITE_URL to the active domain
-// (e.g. https://nexoracomic.vercel.app) so canonical/OG URLs stay valid.
+// NOTE: o domínio próprio nexoracomic.com NÃO está registrado/online (sem DNS).
+// O deploy ativo é https://nexoracomic.vercel.app — apontar canonical/OG/sitemap
+// para um domínio morto quebra indexação e a verificação do AdSense. Quando o
+// domínio próprio for conectado na Vercel, basta trocar este valor de volta.
 export const SITE_NAME = 'NexoraComic';
-export const SITE_URL = 'https://nexoracomic.com';
+export const SITE_URL = 'https://nexoracomic.vercel.app';
 
 export interface Category {
   id: string;

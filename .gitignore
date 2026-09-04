@@ -42,3 +42,8 @@ next-env.d.ts
 
 # project-specific
 /scripts/scan-output.json
+
+# automação (logs e execuções do radar; state.json e picks são versionados
+# separadamente pelo publisher quando existirem)
+/_serve*.log
+lib/auto/_probe.ts

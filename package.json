@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "radar": "node scripts/auto-run.mjs",
+    "radar:dry": "node scripts/auto-dry-run.mjs",
+    "publish": "node scripts/auto-run.mjs"
   },
   "dependencies": {
     "next": "16.3.3",

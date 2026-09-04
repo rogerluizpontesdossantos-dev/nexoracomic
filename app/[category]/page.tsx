@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ArticleCard from '@/components/ArticleCard';
 import { CategoryBreadcrumbs } from '@/components/Breadcrumbs';
-import { CATEGORIES, Article } from '@/lib/types';
+import { CATEGORIES, SITE_URL, Article } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 
 interface CategoryPageProps {
@@ -32,13 +32,13 @@ export async function generateMetadata({ params }: CategoryPageProps) {
     title: category.name,
     description: category.description,
     alternates: {
-      canonical: `https://nexoracomic.com/${category.slug}`,
+      canonical: `${SITE_URL}/${category.slug}`,
     },
     openGraph: {
       title: `${category.name} | NexoraComic`,
       description: category.description,
       type: 'website',
-      url: `https://nexoracomic.com/${category.slug}`,
+      url: `${SITE_URL}/${category.slug}`,
       images: [{ url: '/og-image.png', width: 1200, height: 630, alt: `NexoraComic - ${category.name}` }],
     },
     twitter: {
@@ -71,13 +71,13 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://nexoracomic.com',
+        item: SITE_URL,
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: category.name,
-        item: `https://nexoracomic.com/${category.slug}`,
+        item: `${SITE_URL}/${category.slug}`,
       },
     ],
   };
