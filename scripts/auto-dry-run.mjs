@@ -26,6 +26,16 @@ try {
     if (result.wouldPublish.duplicate) {
       console.log('  ⚠ Duplicata: ' + result.wouldPublish.duplicate.reason);
     }
+    if (result.wouldPublish.image) {
+      console.log('───────────────────────────────────────────────────────────');
+      console.log('  IMAGEM DE CAPA ESCOLHIDA:');
+      console.log('  Tema detectado: ' + (result.wouldPublish.image.theme || 'N/A'));
+      console.log('  Arquivo: ' + (result.wouldPublish.image.file || 'N/A'));
+      console.log('  Licença: ' + (result.wouldPublish.image.license || 'N/A'));
+      console.log('  Autor: ' + (result.wouldPublish.image.artist || 'N/A'));
+      console.log('  Wikimedia Commons: ' + (result.wouldPublish.image.commonsUrl || 'N/A'));
+      console.log('  URL da imagem: ' + (result.wouldPublish.image.featuredImage || 'N/A'));
+    }
     console.log('═══════════════════════════════════════════════════════════');
   }
   process.exit(result.success ? 0 : 1);
