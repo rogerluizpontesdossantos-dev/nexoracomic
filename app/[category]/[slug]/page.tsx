@@ -230,31 +230,29 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
           {/* Sources */}
           {article.sources && article.sources.length > 0 && (
-            <section className="mt-12 pt-8 border-t border-border">
-              <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
+            <section className="mt-12 pt-8 border-t border-border" aria-labelledby="sources-heading">
+              <h2 id="sources-heading" className="text-xl font-semibold mb-4 flex items-center gap-2">
                 <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                Fontes
+                Fontes e referências
               </h2>
               <ul className="space-y-3">
                 {article.sources.map((source, index) => (
                   <li key={index} className="flex items-start gap-2">
-                    <svg className="w-4 h-4 text-muted-foreground mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                    <div>
+                    <span className="text-accent mt-1 flex-shrink-0">•</span>
+                    <div className="flex-1">
                       <a
                         href={source.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm text-accent hover:text-accent/80 transition-colors"
+                        className="text-sm text-accent hover:text-accent/80 transition-colors underline decoration-dotted underline-offset-2"
                       >
                         {source.title}
                       </a>
-                      {source.type && (
-                        <span className="text-xs text-muted-foreground ml-2">
-                          ({source.type})
+                      {source.publisher && (
+                        <span className="text-sm text-muted-foreground ml-2">
+                          — {source.publisher}
                         </span>
                       )}
                     </div>
