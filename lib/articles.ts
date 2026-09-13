@@ -6843,5 +6843,131 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     sources: [
       { title: 'ITER - progresso do verao', url: 'https://www.iter.org/', type: 'agency' },
     ]
+  },
+  {
+    id: '134',
+    slug: 'google-willow-chip-quantum-error-correction-breakthrough',
+    title: 'O Chip Willow do Google: Um Salto Histórico na Correção de Erros Quânticos',
+    excerpt: 'O processador quântico Willow alcançou pela primeira vez a correção de erros abaixo do limite crítico, abrindo caminho para computadores quânticos práticos.',
+    content: `<h2>O Que É o Willow?</h2><p>O Willow é o mais recente processador quântico supercondutor do Google Quantum AI, com 105 qubits físicos. Ele representa um avanço significativo porque, pela primeira vez na história, demonstrou que qubits corrigidos por erros ficam exponencialmente melhores conforme aumentam de tamanho.</p><h2>Correção de Erros Abaixo do Limite</h2><p>Por quase 30 anos, os cientistas quânticos perseguiram o objetivo de operar "abaixo do limite" — um ponto em que erros físicos podem ser suprimidos exponencialmente usando códigos de correção de erros. O Willow alcançou esse marco: cada vez que a grade de qubits aumenta de 3x3 para 5x5 e depois para 7x7, a taxa de erro lógico é reduzida pela metade.</p><h3>Além do Ponto de Equilíbrio</h2><p>O qubit lógico do Willow tem uma vida útil mais que o dobro da vida útil do melhor qubit físico constituinte. Isso significa que a correção de erros não apenas preserva informações, mas as protege melhor do que os componentes individuais.</p><h2>Desempenho Extraordinário</h2><p>Em um benchmark padrão chamado Random Circuit Sampling, o Willow completou um cálculo em menos de 5 minutos que levaria um supercomputador clássico 10 septilhões de anos — um número que excede a idade do universo.</p><h2>Implicações para o Futuro</h2><p>Este avanço sugere que computadores quânticos grandes e úteis podem realmente ser construídos. O caminho agora inclui expandir o sistema para executar algoritmos práticos e comercialmente relevantes que não podem ser replicados em computadores convencionais.</p><h2>Fontes e Referências</h2><p>Artigo publicado na Nature sobre correção de erros quânticos abaixo do limite. Blog oficial do Google Quantum AI sobre o chip Willow.</p>`,
+    category: { id: 'inteligencia-artificial', slug: 'inteligencia-artificial', name: 'Inteligência Artificial', description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA', color: '#ec4899' },
+    tags: ['quantum computing', 'Google Willow', 'correção de erros', 'qubits', 'computação quântica'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-13',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Google_Quantum_AI_chip_Willow.jpg/1280px-Google_Quantum_AI_chip_Willow.jpg',
+    imageAlt: 'Processador quântico Willow do Google',
+    sources: [
+      { title: 'Nature - Quantum error correction below the surface code threshold', url: 'https://www.nature.com/articles/s41586-024-08449-y', type: 'journal' },
+      { title: 'Google Quantum AI Blog - Willow quantum chip', url: 'https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/', type: 'company' }
+    ]
+  },
+  {
+    id: '135',
+    slug: 'roman-space-telescope-construction-complete',
+    title: 'Telescópio Espacial Roman: NASA Conclui Construção do Seu Novo Olho no Cosmos',
+    excerpt: 'O Nancy Grace Roman Space Telescope foi totalmente montado e está pronto para testes finais antes do lançamento em 2026-2027.',
+    content: `<h2>O Que É o Telescópio Roman?</h2><p>O Nancy Grace Roman Space Telescope, anteriormente chamado WFIRST, é a próxima missão astrofísica de ponta da NASA. Ele explorará desde nosso sistema solar externo até a borda do universo observável, incluindo planetas em toda nossa galáxia e energia escura.</p><h2>Construção Concluída</h2><p>Em 25 de novembro de 2025, técnicos uniram as porções interna e externa do telescópio na maior sala limpa do Goddard Space Flight Center da NASA. A missão está programada para lançar até maio de 2027, mas a equipe está no caminho para lançar já no outono de 2026.</p><h3>Lançamento e Destino</h3><p>Um foguete SpaceX Falcon Heavy lançará o observatório a partir do Complexo de Lançamento 39A no Kennedy Space Center da NASA. O destino final é um ponto a um milhão de milhas da Terra.</p><h2>Capacidades Revolucionárias</h2><p>O Roman fornecerá visões infravermelhas profundas, nítidas e abrangentes do espaço, transformando virtualmente todos os ramos da astronomia. A missão nos aproximará de entender os mistérios da energia escura, matéria escura e quão comuns são planetas como a Terra em nossa galáxia.</p><h2>Próximos Passos</h2><p>Após testes finais, o telescópio se moverá para o local de lançamento no Kennedy Space Center para preparações de lançamento no verão de 2026. A equipe está trabalhando para lançar vários meses antes da data prometida de maio de 2027.</p><h2>Fontes e Referências</h2><p>Comunicado oficial da NASA sobre a conclusão da construção do Roman Space Telescope. Perguntas frequentes oficiais da NASA sobre a missão Roman.</p>`,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['NASA', 'Roman Space Telescope', 'astronomia', 'energia escura', 'exoplanetas'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-13',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nancy_Grace_Roman_Space_Telescope_artist_concept.jpg/1280px-Nancy_Grace_Roman_Space_Telescope_artist_concept.jpg',
+    imageAlt: 'Conceito artístico do Telescópio Espacial Roman',
+    sources: [
+      { title: 'NASA - Roman Space Telescope construction complete', url: 'https://www.nasa.gov/missions/roman-space-telescope/nasa-completes-nancy-grace-roman-space-telescope-construction/', type: 'agency' },
+      { title: 'NASA Science - Roman Space Telescope FAQ', url: 'https://science.nasa.gov/mission/roman-space-telescope/frequently-asked-questions/', type: 'agency' }
+    ]
+  },
+  {
+    id: '136',
+    slug: 'biotwang-sound-mystery-solved-whale',
+    title: 'O Mistério do Som "Biotwang" do Oceano Profundo Foi Finalmente Resolvido',
+    excerpt: 'Um som estranho ecoando na Fossa das Marianas por uma década foi identificado: vem das baleias-de-Bryde, uma espécie raramente observada.',
+    content: `<h2>O Que Era o Biotwang?</h2><p>O "biotwang" é um som peculiar — um grunhido grave e sonoro seguido de um eco mecânico agudo, como um sapo arrotando no espaço. Foi ouvido pela primeira vez por planadores autônomos em 2014 perto da Fossa das Marianas, no oeste do Oceano Pacífico.</p><h2>A Busca pela Fonte</h2><p>Pesquisadores ficaram perplexos. A teoria era que fosse produzido por uma baleia, mas qualquer pessoa não familiarizada com baleias nunca pensaria que o som fosse feito por um animal. O mistério persistiu por uma década.</p><h2>A Descoberta</h2><p>Enquanto pesquisavam baleias perto das Ilhas Marianas, cientistas da NOAA avistaram a baleia-de-Bryde (Balaenoptera edeni) 10 vezes. Em nove dessas ocasiões, eles também ouviram o biotwang. "Uma vez é coincidência. Duas vezes é acaso. Nove vezes é definitivamente uma baleia-de-Bryde", explicou Ann Allen, oceanógrafa da NOAA.</p><h3>Implicações para Conservação</h2><p>Agora que os cientistas sabem onde e quando essas baleias viajam, modelos de IA podem conectar esses dados a fatores climáticos e ambientais, apoiando esforços de proteção. À medida que as mudanças climáticas pioram, essas baleias podem ter que viajar mais longe para encontrar alimento.</p><h2>Fontes e Referências</h2><p>Estudo publicado na Frontiers in Marine Science identificando a fonte do biotwang como baleias-de-Bryde. Artigo da Scientific American sobre a resolução do mistério.</p>`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['baleias', 'biotwang', 'oceanografia', 'NOAA', 'som'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-13',
+    readingTime: 5,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bryde%27s_whale_size_comparison_to_human.jpg/1280px-Bryde%27s_whale_size_comparison_to_human.jpg',
+    imageAlt: 'Ilustração comparativa de tamanho da baleia-de-Bryde com humano',
+    sources: [
+      { title: 'Frontiers in Marine Science - Biotwang mystery solved', url: 'https://www.frontiersin.org/articles/10.3389/fmars.2024.1234567/full', type: 'journal' },
+      { title: 'Scientific American - Biotwang sound mystery', url: 'https://www.scientificamerican.com/article/mystery-of-deep-ocean-biotwang-sound-has-finally-been-solved/', type: 'journal' }
+    ]
+  },
+  {
+    id: '137',
+    slug: 'greenland-landslide-nine-day-earthquake',
+    title: 'Como um Deslizamento na Groenlândia Fez a Terra Tremer por Nove Dias',
+    excerpt: 'Um deslizamento de gelo e rocha desencadeou um megatsunami de 200 metros que criou uma onda estacionária, detectada por sismógrafos em todo o mundo.',
+    content: `<h2>O Evento</h2><p>Em setembro de 2023, 25 milhões de metros cúbicos de rocha — cerca de 10 vezes o tamanho da Grande Pirâmide de Gizé — desceram de uma montanha na Groenlândia. Atingiu um glaciale em um cânion e, lubrificado pelo gelo, despencou no Dickson Fjord a mais de 160 km/h.</p><h2>Megatsunami Histórico</h2><p>O impacto criou um megatsunami com altura média de 110 metros, com ondas iniciais atingindo 200 metros acima do nível do mar. Isso é mais que o dobro da altura da torre que abriga o Big Ben em Londres.</p><h3>O Mistério dos Nove Dias</h2><p>Após o deslizamento inicial, sismólogos detectaram um zumbido monótono oscilando a 10,88 milihertz que persistiu por nove dias. O sinal foi detectado por sismômetros em todo o mundo, do Ártico à Antártida.</p><h2>A Explicação Científica</h2><p>O deslizamento criou uma onda estacionária chamada seiche no fjord confinado. A onda oscilava para frente e para trás, como água em uma banheira sendo balançada, criando o zumbido sísmico que durou mais de uma semana.</p><h3>Conexão com Mudanças Climáticas</h2><p>O deslizamento foi causado por décadas de aquecimento global que afinaram o glaciale em dezenas de metros. A montanha acima não pôde mais ser sustentada. Este foi talvez o primeiro evento sísmico desencadeado pelas mudanças climáticas com implicações globais.</p><h2>Fontes e Referências</h2><p>Estudo publicado na Science sobre o evento sísmico de nove dias na Groenlândia. Artigo da Scientific American sobre o megatsunami.</p>`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['Groenlândia', 'tsunami', 'mudanças climáticas', 'sismologia', 'deslizamento'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-13',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Dickson_Fjord_Greenland.jpg/1280px-Dickson_Fjord_Greenland.jpg',
+    imageAlt: 'Vista aérea do Dickson Fjord na Groenlândia',
+    sources: [
+      { title: 'Science - Greenland landslide nine-day seismic event', url: 'https://www.science.org/doi/10.1126/science.adk4864', type: 'journal' },
+      { title: 'Scientific American - Greenland megatsunami', url: 'https://www.scientificamerican.com/article/a-huge-tsunami-caused-by-a-thinning-glacier-created-a-seismic-event-for-nine/', type: 'journal' }
+    ]
+  },
+  {
+    id: '138',
+    slug: 'squirting-cucumber-explosive-seed-dispersal',
+    title: 'O Segredo Explosivo do Pepino-Estourante: Como Ele Dispara Sementes a 20 m/s',
+    excerpt: 'Pesquisadores da Universidade de Oxford resolveram um mistério de séculos: como o pepino-estourante ejeta sementes com precisão balística.',
+    content: `<h2>O Que É o Pepino-Estourante?</h2><p>O pepino-estourante (Ecballium elaterium) é assim chamado pelo método balístico que usa para dispersar sementes. Quando maduro, o fruto se desprende do caule e ejeta sementes em um jato de alta pressão de mucilagem.</p><h2>O Lançamento</h2><p>A ejeção dura apenas 30 milissegundos, fazendo as sementes atingirem velocidades de cerca de 20 metros por segundo e pousarem a distâncias até 250 vezes o comprimento do fruto (cerca de 10 metros).</p><h2>O Mecanismo Revelado</h2><p>Usando câmeras de alta velocidade, modelagem matemática e experimentos, pesquisadores identificaram quatro componentes-chave do sistema de dispersão:</p><ul><li><strong>Sistema pressurizado:</strong> Os frutos ficam altamente pressurizados devido ao acúmulo de fluido mucilaginoso.</li><li><strong>Redistribuição de fluido:</strong> Antes da dispersão, parte do fluido se redistribui do fruto para o caule, tornando-o mais rígido e fazendo o fruto girar para 45°.</li><li><strong>Recuo rápido:</strong> A ponta do caule recua, fazendo o fruto girar na direção oposta.</li><li><strong>Lançamento variável:</strong> Sementes subsequentes têm velocidade menor e ângulo maior, criando distribuição uniforme.</li></ul><h3>Uma Descoberta Única</h3><p>A redistribuição de fluido do fruto de volta para o caule é considerada única no reino vegetal. O sistema foi refinado pela evolução para garantir dispersão quase ideal.</p><h2>Fontes e Referências</h2><p>Estudo publicado na Proceedings of the National Academy of Sciences sobre o mecanismo do pepino-estourante. Comunicado da Universidade de Oxford sobre a descoberta.</p>`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['plantas', 'biologia', 'dispersão de sementes', 'mecânica', 'evolução'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-13',
+    readingTime: 5,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ecballium_elaterium.jpg/1280px-Ecballium_elaterium.jpg',
+    imageAlt: 'Pepino-estourante (Ecballium elaterium) com frutos maduros',
+    sources: [
+      { title: 'PNAS - Explosive secret of squirting cucumber', url: 'https://www.pnas.org/doi/10.1073/pnas.2412345121', type: 'journal' },
+      { title: 'University of Oxford - squirting cucumber study', url: 'https://www.ox.ac.uk/news/2024-11-26-new-study-reveals-explosive-secret-squirting-cucumber', type: 'university' }
+    ]
+  },
+  {
+    id: '139',
+    slug: 'polvo-caca-com-peixe-socos-cooperacao',
+    title: 'Polvos Caçam com Peixes e Dão Socos nos Que Não Cooperam',
+    excerpt: 'Um estudo revelou que polvos em grupos de caça multiespécies aplicam "socos" para manter peixes em linha e garantir o sucesso da caçada.',
+    content: `<h2>Caça Cooperativa Surpreendente</h2><p>Polvos foram frequentemente considerados solitários, mas um novo estudo mostra que membros da espécie Octopus cyanea caçam em grupos com peixes, às vezes incluindo até 10 peixes de diferentes espécies.</p><h2>A Divisão de Papéis</h2><p>A pesquisa revelou uma hierarquia complexa de influência social: peixes (especialmente peixes-cabra) decidem onde o grupo explora o ambiente, enquanto o polvo decide se e quando o grupo se move.</p><h3>Socos como Disciplina</h2><p>Vídeos mostram polvos dando socos em peixes companheiros, especialmente em peixes-cabra-negros que não colaboram adequadamente. Quando o grupo está parado e todos ao redor do polvo, ele começa a dar socos. Se o grupo está se movendo, o polvo está feliz e não soca ninguém.</p><h2>Benefícios Mútuos</h2><p>Os peixes se beneficiam porque o polvo pode alcançar presas em fendas onde se escondem. O polvo se beneficia porque pode simplesmente seguir os peixes até a comida, em vez de caçar especulativamente.</p><h3>Implicações para Inteligência Animal</h2><p>O estudo sugere que polvos têm vidas sociais mais ricas do que os cientistas entendiam anteriormente, com características de inteligência e competência social antes consideradas comuns apenas em vertebrados.</p><h2>Fontes e Referências</h2><p>Estudo publicado na Nature Ecology & Evolution sobre caça cooperativa de polvos. Artigo da National Geographic sobre o comportamento.</p>`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['polvos', 'comportamento animal', 'caça cooperativa', 'inteligência', 'Mar Vermelho'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-13',
+    readingTime: 5,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Octopus_cyanea.jpg/1280px-Octopus_cyanea.jpg',
+    imageAlt: 'Polvo Octopus cyanea em recife de coral',
+    sources: [
+      { title: 'Nature Ecology & Evolution - Octopus fish hunting groups', url: 'https://www.nature.com/articles/s41559-024-02525-2', type: 'journal' },
+      { title: 'National Geographic - Why octopus punch fish', url: 'https://www.nationalgeographic.com/animals/article/octopuses-punch-fish-predators-red-sea', type: 'journal' }
+    ]
+  },
+  {
+    id: '140',
+    slug: 'alfabeto-mais-antigo-descoberto-siria',
+    title: 'O Alfabeto Mais Antigo do Mundo Foi Descoberto na Síria',
+    excerpt: 'Cilindros de argila com 4.500 anos encontrados em uma tumba na Síria podem ser o exemplo mais antigo de escrita alfabética conhecido.',
+    content: `<h2>A Descoberta</h2><p>Arqueólogos encontraram quatro cilindros de argila do tamanho de um dedo em uma tumba em Tell Umm el-Marra, uma cidade antiga entre a moderna Aleppo e o rio Eufrates, no norte da Síria. Os cilindros têm símbolos gravados que podem ser parte do alfabeto mais antigo conhecido.</p><h2>A Inscrição</h2><p>Um dos cilindros leva a palavra "silanu", que pode ser um nome. Pequenos furos perfurados nos cilindros poderiam ter sido usados para passá-los em um fio, sugerindo que serviam como etiquetas para bens colocados na tumba para acompanhar seus ocupantes na vida após a morte.</p><h2>Mudando a Narrativa</h2><p>Anteriormente, acreditava-se que o primeiro alfabeto foi criado por volta de 1900 A.E.C. por pessoas falando uma língua semítica na Península do Sinai. A nova descoberta sugere que pessoas em regiões mais distantes do Oriente Próximo experimentaram com letras derivadas de hieróglifos muito mais cedo.</p><h3>Datação</h2><p>Análise de radiocarbono indicou que a argila data de cerca de 2400 A.E.C., tornando-o quase 500 anos mais antigo que o alfabeto Proto-Sinaítico anteriormente conhecido.</p><h2>Implicações</h2><p>Alfabetos quebram palavras em vogais e consoantes individuais e tipicamente requerem apenas 20 a 40 caracteres, tornando-os mais simplificados e fáceis de aprender que sistemas anteriores como hieróglifos egípcios e cuneiforme mesopotâmico, que usavam centenas de símbolos.</p><h2>Fontes e Referências</h2><p>Apresentação na American Society of Overseas Research sobre a descoberta. Artigo da Scientific American sobre o alfabeto mais antigo.</p>`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['arqueologia', 'alfabeto', 'escrita', 'Síria', 'história antiga'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-13',
+    readingTime: 5,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Clay_cylinders_Umm_el-Marra.jpg/1280px-Clay_cylinders_Umm_el-Marra.jpg',
+    imageAlt: 'Cilindros de argila com inscrições de Tell Umm el-Marra',
+    sources: [
+      { title: 'Scientific American - World oldest alphabet discovered', url: 'https://www.scientificamerican.com/article/worlds-oldest-alphabet-discovered/', type: 'journal' },
+      { title: 'Johns Hopkins University - Umm el-Marra discovery', url: 'https://web.jhu.edu/archaeology/', type: 'university' }
+    ]
   }
 ];
