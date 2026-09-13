@@ -1,0 +1,75 @@
+{
+  "fecha": "2026-09-13T19:59:57.515Z",
+  "total": 148,
+  "backupTotal": 141,
+  "idsUnicos": 148,
+  "idsDuplicados": 0,
+  "idsDuplicadosLista": [],
+  "idsAusentes": [],
+  "maxId": 148,
+  "slugsDuplicados": [],
+  "categorias": {
+    "espaco": 14,
+    "inteligencia-artificial": 17,
+    "tecnologia": 13,
+    "ciencia": 11,
+    "games": 22,
+    "filmes-series": 34,
+    "quadrinhos": 15,
+    "curiosidades": 12,
+    "futuro": 10
+  },
+  "leyendaNuevos": "Artículos presentes hoy pero ausentes del backup TASK52 (141) => candidatos a ser los 7 insertados en TASK53",
+  "nuevosEnCurrent": [
+    {
+      "idx": 141,
+      "id": "142",
+      "slug": "google-willow-chip-quantum-error-correction-breakthrough",
+      "title": "O Chip Willow do Google: Um Salto Histórico na Correção de Erros Quânticos",
+      "category": "inteligencia-artificial"
+    },
+    {
+      "idx": 142,
+      "id": "143",
+      "slug": "roman-space-telescope-construction-complete",
+      "title": "Telescópio Espacial Roman: NASA Conclui Construção do Seu Novo Olho no Cosmos",
+      "category": "espaco"
+    },
+    {
+      "idx": 143,
+      "id": "144",
+      "slug": "biotwang-sound-mystery-solved-whale",
+      "title": "O Mistério do Som \"Biotwang\" do Oceano Profundo Foi Finalmente Resolvido",
+      "category": "curiosidades"
+    },
+    {
+      "idx": 144,
+      "id": "145",
+      "slug": "greenland-landslide-nine-day-earthquake",
+      "title": "Como um Deslizamento na Groenlândia Fez a Terra Tremer por Nove Dias",
+      "category": "curiosidades"
+    },
+    {
+      "idx": 145,
+      "id": "146",
+      "slug": "squirting-cucumber-explosive-seed-dispersal",
+      "title": "O Segredo Explosivo do Pepino-Estourante: Como Ele Dispara Sementes a 20 m/s",
+      "category": "curiosidades"
+    },
+    {
+      "idx": 146,
+      "id": "147",
+      "slug": "polvo-caca-com-peixe-socos-cooperacao",
+      "title": "Polvos Caçam com Peixes e Dão Socos nos Que Não Cooperam",
+      "category": "curiosidades"
+    },
+    {
+      "idx": 147,
+      "id": "148",
+      "slug": "alfabeto-mais-antigo-descoberto-siria",
+      "title": "O Alfabeto Mais Antigo do Mundo Foi Descoberto na Síria",
+      "category": "curiosidades"
+    }
+  ],
+  "duplicadosDetalle": []
+}

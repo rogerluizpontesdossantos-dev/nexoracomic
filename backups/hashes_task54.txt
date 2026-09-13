@@ -1,0 +1,7 @@
+TASK54 - correcao de IDs (original -> corrigido)
+fecha: 2026-09-13T19:05:15.216Z
+sha256_original:  e1915220925524d6cfe75fe76aa3bc9a11306545239330fb5b1605651e049f32
+sha256_corregido: cc46a5ced41808b86fd94f85d6cd0b2d29b2c2201b465eb19efddc678dca6536
+total: 148 | unicos: 148 | max: 148
+backup_original: .automation/backups/articles-2026-09-13-16-05-15.ts
+remap: 134->142, 135->143, 136->144, 137->145, 138->146, 139->147, 140->148

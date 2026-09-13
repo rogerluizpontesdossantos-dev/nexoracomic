@@ -6845,7 +6845,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '134',
+    id: '142',
     slug: 'google-willow-chip-quantum-error-correction-breakthrough',
     title: 'O Chip Willow do Google: Um Salto Histórico na Correção de Erros Quânticos',
     excerpt: 'O processador quântico Willow alcançou pela primeira vez a correção de erros abaixo do limite crítico, abrindo caminho para computadores quânticos práticos.',
@@ -6863,7 +6863,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '135',
+    id: '143',
     slug: 'roman-space-telescope-construction-complete',
     title: 'Telescópio Espacial Roman: NASA Conclui Construção do Seu Novo Olho no Cosmos',
     excerpt: 'O Nancy Grace Roman Space Telescope foi totalmente montado e está pronto para testes finais antes do lançamento em 2026-2027.',
@@ -6881,7 +6881,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '136',
+    id: '144',
     slug: 'biotwang-sound-mystery-solved-whale',
     title: 'O Mistério do Som "Biotwang" do Oceano Profundo Foi Finalmente Resolvido',
     excerpt: 'Um som estranho ecoando na Fossa das Marianas por uma década foi identificado: vem das baleias-de-Bryde, uma espécie raramente observada.',
@@ -6899,7 +6899,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '137',
+    id: '145',
     slug: 'greenland-landslide-nine-day-earthquake',
     title: 'Como um Deslizamento na Groenlândia Fez a Terra Tremer por Nove Dias',
     excerpt: 'Um deslizamento de gelo e rocha desencadeou um megatsunami de 200 metros que criou uma onda estacionária, detectada por sismógrafos em todo o mundo.',
@@ -6917,7 +6917,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '138',
+    id: '146',
     slug: 'squirting-cucumber-explosive-seed-dispersal',
     title: 'O Segredo Explosivo do Pepino-Estourante: Como Ele Dispara Sementes a 20 m/s',
     excerpt: 'Pesquisadores da Universidade de Oxford resolveram um mistério de séculos: como o pepino-estourante ejeta sementes com precisão balística.',
@@ -6935,7 +6935,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '139',
+    id: '147',
     slug: 'polvo-caca-com-peixe-socos-cooperacao',
     title: 'Polvos Caçam com Peixes e Dão Socos nos Que Não Cooperam',
     excerpt: 'Um estudo revelou que polvos em grupos de caça multiespécies aplicam "socos" para manter peixes em linha e garantir o sucesso da caçada.',
@@ -6953,7 +6953,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '140',
+    id: '148',
     slug: 'alfabeto-mais-antigo-descoberto-siria',
     title: 'O Alfabeto Mais Antigo do Mundo Foi Descoberto na Síria',
     excerpt: 'Cilindros de argila com 4.500 anos encontrados em uma tumba na Síria podem ser o exemplo mais antigo de escrita alfabética conhecido.',
