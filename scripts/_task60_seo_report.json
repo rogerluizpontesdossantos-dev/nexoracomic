@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-13T23:16:23.866Z",
+  "site": "NexoraComic",
+  "siteUrl": "https://nexoracomic.vercel.app",
+  "summary": {
+    "total": 148,
+    "withTitle": 148,
+    "withExcerpt": 148,
+    "withSlug": 148,
+    "withImage": 148,
+    "withImageAlt": 148,
+    "withSources": 148,
+    "withContent": 148,
+    "titlesTooLong": 78,
+    "excerptsTooShort": 0,
+    "excerptsTooLong": 0
+  },
+  "issues": [],
+  "totalIssues": 0,
+  "critical": [],
+  "warnings": []
+}

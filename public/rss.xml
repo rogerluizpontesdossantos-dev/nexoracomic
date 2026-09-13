@@ -1,0 +1,2090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NexoraComic - Ciência, Tecnologia e Cultura Geek</title>
+    <link>https://nexoracomic.vercel.app</link>
+    <description>NexoraComic é uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek. Artigos sobre astronomia, física, IA, games, filmes e curiosidades científicas.</description>
+    <language>pt-BR</language>
+    <copyright>Copyright 2024-2026 NexoraComic. Todos os direitos reservados.</copyright>
+    <lastBuildDate>Sun, 13 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link rel="self" href="https://nexoracomic.vercel.app/rss.xml" type="application/rss+xml" />
+
+    <item>
+      <title>O Chip Willow do Google: Um Salto Histórico na Correção de Erros Quânticos</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/google-willow-chip-quantum-error-correction-breakthrough</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/google-willow-chip-quantum-error-correction-breakthrough</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>O processador quântico Willow alcançou pela primeira vez a correção de erros abaixo do limite crítico, abrindo caminho para computadores quânticos práticos.</description>
+      <content:encoded>O processador quântico Willow alcançou pela primeira vez a correção de erros abaixo do limite crítico, abrindo caminho para computadores quânticos práticos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Google_Quantum_AI_chip_Willow.jpg/1280px-Google_Quantum_AI_chip_Willow.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Google_Quantum_AI_chip_Willow.jpg/1280px-Google_Quantum_AI_chip_Willow.jpg" medium="image">
+        <media:title type="html">Processador quântico Willow do Google</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Telescópio Espacial Roman: NASA Conclui Construção do Seu Novo Olho no Cosmos</title>
+      <link>https://nexoracomic.vercel.app/espaco/roman-space-telescope-construction-complete</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/roman-space-telescope-construction-complete</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>O Nancy Grace Roman Space Telescope foi totalmente montado e está pronto para testes finais antes do lançamento em 2026-2027.</description>
+      <content:encoded>O Nancy Grace Roman Space Telescope foi totalmente montado e está pronto para testes finais antes do lançamento em 2026-2027.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nancy_Grace_Roman_Space_Telescope_artist_concept.jpg/1280px-Nancy_Grace_Roman_Space_Telescope_artist_concept.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nancy_Grace_Roman_Space_Telescope_artist_concept.jpg/1280px-Nancy_Grace_Roman_Space_Telescope_artist_concept.jpg" medium="image">
+        <media:title type="html">Conceito artístico do Telescópio Espacial Roman</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>O Mistério do Som &quot;Biotwang&quot; do Oceano Profundo Foi Finalmente Resolvido</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/biotwang-sound-mystery-solved-whale</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/biotwang-sound-mystery-solved-whale</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Um som estranho ecoando na Fossa das Marianas por uma década foi identificado: vem das baleias-de-Bryde, uma espécie raramente observada.</description>
+      <content:encoded>Um som estranho ecoando na Fossa das Marianas por uma década foi identificado: vem das baleias-de-Bryde, uma espécie raramente observada.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bryde%27s_whale_size_comparison_to_human.jpg/1280px-Bryde%27s_whale_size_comparison_to_human.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bryde%27s_whale_size_comparison_to_human.jpg/1280px-Bryde%27s_whale_size_comparison_to_human.jpg" medium="image">
+        <media:title type="html">Ilustração comparativa de tamanho da baleia-de-Bryde com humano</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como um Deslizamento na Groenlândia Fez a Terra Tremer por Nove Dias</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/greenland-landslide-nine-day-earthquake</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/greenland-landslide-nine-day-earthquake</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Um deslizamento de gelo e rocha desencadeou um megatsunami de 200 metros que criou uma onda estacionária, detectada por sismógrafos em todo o mundo.</description>
+      <content:encoded>Um deslizamento de gelo e rocha desencadeou um megatsunami de 200 metros que criou uma onda estacionária, detectada por sismógrafos em todo o mundo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Dickson_Fjord_Greenland.jpg/1280px-Dickson_Fjord_Greenland.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Dickson_Fjord_Greenland.jpg/1280px-Dickson_Fjord_Greenland.jpg" medium="image">
+        <media:title type="html">Vista aérea do Dickson Fjord na Groenlândia</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>O Segredo Explosivo do Pepino-Estourante: Como Ele Dispara Sementes a 20 m/s</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/squirting-cucumber-explosive-seed-dispersal</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/squirting-cucumber-explosive-seed-dispersal</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Pesquisadores da Universidade de Oxford resolveram um mistério de séculos: como o pepino-estourante ejeta sementes com precisão balística.</description>
+      <content:encoded>Pesquisadores da Universidade de Oxford resolveram um mistério de séculos: como o pepino-estourante ejeta sementes com precisão balística.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ecballium_elaterium.jpg/1280px-Ecballium_elaterium.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ecballium_elaterium.jpg/1280px-Ecballium_elaterium.jpg" medium="image">
+        <media:title type="html">Pepino-estourante (Ecballium elaterium) com frutos maduros</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Polvos Caçam com Peixes e Dão Socos nos Que Não Cooperam</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/polvo-caca-com-peixe-socos-cooperacao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/polvo-caca-com-peixe-socos-cooperacao</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Um estudo revelou que polvos em grupos de caça multiespécies aplicam &quot;socos&quot; para manter peixes em linha e garantir o sucesso da caçada.</description>
+      <content:encoded>Um estudo revelou que polvos em grupos de caça multiespécies aplicam &quot;socos&quot; para manter peixes em linha e garantir o sucesso da caçada.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Octopus_cyanea.jpg/1280px-Octopus_cyanea.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Octopus_cyanea.jpg/1280px-Octopus_cyanea.jpg" medium="image">
+        <media:title type="html">Polvo Octopus cyanea em recife de coral</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>O Alfabeto Mais Antigo do Mundo Foi Descoberto na Síria</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/alfabeto-mais-antigo-descoberto-siria</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/alfabeto-mais-antigo-descoberto-siria</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Cilindros de argila com 4.500 anos encontrados em uma tumba na Síria podem ser o exemplo mais antigo de escrita alfabética conhecido.</description>
+      <content:encoded>Cilindros de argila com 4.500 anos encontrados em uma tumba na Síria podem ser o exemplo mais antigo de escrita alfabética conhecido.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Clay_cylinders_Umm_el-Marra.jpg/1280px-Clay_cylinders_Umm_el-Marra.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Clay_cylinders_Umm_el-Marra.jpg/1280px-Clay_cylinders_Umm_el-Marra.jpg" medium="image">
+        <media:title type="html">Cilindros de argila com inscrições de Tell Umm el-Marra</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Euclid: o telescopio da ESA que mapeia a materia escura do universo</title>
+      <link>https://nexoracomic.vercel.app/espaco/euclid-telescopio-esa-materia-escura</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/euclid-telescopio-esa-materia-escura</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Lancado em 2023, o Euclid cria o maior mapa 3D do cosmos para entender materia e energia escuras.</description>
+      <content:encoded>Lancado em 2023, o Euclid cria o maior mapa 3D do cosmos para entender materia e energia escuras.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/a/ae/Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/a/ae/Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg" medium="image">
+        <media:title type="html">Sonda espacial Euclid da ESA em representacao artistica</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Hubble e Webb encontram pistas sobre o passado dos objetos mais distantes do Sistema Solar</title>
+      <link>https://nexoracomic.vercel.app/espaco/hubble-webb-objetos-transnetunianos-passado-sistema-solar</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/hubble-webb-objetos-transnetunianos-passado-sistema-solar</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Hubble e James Webb observaram juntos objetos transnetunianos e descobriram que eles guardam a memoria quimica da formacao do Sistema Solar.</description>
+      <content:encoded>Hubble e James Webb observaram juntos objetos transnetunianos e descobriram que eles guardam a memoria quimica da formacao do Sistema Solar.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/0/0e/Artist%E2%80%99s_Impression_of_a_Kuiper_Belt_Object.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/0/0e/Artist%E2%80%99s_Impression_of_a_Kuiper_Belt_Object.jpg" medium="image">
+        <media:title type="html">Ilustracao de objetos gelados do Cinturao de Kuiper alem de Netuno</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>GPT-6 Astra: o que muda com a nova geracao de IA da OpenAI</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/gpt-6-astra-nova-geracao-ia-openai</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/gpt-6-astra-nova-geracao-ia-openai</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Segundo a OpenAI, o GPT-6 Astra avanca em programacao, uso de computador, ciencia e agentes. Entenda o anuncio e o que ainda depende de verificacao.</description>
+      <content:encoded>Segundo a OpenAI, o GPT-6 Astra avanca em programacao, uso de computador, ciencia e agentes. Entenda o anuncio e o que ainda depende de verificacao.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" medium="image">
+        <media:title type="html">Logotipo do ChatGPT representando nova geracao de IA</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>AlphaGenome Atlas: a IA que mapeou os efeitos de 9 bilhoes de possiveis alteracoes no DNA</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/alphagenome-atlas-ia-9-bilhoes-variantes-dna</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/alphagenome-atlas-ia-9-bilhoes-variantes-dna</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>O DeepMind previu o efeito de 9 bilhoes de variantes de letra unica no DNA. Um atlas para a pesquisa biomedica, nao um oraculo de doencas.</description>
+      <content:encoded>O DeepMind previu o efeito de 9 bilhoes de variantes de letra unica no DNA. Um atlas para a pesquisa biomedica, nao um oraculo de doencas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/8/8e/DNA_chemical_structure.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/8/8e/DNA_chemical_structure.svg" medium="image">
+        <media:title type="html">Diagrama da estrutura quimica do DNA em dupla helice</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>iPhone Duo: por que o primeiro iPhone dobravel pode mudar o mercado</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/iphone-duo-dobravel-por-que-pode-mudar-mercado</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/iphone-duo-dobravel-por-que-pode-mudar-mercado</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Dobradica sem vinco aparente, tela interna ampla e chip A20 Pro: entenda as especificacoes anunciadas pela Apple e o que elas significam.</description>
+      <content:encoded>Dobradica sem vinco aparente, tela interna ampla e chip A20 Pro: entenda as especificacoes anunciadas pela Apple e o que elas significam.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" medium="image">
+        <media:title type="html">Logotipo da Apple em fundo claro</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>AirPods 5: como funcionam o novo cancelamento de ruido e a Traducao ao Vivo</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/airpods-5-cancelamento-ruido-traducao-ao-vivo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/airpods-5-cancelamento-ruido-traducao-ao-vivo</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Design aberto com cancelamento ativo, arquitetura acustica nova e Traducao ao Vivo com IA: entenda o que os AirPods 5 entregam.</description>
+      <content:encoded>Design aberto com cancelamento ativo, arquitetura acustica nova e Traducao ao Vivo com IA: entenda o que os AirPods 5 entregam.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" medium="image">
+        <media:title type="html">Logotipo da Apple representando linha AirPods</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Os lapis de edicao genetica: como o base editing ajuda a estudar o desenvolvimento humano</title>
+      <link>https://nexoracomic.vercel.app/ciencia/base-editing-lapis-edicao-genetica-desenvolvimento-humano</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/base-editing-lapis-edicao-genetica-desenvolvimento-humano</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Diferente do CRISPR que corta o DNA, o base editing reescreve uma letra por vez e permite estudar embrioes iniciais com mais precisao.</description>
+      <content:encoded>Diferente do CRISPR que corta o DNA, o base editing reescreve uma letra por vez e permite estudar embrioes iniciais com mais precisao.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/8/8e/DNA_chemical_structure.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/8/8e/DNA_chemical_structure.svg" medium="image">
+        <media:title type="html">Estrutura quimica do DNA ilustrando edicao genetica</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Os novos metodos que podem fazer medicamentos chegarem exatamente onde precisam</title>
+      <link>https://nexoracomic.vercel.app/ciencia/novos-metodos-medicamentos-alvo-corpo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/novos-metodos-medicamentos-alvo-corpo</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Nanoparticulas, DNA que se monta sozinho e vacinas nasais: seis linhas de pesquisa que tentam levar farmacos ao alvo certo.</description>
+      <content:encoded>Nanoparticulas, DNA que se monta sozinho e vacinas nasais: seis linhas de pesquisa que tentam levar farmacos ao alvo certo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/0/01/Liposome_scheme-en.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/0/01/Liposome_scheme-en.svg" medium="image">
+        <media:title type="html">Ilustracao de nanoparticulas para entrega de medicamentos</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Orbitals: o novo jogo cooperativo espacial que chegou ao Switch 2</title>
+      <link>https://nexoracomic.vercel.app/games/orbitals-cooperativo-espacial-switch-2</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/orbitals-cooperativo-espacial-switch-2</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Feito para dois jogadores no mesmo sofaa ou online, Orbitals mistura gravidade zero, comunicacao e caos cooperativo no Switch 2.</description>
+      <content:encoded>Feito para dois jogadores no mesmo sofaa ou online, Orbitals mistura gravidade zero, comunicacao e caos cooperativo no Switch 2.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/7/7c/Nintendo_Switch_2_logo_transparent.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/7/7c/Nintendo_Switch_2_logo_transparent.svg" medium="image">
+        <media:title type="html">Logotipo do Nintendo Switch 2</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Mewgenics: o RPG de gatos com genetica, estrategia e roguelike que chegou ao Xbox</title>
+      <link>https://nexoracomic.vercel.app/games/mewgenics-rpg-gatos-genetica-xbox</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/mewgenics-rpg-gatos-genetica-xbox</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Cruze gatos, herde habilidades e encare masmorras: Mewgenics mistura genetica, tatica por turnos e roguelike no Xbox.</description>
+      <content:encoded>Cruze gatos, herde habilidades e encare masmorras: Mewgenics mistura genetica, tatica por turnos e roguelike no Xbox.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/d/d7/Xbox_logo_%282019%29.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/d/d7/Xbox_logo_%282019%29.svg" medium="image">
+        <media:title type="html">Logotipo do Xbox</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>The Mandalorian e Grogu: os bastidores dos efeitos e criaturas do novo filme de Star Wars</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/mandalorian-grogu-bastidores-efeitos-rotta-hutt</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/mandalorian-grogu-bastidores-efeitos-rotta-hutt</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Rotta the Hutt volta maior, pratico e digital ao mesmo tempo: como a ILM mistura bonecos, CGI e som no novo filme.</description>
+      <content:encoded>Rotta the Hutt volta maior, pratico e digital ao mesmo tempo: como a ILM mistura bonecos, CGI e som no novo filme.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/9/9b/Star_Wars_Yellow_Logo.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/9/9b/Star_Wars_Yellow_Logo.svg" medium="image">
+        <media:title type="html">Logotipo de Star Wars</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>O que chegou a Netflix em setembro de 2026: filmes e series em destaque</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/netflix-setembro-2026-filmes-series-destaques</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/netflix-setembro-2026-filmes-series-destaques</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Entre retornos aguardados e estreias de ficcao cientifica, setembro de 2026 mostra a Netflix apostando em eventos semanais.</description>
+      <content:encoded>Entre retornos aguardados e estreias de ficcao cientifica, setembro de 2026 mostra a Netflix apostando em eventos semanais.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg" medium="image">
+        <media:title type="html">Logotipo da Netflix</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>DC/Marvel: por que o novo crossover entre os dois universos e tao importante</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/dc-marvel-crossover-cosmic-kiss-importancia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/dc-marvel-crossover-cosmic-kiss-importancia</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>Batman encontra Deadpool e Superman encontra Homem-Aranha: o retorno dos crossovers DC e Marvel depois de decadas.</description>
+      <content:encoded>Batman encontra Deadpool e Superman encontra Homem-Aranha: o retorno dos crossovers DC e Marvel depois de decadas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg" medium="image">
+        <media:title type="html">Logotipo da DC Comics</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Superman: The Stranger - como a DC recria o Superman da Era de Ouro</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/superman-stranger-era-ouro-1938</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/superman-stranger-era-ouro-1938</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>De volta a 1938: Wes Craig reimagina o primeiro ano do Superman com visual pulp equestoes sociais da epoca.</description>
+      <content:encoded>De volta a 1938: Wes Craig reimagina o primeiro ano do Superman com visual pulp equestoes sociais da epoca.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg" medium="image">
+        <media:title type="html">Logotipo da DC Comics</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Por que um satelite pode ser observado por um aviao enquanto cai na atmosfera</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/satelite-observado-aviao-reentrada-atmosfera</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/satelite-observado-aviao-reentrada-atmosfera</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>As missoes Samba e Tango do programa Cluster foram filmadas se desintegrando por um aviao laboratorio. Entenda a ciencia da reentrada.</description>
+      <content:encoded>As missoes Samba e Tango do programa Cluster foram filmadas se desintegrando por um aviao laboratorio. Entenda a ciencia da reentrada.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/b/b1/Cluster_satellite_reentering_Earth%27s_atmosphere_ESA500772.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/b/b1/Cluster_satellite_reentering_Earth%27s_atmosphere_ESA500772.jpg" medium="image">
+        <media:title type="html">Reentrada do satelite Samba registrada em imagem</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>A tempestade de poeira que cobriu parte do Mali vista do espaco</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/tempestade-poeira-mali-vista-do-espaco</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/tempestade-poeira-mali-vista-do-espaco</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Satelites da NASA flagraram uma parede de poeira sobre o Mali. Como o MODIS detecta poeira e por que essas imagens importam.</description>
+      <content:encoded>Satelites da NASA flagraram uma parede de poeira sobre o Mali. Como o MODIS detecta poeira e por que essas imagens importam.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/e/e8/Dust_storm_off_West_Africa_%28MODIS_2015-01-05%29.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/e/e8/Dust_storm_off_West_Africa_%28MODIS_2015-01-05%29.jpg" medium="image">
+        <media:title type="html">Tempestade de poeira sobre o Mali vista por satelite</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>NASA + IBM: a IA que pode ajudar a encontrar gelo e mapear a Lua para futuras bases</title>
+      <link>https://nexoracomic.vercel.app/futuro/nasa-ibm-ia-gelo-lua-bases-humanas</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/nasa-ibm-ia-gelo-lua-bases-humanas</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>O Lunar Foundation Model, de codigo aberto, analisa crateras e gelo lunar para apoiar o programa Artemis. Entenda limites e usos.</description>
+      <content:encoded>O Lunar Foundation Model, de codigo aberto, analisa crateras e gelo lunar para apoiar o programa Artemis. Entenda limites e usos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/4/40/LRO_WAC_South_Pole_Mosaic.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/4/40/LRO_WAC_South_Pole_Mosaic.jpg" medium="image">
+        <media:title type="html">Lua cheia vista do espaco, alvo do mapeamento da NASA e IBM</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Fusao nuclear: por que o ITER esta avancando e o que falta para energia comercial</title>
+      <link>https://nexoracomic.vercel.app/futuro/fusao-nuclear-iter-avanco-energia-comercial</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/fusao-nuclear-iter-avanco-energia-comercial</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>Montagem do tokamak, bobinas gigantes e marcos de 2026: o experimento ITER avanca, mas usina comercial ainda e futuro.</description>
+      <content:encoded>Montagem do tokamak, bobinas gigantes e marcos de 2026: o experimento ITER avanca, mas usina comercial ainda e futuro.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/c/c8/ITER_central_building_construction_%2841767823552%29.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/c/c8/ITER_central_building_construction_%2841767823552%29.jpg" medium="image">
+        <media:title type="html">Complexo do tokamak ITER em construcao</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Ondas Gravitacionais: Como Detectamos Ondulações no Tecido do Espaço-Tempo</title>
+      <link>https://nexoracomic.vercel.app/ciencia/ondas-gravitacionais-detectando-espaco-tempo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/ondas-gravitacionais-detectando-espaco-tempo</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>As ondas gravitacionais, previstas por Einstein e detectadas pela primeira vez em 2015, abriram uma nova janela para o universo. Entendemos como funcionam os detectores LIGO e Virgo e o que já descobrimos com eles.</description>
+      <content:encoded>As ondas gravitacionais, previstas por Einstein e detectadas pela primeira vez em 2015, abriram uma nova janela para o universo. Entendemos como funcionam os detectores LIGO e Virgo e o que já descobrimos com eles.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/LIGO_Hanford_aerial_1.jpg/800px-LIGO_Hanford_aerial_1.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/LIGO_Hanford_aerial_1.jpg/800px-LIGO_Hanford_aerial_1.jpg" medium="image">
+        <media:title type="html">Fotografia aérea do observatório LIGO em Hanford, mostrando os dois braços perpendiculares de 4 km</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>CRISPR e Terapia Gênica: Os Avanços Recentes no Tratamento de Doenças Genéticas</title>
+      <link>https://nexoracomic.vercel.app/ciencia/crispr-terapia-genica-doencas-tratamento</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/crispr-terapia-genica-doencas-tratamento</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>A técnica de edição genética CRISPR-Cas9 está saindo dos laboratórios e chegando aos tratamentos clínicos. Entendemos como as primeiras terapias aprovadas funcionam e o que ainda falta para democratizar o acesso.</description>
+      <content:encoded>A técnica de edição genética CRISPR-Cas9 está saindo dos laboratórios e chegando aos tratamentos clínicos. Entendemos como as primeiras terapias aprovadas funcionam e o que ainda falta para democratizar o acesso.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/CRISPR-Cas9_Editing_of_the_Genome_%281%29.jpg/800px-CRISPR-Cas9_Editing_of_the_Genome_%281%29.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/CRISPR-Cas9_Editing_of_the_Genome_%281%29.jpg/800px-CRISPR-Cas9_Editing_of_the_Genome_%281%29.jpg" medium="image">
+        <media:title type="html">Ilustração mostrando o mecanismo de edição genética CRISPR-Cas9 cortando DNA</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Edge Computing: Como o Processamento de Dados na Borda da Rede Está Mudando a Tecnologia</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/edge-computinge-processamento-de-dados</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/edge-computinge-processamento-de-dados</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>O edge computing aproxima o processamento de dados de onde eles são gerados, reduzindo latência e uso de banda.</description>
+      <content:encoded>O edge computing aproxima o processamento de dados de onde eles são gerados, reduzindo latência e uso de banda.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Edge_computing_architecture.png/800px-Edge_computing_architecture.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Edge_computing_architecture.png/800px-Edge_computing_architecture.png" medium="image">
+        <media:title type="html">Diagrama mostrando a arquitetura de edge computing</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>TPU: Os Chips Especializados do Google que Aceleram o Treinamento de Inteligência Artificial</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/tpu-tensor-processing-unit-google-ia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/tpu-tensor-processing-unit-google-ia</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>O Tensor Processing Unit (TPU) é um chip projetado especificamente para cargas de trabalho de machine learning.</description>
+      <content:encoded>O Tensor Processing Unit (TPU) é um chip projetado especificamente para cargas de trabalho de machine learning.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Google_TPU_v1.jpg/800px-Google_TPU_v1.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Google_TPU_v1.jpg/800px-Google_TPU_v1.jpg" medium="image">
+        <media:title type="html">Foto de um chip TPU do Google</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Aurora Boreal: A Ciência por Trás das Luzes do Norte que Encantam a Humanidade</title>
+      <link>https://nexoracomic.vercel.app/espaco/aurora-boreais-ciencia-luzes-do-norte</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/aurora-boreais-ciencia-luzes-do-norte</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>As auroras boreais são causadas pela interação de partículas solares com o campo magnético da Terra.</description>
+      <content:encoded>As auroras boreais são causadas pela interação de partículas solares com o campo magnético da Terra.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Aurora_boreal_-_panoramio.jpg/800px-Aurora_boreal_-_panoramio.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Aurora_boreal_-_panoramio.jpg/800px-Aurora_boreal_-_panoramio.jpg" medium="image">
+        <media:title type="html">Fotografia de uma aurora boreal verde sobre paisagem nevada</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Europa Clipper: A Missão da NASA que Vai Buscar Vida na Lua de Júpiter</title>
+      <link>https://nexoracomic.vercel.app/espaco/europa-clipper-missao-nasa-lua-jupiter</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/europa-clipper-missao-nasa-lua-jupiter</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>A missão Europa Clipper, lançada em 2024, vai investigar a lua Europa de Júpiter, que abriga um oceano subterrâneo.</description>
+      <content:encoded>A missão Europa Clipper, lançada em 2024, vai investigar a lua Europa de Júpiter, que abriga um oceano subterrâneo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Europa_Clipper_spacecraft_model.png/800px-Europa_Clipper_spacecraft_model.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Europa_Clipper_spacecraft_model.png/800px-Europa_Clipper_spacecraft_model.png" medium="image">
+        <media:title type="html">Modelo da nave Europa Clipper da NASA</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Agentes Autônomos de IA: Sistemas que Tomam Decisões Sem Intervenção Humana</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/agentes-autonomos-ia-tomada-de-decisao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/agentes-autonomos-ia-tomada-de-decisao</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Os agentes autônomos de IA vão além dos chatbots: são sistemas que percebem o ambiente, planejam ações e executam tarefas complexas sozinhos.</description>
+      <content:encoded>Os agentes autônomos de IA vão além dos chatbots: são sistemas que percebem o ambiente, planejam ações e executam tarefas complexas sozinhos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/AI_agent_architecture.png/800px-AI_agent_architecture.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/AI_agent_architecture.png/800px-AI_agent_architecture.png" medium="image">
+        <media:title type="html">Diagrama mostrando a arquitetura de um agente autônomo de IA</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Modelos Multimodais: A IA que Entende Texto, Imagem e Áudio Simultaneamente</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/modelos-multimodais-ia-texto-imagem-audio</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/modelos-multimodais-ia-texto-imagem-audio</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Os modelos multimodais representam um salto na inteligência artificial, permitindo que um único sistema processe e relacione diferentes tipos de dados.</description>
+      <content:encoded>Os modelos multimodais representam um salto na inteligência artificial, permitindo que um único sistema processe e relacione diferentes tipos de dados.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Multimodal_AI_architecture.png/800px-Multimodal_AI_architecture.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Multimodal_AI_architecture.png/800px-Multimodal_AI_architecture.png" medium="image">
+        <media:title type="html">Diagrama mostrando a arquitetura de um modelo multimodal de IA</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Biologia Sintética: A Ciência que Projeta e Constrói Organismos Vivos do Zero</title>
+      <link>https://nexoracomic.vercel.app/futuro/biologia-sintetica-criando-organismos-artificiais</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/biologia-sintetica-criando-organismos-artificiais</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>A biologia sintética combina engenharia e biologia para criar organismos com funções novas.</description>
+      <content:encoded>A biologia sintética combina engenharia e biologia para criar organismos com funções novas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Synthetic_biology_diagram.png/800px-Synthetic_biology_diagram.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Synthetic_biology_diagram.png/800px-Synthetic_biology_diagram.png" medium="image">
+        <media:title type="html">Diagrama mostrando o ciclo de projeto-construção-teste da biologia sintética</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Energia Solar Espacial: A Ideia de Captar Luz do Sol no Espaço e Transmiti-la para a Terra</title>
+      <link>https://nexoracomic.vercel.app/futuro/energia-solar-espacial-paineis-orbita</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/energia-solar-espacial-paineis-orbita</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>A energia solar espacial propõe captar luz solar em órbita e transmiti-la para a Terra via micro-ondas.</description>
+      <content:encoded>A energia solar espacial propõe captar luz solar em órbita e transmiti-la para a Terra via micro-ondas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Solar_power_satellite.jpg/800px-Solar_power_satellite.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Solar_power_satellite.jpg/800px-Solar_power_satellite.jpg" medium="image">
+        <media:title type="html">Ilustração de um satélite de energia solar espacial</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Geração Procedural: Como Algoritmos Criam Mundos Infinitos nos Games</title>
+      <link>https://nexoracomic.vercel.app/games/geracao-procedural-mundo-aberto-games</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/geracao-procedural-mundo-aberto-games</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A geração procedural permite que jogos criem mundos vastos e únicos sem que artistas modelem cada árvore manualmente.</description>
+      <content:encoded>A geração procedural permite que jogos criem mundos vastos e únicos sem que artistas modelem cada árvore manualmente.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Minecraft_world_example.png/800px-Minecraft_world_example.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Minecraft_world_example.png/800px-Minecraft_world_example.png" medium="image">
+        <media:title type="html">Captura de tela de um mundo gerado proceduralmente em Minecraft</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Acessibilidade em Games: As Tecnologias que Estão Incluindo Jogadores com Deficiência</title>
+      <link>https://nexoracomic.vercel.app/games/acessibilidade-games-jogadores-deficiencia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/acessibilidade-games-jogadores-deficiencia</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A indústria de games está investindo em recursos de acessibilidade que permitem que pessoas com deficiência visual, auditiva ou motora joguem.</description>
+      <content:encoded>A indústria de games está investindo em recursos de acessibilidade que permitem que pessoas com deficiência visual, auditiva ou motora joguem.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Xbox_Adaptive_Controller.jpg/800px-Xbox_Adaptive_Controller.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Xbox_Adaptive_Controller.jpg/800px-Xbox_Adaptive_Controller.jpg" medium="image">
+        <media:title type="html">Foto do Xbox Adaptive Controller</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Preservação Digital de Filmes: Como a Tecnologia Está Salvando Clássicos da Deterioração</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/preservacao-digital-filmes-antigos-restauracao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/preservacao-digital-filmes-antigos-restauracao</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Milhares de filmes antigos estão se deteriorando em arquivos físicos. A preservação digital usa scanners de alta resolução e IA para restaurar e proteger o cinema clássico.</description>
+      <content:encoded>Milhares de filmes antigos estão se deteriorando em arquivos físicos. A preservação digital usa scanners de alta resolução e IA para restaurar e proteger o cinema clássico.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Film_restoration_scanner.jpg/800px-Film_restoration_scanner.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Film_restoration_scanner.jpg/800px-Film_restoration_scanner.jpg" medium="image">
+        <media:title type="html">Scanner de restauração de filmes em alta resolução</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Deepfake no Cinema: Como a Tecnologia de Rostos Sintéticos Está Mudando a Indústria</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/deepfake-cinema-rostos-sinteticos-impacto</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/deepfake-cinema-rostos-sinteticos-impacto</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>A tecnologia deepfake permite substituir rostos em vídeos com realismo impressionante. No cinema, é usada para rejuvenescer atores e criar dublês digitais.</description>
+      <content:encoded>A tecnologia deepfake permite substituir rostos em vídeos com realismo impressionante. No cinema, é usada para rejuvenescer atores e criar dublês digitais.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Deepfake_example.jpg/800px-Deepfake_example.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Deepfake_example.jpg/800px-Deepfake_example.jpg" medium="image">
+        <media:title type="html">Exemplo de deepfake mostrando substituição de rosto em vídeo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Webcomics e Quadrinhos Digitais: Como as Plataformas Online Estão Reinventando a Forma de Publicar HQs</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/webcomics-quadrinhos-digitais-revolucao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/webcomics-quadrinhos-digitais-revolucao</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>As webcomics e plataformas digitais democratizaram a publicação de quadrinhos, permitindo que artistas independentes alcancem milhões de leitores.</description>
+      <content:encoded>As webcomics e plataformas digitais democratizaram a publicação de quadrinhos, permitindo que artistas independentes alcancem milhões de leitores.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Webtoon_example.jpg/800px-Webtoon_example.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Webtoon_example.jpg/800px-Webtoon_example.jpg" medium="image">
+        <media:title type="html">Captura de tela de um webcomic digital no formato webtoon</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Representação e Diversidade nos Quadrinhos: Como a Indústria Está Evoluindo para Incluir Todos os Leitores</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/representacao-diversidade-quadrinhos-evolucao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/representacao-diversidade-quadrinhos-evolucao</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>Os quadrinhos historicamente foram dominados por personagens brancos e masculinos. Nas últimas décadas, a indústria tem se esforçado para incluir mais diversidade.</description>
+      <content:encoded>Os quadrinhos historicamente foram dominados por personagens brancos e masculinos. Nas últimas décadas, a indústria tem se esforçado para incluir mais diversidade.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Diverse_superheroes.jpg/800px-Diverse_superheroes.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Diverse_superheroes.jpg/800px-Diverse_superheroes.jpg" medium="image">
+        <media:title type="html">Ilustração mostrando diversos super-heróis de diferentes etnias e gêneros</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Ilusões de Óptica e o Cérebro: Como Nossa Mente é Enganada por Imagens que Não São o Que Parecem</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/ilusoes-opticas-cerebro-enganado</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/ilusoes-opticas-cerebro-enganado</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>As ilusões de óptica revelam como o cérebro interpreta (e muitas vezes distorce) a realidade visual.</description>
+      <content:encoded>As ilusões de óptica revelam como o cérebro interpreta (e muitas vezes distorce) a realidade visual.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Müller-Lyer_illusion.svg/800px-Müller-Lyer_illusion.svg.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Müller-Lyer_illusion.svg/800px-Müller-Lyer_illusion.svg.png" medium="image">
+        <media:title type="html">Ilustração da ilusão de Müller-Lyer</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Animais que Usam Ferramentas: A Inteligência Surpreendente de Espécies Além dos Humanos</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/animais-que-usam-ferramentas-inteligencia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/animais-que-usam-ferramentas-inteligencia</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>O uso de ferramentas, considerado exclusivo dos humanos, é observado em diversas espécies: chimpanzés, corvos, polvos e até formigas.</description>
+      <content:encoded>O uso de ferramentas, considerado exclusivo dos humanos, é observado em diversas espécies: chimpanzés, corvos, polvos e até formigas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Chimpanzee_using_tool.jpg/800px-Chimpanzee_using_tool.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Chimpanzee_using_tool.jpg/800px-Chimpanzee_using_tool.jpg" medium="image">
+        <media:title type="html">Foto de um chimpanzé usando uma vara para extrair cupins</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>BepiColombo Inicia a Chegada a Mercúrio: o Fim de uma Travessia de Oito Anos</title>
+      <link>https://nexoracomic.vercel.app/ciencia/bepicolombo-inicia-chegada-mercurio-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/bepicolombo-inicia-chegada-mercurio-2026</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Lançada em 2018, a missão ESA/JAXA começou a fase de chegada a Mercúrio. Entenda por que o planeta mais próximo do Sol é um dos mais difíceis de alcançar.</description>
+      <content:encoded>Lançada em 2018, a missão ESA/JAXA começou a fase de chegada a Mercúrio. Entenda por que o planeta mais próximo do Sol é um dos mais difíceis de alcançar.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?mercury,planet,space" />
+      <media:content url="https://source.unsplash.com/800x600/?mercury,planet,space" medium="image">
+        <media:title type="html">Planeta Mercúrio em tons de cinza craterizado sobre fundo espacial escuro</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-compra-hugging-face-129-bilhoes-ia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-compra-hugging-face-129-bilhoes-ia</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>A NVIDIA confirmou a compra do Hugging Face, a maior plataforma open-source de modelos de IA, por US$ 12,93 bilhões. Entenda o que isso muda no tabuleiro da inteligência artificial.</description>
+      <content:encoded>A NVIDIA confirmou a compra do Hugging Face, a maior plataforma open-source de modelos de IA, por US$ 12,93 bilhões. Entenda o que isso muda no tabuleiro da inteligência artificial.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?technology,computer,chip" />
+      <media:content url="https://source.unsplash.com/800x600/?technology,computer,chip" medium="image">
+        <media:title type="html">Placa de circuito iluminada em tons verdes simbolizando hardware de inteligência artificial</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>O Decágono de Saturno: Hubble Descobre Padrão Gigante no Polo Sul do Planeta</title>
+      <link>https://nexoracomic.vercel.app/espaco/hubble-decagono-polo-sul-saturno</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/hubble-decagono-polo-sul-saturno</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>O Hubble identificou uma onda atmosférica de dez lados circulando o polo sul de Saturno — a primeira estrutura regular desse tipo no hemisfério sul do planeta.</description>
+      <content:encoded>O Hubble identificou uma onda atmosférica de dez lados circulando o polo sul de Saturno — a primeira estrutura regular desse tipo no hemisfério sul do planeta.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?saturn,planet,rings" />
+      <media:content url="https://source.unsplash.com/800x600/?saturn,planet,rings" medium="image">
+        <media:title type="html">Planeta Saturno com anéis visíveis sobre fundo estrelado escuro</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Pandora: a Missão da NASA que Começou a Decifrar Atmosferas de Exoplanetas</title>
+      <link>https://nexoracomic.vercel.app/espaco/pandora-missao-nasa-exoplanetas-comeca-observacoes</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/pandora-missao-nasa-exoplanetas-comeca-observacoes</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Depois do lançamento e da fase de comissionamento, o pequeno satélite Pandora iniciou observações científicas. O objetivo: separar a assinatura dos planetas da dos próprios astros que eles orbitam.</description>
+      <content:encoded>Depois do lançamento e da fase de comissionamento, o pequeno satélite Pandora iniciou observações científicas. O objetivo: separar a assinatura dos planetas da dos próprios astros que eles orbitam.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?satellite,space,stars" />
+      <media:content url="https://source.unsplash.com/800x600/?satellite,space,stars" medium="image">
+        <media:title type="html">Satélite de observação espacial com painéis solares estendidos sobre campo estelar</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>State of Play de Setembro de 2026: Todos os Anúncios da Sony em Um Só Lugar</title>
+      <link>https://nexoracomic.vercel.app/games/playstation-state-of-play-setembro-2026-resumo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/playstation-state-of-play-setembro-2026-resumo</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A Sony reuniu novidades pesadas em seu evento de setembro: controladores de GTA VI, Until Dawn 2, Final Fantasy VII Revelation e muito mais. Veja o resumo do que foi anunciado.</description>
+      <content:encoded>A Sony reuniu novidades pesadas em seu evento de setembro: controladores de GTA VI, Until Dawn 2, Final Fantasy VII Revelation e muito mais. Veja o resumo do que foi anunciado.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?gaming,console,controller" />
+      <media:content url="https://source.unsplash.com/800x600/?gaming,console,controller" medium="image">
+        <media:title type="html">Controle de videogame branco sobre mesa com iluminação azul de setup gamer</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027</title>
+      <link>https://nexoracomic.vercel.app/games/final-fantasy-vii-revelation-data-lancamento-2027</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/final-fantasy-vii-revelation-data-lancamento-2027</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A Square Enix confirmou que Final Fantasy VII Revelation chega ao PS5 em 8 de abril de 2027, encerrando a trilogia remake. Entenda o que se sabe e o que esperar do capítulo final.</description>
+      <content:encoded>A Square Enix confirmou que Final Fantasy VII Revelation chega ao PS5 em 8 de abril de 2027, encerrando a trilogia remake. Entenda o que se sabe e o que esperar do capítulo final.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?videogame,fantasy,rpg" />
+      <media:content url="https://source.unsplash.com/800x600/?videogame,fantasy,rpg" medium="image">
+        <media:title type="html">Cenário de fantasia com luzes neon azuis e verdes evocando RPG japonês moderno</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/artificial-luca-guadagnino-filme-sam-altman-nyff</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/artificial-luca-guadagnino-filme-sam-altman-nyff</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>“Artificial”, novo drama de Luca Guadagnino com distribuição da Neon e inspirado na ascensão de Sam Altman e da OpenAI, terá estreia mundial no New York Film Festival.</description>
+      <content:encoded>“Artificial”, novo drama de Luca Guadagnino com distribuição da Neon e inspirado na ascensão de Sam Altman e da OpenAI, terá estreia mundial no New York Film Festival.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?cinema,film,camera" />
+      <media:content url="https://source.unsplash.com/800x600/?cinema,film,camera" medium="image">
+        <media:title type="html">Câmera de cinema profissional em estúdio com iluminação dramática</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>The Odyssey de Christopher Nolan: IMAX 70mm Estendido e Vendas que Batem Recordes</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/the-odyssey-imax-70mm-recorde-nolan</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/the-odyssey-imax-70mm-recorde-nolan</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>The Odyssey prolonga a exibição em IMAX 70mm e ultrapassa US$ 450 milhões em bilheteria IMAX. Entenda por que o filme de Nolan redefiniu a experiência de cinema em 2026.</description>
+      <content:encoded>The Odyssey prolonga a exibição em IMAX 70mm e ultrapassa US$ 450 milhões em bilheteria IMAX. Entenda por que o filme de Nolan redefiniu a experiência de cinema em 2026.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?cinema,projector,screen" />
+      <media:content url="https://source.unsplash.com/800x600/?cinema,projector,screen" medium="image">
+        <media:title type="html">Projetor de cinema vintage projetando feixe de luz em sala escura</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Supergirl Define Data de Chegada ao Streaming: Quando Ver o Filme da DC no HBO Max</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/supergirl-hbo-max-data-streaming</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/supergirl-hbo-max-data-streaming</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Depois da passagem pelos cinemas, Supergirl: Woman of Tomorrow já tem data marcada no HBO Max. Entenda a janela de streaming e o que isso significa para o novo universo DC.</description>
+      <content:encoded>Depois da passagem pelos cinemas, Supergirl: Woman of Tomorrow já tem data marcada no HBO Max. Entenda a janela de streaming e o que isso significa para o novo universo DC.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?space,stars,red" />
+      <media:content url="https://source.unsplash.com/800x600/?space,stars,red" medium="image">
+        <media:title type="html">Nebulosa avermelhada e campo estelar evocando espaço cósmico do universo DC</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Star Wars: Starfighter: Ryan Gosling é Kade Auberon — o Que a Revelação Diz Sobre o Filme</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/star-wars-starfighter-kade-auberon-ryan-gosling</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/star-wars-starfighter-kade-auberon-ryan-gosling</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>A Lucasfilm confirmou o nome do personagem de Ryan Gosling em Star Wars: Starfighter. Um herói inédito, um período inédito: entenda a aposta do novo filme da saga.</description>
+      <content:encoded>A Lucasfilm confirmou o nome do personagem de Ryan Gosling em Star Wars: Starfighter. Um herói inédito, um período inédito: entenda a aposta do novo filme da saga.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?spacecraft,space,stars" />
+      <media:content url="https://source.unsplash.com/800x600/?spacecraft,space,stars" medium="image">
+        <media:title type="html">Nave espacial cruzando campo estelar em cena de ficção científica</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Nação do Fogo</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/avatar-the-last-airbender-temporada-3-fire-nation-2027</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/avatar-the-last-airbender-temporada-3-fire-nation-2027</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>A Netflix confirmou que a terceira e última temporada da adaptação live-action de Avatar estreia em 2027, com Daniel Dae Kim de volta como o Senhor do Fogo Ozai.</description>
+      <content:encoded>A Netflix confirmou que a terceira e última temporada da adaptação live-action de Avatar estreia em 2027, com Daniel Dae Kim de volta como o Senhor do Fogo Ozai.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?fire,flames,epic" />
+      <media:content url="https://source.unsplash.com/800x600/?fire,flames,epic" medium="image">
+        <media:title type="html">Chamas laranjas em movimento evocando o elemento fogo da Nação do Fogo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar</title>
+      <link>https://nexoracomic.vercel.app/games/rockstar-defende-abastecimento-em-gta-6</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/rockstar-defende-abastecimento-em-gta-6</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Rockstar Games defende mecânica de abastecimento em GTA 6 e promete que sistema será rápido demais para incomodar jogadores.</description>
+      <content:encoded>Rockstar Games defende mecânica de abastecimento em GTA 6 e promete que sistema será rápido demais para incomodar jogadores.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?gaming,gta,videogame" />
+      <media:content url="https://source.unsplash.com/800x600/?gaming,gta,videogame" medium="image">
+        <media:title type="html">Imagem relacionada a Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>RTX 5090 Dispara de Preço: Por Que as Placas de Vídeo Topo de Linha Ficaram Tão Caras?</title>
+      <link>https://nexoracomic.vercel.app/games/rtx-5090-por-que-esta-tao-cara</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/rtx-5090-por-que-esta-tao-cara</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A RTX 5090, que custava US$ 1.999 no lançamento, agora custa mais de US$ 5.000 no varejo. Entenda por que a alta demanda por GPUs para data centers de IA está esmagando o mercado de consumo.</description>
+      <content:encoded>A RTX 5090, que custava US$ 1.999 no lançamento, agora custa mais de US$ 5.000 no varejo. Entenda por que a alta demanda por GPUs para data centers de IA está esmagando o mercado de consumo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?graphics-card,computer-hardware" />
+      <media:content url="https://source.unsplash.com/800x600/?graphics-card,computer-hardware" medium="image">
+        <media:title type="html">Placa de vídeo NVIDIA RTX 5090 com iluminação RGB em setup gamer</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Nova Geração de Monitores OLED para Gamers: 4K, Alta Taxa e Velocidade Extrema</title>
+      <link>https://nexoracomic.vercel.app/games/monitores-oled-gamers-nova-geracao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/monitores-oled-gamers-nova-geracao</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Samsung, ASUS e LG lançam monitores OLED com 4K a 240Hz, 500Hz e até 1100Hz. Entenda como a nova geração de painéis está redefinindo a experiência de jogo.</description>
+      <content:encoded>Samsung, ASUS e LG lançam monitores OLED com 4K a 240Hz, 500Hz e até 1100Hz. Entenda como a nova geração de painéis está redefinindo a experiência de jogo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?monitor,gaming-setup" />
+      <media:content url="https://source.unsplash.com/800x600/?monitor,gaming-setup" medium="image">
+        <media:title type="html">Monitores OLED gamers com jogo em execução e iluminação ambiente</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Telescópio Espacial Roman: A Nova Era de Observação do Universo</title>
+      <link>https://nexoracomic.vercel.app/espaco/telescopio-especial-roman-nova-era-observacao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/telescopio-especial-roman-nova-era-observacao</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>O Telescópio Espacial Romano Nancy Grace, substituto do Hubble, está prestes a revolucionar nossa visão do cosmos. Entenda o que ele investigará quando for lançado.</description>
+      <content:encoded>O Telescópio Espacial Romano Nancy Grace, substituto do Hubble, está prestes a revolucionar nossa visão do cosmos. Entenda o que ele investigará quando for lançado.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?telescope,space,astronomy" />
+      <media:content url="https://source.unsplash.com/800x600/?telescope,space,astronomy" medium="image">
+        <media:title type="html">Ilustração de telescópio espacial apontado para um céu estrelado</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Artemis: O Caminho de Volta à Lua Passa por Grandes Desafios</title>
+      <link>https://nexoracomic.vercel.app/espaco/artemis-caminho-de-volta-a-lua</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/artemis-caminho-de-volta-a-lua</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>O programa Artemis da NASA avança rumo à volta de humanos à Lua. Entre sucessos e atrasos, entenda o que esperar das próximas missões.</description>
+      <content:encoded>O programa Artemis da NASA avança rumo à volta de humanos à Lua. Entre sucessos e atrasos, entenda o que esperar das próximas missões.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?moon,space,astronaut" />
+      <media:content url="https://source.unsplash.com/800x600/?moon,space,astronaut" medium="image">
+        <media:title type="html">Astronauta caminhando na superfície lunar com a Terra ao fundo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>IA na Medicina: O Avanço da Detecção Precoce de Doenças</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/ia-medicina-detecao-precoce-de-doencas</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/ia-medicina-detecao-precoce-de-doencas</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Modelos de inteligência artificial vêm ajudando a identificar doenças em estágios iniciais. Entenda os avanços, os limites e as preocupações éticas dessa revolução na saúde.</description>
+      <content:encoded>Modelos de inteligência artificial vêm ajudando a identificar doenças em estágios iniciais. Entenda os avanços, os limites e as preocupações éticas dessa revolução na saúde.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?healthcare,ai,medicine" />
+      <media:content url="https://source.unsplash.com/800x600/?healthcare,ai,medicine" medium="image">
+        <media:title type="html">Médico analisando exames em tela com ajuda de sistemas de IA</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Ética e Vieses: Os Grandes Desafios da Inteligência Artificial em 2026</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/etica-e-vieses-ia-os-desafios-da-inteligencia-artificial</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/etica-e-vieses-ia-os-desafios-da-inteligencia-artificial</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Quanto mais a IA se espalha, mais urgente fica a pergunta: como garantir que ela seja justa? Entenda o problema dos vieses e o que especialistas propõem.</description>
+      <content:encoded>Quanto mais a IA se espalha, mais urgente fica a pergunta: como garantir que ela seja justa? Entenda o problema dos vieses e o que especialistas propõem.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?ethics,ai,algorithm" />
+      <media:content url="https://source.unsplash.com/800x600/?ethics,ai,algorithm" medium="image">
+        <media:title type="html">Balança da justiça sobrepostas a circuitos e dados digitais representando ética em IA</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Computação Quântica em 2026: Avanços Reais e Desafios Ainda Longe de Acabar</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/computacao-quantica-2026-avancos-e-desafios</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/computacao-quantica-2026-avancos-e-desafios</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>A computação quântica deixou os laboratórios e ganhou tração comercial. Mas entre promessas de mercado e limitações técnicas, o que é realidade e o que ainda é especulação?</description>
+      <content:encoded>A computação quântica deixou os laboratórios e ganhou tração comercial. Mas entre promessas de mercado e limitações técnicas, o que é realidade e o que ainda é especulação?</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?quantum,physics,computer" />
+      <media:content url="https://source.unsplash.com/800x600/?quantum,physics,computer" medium="image">
+        <media:title type="html">Representação de computador quântico com fios e circuitos refrigerados</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>5G Avançado e 6G: O Que Vem depois da Revolução da Conectividade</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/5g-6g-a-proxima-era-da-conectividade</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/5g-6g-a-proxima-era-da-conectividade</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Enquanto o 5G maduro se consolida no mundo, o 6G já começa a ser desenhado. Entenda o que muda, quais promessas existem e o que ainda é especulação.</description>
+      <content:encoded>Enquanto o 5G maduro se consolida no mundo, o 6G já começa a ser desenhado. Entenda o que muda, quais promessas existem e o que ainda é especulação.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?network,5g,signal" />
+      <media:content url="https://source.unsplash.com/800x600/?network,5g,signal" medium="image">
+        <media:title type="html">Torre de transmissão de sinal com visualização de ondas de conectividade</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Microbioma Intestinal: As Bactérias Que Influenciam o Corpo Inteiro</title>
+      <link>https://nexoracomic.vercel.app/ciencia/microbioma-intestinal-bacterias-que-controlam-o-corpo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/microbioma-intestinal-bacterias-que-controlam-o-corpo</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>O conjunto de microrganismos do intestino vai além da digestão e pode influenciar imunidade, humor e até saúde mental. Entenda a ciência por trás do microbioma.</description>
+      <content:encoded>O conjunto de microrganismos do intestino vai além da digestão e pode influenciar imunidade, humor e até saúde mental. Entenda a ciência por trás do microbioma.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?microbiome,bacteria,health" />
+      <media:content url="https://source.unsplash.com/800x600/?microbiome,bacteria,health" medium="image">
+        <media:title type="html">Ilustração de bactérias intestinais saudáveis em ambiente microscópico</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>CERN e o Futuro da Física de Partículas: O Que Vem Depois do LHC</title>
+      <link>https://nexoracomic.vercel.app/ciencia/cern-novas-particulas-e-o-futuro-da-fisica</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/cern-novas-particulas-e-o-futuro-da-fisica</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Depois da descoberta do bóson de Higgs, o CERN planeja experimentos ainda mais ambiciosos. Entenda o que está em debate e o que pode mudar nossa visão da matéria.</description>
+      <content:encoded>Depois da descoberta do bóson de Higgs, o CERN planeja experimentos ainda mais ambiciosos. Entenda o que está em debate e o que pode mudar nossa visão da matéria.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?cern,physics,particle" />
+      <media:content url="https://source.unsplash.com/800x600/?cern,physics,particle" medium="image">
+        <media:title type="html">Túnel de acelerador de partículas com detectores e cabos</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>IA Generativa no Design de Games: Como a Tecnologia Está Mudando a Criação de Jogos</title>
+      <link>https://nexoracomic.vercel.app/games/ia-generativa-no-design-de-games</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/ia-generativa-no-design-de-games</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Da arte procedural a NPCs que conversam, a IA generativa está redefinindo como os jogos são criados. Entenda as oportunidades e os receios dos estúdios.</description>
+      <content:encoded>Da arte procedural a NPCs que conversam, a IA generativa está redefinindo como os jogos são criados. Entenda as oportunidades e os receios dos estúdios.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?video-game,ai,art" />
+      <media:content url="https://source.unsplash.com/800x600/?video-game,ai,art" medium="image">
+        <media:title type="html">Controle de videogame cercado por elementos de arte digital e IA</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Cloud Gaming em 2026: O Jogar na Nuvem Finalmente Amadureceu?</title>
+      <link>https://nexoracomic.vercel.app/games/cloud-gaming-2026-jogar-na-nuvem</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/cloud-gaming-2026-jogar-na-nuvem</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Depois de anos de promessas, o cloud gaming se expandiu. Entenda o estado atual da tecnologia, seus limites de latência e por que ela não substituiu os consoles.</description>
+      <content:encoded>Depois de anos de promessas, o cloud gaming se expandiu. Entenda o estado atual da tecnologia, seus limites de latência e por que ela não substituiu os consoles.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?cloud,gaming,streaming" />
+      <media:content url="https://source.unsplash.com/800x600/?cloud,gaming,streaming" medium="image">
+        <media:title type="html">Controle de videogame conectado a ícones de nuvem e streaming digital</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>O Futuro do Streaming em 2026: Consolidação e Novos Modelos</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/futuro-do-streaming-2026-consolidacao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/futuro-do-streaming-2026-consolidacao</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>O mercado de streaming passou por uma onda de fusões e mudanças. Entenda como as plataformas estão se reorganizando e o que isso significa para os assinantes.</description>
+      <content:encoded>O mercado de streaming passou por uma onda de fusões e mudanças. Entenda como as plataformas estão se reorganizando e o que isso significa para os assinantes.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?streaming,movies,tv" />
+      <media:content url="https://source.unsplash.com/800x600/?streaming,movies,tv" medium="image">
+        <media:title type="html">Controle remoto diante de uma televisão exibindo catálogo de streaming</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>IA no Cinema: Como a Inteligência Artificial Transforma os Bastidores</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/ia-no-cinema-transformando-os-bastidores</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/ia-no-cinema-transformando-os-bastidores</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>A inteligência artificial está revolucionando desde efeitos visuais até roteiros e restauração de imagens. Entenda as aplicações e a polêmica que acompanham essa mudança.</description>
+      <content:encoded>A inteligência artificial está revolucionando desde efeitos visuais até roteiros e restauração de imagens. Entenda as aplicações e a polêmica que acompanham essa mudança.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?film,camera,cinema" />
+      <media:content url="https://source.unsplash.com/800x600/?film,camera,cinema" medium="image">
+        <media:title type="html">Câmera de cinema em set de filmagem com paletas de efeitos visuais</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>HQs Digitais: O Streaming de Quadrinhos Chega à Maturidade</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/hqs-digitais-streaming-de-quadrinhos</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/hqs-digitais-streaming-de-quadrinhos</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>Da leitura em tablets a novas formas de narrativa, o mundo dos quadrinhos digitais se expande. Entenda as tendências que definem o futuro dos gibis.</description>
+      <content:encoded>Da leitura em tablets a novas formas de narrativa, o mundo dos quadrinhos digitais se expande. Entenda as tendências que definem o futuro dos gibis.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?comics,tablet,reading" />
+      <media:content url="https://source.unsplash.com/800x600/?comics,tablet,reading" medium="image">
+        <media:title type="html">Quadrinhos digitais em tablet com personagens em cores vibrantes</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Superpoderes e Ciência Real: A Física Por Trás dos Quadrinhos</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>Voar, ficar invisível e ter força sobre-humana parecem ficção pura. Mas a ciência real ajuda a explicar quais superpoderes seriam possíveis e quais são impossíveis.</description>
+      <content:encoded>Voar, ficar invisível e ter força sobre-humana parecem ficção pura. Mas a ciência real ajuda a explicar quais superpoderes seriam possíveis e quais são impossíveis.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?superhero,comics,energy" />
+      <media:content url="https://source.unsplash.com/800x600/?superhero,comics,energy" medium="image">
+        <media:title type="html">Silhueta de super-herói com descargas de energia e efeitos de física</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Oceanos Profundos: O Que Ainda Não Conhecemos do Fundo do Mar</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Mais de 80% do oceano continua inexplorado. Entre espécies desconhecidas e fenômenos extremos, descubra por que o fundo do mar é uma das últimas fronteiras do planeta.</description>
+      <content:encoded>Mais de 80% do oceano continua inexplorado. Entre espécies desconhecidas e fenômenos extremos, descubra por que o fundo do mar é uma das últimas fronteiras do planeta.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?ocean,deep,underwater" />
+      <media:content url="https://source.unsplash.com/800x600/?ocean,deep,underwater" medium="image">
+        <media:title type="html">Fundo do oceano escuro com luz de um submersível explorando</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>A Matemática do Universo: Os Padrões Escondidos na Natureza</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/matematica-do-universo-padroes-escondidos-na-natureza</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/matematica-do-universo-padroes-escondidos-na-natureza</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Das conchas às flores e às proporções do corpo humano, a matemática se esconde na natureza. Entenda como padrões e números ajudam a desvendar o mundo.</description>
+      <content:encoded>Das conchas às flores e às proporções do corpo humano, a matemática se esconde na natureza. Entenda como padrões e números ajudam a desvendar o mundo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?fractal,math,nature" />
+      <media:content url="https://source.unsplash.com/800x600/?fractal,math,nature" medium="image">
+        <media:title type="html">Espiral dourada sobre uma flor, ilustrando padrões matemáticos da natureza</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Computação Vestível: O Futuro dos Gadgets que Usamos no Corpo</title>
+      <link>https://nexoracomic.vercel.app/futuro/computacao-wearable-gadgets-que-usamos-no-corpo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/computacao-wearable-gadgets-que-usamos-no-corpo</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>Relógios, óculos e até roupas inteligentes estão evoluindo. Entenda como a computação vestível pode transformar saúde, produtividade e o nosso dia a dia.</description>
+      <content:encoded>Relógios, óculos e até roupas inteligentes estão evoluindo. Entenda como a computação vestível pode transformar saúde, produtividade e o nosso dia a dia.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?smartwatch,wearable,tech" />
+      <media:content url="https://source.unsplash.com/800x600/?smartwatch,wearable,tech" medium="image">
+        <media:title type="html">Mão com smartwatch medindo sinais vitais e gráficos de saúde na tela</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Energia de Fusão: Os Avanços Rumo à Energia Limpa Ilimitada</title>
+      <link>https://nexoracomic.vercel.app/futuro/energia-de-fusao-avancos-rumo-a-energia-limpa</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/energia-de-fusao-avancos-rumo-a-energia-limpa</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>A fusão nuclear é a promessa de energia praticamente infinita e limpa. Entenda os recentes avanços tecnológicos, os recordes de laboratório e o caminho ainda longo para a rede elétrica.</description>
+      <content:encoded>A fusão nuclear é a promessa de energia praticamente infinita e limpa. Entenda os recentes avanços tecnológicos, os recordes de laboratório e o caminho ainda longo para a rede elétrica.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?fusion,nuclear,energy" />
+      <media:content url="https://source.unsplash.com/800x600/?fusion,nuclear,energy" medium="image">
+        <media:title type="html">Reator de fusão com plasma brilhante em câmara magnética de laboratório</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Marvel: As Principais Novidades que Estão Movimentando o Universo dos Heróis em 2026</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/marvel-novidades-universo-dos-herois-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/marvel-novidades-universo-dos-herois-2026</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>De lançamentos nos cinemas a novas sagas nos quadrinhos, o universo Marvel vive um ano intenso. Entenda o que vem por aí para os heróis em 2026.</description>
+      <content:encoded>De lançamentos nos cinemas a novas sagas nos quadrinhos, o universo Marvel vive um ano intenso. Entenda o que vem por aí para os heróis em 2026.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?marvel,superhero,comics" />
+      <media:content url="https://source.unsplash.com/800x600/?marvel,superhero,comics" medium="image">
+        <media:title type="html">Colagem de heróis com efeitos visuais inspirados no universo Marvel</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>DC Comics: A Nova Fase dos Heróis Que Está Chamando Atenção em 2026</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/dc-comics-nova-fase-dos-herois-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/dc-comics-nova-fase-dos-herois-2026</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>A DC vive um momento de renovação entre quadrinhos, cinema e séries. Conheça os lançamentos e a nova fase que domina o ano.</description>
+      <content:encoded>A DC vive um momento de renovação entre quadrinhos, cinema e séries. Conheça os lançamentos e a nova fase que domina o ano.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?dc,superhero,comics" />
+      <media:content url="https://source.unsplash.com/800x600/?dc,superhero,comics" medium="image">
+        <media:title type="html">Silhueta de heróis da DC com fundo azul dramático</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>HBO Max: Os Lançamentos Geek que Prometem Dominar o Streaming em 2026</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/hbo-max-lancamentos-geek-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/hbo-max-lancamentos-geek-2026</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Entre séries de fantasia, ficção científica e grandes franquias, o catálogo geek da Max ganha força em 2026. Confira o que vem por aí.</description>
+      <content:encoded>Entre séries de fantasia, ficção científica e grandes franquias, o catálogo geek da Max ganha força em 2026. Confira o que vem por aí.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?streaming,series,technology" />
+      <media:content url="https://source.unsplash.com/800x600/?streaming,series,technology" medium="image">
+        <media:title type="html">Tela de streaming com série de fantasia em destaque</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>O Terror das Backrooms Chega ao Streaming e Transforma uma Lenda da Internet em Filme</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/backrooms-lenda-da-internet-chega-ao-streaming</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/backrooms-lenda-da-internet-chega-ao-streaming</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Da creepypasta do 4chan às telas: a lenda das Backrooms vira filme. Entenda como a história assustou a internet e conquistou o cinema.</description>
+      <content:encoded>Da creepypasta do 4chan às telas: a lenda das Backrooms vira filme. Entenda como a história assustou a internet e conquistou o cinema.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?empty,office,creepy" />
+      <media:content url="https://source.unsplash.com/800x600/?empty,office,creepy" medium="image">
+        <media:title type="html">Corredor de escritório vazio e com luz amarelada sinistra</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Netflix: As Principais Novidades Geek que Chegam ao Catálogo em 2026</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/netflix-novidades-geek-catalogo-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/netflix-novidades-geek-catalogo-2026</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Da ficção científica ao anime, a Netflix amplia seu catálogo geek em 2026. Veja o que a plataforma reserva para os fãs.</description>
+      <content:encoded>Da ficção científica ao anime, a Netflix amplia seu catálogo geek em 2026. Veja o que a plataforma reserva para os fãs.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?netflix,streaming,geek" />
+      <media:content url="https://source.unsplash.com/800x600/?netflix,streaming,geek" medium="image">
+        <media:title type="html">Tela de plataforma de streaming com conteúdo de ficção</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Resident Evil: O Retorno da Franquia e o Que Esperar da Nova Adaptação</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/resident-evil-retorno-da-franquia-nova-adaptacao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/resident-evil-retorno-da-franquia-nova-adaptacao</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>De jogos a novos projetos, Resident Evil vive um ano de renascimento. Veja o que é fato, o que é expectativa e o que vem por aí.</description>
+      <content:encoded>De jogos a novos projetos, Resident Evil vive um ano de renascimento. Veja o que é fato, o que é expectativa e o que vem por aí.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?resident-evil,zombie,horror" />
+      <media:content url="https://source.unsplash.com/800x600/?resident-evil,zombie,horror" medium="image">
+        <media:title type="html">Imagem sombria de ambiente apocalíptico com tons de horror</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Disney+: As Novidades de Marvel e Star Wars que Movimentam o Streaming em 2026</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/disney-plus-novidades-marvel-star-wars-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/disney-plus-novidades-marvel-star-wars-2026</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Marvel e Star Wars seguem como as grandes forças do Disney+. Veja o que chega à plataforma em 2026.</description>
+      <content:encoded>Marvel e Star Wars seguem como as grandes forças do Disney+. Veja o que chega à plataforma em 2026.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?disney,space,galaxy" />
+      <media:content url="https://source.unsplash.com/800x600/?disney,space,galaxy" medium="image">
+        <media:title type="html">Cena de ficção científica com naves e galáxia ao fundo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>GTA VI: O Retorno Mais Aguardado de 2026 e Tudo o Que Sabemos Antes do Lançamento</title>
+      <link>https://nexoracomic.vercel.app/games/gta-vi-o-retorno-mais-aguardado-de-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/gta-vi-o-retorno-mais-aguardado-de-2026</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Depois de mais de uma década de espera, GTA VI chega em novembro. Conheça a dupla de protagonistas, a nova cidade e o que esperar do jogo.</description>
+      <content:encoded>Depois de mais de uma década de espera, GTA VI chega em novembro. Conheça a dupla de protagonistas, a nova cidade e o que esperar do jogo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?grand-theft-auto,game,neon,vice" />
+      <media:content url="https://source.unsplash.com/800x600/?grand-theft-auto,game,neon,vice" medium="image">
+        <media:title type="html">Cidade noturna de inspiração retrô com luzes neon de jogo de mundo aberto</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Harry Potter: A Série do HBO Max Que Pretende Rebobinar a Fantasia na Televisão</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/harry-potter-serie-hbo-max-reboot-fantasia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/harry-potter-serie-hbo-max-reboot-fantasia</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Um novo Harry Potter chega à TV como uma série de fantasia da HBO. Veja o elenco, a equipe criativa e as expectativas em torno do projeto.</description>
+      <content:encoded>Um novo Harry Potter chega à TV como uma série de fantasia da HBO. Veja o elenco, a equipe criativa e as expectativas em torno do projeto.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?harry-potter,fantasy,magic,castle" />
+      <media:content url="https://source.unsplash.com/800x600/?harry-potter,fantasy,magic,castle" medium="image">
+        <media:title type="html">Castelo mágico com atmosfera de fantasia e luzes encantadas</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>DC em Setembro de 2026: Teen Titans #1 e as Novas Séries da Editora</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/dc-setembro-2026-teen-titans-novas-series</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/dc-setembro-2026-teen-titans-novas-series</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>A DC estrena em setembro de 2026 uma leva de novas séries, com Teen Titans #1 e outros títulos inéditos que reforçam a estratégia editorial da editora.</description>
+      <content:encoded>A DC estrena em setembro de 2026 uma leva de novas séries, com Teen Titans #1 e outros títulos inéditos que reforçam a estratégia editorial da editora.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?comics,teen,superhero,team" />
+      <media:content url="https://source.unsplash.com/800x600/?comics,teen,superhero,team" medium="image">
+        <media:title type="html">Grupo de heróis jovens ilustrados em estilo de quadrinhos contemporâneo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gráficos dos Jogos</title>
+      <link>https://nexoracomic.vercel.app/games/dlss-5-revolucao-dos-graficos</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/dlss-5-revolucao-dos-graficos</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>DLSS 5, apresentado no GTC 2026 e refinado no SIGGRAPH, usa IA generativa para adicionar detalhes às cenas. Entenda como o 3D-Guided Neural Rendering muda os jogos.</description>
+      <content:encoded>DLSS 5, apresentado no GTC 2026 e refinado no SIGGRAPH, usa IA generativa para adicionar detalhes às cenas. Entenda como o 3D-Guided Neural Rendering muda os jogos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?gaming,computer-monitor" />
+      <media:content url="https://source.unsplash.com/800x600/?gaming,computer-monitor" medium="image">
+        <media:title type="html">Jogador usando PC gamer com monitores de alta resolução e iluminação RGB</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>DLSS 5 Está Dividindo os Jogadores: Avanço Gráfico ou IA Demais nos Games?</title>
+      <link>https://nexoracomic.vercel.app/games/dlss-5-dividindo-os-jogadores</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/dlss-5-dividindo-os-jogadores</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Quatro meses após o anúncio de DLSS 5, a comunidade gamer permanece dividida. Entenda os motivos do entusiasmo e da crítica ao Neural Rendering da NVIDIA.</description>
+      <content:encoded>Quatro meses após o anúncio de DLSS 5, a comunidade gamer permanece dividida. Entenda os motivos do entusiasmo e da crítica ao Neural Rendering da NVIDIA.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?gaming,reaction,discussion" />
+      <media:content url="https://source.unsplash.com/800x600/?gaming,reaction,discussion" medium="image">
+        <media:title type="html">Compartilhamento de tela mostrando discussão sobre gráficos de jogo com comentários</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>NVIDIA Investe Bilhões na MediaTek para Acelerar a Próxima Geração de IA</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-inviste-bilhoes-mediatek</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-inviste-bilhoes-mediatek</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>NVIDIA anunciou um investimento de US$ 3,5 bilhão na MediaTek, expandindo parceria para chips de IA personalizados para data centers, PCs e carros. Entenda o impacto dessa aliança.</description>
+      <content:encoded>NVIDIA anunciou um investimento de US$ 3,5 bilhão na MediaTek, expandindo parceria para chips de IA personalizados para data centers, PCs e carros. Entenda o impacto dessa aliança.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?chips,semiconductor,technology" />
+      <media:content url="https://source.unsplash.com/800x600/?chips,semiconductor,technology" medium="image">
+        <media:title type="html">Close de chips semicondutor com circuitos integrados iluminados</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>PCs Gamers Podem Virar Máquinas de IA: A Nova Ideia que Aproveita GPUs Ociosas</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/pcs-gamers-viram-maquinas-de-ia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/pcs-gamers-viram-maquinas-de-ia</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Usuários estão descobrindo que PCs gamers podem rodar modelos de IA localmente, aproveitando o poder de GPUs RTX ociosas. Entenda como essa convergência entre jogos e IA está mudando o mercado.</description>
+      <content:encoded>Usuários estão descobrindo que PCs gamers podem rodar modelos de IA localmente, aproveitando o poder de GPUs RTX ociosas. Entenda como essa convergência entre jogos e IA está mudando o mercado.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?computer-setup,gaming-pc" />
+      <media:content url="https://source.unsplash.com/800x600/?computer-setup,gaming-pc" medium="image">
+        <media:title type="html">Setup de PC gamer com múltiplas GPUs e iluminação RGB em ambiente escuro</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Instagram Aperta as Regras para Perfis Criados com Inteligência Artificial</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/instagram-regras-para-perfis-de-ia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/instagram-regras-para-perfis-de-ia</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Instagram está reforçando a transparência exigindo que perfis com IAs sejam claramente rotulados. Entenda as novas regras e como elas afetam influenciadores digitais.</description>
+      <content:encoded>Instagram está reforçando a transparência exigindo que perfis com IAs sejam claramente rotulados. Entenda as novas regras e como elas afetam influenciadores digitais.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?social-media,phone" />
+      <media:content url="https://source.unsplash.com/800x600/?social-media,phone" medium="image">
+        <media:title type="html">Pessoa segurando smartphone com interface do Instagram e posts de IA visíveis</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Microsoft 365 Enfrenta Instabilidade: O Que Aconteceu</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/microsoft-365-instabilidade</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/microsoft-365-instabilidade</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Microsoft 365 teve interrupção generalizada em 31 de agosto de 2026, afetando Outlook, SharePoint e OneDrive.</description>
+      <content:encoded>Microsoft 365 teve interrupção generalizada em 31 de agosto de 2026, afetando Outlook, SharePoint e OneDrive.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?office,computer-work" />
+      <media:content url="https://source.unsplash.com/800x600/?office,computer-work" medium="image">
+        <media:title type="html">Escritório moderno com computadores e telas mostrando aplicativos do Microsoft 365</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Spider-Man: Novas Histórias e o Futuro do Herói nos Quadrinhos da Marvel</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/spider-man-historia-futuro-nos-quadrinhos-da-marvel</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/spider-man-historia-futuro-nos-quadrinhos-da-marvel</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>O Homem-Aranha vive um momento marcante entre páginas e telas. Conheça as novidades das HQs e como o herói segue relevante.</description>
+      <content:encoded>O Homem-Aranha vive um momento marcante entre páginas e telas. Conheça as novidades das HQs e como o herói segue relevante.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?spiderman,superhero,comics" />
+      <media:content url="https://source.unsplash.com/800x600/?spiderman,superhero,comics" medium="image">
+        <media:title type="html">Ilustração urbana de um herói aranha escalando um edifício</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>The Mandalorian e Grogu: O Futuro de Star Wars Após a Nova Fase da Franquia</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/the-mandalorian-e-grogu-futuro-de-star-wars</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/the-mandalorian-e-grogu-futuro-de-star-wars</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Com um novo filme nos cinemas, The Mandalorian e Grogu renovam o fôlego de Star Wars. Entenda os rumos da galáxia.</description>
+      <content:encoded>Com um novo filme nos cinemas, The Mandalorian e Grogu renovam o fôlego de Star Wars. Entenda os rumos da galáxia.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?mandalorian,starwars,space" />
+      <media:content url="https://source.unsplash.com/800x600/?mandalorian,starwars,space" medium="image">
+        <media:title type="html">Capa de Mandaloriano viajando pelo espaço profundo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Ahsoka: Temporada 2 Ganha Teaser e Data de Estreia — O Que Sabemos</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/ahsoka-temporada-2-teaser-e-data-de-estreia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/ahsoka-temporada-2-teaser-e-data-de-estreia</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>A Lucasfilm divulgou o primeiro teaser da segunda temporada de Ahsoka. Relembre onde a primeira parou e o que esperar do retorno de Rosario Dawson.</description>
+      <content:encoded>A Lucasfilm divulgou o primeiro teaser da segunda temporada de Ahsoka. Relembre onde a primeira parou e o que esperar do retorno de Rosario Dawson.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?starwars,galaxy,sciencefiction" />
+      <media:content url="https://source.unsplash.com/800x600/?starwars,galaxy,sciencefiction" medium="image">
+        <media:title type="html">Paisagem espacial com tons alaranjados inspirada em Star Wars</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Netflix em Setembro de 2026: os Destaques Geek do Mês no Streaming</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/netflix-setembro-2026-destaques-geek</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/netflix-setembro-2026-destaques-geek</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>A grade de lançamentos da Netflix para setembro de 2026 reúne adaptações, animes e séries de fantasia. Veja o que observar no catálogo do streaming neste mês.</description>
+      <content:encoded>A grade de lançamentos da Netflix para setembro de 2026 reúne adaptações, animes e séries de fantasia. Veja o que observar no catálogo do streaming neste mês.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?streaming,television,sofa" />
+      <media:content url="https://source.unsplash.com/800x600/?streaming,television,sofa" medium="image">
+        <media:title type="html">Sala de estar com TV acesa exibindo catálogo de streaming</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/ia-hollywood-google-suno-disputa-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/ia-hollywood-google-suno-disputa-2026</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Entre processos contra geradores de música e a corrida do Google por parcerias com estúdios, a relação entre IA e Hollywood define o futuro do entretenimento.</description>
+      <content:encoded>Entre processos contra geradores de música e a corrida do Google por parcerias com estúdios, a relação entre IA e Hollywood define o futuro do entretenimento.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?artificialintelligence,cinema,studio" />
+      <media:content url="https://source.unsplash.com/800x600/?artificialintelligence,cinema,studio" medium="image">
+        <media:title type="html">Mesa de edição de cinema com telas exibindo interfaces de inteligência artificial</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Samsung Prepara Nova Geração de Memória HBM com Computação Integrada</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/samsung-hbm-proxima-geracao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/samsung-hbm-proxima-geracao</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Samsung anuncia HBM5, zHBM e a estratégia CUBE no FMS 2026. Entenda como a nova geração de memória HBM pode acelerar IA e data centers.</description>
+      <content:encoded>Samsung anuncia HBM5, zHBM e a estratégia CUBE no FMS 2026. Entenda como a nova geração de memória HBM pode acelerar IA e data centers.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?memory-chip,technology" />
+      <media:content url="https://source.unsplash.com/800x600/?memory-chip,technology" medium="image">
+        <media:title type="html">Close de chips de memória HBM empilhados com iluminação azul</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>As Séries de Fantasia e Ficção Científica que Estão Ganhando Destaque na HBO Max</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/series-fantasia-ficcao-cientifica-em-destaque-na-hbo-max</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/series-fantasia-ficcao-cientifica-em-destaque-na-hbo-max</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Da fantasia épica à ficção científica moderna, a Max reúne séries que dominam as conversas. Conheça as tendências do gênero.</description>
+      <content:encoded>Da fantasia épica à ficção científica moderna, a Max reúne séries que dominam as conversas. Conheça as tendências do gênero.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?fantasy,science-fiction,space" />
+      <media:content url="https://source.unsplash.com/800x600/?fantasy,science-fiction,space" medium="image">
+        <media:title type="html">Imagem de galáxia futurista com tons de fantasia</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Star Wars: Starfighter: O Novo Filme da Saga Terá Ryan Gosling como Protagonista</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/star-wars-starfighter-novo-filme-ryan-gosling</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/star-wars-starfighter-novo-filme-ryan-gosling</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>A Lucasfilm confirmou Star Wars: Starfighter, novo filme da franquia estrelado por Ryan Gosling. Entenda o que se sabe da produção que já aparece no material oficial.</description>
+      <content:encoded>A Lucasfilm confirmou Star Wars: Starfighter, novo filme da franquia estrelado por Ryan Gosling. Entenda o que se sabe da produção que já aparece no material oficial.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?starwars,spaceship,galaxy" />
+      <media:content url="https://source.unsplash.com/800x600/?starwars,spaceship,galaxy" medium="image">
+        <media:title type="html">Nave estelar cruzando o espaço sideral em cena inspirada em Star Wars</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Lanterns: A Série da HBO que Aproxima os Lanternas Verdes do Estilo True Detective</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/lanterns-serie-hbo-dc-studios-hal-jordan-john-stewart</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/lanterns-serie-hbo-dc-studios-hal-jordan-john-stewart</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Kyle Chandler e Aaron Pierre estrelam Lanterns, nova série da HBO e DC Studios que leva Hal Jordan e John Stewart para uma investigação terrestre de outro mundo.</description>
+      <content:encoded>Kyle Chandler e Aaron Pierre estrelam Lanterns, nova série da HBO e DC Studios que leva Hal Jordan e John Stewart para uma investigação terrestre de outro mundo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?green,lantern,space" />
+      <media:content url="https://source.unsplash.com/800x600/?green,lantern,space" medium="image">
+        <media:title type="html">Luz verde iluminando a escuridão em clima de investigação cósmica</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Claude 5 da Anthropic: Como Fable e Mythos Estão Redefinindo a IA</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/anthropic-claude-5-fable-mythos</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/anthropic-claude-5-fable-mythos</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>A Anthropic lançou sua família Claude 5 com modelos Fable e Mythos, além do Opus 5. Entenda como cada modelo se diferencia e o que muda para desenvolvedores e usuários.</description>
+      <content:encoded>A Anthropic lançou sua família Claude 5 com modelos Fable e Mythos, além do Opus 5. Entenda como cada modelo se diferencia e o que muda para desenvolvedores e usuários.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?artificial-intelligence,technology" />
+      <media:content url="https://source.unsplash.com/800x600/?artificial-intelligence,technology" medium="image">
+        <media:title type="html">Ilustração artística de redes neurais e circuitos de IA futurista</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Superman e o Futuro do Homem de Aço no Universo da DC</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/superman-futuro-homem-de-aco-universo-dc</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/superman-futuro-homem-de-aco-universo-dc</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>Após o novo filme do herói, Superman se reposiciona no centro do universo DC. Entenda os rumos do Homem de Aço.</description>
+      <content:encoded>Após o novo filme do herói, Superman se reposiciona no centro do universo DC. Entenda os rumos do Homem de Aço.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?superman,hero,sky" />
+      <media:content url="https://source.unsplash.com/800x600/?superman,hero,sky" medium="image">
+        <media:title type="html">Homem voando em direção ao céu com capa ao vento</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Spider-Man: Brand New Day Está em Cartaz: O Novo Capítulo de Tom Holland nos Cinemas</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/spider-man-brand-new-day-em-cartaz-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/spider-man-brand-new-day-em-cartaz-2026</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Spider-Man: Brand New Day chegou aos cinemas e se tornou um dos maiores sucessos de 2026. Relembre o elenco, a história e o que o filme significa para o MCU.</description>
+      <content:encoded>Spider-Man: Brand New Day chegou aos cinemas e se tornou um dos maiores sucessos de 2026. Relembre o elenco, a história e o que o filme significa para o MCU.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?spiderman,superhero,city" />
+      <media:content url="https://source.unsplash.com/800x600/?spiderman,superhero,city" medium="image">
+        <media:title type="html">Silhueta de herói agachado em arranha-céu ao entardecer em Nova York</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Batman: Novas Histórias e Desafios Para o Cavaleiro das Trevas</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/batman-novas-historias-desafios-cavaleiro-das-trevas</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/batman-novas-historias-desafios-cavaleiro-das-trevas</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>O Batman segue explorando novos dilemas entre quadrinhos, cinema e séries. Veja os desafios do Cavaleiro das Trevas na nova fase.</description>
+      <content:encoded>O Batman segue explorando novos dilemas entre quadrinhos, cinema e séries. Veja os desafios do Cavaleiro das Trevas na nova fase.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?batman,gotham,night" />
+      <media:content url="https://source.unsplash.com/800x600/?batman,gotham,night" medium="image">
+        <media:title type="html">Silhueta de morcego sobre a cidade à noite</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Coyote vs. Acme: a História do Filme que Foi Engavetado e Renasceu</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/coyote-vs-acme-filme-do-looney-tunes</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/coyote-vs-acme-filme-do-looney-tunes</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Engavetado pela Warner Bros. Discovery, Coyote vs. Acme virou símbolo da luta por cinema completo. Entenda a trajetória do filme do Looney Tunes até a chegada ao público.</description>
+      <content:encoded>Engavetado pela Warner Bros. Discovery, Coyote vs. Acme virou símbolo da luta por cinema completo. Entenda a trajetória do filme do Looney Tunes até a chegada ao público.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?cartoon,desert,coyote" />
+      <media:content url="https://source.unsplash.com/800x600/?cartoon,desert,coyote" medium="image">
+        <media:title type="html">Deserto estilizado em clima de animação clássica de perseguições</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Avengers: O Que Esperar da Nova Fase do Universo Marvel</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/avengers-nova-fase-universo-marvel</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/avengers-nova-fase-universo-marvel</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Com Doomsday chegando aos cinemas, os Vingadores iniciam uma nova era. Entenda o que está em jogo e o que esperar dos heróis.</description>
+      <content:encoded>Com Doomsday chegando aos cinemas, os Vingadores iniciam uma nova era. Entenda o que está em jogo e o que esperar dos heróis.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?avengers,cinema,superhero" />
+      <media:content url="https://source.unsplash.com/800x600/?avengers,cinema,superhero" medium="image">
+        <media:title type="html">Grupo de heróis em pose épica com luzes dramáticas de cinema</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>The Witcher: A Temporada Final e o Futuro da Fantasia na Netflix</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/the-witcher-temporada-final-netflix</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/the-witcher-temporada-final-netflix</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>A série de fantasia da Netflix se aproxima do fim. Veja o que esperar da temporada final com Liam Hemsworth.</description>
+      <content:encoded>A série de fantasia da Netflix se aproxima do fim. Veja o que esperar da temporada final com Liam Hemsworth.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?witcher,fantasy,sword,medieval" />
+      <media:content url="https://source.unsplash.com/800x600/?witcher,fantasy,sword,medieval" medium="image">
+        <media:title type="html">Cavaleiro de armadura medievais empunhando espada em clima de fantasia</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Star Wars × Marvel: o Crossover Editorial que Une Duas Maiores Máquinas de Histórias</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/crossover-star-wars-marvel-comics-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/crossover-star-wars-marvel-comics-2026</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>A Marvel Comics e a Lucasfilm preparam um crossover entre os universos de Star Wars e Marvel. Entenda o que o anúncio oficial revelou e por que o evento é histórico.</description>
+      <content:encoded>A Marvel Comics e a Lucasfilm preparam um crossover entre os universos de Star Wars e Marvel. Entenda o que o anúncio oficial revelou e por que o evento é histórico.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?comics,cosplay,sciencefiction" />
+      <media:content url="https://source.unsplash.com/800x600/?comics,cosplay,sciencefiction" medium="image">
+        <media:title type="html">Quadrinhos abertos com luz neon verde e azul em clima espacial</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>As Séries de Ficção Científica e Fantasia Mais Aguardadas da Netflix</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/series-ficcao-cientifica-fantasia-mais-aguardadas-netflix</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/series-ficcao-cientifica-fantasia-mais-aguardadas-netflix</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>A Netflix aposta em histórias grandiosas para 2026. Conheça as séries de ficção científica e fantasia que movimentam o catálogo.</description>
+      <content:encoded>A Netflix aposta em histórias grandiosas para 2026. Conheça as séries de ficção científica e fantasia que movimentam o catálogo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?science-fiction,netflix,fantasy" />
+      <media:content url="https://source.unsplash.com/800x600/?science-fiction,netflix,fantasy" medium="image">
+        <media:title type="html">Ilustração de mundo futurista com elementos de fantasia</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Linha Absolute da DC: o Universo Paralelo que Redefiniu os Clássicos nos Quadrinhos</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/linha-absolute-dc-quadrinhos-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/linha-absolute-dc-quadrinhos-2026</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>Absolute Batman, Absolute Superman e Absolute Wonder Woman reinventam os heróis da DC. Entenda o que é a linha Absolute e por que ela virou fenômeno editorial.</description>
+      <content:encoded>Absolute Batman, Absolute Superman e Absolute Wonder Woman reinventam os heróis da DC. Entenda o que é a linha Absolute e por que ela virou fenômeno editorial.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?comics,superhero,batman" />
+      <media:content url="https://source.unsplash.com/800x600/?comics,superhero,batman" medium="image">
+        <media:title type="html">Páginas de quadrinhos com ilustrações dramáticas de super-heróis</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Disney: Como Marvel, Star Wars e Novas Franquias Estão Moldando o Entretenimento Geek</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/disney-marvel-star-wars-novas-franquias-entretenimento-geek</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/disney-marvel-star-wars-novas-franquias-entretenimento-geek</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Da magia dos parques às telas, a Disney une Marvel, Star Wars e novas histórias. Veja como a empresa molda a cultura geek.</description>
+      <content:encoded>Da magia dos parques às telas, a Disney une Marvel, Star Wars e novas histórias. Veja como a empresa molda a cultura geek.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?disney,entertainment,geek" />
+      <media:content url="https://source.unsplash.com/800x600/?disney,entertainment,geek" medium="image">
+        <media:title type="html">Colagem de ícones geek com a magia dos parques da Disney</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2</title>
+      <link>https://nexoracomic.vercel.app/games/the-duskbloods-fromsoftware-switch-2</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/the-duskbloods-fromsoftware-switch-2</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Dos criadores de Elden Ring, The Duskbloods é a aposta da FromSoftware para o Nintendo Switch 2: um action RPG multiplayer sombrio sobre os Bloodsworn.</description>
+      <content:encoded>Dos criadores de Elden Ring, The Duskbloods é a aposta da FromSoftware para o Nintendo Switch 2: um action RPG multiplayer sombrio sobre os Bloodsworn.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?gothic,castle,fog" />
+      <media:content url="https://source.unsplash.com/800x600/?gothic,castle,fog" medium="image">
+        <media:title type="html">Castelo gótico envolto em névoa em atmosfera sombria de fantasia</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Welcome to Derry: A Série de Terror do Max Que Reconstrói o Universo de Stephen King</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/welcome-to-derry-serie-terror-do-max</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/welcome-to-derry-serie-terror-do-max</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Antes de It, a cidade já escondia seus segredos. Welcome to Derry explora a origem do terror no universo de Stephen King para o streaming.</description>
+      <content:encoded>Antes de It, a cidade já escondia seus segredos. Welcome to Derry explora a origem do terror no universo de Stephen King para o streaming.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?clown,horror,terror,derry" />
+      <media:content url="https://source.unsplash.com/800x600/?clown,horror,terror,derry" medium="image">
+        <media:title type="html">Imagem sombria de cidade pequena com atmosfera de terror</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Star Wars Zero Company: o Jogo de Táticas da BIT REACTOR Coloca Você no Comando</title>
+      <link>https://nexoracomic.vercel.app/games/star-wars-zero-company-jogo-estrategia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/star-wars-zero-company-jogo-estrategia</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Desenvolvido pela BIT REACTOR com participação da Respawn, Star Wars Zero Company leva a saga para o gênero de estratégia tática por turnos.</description>
+      <content:encoded>Desenvolvido pela BIT REACTOR com participação da Respawn, Star Wars Zero Company leva a saga para o gênero de estratégia tática por turnos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?tactics,space,war" />
+      <media:content url="https://source.unsplash.com/800x600/?tactics,space,war" medium="image">
+        <media:title type="html">Mapa tático futurista com unidades em posição de combate espacial</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia</title>
+      <link>https://nexoracomic.vercel.app/games/the-witcher-4-cd-projekt-red-nova-saga</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/the-witcher-4-cd-projekt-red-nova-saga</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A CD Projekt Red confirmou The Witcher 4 como o início de uma nova saga. Entenda o que se sabe do jogo que sucede a trilogia de Geralt de Rívia.</description>
+      <content:encoded>A CD Projekt Red confirmou The Witcher 4 como o início de uma nova saga. Entenda o que se sabe do jogo que sucede a trilogia de Geralt de Rívia.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?medieval,fantasy,forest" />
+      <media:content url="https://source.unsplash.com/800x600/?medieval,fantasy,forest" medium="image">
+        <media:title type="html">Floresta nebulosa medieval com atmosfera de fantasia sombria</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Xbox Series X e os 25 Anos do Xbox: o que a Geração Atual Aprendeu com o Legado</title>
+      <link>https://nexoracomic.vercel.app/games/xbox-series-x-25-anos-celebracao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/xbox-series-x-25-anos-celebracao</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>O Xbox completa 25 anos em 2026. Entre celebrações e lançamentos, olhamos para o legado da marca da Microsoft e o lugar da Series X nesta história.</description>
+      <content:encoded>O Xbox completa 25 anos em 2026. Entre celebrações e lançamentos, olhamos para o legado da marca da Microsoft e o lugar da Series X nesta história.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?gaming,console,xbox" />
+      <media:content url="https://source.unsplash.com/800x600/?gaming,console,xbox" medium="image">
+        <media:title type="html">Console de videogame preto em setup gamer com iluminação verde</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>PS5 Live TV: a Sony Transforma o Console em Central de Transmissões ao Vivo</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/ps5-live-tv-sony-novo-recurso</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/ps5-live-tv-sony-novo-recurso</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>A Sony anunciou o Live TV no PS5, recurso que leva canais e transmissões ao vivo para o console. Entenda o que muda para quem usa o PS5 além dos jogos.</description>
+      <content:encoded>A Sony anunciou o Live TV no PS5, recurso que leva canais e transmissões ao vivo para o console. Entenda o que muda para quem usa o PS5 além dos jogos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?playstation,gaming,television" />
+      <media:content url="https://source.unsplash.com/800x600/?playstation,gaming,television" medium="image">
+        <media:title type="html">Console de videogame conectado à TV em sala de estar moderna</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Supergirl: Woman of Tomorrow — O Novo Filme da Garota de Aço no Universo da DC</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/supergirl-woman-of-tomorrow-filme-do-novo-universo-dc</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/supergirl-woman-of-tomorrow-filme-do-novo-universo-dc</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Com Milly Alcock no papel principal, o filme de Supergirl estreou em 2026 e expandiu o novo universo da DC. Conheça a produção.</description>
+      <content:encoded>Com Milly Alcock no papel principal, o filme de Supergirl estreou em 2026 e expandiu o novo universo da DC. Conheça a produção.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://source.unsplash.com/800x600/?supergirl,woman,hero,dc" />
+      <media:content url="https://source.unsplash.com/800x600/?supergirl,woman,hero,dc" medium="image">
+        <media:title type="html">Jovem heroína voando com capa vermelha em céu dramático</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar</title>
+      <link>https://nexoracomic.vercel.app/futuro/transporte-autonomo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/transporte-autonomo</guid>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>Sensores, algoritmos e níveis de automação: entenda a tecnologia por trás dos veículos autônomos e os desafios para a adoção em massa.</description>
+      <content:encoded>Sensores, algoritmos e níveis de automação: entenda a tecnologia por trás dos veículos autônomos e os desafios para a adoção em massa.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&amp;q=80" medium="image">
+        <media:title type="html">Carro autônomo com sensores e visualização digital de trajetória</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Computação Vestível: A Tecnologia que Você Veste</title>
+      <link>https://nexoracomic.vercel.app/futuro/computacao-vestivel</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/computacao-vestivel</guid>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>Relógios inteligentes, anéis e óculos: dispositivos vestíveis monitoram saúde, conectam rotinas e apontam para uma computação cada vez mais pessoal.</description>
+      <content:encoded>Relógios inteligentes, anéis e óculos: dispositivos vestíveis monitoram saúde, conectam rotinas e apontam para uma computação cada vez mais pessoal.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&amp;q=80" medium="image">
+        <media:title type="html">Relógio inteligente moderno exibindo métricas de atividade física</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Cloud Gaming: Jogar Sem Console, Direto da Nuvem</title>
+      <link>https://nexoracomic.vercel.app/games/cloud-gaming</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/cloud-gaming</guid>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>E se o &quot;console&quot; fosse um datacenter a milhares de quilômetros? Entenda como funciona o gaming na nuvem, seus ganhos e seus limites.</description>
+      <content:encoded>E se o &quot;console&quot; fosse um datacenter a milhares de quilômetros? Entenda como funciona o gaming na nuvem, seus ganhos e seus limites.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&amp;q=80" medium="image">
+        <media:title type="html">Controle de videogame com luzes azul e roxa em ambiente escuro</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>A Evolução dos Motores Gráficos: Dos Pixels ao Tempo Real Fotorrealista</title>
+      <link>https://nexoracomic.vercel.app/games/evolucao-dos-motores-graficos</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/evolucao-dos-motores-graficos</guid>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Dos cubos coloridos aos mundos abertos realistas, a história dos motores gráficos é uma corrida contra os limites do hardware.</description>
+      <content:encoded>Dos cubos coloridos aos mundos abertos realistas, a história dos motores gráficos é uma corrida contra os limites do hardware.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&amp;q=80" medium="image">
+        <media:title type="html">Setup de desenvolvimento de jogos com telas mostrando editores 3D</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>O Futuro do Streaming: Onde a TV Por Assinatura Digital Está Indo</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/futuro-do-streaming</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/futuro-do-streaming</guid>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Preços sobem, catálogos mudam e novidades transformam o mercado. Entenda as tendências que vão definir a próxima década do streaming.</description>
+      <content:encoded>Preços sobem, catálogos mudam e novidades transformam o mercado. Entenda as tendências que vão definir a próxima década do streaming.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&amp;q=80" medium="image">
+        <media:title type="html">Controle remoto apontado para TV com streaming de conteúdo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como Funciona o CGI: A Ciência Por Trás dos Efeitos Especiais</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/como-funciona-o-cgi</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/como-funciona-o-cgi</guid>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>De dinossauros a planetas inteiros, o CGI constrói mundos no computador. Entenda modelagem 3D, texturização, iluminação e renderização em etapas.</description>
+      <content:encoded>De dinossauros a planetas inteiros, o CGI constrói mundos no computador. Entenda modelagem 3D, texturização, iluminação e renderização em etapas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&amp;q=80" medium="image">
+        <media:title type="html">Estúdio de produção cinematográfica com telas verdes e equipamentos de filmagem</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Ética e Vieses da IA: Quando o Algoritmo Herda Nossos Preconceitos</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/etica-e-vieses-da-ia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/etica-e-vieses-da-ia</guid>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa.</description>
+      <content:encoded>Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&amp;q=80" medium="image">
+        <media:title type="html">Balança da justiça ao lado de circuitos eletrônicos representando ética em inteligência artificial</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Aprendizado de Máquina Explicado: Como Computadores Aprendem</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/aprendizado-de-maquina-explicado</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/aprendizado-de-maquina-explicado</guid>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Sem regras programadas à mão, máquinas aprendem padrões a partir de exemplos. Entenda os três tipos de aprendizado e como funcionam na prática.</description>
+      <content:encoded>Sem regras programadas à mão, máquinas aprendem padrões a partir de exemplos. Entenda os três tipos de aprendizado e como funcionam na prática.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&amp;q=80" medium="image">
+        <media:title type="html">Representação visual de rede neural artificial com conexões luminosas</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Realidade Virtual vs Aumentada: Qual é a Diferença?</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/realidade-virtual-vs-aumentada</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/realidade-virtual-vs-aumentada</guid>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>VR imerge, RA sobrepõe. Entenda como cada tecnologia funciona, onde já são usadas hoje e para onde caminham com os óculos mistos.</description>
+      <content:encoded>VR imerge, RA sobrepõe. Entenda como cada tecnologia funciona, onde já são usadas hoje e para onde caminham com os óculos mistos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&amp;q=80" medium="image">
+        <media:title type="html">Pessoa usando headset de realidade virtual com luzes neon ao fundo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/algoritmos-de-busca</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/algoritmos-de-busca</guid>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Você digita uma pergunta e recebe milhões de resultados em milésimos de segundo. Entenda como mecanismos de busca rastreiam, indexam e rankeiam a web.</description>
+      <content:encoded>Você digita uma pergunta e recebe milhões de resultados em milésimos de segundo. Entenda como mecanismos de busca rastreiam, indexam e rankeiam a web.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;q=80" medium="image">
+        <media:title type="html">Notebook exibindo resultados de busca com gráficos de dados ao fundo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos</title>
+      <link>https://nexoracomic.vercel.app/ciencia/particulas-subatomicas-cern</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/particulas-subatomicas-cern</guid>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Quarks, léptons e bósons: entenda do que a matéria é feita e como o LHC do CERN recria condições do universo primitivo para desvendá-las.</description>
+      <content:encoded>Quarks, léptons e bósons: entenda do que a matéria é feita e como o LHC do CERN recria condições do universo primitivo para desvendá-las.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1451188502541-13943edb6acb?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1451188502541-13943edb6acb?w=800&amp;q=80" medium="image">
+        <media:title type="html">Detector de partículas do CERN com estrutura circular metálica complexa</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Microbioma Intestinal: O Universo de Bactérias que Moram em Você</title>
+      <link>https://nexoracomic.vercel.app/ciencia/microbioma-intestinal</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/microbioma-intestinal</guid>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Trilhões de microrganismos vivem no seu intestino e influenciam digestão, imunidade e até humor. Descubra o que a ciência já sabe sobre o microbioma.</description>
+      <content:encoded>Trilhões de microrganismos vivem no seu intestino e influenciam digestão, imunidade e até humor. Descubra o que a ciência já sabe sobre o microbioma.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&amp;q=80" medium="image">
+        <media:title type="html">Microscope image of bacteria in laboratory research</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Missões Artemis: O Caminho de Volta à Lua e Além</title>
+      <link>https://nexoracomic.vercel.app/espaco/missoes-artemis</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/missoes-artemis</guid>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Meio século após a Apollo, a humanidade se prepara para voltar à Lua. Entenda o programa Artemis, suas etapas e por que a Lua é trampolim para Marte.</description>
+      <content:encoded>Meio século após a Apollo, a humanidade se prepara para voltar à Lua. Entenda o programa Artemis, suas etapas e por que a Lua é trampolim para Marte.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=800&amp;q=80" medium="image">
+        <media:title type="html">Foguete em lançamento rumo ao espaço com destroços de nuvens de fumaça</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo</title>
+      <link>https://nexoracomic.vercel.app/espaco/telescopio-espacial-james-webb</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/telescopio-espacial-james-webb</guid>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>O James Webb é o telescópio mais poderoso já lançado. Entenda como ele funciona, por que observa em infravermelho e o que ele já revelou sobre o cosmos.</description>
+      <content:encoded>O James Webb é o telescópio mais poderoso já lançado. Entenda como ele funciona, por que observa em infravermelho e o que ele já revelou sobre o cosmos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&amp;q=80" medium="image">
+        <media:title type="html">Telescópio espacial em órbita da Terra com painéis solares estendidos</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar</title>
+      <link>https://nexoracomic.vercel.app/espaco/exoplanetas-a-busca-por-mundos-habitaveis</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/exoplanetas-a-busca-por-mundos-habitaveis</guid>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Milhares de planetas já foram confirmados fora do Sistema Solar. Descubra como os cientistas os detectam e o que torna um exoplaneta potencialmente habitável.</description>
+      <content:encoded>Milhares de planetas já foram confirmados fora do Sistema Solar. Descubra como os cientistas os detectam e o que torna um exoplaneta potencialmente habitável.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&amp;q=80" medium="image">
+        <media:title type="html">Representação artística de um exoplaneta orbitando uma estrela distante no espaço</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Inteligência Artificial na Medicina: Revolução nos Diagnósticos</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/inteligencia-artificial-na-medicina</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/inteligencia-artificial-na-medicina</guid>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>A IA está transformando a saúde, ajudando médicos a detectar doenças e personalizar tratamentos. Veja como ela já é usada nos hospitais.</description>
+      <content:encoded>A IA está transformando a saúde, ajudando médicos a detectar doenças e personalizar tratamentos. Veja como ela já é usada nos hospitais.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&amp;q=80" medium="image">
+        <media:title type="html">Profissional de saúde analisando dados médicos em um dispositivo tecnológico</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Edição Genética CRISPR: Como Funciona e o que Pode Mudar</title>
+      <link>https://nexoracomic.vercel.app/ciencia/edicao-genetica-crispr</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/edicao-genetica-crispr</guid>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>A técnica CRISPR permite modificar o DNA com precisão, abrindo caminhos na medicina e na biotecnologia. Entenda como ela funciona e seus desafios.</description>
+      <content:encoded>A técnica CRISPR permite modificar o DNA com precisão, abrindo caminhos na medicina e na biotecnologia. Entenda como ela funciona e seus desafios.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&amp;q=80" medium="image">
+        <media:title type="html">Laboratório de pesquisa com equipamentos científicos e vidraria</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Fusão Nuclear: A Fonte de Energia Que Pode Mudar o Mundo</title>
+      <link>https://nexoracomic.vercel.app/futuro/energia-limpa-fusao-nuclear</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/energia-limpa-fusao-nuclear</guid>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>A fusão nuclear, a energia que alimenta o Sol, promete energia limpa e quase ilimitada. Entenda como funciona e quais os desafios para viabilizá-la.</description>
+      <content:encoded>A fusão nuclear, a energia que alimenta o Sol, promete energia limpa e quase ilimitada. Entenda como funciona e quais os desafios para viabilizá-la.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&amp;q=80" medium="image">
+        <media:title type="html">Mão de cientista tocando um painel tecnológico com energia visualizada</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Cibersegurança para Iniciantes: Como Proteger Seus Dados Online</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/ciberseguranca-para-iniciantes</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/ciberseguranca-para-iniciantes</guid>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Proteger contas, senhas e dados pessoais é essencial no mundo digital. Veja conceitos básicos de cibersegurança e boas práticas para navegar com mais segurança.</description>
+      <content:encoded>Proteger contas, senhas e dados pessoais é essencial no mundo digital. Veja conceitos básicos de cibersegurança e boas práticas para navegar com mais segurança.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&amp;q=80" medium="image">
+        <media:title type="html">Placa de circuito eletrônico com componentes iluminados</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Curiosidades Científicas do Corpo Humano que Vão te Surpreender</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/curiosidades-do-corpo-humano</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/curiosidades-do-corpo-humano</guid>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>O corpo humano é uma máquina impressionante. Conheça fatos científicos que explicam por que sentimos, aprendemos e funcionamos como funcionamos.</description>
+      <content:encoded>O corpo humano é uma máquina impressionante. Conheça fatos científicos que explicam por que sentimos, aprendemos e funcionamos como funcionamos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&amp;q=80" medium="image">
+        <media:title type="html">Laboratório científico com equipamentos e vidraria</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Cidades Inteligentes: Como a Tecnologia Vai Moldar o Amanhã</title>
+      <link>https://nexoracomic.vercel.app/futuro/cidades-inteligentes-do-futuro</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/cidades-inteligentes-do-futuro</guid>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>Sensores, dados e conectividade transformam a vida urbana. Entenda o que são cidades inteligentes e como a tecnologia pode tornar as metrópoles mais eficientes.</description>
+      <content:encoded>Sensores, dados e conectividade transformam a vida urbana. Entenda o que são cidades inteligentes e como a tecnologia pode tornar as metrópoles mais eficientes.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&amp;q=80" medium="image">
+        <media:title type="html">Cidade moderna com arquitetura contemporânea ao entardecer</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Ficção Científica x Ciência Real: O que o Cinema Acerta e o que Exagera</title>
+      <link>https://nexoracomic.vercel.app/filmes-series/ficcao-cientifica-x-ciencia-real</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/ficcao-cientifica-x-ciencia-real</guid>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
+      <description>Dos buracos de minhoca aos robôs conscientes, a ficção científica inspira a ciência — mas nem tudo é como nos filmes. Compare as ideias.</description>
+      <content:encoded>Dos buracos de minhoca aos robôs conscientes, a ficção científica inspira a ciência — mas nem tudo é como nos filmes. Compare as ideias.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&amp;q=80" medium="image">
+        <media:title type="html">Câmera de cinema em cena de produção cinematográfica</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Ciência nos Quadrinhos: Os Poderes dos Heróis Sob a Ótica da Física</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/ciencia-nos-quadrinhos-superpoderes</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/ciencia-nos-quadrinhos-superpoderes</guid>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>De super-heróis a mutantes, os quadrinhos misturam ficção científica e física real. Entenda onde os superpoderes exageram e onde se apoiam na ciência.</description>
+      <content:encoded>De super-heróis a mutantes, os quadrinhos misturam ficção científica e física real. Entenda onde os superpoderes exageram e onde se apoiam na ciência.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&amp;q=80" medium="image">
+        <media:title type="html">Livro aberto sobre uma mesa, representando leitura e conhecimento</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>O Que é Ray Tracing: A Tecnologia que Tornou os Games Realistas</title>
+      <link>https://nexoracomic.vercel.app/games/o-que-e-ray-tracing</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/o-que-e-ray-tracing</guid>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Ray tracing revolucionou a iluminação nos jogos. Entenda como essa técnica simula a luz de verdade e por que demanda tanto poder de processamento.</description>
+      <content:encoded>Ray tracing revolucionou a iluminação nos jogos. Entenda como essa técnica simula a luz de verdade e por que demanda tanto poder de processamento.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&amp;q=80" medium="image">
+        <media:title type="html">Setup de videogame com teclado e monitor iluminado por luzes coloridas</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Inteligência Artificial nos Games: Do Fantasma a Inimigos que Aprendem</title>
+      <link>https://nexoracomic.vercel.app/games/inteligencia-artificial-nos-games</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/inteligencia-artificial-nos-games</guid>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A IA dos jogos evoluiu de simples padrões de movimento para sistemas que reagem ao comportamento do jogador. Veja como ela funciona.</description>
+      <content:encoded>A IA dos jogos evoluiu de simples padrões de movimento para sistemas que reagem ao comportamento do jogador. Veja como ela funciona.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&amp;q=80" medium="image">
+        <media:title type="html">Controle de videogame em fundo colorido e vibrante</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como Buracos Negros Funcionam: O Mistério Cósmico Desvendado</title>
+      <link>https://nexoracomic.vercel.app/espaco/como-buracos-negros-funcionam</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/como-buracos-negros-funcionam</guid>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Buracos negros são um dos objetos mais misteriosos e fascinantes do universo. Entenda como eles se formam, suas propriedades e o que sabemos sobre eles.</description>
+      <content:encoded>Buracos negros são um dos objetos mais misteriosos e fascinantes do universo. Entenda como eles se formam, suas propriedades e o que sabemos sobre eles.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&amp;q=80" medium="image">
+        <media:title type="html">Ilustração artística de um buraco negro com disco de acreção brilhante</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Inteligência Artificial Generativa: Como Ela Funciona</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/inteligencia-artificial-generativa</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/inteligencia-artificial-generativa</guid>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>A IA generativa está transformando a forma como criamos conteúdo. Descubra como modelos como GPT e DALL-E funcionam por trás dos panos.</description>
+      <content:encoded>A IA generativa está transformando a forma como criamos conteúdo. Descubra como modelos como GPT e DALL-E funcionam por trás dos panos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&amp;q=80" medium="image">
+        <media:title type="html">Visualização abstrata de rede neural artificial com conexões brilhantes</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Por Que Marte é Vermelho: A Ciência Atrás do Planeta Vermelho</title>
+      <link>https://nexoracomic.vercel.app/espaco/por-que-marte-e-vermelho</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/por-que-marte-e-vermelho</guid>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>A cor característica de Marte tem uma explicação científica fascinante envolvendo óxido de ferro e a história geológica do planeta.</description>
+      <content:encoded>A cor característica de Marte tem uma explicação científica fascinante envolvendo óxido de ferro e a história geológica do planeta.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=800&amp;q=80" medium="image">
+        <media:title type="html">Superfície de Marte mostrando sua cor vermelha característica com rochas e dunas</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Computação Quântica vs Clássica: As Diferenças Fundamentais</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/computacao-quantica-vs-classica</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/computacao-quantica-vs-classica</guid>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>A computação quântica promete revolucionar o processamento de informações. Entenda as diferenças fundamentais entre computadores quânticos e clássicos.</description>
+      <content:encoded>A computação quântica promete revolucionar o processamento de informações. Entenda as diferenças fundamentais entre computadores quânticos e clássicos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&amp;q=80" medium="image">
+        <media:title type="html">Visualização artística de chip de computador quântico com luz azul</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Por Que Humanos Sonham: As Teorias Científicas</title>
+      <link>https://nexoracomic.vercel.app/ciencia/por-que-humanos-sonham</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/por-que-humanos-sonham</guid>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Os sonhos têm fascinado a humanidade por milênios. Descubra o que a ciência sabe sobre por que sonhamos e as principais teorias explicativas.</description>
+      <content:encoded>Os sonhos têm fascinado a humanidade por milênios. Descubra o que a ciência sabe sobre por que sonhamos e as principais teorias explicativas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&amp;q=80" />
+      <media:content url="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&amp;q=80" medium="image">
+        <media:title type="html">Ilustração abstrata de cérebro humano com luzes coloridas representando sonhos</media:title>
+      </media:content>
+    </item>
+
+  </channel>
+</rss>

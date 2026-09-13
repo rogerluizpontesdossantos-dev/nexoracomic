@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-09-13T23:13:25.658Z",
+  "passed": 23,
+  "total": 23,
+  "failed": [],
+  "results": [
+    {
+      "name": "1. feed existe em public/rss.xml",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2. XML declara versao/encoding UTF-8",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "2. root <rss> version 2.0",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "3. namespaces content/media/dc/atom",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "4. channel presente",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "5. title do channel",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "6. link do channel = SITE_URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "7. description do channel",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "8. 148 itens no feed",
+      "ok": true,
+      "detail": "encontrados: 148"
+    },
+    {
+      "name": "9. todos os links absolutos (https)",
+      "ok": true,
+      "detail": "ex: nenhum"
+    },
+    {
+      "name": "10. sem localhost/dizzritimia/nexoracomic.com",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "name": "11. nenhum link vazio",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "12. titulos nao quebram XML",
+      "ok": true,
+      "detail": "ex: nenhum"
+    },
+    {
+      "name": "13. datas validas RFC 2822",
+      "ok": true,
+      "detail": "ex: nenhum"
+    },
+    {
+      "name": "14. artigos em ordem decrescente",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "15. feed reflete catalogo (148 artigos)",
+      "ok": true,
+      "detail": "feed=148 catalogo=148"
+    },
+    {
+      "name": "16. URLs correspondem aos slugs reais",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "POISON. & escapado como &amp;",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "POISON. < escapado como &lt;",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "POISON. > escapado como &gt;",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "POISON. \" escapado como &quot;",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "POISON. ' escapado como &apos;",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "POISON. nenhum < > & \" ' perigoso solto",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}
