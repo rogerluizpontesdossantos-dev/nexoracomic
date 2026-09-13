@@ -2,7 +2,7 @@
 // Executa a cada 4 horas usando scripts/auto-run.mjs
 import { execSync } from 'node:child_process';
 import path from 'node:path';
-import { existsSync, mkdirSync } from 'node:fs';
+import { existsSync } from 'node:fs';
 
 const PROJECT_ROOT = process.cwd();
 const TASK_NAME = 'NexoraComic-GTA6-Radar';

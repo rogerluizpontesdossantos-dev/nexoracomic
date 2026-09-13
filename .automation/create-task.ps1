@@ -1,0 +1,4 @@
+$Action = New-ScheduledTaskAction -Execute "C:\Program Files\nodejs\node.exe" -Argument "C:\Users\dizzritimia\CascadeProjects\nexoracomic\scripts\auto-run.mjs" -WorkingDirectory "C:\Users\dizzritimia\CascadeProjects\nexoracomic"
+$Trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(5) -RepetitionInterval (New-TimeSpan -Hours 4) -RepetitionDuration (New-TimeSpan -Days 365)
+$Settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -RunOnlyIfNetworkAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
+Register-ScheduledTask -TaskName "NexoraComic-GTA6-Radar" -Action $Action -Trigger $Trigger -Settings $Settings -Description "NexoraComic GTA 6 Radar — busca e publica notícias a cada 4 horas" -Force
