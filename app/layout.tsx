@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { SITE_NAME, SITE_URL } from "@/lib/types";
 import Analytics from "@/components/Analytics";
+import CookieConsent from "@/components/CookieConsent";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -92,16 +93,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${inter.variable} h-full antialiased`}
     >
       <head>
-        {/* Google AdSense — connection/verification script only (official snippet).
-            No ad units are rendered anywhere; AdSlot remains disabled. */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9710418432642580"
-          crossOrigin="anonymous"
-        />
+        {/* AdSense and Analytics are now loaded conditionally by CookieConsent component */}
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         {children}
+        <CookieConsent />
         <Analytics />
         <script
           type="application/ld+json"
