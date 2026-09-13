@@ -1,0 +1,57 @@
+{
+  "task": "Task 12 - Lote 4 (IDs 32-41) - relatorio final",
+  "date": "2026-09-07",
+  "totals": {
+    "articlesAudited": 10,
+    "sourcesBefore": 28,
+    "kept": 2,
+    "replaced": 22,
+    "removed": 5,
+    "sourcesAfter": 21,
+    "pending": 2,
+    "validatedUrls": 20,
+    "rejectedCandidates": 12
+  },
+  "pending": [
+    { "articleId": 39, "note": "fonte de imprensa adicional (rotulagem de perfis de IA no Instagram) sem URL verificavel encontrada" },
+    { "articleId": 40, "note": "URL real do artigo BleepingComputer 'Massive Microsoft 365 outage causes auth issues, service failures' (01/09/2026) nao extraivel; status.microsoft.com mantida como fonte oficial" }
+  ],
+  "tests": {
+    "validateArticles": "PASS - 107 artigos, 0 erros (24 warnings de homepage pre-existentes em artigos 2-31/42+, fora do escopo)",
+    "typescript": "PASS - npx tsc --noEmit (exit 0)",
+    "eslint": "PASS - npx eslint lib/articles.ts (exit 0)",
+    "build": "PASS - npm run build (exit 0, export estatico concluido)"
+  },
+  "preservation": {
+    "method": "comparacao campo a campo do dump antes/depois (scripts/_task12_batch4_preservation.json)",
+    "result": "somente o campo sources mudou nos artigos 32-41 (10/10 confirmados)"
+  },
+  "filesModified": [
+    "C:\\Users\\dizzritimia\\CascadeProjects\\nexoracomic\\lib\\articles.ts (somente blocos sources dos artigos 32-41)"
+  ],
+  "filesCreated": [
+    "scripts/_task12_batch4_audit.json",
+    "scripts/_task12_batch4_picks.json",
+    "scripts/_task12_batch4_final.json",
+    "scripts/_task12_batch4_extract.mjs",
+    "scripts/_task12_batch4_current.txt",
+    "scripts/_task12_batch4_after.txt",
+    "scripts/_task12_batch4_httpcheck.mjs",
+    "scripts/_task12_batch4_httpcheck.json",
+    "scripts/_task12_batch4_findurls.mjs",
+    "scripts/_task12_batch4_findurls.json",
+    "scripts/_task12_batch4_findurls2.mjs",
+    "scripts/_task12_batch4_findurls2.json",
+    "scripts/_task12_batch4_validate.mjs",
+    "scripts/_task12_batch4_validate_candidates.json",
+    "scripts/_task12_batch4_validate2.mjs",
+    "scripts/_task12_batch4_validate2.json",
+    "scripts/_task12_batch4_preserve.mjs",
+    "scripts/_task12_batch4_preservation.json"
+  ],
+  "git": {
+    "commit": "NENHUM commit realizado",
+    "push": "NENHUM push realizado",
+    "resetCleanRestore": "NENHUM comando destrutivo executado"
+  }
+}

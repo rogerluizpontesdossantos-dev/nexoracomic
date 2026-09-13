@@ -1,0 +1,140 @@
+{
+  "https://www.techspot.com/news/102428-nvidia-dlss-5-developer-control-ai-slop.html": {
+    "status": 200,
+    "finalUrl": "https://www.techspot.com/news/102428-sam-bankman-fried-has-sentenced-25-years-prison.html",
+    "title": "Sam Bankman-Fried has been sentenced to 25 years in prison | TechSpot"
+  },
+  "https://www.tweaktown.com/news/165437/nvidia-showcases-updated-dlss-5-with-developer-tools-that-help-preserve-artistic-intent/index.html": {
+    "status": 403,
+    "finalUrl": "https://www.tweaktown.com/news/165437/nvidia-showcases-updated-dlss-5-with-developer-tools-that-help-preserve-artistic-intent/index.html",
+    "title": "Just a moment..."
+  },
+  "https://www.heise.de/en/news": {
+    "status": 404,
+    "finalUrl": "https://www.heise.de/en/news",
+    "title": ""
+  },
+  "https://www.anthropic.com/news/claude-opus-5": {
+    "status": 200,
+    "finalUrl": "https://www.anthropic.com/news/claude-opus-5",
+    "title": ""
+  },
+  "https://claude.com/product": {
+    "status": 200,
+    "finalUrl": "https://claude.com/product/overview",
+    "title": "The AI for Problem Solvers | Claude by Anthropic"
+  },
+  "https://en.wikipedia.org/wiki/Anthropic": {
+    "status": 200,
+    "finalUrl": "https://en.wikipedia.org/wiki/Anthropic",
+    "title": "Anthropic - Wikipedia"
+  },
+  "https://www.reuters.com/technology/nvidia-invest-mediaTek-3-5-billion-ai-chip-partnership-idUSKBN5Z0NP": {
+    "status": 401,
+    "finalUrl": "https://www.reuters.com/technology/nvidia-invest-mediaTek-3-5-billion-ai-chip-partnership-idUSKBN5Z0NP",
+    "title": "reuters.com"
+  },
+  "https://nvidianews.nvidia.com": {
+    "status": 200,
+    "finalUrl": "https://nvidianews.nvidia.com/",
+    "title": "Home | NVIDIA Newsroom"
+  },
+  "https://blockhead.io/news/nvidia-mediatek-investment": {
+    "status": "ERR",
+    "error": "fetch failed"
+  },
+  "https://www.tomshardware.com": {
+    "status": 200,
+    "finalUrl": "https://www.tomshardware.com/",
+    "title": "Tom's Hardware: For The Hardcore PC Enthusiast"
+  },
+  "https://www.club386.com": {
+    "status": 200,
+    "finalUrl": "https://www.club386.com/",
+    "title": "Home | Club386"
+  },
+  "https://www.tweaktown.com": {
+    "status": 403,
+    "finalUrl": "https://www.tweaktown.com/",
+    "title": "Just a moment..."
+  },
+  "https://www.xda-developers.com/old-nvidia-gpus-24gb-vram-ai-inference": {
+    "status": 404,
+    "finalUrl": "https://www.xda-developers.com/old-nvidia-gpus-24gb-vram-ai-inference/",
+    "title": "XDA"
+  },
+  "https://venturebeat.com/microsoft-surface-rtx-spark-dev-box-ai": {
+    "status": 429,
+    "finalUrl": "https://venturebeat.com/microsoft-surface-rtx-spark-dev-box-ai",
+    "title": "Vercel Security Checkpoint"
+  },
+  "https://techcrunch.com/general-compute-gpu-backed-loan": {
+    "status": 404,
+    "finalUrl": "https://techcrunch.com/general-compute-gpu-backed-loan",
+    "title": "Page not found | TechCrunch"
+  },
+  "https://www.samsung.com/odyssey-g8-6k": {
+    "status": 404,
+    "finalUrl": "https://www.samsung.com/odyssey-g8-6k/",
+    "title": "Home Electronics | Home Appliances | Mobile | Computing |"
+  },
+  "https://www.msi.com": {
+    "status": 200,
+    "finalUrl": "https://br.msi.com/",
+    "title": "MSI Brasil"
+  },
+  "https://www.samsung.com/samsung-fms-2026": {
+    "status": 404,
+    "finalUrl": "https://www.samsung.com/samsung-fms-2026/",
+    "title": "Home Electronics | Home Appliances | Mobile | Computing |"
+  },
+  "https://www.hothardware.com/samsung-zhbm-3d-memory": {
+    "status": 200,
+    "finalUrl": "https://hothardware.com/samsung-zhbm-3d-memory",
+    "title": ""
+  },
+  "https://www.businesswire.com": {
+    "status": 200,
+    "finalUrl": "https://www.businesswire.com/",
+    "title": ""
+  },
+  "https://help.instagram.com/ai-generated-profile-labels": {
+    "status": 200,
+    "finalUrl": "https://help.instagram.com/ai-generated-profile-labels",
+    "title": ""
+  },
+  "https://www.techlomedia.in/news/instagram-ai-profile-labels": {
+    "status": 403,
+    "finalUrl": "https://www.techlomedia.in/news/instagram-ai-profile-labels",
+    "title": "Just a moment..."
+  },
+  "https://www.medianama.com/2026/meta-instagram-ai-profiles": {
+    "status": 404,
+    "finalUrl": "https://www.medianama.com/2026/meta-instagram-ai-profiles",
+    "title": "Page not found - MEDIANAMA"
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-search-outage-august-2026": {
+    "status": 404,
+    "finalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-search-outage-august-2026/",
+    "title": "Page not found"
+  },
+  "https://www.msn.com/en-us/news/technology/microsoft-outlook-outage-august-31-2026": {
+    "status": 404,
+    "finalUrl": "https://www.msn.com/en-us/news/technology/microsoft-outlook-outage-august-31-2026",
+    "title": "MSN"
+  },
+  "https://status.microsoft.com": {
+    "status": "ERR",
+    "error": "fetch failed"
+  },
+  "https://roman.gsfc.nasa.gov": {
+    "status": 200,
+    "finalUrl": "https://roman.gsfc.nasa.gov/",
+    "title": ""
+  },
+  "https://www.space.com/roman-telescope-exoplanet-microlensing": {
+    "status": 404,
+    "finalUrl": "https://www.space.com/roman-telescope-exoplanet-microlensing",
+    "title": ""
+  }
+}

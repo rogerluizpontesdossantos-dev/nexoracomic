@@ -1,0 +1,54 @@
+{
+  "task": "TASK 49 - Achados da Auditoria (Fase 14)",
+  "timestamp": "2026-09-10T13:30:00Z",
+  "resumo": {
+    "total_problemas": 3,
+    "criticos": 0,
+    "altos": 0,
+    "medios": 1,
+    "baixos": 1,
+    "informativos": 1
+  },
+  "problemas": [
+    {
+      "id": "P001",
+      "categoria": "SEO",
+      "severidade": "MEDIO",
+      "titulo": "Slugs com sufixo '-auto-XXX' no sitemap",
+      "descricao": "Os artigos com IDs 105, 106 e 107 possuem slugs com sufixos '-auto-105', '-auto-106', '-auto-107' que podem indicer erro na geracao automatica. Isso pode afetar a indexacao e a experiencia do usuario.",
+      "impacto": "Potencial problema de indexacao para 3 artigos. URLs menos amigaveis.",
+      "localizacao": "lib/articles.ts - artigos IDs 105, 106, 107",
+      "recomendacao": "Verificar e corrigir os slugs dos artigos afetados para remover o sufixo '-auto-XXX'",
+      "artigos_afetados": [
+        "games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105",
+        "games/sony-revela-controles-do-gta-6-para-ps5-veja-preco-e-data-de-auto-106",
+        "games/gta-6-6-reasons-to-be-worried-after-the-official-look-auto-107"
+      ]
+    },
+    {
+      "id": "P002",
+      "categoria": "Performance",
+      "severidade": "BAIXO",
+      "titulo": "Uso de <img> nativo em vez de <Image /> do Next.js",
+      "descricao": "O site usa <img> nativo em varios componentes (ArticleCard, Logo, ArticlePage). O Next.js recomenda usar <Image /> para otimizacao automatica de imagens.",
+      "impacto": "Imagens nao sao otimizadas automaticamente (resize, formatos modernos como WebP/AVIF)",
+      "localizacao": "components/ArticleCard.tsx, components/Logo.tsx, app/[category]/[slug]/page.tsx",
+      "recomendacao": "Migrar para next/image quando possivel, especialmente para imagens acima da dobra",
+      "observacao": "Como o site usa output: 'export', a otimizacao de imagens do Next.js requer configuracao adicional (loader customizado)"
+    },
+    {
+      "id": "P003",
+      "categoria": "Performance",
+      "severidade": "INFORMATIVO",
+      "titulo": "Hero com WebGL pode ser pesado em dispositivos moveis",
+      "descricao": "O hero da homepage usa uma animacao de buraco negro com WebGL que pode consumir recursos em dispositivos moveis low-end.",
+      "impacto": "Performance em dispositivos low-end e bateria",
+      "localizacao": "components/ui/blackhole-hero-section.tsx",
+      "recomendacao": "Ja implementado: prefers-reduced-motion desabilita animacao. Considerar detectar dispositivos fracos e oferecer fallback estatico.",
+      "observacao": "Nao e um problema critico pois ja existe suporte a reduced-motion"
+    }
+  ],
+  "problemas_corrigidos": [],
+  "problemas_para_corrigir": ["P001"],
+  "problemas_preservados": ["P002", "P003"]
+}

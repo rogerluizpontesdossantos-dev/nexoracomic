@@ -1,0 +1,84 @@
+{
+  "task": "Task 12 - Lote 3 (artigos 22-31)",
+  "generatedAt": "2026-09-07",
+  "concurrentChangesDetected": false,
+  "notes": [
+    "Nenhum processo node ativo na edicao; tarefa agendada NexoraComic-GTA6-Radar em estado Ready.",
+    "lib/articles.ts ja estava modificado (nao commitado) por Tasks anteriores; Lote 3 preservou essas mudancas.",
+    "Verificacao estrutural HEAD-vs-atual: fora de sources, as diferencas do working tree sao preexistentes (tasks anteriores); o script do Lote 3 substitui apenas substrings do campo sources."
+  ],
+  "perArticle": {
+    "22": {
+      "before": ["https://www.meta.com/quest/ (400)", "https://developer.apple.com/augmented-reality/arkit/ (200)", "https://spectrum.ieee.org/ (200, homepage)"],
+      "actions": [
+        {"url": "https://www.meta.com/quest/", "status": "substituida", "reason": "HTTP 400 / nao verificavel; trocada por Stanford VHIL (200)"},
+        {"url": "https://developer.apple.com/augmented-reality/arkit/", "status": "atualizada", "reason": "canonico: https://developer.apple.com/documentation/ARKit (200)"},
+        {"url": "https://spectrum.ieee.org/", "status": "substituida", "reason": "homepage; trocada por Google ARCore docs (200)"}
+      ]
+    },
+    "23": {
+      "before": ["https://developers.google.com/machine-learning/crash-course (200)", "https://ocw.mit.edu/... (200)", "https://www.nature.com/subjects/machine-learning (200, pagina de assunto)"],
+      "actions": [
+        {"url": "https://www.nature.com/subjects/machine-learning", "status": "substituida", "reason": "generica; trocada pelo paper original Deep Learning, Nature 2015 (200)"},
+        {"url": "https://developers.google.com/machine-learning/crash-course", "status": "mantida"},
+        {"url": "https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/", "status": "mantida"}
+      ]
+    },
+    "24": {"before": ["UNESCO recommendation-ethics (200)", "NIST AI RMF (200)", "artificialintelligenceact.eu (200)"], "actions": [{"url": "todas", "status": "mantidas", "reason": "especificas, oficiais, HTTP 200"}]},
+    "25": {
+      "before": ["https://www.autodesk.com/ (homepage)", "https://cgsociety.org/ (fetch failed)", "https://www.siggraph.org/ (307, homepage)"],
+      "actions": [
+        {"url": "https://www.autodesk.com/", "status": "substituida", "reason": "homepage; trocada por Autodesk Maya product page (200)"},
+        {"url": "https://cgsociety.org/", "status": "removida", "reason": "inacessivel"},
+        {"url": "https://www.siggraph.org/", "status": "substituida", "reason": "homepage/307; trocada por Pixar graphics.pixar.com e renderman.pixar.com (200)"}
+      ]
+    },
+    "26": {
+      "before": ["https://www.nielsen.com/insights/ (categoria generica)", "https://www2.deloitte.com/.../digital-media-trends.html (404)"],
+      "actions": [
+        {"url": "https://www.nielsen.com/insights/", "status": "substituida", "reason": "generica; trocada por artigo especifico The Gauge (200)"},
+        {"url": "https://www2.deloitte.com/.../digital-media-trends.html", "status": "substituida", "reason": "404; trocada por Nielsen OTA+OTT especifico (200)"}
+      ]
+    },
+    "27": {
+      "before": ["https://www.unrealengine.com/ (403, homepage)", "https://unity.com/ (homepage)", "https://developer.nvidia.com/ (homepage)"],
+      "actions": [
+        {"url": "https://www.unrealengine.com/", "status": "substituida", "reason": "403/homepage; trocada por docs oficiais UE5 (200)"},
+        {"url": "https://unity.com/", "status": "substituida", "reason": "homepage; trocada por Unity Manual (200)"},
+        {"url": "https://developer.nvidia.com/", "status": "substituida", "reason": "homepage; trocada por RTX Ray Tracing page (200)"}
+      ]
+    },
+    "28": {
+      "before": ["https://www.nvidia.com/geforce-now/ (200)", "https://www.xbox.com/play (200)", "https://spectrum.ieee.org/ (homepage)"],
+      "actions": [
+        {"url": "https://www.nvidia.com/geforce-now/", "status": "mantida"},
+        {"url": "https://www.xbox.com/play", "status": "mantida"},
+        {"url": "https://spectrum.ieee.org/", "status": "substituida", "reason": "homepage; trocada por arXiv 2401.06366 (200)"}
+      ]
+    },
+    "29": {
+      "before": ["https://www.nih.gov/ (403, homepage)", "https://standards.ieee.org/ (homepage)", "https://www.fda.gov/medical-devices/digital-health (200)"],
+      "actions": [
+        {"url": "https://www.nih.gov/", "status": "substituida", "reason": "homepage/403; trocada por PMC11461032 Cureus 2024 wearables review (200)"},
+        {"url": "https://standards.ieee.org/", "status": "substituida", "reason": "homepage; trocada por IEEE 11073-20601 (200)"},
+        {"url": "https://www.fda.gov/medical-devices/digital-health", "status": "atualizada", "reason": "canonico digital-health-center-excellence (200)"}
+      ]
+    },
+    "30": {
+      "before": ["NHTSA (200)", "SAE j3016 (200)", "waymo.com/safety (200)"],
+      "actions": [
+        {"url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety", "status": "atualizada", "reason": "canonico automated-vehicle-safety (200)"},
+        {"url": "https://www.sae.org/standards/content/j3016_202104/", "status": "atualizada", "reason": "canonico da norma (200)"},
+        {"url": "https://waymo.com/safety/", "status": "mantida"}
+      ]
+    },
+    "31": {
+      "before": ["https://developer.nvidia.com/rtx/dlss (200)", "https://www.techpowerup.com/review/nvidia-dlss-5/ (404)", "https://www.siggraph.org/conference/2026 (307, especulativa)"],
+      "actions": [
+        {"url": "https://developer.nvidia.com/rtx/dlss", "status": "mantida"},
+        {"url": "https://www.techpowerup.com/review/nvidia-dlss-5/", "status": "substituida", "reason": "404; trocada por NVIDIA DLSS Technology page (200)"},
+        {"url": "https://www.siggraph.org/conference/2026", "status": "substituida", "reason": "307/especulativa; trocada por NVIDIA GTC (200)"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "batch": 7,
+  "articlesRange": "91-101",
+  "picks": [
+    {
+      "id": 91,
+      "title": "Xbox Series X e os 25 Anos",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.theverge.com/gaming",
+          "newUrl": "https://www.theverge.com/games",
+          "reason": "Redirecionamento canônico"
+        },
+        {
+          "action": "keep",
+          "url": "https://news.xbox.com/",
+          "reason": "URL oficial"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "title": "PS5 Live TV",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.ign.com/news",
+          "reason": "URL válida"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.playstation.com/",
+          "newUrl": "https://blog.playstation.com/",
+          "reason": "Homepage substituída por blog"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "title": "IA e Hollywood",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.theverge.com/entertainment",
+          "reason": "URL válida"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.theverge.com/ai-artificial-intelligence",
+          "reason": "URL específica"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "title": "BepiColombo",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo",
+          "reason": "URL específica"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.space.com/news",
+          "reason": "URL válida"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "title": "NVIDIA Hugging Face",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://nvidianews.nvidia.com/",
+          "reason": "URL oficial"
+        },
+        {
+          "action": "keep",
+          "url": "https://techcrunch.com/category/artificial-intelligence/",
+          "reason": "URL específica"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Decágono de Saturno",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://esahubble.org/",
+          "newUrl": "https://esahubble.org/images/heic2410a/",
+          "reason": "Homepage substituída"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.sciencedaily.com/",
+          "reason": "Homepage aceitável"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "title": "Pandora Missão NASA",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://science.nasa.gov/mission/pandora/",
+          "reason": "URL específica"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.nasa.gov/news/",
+          "newUrl": "https://www.nasa.gov/missions/pandora/",
+          "reason": "Homepage substituída"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "title": "State of Play Setembro 2026",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://blog.playstation.com/",
+          "reason": "URL oficial"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.ign.com/articles",
+          "newUrl": "https://www.ign.com/news",
+          "reason": "Redirecionamento canônico"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Final Fantasy VII Revelation",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://blog.playstation.com/",
+          "reason": "URL oficial"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.square-enix-games.com/",
+          "newUrl": "https://www.square-enix-games.com/en/games/final-fantasy-vii-rebirth",
+          "reason": "Homepage substituída"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Artificial: Filme IA",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://variety.com/v/film/",
+          "reason": "URL específica"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.theverge.com/entertainment",
+          "reason": "URL válida"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "title": "The Odyssey Nolan",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://variety.com/v/film/",
+          "reason": "URL específica"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.imax.com/",
+          "newUrl": "https://www.imax.com/movies/odyssey",
+          "reason": "Homepage 403 substituída"
+        }
+      ]
+    }
+  ]
+}

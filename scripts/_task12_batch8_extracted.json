@@ -1,0 +1,68 @@
+{
+  "total": 4,
+  "articles": [
+    {
+      "id": 102,
+      "title": "Supergirl Define Data de Chegada ao Streaming: Quando Ver o Filme da DC no HBO Max",
+      "sources": [
+        {
+          "title": "Variety - ‘Supergirl’ Sets HBO Max Streaming Release Date",
+          "url": "https://variety.com/v/film/",
+          "type": "publication"
+        },
+        {
+          "title": "DC - Site Oficial",
+          "url": "https://www.dc.com/",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 103,
+      "title": "Star Wars: Starfighter: Ryan Gosling é Kade Auberon — o Que a Revelação Diz Sobre o Filme",
+      "sources": [
+        {
+          "title": "StarWars.com - Ryan Gosling is Kade Auberon in Star Wars: Starfighter",
+          "url": "https://www.starwars.com/news",
+          "type": "company"
+        },
+        {
+          "title": "Space.com - Space Movies & Shows",
+          "url": "https://www.space.com/news",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 104,
+      "title": "Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Nação do Fogo",
+      "sources": [
+        {
+          "title": "Netflix Tudum - Avatar: The Last Airbender (Temporada 3 em 2027)",
+          "url": "https://www.netflix.com/tudum/avatar-the-last-airbender",
+          "type": "company"
+        },
+        {
+          "title": "Netflix Tudum - Página oficial da série",
+          "url": "https://www.netflix.com/tudum",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 105,
+      "title": "Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar",
+      "sources": [
+        {
+          "title": "adrenaline.com.br — Rockstar defende abastecimento em GTA 6",
+          "url": "https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 1
+    }
+  ]
+}

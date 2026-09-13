@@ -1,0 +1,54 @@
+{
+  "total": 7,
+  "results": [
+    {
+      "url": "https://variety.com/v/film/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true
+    },
+    {
+      "url": "https://www.dc.com/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true
+    },
+    {
+      "url": "https://www.starwars.com/news",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true
+    },
+    {
+      "url": "https://www.space.com/news",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true
+    },
+    {
+      "url": "https://www.netflix.com/tudum/avatar-the-last-airbender",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true
+    },
+    {
+      "url": "https://www.netflix.com/tudum",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true
+    },
+    {
+      "url": "https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true
+    }
+  ]
+}

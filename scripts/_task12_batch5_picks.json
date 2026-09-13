@@ -1,0 +1,138 @@
+﻿[
+    {
+        "publisher":  "NASA",
+        "type":  "agency",
+        "originalUrl":  "https://arstechnica.com/science/artemis-timeline-2026",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.nasa.gov/mission/artemis-ii/",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "Nature Medicine",
+        "type":  "journal",
+        "originalUrl":  "https://www.nature.com/articles/s41591-ai-medicine-review",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.nature.com/articles/s41591-021-01614-0",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "WHO",
+        "type":  "agency",
+        "originalUrl":  "https://www.who.int/publications/ai-health",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.who.int/publications/i/item/9789240029200",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "NIST",
+        "type":  "government",
+        "originalUrl":  "https://hai.stanford.edu/algorithmic-bias",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.nist.gov/itl/ai-risk-management-framework",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "Nature",
+        "type":  "journal",
+        "originalUrl":  "https://www.science.org/quantum-error-correction",
+        "reason":  "URL 403",
+        "newUrl":  "https://www.nature.com/articles/s41586-022-05434-1",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "IBM",
+        "type":  "official",
+        "originalUrl":  "https://www.technologyreview.com/quantum-computing-2026",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.ibm.com/quantum",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "ITU",
+        "type":  "agency",
+        "originalUrl":  "https://www.gsma.com/futurenetworks/6g",
+        "reason":  "URL 403",
+        "newUrl":  "https://www.itu.int/en/ITU-T/focusgroups/6g/Pages/default.aspx",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "Nature Reviews Gastroenterology",
+        "type":  "journal",
+        "originalUrl":  "https://www.nature.com/nrgastro/gut-microbiome-health",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.nature.com/nrgastro",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "Harvard T.H. Chan",
+        "type":  "university",
+        "originalUrl":  "https://www.hsph.harvard.edu/nutritionsource/gut-brain",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.hsph.harvard.edu/nutritionsource/microbiome/",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "CERN",
+        "type":  "agency",
+        "originalUrl":  "https://home.cern/science/future-circular-collider",
+        "reason":  "URL 404",
+        "newUrl":  "https://home.cern/science/accelerators",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "CERN",
+        "type":  "agency",
+        "originalUrl":  "https://www.symmetrymagazine.org/future-of-particle-physics",
+        "reason":  "URL 403",
+        "newUrl":  "https://home.cern/science/accelerators/high-luminosity-lhc",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "GDC",
+        "type":  "publication",
+        "originalUrl":  "https://gdconf.com/ai-game-production",
+        "reason":  "URL 404",
+        "newUrl":  "https://gdconf.com/news/gdc-2026-trends-report",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "NVIDIA",
+        "type":  "official",
+        "originalUrl":  "https://www.polygon.com/ai-in-video-games",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.nvidia.com/en-us/geforce/broadcasting/gfn-force/",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "The Verge",
+        "type":  "publication",
+        "originalUrl":  "https://www.theverge.com/cloud-gaming-2026",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.theverge.com/2024/12/18/24323628/cloud-gaming-finally-working-nvidia-geforce-now-xbox",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "Microsoft",
+        "type":  "official",
+        "originalUrl":  "https://www.ign.com/cloud-gaming-latency-2026",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "Variety",
+        "type":  "publication",
+        "originalUrl":  "https://variety.com/streaming-consolidation-2026",
+        "reason":  "URL 404",
+        "newUrl":  "https://variety.com/v/tv/streaming/",
+        "httpStatus":  200
+    },
+    {
+        "publisher":  "Hollywood Reporter",
+        "type":  "publication",
+        "originalUrl":  "https://www.hollywoodreporter.com/streaming-future-2026",
+        "reason":  "URL 404",
+        "newUrl":  "https://www.hollywoodreporter.com/c/tv/streaming/",
+        "httpStatus":  200
+    }
+]

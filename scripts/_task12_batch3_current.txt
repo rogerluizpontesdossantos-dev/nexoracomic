@@ -1,0 +1,60 @@
+=== ID 22 ===
+TITLE: Realidade Virtual vs Aumentada: Qual é a Diferença?
+CATEGORY: ?
+SOURCES:  { title: 'Apple - ARKit Developer Documentation', url: 'https://developer.apple.com/documentation/ARKit', type: 'company' }, { title: 'Stanford Virtual Human Interaction Lab', url: 'https://vhil.stanford.edu/', type: 'university' }, { title: 'Google - ARCore Developer Overview', url: 'https://developers.google.com/ar/develop', type: 'company' } 
+EXCERPT: VR imerge, RA sobrepõe. Entenda como cada tecnologia funciona, onde já são usadas hoje e para onde caminham com os óculos mistos.
+
+=== ID 23 ===
+TITLE: Aprendizado de Máquina Explicado: Como Computadores Aprendem
+CATEGORY: ?
+SOURCES:  { title: 'Google - Machine Learning Crash Course', url: 'https://developers.google.com/machine-learning/crash-course', type: 'company' }, { title: 'MIT - Introduction to Machine Learning', url: 'https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/', type: 'university' }, { title: 'LeCun, Bengio & Hinton - Deep Learning (Nature, 2015)', url: 'https://www.nature.com/articles/nature14539', type: 'journal' } 
+EXCERPT: Sem regras programadas à mão, máquinas aprendem padrões a partir de exemplos. Entenda os três tipos de aprendizado e como funcionam na prática.
+
+=== ID 24 ===
+TITLE: Ética e Vieses da IA: Quando o Algoritmo Herda Nossos Preconceitos
+CATEGORY: ?
+SOURCES:  { title: 'UNESCO - Ethics of Artificial Intelligence', url: 'https://www.unesco.org/en/artificial-intelligence/recommendation-ethics', type: 'agency' }, { title: 'NIST - AI Risk Management Framework', url: 'https://www.nist.gov/itl/ai-risk-management-framework', type: 'agency' }, { title: 'EU - AI Act', url: 'https://artificialintelligenceact.eu/', type: 'other' } 
+EXCERPT: Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa.
+
+=== ID 25 ===
+TITLE: Como Funciona o CGI: A Ciência Por Trás dos Efeitos Especiais
+CATEGORY: ?
+SOURCES:  { title: 'Autodesk Maya - 3D Animation and CGI Software', url: 'https://www.autodesk.com/products/maya/overview', type: 'company' }, { title: 'Pixar - Technology Libraries and Research', url: 'https://graphics.pixar.com/', type: 'company' }, { title: 'Pixar RenderMan - Official Product Site', url: 'https://renderman.pixar.com/', type: 'company' } 
+EXCERPT: De dinossauros a planetas inteiros, o CGI constrói mundos no computador. Entenda modelagem 3D, texturização, iluminação e renderização em etapas.
+
+=== ID 26 ===
+TITLE: O Futuro do Streaming: Onde a TV Por Assinatura Digital Está Indo
+CATEGORY: ?
+SOURCES:  { title: 'Nielsen The Gauge - Streaming vs Total TV Time', url: 'https://www.nielsen.com/insights/2022/streaming-claims-more-than-one-third-of-total-tv-time-in-june-and-hits-fourth-straight-monthly-viewing-record/', type: 'publication' }, { title: 'Nielsen - OTA + OTT: The New TV Bundle', url: 'https://www.nielsen.com/insights/2022/ota-ott-the-new-tv-bundle/', type: 'publication' } 
+EXCERPT: Preços sobem, catálogos mudam e novidades transformam o mercado. Entenda as tendências que vão definir a próxima década do streaming.
+
+=== ID 27 ===
+TITLE: A Evolução dos Motores Gráficos: Dos Pixels ao Tempo Real Fotorrealista
+CATEGORY: ?
+SOURCES:  { title: 'Epic Games - Unreal Engine 5 Documentation', url: 'https://dev.epicgames.com/documentation/en-us/unreal-engine', type: 'company' }, { title: 'Unity - Manual / Documentation', url: 'https://docs.unity3d.com/Manual/index.html', type: 'company' }, { title: 'NVIDIA - RTX Ray Tracing Developer Resources', url: 'https://developer.nvidia.com/rtx/ray-tracing', type: 'company' } 
+EXCERPT: Dos cubos coloridos aos mundos abertos realistas, a história dos motores gráficos é uma corrida contra os limites do hardware.
+
+=== ID 28 ===
+TITLE: Cloud Gaming: Jogar Sem Console, Direto da Nuvem
+CATEGORY: ?
+SOURCES:  { title: 'NVIDIA GeForce NOW - Official Site', url: 'https://www.nvidia.com/geforce-now/', type: 'company' }, { title: 'Xbox Cloud Gaming', url: 'https://www.xbox.com/play', type: 'company' }, { title: 'arXiv - Network Anatomy and Real-Time Measurement of Nvidia GeForce NOW Cloud Gaming', url: 'https://arxiv.org/abs/2401.06366', type: 'journal' } 
+EXCERPT: E se o "console" fosse um datacenter a milhares de quilômetros? Entenda como funciona o gaming na nuvem, seus ganhos e seus limites.
+
+=== ID 29 ===
+TITLE: Computação Vestível: A Tecnologia que Você Veste
+CATEGORY: ?
+SOURCES:  { title: 'Jafleh et al. - The Role of Wearable Devices in Chronic Disease Monitoring (Cureus, 2024, via PMC/NIH)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11461032/', type: 'journal' }, { title: 'IEEE SA - IEEE 11073-20601 Health Informatics Standard', url: 'https://standards.ieee.org/ieee/11073.20601/9300/', type: 'publication' }, { title: 'FDA - Digital Health Center of Excellence', url: 'https://www.fda.gov/medical-devices/digital-health-center-excellence', type: 'agency' } 
+EXCERPT: Relógios inteligentes, anéis e óculos: dispositivos vestíveis monitoram saúde, conectam rotinas e apontam para uma computação cada vez mais pessoal.
+
+=== ID 30 ===
+TITLE: Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar
+CATEGORY: ?
+SOURCES:  { title: 'NHTSA - Automated Vehicle Safety', url: 'https://www.nhtsa.gov/vehicle-safety/automated-vehicle-safety', type: 'agency' }, { title: 'SAE International - J3016 Levels of Driving Automation', url: 'https://www.sae.org/standards/j3016_202104-taxonomy-definitions-terms-related-driving-automation-systems-road-motor-vehicles/', type: 'other' }, { title: 'Waymo Safety Report', url: 'https://waymo.com/safety/', type: 'company' } 
+EXCERPT: Sensores, algoritmos e níveis de automação: entenda a tecnologia por trás dos veículos autônomos e os desafios para a adoção em massa.
+
+=== ID 31 ===
+TITLE: NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gráficos dos Jogos
+CATEGORY: ?
+SOURCES:  { title: 'NVIDIA Developer - DLSS', url: 'https://developer.nvidia.com/rtx/dlss', type: 'company' }, { title: 'NVIDIA - DLSS Technology', url: 'https://www.nvidia.com/en-us/geforce/technologies/dlss/', type: 'company' }, { title: 'NVIDIA GTC - AI Breakthroughs and Keynotes', url: 'https://www.nvidia.com/gtc/', type: 'company' } 
+EXCERPT: DLSS 5, apresentado no GTC 2026 e refinado no SIGGRAPH, usa IA generativa para adicionar detalhes às cenas. Entenda como o 3D-Guided Neural Rendering muda os jogos.
+

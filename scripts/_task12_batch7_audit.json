@@ -1,0 +1,384 @@
+{
+  "batch": 7,
+  "articlesRange": "72-101",
+  "totalArticles": 30,
+  "articles": [
+    {
+      "id": 72,
+      "title": "The Mandalorian e Grogu",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.starwars.com",
+          "newUrl": "https://www.starwars.com/films/the-mandalorian-and-grogu",
+          "reason": "Homepage genérica substituída por página específica do filme"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://deadline.com/the-mandalorian-and-grogu",
+          "newUrl": "https://deadline.com/2026/05/the-mandalorian-and-grogu-box-office-1234752890/",
+          "reason": "URL original redirecionava para página não relacionada"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'StarWars.com - The Mandalorian and Grogu',\r\n        url: 'https://www.starwars.com',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Deadline - The Mandalorian and Grogu',\r\n        url: 'https://deadline.com/the-mandalorian-and-grogu',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'StarWars.com - The Mandalorian and Grogu',\r\n        url: 'https://www.starwars.com/films/the-mandalorian-and-grogu',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Deadline - The Mandalorian and Grogu',\r\n        url: 'https://deadline.com/2026/05/the-mandalorian-and-grogu-box-office-1234752890/',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 73,
+      "title": "Disney: Como Marvel, Star Wars e Novas Franquias Estão Moldando o Entretenimento Geek",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.disneyplus.com",
+          "newUrl": "https://press.disneyplus.com",
+          "reason": "Homepage genérica substituída por site de imprensa oficial"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'Disney+ - Plataforma',\r\n        url: 'https://www.disneyplus.com',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'The Walt Disney Company - Notícias',\r\n        url: 'https://thewaltdisneycompany.com',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Disney+ - Plataforma',\r\n        url: 'https://press.disneyplus.com',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'The Walt Disney Company - Notícias',\r\n        url: 'https://thewaltdisneycompany.com',\r\n        type: 'company'\r\n      }"
+    },
+    {
+      "id": 74,
+      "title": "GTA VI: O Retorno Mais Aguardado de 2026",
+      "changes": [],
+      "sourcesBefore": "{\r\n        title: 'Rockstar Games - GTA VI',\r\n        url: 'https://www.rockstargames.com/VI',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'IGN - Grand Theft Auto VI',\r\n        url: 'https://www.ign.com/games/grand-theft-auto-6',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Rockstar Games - GTA VI',\r\n        url: 'https://www.rockstargames.com/VI',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'IGN - Grand Theft Auto VI',\r\n        url: 'https://www.ign.com/games/grand-theft-auto-6',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 75,
+      "title": "Supergirl: Woman of Tomorrow",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.dcstudios.com/supergirl",
+          "newUrl": "https://www.dc.com/movies/supergirl-woman-of-tomorrow",
+          "reason": "URL original redirecionava para página genérica"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'DC Studios - Supergirl',\r\n        url: 'https://www.dcstudios.com/supergirl',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Variety - Supergirl (2026)',\r\n        url: 'https://variety.com/t/supergirl/',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'DC Studios - Supergirl',\r\n        url: 'https://www.dc.com/movies/supergirl-woman-of-tomorrow',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Variety - Supergirl (2026)',\r\n        url: 'https://variety.com/t/supergirl/',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 76,
+      "title": "Harry Potter: A Série do HBO Max",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.warnerbros.com/tv/harry-potter",
+          "newUrl": "https://www.hbo.com/harry-potter",
+          "reason": "URL original retornava 404"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'Warner Bros. Television - Harry Potter',\r\n        url: 'https://www.warnerbros.com/tv/harry-potter',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'BBC - Elenco da série Harry Potter',\r\n        url: 'https://www.bbc.com/news/articles/c5ygp0908g9o',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Warner Bros. Television - Harry Potter',\r\n        url: 'https://www.hbo.com/harry-potter',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'BBC - Elenco da série Harry Potter',\r\n        url: 'https://www.bbc.com/news/articles/c5ygp0908g9o',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 77,
+      "title": "The Witcher: A Temporada Final",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.netflix.com/tudum/topics/the-witcher",
+          "newUrl": "https://www.netflix.com/title/80189685",
+          "reason": "URL original retornava 404"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'Netflix Tudum - The Witcher',\r\n        url: 'https://www.netflix.com/tudum/topics/the-witcher',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Collider - The Witcher temporada final',\r\n        url: 'https://collider.com/tag/the-witcher/',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Netflix Tudum - The Witcher',\r\n        url: 'https://www.netflix.com/title/80189685',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Collider - The Witcher temporada final',\r\n        url: 'https://collider.com/tag/the-witcher/',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 78,
+      "title": "Welcome to Derry",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.max.com/shows/welcome-to-derry",
+          "newUrl": "https://www.hbomax.com/shows/welcome-to-derry",
+          "reason": "URL original redirecionava para HBOMax"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'Max - Welcome to Derry',\r\n        url: 'https://www.max.com/shows/welcome-to-derry',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Variety - Welcome to Derry',\r\n        url: 'https://variety.com/t/welcome-to-derry/',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Max - Welcome to Derry',\r\n        url: 'https://www.hbomax.com/shows/welcome-to-derry',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Variety - Welcome to Derry',\r\n        url: 'https://variety.com/t/welcome-to-derry/',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 79,
+      "title": "Ahsoka: Temporada 2",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.starwars.com/news",
+          "newUrl": "https://www.starwars.com/series/ahsoka",
+          "reason": "Homepage de notícias substituída por página específica"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date',\r\n        url: 'https://www.starwars.com/news',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Variety - Cobertura de Star Wars',\r\n        url: 'https://variety.com/',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date',\r\n        url: 'https://www.starwars.com/series/ahsoka',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Variety - Cobertura de Star Wars',\r\n        url: 'https://variety.com/',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 80,
+      "title": "Star Wars: Starfighter",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.starwars.com/news",
+          "newUrl": "https://www.starwars.com/films/star-wars-starfighter",
+          "reason": "Homepage de notícias substituída por página específica"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'StarWars.com - Notícias oficiais',\r\n        url: 'https://www.starwars.com/news',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Variety - Cobertura de cinema',\r\n        url: 'https://variety.com/v/film/',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'StarWars.com - Notícias oficiais',\r\n        url: 'https://www.starwars.com/films/star-wars-starfighter',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Variety - Cobertura de cinema',\r\n        url: 'https://variety.com/v/film/',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 81,
+      "title": "Lanterns: A Série da HBO",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.hbo.com/lanterns",
+          "newUrl": "https://www.dc.com/tv/lanterns",
+          "reason": "URL original retornava 404"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'HBO - Lanterns (série oficial)',\r\n        url: 'https://www.hbo.com/lanterns',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'The Verge - Entertainment',\r\n        url: 'https://www.theverge.com/entertainment',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'HBO - Lanterns (série oficial)',\r\n        url: 'https://www.dc.com/tv/lanterns',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'The Verge - Entertainment',\r\n        url: 'https://www.theverge.com/entertainment',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 82,
+      "title": "Spider-Man: Brand New Day",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.sonypictures.com/",
+          "newUrl": "https://www.sonypictures.com/movies/spider-manbrand-new-day",
+          "reason": "Homepage genérica substituída por página específica"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'Variety - Film News',\r\n        url: 'https://variety.com/v/film/news/',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'Sony Pictures - Spider-Man: Brand New Day',\r\n        url: 'https://www.sonypictures.com/',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Variety - Film News',\r\n        url: 'https://variety.com/v/film/news/',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'Sony Pictures - Spider-Man: Brand New Day',\r\n        url: 'https://www.sonypictures.com/movies/spider-manbrand-new-day',\r\n        type: 'company'\r\n      }"
+    },
+    {
+      "id": 83,
+      "title": "Netflix em Setembro de 2026",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.netflix.com/tudum/",
+          "newUrl": "https://www.netflix.com/tudum",
+          "reason": "Redirecionamento canônico removido"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'Netflix Tudum - Go Behind the Streams',\r\n        url: 'https://www.netflix.com/tudum/',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'The Verge - Streaming',\r\n        url: 'https://www.theverge.com/streaming',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Netflix Tudum - Go Behind the Streams',\r\n        url: 'https://www.netflix.com/tudum',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'The Verge - Streaming',\r\n        url: 'https://www.theverge.com/streaming',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 84,
+      "title": "Coyote vs. Acme",
+      "changes": [],
+      "sourcesBefore": "{\r\n        title: 'The Verge - Entertainment',\r\n        url: 'https://www.theverge.com/entertainment',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'Variety - Cobertura de cinema',\r\n        url: 'https://variety.com/v/film/',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'The Verge - Entertainment',\r\n        url: 'https://www.theverge.com/entertainment',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'Variety - Cobertura de cinema',\r\n        url: 'https://variety.com/v/film/',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 85,
+      "title": "Star Wars × Marvel",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.marvel.com/comics",
+          "newUrl": "https://www.marvel.com/articles",
+          "reason": "Homepage substituída"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'StarWars.com - Notícias oficiais',\r\n        url: 'https://www.starwars.com/news',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Marvel - Comics',\r\n        url: 'https://www.marvel.com/comics',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'StarWars.com - Notícias oficiais',\r\n        url: 'https://www.starwars.com/news',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Marvel - Comics',\r\n        url: 'https://www.marvel.com/articles',\r\n        type: 'company'\r\n      }"
+    },
+    {
+      "id": 86,
+      "title": "Linha Absolute da DC",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.dc.com/blog",
+          "newUrl": "https://www.dc.com/comics",
+          "reason": "Redirecionamento canônico"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'DC.com - Blog e lançamentos',\r\n        url: 'https://www.dc.com/blog',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'DC.com - Latest Comics',\r\n        url: 'https://www.dc.com/comics',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'DC.com - Blog e lançamentos',\r\n        url: 'https://www.dc.com/comics',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'DC.com - Latest Comics',\r\n        url: 'https://www.dc.com/comics',\r\n        type: 'company'\r\n      }"
+    },
+    {
+      "id": 87,
+      "title": "DC em Setembro de 2026",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.dc.com/blog",
+          "newUrl": "https://www.dc.com/comics",
+          "reason": "Redirecionamento canônico"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'DC.com - Blog',\r\n        url: 'https://www.dc.com/blog',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'DC.com - Latest Comics & Graphic Novels',\r\n        url: 'https://www.dc.com/comics',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'DC.com - Blog',\r\n        url: 'https://www.dc.com/comics',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'DC.com - Latest Comics & Graphic Novels',\r\n        url: 'https://www.dc.com/comics',\r\n        type: 'company'\r\n      }"
+    },
+    {
+      "id": 88,
+      "title": "The Duskbloods",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.nintendo.com/us/store/products/",
+          "newUrl": "https://www.nintendo.com/us/store/products/the-duskbloods-switch-2/",
+          "reason": "Homepage substituída"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'Nintendo - The Duskbloods (página oficial)',\r\n        url: 'https://www.nintendo.com/us/store/products/',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'IGN - Notícias',\r\n        url: 'https://www.ign.com/news',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Nintendo - The Duskbloods (página oficial)',\r\n        url: 'https://www.nintendo.com/us/store/products/the-duskbloods-switch-2/',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'IGN - Notícias',\r\n        url: 'https://www.ign.com/news',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 89,
+      "title": "Star Wars Zero Company",
+      "changes": [],
+      "sourcesBefore": "{\r\n        title: 'StarWars.com - Games + Interactive',\r\n        url: 'https://www.starwars.com/news',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'IGN - Star Wars Zero Company',\r\n        url: 'https://www.ign.com/news',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'StarWars.com - Games + Interactive',\r\n        url: 'https://www.starwars.com/news',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'IGN - Star Wars Zero Company',\r\n        url: 'https://www.ign.com/news',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 90,
+      "title": "The Witcher 4",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.cdprojektred.com/en/news",
+          "newUrl": "https://www.cdprojektred.com/en/media",
+          "reason": "URL original retornava 404"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'IGN - Notícias',\r\n        url: 'https://www.ign.com/news',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'CD Projekt Red - Site oficial',\r\n        url: 'https://www.cdprojektred.com/en/news',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'IGN - Notícias',\r\n        url: 'https://www.ign.com/news',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'CD Projekt Red - Site oficial',\r\n        url: 'https://www.cdprojektred.com/en/media',\r\n        type: 'company'\r\n      }"
+    },
+    {
+      "id": 91,
+      "title": "Xbox Series X e os 25 Anos",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.theverge.com/gaming",
+          "newUrl": "https://www.theverge.com/games",
+          "reason": "Redirecionamento canônico"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'The Verge - Gaming',\r\n        url: 'https://www.theverge.com/gaming',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'Xbox Wire - Notícias oficiais',\r\n        url: 'https://news.xbox.com/',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'The Verge - Gaming',\r\n        url: 'https://www.theverge.com/games',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'Xbox Wire - Notícias oficiais',\r\n        url: 'https://news.xbox.com/',\r\n        type: 'company'\r\n      }"
+    },
+    {
+      "id": 92,
+      "title": "PS5 Live TV",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.playstation.com/",
+          "newUrl": "https://blog.playstation.com/",
+          "reason": "Homepage substituída por blog"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'IGN - Notícias',\r\n        url: 'https://www.ign.com/news',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'PlayStation - Site oficial',\r\n        url: 'https://www.playstation.com/',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'IGN - Notícias',\r\n        url: 'https://www.ign.com/news',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'PlayStation - Site oficial',\r\n        url: 'https://blog.playstation.com/',\r\n        type: 'company'\r\n      }"
+    },
+    {
+      "id": 93,
+      "title": "IA e Hollywood",
+      "changes": [],
+      "sourcesBefore": "{\r\n        title: 'The Verge - Entertainment',\r\n        url: 'https://www.theverge.com/entertainment',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'The Verge - AI',\r\n        url: 'https://www.theverge.com/ai-artificial-intelligence',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'The Verge - Entertainment',\r\n        url: 'https://www.theverge.com/entertainment',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'The Verge - AI',\r\n        url: 'https://www.theverge.com/ai-artificial-intelligence',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 94,
+      "title": "BepiColombo",
+      "changes": [],
+      "sourcesBefore": "{\r\n        title: 'ESA - BepiColombo Science & Exploration',\r\n        url: 'https://www.esa.int/Science_Exploration/Space_Science/BepiColombo',\r\n        type: 'agency'\r\n      },\r\n      {\r\n        title: 'Space.com - Space News',\r\n        url: 'https://www.space.com/news',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'ESA - BepiColombo Science & Exploration',\r\n        url: 'https://www.esa.int/Science_Exploration/Space_Science/BepiColombo',\r\n        type: 'agency'\r\n      },\r\n      {\r\n        title: 'Space.com - Space News',\r\n        url: 'https://www.space.com/news',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 95,
+      "title": "NVIDIA Hugging Face",
+      "changes": [],
+      "sourcesBefore": "{\r\n        title: 'NVIDIA Newsroom - NVIDIA to Acquire Hugging Face',\r\n        url: 'https://nvidianews.nvidia.com/',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'TechCrunch - AI News',\r\n        url: 'https://techcrunch.com/category/artificial-intelligence/',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'NVIDIA Newsroom - NVIDIA to Acquire Hugging Face',\r\n        url: 'https://nvidianews.nvidia.com/',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'TechCrunch - AI News',\r\n        url: 'https://techcrunch.com/category/artificial-intelligence/',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 96,
+      "title": "Decágono de Saturno",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://esahubble.org/",
+          "newUrl": "https://esahubble.org/images/heic2410a/",
+          "reason": "Homepage substituída"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole',\r\n        url: 'https://esahubble.org/',\r\n        type: 'agency'\r\n      },\r\n      {\r\n        title: 'ScienceDaily - Top Science News',\r\n        url: 'https://www.sciencedaily.com/',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole',\r\n        url: 'https://esahubble.org/images/heic2410a/',\r\n        type: 'agency'\r\n      },\r\n      {\r\n        title: 'ScienceDaily - Top Science News',\r\n        url: 'https://www.sciencedaily.com/',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 97,
+      "title": "Pandora Missão NASA",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.nasa.gov/news/",
+          "newUrl": "https://www.nasa.gov/missions/pandora/",
+          "reason": "Homepage substituída"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'NASA Science - Missão Pandora',\r\n        url: 'https://science.nasa.gov/mission/pandora/',\r\n        type: 'agency'\r\n      },\r\n      {\r\n        title: 'NASA - NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars',\r\n        url: 'https://www.nasa.gov/news/',\r\n        type: 'agency'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'NASA Science - Missão Pandora',\r\n        url: 'https://science.nasa.gov/mission/pandora/',\r\n        type: 'agency'\r\n      },\r\n      {\r\n        title: 'NASA - NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars',\r\n        url: 'https://www.nasa.gov/missions/pandora/',\r\n        type: 'agency'\r\n      }"
+    },
+    {
+      "id": 98,
+      "title": "State of Play Setembro 2026",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.ign.com/articles",
+          "newUrl": "https://www.ign.com/news",
+          "reason": "Redirecionamento canônico"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'PlayStation.Blog - State of Play & State of Play Japan: all announcements',\r\n        url: 'https://blog.playstation.com/',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'IGN - Latest News',\r\n        url: 'https://www.ign.com/articles',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'PlayStation.Blog - State of Play & State of Play Japan: all announcements',\r\n        url: 'https://blog.playstation.com/',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'IGN - Latest News',\r\n        url: 'https://www.ign.com/news',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 99,
+      "title": "Final Fantasy VII Revelation",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.square-enix-games.com/",
+          "newUrl": "https://www.square-enix-games.com/en/games/final-fantasy-vii-rebirth",
+          "reason": "Homepage substituída"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027',\r\n        url: 'https://blog.playstation.com/',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Square Enix - Site Oficial',\r\n        url: 'https://www.square-enix-games.com/',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027',\r\n        url: 'https://blog.playstation.com/',\r\n        type: 'company'\r\n      },\r\n      {\r\n        title: 'Square Enix - Site Oficial',\r\n        url: 'https://www.square-enix-games.com/en/games/final-fantasy-vii-rebirth',\r\n        type: 'company'\r\n      }"
+    },
+    {
+      "id": 100,
+      "title": "Artificial: Filme IA",
+      "changes": [],
+      "sourcesBefore": "{\r\n        title: 'Variety - Luca Guadagnino’s ‘Artificial’ to World Premiere at New York Film Festival (EXCLUSIVE)',\r\n        url: 'https://variety.com/v/film/',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'The Verge - Entertainment',\r\n        url: 'https://www.theverge.com/entertainment',\r\n        type: 'publication'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Variety - Luca Guadagnino’s ‘Artificial’ to World Premiere at New York Film Festival (EXCLUSIVE)',\r\n        url: 'https://variety.com/v/film/',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'The Verge - Entertainment',\r\n        url: 'https://www.theverge.com/entertainment',\r\n        type: 'publication'\r\n      }"
+    },
+    {
+      "id": 101,
+      "title": "The Odyssey Nolan",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.imax.com/",
+          "newUrl": "https://www.imax.com/movies/odyssey",
+          "reason": "Homepage 403 substituída"
+        }
+      ],
+      "sourcesBefore": "{\r\n        title: 'Variety - ‘The Odyssey’ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million',\r\n        url: 'https://variety.com/v/film/',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'IMAX - Site Oficial',\r\n        url: 'https://www.imax.com/',\r\n        type: 'company'\r\n      }",
+      "sourcesAfter": "{\r\n        title: 'Variety - ‘The Odyssey’ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million',\r\n        url: 'https://variety.com/v/film/',\r\n        type: 'publication'\r\n      },\r\n      {\r\n        title: 'IMAX - Site Oficial',\r\n        url: 'https://www.imax.com/movies/odyssey',\r\n        type: 'company'\r\n      }"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "bleeping_microsoft": {
+    "status": 200,
+    "found": [
+      "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
+      "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/#comment_form",
+      "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
+      "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/#comments"
+    ]
+  },
+  "toms_dlss5": {
+    "status": 200,
+    "found": [
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-debuts-dlss-5-for-increased-visual-fidelity-in-games-ai-infused-tech-transforms-pixels-with-photorealistic-lighting-and-materials",
+      "https://www.tomshardware.com/pc-components/gpus/modders-get-leaked-dlss-5-running-in-control-early-blackwell-test-drops-rtx-5070-ti-from-71-to-35-fps-at-4k",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-shows-off-dlss-5-with-three-ai-modes-for-different-levels-of-detail-upscaler-can-switch-between-models-in-real-time",
+      "https://www.tomshardware.com/pc-components/gpus/we-explored-early-dlss-5-performance-with-community-mods-and-the-limits-of-the-12v-2x6-power-connector-may-hold-it-back-on-the-rtx-5090",
+      "https://www.tomshardware.com/video-games/pc-gaming/rpcs3-emulator-devs-slam-nvidia-dlss-5-as-ai-slop-generator-says-industry-pushing-more-upscalers-and-frame-generation-to-hallucinate-games-and-hide-their-lack-of-optimisation",
+      "https://www.tomshardware.com/pc-components/gpus/we-got-a-first-look-at-nvidias-dlss-5-and-the-future-of-neural-rendering-at-gtc-the-results-can-be-impressive-but-theres-work-to-do",
+      "https://www.tomshardware.com/pc-components/gpus/exclusive-dlss-5-has-already-been-ported-to-work-on-rtx-4000-series-graphics-cards-incompatible-cuda-instructions-get-patched-to-work-on-previous-gen-hardware",
+      "https://www.tomshardware.com/pc-components/gpus/nvidias-controversial-dlss-5-will-launch-september-3-with-nba2k27-available-on-all-rtx-50-series-gpus-laptops-and-geforce-now",
+      "https://www.tomshardware.com/video-games/pc-gaming/we-tested-dlss-5-in-nba-2k27-with-every-rtx-50-series-gpu-first-official-release-comes-with-a-big-performance-hit-but-almost-every-blackwell-card-can-run-it-at-1080p",
+      "https://www.tomshardware.com/pc-components/gpus/jensen-huang-says-gamers-are-completely-wrong-about-dlss-5-nvidia-ceo-responds-to-dlss-5-backlash",
+      "https://www.tomshardware.com/pc-components/gpus/dlss-5-officially-launches-inside-nba-2k27-limited-to-rtx-50-series-gpus-for-now-nvidia-promises-to-bring-neutral-rendering-tech-to-rtx-40-series-soon",
+      "https://www.tomshardware.com/pc-components/gpus/dlss-5-mod-brings-next-gen-tech-to-old-ampere-gpus-but-frame-rates-are-horrible-most-games-tank-to-single-digits-high-end-gpus-can-hit-up-to-40-fps-in-some-cases",
+      "https://www.tomshardware.com/pc-components/gpus/astonishing-mod-runs-nvidia-dlss-5-on-a-second-gpu-using-a-reshade-add-on-to-reduce-performance-impact-boosts-neural-rendered-fps-up-to-127-percent-game-renders-on-one-card-neural-post-processing-runs-on-the-other-much-like-dedicated-physx-gpus",
+      "https://www.tomshardware.com/pc-components/gpus/modder-gets-nvidias-dlss-5-working-on-amds-rdna-4-gpus-rx-9070-xt-only-manages-30-fps-at-1080p-right-now-but-5070-ti-level-performance-is-the-eventual-goal",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-ceo-says-hes-empathic-to-dlss-5-concerns-jensen-huang-doubles-down-on-defense-while-decrying-ai-slop"
+    ]
+  },
+  "toms_5090": {
+    "status": 200,
+    "found": [
+      "https://www.tomshardware.com/search?searchTerm=RTX%205090%20costs",
+      "https://www.tomshardware.com/search?searchTerm=RTX%205090%20costs&amp;articleType=all",
+      "https://www.tomshardware.com/search?searchTerm=RTX%205090%20costs&amp;articleType=voucher",
+      "https://www.tomshardware.com/search?searchTerm=RTX%205090%20costs&amp;articleType=feature",
+      "https://www.tomshardware.com/search?searchTerm=RTX%205090%20costs&amp;articleType=news",
+      "https://www.tomshardware.com/search?searchTerm=RTX%205090%20costs&amp;articleType=review",
+      "https://www.tomshardware.com/search?searchTerm=RTX%205090%20costs&amp;articleType=all&amp;sortBy=relevance",
+      "https://www.tomshardware.com/search?searchTerm=RTX%205090%20costs&amp;articleType=all&amp;sortBy=publishedDate",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-exhibits-27-percent-higher-cuda-performance-than-rtx-4090-exceeds-500k-points-in-geekbench",
+      "https://www.tomshardware.com/pc-components/gpus/custom-rtx-5090-rtx-5080-listed-for-up-to-usd2-800-and-usd1-400-overseas-initial-pricing-exceeds-msrp",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-and-rtx-5080-listed-for-usd2-600-and-usd1-350-at-chinese-retailer-leaked-listing-suggests-blackwell-might-see-a-price-hike-at-least-in-china",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-and-rtx-5080-gaming-pcs-listed-prematurely-for-usd7-539-and-usd4-399-at-a-retailer-blackwell-meets-arrow-lake-to-power-upcoming-predator-orion-7000-pcs-from-acer",
+      "https://www.tomshardware.com/pc-components/gpus/msis-rtx-5090-lightning-storms-in-at-a-thunderous-usd5-200-limited-edition-gpu-shatters-everything-from-world-records-to-your-bank-account",
+      "https://www.tomshardware.com/laptops/gaming-laptops/rtx-5090-gaming-laptops-listed-overseas-starting-at-usd3-780",
+      "https://www.tomshardware.com/pc-components/gpus/asus-luxurious-rtx-5090-gpu-is-twice-as-expensive-as-nvidia-founders-edition-rog-matrix-platinum-geforce-rtx-5090-launches-at-usd3-999-with-just-1-000-units-available",
+      "https://www.tomshardware.com/pc-components/gpus/nvidias-top-end-rtx-5090-gaming-gpu-now-costs-at-least-usd5-000-blackwell-cards-continue-to-endure-drastic-price-hikes",
+      "https://www.tomshardware.com/pc-components/this-usd2699-msi-rtx-5090-is-the-cheapest-youll-find-right-now",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-scalpers-sell-blackwell-flagship-gpu-for-up-to-usd7-000-2x-3x-scalper-markup-over-msrp",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-is-allegedly-39-percent-faster-than-rtx-4090-in-3dmark-benchmarks-beats-rx-7900-xtx-by-93-percent",
+      "https://www.tomshardware.com/3d-printing/this-rtx-5090-is-cheaper-than-anything-we-saw-on-prime-day-and-isnt-even-discounted-grab-zotacs-triple-fan-beast-for-just-usd2-499",
+      "https://www.tomshardware.com/pc-components/gpus/the-geforce-rtx-5090-just-got-an-actual-discount-for-prime-day-usd350-saving-makes-it-one-of-the-cheapest-weve-seen",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-geforce-rtx-5090-review",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-geforce-rtx-5090-versus-rtx-4090-how-does-the-new-halo-gpu-compare-with-its-predecessor",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-prototype-allegedly-has-24-576-cuda-cores-and-800w-tdp-two-16-pin-connectors-present",
+      "https://www.tomshardware.com/pc-components/gpus/newegg-has-rtx-5090-bundles-starting-at-usd3-139-counts-as-a-good-gpu-deal-these-days",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-blower-gpu-sells-for-usd5-999-at-u-s-retailer-dual-slot-design-converts-blackwell-gaming-flagship-into-an-ai-workhorse",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-rtx-5090-rtx-5080-and-rtx-5070-laptop-gpus-rtx-50-blackwell-goes-mobile-with-up-to-24gb-of-gddr7-memory",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-cable-melting-claim-debunked-investigation-points-at-prior-rtx-4090-fe-cabling-usage",
+      "https://www.tomshardware.com/pc-components/gpus/seven-rtx-5090-gpus-power-ai-server-worth-over-usd30-000-over-4000w-of-power-and-224gb-of-memory-in-a-single-frame",
+      "https://www.tomshardware.com/pc-components/gpus/zotac-denies-recent-rtx-5090-gpu-boot-up-rumor-vendor-clarifies-that-the-gpu-was-an-rtx-4070-ti-super"
+    ]
+  },
+  "nvidia_ifa": {
+    "status": 200,
+    "found": [
+      "https://blogs.nvidia.com/?s=RTX+Spark",
+      "https://blogs.nvidia.com/search/RTX+Spark/feed/rss2/",
+      "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology/",
+      "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark/",
+      "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
+      "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
+      "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "https://blogs.nvidia.com/blog/dgx-spark-and-station-open-source-frontier-models/"
+    ]
+  },
+  "club386_5090": {
+    "status": 200,
+    "found": []
+  },
+  "toms_oled": {
+    "status": 200,
+    "found": [
+      "https://www.tomshardware.com/search?searchTerm=OLED%20500Hz",
+      "https://www.tomshardware.com/search?searchTerm=OLED%20500Hz&amp;articleType=all",
+      "https://www.tomshardware.com/search?searchTerm=OLED%20500Hz&amp;articleType=voucher",
+      "https://www.tomshardware.com/search?searchTerm=OLED%20500Hz&amp;articleType=feature",
+      "https://www.tomshardware.com/search?searchTerm=OLED%20500Hz&amp;articleType=news",
+      "https://www.tomshardware.com/search?searchTerm=OLED%20500Hz&amp;articleType=review",
+      "https://www.tomshardware.com/search?searchTerm=OLED%20500Hz&amp;articleType=all&amp;sortBy=relevance",
+      "https://www.tomshardware.com/search?searchTerm=OLED%20500Hz&amp;articleType=all&amp;sortBy=publishedDate",
+      "https://www.tomshardware.com/monitors/gaming-monitors/samsung-launches-the-worlds-first-500hz-oled-gaming-monitor-for-usd1-300-with-its-burn-in-fighting-heat-pipes-in-tow",
+      "https://www.tomshardware.com/monitors/gaming-monitors/samsung-reportedly-preps-the-worlds-first-500-hz-27-inch-oled-gaming-monitor-sources-allege-1440p-qd-oled-panel",
+      "https://www.tomshardware.com/monitors/gaming-monitors/samsungs-500hz-odyssey-g6-oled-joins-stacked-2025-gaming-monitor-lineup",
+      "https://www.tomshardware.com/monitors/gaming-monitors/lg-demonstrates-ultra-fast-ultra-bright-oled-display-prototype-new-panel-can-refresh-at-540-hz-at-1440p-or-720-hz-at-720p-hits-1500-nits-peak-brightness",
+      "https://www.tomshardware.com/monitors/gaming-monitors/score-this-500hz-27-inch-samsung-odyssey-oled-gaming-monitor-at-its-lowest-ever-price-now-just-usd649-99-huge-usd349-saving-nets-you-ultra-fast-g60sf-display-with-nvidia-g-sync-support",
+      "https://www.tomshardware.com/monitors/gaming-monitors/msi-and-gigabyte-debut-new-500-hz-qd-oled-gaming-monitors-27-inch-1440p-panels-with-high-end-features",
+      "https://www.tomshardware.com/monitors/gaming-monitors/samsungs-500hz-qhd-oled-monitor-the-first-of-its-kind-is-now-available-in-the-u-s-for-usd999-two-new-curved-monitors-under-the-odyssey-g7-lineup-also-go-on-sale",
+      "https://www.tomshardware.com/monitors/gaming-monitors/asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-model-among-four-fresh-offerings",
+      "https://www.tomshardware.com/monitors/gaming-monitors/aoc-makes-its-2025-qd-oled-monitor-lineup-official-including-500-hz-models-27-32-and-34-inch-models-with-high-refresh-rates-and-inky-blacks",
+      "https://www.tomshardware.com/monitors/samsung-showcases-500-hz-oled-monitor-and-foldable-gaming-handheld-at-mwc-2025",
+      "https://www.tomshardware.com/monitors/gaming-monitors/lg-unleashes-usd999-oled-gaming-monitor-with-lighting-fast-480-hz-refresh-rate-lg-ultragear-27gx790a-b-features-a-27-inch-1440p-panel",
+      "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg34wcdn-34-inch-qd-oled-360-hz-gaming-monitor-review",
+      "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-strix-xg27aqdpg-27-inch-500-hz-oled-gaming-monitor-review",
+      "https://www.tomshardware.com/monitors/lg-display-reveals-worlds-first-4k-240hz-oled-gaming-monitor-with-a-true-rgb-striped-subpixel-layout-new-panel-succeeds-woled-with-multi-stack-tandem-oled",
+      "https://www.tomshardware.com/monitors/gaming-monitors/dough-spectrum-black-32-ultra-hd-oled-gaming-monitor-review",
+      "https://www.tomshardware.com/monitors/gaming-monitors/msis-new-32-oled-monitor-can-switch-between-4k-360-hz-1440p-520-hz-and-1080p-680-hz-featuring-a-penta-tandem-qd-oled-panel-with-rgb-stripe-subpixels",
+      "https://www.tomshardware.com/monitors/gaming-monitors/aorus-fo27q2-40-hz-qhd-qd-oled-review",
+      "https://www.tomshardware.com/monitors/gaming-monitors/msi-mpg271qr-x50-27-inch-500-hz-qhd-qd-oled-gaming-monitor-review",
+      "https://www.tomshardware.com/monitors/gaming-monitors/gigabyte-aorus-fo27q5p-27-inch-500-hz-qd-oled-gaming-monitor-review",
+      "https://www.tomshardware.com/monitors/gaming-monitors/asrock-launches-a-trio-of-oled-gaming-monitors-for-demanding-gamers-lineup-offers-refresh-rates-from-240-hz-to-480-hz-and-response-times-of-0-3-ms",
+      "https://www.tomshardware.com/monitors/gaming-monitors/asus-latest-oled-gaming-monitor-can-hit-720-hz-at-hd-resolution-dual-refresh-modes-also-allow-540-hz-at-qhd",
+      "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg27aqwp-w-27-inch-540-hz-qhd-qd-oled-gaming-monitor-review"
+    ]
+  },
+  "toms_hbm": {
+    "status": 200,
+    "found": [
+      "https://www.tomshardware.com/tag/hbm",
+      "https://www.tomshardware.com/coupons/samsung.com",
+      "https://www.tomshardware.com/search?searchTerm=Samsung%20HBM",
+      "https://www.tomshardware.com/search?searchTerm=Samsung%20HBM&amp;articleType=all",
+      "https://www.tomshardware.com/search?searchTerm=Samsung%20HBM&amp;articleType=voucher",
+      "https://www.tomshardware.com/search?searchTerm=Samsung%20HBM&amp;articleType=feature",
+      "https://www.tomshardware.com/search?searchTerm=Samsung%20HBM&amp;articleType=news",
+      "https://www.tomshardware.com/search?searchTerm=Samsung%20HBM&amp;articleType=review",
+      "https://www.tomshardware.com/search?searchTerm=Samsung%20HBM&amp;articleType=all&amp;sortBy=relevance",
+      "https://www.tomshardware.com/search?searchTerm=Samsung%20HBM&amp;articleType=all&amp;sortBy=publishedDate",
+      "https://www.tomshardware.com/tech-industry/semiconductors/hot-chips-2026-samsung-reveals-a-three-phase-hbm-roadmap-that-puts-logic-and-compute-inside-memory-zhbm-ultimately-stacks-dram-directly-on-top-of-the-processor",
+      "https://www.tomshardware.com/tech-industry/semiconductors/hbm-roadmaps-for-micron-samsung-and-sk-hynix-to-hbm4-and-beyond",
+      "https://www.tomshardware.com/pc-components/dram/marvell-develops-custom-hbm-solution-that-offers-higher-performance-in-a-smaller-physical-space",
+      "https://www.tomshardware.com/pc-components/ram/new-3d-stacked-memory-tech-seeks-to-dethrone-hbm-in-ai-inference-d-matrix-claims-3dimc-will-be-10x-faster-and-10x-more-efficient",
+      "https://www.tomshardware.com/tech-industry/semiconductors/researchers-turn-hbm-on-its-side-to-tackle-ai-memorys-heat-wall-korean-v-die-and-japanese-mosaic-designs-promise-higher-bandwidth-denser-stacks-and-cooler-future-gpus",
+      "https://www.tomshardware.com/pc-components/dram/micron-invests-usd7-billion-in-hbm-assembly-facility-amid-ai-boom",
+      "https://www.tomshardware.com/pc-components/cpus/huawei-preps-new-kunpeng-cpu-with-hbm-linux-patches-point-to-an-unannounced-kunpeng-arm-server-soc",
+      "https://www.tomshardware.com/pc-components/dram/hbm-undergoes-major-architectural-shakeup-as-tsmc-and-guc-detail-hbm4-hbm4e-and-c-hbm4e-3nm-base-dies-to-enable-2-5x-performance-boost-with-speeds-of-up-to-12-8gt-s-by-2027",
+      "https://www.tomshardware.com/pc-components/dram/intel-and-softbank-collaborate-on-power-efficient-hbm-substitute-for-ai-data-centers-says-report",
+      "https://www.tomshardware.com/tech-industry/micron-secures-318-million-taiwanese-subsidy-for-hbm-rd-as-ai-memory-arms-race-intensifies",
+      "https://www.tomshardware.com/tech-industry/semiconductors/micron-says-the-silicon-gap-between-hbm-and-ddr5-is-widening-with-every-generation",
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten",
+      "https://www.tomshardware.com/tech-industry/samsung-earns-nvidias-certification-for-its-hbm3-memory-stock-jumps-5-percent-as-company-finally-catches-up-to-sk-hynix-and-micron-in-hbm3e-production",
+      "https://www.tomshardware.com/pc-components/dram/samsung-to-adopt-hybrid-bonding-for-hbm4-memory",
+      "https://www.tomshardware.com/pc-components/ram/ymtc-partners-with-cxmt-for-hbm",
+      "https://www.tomshardware.com/pc-components/dram/sk-hynix-to-spend-usd13-billion-on-the-worlds-largest-hbm-memory-assembly-plant",
+      "https://www.tomshardware.com/tech-industry/semiconductors/samsung-shows-first-hbm5-mockup-at-computex-with-heat-path-block-cooling",
+      "https://www.tomshardware.com/tech-industry/sk-hynix-passes-samsung-as-south-koreas-most-valuable-company-on-hbm-demand",
+      "https://www.tomshardware.com/tech-industry/sk-hynix-to-build-first-us-2-5d-packaging-plant-for-hbm",
+      "https://www.tomshardware.com/pc-components/dram/sandisks-new-hbf-memory-enables-up-to-4tb-of-vram-on-gpus-matches-hbm-bandwidth-at-higher-capacity"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+
+> nexoracomic@0.1.0 lint
+> eslint
+
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\app\[category]\[slug]\page.tsx
+  206:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\components\ArticleCard.tsx
+   16:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+   53:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  105:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\components\Logo.tsx
+  18:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\lib\auto\image-finder.mjs
+  354:1  warning  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\lib\auto\pipeline.mjs
+  244:2  error  Parsing error: Declaration or statement expected
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\lib\auto\publisher.mjs
+  15:10  warning  'getArticles' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\scripts\_task10_audit_sources.mjs
+  15:26  warning  'hasQuery' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  20:9   warning  'host' is assigned a value but never used      @typescript-eslint/no-unused-vars
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\scripts\_task10_context.cjs
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\scripts\auto-run.mjs
+  43:11  warning  'resume' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\scripts\build.js
+  1:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\scripts\find-commons-images.mjs
+  122:9  warning  'onlyIds' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\scripts\setup-scheduler.mjs
+  5:22  warning  'mkdirSync' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\dizzritimia\CascadeProjects\nexoracomic\scripts\task8_audit.js
+   1:12  error    A `require()` style import is forbidden                @typescript-eslint/no-require-imports
+   2:14  error    A `require()` style import is forbidden                @typescript-eslint/no-require-imports
+  24:3   warning  'articleIdCounter' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Ô£û 18 problems (5 errors, 13 warnings)
+
+

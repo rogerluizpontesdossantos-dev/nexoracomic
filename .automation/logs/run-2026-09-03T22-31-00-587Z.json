@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "published": true,
+  "articleId": "105",
+  "title": "Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar",
+  "slug": "rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105",
+  "source": "adrenaline.com.br",
+  "timestamp": "2026-09-03T22:31:00.586Z",
+  "log": [
+    "[pipeline] Início — 2026-09-03T22:30:58.849Z",
+    "[pipeline] Modo: PUBLICAÇÃO",
+    "[pipeline] Artigos no acervo: 104",
+    "[pipeline] Pautas já publicadas (state): 0",
+    "[pipeline] Buscando feeds...",
+    "[pipeline] Itens encontrados: 36",
+    "[pipeline] Selecionando melhor pauta...",
+    "[pipeline] Pauta selecionada: \"Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar\" (score 90, tier 3, confirmed)",
+    "[pipeline] Fonte: adrenaline.com.br — https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/",
+    "[pipeline] Próximo ID: 105",
+    "[pipeline] Artigo gerado: \"Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar\" (slug: rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105)",
+    "[pipeline] Tags: GTA 6, Rockstar Games, games",
+    "[pipeline] Fontes: https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/",
+    "[pipeline] Artigo inserido em lib/articles.ts",
+    "[pipeline] State atualizado"
+  ]
+}

@@ -1,0 +1,582 @@
+[
+  {
+    "articleId": "1",
+    "articleTitle": "IBM Quantum Computing",
+    "sourceTitle": "Google Quantum AI",
+    "oldUrl": "https://quantumai.google/",
+    "action": "kept_generic",
+    "newUrl": "https://quantumai.google/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "National Sleep Foundation",
+    "sourceTitle": "National Sleep Foundation",
+    "oldUrl": "https://www.sleepfoundation.org/",
+    "action": "kept_generic",
+    "newUrl": "https://www.sleepfoundation.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NVIDIA - What Is Ray Tracing?",
+    "sourceTitle": "SIGGRAPH - Ray Tracing in Real-Time",
+    "oldUrl": "https://www.siggraph.org/",
+    "action": "kept_generic",
+    "newUrl": "https://www.siggraph.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "MIT Technology Review - The Future of Game AI",
+    "sourceTitle": "MIT Technology Review - The Future of Game AI",
+    "oldUrl": "https://www.technologyreview.com/",
+    "action": "kept_generic",
+    "newUrl": "https://www.technologyreview.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "MIT Technology Review - The Future of Game AI",
+    "sourceTitle": "DeepMind - AI for Games",
+    "oldUrl": "https://deepmind.google/",
+    "action": "kept_generic",
+    "newUrl": "https://deepmind.google/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA - Science Fiction and Science Fact",
+    "sourceTitle": "NASA - Science Fiction and Science Fact",
+    "oldUrl": "https://www.nasa.gov/",
+    "action": "kept_generic",
+    "newUrl": "https://www.nasa.gov/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA - Science Fiction and Science Fact",
+    "sourceTitle": "Event Horizon Telescope - Black Hole Image",
+    "oldUrl": "https://eventhorizontelescope.org/",
+    "action": "kept_generic",
+    "newUrl": "https://eventhorizontelescope.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NIH - How Gene Editing Works",
+    "sourceTitle": "NIH - How Gene Editing Works",
+    "oldUrl": "https://www.nih.gov/",
+    "action": "kept_generic",
+    "newUrl": "https://www.nih.gov/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "National Sleep Foundation",
+    "sourceTitle": "National Sleep Foundation",
+    "oldUrl": "https://www.sleepfoundation.org/",
+    "action": "kept_generic",
+    "newUrl": "https://www.sleepfoundation.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "National Sleep Foundation",
+    "sourceTitle": "Harvard Health - Body and Health",
+    "oldUrl": "https://www.health.harvard.edu/",
+    "action": "kept_generic",
+    "newUrl": "https://www.health.harvard.edu/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "IEEE - Smart Cities",
+    "sourceTitle": "IEEE - Smart Cities",
+    "oldUrl": "https://www.ieee.org/",
+    "action": "kept_generic",
+    "newUrl": "https://www.ieee.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "IEEE - Smart Cities",
+    "sourceTitle": "European Commission - Smart Cities",
+    "oldUrl": "https://smart-cities-marketplace.ec.europa.eu/",
+    "action": "kept_generic",
+    "newUrl": "https://smart-cities-marketplace.ec.europa.eu/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ITER - The Way to New Energy",
+    "sourceTitle": "ITER - The Way to New Energy",
+    "oldUrl": "https://www.iter.org/",
+    "action": "kept_generic",
+    "newUrl": "https://www.iter.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ITER - The Way to New Energy",
+    "sourceTitle": "IAEA - Nuclear Fusion",
+    "oldUrl": "https://www.iaea.org/",
+    "action": "kept_generic",
+    "newUrl": "https://www.iaea.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "CISA - Cybersecurity Tips",
+    "sourceTitle": "CISA - Cybersecurity Tips",
+    "oldUrl": "https://www.cisa.gov/",
+    "action": "kept_generic",
+    "newUrl": "https://www.cisa.gov/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "CISA - Cybersecurity Tips",
+    "sourceTitle": "NCSC - Cyber Aware",
+    "oldUrl": "https://www.ncsc.gov.uk/",
+    "action": "kept_generic",
+    "newUrl": "https://www.ncsc.gov.uk/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "World Health Organization - AI in Health",
+    "sourceTitle": "World Health Organization - AI in Health",
+    "oldUrl": "https://www.who.int/",
+    "action": "kept_generic",
+    "newUrl": "https://www.who.int/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NIH - What are Genome Editing and CRISPR-Cas9?",
+    "sourceTitle": "NIH - What are Genome Editing and CRISPR-Cas9?",
+    "oldUrl": "https://www.genome.gov/",
+    "action": "kept_generic",
+    "newUrl": "https://www.genome.gov/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA - James Webb Space Telescope",
+    "sourceTitle": "STScI - Webb Science",
+    "oldUrl": "https://www.stsci.edu/",
+    "action": "kept_generic",
+    "newUrl": "https://www.stsci.edu/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA Exoplanet Exploration",
+    "sourceTitle": "NASA Exoplanet Archive",
+    "oldUrl": "https://exoplanetarchive.ipac.caltech.edu/",
+    "action": "kept_generic",
+    "newUrl": "https://exoplanetarchive.ipac.caltech.edu/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NIH - Human Microbiome Project",
+    "sourceTitle": "NIH - Human Microbiome Project",
+    "oldUrl": "https://www.hmpdacc.org/",
+    "action": "kept_generic",
+    "newUrl": "https://www.hmpdacc.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Meta Quest - How VR Works",
+    "sourceTitle": "IEEE - Virtual and Augmented Reality",
+    "oldUrl": "https://spectrum.ieee.org/",
+    "action": "kept_generic",
+    "newUrl": "https://spectrum.ieee.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "UNESCO - Ethics of Artificial Intelligence",
+    "sourceTitle": "EU - AI Act",
+    "oldUrl": "https://artificialintelligenceact.eu/",
+    "action": "kept_generic",
+    "newUrl": "https://artificialintelligenceact.eu/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Autodesk - VFX and Animation Tools",
+    "sourceTitle": "Autodesk - VFX and Animation Tools",
+    "oldUrl": "https://www.autodesk.com/",
+    "action": "kept_generic",
+    "newUrl": "https://www.autodesk.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Autodesk - VFX and Animation Tools",
+    "sourceTitle": "CGSociety - Computer Graphics Society",
+    "oldUrl": "https://cgsociety.org/",
+    "action": "kept_generic",
+    "newUrl": "https://cgsociety.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Autodesk - VFX and Animation Tools",
+    "sourceTitle": "ACM SIGGRAPH",
+    "oldUrl": "https://www.siggraph.org/",
+    "action": "kept_generic",
+    "newUrl": "https://www.siggraph.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Unreal Engine - Official Site",
+    "sourceTitle": "Unreal Engine - Official Site",
+    "oldUrl": "https://www.unrealengine.com/",
+    "action": "kept_generic",
+    "newUrl": "https://www.unrealengine.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Unreal Engine - Official Site",
+    "sourceTitle": "Unity - Real-Time Development Platform",
+    "oldUrl": "https://unity.com/",
+    "action": "kept_generic",
+    "newUrl": "https://unity.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Unreal Engine - Official Site",
+    "sourceTitle": "NVIDIA - Developer Graphics",
+    "oldUrl": "https://developer.nvidia.com/",
+    "action": "kept_generic",
+    "newUrl": "https://developer.nvidia.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NVIDIA GeForce NOW",
+    "sourceTitle": "IEEE - Cloud Gaming Latency Studies",
+    "oldUrl": "https://spectrum.ieee.org/",
+    "action": "kept_generic",
+    "newUrl": "https://spectrum.ieee.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NIH - Wearable Health Devices",
+    "sourceTitle": "NIH - Wearable Health Devices",
+    "oldUrl": "https://www.nih.gov/",
+    "action": "kept_generic",
+    "newUrl": "https://www.nih.gov/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NIH - Wearable Health Devices",
+    "sourceTitle": "IEEE - Wearables Standards",
+    "oldUrl": "https://standards.ieee.org/",
+    "action": "kept_generic",
+    "newUrl": "https://standards.ieee.org/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Reuters - Nvidia to invest $3.5 billion in chipmaker MediaTek",
+    "sourceTitle": "NVIDIA Newsroom",
+    "oldUrl": "https://nvidianews.nvidia.com",
+    "action": "kept_generic",
+    "newUrl": "https://nvidianews.nvidia.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Tom\\",
+    "sourceTitle": "Club386 - Regular Nvidia GeForce RTX 5090 cards sail beyond $5,090",
+    "oldUrl": "https://www.club386.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.club386.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Tom\\",
+    "sourceTitle": "TweakTown - Your next Nvidia GPU could cost up to 30% more",
+    "oldUrl": "https://www.tweaktown.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.tweaktown.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Samsung - Odyssey G8 6K Monitor Announcement",
+    "sourceTitle": "MSI - Odyssey OLED G8 Pricing Announcement",
+    "oldUrl": "https://www.msi.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.msi.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Samsung - FMS 2026 Next-Gen 3D-Memory Vision",
+    "sourceTitle": "Business Wire - Samsung Unveils Next-Gen 3D-Memory Vision",
+    "oldUrl": "https://www.businesswire.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.businesswire.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Bleeping Computer - Microsoft confirms outage affecting search in M365 apps",
+    "sourceTitle": "Microsoft 365 Service Status",
+    "oldUrl": "https://status.microsoft.com",
+    "action": "kept_generic",
+    "newUrl": "https://status.microsoft.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA - Nancy Grace Roman Space Telescope",
+    "sourceTitle": "NASA - Nancy Grace Roman Space Telescope",
+    "oldUrl": "https://roman.gsfc.nasa.gov",
+    "action": "kept_generic",
+    "newUrl": "https://roman.gsfc.nasa.gov",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ComiXology - Official Site",
+    "sourceTitle": "ComiXology - Official Site",
+    "oldUrl": "https://www.comixology.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.comixology.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Marvel - Official Site",
+    "sourceTitle": "Marvel - Official Site",
+    "oldUrl": "https://www.marvel.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.marvel.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Marvel - Official Site",
+    "sourceTitle": "DC Comics - Official Site",
+    "oldUrl": "https://www.dc.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.dc.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NOAA - Ocean exploration and research",
+    "sourceTitle": "NOAA - Ocean exploration and research",
+    "oldUrl": "https://oceanexplorer.noaa.gov",
+    "action": "kept_generic",
+    "newUrl": "https://oceanexplorer.noaa.gov",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ITER - International Fusion Energy Organization",
+    "sourceTitle": "ITER - International Fusion Energy Organization",
+    "oldUrl": "https://www.iter.org",
+    "action": "kept_generic",
+    "newUrl": "https://www.iter.org",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "DC Comics - Notícias Oficiais",
+    "sourceTitle": "DC Studios - Universo DC",
+    "oldUrl": "https://www.dcstudios.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.dcstudios.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Max - Plataforma de Streaming",
+    "sourceTitle": "Max - Plataforma de Streaming",
+    "oldUrl": "https://www.max.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.max.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Max - Plataforma de Streaming",
+    "sourceTitle": "Max - Plataforma de Streaming",
+    "oldUrl": "https://www.max.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.max.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Disney+ - Plataforma",
+    "sourceTitle": "Disney+ - Plataforma",
+    "oldUrl": "https://www.disneyplus.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.disneyplus.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Disney+ - Plataforma",
+    "sourceTitle": "StarWars.com - Notícias",
+    "oldUrl": "https://www.starwars.com",
+    "action": "kept_generic",
+    "newUrl": "https://www.starwars.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Disney+ - Plataforma",
+    "sourceTitle": "Disney+ - Plataforma",
+    "oldUrl": "https://press.disneyplus.com",
+    "action": "kept_generic",
+    "newUrl": "https://press.disneyplus.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Disney+ - Plataforma",
+    "sourceTitle": "The Walt Disney Company - Notícias",
+    "oldUrl": "https://thewaltdisneycompany.com",
+    "action": "kept_generic",
+    "newUrl": "https://thewaltdisneycompany.com",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date",
+    "sourceTitle": "Variety - Cobertura de Star Wars",
+    "oldUrl": "https://variety.com/",
+    "action": "kept_generic",
+    "newUrl": "https://variety.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "The Verge - Gaming",
+    "sourceTitle": "Xbox Wire - Notícias oficiais",
+    "oldUrl": "https://news.xbox.com/",
+    "action": "kept_generic",
+    "newUrl": "https://news.xbox.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "IGN - Notícias",
+    "sourceTitle": "PlayStation - Site oficial",
+    "oldUrl": "https://blog.playstation.com/",
+    "action": "kept_generic",
+    "newUrl": "https://blog.playstation.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NVIDIA Newsroom - NVIDIA to Acquire Hugging Face",
+    "sourceTitle": "NVIDIA Newsroom - NVIDIA to Acquire Hugging Face",
+    "oldUrl": "https://nvidianews.nvidia.com/",
+    "action": "kept_generic",
+    "newUrl": "https://nvidianews.nvidia.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole",
+    "sourceTitle": "ScienceDaily - Top Science News",
+    "oldUrl": "https://www.sciencedaily.com/",
+    "action": "kept_generic",
+    "newUrl": "https://www.sciencedaily.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "PlayStation.Blog - State of Play & State of Play Japan: all announcements",
+    "sourceTitle": "PlayStation.Blog - State of Play & State of Play Japan: all announcements",
+    "oldUrl": "https://blog.playstation.com/",
+    "action": "kept_generic",
+    "newUrl": "https://blog.playstation.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027",
+    "sourceTitle": "PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027",
+    "oldUrl": "https://blog.playstation.com/",
+    "action": "kept_generic",
+    "newUrl": "https://blog.playstation.com/",
+    "reason": "Homepage mantida por falta de alternativa específica equivalente confirmada (qualidade > quantidade / regra 11)",
+    "status": "validated"
+  }
+]

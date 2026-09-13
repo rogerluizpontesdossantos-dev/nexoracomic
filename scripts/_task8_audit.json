@@ -1,0 +1,852 @@
+{
+  "totalArticles": 105,
+  "blackHoleM87Count": 0,
+  "blackHoleM87Occurrences": [],
+  "wikimediaImages": [
+    {
+      "articleId": "31",
+      "title": "NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gráficos dos Jogos",
+      "category": "games",
+      "slug": "dlss-5-revolucao-dos-graficos",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG/1280px-ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG",
+      "imageAlt": "Placa de vídeo NVIDIA GeForce sobre fundo neutro"
+    },
+    {
+      "articleId": "32",
+      "title": "DLSS 5 Está Dividindo os Jogadores: Avanço Gráfico ou IA Demais nos Games?",
+      "category": "games",
+      "slug": "dlss-5-dividindo-os-jogadores",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Asus-ROG-Strix-Z390-F-Gaming-Motherboard_20201120_DSC6025.jpg/1280px-Asus-ROG-Strix-Z390-F-Gaming-Motherboard_20201120_DSC6025.jpg",
+      "imageAlt": "Computador gamer com gabinete e componentes iluminados"
+    },
+    {
+      "articleId": "33",
+      "title": "Claude 5 da Anthropic: Como Fable e Mythos Estão Redefinindo a IA",
+      "category": "inteligencia-artificial",
+      "slug": "anthropic-claude-5-fable-mythos",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
+      "imageAlt": "Corredor de servidores de data center com luzes de status"
+    },
+    {
+      "articleId": "34",
+      "title": "NVIDIA Investe Bilhões na MediaTek para Acelerar a Próxima Geração de IA",
+      "category": "inteligencia-artificial",
+      "slug": "nvidia-inviste-bilhoes-mediatek",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/12-inch_silicon_wafer.jpg/1280px-12-inch_silicon_wafer.jpg",
+      "imageAlt": "Wafer de silício de 12 polegadas usado na fabricação de chips"
+    },
+    {
+      "articleId": "35",
+      "title": "RTX 5090 Dispara de Preço: Por Que as Placas de Vídeo Topo de Linha Ficaram Tão Caras?",
+      "category": "games",
+      "slug": "rtx-5090-por-que-esta-tao-cara",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG/1280px-ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG",
+      "imageAlt": "Placa de vídeo NVIDIA GeForce com saída HDMI"
+    },
+    {
+      "articleId": "36",
+      "title": "PCs Gamers Podem Virar Máquinas de IA: A Nova Ideia que Aproveita GPUs Ociosas",
+      "category": "inteligencia-artificial",
+      "slug": "pcs-gamers-viram-maquinas-de-ia",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Sapphire-Radeon-HD-5570-Video-Card.jpg/1280px-Sapphire-Radeon-HD-5570-Video-Card.jpg",
+      "imageAlt": "Placa de vídeo instalada em placa-mãe de computador"
+    },
+    {
+      "articleId": "37",
+      "title": "Nova Geração de Monitores OLED para Gamers: 4K, Alta Taxa e Velocidade Extrema",
+      "category": "games",
+      "slug": "monitores-oled-gamers-nova-geracao",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Computer_desk.jpg",
+      "imageAlt": "Mesa de trabalho com monitor de computador e teclado"
+    },
+    {
+      "articleId": "38",
+      "title": "Samsung Prepara Nova Geração de Memória HBM com Computação Integrada",
+      "category": "tecnologia",
+      "slug": "samsung-hbm-proxima-geracao",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/RAM_%281%29.jpg/1280px-RAM_%281%29.jpg",
+      "imageAlt": "Módulos de memória RAM vista de perto"
+    },
+    {
+      "articleId": "39",
+      "title": "Instagram Aperta as Regras para Perfis Criados com Inteligência Artificial",
+      "category": "inteligencia-artificial",
+      "slug": "instagram-regras-para-perfis-de-ia",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Samsung_Focus_and_Google_Nexus_S.jpg/1280px-Samsung_Focus_and_Google_Nexus_S.jpg",
+      "imageAlt": "Dois smartphones exibindo aplicativos na tela"
+    },
+    {
+      "articleId": "40",
+      "title": "Microsoft 365 Enfrenta Instabilidade: O Que Aconteceu",
+      "category": "tecnologia",
+      "slug": "microsoft-365-instabilidade",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/6/67/One_Microsoft_Way_%285536765210%29.jpg",
+      "imageAlt": "Sede da Microsoft em Redmond, One Microsoft Way"
+    },
+    {
+      "articleId": "41",
+      "title": "Telescópio Espacial Roman: A Nova Era de Observação do Universo",
+      "category": "espaco",
+      "slug": "telescopio-especial-roman-nova-era-observacao",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Flagstaff-Lowell_Observatory-1894-The_Clark_Telescope_Dome_on_Mars_Hill.jpg/1280px-Flagstaff-Lowell_Observatory-1894-The_Clark_Telescope_Dome_on_Mars_Hill.jpg",
+      "imageAlt": "Cúpula do telescópio Clark do Observatório Lowell"
+    },
+    {
+      "articleId": "42",
+      "title": "Artemis: O Caminho de Volta à Lua Passa por Grandes Desafios",
+      "category": "espaco",
+      "slug": "artemis-caminho-de-volta-a-lua",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Launch_of_Artemis_1_%28NHQ202211160005%29_%28cropped%29.jpg/1280px-Launch_of_Artemis_1_%28NHQ202211160005%29_%28cropped%29.jpg",
+      "imageAlt": "Lançamento da missão Artemis 1 da NASA"
+    },
+    {
+      "articleId": "43",
+      "title": "IA na Medicina: O Avanço da Detecção Precoce de Doenças",
+      "category": "inteligencia-artificial",
+      "slug": "ia-medicina-detecao-precoce-de-doencas",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/MRI-Philips.JPG/1280px-MRI-Philips.JPG",
+      "imageAlt": "Aparelho de ressonância magnética em hospital"
+    },
+    {
+      "articleId": "44",
+      "title": "Ética e Vieses: Os Grandes Desafios da Inteligência Artificial em 2026",
+      "category": "inteligencia-artificial",
+      "slug": "etica-e-vieses-ia-os-desafios-da-inteligencia-artificial",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bologna_museum%2C_pier_paolo_delle_masegne%2C_sette_statue_della_giustizia_con_santi_protettori%2C_dalla_loggia_della_mercanzia_02.JPG/1280px-Bologna_museum%2C_pier_paolo_delle_masegne%2C_sette_statue_della_giustizia_con_santi_protettori%2C_dalla_loggia_della_mercanzia_02.JPG",
+      "imageAlt": "Esculturas da justiça com balança na Loggia della Mercanzia"
+    },
+    {
+      "articleId": "45",
+      "title": "Computação Quântica em 2026: Avanços Reais e Desafios Ainda Longe de Acabar",
+      "category": "tecnologia",
+      "slug": "computacao-quantica-2026-avancos-e-desafios",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Quantum-computer-Chalmers_2017.jpg/1280px-Quantum-computer-Chalmers_2017.jpg",
+      "imageAlt": "Computador quântico em laboratório de pesquisa"
+    },
+    {
+      "articleId": "46",
+      "title": "5G Avançado e 6G: O Que Vem depois da Revolução da Conectividade",
+      "category": "tecnologia",
+      "slug": "5g-6g-a-proxima-era-da-conectividade",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/5G_cell_tower.JPG/1280px-5G_cell_tower.JPG",
+      "imageAlt": "Torre de celular 5G contra o céu"
+    },
+    {
+      "articleId": "47",
+      "title": "Microbioma Intestinal: As Bactérias Que Influenciam o Corpo Inteiro",
+      "category": "ciencia",
+      "slug": "microbioma-intestinal-bacterias-que-controlam-o-corpo",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Escherichia_coli_%28SEM%29.jpg/1280px-Escherichia_coli_%28SEM%29.jpg",
+      "imageAlt": "Micrografia eletrônica da bactéria Escherichia coli"
+    },
+    {
+      "articleId": "48",
+      "title": "CERN e o Futuro da Física de Partículas: O Que Vem Depois do LHC",
+      "category": "ciencia",
+      "slug": "cern-novas-particulas-e-o-futuro-da-fisica",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Inside_the_CERN_LHC_tunnel.jpg/1280px-Inside_the_CERN_LHC_tunnel.jpg",
+      "imageAlt": "Interior do túnel do LHC no CERN"
+    },
+    {
+      "articleId": "49",
+      "title": "IA Generativa no Design de Games: Como a Tecnologia Está Mudando a Criação de Jogos",
+      "category": "games",
+      "slug": "ia-generativa-no-design-de-games",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg/1280px-Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg",
+      "imageAlt": "Console Nintendo Switch com Joy-Cons na base"
+    },
+    {
+      "articleId": "50",
+      "title": "Cloud Gaming em 2026: O Jogar na Nuvem Finalmente Amadureceu?",
+      "category": "games",
+      "slug": "cloud-gaming-2026-jogar-na-nuvem",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Wikimedia_Foundation_Servers-8055_13.jpg/1280px-Wikimedia_Foundation_Servers-8055_13.jpg",
+      "imageAlt": "Racks de servidores do data center da Wikimedia Foundation"
+    },
+    {
+      "articleId": "51",
+      "title": "O Futuro do Streaming em 2026: Consolidação e Novos Modelos",
+      "category": "filmes-series",
+      "slug": "futuro-do-streaming-2026-consolidacao",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/TV_remote_control_in_hand.jpg/1280px-TV_remote_control_in_hand.jpg",
+      "imageAlt": "Controle remoto de TV segurado em direção à televisão"
+    },
+    {
+      "articleId": "52",
+      "title": "IA no Cinema: Como a Inteligência Artificial Transforma os Bastidores",
+      "category": "filmes-series",
+      "slug": "ia-no-cinema-transformando-os-bastidores",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Camera_set_-_Army_wives.JPG/1280px-Camera_set_-_Army_wives.JPG",
+      "imageAlt": "Câmera de cinema em set de filmagem"
+    },
+    {
+      "articleId": "53",
+      "title": "HQs Digitais: O Streaming de Quadrinhos Chega à Maturidade",
+      "category": "quadrinhos",
+      "slug": "hqs-digitais-streaming-de-quadrinhos",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/8/81/The_Moon_Reader_%2815193778026%29.jpg",
+      "imageAlt": "Pessoa lendo em leitor digital em ambiente escuro"
+    },
+    {
+      "articleId": "54",
+      "title": "Superpoderes e Ciência Real: A Física Por Trás dos Quadrinhos",
+      "category": "quadrinhos",
+      "slug": "superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Plasma-lamp.jpg/1280px-Plasma-lamp.jpg",
+      "imageAlt": "Lâmpada de plasma com descargas elétricas roxas"
+    },
+    {
+      "articleId": "55",
+      "title": "Oceanos Profundos: O Que Ainda Não Conhecemos do Fundo do Mar",
+      "category": "curiosidades",
+      "slug": "oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Shortnose_greeneye_Chlorophthalmus_agassizi.jpg/1280px-Shortnose_greeneye_Chlorophthalmus_agassizi.jpg",
+      "imageAlt": "Peixe de profundidade Chlorophthalmus agassizi"
+    },
+    {
+      "articleId": "56",
+      "title": "A Matemática do Universo: Os Padrões Escondidos na Natureza",
+      "category": "curiosidades",
+      "slug": "matematica-do-universo-padroes-escondidos-na-natureza",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/1280px-NautilusCutawayLogarithmicSpiral.jpg",
+      "imageAlt": "Corte de concha de náutilo mostrando espiral logarítmica"
+    },
+    {
+      "articleId": "57",
+      "title": "Computação Vestível: O Futuro dos Gadgets que Usamos no Corpo",
+      "category": "futuro",
+      "slug": "computacao-wearable-gadgets-que-usamos-no-corpo",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Child%27s_phone_watch_%28smartwatch%29_in_China_%28boy%29.jpg/1280px-Child%27s_phone_watch_%28smartwatch%29_in_China_%28boy%29.jpg",
+      "imageAlt": "Criança usando relógio inteligente no pulso"
+    },
+    {
+      "articleId": "58",
+      "title": "Energia de Fusão: Os Avanços Rumo à Energia Limpa Ilimitada",
+      "category": "futuro",
+      "slug": "energia-de-fusao-avancos-rumo-a-energia-limpa",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/4/49/Tokamak_schematic_Smith.jpg",
+      "imageAlt": "Esquema de tokamak para fusão nuclear"
+    },
+    {
+      "articleId": "59",
+      "title": "Marvel: As Principais Novidades que Estão Movimentando o Universo dos Heróis em 2026",
+      "category": "quadrinhos",
+      "slug": "marvel-novidades-universo-dos-herois-2026",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Comic_book_shop_Blunder_Utrecht.JPG/1280px-Comic_book_shop_Blunder_Utrecht.JPG",
+      "imageAlt": "Loja de quadrinhos com estantes cheias de revistas"
+    },
+    {
+      "articleId": "60",
+      "title": "Spider-Man: Novas Histórias e o Futuro do Herói nos Quadrinhos da Marvel",
+      "category": "quadrinhos",
+      "slug": "spider-man-historia-futuro-nos-quadrinhos-da-marvel",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Fantomcomicsunionstation.JPG/1280px-Fantomcomicsunionstation.JPG",
+      "imageAlt": "Interior de loja de quadrinhos com estantes de revistas"
+    },
+    {
+      "articleId": "61",
+      "title": "Avengers: O Que Esperar da Nova Fase do Universo Marvel",
+      "category": "filmes-series",
+      "slug": "avengers-nova-fase-universo-marvel",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Detail_in_auditorium_at_the_Perot_Theatre%2C_a_landmark_since_1924%2C_when_it_opened_as_the_Saenger_Amusement_Company%27s_%22Gateway_to_the_West%22_movie_theater_in_Texarkana%2C_Texas_LCCN2014630212.tif/lossy-page1-1280px-thumbnail.tif.jpg",
+      "imageAlt": "Interior de auditório de teatro histórico nos Estados Unidos"
+    },
+    {
+      "articleId": "62",
+      "title": "DC Comics: A Nova Fase dos Heróis Que Está Chamando Atenção em 2026",
+      "category": "quadrinhos",
+      "slug": "dc-comics-nova-fase-dos-herois-2026",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Sriss_Comic-Book_Store_NTU_Branch_20131027.jpg/1280px-Sriss_Comic-Book_Store_NTU_Branch_20131027.jpg",
+      "imageAlt": "Loja de quadrinhos com prateleiras de revistas"
+    },
+    {
+      "articleId": "63",
+      "title": "Superman e o Futuro do Homem de Aço no Universo da DC",
+      "category": "quadrinhos",
+      "slug": "superman-futuro-homem-de-aco-universo-dc",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Superman_cosplay_%28Behind_the_Scenes%29.jpg",
+      "imageAlt": "Cosplay do Superman em convenção"
+    },
+    {
+      "articleId": "64",
+      "title": "Batman: Novas Histórias e Desafios Para o Cavaleiro das Trevas",
+      "category": "quadrinhos",
+      "slug": "batman-novas-historias-desafios-cavaleiro-das-trevas",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Cosplay_of_The_Batman_Who_Laughs_at_GalaxyCon_Richmond_2020_%2849666537166%29.jpg/1280px-Cosplay_of_The_Batman_Who_Laughs_at_GalaxyCon_Richmond_2020_%2849666537166%29.jpg",
+      "imageAlt": "Cosplay do Batman em convenção de quadrinhos"
+    },
+    {
+      "articleId": "65",
+      "title": "HBO Max: Os Lançamentos Geek que Prometem Dominar o Streaming em 2026",
+      "category": "filmes-series",
+      "slug": "hbo-max-lancamentos-geek-2026",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/CRT_Television_Screen.jpg/1280px-CRT_Television_Screen.jpg",
+      "imageAlt": "Tela de televisão de tubo em close"
+    },
+    {
+      "articleId": "66",
+      "title": "O Terror das Backrooms Chega ao Streaming e Transforma uma Lenda da Internet em Filme",
+      "category": "filmes-series",
+      "slug": "backrooms-lenda-da-internet-chega-ao-streaming",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Vincent_van_Gogh_-_Corridor_in_the_Asylum.jpg/1280px-Vincent_van_Gogh_-_Corridor_in_the_Asylum.jpg",
+      "imageAlt": "Corredor vazio pintado por Vincent van Gogh"
+    },
+    {
+      "articleId": "67",
+      "title": "As Séries de Fantasia e Ficção Científica que Estão Ganhando Destaque na HBO Max",
+      "category": "filmes-series",
+      "slug": "series-fantasia-ficcao-cientifica-em-destaque-na-hbo-max",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Milky_Way_IR_Spitzer.jpg/1280px-Milky_Way_IR_Spitzer.jpg",
+      "imageAlt": "Imagem da Via Láctea em infravermelho pelo telescópio Spitzer"
+    },
+    {
+      "articleId": "68",
+      "title": "Netflix: As Principais Novidades Geek que Chegam ao Catálogo em 2026",
+      "category": "filmes-series",
+      "slug": "netflix-novidades-geek-catalogo-2026",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/AverMedia_RM-RH_Remote_control_%28white_background%29_edit.jpg/1280px-AverMedia_RM-RH_Remote_control_%28white_background%29_edit.jpg",
+      "imageAlt": "Controle remoto universal sobre fundo branco"
+    },
+    {
+      "articleId": "69",
+      "title": "Resident Evil: O Retorno da Franquia e o Que Esperar da Nova Adaptação",
+      "category": "filmes-series",
+      "slug": "resident-evil-retorno-da-franquia-nova-adaptacao",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Abandoned_hospital%2C_Gibraltar.JPG/1280px-Abandoned_hospital%2C_Gibraltar.JPG",
+      "imageAlt": "Hospital abandonado com corredores vazios"
+    },
+    {
+      "articleId": "70",
+      "title": "As Séries de Ficção Científica e Fantasia Mais Aguardadas da Netflix",
+      "category": "filmes-series",
+      "slug": "series-ficcao-cientifica-fantasia-mais-aguardadas-netflix",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/New_York_City_at_night_HDR.jpg/1280px-New_York_City_at_night_HDR.jpg",
+      "imageAlt": "Vista aérea de Manhattan à noite"
+    },
+    {
+      "articleId": "71",
+      "title": "Disney+: As Novidades de Marvel e Star Wars que Movimentam o Streaming em 2026",
+      "category": "filmes-series",
+      "slug": "disney-plus-novidades-marvel-star-wars-2026",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Disneyland_Castle_Sleeping_Beauty_at_night.jpg/1280px-Disneyland_Castle_Sleeping_Beauty_at_night.jpg",
+      "imageAlt": "Castelo da Bela Adormecida na Disneylândia à noite"
+    },
+    {
+      "articleId": "72",
+      "title": "The Mandalorian e Grogu: O Futuro de Star Wars Após a Nova Fase da Franquia",
+      "category": "filmes-series",
+      "slug": "the-mandalorian-e-grogu-futuro-de-star-wars",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Wadi_rum_desert.jpg/1280px-Wadi_rum_desert.jpg",
+      "imageAlt": "Deserto de Wadi Rum com dunas vermelhas"
+    },
+    {
+      "articleId": "73",
+      "title": "Disney: Como Marvel, Star Wars e Novas Franquias Estão Moldando o Entretenimento Geek",
+      "category": "filmes-series",
+      "slug": "disney-marvel-star-wars-novas-franquias-entretenimento-geek",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fireworks_at_Disneyland_in_Anaheim%2C_California_2005.jpg/1280px-Fireworks_at_Disneyland_in_Anaheim%2C_California_2005.jpg",
+      "imageAlt": "Fogos de artifício sobre o castelo da Disneylândia"
+    },
+    {
+      "articleId": "74",
+      "title": "GTA VI: O Retorno Mais Aguardado de 2026 e Tudo o Que Sabemos Antes do Lançamento",
+      "category": "games",
+      "slug": "gta-vi-o-retorno-mais-aguardado-de-2026",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Downtown_Miami_skyline_20100305.jpg/1280px-Downtown_Miami_skyline_20100305.jpg",
+      "imageAlt": "Skyline do centro de Miami"
+    },
+    {
+      "articleId": "75",
+      "title": "Supergirl: Woman of Tomorrow — O Novo Filme da Garota de Aço no Universo da DC",
+      "category": "filmes-series",
+      "slug": "supergirl-woman-of-tomorrow-filme-do-novo-universo-dc",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Superhero_%285844866266%29.jpg/1280px-Superhero_%285844866266%29.jpg",
+      "imageAlt": "Cosplay de super-herói em convenção"
+    },
+    {
+      "articleId": "76",
+      "title": "Harry Potter: A Série do HBO Max Que Pretende Rebobinar a Fantasia na Televisão",
+      "category": "filmes-series",
+      "slug": "harry-potter-serie-hbo-max-reboot-fantasia",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Alnwick_Castle_02.jpg",
+      "imageAlt": "Castelo de Alnwick, locação de filmes de fantasia"
+    },
+    {
+      "articleId": "77",
+      "title": "The Witcher: A Temporada Final e o Futuro da Fantasia na Netflix",
+      "category": "filmes-series",
+      "slug": "the-witcher-temporada-final-netflix",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Knight-in-Shining-Armour.jpg/1280px-Knight-in-Shining-Armour.jpg",
+      "imageAlt": "Estátua de cavaleiro medieval com armadura brilhante"
+    },
+    {
+      "articleId": "78",
+      "title": "Welcome to Derry: A Série de Terror do Max Que Reconstrói o Universo de Stephen King",
+      "category": "filmes-series",
+      "slug": "welcome-to-derry-serie-terror-do-max",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Flickr_-_paul_bica_-_foggy_night.jpg/1280px-Flickr_-_paul_bica_-_foggy_night.jpg",
+      "imageAlt": "Rua iluminada à noite envolta em névoa"
+    },
+    {
+      "articleId": "79",
+      "title": "Ahsoka: Temporada 2 Ganha Teaser e Data de Estreia — O Que Sabemos",
+      "category": "filmes-series",
+      "slug": "ahsoka-temporada-2-teaser-e-data-de-estreia",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Messier-42-10.12.2004-filtered.jpeg",
+      "imageAlt": "Nebulosa de Órion fotografada com filtro"
+    },
+    {
+      "articleId": "80",
+      "title": "Star Wars: Starfighter: O Novo Filme da Saga Terá Ryan Gosling como Protagonista",
+      "category": "filmes-series",
+      "slug": "star-wars-starfighter-novo-filme-ryan-gosling",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Columbia.sts-1.01.jpg/1280px-Columbia.sts-1.01.jpg",
+      "imageAlt": "Columbia no lançamento da missão STS-1"
+    },
+    {
+      "articleId": "81",
+      "title": "Lanterns: A Série da HBO que Aproxima os Lanternas Verdes do Estilo True Detective",
+      "category": "filmes-series",
+      "slug": "lanterns-serie-hbo-dc-studios-hal-jordan-john-stewart",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Aurora_Borealis_and_Australis_Poster.jpg/1280px-Aurora_Borealis_and_Australis_Poster.jpg",
+      "imageAlt": "Aurora boreal em tons verdes sobre o céu noturno"
+    },
+    {
+      "articleId": "82",
+      "title": "Spider-Man: Brand New Day Está em Cartaz: O Novo Capítulo de Tom Holland nos Cinemas",
+      "category": "filmes-series",
+      "slug": "spider-man-brand-new-day-em-cartaz-2026",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Manhattan_from_Weehawken%2C_NJ.jpg/1280px-Manhattan_from_Weehawken%2C_NJ.jpg",
+      "imageAlt": "Skyline de Manhattan visto de Weehawken"
+    },
+    {
+      "articleId": "83",
+      "title": "Netflix em Setembro de 2026: os Destaques Geek do Mês no Streaming",
+      "category": "filmes-series",
+      "slug": "netflix-setembro-2026-destaques-geek",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Living_Room_1998_NOLA.jpg/1280px-Living_Room_1998_NOLA.jpg",
+      "imageAlt": "Sala de estar com televisão ligada"
+    },
+    {
+      "articleId": "84",
+      "title": "Coyote vs. Acme: a História do Filme que Foi Engavetado e Renasceu",
+      "category": "filmes-series",
+      "slug": "coyote-vs-acme-filme-do-looney-tunes",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Monumentvalley.jpg/1280px-Monumentvalley.jpg",
+      "imageAlt": "Formações rochosas do Monument Valley"
+    },
+    {
+      "articleId": "85",
+      "title": "Star Wars × Marvel: o Crossover Editorial que Une Duas Maiores Máquinas de Histórias",
+      "category": "quadrinhos",
+      "slug": "crossover-star-wars-marvel-comics-2026",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/b/b6/009_Anime_book_shop_in_Japan_-_book_store_in_Kyoto%2C_Japan.jpg",
+      "imageAlt": "Livraria de mangás e livros no Japão"
+    },
+    {
+      "articleId": "86",
+      "title": "Linha Absolute da DC: o Universo Paralelo que Redefiniu os Clássicos nos Quadrinhos",
+      "category": "quadrinhos",
+      "slug": "linha-absolute-dc-quadrinhos-2026",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/008_Anime_and_manga_bookshop_in_Japan_-_bookstore_in_Kyoto%2C_Japan.jpg/1280px-008_Anime_and_manga_bookshop_in_Japan_-_bookstore_in_Kyoto%2C_Japan.jpg",
+      "imageAlt": "Livraria de mangás e anime no Japão"
+    },
+    {
+      "articleId": "87",
+      "title": "DC em Setembro de 2026: Teen Titans #1 e as Novas Séries da Editora",
+      "category": "quadrinhos",
+      "slug": "dc-setembro-2026-teen-titans-novas-series",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Baltimore_Comic-Con_2011_-_G.I._Joe_Team_%286844241697%29.jpg/1280px-Baltimore_Comic-Con_2011_-_G.I._Joe_Team_%286844241697%29.jpg",
+      "imageAlt": "Grupo de cosplayers em convenção de quadrinhos"
+    },
+    {
+      "articleId": "88",
+      "title": "The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2",
+      "category": "games",
+      "slug": "the-duskbloods-fromsoftware-switch-2",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Bran_Castle_TB1.jpg/1280px-Bran_Castle_TB1.jpg",
+      "imageAlt": "Castelo de Bran, na Romênia, envolto em vegetação"
+    },
+    {
+      "articleId": "89",
+      "title": "Star Wars Zero Company: o Jogo de Táticas da BIT REACTOR Coloca Você no Comando",
+      "category": "games",
+      "slug": "star-wars-zero-company-jogo-estrategia",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/6mm_wargaming_paper_models_1-300scale.jpg/1280px-6mm_wargaming_paper_models_1-300scale.jpg",
+      "imageAlt": "Miniaturas de wargame em escala para jogo de táticas"
+    },
+    {
+      "articleId": "90",
+      "title": "The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia",
+      "category": "games",
+      "slug": "the-witcher-4-cd-projekt-red-nova-saga",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Sunrays_in_foggy_forest%2C_Ehrenbach.jpg/1280px-Sunrays_in_foggy_forest%2C_Ehrenbach.jpg",
+      "imageAlt": "Raios de sol atravessando floresta enevoada"
+    },
+    {
+      "articleId": "91",
+      "title": "Xbox Series X e os 25 Anos do Xbox: o que a Geração Atual Aprendeu com o Legado",
+      "category": "games",
+      "slug": "xbox-series-x-25-anos-celebracao",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Xbox-console.jpg/1280px-Xbox-console.jpg",
+      "imageAlt": "Console Xbox original em fundo neutro"
+    },
+    {
+      "articleId": "92",
+      "title": "PS5 Live TV: a Sony Transforma o Console em Central de Transmissões ao Vivo",
+      "category": "tecnologia",
+      "slug": "ps5-live-tv-sony-novo-recurso",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/8/88/Immagine_Playstation_5.jpg",
+      "imageAlt": "Console PlayStation 5 com controle"
+    },
+    {
+      "articleId": "93",
+      "title": "IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios",
+      "category": "inteligencia-artificial",
+      "slug": "ia-hollywood-google-suno-disputa-2026",
+      "currentImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ilm-Goethe-Park.JPG",
+      "imageAlt": "Parque com árvores e caminho gramado"
+    },
+    {
+      "articleId": "94",
+      "title": "BepiColombo Inicia a Chegada a Mercúrio: o Fim de uma Travessia de Oito Anos",
+      "category": "ciencia",
+      "slug": "bepicolombo-inicia-chegada-mercurio-2026",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/MESSENGER.jpg/1280px-MESSENGER.jpg",
+      "imageAlt": "Sonda MESSENGER da NASA a caminho de Mercúrio"
+    },
+    {
+      "articleId": "95",
+      "title": "NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA",
+      "category": "inteligencia-artificial",
+      "slug": "nvidia-compra-hugging-face-129-bilhoes-ia",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Two_JRC_RC4580_dual_op_amps_on_a_sound_card_PCB_%28144128909%29.jpg/1280px-Two_JRC_RC4580_dual_op_amps_on_a_sound_card_PCB_%28144128909%29.jpg",
+      "imageAlt": "Circuitos integrados em placa de som vista de perto"
+    },
+    {
+      "articleId": "96",
+      "title": "O Decágono de Saturno: Hubble Descobre Padrão Gigante no Polo Sul do Planeta",
+      "category": "espaco",
+      "slug": "hubble-decagono-polo-sul-saturno",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/1280px-Cassini_Saturn_Orbit_Insertion.jpg",
+      "imageAlt": "Ilustração da inserção orbital da Cassini em Saturno"
+    },
+    {
+      "articleId": "97",
+      "title": "Pandora: a Missão da NASA que Começou a Decifrar Atmosferas de Exoplanetas",
+      "category": "espaco",
+      "slug": "pandora-missao-nasa-exoplanetas-comeca-observacoes",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Fomalhaut_planet.jpg/1280px-Fomalhaut_planet.jpg",
+      "imageAlt": "Sistema de Fomalhaut com exoplaneta em disco de poeira"
+    },
+    {
+      "articleId": "98",
+      "title": "State of Play de Setembro de 2026: Todos os Anúncios da Sony em Um Só Lugar",
+      "category": "games",
+      "slug": "playstation-state-of-play-setembro-2026-resumo",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg/1280px-Nintendo-Switch-Pro-Controller-FL.jpg",
+      "imageAlt": "Controle Pro da Nintendo Switch em fundo branco"
+    },
+    {
+      "articleId": "99",
+      "title": "Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027",
+      "category": "games",
+      "slug": "final-fantasy-vii-revelation-data-lancamento-2027",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Dotonbori%2C_Osaka%2C_at_night%2C_November_2016.jpg/1280px-Dotonbori%2C_Osaka%2C_at_night%2C_November_2016.jpg",
+      "imageAlt": "Letreiros de neon do distrito de Dotonbori, em Osaka"
+    },
+    {
+      "articleId": "100",
+      "title": "Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York",
+      "category": "filmes-series",
+      "slug": "artificial-luca-guadagnino-filme-sam-altman-nyff",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/16_mm_Film_camera.JPG/1280px-16_mm_Film_camera.JPG",
+      "imageAlt": "Câmera de cinema 16mm"
+    },
+    {
+      "articleId": "101",
+      "title": "The Odyssey de Christopher Nolan: IMAX 70mm Estendido e Vendas que Batem Recordes",
+      "category": "filmes-series",
+      "slug": "the-odyssey-imax-70mm-recorde-nolan",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Interior_of_IMAX_cinema_in_Lahore_2.jpg/1280px-Interior_of_IMAX_cinema_in_Lahore_2.jpg",
+      "imageAlt": "Interior de cinema IMAX com tela panorâmica"
+    },
+    {
+      "articleId": "102",
+      "title": "Supergirl Define Data de Chegada ao Streaming: Quando Ver o Filme da DC no HBO Max",
+      "category": "filmes-series",
+      "slug": "supergirl-hbo-max-data-streaming",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Redrosedust_wright_f2000.jpg/1280px-Redrosedust_wright_f2000.jpg",
+      "imageAlt": "Nebulosa Roseta em tons de vermelho"
+    },
+    {
+      "articleId": "103",
+      "title": "Star Wars: Starfighter: Ryan Gosling é Kade Auberon — o Que a Revelação Diz Sobre o Filme",
+      "category": "filmes-series",
+      "slug": "star-wars-starfighter-kade-auberon-ryan-gosling",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/1280px-NASA-Apollo8-Dec24-Earthrise.jpg",
+      "imageAlt": "Earthrise: nascer da Terra visto da órbita lunar pela Apollo 8"
+    },
+    {
+      "articleId": "104",
+      "title": "Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Nação do Fogo",
+      "category": "filmes-series",
+      "slug": "avatar-the-last-airbender-temporada-3-fire-nation-2027",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Fireplace-RM.jpg/1280px-Fireplace-RM.jpg",
+      "imageAlt": "Lareira com chamas acesas"
+    },
+    {
+      "articleId": "105",
+      "title": "Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar",
+      "category": "games",
+      "slug": "rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105",
+      "currentImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Old_Gas_Station_Hamburg_Grindel.jpg/1280px-Old_Gas_Station_Hamburg_Grindel.jpg",
+      "imageAlt": "Posto de gasolina antigo iluminado à noite"
+    }
+  ],
+  "unsplashImages": [
+    {
+      "articleId": "1",
+      "title": "Como Buracos Negros Funcionam: O Mistério Cósmico Desvendado",
+      "category": "espaco",
+      "slug": "como-buracos-negros-funcionam",
+      "currentImage": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&q=80",
+      "imageAlt": "Ilustração artística de um buraco negro com disco de acreção brilhante"
+    },
+    {
+      "articleId": "2",
+      "title": "Inteligência Artificial Generativa: Como Ela Funciona",
+      "category": "inteligencia-artificial",
+      "slug": "inteligencia-artificial-generativa",
+      "currentImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+      "imageAlt": "Visualização abstrata de rede neural artificial com conexões brilhantes"
+    },
+    {
+      "articleId": "3",
+      "title": "Por Que Marte é Vermelho: A Ciência Atrás do Planeta Vermelho",
+      "category": "espaco",
+      "slug": "por-que-marte-e-vermelho",
+      "currentImage": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=800&q=80",
+      "imageAlt": "Superfície de Marte mostrando sua cor vermelha característica com rochas e dunas"
+    },
+    {
+      "articleId": "4",
+      "title": "Computação Quântica vs Clássica: As Diferenças Fundamentais",
+      "category": "tecnologia",
+      "slug": "computacao-quantica-vs-classica",
+      "currentImage": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80",
+      "imageAlt": "Visualização artística de chip de computador quântico com luz azul"
+    },
+    {
+      "articleId": "5",
+      "title": "Por Que Humanos Sonham: As Teorias Científicas",
+      "category": "ciencia",
+      "slug": "por-que-humanos-sonham",
+      "currentImage": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80",
+      "imageAlt": "Ilustração abstrata de cérebro humano com luzes coloridas representando sonhos"
+    },
+    {
+      "articleId": "6",
+      "title": "O Que é Ray Tracing: A Tecnologia que Tornou os Games Realistas",
+      "category": "games",
+      "slug": "o-que-e-ray-tracing",
+      "currentImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+      "imageAlt": "Setup de videogame com teclado e monitor iluminado por luzes coloridas"
+    },
+    {
+      "articleId": "7",
+      "title": "Inteligência Artificial nos Games: Do Fantasma a Inimigos que Aprendem",
+      "category": "games",
+      "slug": "inteligencia-artificial-nos-games",
+      "currentImage": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&q=80",
+      "imageAlt": "Controle de videogame em fundo colorido e vibrante"
+    },
+    {
+      "articleId": "8",
+      "title": "Ficção Científica x Ciência Real: O que o Cinema Acerta e o que Exagera",
+      "category": "filmes-series",
+      "slug": "ficcao-cientifica-x-ciencia-real",
+      "currentImage": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&q=80",
+      "imageAlt": "Câmera de cinema em cena de produção cinematográfica"
+    },
+    {
+      "articleId": "9",
+      "title": "Ciência nos Quadrinhos: Os Poderes dos Heróis Sob a Ótica da Física",
+      "category": "quadrinhos",
+      "slug": "ciencia-nos-quadrinhos-superpoderes",
+      "currentImage": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&q=80",
+      "imageAlt": "Livro aberto sobre uma mesa, representando leitura e conhecimento"
+    },
+    {
+      "articleId": "10",
+      "title": "Curiosidades Científicas do Corpo Humano que Vão te Surpreender",
+      "category": "curiosidades",
+      "slug": "curiosidades-do-corpo-humano",
+      "currentImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
+      "imageAlt": "Laboratório científico com equipamentos e vidraria"
+    },
+    {
+      "articleId": "11",
+      "title": "Cidades Inteligentes: Como a Tecnologia Vai Moldar o Amanhã",
+      "category": "futuro",
+      "slug": "cidades-inteligentes-do-futuro",
+      "currentImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&q=80",
+      "imageAlt": "Cidade moderna com arquitetura contemporânea ao entardecer"
+    },
+    {
+      "articleId": "12",
+      "title": "Fusão Nuclear: A Fonte de Energia Que Pode Mudar o Mundo",
+      "category": "futuro",
+      "slug": "energia-limpa-fusao-nuclear",
+      "currentImage": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+      "imageAlt": "Mão de cientista tocando um painel tecnológico com energia visualizada"
+    },
+    {
+      "articleId": "13",
+      "title": "Cibersegurança para Iniciantes: Como Proteger Seus Dados Online",
+      "category": "tecnologia",
+      "slug": "ciberseguranca-para-iniciantes",
+      "currentImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+      "imageAlt": "Placa de circuito eletrônico com componentes iluminados"
+    },
+    {
+      "articleId": "14",
+      "title": "Inteligência Artificial na Medicina: Revolução nos Diagnósticos",
+      "category": "inteligencia-artificial",
+      "slug": "inteligencia-artificial-na-medicina",
+      "currentImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+      "imageAlt": "Profissional de saúde analisando dados médicos em um dispositivo tecnológico"
+    },
+    {
+      "articleId": "15",
+      "title": "Edição Genética CRISPR: Como Funciona e o que Pode Mudar",
+      "category": "ciencia",
+      "slug": "edicao-genetica-crispr",
+      "currentImage": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&q=80",
+      "imageAlt": "Laboratório de pesquisa com equipamentos científicos e vidraria"
+    },
+    {
+      "articleId": "16",
+      "title": "Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo",
+      "category": "espaco",
+      "slug": "telescopio-espacial-james-webb",
+      "currentImage": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&q=80",
+      "imageAlt": "Telescópio espacial em órbita da Terra com painéis solares estendidos"
+    },
+    {
+      "articleId": "17",
+      "title": "Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar",
+      "category": "espaco",
+      "slug": "exoplanetas-a-busca-por-mundos-habitaveis",
+      "currentImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+      "imageAlt": "Representação artística de um exoplaneta orbitando uma estrela distante no espaço"
+    },
+    {
+      "articleId": "18",
+      "title": "Missões Artemis: O Caminho de Volta à Lua e Além",
+      "category": "espaco",
+      "slug": "missoes-artemis",
+      "currentImage": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=800&q=80",
+      "imageAlt": "Foguete em lançamento rumo ao espaço com destroços de nuvens de fumaça"
+    },
+    {
+      "articleId": "19",
+      "title": "Microbioma Intestinal: O Universo de Bactérias que Moram em Você",
+      "category": "ciencia",
+      "slug": "microbioma-intestinal",
+      "currentImage": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=80",
+      "imageAlt": "Microscope image of bacteria in laboratory research"
+    },
+    {
+      "articleId": "20",
+      "title": "Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos",
+      "category": "ciencia",
+      "slug": "particulas-subatomicas-cern",
+      "currentImage": "https://images.unsplash.com/photo-1451188502541-13943edb6acb?w=800&q=80",
+      "imageAlt": "Detector de partículas do CERN com estrutura circular metálica complexa"
+    },
+    {
+      "articleId": "21",
+      "title": "Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta",
+      "category": "tecnologia",
+      "slug": "algoritmos-de-busca",
+      "currentImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+      "imageAlt": "Notebook exibindo resultados de busca com gráficos de dados ao fundo"
+    },
+    {
+      "articleId": "22",
+      "title": "Realidade Virtual vs Aumentada: Qual é a Diferença?",
+      "category": "tecnologia",
+      "slug": "realidade-virtual-vs-aumentada",
+      "currentImage": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&q=80",
+      "imageAlt": "Pessoa usando headset de realidade virtual com luzes neon ao fundo"
+    },
+    {
+      "articleId": "23",
+      "title": "Aprendizado de Máquina Explicado: Como Computadores Aprendem",
+      "category": "inteligencia-artificial",
+      "slug": "aprendizado-de-maquina-explicado",
+      "currentImage": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&q=80",
+      "imageAlt": "Representação visual de rede neural artificial com conexões luminosas"
+    },
+    {
+      "articleId": "24",
+      "title": "Ética e Vieses da IA: Quando o Algoritmo Herda Nossos Preconceitos",
+      "category": "inteligencia-artificial",
+      "slug": "etica-e-vieses-da-ia",
+      "currentImage": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80",
+      "imageAlt": "Balança da justiça ao lado de circuitos eletrônicos representando ética em inteligência artificial"
+    },
+    {
+      "articleId": "25",
+      "title": "Como Funciona o CGI: A Ciência Por Trás dos Efeitos Especiais",
+      "category": "filmes-series",
+      "slug": "como-funciona-o-cgi",
+      "currentImage": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+      "imageAlt": "Estúdio de produção cinematográfica com telas verdes e equipamentos de filmagem"
+    },
+    {
+      "articleId": "26",
+      "title": "O Futuro do Streaming: Onde a TV Por Assinatura Digital Está Indo",
+      "category": "filmes-series",
+      "slug": "futuro-do-streaming",
+      "currentImage": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&q=80",
+      "imageAlt": "Controle remoto apontado para TV com streaming de conteúdo"
+    },
+    {
+      "articleId": "27",
+      "title": "A Evolução dos Motores Gráficos: Dos Pixels ao Tempo Real Fotorrealista",
+      "category": "games",
+      "slug": "evolucao-dos-motores-graficos",
+      "currentImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+      "imageAlt": "Setup de desenvolvimento de jogos com telas mostrando editores 3D"
+    },
+    {
+      "articleId": "28",
+      "title": "Cloud Gaming: Jogar Sem Console, Direto da Nuvem",
+      "category": "games",
+      "slug": "cloud-gaming",
+      "currentImage": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+      "imageAlt": "Controle de videogame com luzes azul e roxa em ambiente escuro"
+    },
+    {
+      "articleId": "29",
+      "title": "Computação Vestível: A Tecnologia que Você Veste",
+      "category": "futuro",
+      "slug": "computacao-vestivel",
+      "currentImage": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
+      "imageAlt": "Relógio inteligente moderno exibindo métricas de atividade física"
+    },
+    {
+      "articleId": "30",
+      "title": "Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar",
+      "category": "futuro",
+      "slug": "transporte-autonomo",
+      "currentImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "imageAlt": "Carro autônomo com sensores e visualização digital de trajetória"
+    }
+  ],
+  "topicFallbacks": [],
+  "suspiciousUrls": [],
+  "otherImages": []
+}

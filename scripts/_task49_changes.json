@@ -1,0 +1,30 @@
+{
+  "task": "TASK 49 - Alteracoes Realizadas (Fase 14)",
+  "timestamp": "2026-09-10T13:30:00Z",
+  "alteracoes": [
+    {
+      "id": "C001",
+      "tipo": "CORRECAO",
+      "severidade_original": "MEDIO",
+      "descricao": "Corrigido slug do artigo ID 105 que continha sufixo '-auto-105'",
+      "arquivo": "lib/articles.ts",
+      "linha": 6115,
+      "valor_antigo": "rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105",
+      "valor_novo": "rockstar-defende-abastecimento-em-gta-6",
+      "motivo": "Slug com sufixo automatico prejudica SEO e experiencia do usuario"
+    }
+  ],
+  "arquivos_criados": [
+    "scripts/_task49_before.json",
+    "scripts/_task49_visual_audit.json",
+    "scripts/_task49_ux_audit.json",
+    "scripts/_task49_seo_audit.json",
+    "scripts/_task49_monetization_audit.json",
+    "scripts/_task49_performance_audit.json",
+    "scripts/_task49_findings.json",
+    "scripts/_task49_changes.json",
+    "scripts/_task49_preservation.json",
+    "scripts/_task49_final.json"
+  ],
+  "build_apos_alteracoes": "PASSING - 146 paginas geradas"
+}

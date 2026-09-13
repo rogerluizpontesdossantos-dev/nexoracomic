@@ -1,0 +1,427 @@
+{
+  "batch": 6,
+  "articlesRange": "52-71",
+  "totalArticles": 20,
+  "articles": [
+    {
+      "id": "52",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "MODIFIED"
+    },
+    {
+      "id": "53",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "MODIFIED"
+    },
+    {
+      "id": "54",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "MODIFIED"
+    },
+    {
+      "id": "55",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "56",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "57",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "58",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "59",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "60",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "MODIFIED"
+    },
+    {
+      "id": "61",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "62",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "63",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "64",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "65",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "66",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "67",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "68",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "69",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "70",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    },
+    {
+      "id": "71",
+      "onlySourcesChanged": true,
+      "fieldsPreserved": [
+        "slug",
+        "title",
+        "excerpt",
+        "content",
+        "category",
+        "tags",
+        "author",
+        "publishedAt",
+        "readingTime",
+        "featuredImage",
+        "imageAlt",
+        "imageArtist",
+        "imageLicense",
+        "meta"
+      ],
+      "status": "UNCHANGED"
+    }
+  ]
+}

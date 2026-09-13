@@ -1,0 +1,78 @@
+﻿4|needs_replacement|company|Google Quantum AI|https://quantumai.google/
+5|needs_replacement|agency|National Sleep Foundation|https://www.sleepfoundation.org/
+6|needs_replacement|publication|SIGGRAPH - Ray Tracing in Real-Time|https://www.siggraph.org/
+7|needs_replacement|publication|MIT Technology Review - The Future of Game AI|https://www.technologyreview.com/
+7|needs_replacement|company|DeepMind - AI for Games|https://deepmind.google/
+8|needs_replacement|agency|NASA - Science Fiction and Science Fact|https://www.nasa.gov/
+8|needs_replacement|agency|Event Horizon Telescope - Black Hole Image|https://eventhorizontelescope.org/
+9|needs_replacement|agency|NIH - How Gene Editing Works|https://www.nih.gov/
+10|needs_replacement|agency|National Sleep Foundation|https://www.sleepfoundation.org/
+10|needs_replacement|university|Harvard Health - Body and Health|https://www.health.harvard.edu/
+11|needs_replacement|publication|IEEE - Smart Cities|https://www.ieee.org/
+11|needs_replacement|agency|European Commission - Smart Cities|https://smart-cities-marketplace.ec.europa.eu/
+12|needs_replacement|agency|ITER - The Way to New Energy|https://www.iter.org/
+12|needs_replacement|agency|IAEA - Nuclear Fusion|https://www.iaea.org/
+13|needs_replacement|agency|CISA - Cybersecurity Tips|https://www.cisa.gov/
+13|needs_replacement|agency|NCSC - Cyber Aware|https://www.ncsc.gov.uk/
+14|needs_replacement|agency|World Health Organization - AI in Health|https://www.who.int/
+15|needs_replacement|agency|NIH - What are Genome Editing and CRISPR-Cas9?|https://www.genome.gov/
+16|needs_replacement|university|STScI - Webb Science|https://www.stsci.edu/
+17|needs_replacement|agency|NASA Exoplanet Archive|https://exoplanetarchive.ipac.caltech.edu/
+19|needs_replacement|agency|NIH - Human Microbiome Project|https://www.hmpdacc.org/
+22|needs_replacement|publication|IEEE - Virtual and Augmented Reality|https://spectrum.ieee.org/
+24|needs_replacement|other|EU - AI Act|https://artificialintelligenceact.eu/
+25|needs_replacement|company|Autodesk - VFX and Animation Tools|https://www.autodesk.com/
+25|needs_replacement|publication|CGSociety - Computer Graphics Society|https://cgsociety.org/
+25|needs_replacement|university|ACM SIGGRAPH|https://www.siggraph.org/
+27|needs_replacement|company|Unreal Engine - Official Site|https://www.unrealengine.com/
+27|needs_replacement|company|Unity - Real-Time Development Platform|https://unity.com/
+27|needs_replacement|company|NVIDIA - Developer Graphics|https://developer.nvidia.com/
+28|needs_replacement|publication|IEEE - Cloud Gaming Latency Studies|https://spectrum.ieee.org/
+29|needs_replacement|agency|NIH - Wearable Health Devices|https://www.nih.gov/
+29|needs_replacement|publication|IEEE - Wearables Standards|https://standards.ieee.org/
+31|future|other|SIGGRAPH 2026 - NVIDIA Keynote|https://www.siggraph.org/conference/2026
+34|needs_replacement|company|NVIDIA Newsroom|https://nvidianews.nvidia.com
+35|needs_replacement|publication|Tom's Hardware - Nvidia's top-end RTX 5090 gaming GPU now costs at least $5,000|https://www.tomshardware.com
+35|needs_replacement|publication|Club386 - Regular Nvidia GeForce RTX 5090 cards sail beyond $5,090|https://www.club386.com
+35|needs_replacement|publication|TweakTown - Your next Nvidia GPU could cost up to 30% more|https://www.tweaktown.com
+37|needs_replacement|publication|Tom's Hardware - NVIDIA G-SYNC Compatible Samsung Monitors|https://www.tomshardware.com
+37|needs_replacement|company|MSI - Odyssey OLED G8 Pricing Announcement|https://www.msi.com
+38|future|company|Samsung - FMS 2026 Next-Gen 3D-Memory Vision|https://www.samsung.com/samsung-fms-2026
+38|needs_replacement|agency|Business Wire - Samsung Unveils Next-Gen 3D-Memory Vision|https://www.businesswire.com
+39|future|publication|MediaNama - Meta to limit the reach of undisclosed AI-generated profiles|https://www.medianama.com/2026/meta-instagram-ai-profiles
+40|future|publication|Bleeping Computer - Microsoft confirms outage affecting search in M365 apps|https://www.bleepingcomputer.com/news/microsoft/microsoft-365-search-outage-august-2026
+40|future|publication|PCQuest on MSN - Microsoft Outlook coming back online but outage not over|https://www.msn.com/en-us/news/technology/microsoft-outlook-outage-august-31-2026
+40|needs_replacement|company|Microsoft 365 Service Status|https://status.microsoft.com
+41|needs_replacement|agency|NASA - Nancy Grace Roman Space Telescope|https://roman.gsfc.nasa.gov
+42|future|publication|Ars Technica - Artemis timeline and landing system updates|https://arstechnica.com/science/artemis-timeline-2026
+45|future|publication|MIT Technology Review - Quantum computing reality check|https://www.technologyreview.com/quantum-computing-2026
+50|future|publication|The Verge - The state of cloud gaming|https://www.theverge.com/cloud-gaming-2026
+50|future|publication|IGN - Cloud gaming latency and performance tests|https://www.ign.com/cloud-gaming-latency-2026
+51|future|publication|Variety - The consolidation era of streaming|https://variety.com/streaming-consolidation-2026
+51|future|publication|Hollywood Reporter - The future of streaming business models|https://www.hollywoodreporter.com/streaming-future-2026
+52|future|publication|The Hollywood Reporter - AI in movie production|https://www.hollywoodreporter.com/ai-film-production-2026
+53|future|publication|ICv2 - Digital comics market analysis|https://icv2.com/digital-comics-market-2026
+55|needs_replacement|agency|NOAA - Ocean exploration and research|https://oceanexplorer.noaa.gov
+58|needs_replacement|university|ITER - International Fusion Energy Organization|https://www.iter.org
+58|future|journal|Nature Physics - Recent advances in fusion energy research|https://www.nature.com/physics-fusion-advances-2026
+60|future|publication|The Hollywood Reporter - Spider-Man: Brand New Day|https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-2026
+62|needs_replacement|company|DC Studios - Universo DC|https://www.dcstudios.com
+65|needs_replacement|company|Max - Plataforma de Streaming|https://www.max.com
+67|needs_replacement|company|Max - Plataforma de Streaming|https://www.max.com
+71|needs_replacement|company|Disney+ - Plataforma|https://www.disneyplus.com
+71|needs_replacement|company|StarWars.com - NotÃ­cias|https://www.starwars.com
+72|needs_replacement|company|StarWars.com - The Mandalorian and Grogu|https://www.starwars.com
+73|needs_replacement|company|Disney+ - Plataforma|https://www.disneyplus.com
+73|needs_replacement|company|The Walt Disney Company - NotÃ­cias|https://thewaltdisneycompany.com
+79|needs_replacement|publication|Variety - Cobertura de Star Wars|https://variety.com/
+82|needs_replacement|company|Sony Pictures - Spider-Man: Brand New Day|https://www.sonypictures.com/
+91|needs_replacement|company|Xbox Wire - NotÃ­cias oficiais|https://news.xbox.com/
+92|needs_replacement|company|PlayStation - Site oficial|https://www.playstation.com/
+95|needs_replacement|company|NVIDIA Newsroom - NVIDIA to Acquire Hugging Face|https://nvidianews.nvidia.com/
+96|needs_replacement|agency|ESA/Hubble - Hubble tracks new decagon encircling Saturnâ€™s south pole|https://esahubble.org/
+96|needs_replacement|publication|ScienceDaily - Top Science News|https://www.sciencedaily.com/
+98|needs_replacement|company|PlayStation.Blog - State of Play & State of Play Japan: all announcements|https://blog.playstation.com/
+99|needs_replacement|company|PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027|https://blog.playstation.com/
+99|needs_replacement|company|Square Enix - Site Oficial|https://www.square-enix-games.com/
+101|needs_replacement|company|IMAX - Site Oficial|https://www.imax.com/
+102|needs_replacement|company|DC - Site Oficial|https://www.dc.com/

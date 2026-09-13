@@ -1,0 +1,3162 @@
+{
+ "generatedAt": "2026-09-06T15:09:00.895Z",
+ "method": "heurística anterior (_task10_sources_audit.json) + HTTP real (fetch, 3 tentativas) + classificação",
+ "articles": [
+  {
+   "articleId": 1,
+   "title": "Como Buracos Negros Funcionam: O Mistério Cósmico Desvendado",
+   "slug": "como-buracos-negros-funcionam",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://science.nasa.gov/astrophysics/focus-areas/black-holes/",
+     "title": "NASA - What Is a Black Hole?",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Black_Holes",
+     "title": "ESA - Black holes",
+     "httpStatus": 200,
+     "prevAudit": "not_flagged",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 0
+  },
+  {
+   "articleId": 2,
+   "title": "Inteligência Artificial Generativa: Como Ela Funciona",
+   "slug": "inteligencia-artificial-generativa",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://arxiv.org/abs/1706.03762",
+     "title": "Vaswani et al. (2017). Attention Is All You Need",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/",
+     "title": "Google Research - Transformer: A Novel Neural Network Architecture for Language Understanding",
+     "httpStatus": 200,
+     "prevAudit": "not_flagged",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://hai.stanford.edu/ai-index",
+     "title": "Stanford HAI - AI Index Report",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 1
+  },
+  {
+   "articleId": 3,
+   "title": "Por Que Marte é Vermelho: A Ciência Atrás do Planeta Vermelho",
+   "slug": "por-que-marte-e-vermelho",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://science.nasa.gov/mars/",
+     "title": "NASA Science - Mars",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express",
+     "title": "ESA - Mars Express: Investigating the Red Planet",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 4,
+   "title": "Computação Quântica vs Clássica: As Diferenças Fundamentais",
+   "slug": "computacao-quantica-vs-classica",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.ibm.com/quantum",
+     "title": "IBM Quantum Computing",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://quantumai.google/",
+     "title": "Google Quantum AI - Building Quantum Computing",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 5,
+   "title": "Por Que Humanos Sonham: As Teorias Científicas",
+   "slug": "por-que-humanos-sonham",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.sleepfoundation.org/dreams",
+     "title": "Sleep Foundation - Dreams: Why They Happen & What They Mean",
+     "httpStatus": 200,
+     "prevAudit": "not_flagged",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.health.harvard.edu/topics/sleep",
+     "title": "Harvard Health - How to Sleep Better",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 0
+  },
+  {
+   "articleId": 6,
+   "title": "O Que é Ray Tracing: A Tecnologia que Tornou os Games Realistas",
+   "slug": "o-que-e-ray-tracing",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://developer.nvidia.com/rtx/ray-tracing",
+     "title": "NVIDIA Developer - Real-Time Ray Tracing",
+     "httpStatus": 200,
+     "prevAudit": "not_flagged",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+     "title": "NVIDIA - DLSS Technology",
+     "httpStatus": 200,
+     "prevAudit": "not_flagged",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 0
+  },
+  {
+   "articleId": 7,
+   "title": "Inteligência Artificial nos Games: Do Fantasma a Inimigos que Aprendem",
+   "slug": "inteligencia-artificial-nos-games",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.technologyreview.com/",
+     "title": "MIT Technology Review - The Future of Game AI",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://deepmind.google/",
+     "title": "DeepMind - AI for Games",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 8,
+   "title": "Ficção Científica x Ciência Real: O que o Cinema Acerta e o que Exagera",
+   "slug": "ficcao-cientifica-x-ciencia-real",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.nasa.gov/",
+     "title": "NASA - Science Fiction and Science Fact",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://eventhorizontelescope.org/",
+     "title": "Event Horizon Telescope - Black Hole Image",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 9,
+   "title": "Ciência nos Quadrinhos: Os Poderes dos Heróis Sob a Ótica da Física",
+   "slug": "ciencia-nos-quadrinhos-superpoderes",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.nih.gov/",
+     "title": "NIH - How Gene Editing Works",
+     "httpStatus": 403,
+     "prevAudit": "needs_replacement",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.nature.com/subjects/biotechnology",
+     "title": "Nature - Biotechnology and Genetics",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 10,
+   "title": "Curiosidades Científicas do Corpo Humano que Vão te Surpreender",
+   "slug": "curiosidades-do-corpo-humano",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.sleepfoundation.org/",
+     "title": "National Sleep Foundation",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.health.harvard.edu/",
+     "title": "Harvard Health - Body and Health",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 11,
+   "title": "Cidades Inteligentes: Como a Tecnologia Vai Moldar o Amanhã",
+   "slug": "cidades-inteligentes-do-futuro",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.ieee.org/",
+     "title": "IEEE - Smart Cities",
+     "httpStatus": 202,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://smart-cities-marketplace.ec.europa.eu/",
+     "title": "European Commission - Smart Cities",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 12,
+   "title": "Fusão Nuclear: A Fonte de Energia Que Pode Mudar o Mundo",
+   "slug": "energia-limpa-fusao-nuclear",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.iter.org/",
+     "title": "ITER - The Way to New Energy",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.iaea.org/",
+     "title": "IAEA - Nuclear Fusion",
+     "httpStatus": 403,
+     "prevAudit": "needs_replacement",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 13,
+   "title": "Cibersegurança para Iniciantes: Como Proteger Seus Dados Online",
+   "slug": "ciberseguranca-para-iniciantes",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.cisa.gov/",
+     "title": "CISA - Cybersecurity Tips",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.ncsc.gov.uk/",
+     "title": "NCSC - Cyber Aware",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 14,
+   "title": "Inteligência Artificial na Medicina: Revolução nos Diagnósticos",
+   "slug": "inteligencia-artificial-na-medicina",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.who.int/",
+     "title": "World Health Organization - AI in Health",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.nature.com/nm/",
+     "title": "Nature Medicine - Artificial Intelligence",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 15,
+   "title": "Edição Genética CRISPR: Como Funciona e o que Pode Mudar",
+   "slug": "edicao-genetica-crispr",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.genome.gov/",
+     "title": "NIH - What are Genome Editing and CRISPR-Cas9?",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.nature.com/subjects/crispr",
+     "title": "Nature - CRISPR Technology",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 16,
+   "title": "Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo",
+   "slug": "telescopio-espacial-james-webb",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://science.nasa.gov/mission/webb/",
+     "title": "NASA - James Webb Space Telescope",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb",
+     "title": "ESA - Webb",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.stsci.edu/",
+     "title": "STScI - Webb Science",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 1
+  },
+  {
+   "articleId": 17,
+   "title": "Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar",
+   "slug": "exoplanetas-a-busca-por-mundos-habitaveis",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://science.nasa.gov/exoplanets/",
+     "title": "NASA Exoplanet Exploration",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://exoplanetarchive.ipac.caltech.edu/",
+     "title": "NASA Exoplanet Archive",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.eso.org/public/exoplanets/",
+     "title": "ESO - Exoplanets",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 18,
+   "title": "Missões Artemis: O Caminho de Volta à Lua e Além",
+   "slug": "missoes-artemis",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.nasa.gov/artemis/",
+     "title": "NASA - Artemis Program",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion",
+     "title": "ESA - Orion European Service Module",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://science.nasa.gov/moon/",
+     "title": "NASA - Lunar Exploration",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 2
+  },
+  {
+   "articleId": 19,
+   "title": "Microbioma Intestinal: O Universo de Bactérias que Moram em Você",
+   "slug": "microbioma-intestinal",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.hmpdacc.org/",
+     "title": "NIH - Human Microbiome Project",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.nature.com/nrmicro/",
+     "title": "Nature Reviews Microbiology",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.hsph.harvard.edu/nutritionsource/microbiome/",
+     "title": "Harvard T.H. Chan School - The Microbiome",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 2
+  },
+  {
+   "articleId": 20,
+   "title": "Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos",
+   "slug": "particulas-subatomicas-cern",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://home.cern/science/accelerators/large-hadron-collider",
+     "title": "CERN - The Large Hadron Collider",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://home.cern/science/physics/standard-model",
+     "title": "CERN - The Standard Model",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.energy.gov/science/doe-explainsparticles-and-particle-physics",
+     "title": "Energy.gov - Particle Physics",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 1
+  },
+  {
+   "articleId": 21,
+   "title": "Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta",
+   "slug": "algoritmos-de-busca",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+     "title": "Google Search Central - How Search Works",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://ilpubs.stanford.edu/422/",
+     "title": "Stanford - The PageRank Citation Ranking",
+     "httpStatus": null,
+     "prevAudit": "valid_generic",
+     "class": "blocked",
+     "problem": "timeout de conexão; re-verificar",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.bing.com/webmasters/about",
+     "title": "Bing Webmaster Tools",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 1
+  },
+  {
+   "articleId": 22,
+   "title": "Realidade Virtual vs Aumentada: Qual é a Diferença?",
+   "slug": "realidade-virtual-vs-aumentada",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.meta.com/quest/",
+     "title": "Meta Quest - How VR Works",
+     "httpStatus": 400,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 400 — requisição inválida",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://developer.apple.com/augmented-reality/arkit/",
+     "title": "Apple - ARKit Developer Documentation",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://spectrum.ieee.org/",
+     "title": "IEEE - Virtual and Augmented Reality",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 2
+  },
+  {
+   "articleId": 23,
+   "title": "Aprendizado de Máquina Explicado: Como Computadores Aprendem",
+   "slug": "aprendizado-de-maquina-explicado",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://developers.google.com/machine-learning/crash-course",
+     "title": "Google - Machine Learning Crash Course",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/",
+     "title": "MIT - Introduction to Machine Learning",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.nature.com/subjects/machine-learning",
+     "title": "Nature - Machine Learning",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 1
+  },
+  {
+   "articleId": 24,
+   "title": "Ética e Vieses da IA: Quando o Algoritmo Herda Nossos Preconceitos",
+   "slug": "etica-e-vieses-da-ia",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+     "title": "UNESCO - Ethics of Artificial Intelligence",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+     "title": "NIST - AI Risk Management Framework",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://artificialintelligenceact.eu/",
+     "title": "EU - AI Act",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 1
+  },
+  {
+   "articleId": 25,
+   "title": "Como Funciona o CGI: A Ciência Por Trás dos Efeitos Especiais",
+   "slug": "como-funciona-o-cgi",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.autodesk.com/",
+     "title": "Autodesk - VFX and Animation Tools",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://cgsociety.org/",
+     "title": "CGSociety - Computer Graphics Society",
+     "httpStatus": null,
+     "prevAudit": "needs_replacement",
+     "class": "blocked",
+     "problem": "timeout de conexão; re-verificar",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.siggraph.org/",
+     "title": "ACM SIGGRAPH",
+     "httpStatus": 307,
+     "prevAudit": "needs_replacement",
+     "class": "redirect",
+     "problem": "HTTP 307 sem destino final claro; re-verificar",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 26,
+   "title": "O Futuro do Streaming: Onde a TV Por Assinatura Digital Está Indo",
+   "slug": "futuro-do-streaming",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.nielsen.com/insights/",
+     "title": "Nielsen - Streaming Data",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www2.deloitte.com/us/en/insights/industry/technology/digital-media-trends.html",
+     "title": "Deloitte - Digital Media Trends",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 27,
+   "title": "A Evolução dos Motores Gráficos: Dos Pixels ao Tempo Real Fotorrealista",
+   "slug": "evolucao-dos-motores-graficos",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.unrealengine.com/",
+     "title": "Unreal Engine - Official Site",
+     "httpStatus": 403,
+     "prevAudit": "needs_replacement",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://unity.com/",
+     "title": "Unity - Real-Time Development Platform",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://developer.nvidia.com/",
+     "title": "NVIDIA - Developer Graphics",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 28,
+   "title": "Cloud Gaming: Jogar Sem Console, Direto da Nuvem",
+   "slug": "cloud-gaming",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.nvidia.com/geforce-now/",
+     "title": "NVIDIA GeForce NOW",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.xbox.com/play",
+     "title": "Xbox Cloud Gaming",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://spectrum.ieee.org/",
+     "title": "IEEE - Cloud Gaming Latency Studies",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 29,
+   "title": "Computação Vestível: A Tecnologia que Você Veste",
+   "slug": "computacao-vestivel",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.nih.gov/",
+     "title": "NIH - Wearable Health Devices",
+     "httpStatus": 403,
+     "prevAudit": "needs_replacement",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://standards.ieee.org/",
+     "title": "IEEE - Wearables Standards",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.fda.gov/medical-devices/digital-health",
+     "title": "FDA - Digital Health",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 2
+  },
+  {
+   "articleId": 30,
+   "title": "Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar",
+   "slug": "transporte-autonomo",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety",
+     "title": "NHTSA - Automated Vehicles",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.sae.org/standards/content/j3016_202104/",
+     "title": "SAE International - J3016 Levels of Driving Automation",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://waymo.com/safety/",
+     "title": "Waymo Safety Report",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 1
+  },
+  {
+   "articleId": 31,
+   "title": "NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gráficos dos Jogos",
+   "slug": "dlss-5-revolucao-dos-graficos",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://developer.nvidia.com/rtx/dlss",
+     "title": "NVIDIA Developer - DLSS",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.techpowerup.com/review/nvidia-dlss-5/",
+     "title": "TechPowerUp - NVIDIA DLSS 5 Technical Preview Review",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.siggraph.org/conference/2026",
+     "title": "SIGGRAPH 2026 - NVIDIA Keynote",
+     "httpStatus": 307,
+     "prevAudit": "future",
+     "class": "redirect",
+     "problem": "HTTP 307 sem destino final claro; re-verificar",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 2
+  },
+  {
+   "articleId": 32,
+   "title": "DLSS 5 Está Dividindo os Jogadores: Avanço Gráfico ou IA Demais nos Games?",
+   "slug": "dlss-5-dividindo-os-jogadores",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.techspot.com/news/102428-nvidia-dlss-5-developer-control-ai-slop.html",
+     "title": "TechSpot - Nvidia is giving developers more control over DLSS 5",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.tweaktown.com/news/165437/nvidia-showcases-updated-dlss-5-with-developer-tools-that-help-preserve-artistic-intent/index.html",
+     "title": "TweakTown - NVIDIA showcases updated DLSS 5 with developer tools",
+     "httpStatus": 403,
+     "prevAudit": "valid_generic",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.heise.de/en/news",
+     "title": "heise online - Neural Rendering: Nvidia shows DLSS 5 much more cautiously",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 33,
+   "title": "Claude 5 da Anthropic: Como Fable e Mythos Estão Redefinindo a IA",
+   "slug": "anthropic-claude-5-fable-mythos",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.anthropic.com/news/claude-opus-5",
+     "title": "Anthropic - Introducing Claude Opus 5",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://claude.com/product",
+     "title": "Claude.com - Products",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Anthropic",
+     "title": "Wikipedia - Anthropic",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 2
+  },
+  {
+   "articleId": 34,
+   "title": "NVIDIA Investe Bilhões na MediaTek para Acelerar a Próxima Geração de IA",
+   "slug": "nvidia-inviste-bilhoes-mediatek",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.reuters.com/technology/nvidia-invest-mediaTek-3-5-billion-ai-chip-partnership-idUSKBN5Z0NP",
+     "title": "Reuters - Nvidia to invest $3.5 billion in chipmaker MediaTek",
+     "httpStatus": 401,
+     "prevAudit": "valid_specific",
+     "class": "suspect",
+     "problem": "HTTP 401 — requer autenticação",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://nvidianews.nvidia.com",
+     "title": "NVIDIA Newsroom",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://blockhead.io/news/nvidia-mediatek-investment",
+     "title": "Blockonomi - Nvidia Invests $3.5 Billion in MediaTek",
+     "httpStatus": null,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "domínio inexistente (DNS ENOTFOUND)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 35,
+   "title": "RTX 5090 Dispara de Preço: Por Que as Placas de Vídeo Topo de Linha Ficaram Tão Caras?",
+   "slug": "rtx-5090-por-que-esta-tao-cara",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.tomshardware.com",
+     "title": "Tom\\",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.club386.com",
+     "title": "Club386 - Regular Nvidia GeForce RTX 5090 cards sail beyond $5,090",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.tweaktown.com",
+     "title": "TweakTown - Your next Nvidia GPU could cost up to 30% more",
+     "httpStatus": 403,
+     "prevAudit": "needs_replacement",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 36,
+   "title": "PCs Gamers Podem Virar Máquinas de IA: A Nova Ideia que Aproveita GPUs Ociosas",
+   "slug": "pcs-gamers-viram-maquinas-de-ia",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.xda-developers.com/old-nvidia-gpus-24gb-vram-ai-inference",
+     "title": "XDA Developers - Old Nvidia GPUs with 24GB VRAM crush AI inference",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://venturebeat.com/microsoft-surface-rtx-spark-dev-box-ai",
+     "title": "VentureBeat - Microsoft debuts Surface RTX Spark Dev Box",
+     "httpStatus": 429,
+     "prevAudit": "valid_generic",
+     "class": "ratelimited",
+     "problem": "HTTP 429 — rate limit, re-verificar",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://techcrunch.com/general-compute-gpu-backed-loan",
+     "title": "TechCrunch - General Compute GPU-backed loan",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 37,
+   "title": "Nova Geração de Monitores OLED para Gamers: 4K, Alta Taxa e Velocidade Extrema",
+   "slug": "monitores-oled-gamers-nova-geracao",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.samsung.com/odyssey-g8-6k",
+     "title": "Samsung - Odyssey G8 6K Monitor Announcement",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.tomshardware.com",
+     "title": "Tom\\",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.msi.com",
+     "title": "MSI - Odyssey OLED G8 Pricing Announcement",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 38,
+   "title": "Samsung Prepara Nova Geração de Memória HBM com Computação Integrada",
+   "slug": "samsung-hbm-proxima-geracao",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.samsung.com/samsung-fms-2026",
+     "title": "Samsung - FMS 2026 Next-Gen 3D-Memory Vision",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.hothardware.com/samsung-zhbm-3d-memory",
+     "title": "Hot Hardware - Samsung zHBM 3D Memory Concept",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.businesswire.com",
+     "title": "Business Wire - Samsung Unveils Next-Gen 3D-Memory Vision",
+     "httpStatus": 403,
+     "prevAudit": "needs_replacement",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 39,
+   "title": "Instagram Aperta as Regras para Perfis Criados com Inteligência Artificial",
+   "slug": "instagram-regras-para-perfis-de-ia",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://help.instagram.com/ai-generated-profile-labels",
+     "title": "Instagram - AI-Generated Profile Labels FAQ",
+     "httpStatus": 400,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 400 — requisição inválida",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.techlomedia.in/news/instagram-ai-profile-labels",
+     "title": "Techlomedia - Instagram Will Limit Reach of Undisclosed AI-Generated Profiles",
+     "httpStatus": 403,
+     "prevAudit": "valid_generic",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.medianama.com/2026/meta-instagram-ai-profiles",
+     "title": "MediaNama - Meta to limit the reach of undisclosed AI-generated profiles",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 40,
+   "title": "Microsoft 365 Enfrenta Instabilidade: O Que Aconteceu",
+   "slug": "microsoft-365-instabilidade",
+   "sourceCount": 3,
+   "currentSources": [
+    {
+     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-search-outage-august-2026",
+     "title": "Bleeping Computer - Microsoft confirms outage affecting search in M365 apps",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.msn.com/en-us/news/technology/microsoft-outlook-outage-august-31-2026",
+     "title": "PCQuest on MSN - Microsoft Outlook coming back online but outage not over",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://status.microsoft.com",
+     "title": "Microsoft 365 Service Status",
+     "httpStatus": null,
+     "prevAudit": "needs_replacement",
+     "class": "invalid",
+     "problem": "domínio inexistente (DNS ENOTFOUND)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 3
+  },
+  {
+   "articleId": 41,
+   "title": "Telescópio Espacial Roman: A Nova Era de Observação do Universo",
+   "slug": "telescopio-especial-roman-nova-era-observacao",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://roman.gsfc.nasa.gov",
+     "title": "NASA - Nancy Grace Roman Space Telescope",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.space.com/roman-telescope-exoplanet-microlensing",
+     "title": "Space.com - Roman telescope microlensing exoplanet search",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 42,
+   "title": "Artemis: O Caminho de Volta à Lua Passa por Grandes Desafios",
+   "slug": "artemis-caminho-de-volta-a-lua",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.nasa.gov/specials/artemis",
+     "title": "NASA - Artemis Program",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://arstechnica.com/science/artemis-timeline-2026",
+     "title": "Ars Technica - Artemis timeline and landing system updates",
+     "httpStatus": 202,
+     "prevAudit": "future",
+     "class": "future",
+     "problem": "URL com data futura/fabricada (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 43,
+   "title": "IA na Medicina: O Avanço da Detecção Precoce de Doenças",
+   "slug": "ia-medicina-detecao-precoce-de-doencas",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.nature.com/articles/s41591-ai-medicine-review",
+     "title": "Nature Medicine - AI in diagnostic imaging review",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.who.int/publications/ai-health",
+     "title": "WHO - Ethics and governance of artificial intelligence for health",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 44,
+   "title": "Ética e Vieses: Os Grandes Desafios da Inteligência Artificial em 2026",
+   "slug": "etica-e-vieses-ia-os-desafios-da-inteligencia-artificial",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://hai.stanford.edu/algorithmic-bias",
+     "title": "Stanford HAI - Algorithmic bias and fairness research",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.unesco.org/en/artificial-intelligence/ethics",
+     "title": "UNESCO - Recommendation on the Ethics of Artificial Intelligence",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 45,
+   "title": "Computação Quântica em 2026: Avanços Reais e Desafios Ainda Longe de Acabar",
+   "slug": "computacao-quantica-2026-avancos-e-desafios",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.science.org/quantum-error-correction",
+     "title": "Science - Quantum computing error correction progress",
+     "httpStatus": 403,
+     "prevAudit": "valid_generic",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.technologyreview.com/quantum-computing-2026",
+     "title": "MIT Technology Review - Quantum computing reality check",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 46,
+   "title": "5G Avançado e 6G: O Que Vem depois da Revolução da Conectividade",
+   "slug": "5g-6g-a-proxima-era-da-conectividade",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.gsma.com/futurenetworks/6g",
+     "title": "GSMA - 5G Advanced and 6G vision",
+     "httpStatus": 403,
+     "prevAudit": "valid_specific",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.itu.int/imt2030-framework-6g",
+     "title": "ITU - IMT-2030 framework for 6G",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 47,
+   "title": "Microbioma Intestinal: As Bactérias Que Influenciam o Corpo Inteiro",
+   "slug": "microbioma-intestinal-bacterias-que-controlam-o-corpo",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.nature.com/nrgastro/gut-microbiome-health",
+     "title": "Nature Reviews - Gut microbiome and human health",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.hsph.harvard.edu/nutritionsource/gut-brain",
+     "title": "Harvard T.H. Chan - The gut-brain connection",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 48,
+   "title": "CERN e o Futuro da Física de Partículas: O Que Vem Depois do LHC",
+   "slug": "cern-novas-particulas-e-o-futuro-da-fisica",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://home.cern/science/future-circular-collider",
+     "title": "CERN - Future circular collider study",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.symmetrymagazine.org/future-of-particle-physics",
+     "title": "Symmetry Magazine - The future of particle physics",
+     "httpStatus": 403,
+     "prevAudit": "valid_generic",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 49,
+   "title": "IA Generativa no Design de Games: Como a Tecnologia Está Mudando a Criação de Jogos",
+   "slug": "ia-generativa-no-design-de-games",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://gdconf.com/ai-game-production",
+     "title": "Game Developers Conference - AI in game production",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.polygon.com/ai-in-video-games",
+     "title": "Polygon - The business of AI in video games",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 50,
+   "title": "Cloud Gaming em 2026: O Jogar na Nuvem Finalmente Amadureceu?",
+   "slug": "cloud-gaming-2026-jogar-na-nuvem",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.theverge.com/cloud-gaming-2026",
+     "title": "The Verge - The state of cloud gaming",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.ign.com/cloud-gaming-latency-2026",
+     "title": "IGN - Cloud gaming latency and performance tests",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 51,
+   "title": "O Futuro do Streaming em 2026: Consolidação e Novos Modelos",
+   "slug": "futuro-do-streaming-2026-consolidacao",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://variety.com/streaming-consolidation-2026",
+     "title": "Variety - The consolidation era of streaming",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.hollywoodreporter.com/streaming-future-2026",
+     "title": "Hollywood Reporter - The future of streaming business models",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 52,
+   "title": "IA no Cinema: Como a Inteligência Artificial Transforma os Bastidores",
+   "slug": "ia-no-cinema-transformando-os-bastidores",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.hollywoodreporter.com/ai-film-production-2026",
+     "title": "The Hollywood Reporter - AI in movie production",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.wga.org/ai-guidelines",
+     "title": "WGA - AI and the writing process guidelines",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 53,
+   "title": "HQs Digitais: O Streaming de Quadrinhos Chega à Maturidade",
+   "slug": "hqs-digitais-streaming-de-quadrinhos",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.cbr.com/digital-comics-streaming",
+     "title": "Comic Book Resources - The rise of digital comics",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://icv2.com/digital-comics-market-2026",
+     "title": "ICv2 - Digital comics market analysis",
+     "httpStatus": 404,
+     "prevAudit": "future",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 54,
+   "title": "Superpoderes e Ciência Real: A Física Por Trás dos Quadrinhos",
+   "slug": "superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://phys.org/the-science-of-superpowers",
+     "title": "Phys.org - The science of superpowers",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.scientificamerican.com/physics-superheroes",
+     "title": "Scientific American - Physics of superheroes explained",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 55,
+   "title": "Oceanos Profundos: O Que Ainda Não Conhecemos do Fundo do Mar",
+   "slug": "oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://oceanexplorer.noaa.gov",
+     "title": "NOAA - Ocean exploration and research",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.nature.com/deep-sea-biodiversity",
+     "title": "Nature - Deep-sea biodiversity discoveries",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 56,
+   "title": "A Matemática do Universo: Os Padrões Escondidos na Natureza",
+   "slug": "matematica-do-universo-padroes-escondidos-na-natureza",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://plus.maths.org/natures-numbers",
+     "title": "Plus Magazine - Nature\\",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.simonsfoundation.org/mathematics-nature-patterns",
+     "title": "Simons Foundation - The mathematics of natural patterns",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 57,
+   "title": "Computação Vestível: O Futuro dos Gadgets que Usamos no Corpo",
+   "slug": "computacao-wearable-gadgets-que-usamos-no-corpo",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.mobihealthnews.com/wearable-tech-trends",
+     "title": "MobiHealthNews - Wearable technology trends",
+     "httpStatus": 403,
+     "prevAudit": "valid_generic",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.wearable-technologies.com/future-on-body",
+     "title": "Wearable Technologies - The future of on-body computing",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 58,
+   "title": "Energia de Fusão: Os Avanços Rumo à Energia Limpa Ilimitada",
+   "slug": "energia-de-fusao-avancos-rumo-a-energia-limpa",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.iter.org",
+     "title": "ITER - International Fusion Energy Organization",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.nature.com/physics-fusion-advances-2026",
+     "title": "Nature Physics - Recent advances in fusion energy research",
+     "httpStatus": 200,
+     "prevAudit": "future",
+     "class": "future",
+     "problem": "URL com data futura/fabricada (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 59,
+   "title": "Marvel: As Principais Novidades que Estão Movimentando o Universo dos Heróis em 2026",
+   "slug": "marvel-novidades-universo-dos-herois-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.marvel.com/news",
+     "title": "Marvel Oficial - Notícias e Anúncios",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://variety.com/t/marvel/",
+     "title": "Variety - Marvel Studios e Cinema",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 60,
+   "title": "Spider-Man: Novas Histórias e o Futuro do Herói nos Quadrinhos da Marvel",
+   "slug": "spider-man-historia-futuro-nos-quadrinhos-da-marvel",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.marvel.com/comics",
+     "title": "Marvel Oficial - Spider-Man nos Quadrinhos",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-2026",
+     "title": "The Hollywood Reporter - Spider-Man: Brand New Day",
+     "httpStatus": 200,
+     "prevAudit": "future",
+     "class": "future",
+     "problem": "URL com data futura/fabricada (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 61,
+   "title": "Avengers: O Que Esperar da Nova Fase do Universo Marvel",
+   "slug": "avengers-nova-fase-universo-marvel",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.marvel.com/movies/avengers-doomsday",
+     "title": "Marvel Studios - Avengers: Doomsday",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://variety.com/t/avengers-doomsday/",
+     "title": "Variety - Avengers: Doomsday notícias",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 0
+  },
+  {
+   "articleId": 62,
+   "title": "DC Comics: A Nova Fase dos Heróis Que Está Chamando Atenção em 2026",
+   "slug": "dc-comics-nova-fase-dos-herois-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.dc.com/news",
+     "title": "DC Comics - Notícias Oficiais",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.dcstudios.com",
+     "title": "DC Studios - Universo DC",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 63,
+   "title": "Superman e o Futuro do Homem de Aço no Universo da DC",
+   "slug": "superman-futuro-homem-de-aco-universo-dc",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.dc.com/superman",
+     "title": "DC Comics - Superman",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.dcstudios.com/superman",
+     "title": "DC Studios - Superman (2025)",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 64,
+   "title": "Batman: Novas Histórias e Desafios Para o Cavaleiro das Trevas",
+   "slug": "batman-novas-historias-desafios-cavaleiro-das-trevas",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.dc.com/batman",
+     "title": "DC Comics - Batman",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.dc.com/news",
+     "title": "DC Comics - Novidades do Batman",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 65,
+   "title": "HBO Max: Os Lançamentos Geek que Prometem Dominar o Streaming em 2026",
+   "slug": "hbo-max-lancamentos-geek-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.max.com",
+     "title": "Max - Plataforma de Streaming",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://variety.com/t/max/",
+     "title": "Variety - Max streaming lançamentos",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 66,
+   "title": "O Terror das Backrooms Chega ao Streaming e Transforma uma Lenda da Internet em Filme",
+   "slug": "backrooms-lenda-da-internet-chega-ao-streaming",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://variety.com/t/backrooms/",
+     "title": "Variety - Filme das Backrooms em desenvolvimento",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Backrooms",
+     "title": "Wikipedia - The Backrooms",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 2,
+   "problemCount": 0
+  },
+  {
+   "articleId": 67,
+   "title": "As Séries de Fantasia e Ficção Científica que Estão Ganhando Destaque na HBO Max",
+   "slug": "series-fantasia-ficcao-cientifica-em-destaque-na-hbo-max",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.max.com",
+     "title": "Max - Plataforma de Streaming",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://collider.com/max/",
+     "title": "Collider - Max séries e notícias",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 68,
+   "title": "Netflix: As Principais Novidades Geek que Chegam ao Catálogo em 2026",
+   "slug": "netflix-novidades-geek-catalogo-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.netflix.com/tudum",
+     "title": "Netflix Tudum - Novidades",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://collider.com/netflix/",
+     "title": "Collider - Netflix notícias",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 69,
+   "title": "Resident Evil: O Retorno da Franquia e o Que Esperar da Nova Adaptação",
+   "slug": "resident-evil-retorno-da-franquia-nova-adaptacao",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://game.capcom.com/residentevil/",
+     "title": "Capcom - Resident Evil oficial",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.ign.com/resident-evil",
+     "title": "IGN - Resident Evil notícias",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 70,
+   "title": "As Séries de Ficção Científica e Fantasia Mais Aguardadas da Netflix",
+   "slug": "series-ficcao-cientifica-fantasia-mais-aguardadas-netflix",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.netflix.com/tudum",
+     "title": "Netflix Tudum - Novidades",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://collider.com/netflix/",
+     "title": "Collider - Netflix notícias",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 71,
+   "title": "Disney+: As Novidades de Marvel e Star Wars que Movimentam o Streaming em 2026",
+   "slug": "disney-plus-novidades-marvel-star-wars-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.disneyplus.com",
+     "title": "Disney+ - Plataforma",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.starwars.com",
+     "title": "StarWars.com - Notícias",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 72,
+   "title": "The Mandalorian e Grogu: O Futuro de Star Wars Após a Nova Fase da Franquia",
+   "slug": "the-mandalorian-e-grogu-futuro-de-star-wars",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.starwars.com",
+     "title": "StarWars.com - The Mandalorian and Grogu",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://deadline.com/the-mandalorian-and-grogu",
+     "title": "Deadline - The Mandalorian and Grogu",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 73,
+   "title": "Disney: Como Marvel, Star Wars e Novas Franquias Estão Moldando o Entretenimento Geek",
+   "slug": "disney-marvel-star-wars-novas-franquias-entretenimento-geek",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.disneyplus.com",
+     "title": "Disney+ - Plataforma",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://thewaltdisneycompany.com",
+     "title": "The Walt Disney Company - Notícias",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 74,
+   "title": "GTA VI: O Retorno Mais Aguardado de 2026 e Tudo o Que Sabemos Antes do Lançamento",
+   "slug": "gta-vi-o-retorno-mais-aguardado-de-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.rockstargames.com/VI",
+     "title": "Rockstar Games - GTA VI",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.ign.com/games/grand-theft-auto-6",
+     "title": "IGN - Grand Theft Auto VI",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 75,
+   "title": "Supergirl: Woman of Tomorrow — O Novo Filme da Garota de Aço no Universo da DC",
+   "slug": "supergirl-woman-of-tomorrow-filme-do-novo-universo-dc",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.dcstudios.com/supergirl",
+     "title": "DC Studios - Supergirl",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://variety.com/t/supergirl/",
+     "title": "Variety - Supergirl (2026)",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 76,
+   "title": "Harry Potter: A Série do HBO Max Que Pretende Rebobinar a Fantasia na Televisão",
+   "slug": "harry-potter-serie-hbo-max-reboot-fantasia",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.warnerbros.com/tv/harry-potter",
+     "title": "Warner Bros. Television - Harry Potter",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.bbc.com/news/articles/c5ygp0908g9o",
+     "title": "BBC - Elenco da série Harry Potter",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 77,
+   "title": "The Witcher: A Temporada Final e o Futuro da Fantasia na Netflix",
+   "slug": "the-witcher-temporada-final-netflix",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.netflix.com/tudum/topics/the-witcher",
+     "title": "Netflix Tudum - The Witcher",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://collider.com/tag/the-witcher/",
+     "title": "Collider - The Witcher temporada final",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 78,
+   "title": "Welcome to Derry: A Série de Terror do Max Que Reconstrói o Universo de Stephen King",
+   "slug": "welcome-to-derry-serie-terror-do-max",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.max.com/shows/welcome-to-derry",
+     "title": "Max - Welcome to Derry",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://variety.com/t/welcome-to-derry/",
+     "title": "Variety - Welcome to Derry",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 79,
+   "title": "Ahsoka: Temporada 2 Ganha Teaser e Data de Estreia — O Que Sabemos",
+   "slug": "ahsoka-temporada-2-teaser-e-data-de-estreia",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.starwars.com/news",
+     "title": "StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://variety.com/",
+     "title": "Variety - Cobertura de Star Wars",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 80,
+   "title": "Star Wars: Starfighter: O Novo Filme da Saga Terá Ryan Gosling como Protagonista",
+   "slug": "star-wars-starfighter-novo-filme-ryan-gosling",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.starwars.com/news",
+     "title": "StarWars.com - Notícias oficiais",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://variety.com/v/film/",
+     "title": "Variety - Cobertura de cinema",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 81,
+   "title": "Lanterns: A Série da HBO que Aproxima os Lanternas Verdes do Estilo True Detective",
+   "slug": "lanterns-serie-hbo-dc-studios-hal-jordan-john-stewart",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.hbo.com/lanterns",
+     "title": "HBO - Lanterns (série oficial)",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.theverge.com/entertainment",
+     "title": "The Verge - Entertainment",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 82,
+   "title": "Spider-Man: Brand New Day Está em Cartaz: O Novo Capítulo de Tom Holland nos Cinemas",
+   "slug": "spider-man-brand-new-day-em-cartaz-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://variety.com/v/film/news/",
+     "title": "Variety - Film News",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.sonypictures.com/",
+     "title": "Sony Pictures - Spider-Man: Brand New Day",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 83,
+   "title": "Netflix em Setembro de 2026: os Destaques Geek do Mês no Streaming",
+   "slug": "netflix-setembro-2026-destaques-geek",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.netflix.com/tudum/",
+     "title": "Netflix Tudum - Go Behind the Streams",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.theverge.com/streaming",
+     "title": "The Verge - Streaming",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 84,
+   "title": "Coyote vs. Acme: a História do Filme que Foi Engavetado e Renasceu",
+   "slug": "coyote-vs-acme-filme-do-looney-tunes",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.theverge.com/entertainment",
+     "title": "The Verge - Entertainment",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://variety.com/v/film/",
+     "title": "Variety - Cobertura de cinema",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 85,
+   "title": "Star Wars × Marvel: o Crossover Editorial que Une Duas Maiores Máquinas de Histórias",
+   "slug": "crossover-star-wars-marvel-comics-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.starwars.com/news",
+     "title": "StarWars.com - Notícias oficiais",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.marvel.com/comics",
+     "title": "Marvel - Comics",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 86,
+   "title": "Linha Absolute da DC: o Universo Paralelo que Redefiniu os Clássicos nos Quadrinhos",
+   "slug": "linha-absolute-dc-quadrinhos-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.dc.com/blog",
+     "title": "DC.com - Blog e lançamentos",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.dc.com/comics",
+     "title": "DC.com - Latest Comics",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 87,
+   "title": "DC em Setembro de 2026: Teen Titans #1 e as Novas Séries da Editora",
+   "slug": "dc-setembro-2026-teen-titans-novas-series",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.dc.com/blog",
+     "title": "DC.com - Blog",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.dc.com/comics",
+     "title": "DC.com - Latest Comics & Graphic Novels",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 88,
+   "title": "The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2",
+   "slug": "the-duskbloods-fromsoftware-switch-2",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.nintendo.com/us/store/products/",
+     "title": "Nintendo - The Duskbloods (página oficial)",
+     "httpStatus": 404,
+     "prevAudit": "valid_specific",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.ign.com/news",
+     "title": "IGN - Notícias",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 89,
+   "title": "Star Wars Zero Company: o Jogo de Táticas da BIT REACTOR Coloca Você no Comando",
+   "slug": "star-wars-zero-company-jogo-estrategia",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.starwars.com/news",
+     "title": "StarWars.com - Games + Interactive",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.ign.com/news",
+     "title": "IGN - Star Wars Zero Company",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 90,
+   "title": "The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia",
+   "slug": "the-witcher-4-cd-projekt-red-nova-saga",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.ign.com/news",
+     "title": "IGN - Notícias",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.cdprojektred.com/en/news",
+     "title": "CD Projekt Red - Site oficial",
+     "httpStatus": 404,
+     "prevAudit": "valid_generic",
+     "class": "invalid",
+     "problem": "HTTP 404 — página inexistente",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 91,
+   "title": "Xbox Series X e os 25 Anos do Xbox: o que a Geração Atual Aprendeu com o Legado",
+   "slug": "xbox-series-x-25-anos-celebracao",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.theverge.com/gaming",
+     "title": "The Verge - Gaming",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://news.xbox.com/",
+     "title": "Xbox Wire - Notícias oficiais",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 92,
+   "title": "PS5 Live TV: a Sony Transforma o Console em Central de Transmissões ao Vivo",
+   "slug": "ps5-live-tv-sony-novo-recurso",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.ign.com/news",
+     "title": "IGN - Notícias",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.playstation.com/",
+     "title": "PlayStation - Site oficial",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 93,
+   "title": "IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios",
+   "slug": "ia-hollywood-google-suno-disputa-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.theverge.com/entertainment",
+     "title": "The Verge - Entertainment",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.theverge.com/ai-artificial-intelligence",
+     "title": "The Verge - AI",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 94,
+   "title": "BepiColombo Inicia a Chegada a Mercúrio: o Fim de uma Travessia de Oito Anos",
+   "slug": "bepicolombo-inicia-chegada-mercurio-2026",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo",
+     "title": "ESA - BepiColombo Science & Exploration",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.space.com/news",
+     "title": "Space.com - Space News",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 95,
+   "title": "NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA",
+   "slug": "nvidia-compra-hugging-face-129-bilhoes-ia",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://nvidianews.nvidia.com/",
+     "title": "NVIDIA Newsroom - NVIDIA to Acquire Hugging Face",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://techcrunch.com/category/artificial-intelligence/",
+     "title": "TechCrunch - AI News",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 96,
+   "title": "O Decágono de Saturno: Hubble Descobre Padrão Gigante no Polo Sul do Planeta",
+   "slug": "hubble-decagono-polo-sul-saturno",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://esahubble.org/",
+     "title": "ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.sciencedaily.com/",
+     "title": "ScienceDaily - Top Science News",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 97,
+   "title": "Pandora: a Missão da NASA que Começou a Decifrar Atmosferas de Exoplanetas",
+   "slug": "pandora-missao-nasa-exoplanetas-comeca-observacoes",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://science.nasa.gov/mission/pandora/",
+     "title": "NASA Science - Missão Pandora",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.nasa.gov/news/",
+     "title": "NASA - NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 98,
+   "title": "State of Play de Setembro de 2026: Todos os Anúncios da Sony em Um Só Lugar",
+   "slug": "playstation-state-of-play-setembro-2026-resumo",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://blog.playstation.com/",
+     "title": "PlayStation.Blog - State of Play & State of Play Japan: all announcements",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.ign.com/articles",
+     "title": "IGN - Latest News",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 99,
+   "title": "Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027",
+   "slug": "final-fantasy-vii-revelation-data-lancamento-2027",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://blog.playstation.com/",
+     "title": "PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.square-enix-games.com/",
+     "title": "Square Enix - Site Oficial",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 100,
+   "title": "Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York",
+   "slug": "artificial-luca-guadagnino-filme-sam-altman-nyff",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://variety.com/v/film/",
+     "title": "Variety - Luca Guadagnino’s ‘Artificial’ to World Premiere at New York Film Festival (EXCLUSIVE)",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.theverge.com/entertainment",
+     "title": "The Verge - Entertainment",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 101,
+   "title": "The Odyssey de Christopher Nolan: IMAX 70mm Estendido e Vendas que Batem Recordes",
+   "slug": "the-odyssey-imax-70mm-recorde-nolan",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://variety.com/v/film/",
+     "title": "Variety - ‘The Odyssey’ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.imax.com/",
+     "title": "IMAX - Site Oficial",
+     "httpStatus": 403,
+     "prevAudit": "needs_replacement",
+     "class": "blocked",
+     "problem": "HTTP 403 — bloqueio de bot; requer verificação alternativa",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 102,
+   "title": "Supergirl Define Data de Chegada ao Streaming: Quando Ver o Filme da DC no HBO Max",
+   "slug": "supergirl-hbo-max-data-streaming",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://variety.com/v/film/",
+     "title": "Variety - ‘Supergirl’ Sets HBO Max Streaming Release Date",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.dc.com/",
+     "title": "DC - Site Oficial",
+     "httpStatus": 200,
+     "prevAudit": "needs_replacement",
+     "class": "generic",
+     "problem": "HTTP OK, mas URL genérica/ampla — não sustenta o artigo (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 103,
+   "title": "Star Wars: Starfighter: Ryan Gosling é Kade Auberon — o Que a Revelação Diz Sobre o Filme",
+   "slug": "star-wars-starfighter-kade-auberon-ryan-gosling",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.starwars.com/news",
+     "title": "StarWars.com - Ryan Gosling is Kade Auberon in Star Wars: Starfighter",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    },
+    {
+     "url": "https://www.space.com/news",
+     "title": "Space.com - Space Movies & Shows",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 0,
+   "problemCount": 2
+  },
+  {
+   "articleId": 104,
+   "title": "Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Nação do Fogo",
+   "slug": "avatar-the-last-airbender-temporada-3-fire-nation-2027",
+   "sourceCount": 2,
+   "currentSources": [
+    {
+     "url": "https://www.netflix.com/tudum/avatar-the-last-airbender",
+     "title": "Netflix Tudum - Avatar: The Last Airbender (Temporada 3 em 2027)",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    },
+    {
+     "url": "https://www.netflix.com/tudum",
+     "title": "Netflix Tudum - Página oficial da série",
+     "httpStatus": 200,
+     "prevAudit": "valid_generic",
+     "class": "generic",
+     "problem": "URL ampla demais para o assunto (heurística)",
+     "action": "replace_or_verify"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 1
+  },
+  {
+   "articleId": 105,
+   "title": "Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar",
+   "slug": "rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105",
+   "sourceCount": 1,
+   "currentSources": [
+    {
+     "url": "https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/",
+     "title": "adrenaline.com.br — Rockstar defende abastecimento em GTA 6",
+     "httpStatus": 200,
+     "prevAudit": "valid_specific",
+     "class": "ok",
+     "problem": "HTTP OK + heurística OK",
+     "action": "keep"
+    }
+   ],
+   "validCount": 1,
+   "problemCount": 0
+  }
+ ]
+}

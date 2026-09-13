@@ -1,0 +1,32 @@
+{
+  "task": "TASK 48 - Auditoria Editorial",
+  "phase": "FASE 3 - Auditoria das Fontes",
+  "timestamp": "2026-09-10T00:00:00Z",
+  "sources_audit": {
+    "106": {"title": "Ondas Gravitacionais", "sources": [{"url": "https://www.ligo.caltech.edu/", "status": "VALID", "type": "official"}, {"url": "https://en.wikipedia.org/wiki/Gravitational_wave", "status": "VALID"}]},
+    "107": {"title": "CRISPR", "sources": [{"url": "https://en.wikipedia.org/wiki/CRISPR_gene_editing", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Casgevy", "status": "VALID"}]},
+    "108": {"title": "Edge Computing", "sources": [{"url": "https://en.wikipedia.org/wiki/Edge_computing", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Fog_computing", "status": "VALID"}]},
+    "109": {"title": "TPU", "sources": [{"url": "https://cloud.google.com/tpu", "status": "VALID", "type": "official"}, {"url": "https://en.wikipedia.org/wiki/Tensor_Processing_Unit", "status": "VALID"}]},
+    "110": {"title": "Aurora Boreal", "sources": [{"url": "https://en.wikipedia.org/wiki/Aurora", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Solar_wind", "status": "VALID"}]},
+    "111": {"title": "Europa Clipper", "sources": [{"url": "https://en.wikipedia.org/wiki/Europa_Clipper", "status": "VALID"}, {"url": "https://europa.nasa.gov/", "status": "VALID", "type": "official"}]},
+    "112": {"title": "Agentes Autônomos", "sources": [{"url": "https://en.wikipedia.org/wiki/Agentic_AI", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Autonomous_agent", "status": "VALID"}]},
+    "113": {"title": "Modelos Multimodais", "sources": [{"url": "https://en.wikipedia.org/wiki/Multimodal_learning", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Vision_language_model", "status": "VALID"}]},
+    "114": {"title": "Biologia Sintética", "sources": [{"url": "https://en.wikipedia.org/wiki/Synthetic_biology", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Genetic_circuit", "status": "VALID"}]},
+    "115": {"title": "Energia Solar Espacial", "sources": [{"url": "https://en.wikipedia.org/wiki/Space-based_solar_power", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Solar_power_satellite", "status": "VALID"}]},
+    "116": {"title": "Geração Procedural", "sources": [{"url": "https://en.wikipedia.org/wiki/Procedural_generation", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Procedural_generation_in_video_games", "status": "VALID"}]},
+    "117": {"title": "Acessibilidade em Games", "sources": [{"url": "https://en.wikipedia.org/wiki/Game_accessibility", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Xbox_Adaptive_Controller", "status": "VALID"}]},
+    "118": {"title": "Preservação Digital", "sources": [{"url": "https://en.wikipedia.org/wiki/Film_preservation", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Digital_restoration", "status": "VALID"}]},
+    "119": {"title": "Deepfake", "sources": [{"url": "https://en.wikipedia.org/wiki/Deepfake", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Digital_likeness", "status": "VALID"}]},
+    "120": {"title": "Webcomics", "sources": [{"url": "https://en.wikipedia.org/wiki/Webcomic", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Webtoon", "status": "VALID"}]},
+    "121": {"title": "Representação", "sources": [{"url": "https://en.wikipedia.org/wiki/Portrayal_of_women_in_comics", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Portrayal_of_women_in_American_comics", "status": "VALID"}]},
+    "122": {"title": "Ilusões de Óptica", "sources": [{"url": "https://en.wikipedia.org/wiki/Optical_illusion", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Checker_shadow_illusion", "status": "VALID"}]},
+    "123": {"title": "Animais/Ferramentas", "sources": [{"url": "https://en.wikipedia.org/wiki/Tool_use_by_animals", "status": "VALID"}, {"url": "https://en.wikipedia.org/wiki/Tool_use_by_non-human_animals", "status": "VALID"}]}
+  },
+  "summary": {
+    "total_sources": 36,
+    "valid_sources": 36,
+    "broken_sources_fixed": 2,
+    "primary_sources_added": 2,
+    "primary_sources_total": 4
+  }
+}

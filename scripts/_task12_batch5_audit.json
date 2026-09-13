@@ -1,0 +1,385 @@
+﻿[
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "KEEP",
+                                  "specific":  true,
+                                  "http":  200,
+                                  "type":  "agency",
+                                  "relevant":  true,
+                                  "title":  "NASA - Artemis Program",
+                                  "url":  "https://www.nasa.gov/specials/artemis"
+                              },
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "publication",
+                                  "title":  "Ars Technica - Artemis timeline and landing system updates",
+                                  "url":  "https://arstechnica.com/science/artemis-timeline-2026"
+                              }
+                          ],
+        "id":  "42",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "NASA - Artemis Program",
+                                 "url":  "https://www.nasa.gov/specials/artemis",
+                                 "type":  "agency"
+                             },
+                             {
+                                 "title":  "NASA - Artemis II Mission",
+                                 "url":  "https://www.nasa.gov/mission/artemis-ii/",
+                                 "type":  "agency"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  1,
+        "title":  "Artemis: O Caminho de Volta a Lua Passa por Grandes Desafios",
+        "removed":  0,
+        "kept":  1
+    },
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "journal",
+                                  "title":  "Nature Medicine - AI in diagnostic imaging review",
+                                  "url":  "https://www.nature.com/articles/s41591-ai-medicine-review"
+                              },
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "agency",
+                                  "title":  "WHO - Ethics and governance of artificial intelligence for health",
+                                  "url":  "https://www.who.int/publications/ai-health"
+                              }
+                          ],
+        "id":  "43",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "Nature Medicine - AI in health and medicine",
+                                 "url":  "https://www.nature.com/articles/s41591-021-01614-0",
+                                 "type":  "journal"
+                             },
+                             {
+                                 "title":  "WHO - Ethics and governance of artificial intelligence for health",
+                                 "url":  "https://www.who.int/publications/i/item/9789240029200",
+                                 "type":  "agency"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  2,
+        "title":  "IA na Medicina: O Avanco da Deteccao Precoce de Doencas",
+        "removed":  0,
+        "kept":  0
+    },
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "university",
+                                  "title":  "Stanford HAI - Algorithmic bias and fairness research",
+                                  "url":  "https://hai.stanford.edu/algorithmic-bias"
+                              },
+                              {
+                                  "decision":  "KEEP",
+                                  "specific":  true,
+                                  "http":  200,
+                                  "type":  "agency",
+                                  "relevant":  true,
+                                  "title":  "UNESCO - Recommendation on the Ethics of Artificial Intelligence",
+                                  "url":  "https://www.unesco.org/en/artificial-intelligence/ethics"
+                              }
+                          ],
+        "id":  "44",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "NIST - AI Risk Management Framework",
+                                 "url":  "https://www.nist.gov/itl/ai-risk-management-framework",
+                                 "type":  "government"
+                             },
+                             {
+                                 "title":  "UNESCO - Recommendation on the Ethics of Artificial Intelligence",
+                                 "url":  "https://www.unesco.org/en/artificial-intelligence/ethics",
+                                 "type":  "agency"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  1,
+        "title":  "Etica e Vieses: Os Grandes Desafios da IA em 2026",
+        "removed":  0,
+        "kept":  1
+    },
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "403",
+                                  "type":  "journal",
+                                  "title":  "Science - Quantum computing error correction progress",
+                                  "url":  "https://www.science.org/quantum-error-correction"
+                              },
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "publication",
+                                  "title":  "MIT Technology Review - Quantum computing reality check",
+                                  "url":  "https://www.technologyreview.com/quantum-computing-2026"
+                              }
+                          ],
+        "id":  "45",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "Nature - Suppressing quantum errors by scaling a surface code logical qubit",
+                                 "url":  "https://www.nature.com/articles/s41586-022-05434-1",
+                                 "type":  "journal"
+                             },
+                             {
+                                 "title":  "IBM Quantum - Hardware and roadmap",
+                                 "url":  "https://www.ibm.com/quantum",
+                                 "type":  "official"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  2,
+        "title":  "Computacao Quantica em 2026",
+        "removed":  0,
+        "kept":  0
+    },
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "403",
+                                  "type":  "company",
+                                  "title":  "GSMA - 5G Advanced and 6G vision",
+                                  "url":  "https://www.gsma.com/futurenetworks/6g"
+                              },
+                              {
+                                  "decision":  "KEEP",
+                                  "specific":  true,
+                                  "http":  200,
+                                  "type":  "agency",
+                                  "relevant":  true,
+                                  "title":  "ITU - IMT-2030 framework for 6G",
+                                  "url":  "https://www.itu.int/imt2030-framework-6g"
+                              }
+                          ],
+        "id":  "46",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "ITU - IMT-2030 framework for 6G",
+                                 "url":  "https://www.itu.int/imt2030-framework-6g",
+                                 "type":  "agency"
+                             },
+                             {
+                                 "title":  "ITU - Future networks and 6G vision",
+                                 "url":  "https://www.itu.int/en/ITU-T/focusgroups/6g/Pages/default.aspx",
+                                 "type":  "agency"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  1,
+        "title":  "5G Avancado e 6G: O Que Vem depois da Revolucao da Conectividade",
+        "removed":  0,
+        "kept":  1
+    },
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "journal",
+                                  "title":  "Nature Reviews - Gut microbiome and human health",
+                                  "url":  "https://www.nature.com/nrgastro/gut-microbiome-health"
+                              },
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "university",
+                                  "title":  "Harvard T.H. Chan - The gut-brain connection",
+                                  "url":  "https://www.hsph.harvard.edu/nutritionsource/gut-brain"
+                              }
+                          ],
+        "id":  "47",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "Nature Reviews Gastroenterology - Gut microbiome",
+                                 "url":  "https://www.nature.com/nrgastro",
+                                 "type":  "journal"
+                             },
+                             {
+                                 "title":  "Harvard T.H. Chan - The Microbiome",
+                                 "url":  "https://www.hsph.harvard.edu/nutritionsource/microbiome/",
+                                 "type":  "university"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  2,
+        "title":  "Microbioma Intestinal: As Bacterias Que Influenciam o Corpo Inteiro",
+        "removed":  0,
+        "kept":  0
+    },
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "agency",
+                                  "title":  "CERN - Future circular collider study",
+                                  "url":  "https://home.cern/science/future-circular-collider"
+                              },
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "403",
+                                  "type":  "publication",
+                                  "title":  "Symmetry Magazine - The future of particle physics",
+                                  "url":  "https://www.symmetrymagazine.org/future-of-particle-physics"
+                              }
+                          ],
+        "id":  "48",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "CERN - Accelerators and future projects",
+                                 "url":  "https://home.cern/science/accelerators",
+                                 "type":  "agency"
+                             },
+                             {
+                                 "title":  "CERN - High-Luminosity LHC",
+                                 "url":  "https://home.cern/science/accelerators/high-luminosity-lhc",
+                                 "type":  "agency"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  2,
+        "title":  "CERN e o Futuro da Fisica de Particulas",
+        "removed":  0,
+        "kept":  0
+    },
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "publication",
+                                  "title":  "Game Developers Conference - AI in game production",
+                                  "url":  "https://gdconf.com/ai-game-production"
+                              },
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "publication",
+                                  "title":  "Polygon - The business of AI in video games",
+                                  "url":  "https://www.polygon.com/ai-in-video-games"
+                              }
+                          ],
+        "id":  "49",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "GDC - State of the Game Industry Report 2026",
+                                 "url":  "https://gdconf.com/news/gdc-2026-trends-report",
+                                 "type":  "publication"
+                             },
+                             {
+                                 "title":  "NVIDIA - AI in game development",
+                                 "url":  "https://www.nvidia.com/en-us/geforce/broadcasting/gfn-force/",
+                                 "type":  "official"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  2,
+        "title":  "IA Generativa no Design de Games",
+        "removed":  0,
+        "kept":  0
+    },
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "publication",
+                                  "title":  "The Verge - The state of cloud gaming",
+                                  "url":  "https://www.theverge.com/cloud-gaming-2026"
+                              },
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "publication",
+                                  "title":  "IGN - Cloud gaming latency and performance tests",
+                                  "url":  "https://www.ign.com/cloud-gaming-latency-2026"
+                              }
+                          ],
+        "id":  "50",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "The Verge - Cloud gaming is finally working",
+                                 "url":  "https://www.theverge.com/2024/12/18/24323628/cloud-gaming-finally-working-nvidia-geforce-now-xbox",
+                                 "type":  "publication"
+                             },
+                             {
+                                 "title":  "Microsoft - Xbox Cloud Gaming",
+                                 "url":  "https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming",
+                                 "type":  "official"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  2,
+        "title":  "Cloud Gaming em 2026",
+        "removed":  0,
+        "kept":  0
+    },
+    {
+        "sourcesBefore":  [
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "publication",
+                                  "title":  "Variety - The consolidation era of streaming",
+                                  "url":  "https://variety.com/streaming-consolidation-2026"
+                              },
+                              {
+                                  "decision":  "REPLACE",
+                                  "specific":  false,
+                                  "http":  "404",
+                                  "type":  "publication",
+                                  "title":  "Hollywood Reporter - The future of streaming business models",
+                                  "url":  "https://www.hollywoodreporter.com/streaming-future-2026"
+                              }
+                          ],
+        "id":  "51",
+        "sourcesAfter":  [
+                             {
+                                 "title":  "Variety - Streaming business and industry news",
+                                 "url":  "https://variety.com/v/tv/streaming/",
+                                 "type":  "publication"
+                             },
+                             {
+                                 "title":  "Hollywood Reporter - Streaming business news",
+                                 "url":  "https://www.hollywoodreporter.com/c/tv/streaming/",
+                                 "type":  "publication"
+                             }
+                         ],
+        "pending":  0,
+        "replaced":  2,
+        "title":  "O Futuro do Streaming em 2026",
+        "removed":  0,
+        "kept":  0
+    }
+]

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "published": true,
+  "articleId": "106",
+  "title": "GTA 6: 7 mecânicas inusitadas de gameplay que você não percebeu",
+  "slug": "gta-6-7-mecanicas-inusitadas-de-gameplay-que-voce-nao-perceb-auto-106",
+  "source": "techtudo.com.br",
+  "timestamp": "2026-09-04T11:59:07.411Z",
+  "log": [
+    "[pipeline] Início — 2026-09-04T11:58:52.384Z",
+    "[pipeline] Modo: PUBLICAÇÃO",
+    "[pipeline] Artigos no acervo: 105",
+    "[pipeline] Pautas já publicadas (state): 1",
+    "[pipeline] Buscando feeds...",
+    "[pipeline] Itens encontrados: 35",
+    "[pipeline] Selecionando melhor pauta...",
+    "[pipeline] Pauta selecionada: \"GTA 6: 7 mecânicas inusitadas de gameplay que você não percebeu\" (score 85, tier 3, confirmed)",
+    "[pipeline] Fonte: techtudo.com.br — https://www.techtudo.com.br/listas/2026/09/gta-6-7-mecanicas-inusitadas-de-gameplay-que-voce-nao-percebeu-edjogos.ghtml",
+    "[pipeline] Próximo ID: 106",
+    "[pipeline] Buscando imagem de capa relacionada ao tema...",
+    "[pipeline] Imagem encontrada: \"File:Downtown Miami skyline 20100305.jpg\" [CC BY-SA 3.0] (tema: gta6-vice-city)",
+    "[pipeline] Artigo gerado: \"GTA 6: 7 mecânicas inusitadas de gameplay que você não percebeu\" (slug: gta-6-7-mecanicas-inusitadas-de-gameplay-que-voce-nao-perceb-auto-106)",
+    "[pipeline] Tags: GTA 6, Rockstar Games, games",
+    "[pipeline] Fontes: https://www.techtudo.com.br/listas/2026/09/gta-6-7-mecanicas-inusitadas-de-gameplay-que-voce-nao-percebeu-edjogos.ghtml",
+    "[pipeline] Imagem de capa validada (HTTP 200, image/jpeg)",
+    "[pipeline] Artigo inserido em lib/articles.ts",
+    "[pipeline] Créditos da imagem registrados em _commons_picks.json",
+    "[pipeline] State atualizado"
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "batch": 7,
+  "articlesRange": "72-101",
+  "totalArticles": 30,
+  "results": [
+    {
+      "id": 72,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 73,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 74,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 75,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 76,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 77,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 78,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 79,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 80,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 81,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 82,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 83,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 84,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 85,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 86,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 87,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 88,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 89,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 90,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 91,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 92,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 93,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 94,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 95,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 96,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 97,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 98,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 99,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 100,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    },
+    {
+      "id": 101,
+      "status": "PASS",
+      "sourcesChanged": null,
+      "otherFieldsChanged": false,
+      "fieldsMatch": true
+    }
+  ],
+  "onlySourcesChanged": true
+}

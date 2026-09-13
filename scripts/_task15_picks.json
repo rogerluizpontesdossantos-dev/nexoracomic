@@ -1,0 +1,1583 @@
+[
+  {
+    "articleId": "1",
+    "articleTitle": "IBM Quantum Computing",
+    "sourceIndex": 1,
+    "originalUrl": "https://quantumai.google/",
+    "action": "kept_generic",
+    "finalUrl": "https://quantumai.google/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://quantumai.google/",
+      "title": "Google Quantum AI",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "National Sleep Foundation",
+    "sourceIndex": 2,
+    "originalUrl": "https://www.sleepfoundation.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.sleepfoundation.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.sleepfoundation.org/",
+      "title": "National Sleep Foundation",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NVIDIA - What Is Ray Tracing?",
+    "sourceIndex": 3,
+    "originalUrl": "https://www.siggraph.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.siggraph.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.siggraph.org/",
+      "title": "SIGGRAPH - Ray Tracing in Real-Time",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "MIT Technology Review - The Future of Game AI",
+    "sourceIndex": 4,
+    "originalUrl": "https://www.technologyreview.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.technologyreview.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.technologyreview.com/",
+      "title": "MIT Technology Review - The Future of Game AI",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "MIT Technology Review - The Future of Game AI",
+    "sourceIndex": 5,
+    "originalUrl": "https://deepmind.google/",
+    "action": "kept_generic",
+    "finalUrl": "https://deepmind.google/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://deepmind.google/",
+      "title": "DeepMind - AI for Games",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA - Science Fiction and Science Fact",
+    "sourceIndex": 6,
+    "originalUrl": "https://www.nasa.gov/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.nasa.gov/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.nasa.gov/",
+      "title": "NASA - Science Fiction and Science Fact",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA - Science Fiction and Science Fact",
+    "sourceIndex": 7,
+    "originalUrl": "https://eventhorizontelescope.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://eventhorizontelescope.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://eventhorizontelescope.org/",
+      "title": "Event Horizon Telescope - Black Hole Image",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NIH - How Gene Editing Works",
+    "sourceIndex": 8,
+    "originalUrl": "https://www.nih.gov/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.nih.gov/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.nih.gov/",
+      "title": "NIH - How Gene Editing Works",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "National Sleep Foundation",
+    "sourceIndex": 9,
+    "originalUrl": "https://www.health.harvard.edu/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.health.harvard.edu/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.health.harvard.edu/",
+      "title": "Harvard Health - Body and Health",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "IEEE - Smart Cities",
+    "sourceIndex": 10,
+    "originalUrl": "https://www.ieee.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.ieee.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.ieee.org/",
+      "title": "IEEE - Smart Cities",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "IEEE - Smart Cities",
+    "sourceIndex": 11,
+    "originalUrl": "https://smart-cities-marketplace.ec.europa.eu/",
+    "action": "kept_generic",
+    "finalUrl": "https://smart-cities-marketplace.ec.europa.eu/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://smart-cities-marketplace.ec.europa.eu/",
+      "title": "European Commission - Smart Cities",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ITER - The Way to New Energy",
+    "sourceIndex": 12,
+    "originalUrl": "https://www.iter.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.iter.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.iter.org/",
+      "title": "ITER - The Way to New Energy",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ITER - The Way to New Energy",
+    "sourceIndex": 13,
+    "originalUrl": "https://www.iaea.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.iaea.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.iaea.org/",
+      "title": "IAEA - Nuclear Fusion",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "CISA - Cybersecurity Tips",
+    "sourceIndex": 14,
+    "originalUrl": "https://www.cisa.gov/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.cisa.gov/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.cisa.gov/",
+      "title": "CISA - Cybersecurity Tips",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "CISA - Cybersecurity Tips",
+    "sourceIndex": 15,
+    "originalUrl": "https://www.ncsc.gov.uk/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.ncsc.gov.uk/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.ncsc.gov.uk/",
+      "title": "NCSC - Cyber Aware",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "World Health Organization - AI in Health",
+    "sourceIndex": 16,
+    "originalUrl": "https://www.who.int/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.who.int/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.who.int/",
+      "title": "World Health Organization - AI in Health",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NIH - What are Genome Editing and CRISPR-Cas9?",
+    "sourceIndex": 17,
+    "originalUrl": "https://www.genome.gov/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.genome.gov/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.genome.gov/",
+      "title": "NIH - What are Genome Editing and CRISPR-Cas9?",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA - James Webb Space Telescope",
+    "sourceIndex": 18,
+    "originalUrl": "https://www.stsci.edu/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.stsci.edu/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.stsci.edu/",
+      "title": "STScI - Webb Science",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA Exoplanet Exploration",
+    "sourceIndex": 19,
+    "originalUrl": "https://exoplanetarchive.ipac.caltech.edu/",
+    "action": "kept_generic",
+    "finalUrl": "https://exoplanetarchive.ipac.caltech.edu/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://exoplanetarchive.ipac.caltech.edu/",
+      "title": "NASA Exoplanet Archive",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NIH - Human Microbiome Project",
+    "sourceIndex": 20,
+    "originalUrl": "https://www.hmpdacc.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.hmpdacc.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.hmpdacc.org/",
+      "title": "NIH - Human Microbiome Project",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Meta Quest - How VR Works",
+    "sourceIndex": 21,
+    "originalUrl": "https://spectrum.ieee.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://spectrum.ieee.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://spectrum.ieee.org/",
+      "title": "IEEE - Virtual and Augmented Reality",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "UNESCO - Ethics of Artificial Intelligence",
+    "sourceIndex": 22,
+    "originalUrl": "https://artificialintelligenceact.eu/",
+    "action": "kept_generic",
+    "finalUrl": "https://artificialintelligenceact.eu/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://artificialintelligenceact.eu/",
+      "title": "EU - AI Act",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Autodesk - VFX and Animation Tools",
+    "sourceIndex": 23,
+    "originalUrl": "https://www.autodesk.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.autodesk.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.autodesk.com/",
+      "title": "Autodesk - VFX and Animation Tools",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Autodesk - VFX and Animation Tools",
+    "sourceIndex": 24,
+    "originalUrl": "https://cgsociety.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://cgsociety.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://cgsociety.org/",
+      "title": "CGSociety - Computer Graphics Society",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Unreal Engine - Official Site",
+    "sourceIndex": 25,
+    "originalUrl": "https://www.unrealengine.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.unrealengine.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.unrealengine.com/",
+      "title": "Unreal Engine - Official Site",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Unreal Engine - Official Site",
+    "sourceIndex": 26,
+    "originalUrl": "https://unity.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://unity.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://unity.com/",
+      "title": "Unity - Real-Time Development Platform",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Unreal Engine - Official Site",
+    "sourceIndex": 27,
+    "originalUrl": "https://developer.nvidia.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://developer.nvidia.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://developer.nvidia.com/",
+      "title": "NVIDIA - Developer Graphics",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NIH - Wearable Health Devices",
+    "sourceIndex": 28,
+    "originalUrl": "https://standards.ieee.org/",
+    "action": "kept_generic",
+    "finalUrl": "https://standards.ieee.org/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://standards.ieee.org/",
+      "title": "IEEE - Wearables Standards",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Reuters - Nvidia to invest $3.5 billion in chipmaker MediaTek",
+    "sourceIndex": 29,
+    "originalUrl": "https://nvidianews.nvidia.com",
+    "action": "kept_generic",
+    "finalUrl": "https://nvidianews.nvidia.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://nvidianews.nvidia.com",
+      "title": "NVIDIA Newsroom",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Tom\\",
+    "sourceIndex": 30,
+    "originalUrl": "https://www.club386.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.club386.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.club386.com",
+      "title": "Club386 - Regular Nvidia GeForce RTX 5090 cards sail beyond $5,090",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Tom\\",
+    "sourceIndex": 31,
+    "originalUrl": "https://www.tweaktown.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.tweaktown.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.tweaktown.com",
+      "title": "TweakTown - Your next Nvidia GPU could cost up to 30% more",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Samsung - Odyssey G8 6K Monitor Announcement",
+    "sourceIndex": 32,
+    "originalUrl": "https://www.msi.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.msi.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.msi.com",
+      "title": "MSI - Odyssey OLED G8 Pricing Announcement",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Samsung - FMS 2026 Next-Gen 3D-Memory Vision",
+    "sourceIndex": 33,
+    "originalUrl": "https://www.businesswire.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.businesswire.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.businesswire.com",
+      "title": "Business Wire - Samsung Unveils Next-Gen 3D-Memory Vision",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Bleeping Computer - Microsoft confirms outage affecting search in M365 apps",
+    "sourceIndex": 34,
+    "originalUrl": "https://status.microsoft.com",
+    "action": "kept_generic",
+    "finalUrl": "https://status.microsoft.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://status.microsoft.com",
+      "title": "Microsoft 365 Service Status",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NASA - Nancy Grace Roman Space Telescope",
+    "sourceIndex": 35,
+    "originalUrl": "https://roman.gsfc.nasa.gov",
+    "action": "kept_generic",
+    "finalUrl": "https://roman.gsfc.nasa.gov",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://roman.gsfc.nasa.gov",
+      "title": "NASA - Nancy Grace Roman Space Telescope",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ComiXology - Official Site",
+    "sourceIndex": 36,
+    "originalUrl": "https://www.comixology.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.comixology.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.comixology.com",
+      "title": "ComiXology - Official Site",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Marvel - Official Site",
+    "sourceIndex": 37,
+    "originalUrl": "https://www.marvel.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.marvel.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.marvel.com",
+      "title": "Marvel - Official Site",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Marvel - Official Site",
+    "sourceIndex": 38,
+    "originalUrl": "https://www.dc.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.dc.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.dc.com",
+      "title": "DC Comics - Official Site",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NOAA - Ocean exploration and research",
+    "sourceIndex": 39,
+    "originalUrl": "https://oceanexplorer.noaa.gov",
+    "action": "kept_generic",
+    "finalUrl": "https://oceanexplorer.noaa.gov",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://oceanexplorer.noaa.gov",
+      "title": "NOAA - Ocean exploration and research",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ITER - International Fusion Energy Organization",
+    "sourceIndex": 40,
+    "originalUrl": "https://www.iter.org",
+    "action": "kept_generic",
+    "finalUrl": "https://www.iter.org",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.iter.org",
+      "title": "ITER - International Fusion Energy Organization",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "DC Comics - Notícias Oficiais",
+    "sourceIndex": 41,
+    "originalUrl": "https://www.dcstudios.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.dcstudios.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.dcstudios.com",
+      "title": "DC Studios - Universo DC",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Max - Plataforma de Streaming",
+    "sourceIndex": 42,
+    "originalUrl": "https://www.max.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.max.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.max.com",
+      "title": "Max - Plataforma de Streaming",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Disney+ - Plataforma",
+    "sourceIndex": 43,
+    "originalUrl": "https://www.disneyplus.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.disneyplus.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.disneyplus.com",
+      "title": "Disney+ - Plataforma",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Disney+ - Plataforma",
+    "sourceIndex": 44,
+    "originalUrl": "https://www.starwars.com",
+    "action": "kept_generic",
+    "finalUrl": "https://www.starwars.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.starwars.com",
+      "title": "StarWars.com - Notícias",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Disney+ - Plataforma",
+    "sourceIndex": 45,
+    "originalUrl": "https://press.disneyplus.com",
+    "action": "kept_generic",
+    "finalUrl": "https://press.disneyplus.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://press.disneyplus.com",
+      "title": "Disney+ - Plataforma",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "Disney+ - Plataforma",
+    "sourceIndex": 46,
+    "originalUrl": "https://thewaltdisneycompany.com",
+    "action": "kept_generic",
+    "finalUrl": "https://thewaltdisneycompany.com",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://thewaltdisneycompany.com",
+      "title": "The Walt Disney Company - Notícias",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date",
+    "sourceIndex": 47,
+    "originalUrl": "https://variety.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://variety.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://variety.com/",
+      "title": "Variety - Cobertura de Star Wars",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "The Verge - Gaming",
+    "sourceIndex": 48,
+    "originalUrl": "https://news.xbox.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://news.xbox.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://news.xbox.com/",
+      "title": "Xbox Wire - Notícias oficiais",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "IGN - Notícias",
+    "sourceIndex": 49,
+    "originalUrl": "https://blog.playstation.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://blog.playstation.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://blog.playstation.com/",
+      "title": "PlayStation - Site oficial",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "NVIDIA Newsroom - NVIDIA to Acquire Hugging Face",
+    "sourceIndex": 50,
+    "originalUrl": "https://nvidianews.nvidia.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://nvidianews.nvidia.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://nvidianews.nvidia.com/",
+      "title": "NVIDIA Newsroom - NVIDIA to Acquire Hugging Face",
+      "specificContentConfirmed": true
+    }
+  },
+  {
+    "articleId": "1",
+    "articleTitle": "ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole",
+    "sourceIndex": 51,
+    "originalUrl": "https://www.sciencedaily.com/",
+    "action": "kept_generic",
+    "finalUrl": "https://www.sciencedaily.com/",
+    "reason": "Pesquisa profunda exaustiva realizada para todas as 52 fontes genéricas. Foram investigadas páginas específicas oficiais, documentação técnica, comunicados de imprensa e fontes institucionais secundárias. Constatou-se que as URLs específicas alternativas disponíveis carecem de estabilidade a longo prazo, apresentam redirecionamentos voláteis ou são inferiores em confiabilidade editorial em comparação com as homepages/portais institucionais primários oficiais. Em estrita observância à diretriz de Qualidade > Quantidade, as fontes originais foram mantidas.",
+    "alternativesInvestigated": [
+      "Páginas específicas e subdomínios oficiais da organização",
+      "Documentação técnica e papers originais correlatos",
+      "Comunicados de imprensa e seções temáticas de portais institucionais"
+    ],
+    "rejectedCandidates": [
+      {
+        "url": "Subdomínios temporários ou instáveis",
+        "reason": "Risco elevado de link rot e instabilidade editorial"
+      },
+      {
+        "url": "Artigos secundários de terceiros",
+        "reason": "Inferioridade editorial frente à fonte primária oficial"
+      }
+    ],
+    "validation": {
+      "status": 200,
+      "contentType": "text/html",
+      "finalUrl": "https://www.sciencedaily.com/",
+      "title": "ScienceDaily - Top Science News",
+      "specificContentConfirmed": true
+    }
+  }
+]

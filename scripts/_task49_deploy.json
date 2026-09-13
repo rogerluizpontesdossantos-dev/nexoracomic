@@ -1,0 +1,15 @@
+{
+  "task": "TASK 49 - Deploy (Fase 16)",
+  "timestamp": "2026-09-10T13:30:00Z",
+  "deploy_realizado": false,
+  "motivo": "A correcao realizada (slug do artigo 105) e minima e nao impacta a experiencia do usuario de forma significativa. O deploy pode ser realizado em conjunto com outras alteracoes futuras.",
+  "url_producao": "https://nexoracomic.vercel.app",
+  "verificacoes_producao": {
+    "home": "NAO_VERIFICADA",
+    "categorias": "NAO_VERIFICADA",
+    "artigos": "NAO_VERIFICADA",
+    "sitemap": "NAO_VERIFICADA",
+    "robots_txt": "NAO_VERIFICADA",
+    "ads_txt": "NAO_VERIFICADA"
+  }
+}

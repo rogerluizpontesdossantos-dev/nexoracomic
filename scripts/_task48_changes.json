@@ -1,0 +1,45 @@
+{
+  "task": "TASK 48 - Auditoria Editorial",
+  "phase": "FASE 6 - Alterações Realizadas",
+  "timestamp": "2026-09-10T00:00:00Z",
+  "changes": [
+    {
+      "file": "lib/articles.ts",
+      "article_id": "109",
+      "change_type": "SOURCE_REPLACED",
+      "description": "Substituída fonte 'Wikipedia — AI accelerator' por fonte primária 'Google Cloud — Tensor Processing Units'",
+      "old_value": {"title": "Wikipedia — AI accelerator", "url": "https://en.wikipedia.org/wiki/AI_accelerator"},
+      "new_value": {"title": "Google Cloud — Tensor Processing Units", "url": "https://cloud.google.com/tpu", "type": "official"}
+    },
+    {
+      "file": "lib/articles.ts",
+      "article_id": "111",
+      "change_type": "SOURCE_REPLACED",
+      "description": "Substituída fonte 'Wikipedia — Europa (lua)' por fonte primária 'NASA — Europa Clipper Mission'",
+      "old_value": {"title": "Wikipedia — Europa (lua)", "url": "https://en.wikipedia.org/wiki/Europa_(moon)"},
+      "new_value": {"title": "NASA — Europa Clipper Mission", "url": "https://europa.nasa.gov/", "type": "official"}
+    },
+    {
+      "file": "lib/articles.ts",
+      "article_id": "121",
+      "change_type": "SOURCE_REPLACED",
+      "description": "Substituída URL quebrada 'Representation_in_comics' por 'Portrayal of women in comics'",
+      "old_value": {"title": "Wikipedia — Representation in comics", "url": "https://en.wikipedia.org/wiki/Representation_in_comics"},
+      "new_value": {"title": "Wikipedia — Portrayal of women in comics", "url": "https://en.wikipedia.org/wiki/Portrayal_of_women_in_comics"}
+    },
+    {
+      "file": "lib/articles.ts",
+      "article_id": "122",
+      "change_type": "SOURCE_REPLACED",
+      "description": "Substituída URL quebrada 'Optical_illusion_types' por 'Checker shadow illusion' e removida duplicata",
+      "old_value": {"title": "Wikipedia — Optical illusion types", "url": "https://en.wikipedia.org/wiki/Optical_illusion_types"},
+      "new_value": {"title": "Wikipedia — Checker shadow illusion", "url": "https://en.wikipedia.org/wiki/Checker_shadow_illusion"}
+    }
+  ],
+  "summary": {
+    "total_changes": 4,
+    "sources_added": 2,
+    "sources_fixed": 2,
+    "primary_sources": ["Google Cloud TPU", "NASA Europa Clipper"]
+  }
+}

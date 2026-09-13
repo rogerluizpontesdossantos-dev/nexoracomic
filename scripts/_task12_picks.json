@@ -1,0 +1,344 @@
+[
+  {
+    "articleId": 2,
+    "title": "Inteligência Artificial Generativa: Como Ela Funciona",
+    "status": "PRESERVED",
+    "sources": [
+      {
+        "sourceTitle": "Vaswani et al. (2017). Attention Is All You Need",
+        "sourceUrl": "https://arxiv.org/abs/1706.03762",
+        "domain": "arxiv.org",
+        "type": "journal",
+        "publisher": "arXiv",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Fonte científica primária que sustenta o artigo (arquitetura transformer.. Já existia e era válida/específicica— preservada."
+      },
+      {
+        "sourceTitle": "Google Research - Transformer: A Novel Neural Network Architecture for Language Understanding",
+        "sourceUrl": "https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/",
+        "domain": "research.google",
+        "type": "company",
+        "publisher": "Google Research",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Comunicado oficial/desenvolvedor da arquitetura transformer— preservado (válido e específicico.."
+      },
+      {
+        "sourceTitle": "Stanford HAI - AI Index Report",
+        "sourceUrl": "https://hai.stanford.edu/ai-index",
+        "domain": "hai.stanford.edu",
+        "type": "university",
+        "publisher": "Stanford Institute for Human-Centered AI",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Instituição acadêmica de renome— preservada."
+      }
+    ]
+  },
+  {
+    "articleId": 3,
+    "title": "Por Que Marte é Vermelho: A Ciência Atrás do Planeta Vermelho",
+    "status": "PARTIAL_UPDATE",
+    "sources": [
+      {
+        "sourceTitle": "NASA - Mars: Facts (por que Marte é vermelho)",
+        "sourceUrl": "https://science.nasa.gov/mars/facts/",
+        "domain": "science.nasa.gov",
+        "type": "official",
+        "publisher": "NASA",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Substituída URL de hub(/mars/) por página específica de fatos que cobre claramente a cor vermelha(óxido de ferro/poeira.. Fonte oficial primária; conteúdo confirmado."
+      },
+      {
+        "sourceTitle": "ESA - Mars Express: Investigating the Red Planet",
+        "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express",
+        "domain": "esa.int",
+        "type": "official",
+        "publisher": "European Space Agency (ESA)",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Fonte oficial específica da missão Mars Express— preservada (apenas título ajustado.."
+      }
+    ],
+    "replacements": [
+      {
+        "oldUrl": "https://science.nasa.gov/mars/",
+        "reason": "Página hub genérica; substituída por página específica de fatos sobre Marte (inclui explicação da cor vermelha.."
+      }
+    ]
+  },
+  {
+    "articleId": 4,
+    "title": "Computação Quântica vs Clássica: As Diferenças Fundamentais",
+    "status": "UPDATED",
+    "sources": [
+      {
+        "sourceTitle": "IBM - What is quantum computing?",
+        "sourceUrl": "https://www.ibm.com/think/topics/quantum-computing",
+        "domain": "ibm.com",
+        "type": "official",
+        "publisher": "IBM",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Fonte oficial do fabricante/desenvolvedor que explica computação quântica e sua relação com a clássica— diretamente relevante."
+      }
+    ],
+    "replacements": [
+      {
+        "oldUrl": "https://www.ibm.com/quantum",
+        "reason": "Homepage hub da IBM Quantum; substituída por página específica de artigo."
+      },
+      {
+        "oldUrl": "https://quantumai.google/",
+        "reason": "Homepage do Google Quantum AI; substituída por fonte oficial específica única (IBM) que sustenta o artigo— qualidade sobre quantidade."
+      }
+    ]
+  },
+  {
+    "articleId": 5,
+    "title": "Por Que Humanos Sonham: As Teorias Científicicas",
+    "status": "UPDATED",
+    "sources": [
+      {
+        "sourceTitle": "Sleep Foundation - Lucid Dreams: Definition, Causes & How to Lucid Dream",
+        "sourceUrl": "https://www.sleepfoundation.org/dreams/lucid-dreams",
+        "domain": "sleepfoundation.org",
+        "type": "other",
+        "publisher": "Sleep Foundation",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Organização especializada em sono; página específica sobre sonhos que sustenta o tema do artigo."
+      },
+      {
+        "sourceTitle": "NIH - Sleep Deprivation and Deficiency",
+        "sourceUrl": "https://www.nhlbi.nih.gov/health-topics/sleep-deprivation-and-deficiency",
+        "domain": "nhlbi.nih.gov",
+        "type": "government",
+        "publisher": "National Heart, Lung,and Blood Institute (NIH)",
+"httpStatus": 200,
+        "verified": true,
+        "reason": "Órgão governamental (NIH) especializado em sono; página específica sobre sono/defciência."
+      }
+    ],
+    "replacements": [
+      {
+        "oldUrl": "https://www.sleepfoundation.org/dreams",
+        "reason": "Página de categoria/assunto genérica inicial; substituída por página específica de artigo sobre sonhos."
+      },
+      {
+        "oldUrl": "https://www.health.harvard.edu/topics/sleep",
+        "reason": "Página de tópico genérica; substituída por fonte governamental oficial específica (NIH) sobre sono."
+      }
+    ]
+  },
+  {
+    "articleId": 6,
+    "title": "O Que é Ray Tracing: A Tecnologia que Tornou os Games Realistas",
+    "status": "PRESERVED",
+    "sources": [
+      {
+        "sourceTitle": "NVIDIA Developer - Real-Time Ray Tracing",
+        "sourceUrl": "https://developer.nvidia.com/rtx/ray-tracing",
+        "domain": "developer.nvidia.com",
+        "type": "company",
+        "publisher": "NVIDIA",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Fonte oficial do desenvolvedor (NVIDIA) que explica ray tracing em tempo real— direta e específica; preservada."
+      },
+      {
+        "sourceTitle": "NVIDIA - DLSS Technology",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+        "domain": "nvidia.com",
+        "type": "company",
+        "publisher": "NVIDIA",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Fonte oficial do fabricante sobre tecnologia gráfica— preservada."
+      }
+    ]
+  },
+  {
+    "articleId": 7,
+    "title": "Inteligência Artificial nos Games: Do Fantasma a Inimigos que Aprendem",
+    "status": "UPDATED",
+    "sources": [
+      {
+        "sourceTitle": "Google DeepMind - AlphaStar: Mastering the Real-Time Strategy Game StarCraft II",
+        "sourceUrl": "https://deepmind.google/discover/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/",
+        "domain": "deepmind.google",
+        "type": "official",
+        "publisher": "Google DeepMind",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Comunicado oficial do desenvolvedor (DeepMind) sobre IA que aprende a jogar— sustenta diretamente VA em games."
+      },
+      {
+        "sourceTitle": "Unreal Engine - Behavior Trees in Unreal Engine",
+        "sourceUrl": "https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-trees-in-unreal-engine",
+        "domain": "dev.epicgames.com",
+        "type": "documentation",
+        "publisher": "Epic Games (Unreal Engine)",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Documentação oficial do motor de jogos sobre árvores de comportamento— técnica real de IA em games."
+      }
+    ],
+    "replacements": [
+      {
+        "oldUrl": "https://www.technologyreview.com/",
+        "reason": "Homepage de veículo jornalístico; substituída por fonte oficial específica do desenvolvedor."
+      },
+      {
+        "oldUrl": "https://deepmind.google/",
+        "reason": "Homepage do DeepMind; substituída por comunicado oficial específico."
+      }
+    ]
+  },
+  {
+"articleId": 8,
+    "title": "Ficção Científicica x Ciência Real: O que o Cinema Acerta e o que Exagera",
+    "status": "UPDATED",
+    "sources": [
+      {
+        "sourceTitle": "ESO - Astronomers Capture First Image of a Black Hole",
+        "sourceUrl": "https://www.eso.org/public/news/eso1907/",
+        "domain": "eso.org",
+        "type": "official",
+        "publisher": "European Southern Observatory (ESO)",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Comunicado oficial do observatório sobre a primeira imagem real de um buraco negro (M87, 2019)— sustenta a seção do buraco negro real."
+      },
+      {
+        "sourceTitle": "NASA Science - Black Holes",
+        "sourceUrl": "https://science.nasa.gov/universe/black-holes/",
+        "domain": "science.nasa.gov",
+        "type": "official",
+        "publisher": "NASA",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Fonte oficial primária da NASA sobre buracos negros— sustenta a física real discutida no artigo."
+      }
+    ],
+    "replacements": [
+      {
+        "oldUrl": "https://www.nasa.gov/",
+        "reason": "Homepage da NASA; substituída por página oficial específica sobre buracos negros."
+      },
+      {
+        "oldUrl": "https://eventhorizontelescope.org/",
+        "reason": "Homepage do EHT (retornou 403 sem confirmação;; substituída por comunicado oficial específico da ESO sobre a imagem."
+      }
+    ]
+  },
+  {
+    "articleId": 9,
+    "title": "Ciência nos Quadrinhos: Os Poderes dos Heróis Sob a Ótica da Física",
+    "status": "UPDATED",
+    "sources": [
+      {
+        "sourceTitle": "NIH - What is genome editing?",
+        "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-genome-editing",
+        "domain": "genome.gov",
+        "type": "government",
+        "publisher": "National Human Genome Research Institute (NIH)",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Órgão governamental que explica edição de genoma (inclui CRISPR)—— sustenta a seção sobre mutações genéticas."
+      },
+      {
+        "sourceTitle": "NIH - CRISPR (genetics glossary)",
+        "sourceUrl": "https://www.genome.gov/genetics-glossary/CRISPR",
+        "domain": "genome.gov",
+        "type": "government",
+        "publisher": "National Human Genome Research Institute (NIH)",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Glossário oficial do NIH sobre CRISPR— fonte específica e direta sobre edição genética."
+      }
+    ],
+    "replacements": [
+      {
+        "oldUrl": "https://www.nih.gov/",
+        "reason": "Homepage do NIH; substituída por páginas específicas sobre edição de genoma/CRISPR."
+      },
+      {
+        "oldUrl": "https://www.nature.com/subjects/biotechnology",
+        "reason": "Página de categoria genérica do Nature; substituída por fontes governamentais específicas."
+      }
+    ]
+  },
+  {
+    "articleId": 10,
+    "title": "Curiosidades Científicicas do Corpo Humano que Vão te Surpreender",
+    "status": "UPDATED",
+    "sources": [
+      {
+        "sourceTitle": "NIH - How the Heart Works",
+        "sourceUrl": "https://www.nhlbi.nih.gov/health-topics/how-heart-works",
+        "domain": "nhlbi.nih.gov",
+        "type": "government",
+        "publisher": "National Heart, Lung,and Blood Institute (NIH)",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Órgão governamentalque explica o funcionamento do coração— sustenta a seção de curiosidades sobre o coração."
+      },
+      {
+        "sourceTitle": "NIH - Sleep Deprivation and Deficiency",
+        "sourceUrl": "https://www.nhlbi.nih.gov/health-topics/sleep-deprivation-and-deficiency",
+        "domain": "nhlbi.nih.gov",
+        "type": "government",
+        "publisher": "National Heart, Lung,and Blood Institute (NIH)",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Órgão governamentalque aborda a importância do sono— sustenta a seção por que dormimos."
+      }
+    ],
+    "replacements": [
+      {
+        "oldUrl": "https://www.sleepfoundation.org/",
+        "reason": "Homepage do Sleep Foundation; substituída por fontes governamentais específicas do NIH."
+      },
+      {
+        "oldUrl": "https://www.health.harvard.edu/",
+        "reason": "Homepage do Harvard Health; substituída por fontes governamentais específicas."
+      }
+    ]
+  },
+  {
+    "articleId": 11,
+    "title": "Cidades Inteligentes: Como a Tecnologia Vai Moldar o Amanhã",
+    "status": "PARTIAL_UPDATE",
+    "sources": [
+      {
+        "sourceTitle": "European Commission - Smart cities and communities",
+        "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/smart-cities",
+        "domain": "digital-strategy.ec.europa.eu",
+        "type": "government",
+        "publisher": "European Commission",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Órgão governamental (Comissão Europeia) com página oficial específica sobre cidades inteligentes.— sustenta diretamente o tema."
+      },
+      {
+        "sourceTitle": "European Commission - Smart Cities",
+        "sourceUrl": "https://smart-cities-marketplace.ec.europa.eu/",
+        "domain": "smart-cities-marketplace.ec.europa.eu",
+        "type": "agency",
+        "publisher": "European Commission",
+        "httpStatus": 200,
+        "verified": true,
+        "reason": "Plataforma oficial específica da Comissão Europeia sobre cidades inteligentes.— preservada."
+      }
+    ],
+    "replacements": [
+      {
+        "oldUrl": "https://www.ieee.org/",
+        "reason": "Homepage do IEEE; substituída por página oficial governamental específica da Comissão Europeia sobre cidades inteligentes."
+      }
+    ]
+  }
+]

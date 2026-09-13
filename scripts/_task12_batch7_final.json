@@ -1,0 +1,89 @@
+{
+  "batch": 7,
+  "articlesRange": "72-101",
+  "totalArticles": 30,
+  "summary": {
+    "articlesAudited": 30,
+    "sourcesAnalyzed": 60,
+    "sourcesKept": 26,
+    "sourcesReplaced": 22,
+    "sourcesRemoved": 0,
+    "sourcesAdded": 22,
+    "pendingUrls": 22,
+    "urlsApplied": 22,
+    "urlsRejected": 0,
+    "inventedUrlsFound": 0,
+    "homepageUrlsReplaced": 12,
+    "brokenUrlsReplaced": 6,
+    "canonicalRedirectsFixed": 4
+  },
+  "tests": {
+    "validateArticles": "PASS",
+    "typescript": "PASS",
+    "eslint": "PASS",
+    "build": "PASS"
+  },
+  "preservation": {
+    "articlesAnalyzed": 30,
+    "onlySourcesChanged": true,
+    "fieldsChangedOutsideSources": 0,
+    "allPreserved": true
+  },
+  "filesModified": [
+    "lib/articles.ts"
+  ],
+  "filesCreated": [
+    "scripts/_task12_batch7_apply.mjs",
+    "scripts/_task12_batch7_audit.json",
+    "scripts/_task12_batch7_backup.ts",
+    "scripts/_task12_batch7_extract.mjs",
+    "scripts/_task12_batch7_extracted.json",
+    "scripts/_task12_batch7_httpcheck.json",
+    "scripts/_task12_batch7_httpcheck.mjs",
+    "scripts/_task12_batch7_picks.json",
+    "scripts/_task12_batch7_picks_part2.json",
+    "scripts/_task12_batch7_picks_part3.json",
+    "scripts/_task12_batch7_preservation.json",
+    "scripts/_task12_batch7_preserve.mjs",
+    "scripts/_task12_batch7_final.json"
+  ],
+  "git": {
+    "commit": false,
+    "push": false,
+    "reset": false,
+    "clean": false,
+    "restore": false
+  },
+  "changesDetail": [
+    {"id": 72, "title": "The Mandalorian e Grogu", "sourcesReplaced": 2, "sourcesKept": 0},
+    {"id": 73, "title": "Disney: Marvel, Star Wars e Novas Franquias", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 74, "title": "GTA VI", "sourcesReplaced": 0, "sourcesKept": 2},
+    {"id": 75, "title": "Supergirl: Woman of Tomorrow", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 76, "title": "Harry Potter Série HBO Max", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 77, "title": "The Witcher Temporada Final", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 78, "title": "Welcome to Derry", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 79, "title": "Ahsoka Temporada 2", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 80, "title": "Star Wars Starfighter", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 81, "title": "Lanterns Série HBO", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 82, "title": "Spider-Man Brand New Day", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 83, "title": "Netflix Setembro 2026", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 84, "title": "Coyote vs Acme", "sourcesReplaced": 0, "sourcesKept": 2},
+    {"id": 85, "title": "Star Wars × Marvel Crossover", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 86, "title": "Linha Absolute DC", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 87, "title": "DC Setembro 2026", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 88, "title": "The Duskbloods", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 89, "title": "Star Wars Zero Company", "sourcesReplaced": 0, "sourcesKept": 2},
+    {"id": 90, "title": "The Witcher 4", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 91, "title": "Xbox Series X 25 Anos", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 92, "title": "PS5 Live TV", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 93, "title": "IA e Hollywood", "sourcesReplaced": 0, "sourcesKept": 2},
+    {"id": 94, "title": "BepiColombo", "sourcesReplaced": 0, "sourcesKept": 2},
+    {"id": 95, "title": "NVIDIA Hugging Face", "sourcesReplaced": 0, "sourcesKept": 2},
+    {"id": 96, "title": "Decágono de Saturno", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 97, "title": "Pandora Missão NASA", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 98, "title": "State of Play Setembro 2026", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 99, "title": "Final Fantasy VII Revelation", "sourcesReplaced": 1, "sourcesKept": 1},
+    {"id": 100, "title": "Artificial Filme IA", "sourcesReplaced": 0, "sourcesKept": 2},
+    {"id": 101, "title": "The Odyssey Nolan", "sourcesReplaced": 1, "sourcesKept": 1}
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "total": 45,
+  "results": [
+    {
+      "url": "https://www.starwars.com",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://deadline.com/the-mandalorian-and-grogu",
+      "status": 301,
+      "location": "https://deadline.com/list_item/the-mandalorian-and-grogu-memorial-day-weekend-theaters/",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.disneyplus.com",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://thewaltdisneycompany.com",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.rockstargames.com/VI",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.ign.com/games/grand-theft-auto-6",
+      "status": 301,
+      "location": "/games/grand-theft-auto-vi",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.dcstudios.com/supergirl",
+      "status": 301,
+      "location": "https://www.dc.com/fanfirst/",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://variety.com/t/supergirl/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.warnerbros.com/tv/harry-potter",
+      "status": 404,
+      "location": null,
+      "isRedirect": false,
+      "isOk": false,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/c5ygp0908g9o",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.netflix.com/tudum/topics/the-witcher",
+      "status": 404,
+      "location": null,
+      "isRedirect": false,
+      "isOk": false,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://collider.com/tag/the-witcher/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.max.com/shows/welcome-to-derry",
+      "status": 301,
+      "location": "https://www.hbomax.com/shows/welcome-to-derry",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://variety.com/t/welcome-to-derry/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.starwars.com/news",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://variety.com/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://variety.com/v/film/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.hbo.com/lanterns",
+      "status": 404,
+      "location": null,
+      "isRedirect": false,
+      "isOk": false,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.theverge.com/entertainment",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://variety.com/v/film/news/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.sonypictures.com/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.netflix.com/tudum/",
+      "status": 301,
+      "location": "https://www.netflix.com/tudum",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.theverge.com/streaming",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.marvel.com/comics",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.dc.com/blog",
+      "status": 301,
+      "location": "https://www.dc.com/comics",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.dc.com/comics",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.nintendo.com/us/store/products/",
+      "status": 404,
+      "location": null,
+      "isRedirect": false,
+      "isOk": false,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.ign.com/news",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.cdprojektred.com/en/news",
+      "status": 404,
+      "location": null,
+      "isRedirect": false,
+      "isOk": false,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.theverge.com/gaming",
+      "status": 301,
+      "location": "/games",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://news.xbox.com/",
+      "status": 302,
+      "location": "https://news.xbox.com/en-us/",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.playstation.com/",
+      "status": 301,
+      "location": "https://www.playstation.com/pt-br/",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.space.com/news",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://esahubble.org/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.sciencedaily.com/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://science.nasa.gov/mission/pandora/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.nasa.gov/news/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://blog.playstation.com/",
+      "status": 200,
+      "location": null,
+      "isRedirect": false,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.ign.com/articles",
+      "status": 301,
+      "location": "https://www.ign.com/news",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.square-enix-games.com/",
+      "status": 302,
+      "location": "/pt_BR/home",
+      "isRedirect": true,
+      "isOk": true,
+      "isHomepageRedirect": false
+    },
+    {
+      "url": "https://www.imax.com/",
+      "status": 403,
+      "location": null,
+      "isRedirect": false,
+      "isOk": false,
+      "isHomepageRedirect": false
+    }
+  ]
+}

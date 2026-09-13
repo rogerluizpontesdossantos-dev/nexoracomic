@@ -1,0 +1,15 @@
+﻿{
+    "filesModified":  "lib/articles.ts",
+    "sourcesAnalyzed":  20,
+    "gitStatus":  "No commit, no push",
+    "kept":  3,
+    "pending":  0,
+    "articlesAudited":  10,
+    "removed":  0,
+    "testsPassed":  "validate-articles PASS, tsc PASS, eslint PASS, build PASS",
+    "onlySourcesChanged":  "Yes, only sources field was modified in articles 42-51",
+    "filesCreated":  "scripts\\_task12_batch5_audit.json, scripts\\_task12_batch5_picks.json, scripts\\_task12_batch5_preservation.json, scripts\\_task12_batch5_final.json",
+    "replaced":  17,
+    "rejectedCandidates":  0,
+    "urlsValidated":  17
+}

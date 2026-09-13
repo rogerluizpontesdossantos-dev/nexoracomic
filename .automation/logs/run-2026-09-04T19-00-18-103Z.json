@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "published": true,
+  "articleId": "107",
+  "title": "GTA 6: 6 Reasons To Be Worried After The Official Look",
+  "slug": "gta-6-6-reasons-to-be-worried-after-the-official-look-auto-107",
+  "source": "gamerant.com",
+  "timestamp": "2026-09-04T19:00:18.103Z",
+  "log": [
+    "[pipeline] Início — 2026-09-04T19:00:01.085Z",
+    "[pipeline] Modo: PUBLICAÇÃO",
+    "[pipeline] Artigos no acervo: 106",
+    "[pipeline] Pautas já publicadas (state): 3",
+    "[pipeline] Buscando feeds...",
+    "[pipeline] Itens encontrados: 35",
+    "[pipeline] Avisos de fetch: 1",
+    "  ⚠ Bing News (Vice City / Leonida): HTTP 500",
+    "[pipeline] Selecionando melhor pauta...",
+    "[pipeline] Pauta selecionada: \"GTA 6: 6 Reasons To Be Worried After The Official Look\" (score 85, tier 3, confirmed)",
+    "[pipeline] Fonte: gamerant.com — https://gamerant.com/gta-6-reasons-worry-after-netflix-extended-look/",
+    "[pipeline] Próximo ID: 107",
+    "[pipeline] Buscando imagem de capa relacionada ao tema...",
+    "[pipeline] Imagem encontrada: \"File:Downtown Miami skyline 20100305.jpg\" [CC BY-SA 3.0] (tema: gta6-vice-city)",
+    "[pipeline] Artigo gerado: \"GTA 6: 6 Reasons To Be Worried After The Official Look\" (slug: gta-6-6-reasons-to-be-worried-after-the-official-look-auto-107)",
+    "[pipeline] Tags: GTA 6, Rockstar Games, games",
+    "[pipeline] Fontes: https://gamerant.com/gta-6-reasons-worry-after-netflix-extended-look/",
+    "[pipeline] Imagem de capa validada (HTTP 200, image/jpeg)",
+    "[pipeline] Artigo inserido em lib/articles.ts",
+    "[pipeline] Créditos da imagem registrados em _commons_picks.json",
+    "[pipeline] State atualizado"
+  ]
+}

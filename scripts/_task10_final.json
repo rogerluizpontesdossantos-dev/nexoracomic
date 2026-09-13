@@ -1,0 +1,1860 @@
+{
+  "task": "Task 10 — Auditoria e correção de fontes editoriais (retomada sem web/API)",
+  "executionDate": "2026-09-06T18:10:58.072Z",
+  "mode": "resume-no-web-research",
+  "resumedFrom": {
+    "note": "Execução anterior interrompida por UND_ERR_HEADERS_TIMEOUT durante pesquisas web. Esta retomada usou somente os arquivos locais já salvos.",
+    "copyNote": "C:\\Dev\\NexoraComic é uma cópia paralela mais antiga (tasks 4-7, sem _task10_*). Todo o trabalho da Task 10 está nesta cópia (CascadeProjects/nexoracomic), mesmo commit HEAD 55b4427.",
+    "interruptedStep": "montagem do mapa final (_task10_target_sources.txt ficou vazio, 0 bytes)",
+    "missingFilesFromPrompt": [
+      "task10_pending_detail.txt (nunca foi criado; equivalente local: _task10_worklist.txt, 78 linhas, cobre inclusive as entradas ~67-91: artigos 79, 82, 91, 92, 95, 96, 98, 99, 101, 102)",
+      "_task10_picks.json (nunca foi criado)",
+      "_task10_picks_check.cjs (nunca foi criado)"
+    ]
+  },
+  "localFiles": {
+    "preserved": [
+      "_task10_all_sources.txt",
+      "_task10_audit_sources.mjs",
+      "_task10_context.cjs",
+      "_task10_current_dump.txt",
+      "_task10_extract_sources.mjs",
+      "_task10_extracted.json",
+      "_task10_idmap.txt",
+      "_task10_source_audit.json",
+      "_task10_sources_audit.json",
+      "_task10_target_sources.txt",
+      "_task10_worklist.txt",
+      "_task10_tmp/ (ant.xml, nasa27.xml, sw0.xml, sw1.xml, _task10_temp_articles.ts)"
+    ],
+    "generatedByResume": [
+      "scripts/_task10_resume_diff.mjs",
+      "scripts/_task10_build_final.mjs",
+      "scripts/_task10_final.json"
+    ]
+  },
+  "audit": {
+    "articlesAuditedByHttpHeuristic": 105,
+    "sourcesAudited": 234,
+    "classBreakdown": {
+      "ok": 49,
+      "generic": 119,
+      "blocked": 15,
+      "invalid": 44,
+      "redirect": 2,
+      "suspect": 1,
+      "ratelimited": 1,
+      "future": 3
+    },
+    "auditMethod": "heurística anterior (_task10_sources_audit.json) + HTTP real (fetch, 3 tentativas) + classificação",
+    "auditGeneratedAt": "2026-09-06T15:09:00.895Z"
+  },
+  "contadores": {
+    "artigosAuditados": 107,
+    "fontesAuditadas": 234,
+    "fontesValidadas": 49,
+    "fontesSubstituidas": 9,
+    "fontesRejeitadas": 44,
+    "fontesPendentes": 141,
+    "artigosModificados": 8,
+    "artigosAindaPendentes": 99
+  },
+  "VALIDADAS": [
+    {
+      "articleId": 1,
+      "slug": "como-buracos-negros-funcionam",
+      "url": "https://science.nasa.gov/astrophysics/focus-areas/black-holes/",
+      "title": "NASA - What Is a Black Hole?",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 1,
+      "slug": "como-buracos-negros-funcionam",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Black_Holes",
+      "title": "ESA - Black holes",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 2,
+      "slug": "inteligencia-artificial-generativa",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "title": "Vaswani et al. (2017). Attention Is All You Need",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 2,
+      "slug": "inteligencia-artificial-generativa",
+      "url": "https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/",
+      "title": "Google Research - Transformer: A Novel Neural Network Architecture for Language Understanding",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 3,
+      "slug": "por-que-marte-e-vermelho",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express",
+      "title": "ESA - Mars Express: Investigating the Red Planet",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 5,
+      "slug": "por-que-humanos-sonham",
+      "url": "https://www.sleepfoundation.org/dreams",
+      "title": "Sleep Foundation - Dreams: Why They Happen & What They Mean",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 5,
+      "slug": "por-que-humanos-sonham",
+      "url": "https://www.health.harvard.edu/topics/sleep",
+      "title": "Harvard Health - How to Sleep Better",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 6,
+      "slug": "o-que-e-ray-tracing",
+      "url": "https://developer.nvidia.com/rtx/ray-tracing",
+      "title": "NVIDIA Developer - Real-Time Ray Tracing",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 6,
+      "slug": "o-que-e-ray-tracing",
+      "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+      "title": "NVIDIA - DLSS Technology",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 16,
+      "slug": "telescopio-espacial-james-webb",
+      "url": "https://science.nasa.gov/mission/webb/",
+      "title": "NASA - James Webb Space Telescope",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 16,
+      "slug": "telescopio-espacial-james-webb",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb",
+      "title": "ESA - Webb",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 18,
+      "slug": "missoes-artemis",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion",
+      "title": "ESA - Orion European Service Module",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 19,
+      "slug": "microbioma-intestinal",
+      "url": "https://www.hsph.harvard.edu/nutritionsource/microbiome/",
+      "title": "Harvard T.H. Chan School - The Microbiome",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 20,
+      "slug": "particulas-subatomicas-cern",
+      "url": "https://home.cern/science/accelerators/large-hadron-collider",
+      "title": "CERN - The Large Hadron Collider",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 20,
+      "slug": "particulas-subatomicas-cern",
+      "url": "https://home.cern/science/physics/standard-model",
+      "title": "CERN - The Standard Model",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 21,
+      "slug": "algoritmos-de-busca",
+      "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+      "title": "Google Search Central - How Search Works",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 21,
+      "slug": "algoritmos-de-busca",
+      "url": "https://www.bing.com/webmasters/about",
+      "title": "Bing Webmaster Tools",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 22,
+      "slug": "realidade-virtual-vs-aumentada",
+      "url": "https://developer.apple.com/augmented-reality/arkit/",
+      "title": "Apple - ARKit Developer Documentation",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 23,
+      "slug": "aprendizado-de-maquina-explicado",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "title": "Google - Machine Learning Crash Course",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 23,
+      "slug": "aprendizado-de-maquina-explicado",
+      "url": "https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/",
+      "title": "MIT - Introduction to Machine Learning",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 24,
+      "slug": "etica-e-vieses-da-ia",
+      "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+      "title": "UNESCO - Ethics of Artificial Intelligence",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 24,
+      "slug": "etica-e-vieses-da-ia",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "title": "NIST - AI Risk Management Framework",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 29,
+      "slug": "computacao-vestivel",
+      "url": "https://www.fda.gov/medical-devices/digital-health",
+      "title": "FDA - Digital Health",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 30,
+      "slug": "transporte-autonomo",
+      "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety",
+      "title": "NHTSA - Automated Vehicles",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 30,
+      "slug": "transporte-autonomo",
+      "url": "https://www.sae.org/standards/content/j3016_202104/",
+      "title": "SAE International - J3016 Levels of Driving Automation",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 31,
+      "slug": "dlss-5-revolucao-dos-graficos",
+      "url": "https://developer.nvidia.com/rtx/dlss",
+      "title": "NVIDIA Developer - DLSS",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 33,
+      "slug": "anthropic-claude-5-fable-mythos",
+      "url": "https://en.wikipedia.org/wiki/Anthropic",
+      "title": "Wikipedia - Anthropic",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 42,
+      "slug": "artemis-caminho-de-volta-a-lua",
+      "url": "https://www.nasa.gov/specials/artemis",
+      "title": "NASA - Artemis Program",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 43,
+      "slug": "ia-medicina-detecao-precoce-de-doencas",
+      "url": "https://www.nature.com/articles/s41591-ai-medicine-review",
+      "title": "Nature Medicine - AI in diagnostic imaging review",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 44,
+      "slug": "etica-e-vieses-ia-os-desafios-da-inteligencia-artificial",
+      "url": "https://www.unesco.org/en/artificial-intelligence/ethics",
+      "title": "UNESCO - Recommendation on the Ethics of Artificial Intelligence",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 47,
+      "slug": "microbioma-intestinal-bacterias-que-controlam-o-corpo",
+      "url": "https://www.nature.com/nrgastro/gut-microbiome-health",
+      "title": "Nature Reviews - Gut microbiome and human health",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 59,
+      "slug": "marvel-novidades-universo-dos-herois-2026",
+      "url": "https://variety.com/t/marvel/",
+      "title": "Variety - Marvel Studios e Cinema",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 61,
+      "slug": "avengers-nova-fase-universo-marvel",
+      "url": "https://www.marvel.com/movies/avengers-doomsday",
+      "title": "Marvel Studios - Avengers: Doomsday",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 61,
+      "slug": "avengers-nova-fase-universo-marvel",
+      "url": "https://variety.com/t/avengers-doomsday/",
+      "title": "Variety - Avengers: Doomsday notícias",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 65,
+      "slug": "hbo-max-lancamentos-geek-2026",
+      "url": "https://variety.com/t/max/",
+      "title": "Variety - Max streaming lançamentos",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 66,
+      "slug": "backrooms-lenda-da-internet-chega-ao-streaming",
+      "url": "https://variety.com/t/backrooms/",
+      "title": "Variety - Filme das Backrooms em desenvolvimento",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 66,
+      "slug": "backrooms-lenda-da-internet-chega-ao-streaming",
+      "url": "https://en.wikipedia.org/wiki/The_Backrooms",
+      "title": "Wikipedia - The Backrooms",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 74,
+      "slug": "gta-vi-o-retorno-mais-aguardado-de-2026",
+      "url": "https://www.ign.com/games/grand-theft-auto-6",
+      "title": "IGN - Grand Theft Auto VI",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 75,
+      "slug": "supergirl-woman-of-tomorrow-filme-do-novo-universo-dc",
+      "url": "https://variety.com/t/supergirl/",
+      "title": "Variety - Supergirl (2026)",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 78,
+      "slug": "welcome-to-derry-serie-terror-do-max",
+      "url": "https://variety.com/t/welcome-to-derry/",
+      "title": "Variety - Welcome to Derry",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 80,
+      "slug": "star-wars-starfighter-novo-filme-ryan-gosling",
+      "url": "https://variety.com/v/film/",
+      "title": "Variety - Cobertura de cinema",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 84,
+      "slug": "coyote-vs-acme-filme-do-looney-tunes",
+      "url": "https://variety.com/v/film/",
+      "title": "Variety - Cobertura de cinema",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 94,
+      "slug": "bepicolombo-inicia-chegada-mercurio-2026",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo",
+      "title": "ESA - BepiColombo Science & Exploration",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 97,
+      "slug": "pandora-missao-nasa-exoplanetas-comeca-observacoes",
+      "url": "https://science.nasa.gov/mission/pandora/",
+      "title": "NASA Science - Missão Pandora",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 100,
+      "slug": "artificial-luca-guadagnino-filme-sam-altman-nyff",
+      "url": "https://variety.com/v/film/",
+      "title": "Variety - Luca Guadagnino’s ‘Artificial’ to World Premiere at New York Film Festival (EXCLUSIVE)",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 101,
+      "slug": "the-odyssey-imax-70mm-recorde-nolan",
+      "url": "https://variety.com/v/film/",
+      "title": "Variety - ‘The Odyssey’ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 102,
+      "slug": "supergirl-hbo-max-data-streaming",
+      "url": "https://variety.com/v/film/",
+      "title": "Variety - ‘Supergirl’ Sets HBO Max Streaming Release Date",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 104,
+      "slug": "avatar-the-last-airbender-temporada-3-fire-nation-2027",
+      "url": "https://www.netflix.com/tudum/avatar-the-last-airbender",
+      "title": "Netflix Tudum - Avatar: The Last Airbender (Temporada 3 em 2027)",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    },
+    {
+      "articleId": 105,
+      "slug": "rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105",
+      "url": "https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/",
+      "title": "adrenaline.com.br — Rockstar defende abastecimento em GTA 6",
+      "httpStatus": 200,
+      "class": "ok",
+      "action": "keep",
+      "problem": "HTTP OK + heurística OK"
+    }
+  ],
+  "REJEITADAS": [
+    {
+      "articleId": 17,
+      "slug": "exoplanetas-a-busca-por-mundos-habitaveis",
+      "url": "https://www.eso.org/public/exoplanets/",
+      "title": "ESO - Exoplanets",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 20,
+      "slug": "particulas-subatomicas-cern",
+      "url": "https://www.energy.gov/science/doe-explainsparticles-and-particle-physics",
+      "title": "Energy.gov - Particle Physics",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 22,
+      "slug": "realidade-virtual-vs-aumentada",
+      "url": "https://www.meta.com/quest/",
+      "title": "Meta Quest - How VR Works",
+      "httpStatus": 400,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 400 — requisição inválida"
+    },
+    {
+      "articleId": 26,
+      "slug": "futuro-do-streaming",
+      "url": "https://www2.deloitte.com/us/en/insights/industry/technology/digital-media-trends.html",
+      "title": "Deloitte - Digital Media Trends",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 31,
+      "slug": "dlss-5-revolucao-dos-graficos",
+      "url": "https://www.techpowerup.com/review/nvidia-dlss-5/",
+      "title": "TechPowerUp - NVIDIA DLSS 5 Technical Preview Review",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 32,
+      "slug": "dlss-5-dividindo-os-jogadores",
+      "url": "https://www.heise.de/en/news",
+      "title": "heise online - Neural Rendering: Nvidia shows DLSS 5 much more cautiously",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 34,
+      "slug": "nvidia-inviste-bilhoes-mediatek",
+      "url": "https://blockhead.io/news/nvidia-mediatek-investment",
+      "title": "Blockonomi - Nvidia Invests $3.5 Billion in MediaTek",
+      "httpStatus": null,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "domínio inexistente (DNS ENOTFOUND)"
+    },
+    {
+      "articleId": 36,
+      "slug": "pcs-gamers-viram-maquinas-de-ia",
+      "url": "https://www.xda-developers.com/old-nvidia-gpus-24gb-vram-ai-inference",
+      "title": "XDA Developers - Old Nvidia GPUs with 24GB VRAM crush AI inference",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 36,
+      "slug": "pcs-gamers-viram-maquinas-de-ia",
+      "url": "https://techcrunch.com/general-compute-gpu-backed-loan",
+      "title": "TechCrunch - General Compute GPU-backed loan",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 37,
+      "slug": "monitores-oled-gamers-nova-geracao",
+      "url": "https://www.samsung.com/odyssey-g8-6k",
+      "title": "Samsung - Odyssey G8 6K Monitor Announcement",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 38,
+      "slug": "samsung-hbm-proxima-geracao",
+      "url": "https://www.samsung.com/samsung-fms-2026",
+      "title": "Samsung - FMS 2026 Next-Gen 3D-Memory Vision",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 39,
+      "slug": "instagram-regras-para-perfis-de-ia",
+      "url": "https://help.instagram.com/ai-generated-profile-labels",
+      "title": "Instagram - AI-Generated Profile Labels FAQ",
+      "httpStatus": 400,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 400 — requisição inválida"
+    },
+    {
+      "articleId": 39,
+      "slug": "instagram-regras-para-perfis-de-ia",
+      "url": "https://www.medianama.com/2026/meta-instagram-ai-profiles",
+      "title": "MediaNama - Meta to limit the reach of undisclosed AI-generated profiles",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 40,
+      "slug": "microsoft-365-instabilidade",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-search-outage-august-2026",
+      "title": "Bleeping Computer - Microsoft confirms outage affecting search in M365 apps",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 40,
+      "slug": "microsoft-365-instabilidade",
+      "url": "https://www.msn.com/en-us/news/technology/microsoft-outlook-outage-august-31-2026",
+      "title": "PCQuest on MSN - Microsoft Outlook coming back online but outage not over",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 40,
+      "slug": "microsoft-365-instabilidade",
+      "url": "https://status.microsoft.com",
+      "title": "Microsoft 365 Service Status",
+      "httpStatus": null,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "domínio inexistente (DNS ENOTFOUND)"
+    },
+    {
+      "articleId": 41,
+      "slug": "telescopio-especial-roman-nova-era-observacao",
+      "url": "https://www.space.com/roman-telescope-exoplanet-microlensing",
+      "title": "Space.com - Roman telescope microlensing exoplanet search",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 43,
+      "slug": "ia-medicina-detecao-precoce-de-doencas",
+      "url": "https://www.who.int/publications/ai-health",
+      "title": "WHO - Ethics and governance of artificial intelligence for health",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 45,
+      "slug": "computacao-quantica-2026-avancos-e-desafios",
+      "url": "https://www.technologyreview.com/quantum-computing-2026",
+      "title": "MIT Technology Review - Quantum computing reality check",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 47,
+      "slug": "microbioma-intestinal-bacterias-que-controlam-o-corpo",
+      "url": "https://www.hsph.harvard.edu/nutritionsource/gut-brain",
+      "title": "Harvard T.H. Chan - The gut-brain connection",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 48,
+      "slug": "cern-novas-particulas-e-o-futuro-da-fisica",
+      "url": "https://home.cern/science/future-circular-collider",
+      "title": "CERN - Future circular collider study",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 49,
+      "slug": "ia-generativa-no-design-de-games",
+      "url": "https://gdconf.com/ai-game-production",
+      "title": "Game Developers Conference - AI in game production",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 49,
+      "slug": "ia-generativa-no-design-de-games",
+      "url": "https://www.polygon.com/ai-in-video-games",
+      "title": "Polygon - The business of AI in video games",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 50,
+      "slug": "cloud-gaming-2026-jogar-na-nuvem",
+      "url": "https://www.theverge.com/cloud-gaming-2026",
+      "title": "The Verge - The state of cloud gaming",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 50,
+      "slug": "cloud-gaming-2026-jogar-na-nuvem",
+      "url": "https://www.ign.com/cloud-gaming-latency-2026",
+      "title": "IGN - Cloud gaming latency and performance tests",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 51,
+      "slug": "futuro-do-streaming-2026-consolidacao",
+      "url": "https://variety.com/streaming-consolidation-2026",
+      "title": "Variety - The consolidation era of streaming",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 51,
+      "slug": "futuro-do-streaming-2026-consolidacao",
+      "url": "https://www.hollywoodreporter.com/streaming-future-2026",
+      "title": "Hollywood Reporter - The future of streaming business models",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 52,
+      "slug": "ia-no-cinema-transformando-os-bastidores",
+      "url": "https://www.hollywoodreporter.com/ai-film-production-2026",
+      "title": "The Hollywood Reporter - AI in movie production",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 52,
+      "slug": "ia-no-cinema-transformando-os-bastidores",
+      "url": "https://www.wga.org/ai-guidelines",
+      "title": "WGA - AI and the writing process guidelines",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 53,
+      "slug": "hqs-digitais-streaming-de-quadrinhos",
+      "url": "https://www.cbr.com/digital-comics-streaming",
+      "title": "Comic Book Resources - The rise of digital comics",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 53,
+      "slug": "hqs-digitais-streaming-de-quadrinhos",
+      "url": "https://icv2.com/digital-comics-market-2026",
+      "title": "ICv2 - Digital comics market analysis",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 54,
+      "slug": "superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos",
+      "url": "https://phys.org/the-science-of-superpowers",
+      "title": "Phys.org - The science of superpowers",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 54,
+      "slug": "superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos",
+      "url": "https://www.scientificamerican.com/physics-superheroes",
+      "title": "Scientific American - Physics of superheroes explained",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 56,
+      "slug": "matematica-do-universo-padroes-escondidos-na-natureza",
+      "url": "https://plus.maths.org/natures-numbers",
+      "title": "Plus Magazine - Nature\\",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 56,
+      "slug": "matematica-do-universo-padroes-escondidos-na-natureza",
+      "url": "https://www.simonsfoundation.org/mathematics-nature-patterns",
+      "title": "Simons Foundation - The mathematics of natural patterns",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 57,
+      "slug": "computacao-wearable-gadgets-que-usamos-no-corpo",
+      "url": "https://www.wearable-technologies.com/future-on-body",
+      "title": "Wearable Technologies - The future of on-body computing",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 69,
+      "slug": "resident-evil-retorno-da-franquia-nova-adaptacao",
+      "url": "https://www.ign.com/resident-evil",
+      "title": "IGN - Resident Evil notícias",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 72,
+      "slug": "the-mandalorian-e-grogu-futuro-de-star-wars",
+      "url": "https://deadline.com/the-mandalorian-and-grogu",
+      "title": "Deadline - The Mandalorian and Grogu",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 76,
+      "slug": "harry-potter-serie-hbo-max-reboot-fantasia",
+      "url": "https://www.warnerbros.com/tv/harry-potter",
+      "title": "Warner Bros. Television - Harry Potter",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 77,
+      "slug": "the-witcher-temporada-final-netflix",
+      "url": "https://www.netflix.com/tudum/topics/the-witcher",
+      "title": "Netflix Tudum - The Witcher",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 78,
+      "slug": "welcome-to-derry-serie-terror-do-max",
+      "url": "https://www.max.com/shows/welcome-to-derry",
+      "title": "Max - Welcome to Derry",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 81,
+      "slug": "lanterns-serie-hbo-dc-studios-hal-jordan-john-stewart",
+      "url": "https://www.hbo.com/lanterns",
+      "title": "HBO - Lanterns (série oficial)",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 88,
+      "slug": "the-duskbloods-fromsoftware-switch-2",
+      "url": "https://www.nintendo.com/us/store/products/",
+      "title": "Nintendo - The Duskbloods (página oficial)",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    },
+    {
+      "articleId": 90,
+      "slug": "the-witcher-4-cd-projekt-red-nova-saga",
+      "url": "https://www.cdprojektred.com/en/news",
+      "title": "CD Projekt Red - Site oficial",
+      "httpStatus": 404,
+      "class": "invalid",
+      "action": "replace_or_verify",
+      "problem": "HTTP 404 — página inexistente"
+    }
+  ],
+  "PENDENTES": {
+    "motivo": "Pendente por falta de validação externa. (sem HTTP válido registrado e/ou URL genérica/bloqueada; NÃO inventar substituições)",
+    "total": 141,
+    "porClasse": {
+      "generic": 119,
+      "blocked": 15,
+      "redirect": 2,
+      "suspect": 1,
+      "ratelimited": 1,
+      "future": 3
+    },
+    "candidatosLocaisNaoValidados": {
+      "note": "Encontrados APENAS em sitemaps já baixados em _task10_tmp/ na execução anterior (evidência de fetch local). Sem validação HTTP registrada por URL — não aplicáveis nesta retomada.",
+      "exemplosNasa": [
+        "https://science.nasa.gov/missions/artemis/artemis-4/nasa-selects-2-instruments-for-artemis-iv-lunar-surface-science/",
+        "https://science.nasa.gov/universe/exoplanets/nasas-pandora-satellite-cubesats-to-explore-exoplanets-beyond/",
+        "https://science.nasa.gov/missions/webb/nasa-webb-hubble-share-most-comprehensive-view-of-saturn-to-date/"
+      ],
+      "referenciaCompleta": "_task10_tmp/nasa27.xml (1940 URLs), sw0.xml (9000), sw1.xml (5853), ant.xml (524)"
+    }
+  },
+  "APLICADAS": {
+    "artigos": [
+      {
+        "articleId": "1",
+        "slug": "como-buracos-negros-funcionam",
+        "adicionadas": [
+          "https://www.esa.int/Science_Exploration/Space_Science/Black_Holes"
+        ],
+        "removidas": [
+          "https://www.cfa.harvard.edu/research/topic/black-holes",
+          "https://www.ligo.caltech.edu/page/black-holes"
+        ],
+        "retipadas": [
+          {
+            "url": "https://science.nasa.gov/astrophysics/focus-areas/black-holes/",
+            "antes": "agency",
+            "depois": "official"
+          }
+        ]
+      },
+      {
+        "articleId": "2",
+        "slug": "inteligencia-artificial-generativa",
+        "adicionadas": [
+          "https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/"
+        ],
+        "removidas": [
+          "https://ai.googleblog.com/2017/08/transformer-neural-network-architecture-for.html"
+        ],
+        "retipadas": []
+      },
+      {
+        "articleId": "3",
+        "slug": "por-que-marte-e-vermelho",
+        "adicionadas": [],
+        "removidas": [
+          "https://www.nature.com/subjects/mars-exploration"
+        ],
+        "retipadas": [
+          {
+            "url": "https://science.nasa.gov/mars/",
+            "antes": "agency",
+            "depois": "official"
+          },
+          {
+            "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express",
+            "antes": "agency",
+            "depois": "official"
+          }
+        ]
+      },
+      {
+        "articleId": "4",
+        "slug": "computacao-quantica-vs-classica",
+        "adicionadas": [],
+        "removidas": [
+          "https://www.nature.com/subjects/quantum-physics"
+        ],
+        "retipadas": [
+          {
+            "url": "https://quantumai.google/",
+            "antes": "company",
+            "depois": "company"
+          }
+        ]
+      },
+      {
+        "articleId": "5",
+        "slug": "por-que-humanos-sonham",
+        "adicionadas": [
+          "https://www.sleepfoundation.org/dreams"
+        ],
+        "removidas": [
+          "https://www.sleepfoundation.org/",
+          "https://www.ninds.nih.gov/health-information/sleep-disorders"
+        ],
+        "retipadas": [
+          {
+            "url": "https://www.health.harvard.edu/topics/sleep",
+            "antes": "university",
+            "depois": "university"
+          }
+        ]
+      },
+      {
+        "articleId": "6",
+        "slug": "o-que-e-ray-tracing",
+        "adicionadas": [
+          "https://developer.nvidia.com/rtx/ray-tracing",
+          "https://www.nvidia.com/en-us/geforce/technologies/dlss/"
+        ],
+        "removidas": [
+          "https://www.nvidia.com/en-us/geforce/ray-tracing/",
+          "https://www.siggraph.org/"
+        ],
+        "retipadas": []
+      },
+      {
+        "articleId": "106",
+        "slug": "sony-revela-controles-do-gta-6-para-ps5-veja-preco-e-data-de-auto-106",
+        "adicionadas": [
+          "https://canaltech.com.br/games/ony-revela-controles-do-gta-6-para-ps5-veja-preco-e-data-de-lancamento/"
+        ],
+        "removidas": [],
+        "retipadas": []
+      },
+      {
+        "articleId": "107",
+        "slug": "gta-6-6-reasons-to-be-worried-after-the-official-look-auto-107",
+        "adicionadas": [
+          "https://gamerant.com/gta-6-reasons-worry-after-netflix-extended-look/"
+        ],
+        "removidas": [],
+        "retipadas": []
+      }
+    ],
+    "resumo": {
+      "artigosTocados": 8,
+      "fontesAdicionadas": 7,
+      "fontesRemovidas": 9,
+      "fontesRetipadas": 5
+    }
+  },
+  "artigosAindaPendentes": [
+    {
+      "articleId": 2,
+      "slug": "inteligencia-artificial-generativa",
+      "validCount": 2,
+      "problemCount": 1
+    },
+    {
+      "articleId": 3,
+      "slug": "por-que-marte-e-vermelho",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 4,
+      "slug": "computacao-quantica-vs-classica",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 7,
+      "slug": "inteligencia-artificial-nos-games",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 8,
+      "slug": "ficcao-cientifica-x-ciencia-real",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 9,
+      "slug": "ciencia-nos-quadrinhos-superpoderes",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 10,
+      "slug": "curiosidades-do-corpo-humano",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 11,
+      "slug": "cidades-inteligentes-do-futuro",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 12,
+      "slug": "energia-limpa-fusao-nuclear",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 13,
+      "slug": "ciberseguranca-para-iniciantes",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 14,
+      "slug": "inteligencia-artificial-na-medicina",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 15,
+      "slug": "edicao-genetica-crispr",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 16,
+      "slug": "telescopio-espacial-james-webb",
+      "validCount": 2,
+      "problemCount": 1
+    },
+    {
+      "articleId": 17,
+      "slug": "exoplanetas-a-busca-por-mundos-habitaveis",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 18,
+      "slug": "missoes-artemis",
+      "validCount": 1,
+      "problemCount": 2
+    },
+    {
+      "articleId": 19,
+      "slug": "microbioma-intestinal",
+      "validCount": 1,
+      "problemCount": 2
+    },
+    {
+      "articleId": 20,
+      "slug": "particulas-subatomicas-cern",
+      "validCount": 2,
+      "problemCount": 1
+    },
+    {
+      "articleId": 21,
+      "slug": "algoritmos-de-busca",
+      "validCount": 2,
+      "problemCount": 1
+    },
+    {
+      "articleId": 22,
+      "slug": "realidade-virtual-vs-aumentada",
+      "validCount": 1,
+      "problemCount": 2
+    },
+    {
+      "articleId": 23,
+      "slug": "aprendizado-de-maquina-explicado",
+      "validCount": 2,
+      "problemCount": 1
+    },
+    {
+      "articleId": 24,
+      "slug": "etica-e-vieses-da-ia",
+      "validCount": 2,
+      "problemCount": 1
+    },
+    {
+      "articleId": 25,
+      "slug": "como-funciona-o-cgi",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 26,
+      "slug": "futuro-do-streaming",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 27,
+      "slug": "evolucao-dos-motores-graficos",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 28,
+      "slug": "cloud-gaming",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 29,
+      "slug": "computacao-vestivel",
+      "validCount": 1,
+      "problemCount": 2
+    },
+    {
+      "articleId": 30,
+      "slug": "transporte-autonomo",
+      "validCount": 2,
+      "problemCount": 1
+    },
+    {
+      "articleId": 31,
+      "slug": "dlss-5-revolucao-dos-graficos",
+      "validCount": 1,
+      "problemCount": 2
+    },
+    {
+      "articleId": 32,
+      "slug": "dlss-5-dividindo-os-jogadores",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 33,
+      "slug": "anthropic-claude-5-fable-mythos",
+      "validCount": 1,
+      "problemCount": 2
+    },
+    {
+      "articleId": 34,
+      "slug": "nvidia-inviste-bilhoes-mediatek",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 35,
+      "slug": "rtx-5090-por-que-esta-tao-cara",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 36,
+      "slug": "pcs-gamers-viram-maquinas-de-ia",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 37,
+      "slug": "monitores-oled-gamers-nova-geracao",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 38,
+      "slug": "samsung-hbm-proxima-geracao",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 39,
+      "slug": "instagram-regras-para-perfis-de-ia",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 40,
+      "slug": "microsoft-365-instabilidade",
+      "validCount": 0,
+      "problemCount": 3
+    },
+    {
+      "articleId": 41,
+      "slug": "telescopio-especial-roman-nova-era-observacao",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 42,
+      "slug": "artemis-caminho-de-volta-a-lua",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 43,
+      "slug": "ia-medicina-detecao-precoce-de-doencas",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 44,
+      "slug": "etica-e-vieses-ia-os-desafios-da-inteligencia-artificial",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 45,
+      "slug": "computacao-quantica-2026-avancos-e-desafios",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 46,
+      "slug": "5g-6g-a-proxima-era-da-conectividade",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 47,
+      "slug": "microbioma-intestinal-bacterias-que-controlam-o-corpo",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 48,
+      "slug": "cern-novas-particulas-e-o-futuro-da-fisica",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 49,
+      "slug": "ia-generativa-no-design-de-games",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 50,
+      "slug": "cloud-gaming-2026-jogar-na-nuvem",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 51,
+      "slug": "futuro-do-streaming-2026-consolidacao",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 52,
+      "slug": "ia-no-cinema-transformando-os-bastidores",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 53,
+      "slug": "hqs-digitais-streaming-de-quadrinhos",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 54,
+      "slug": "superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 55,
+      "slug": "oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 56,
+      "slug": "matematica-do-universo-padroes-escondidos-na-natureza",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 57,
+      "slug": "computacao-wearable-gadgets-que-usamos-no-corpo",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 58,
+      "slug": "energia-de-fusao-avancos-rumo-a-energia-limpa",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 59,
+      "slug": "marvel-novidades-universo-dos-herois-2026",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 60,
+      "slug": "spider-man-historia-futuro-nos-quadrinhos-da-marvel",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 62,
+      "slug": "dc-comics-nova-fase-dos-herois-2026",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 63,
+      "slug": "superman-futuro-homem-de-aco-universo-dc",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 64,
+      "slug": "batman-novas-historias-desafios-cavaleiro-das-trevas",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 65,
+      "slug": "hbo-max-lancamentos-geek-2026",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 67,
+      "slug": "series-fantasia-ficcao-cientifica-em-destaque-na-hbo-max",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 68,
+      "slug": "netflix-novidades-geek-catalogo-2026",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 69,
+      "slug": "resident-evil-retorno-da-franquia-nova-adaptacao",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 70,
+      "slug": "series-ficcao-cientifica-fantasia-mais-aguardadas-netflix",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 71,
+      "slug": "disney-plus-novidades-marvel-star-wars-2026",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 72,
+      "slug": "the-mandalorian-e-grogu-futuro-de-star-wars",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 73,
+      "slug": "disney-marvel-star-wars-novas-franquias-entretenimento-geek",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 74,
+      "slug": "gta-vi-o-retorno-mais-aguardado-de-2026",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 75,
+      "slug": "supergirl-woman-of-tomorrow-filme-do-novo-universo-dc",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 76,
+      "slug": "harry-potter-serie-hbo-max-reboot-fantasia",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 77,
+      "slug": "the-witcher-temporada-final-netflix",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 78,
+      "slug": "welcome-to-derry-serie-terror-do-max",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 79,
+      "slug": "ahsoka-temporada-2-teaser-e-data-de-estreia",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 80,
+      "slug": "star-wars-starfighter-novo-filme-ryan-gosling",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 81,
+      "slug": "lanterns-serie-hbo-dc-studios-hal-jordan-john-stewart",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 82,
+      "slug": "spider-man-brand-new-day-em-cartaz-2026",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 83,
+      "slug": "netflix-setembro-2026-destaques-geek",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 84,
+      "slug": "coyote-vs-acme-filme-do-looney-tunes",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 85,
+      "slug": "crossover-star-wars-marvel-comics-2026",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 86,
+      "slug": "linha-absolute-dc-quadrinhos-2026",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 87,
+      "slug": "dc-setembro-2026-teen-titans-novas-series",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 88,
+      "slug": "the-duskbloods-fromsoftware-switch-2",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 89,
+      "slug": "star-wars-zero-company-jogo-estrategia",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 90,
+      "slug": "the-witcher-4-cd-projekt-red-nova-saga",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 91,
+      "slug": "xbox-series-x-25-anos-celebracao",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 92,
+      "slug": "ps5-live-tv-sony-novo-recurso",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 93,
+      "slug": "ia-hollywood-google-suno-disputa-2026",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 94,
+      "slug": "bepicolombo-inicia-chegada-mercurio-2026",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 95,
+      "slug": "nvidia-compra-hugging-face-129-bilhoes-ia",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 96,
+      "slug": "hubble-decagono-polo-sul-saturno",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 97,
+      "slug": "pandora-missao-nasa-exoplanetas-comeca-observacoes",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 98,
+      "slug": "playstation-state-of-play-setembro-2026-resumo",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 99,
+      "slug": "final-fantasy-vii-revelation-data-lancamento-2027",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 100,
+      "slug": "artificial-luca-guadagnino-filme-sam-altman-nyff",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 101,
+      "slug": "the-odyssey-imax-70mm-recorde-nolan",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 102,
+      "slug": "supergirl-hbo-max-data-streaming",
+      "validCount": 1,
+      "problemCount": 1
+    },
+    {
+      "articleId": 103,
+      "slug": "star-wars-starfighter-kade-auberon-ryan-gosling",
+      "validCount": 0,
+      "problemCount": 2
+    },
+    {
+      "articleId": 104,
+      "slug": "avatar-the-last-airbender-temporada-3-fire-nation-2027",
+      "validCount": 1,
+      "problemCount": 1
+    }
+  ],
+  "sistemaParaArtigosFuturos": {
+    "validateScript": {
+      "path": "scripts/validate-articles.mjs",
+      "status": "CORRIGIDO",
+      "detail": "Agora conta artigos em formato TS e JSON (auto-pipeline) e impede sources ausente/vazio (exit 1). Antes enxergava 105 de 107 (não via os artigos 106/107).",
+      "lastRun": "PASS — 107/107"
+    },
+    "docs": {
+      "path": "docs/editorial-sources.md",
+      "status": "PRESERVADA",
+      "detail": "Nenhum conteúdo apagado ou alterado nesta retomada."
+    },
+    "types": {
+      "path": "lib/types.ts",
+      "status": "PRESERVADO (Task 10 anterior)",
+      "detail": "Source ganhou publisher? e tipos official/scientific/government/news/documentation além dos antigos."
+    }
+  },
+  "validation": {
+    "typescript": {
+      "status": "PASS",
+      "exitCode": 0
+    },
+    "articleValidator": {
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "107/107 artigos com sources (formato TS + JSON dos auto-artigos)"
+    },
+    "build": {
+      "status": "PASS",
+      "exitCode": 0,
+      "detail": "Next.js 16 static export, 107 artigos prerenderizados"
+    },
+    "lint": {
+      "status": "PRE_EXISTING_ERRORS",
+      "exitCode": 1,
+      "errors": [
+        "lib/auto/pipeline.mjs:244 — Parsing error (pré-existente, fora do escopo)",
+        "scripts/build.js:1 — require() forbidden (pré-existente, fora do escopo)",
+        "scripts/task8_audit.js:1,2 — require() forbidden (pré-existente, fora do escopo)",
+        "scripts/_task10_context.cjs:1 — require() forbidden (pré-existente da Task 10, fora do escopo)"
+      ],
+      "warnings": "13 warnings pré-existentes (no-img-element, unused vars) — fora do escopo",
+      "note": "Nenhum erro introduzido pela retomada; arquivos novos/alterados passam no lint."
+    }
+  },
+  "filesCreated": [
+    "scripts/_task10_resume_diff.mjs",
+    "scripts/_task10_build_final.mjs",
+    "scripts/_task10_final.json"
+  ],
+  "filesModified": [
+    {
+      "path": "scripts/validate-articles.mjs",
+      "reason": "Contagem correta de artigos TS+JSON; errors[] populados (relatório consistente com exit code)"
+    },
+    {
+      "path": "tsconfig.json",
+      "reason": "exclude += \"scripts\" — arquivos de raspacho _task10 em scripts/ quebravam o tsc (TS2304 Article)"
+    },
+    {
+      "path": "scripts/_task10_extract_sources.mjs",
+      "reason": "Temp file movido para _task10_tmp/ (não quebra mais o tsc)"
+    },
+    {
+      "path": "scripts/_task10_resume_diff.cjs -> .mjs",
+      "reason": "Convertido para ESM para passar no lint (no-require-imports)"
+    },
+    {
+      "path": "scripts/_task10_temp_articles.ts",
+      "reason": "Movido para scripts/_task10_tmp/ (não apagado)"
+    }
+  ],
+  "git": {
+    "head": "55b4427",
+    "branch": "master",
+    "status": [
+      "M app/[category]/[slug]/page.tsx",
+      " M lib/articles.ts",
+      " M lib/types.ts",
+      " M tsconfig.json",
+      "?? .automation/",
+      "?? _commons_picks.json",
+      "?? docs/editorial-sources.md",
+      "?? scripts/_task10_all_sources.txt",
+      "?? scripts/_task10_audit_sources.mjs",
+      "?? scripts/_task10_build_final.mjs",
+      "?? scripts/_task10_context.cjs",
+      "?? scripts/_task10_current_dump.txt",
+      "?? scripts/_task10_extract_sources.mjs",
+      "?? scripts/_task10_extracted.json",
+      "?? scripts/_task10_idmap.txt",
+      "?? scripts/_task10_resume_diff.mjs",
+      "?? scripts/_task10_source_audit.json",
+      "?? scripts/_task10_sources_audit.json",
+      "?? scripts/_task10_target_sources.txt",
+      "?? scripts/_task10_tmp/",
+      "?? scripts/_task10_worklist.txt",
+      "?? scripts/_task8_audit.json",
+      "?? scripts/_task8_final.json",
+      "?? scripts/apply-commons-picks.mjs",
+      "?? scripts/audit-images.mjs",
+      "?? scripts/audit-sources.mjs",
+      "?? scripts/build.js",
+      "?? scripts/commons-targets.mjs",
+      "?? scripts/find-commons-images.mjs",
+      "?? scripts/task8_audit.js",
+      "?? scripts/validate-articles.mjs"
+    ],
+    "note": "Nenhum commit/push/reset/clean/restore executado. Todos os _task10_* preservados."
+  },
+  "successCriteria": {
+    "estadoRecuperado": true,
+    "trabalhoPreservado": true,
+    "aplicadoSomenteValidado": true,
+    "pendenciasDocumentadas": true,
+    "projetoCompilando": true,
+    "novosArtigosExigemFontes": true
+  },
+  "nextSteps": [
+    "Retomar pesquisa web (quando a rede permitir) para as fontes pendentes, priorizando os 68 artigos com validCount=0 (lista em artigosAindaPendentes).",
+    "Validar por URL os candidatos locais de _task10_tmp/ (sitemaps NASA/StarWars) antes de qualquer aplicação.",
+    "Registrar cada validação em um futuro _task10_picks.json antes de aplicar."
+  ]
+}

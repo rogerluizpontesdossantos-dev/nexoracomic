@@ -1,0 +1,165 @@
+Total articles: 63
+Max ID: 100
+
+=== ciencia (7 articles) ===
+ID 5 | por-que-humanos-sonham | Por Que Humanos Sonham: As Teorias Científicas
+ID 14 | inteligencia-artificial-na-medicina | Inteligência Artificial na Medicina: Revolução nos Diagnósticos
+ID 19 | microbioma-intestinal | Microbioma Intestinal: O Universo de Bactérias que Moram em Você
+ID 20 | particulas-subatomicas-cern | Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos
+ID 47 | microbioma-intestinal-bacterias-que-controlam-o-corpo | Microbioma Intestinal: As Bactérias Que Influenciam o Corpo Inteiro
+ID 48 | cern-novas-particulas-e-o-futuro-da-fisica | CERN e o Futuro da Física de Partículas: O Que Vem Depois do LHC
+ID 93 | ia-hollywood-google-suno-disputa-2026 | IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios
+
+=== tecnologia (9 articles) ===
+ID 4 | computacao-quantica-vs-classica | Computação Quântica vs Clássica: As Diferenças Fundamentais
+ID 13 | ciberseguranca-para-iniciantes | Cibersegurança para Iniciantes: Como Proteger Seus Dados Online
+ID 21 | algoritmos-de-busca | Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta
+ID 22 | realidade-virtual-vs-aumentada | Realidade Virtual vs Aumentada: Qual é a Diferença?
+ID 38 | samsung-hbm-proxima-geracao | Samsung Prepara Nova Geração de Memória HBM com Computação Integrada
+ID 39 | instagram-regras-para-perfis-de-ia | Instagram Aperta as Regras para Perfis Criados com Inteligência Artificial
+ID 43 | ia-medicina-detecao-precoce-de-doencas | IA na Medicina: O Avanço da Detecção Precoce de Doenças
+ID 46 | 5g-6g-a-proxima-era-da-conectividade | 5G Avançado e 6G: O Que Vem depois da Revolução da Conectividade
+ID 92 | ps5-live-tv-sony-novo-recurso | PS5 Live TV: a Sony Transforma o Console em Central de Transmissões ao Vivo
+
+=== espaco (9 articles) ===
+ID 1 | como-buracos-negros-funcionam | Como Buracos Negros Funcionam: O Mistério Cósmico Desvendado
+ID 2 | inteligencia-artificial-generativa | Inteligência Artificial Generativa: Como Ela Funciona
+ID 16 | telescopio-espacial-james-webb | Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo
+ID 17 | exoplanetas-a-busca-por-mundos-habitaveis | Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar
+ID 18 | missoes-artemis | Missões Artemis: O Caminho de Volta à Lua e Além
+ID 41 | telescopio-especial-roman-nova-era-observacao | Telescópio Espacial Roman: A Nova Era de Observação do Universo
+ID 42 | artemis-caminho-de-volta-a-lua | Artemis: O Caminho de Volta à Lua Passa por Grandes Desafios
+ID 95 | nvidia-compra-hugging-face-129-bilhoes-ia | NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA
+ID 97 | pandora-missao-nasa-exoplanetas-comeca-observacoes | Pandora: a Missão da NASA que Começou a Decifrar Atmosferas de Exoplanetas
+
+=== inteligencia-artificial (0 articles) ===
+
+=== futuro (6 articles) ===
+ID 11 | cidades-inteligentes-do-futuro | Cidades Inteligentes: Como a Tecnologia Vai Moldar o Amanhã
+ID 12 | energia-limpa-fusao-nuclear | Fusão Nuclear: A Fonte de Energia Que Pode Mudar o Mundo
+ID 29 | computacao-vestivel | Computação Vestível: A Tecnologia que Você Veste
+ID 30 | transporte-autonomo | Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar
+ID 57 | computacao-wearable-gadgets-que-usamos-no-corpo | Computação Vestível: O Futuro dos Gadgets que Usamos no Corpo
+ID 58 | energia-de-fusao-avancos-rumo-a-energia-limpa | Energia de Fusão: Os Avanços Rumo à Energia Limpa Ilimitada
+
+=== games (18 articles) ===
+ID 6 | o-que-e-ray-tracing | O Que é Ray Tracing: A Tecnologia que Tornou os Games Realistas
+ID 7 | inteligencia-artificial-nos-games | Inteligência Artificial nos Games: Do Fantasma a Inimigos que Aprendem
+ID 23 | aprendizado-de-maquina-explicado | Aprendizado de Máquina Explicado: Como Computadores Aprendem
+ID 28 | cloud-gaming | Cloud Gaming: Jogar Sem Console, Direto da Nuvem
+ID 31 | dlss-5-revolucao-dos-graficos | NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gráficos dos Jogos
+ID 32 | dlss-5-dividindo-os-jogadores | DLSS 5 Está Dividindo os Jogadores: Avanço Gráfico ou IA Demais nos Games?
+ID 33 | anthropic-claude-5-fable-mythos | Claude 5 da Anthropic: Como Fable e Mythos Estão Redefinindo a IA
+ID 36 | pcs-gamers-viram-maquinas-de-ia | PCs Gamers Podem Virar Máquinas de IA: A Nova Ideia que Aproveita GPUs Ociosas
+ID 49 | ia-generativa-no-design-de-games | IA Generativa no Design de Games: Como a Tecnologia Está Mudando a Criação de Jogos
+ID 50 | cloud-gaming-2026-jogar-na-nuvem | Cloud Gaming em 2026: O Jogar na Nuvem Finalmente Amadureceu?
+ID 65 | hbo-max-lancamentos-geek-2026 | HBO Max: Os Lançamentos Geek que Prometem Dominar o Streaming em 2026
+ID 88 | the-duskbloods-fromsoftware-switch-2 | The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2
+ID 89 | star-wars-zero-company-jogo-estrategia | Star Wars Zero Company: o Jogo de Táticas da BIT REACTOR Coloca Você no Comando
+ID 90 | the-witcher-4-cd-projekt-red-nova-saga | The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia
+ID 91 | xbox-series-x-25-anos-celebracao | Xbox Series X e os 25 Anos do Xbox: o que a Geração Atual Aprendeu com o Legado
+ID 98 | playstation-state-of-play-setembro-2026-resumo | State of Play de Setembro de 2026: Todos os Anúncios da Sony em Um Só Lugar
+ID 99 | final-fantasy-vii-revelation-data-lancamento-2027 | Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027
+ID 100 | artificial-luca-guadagnino-filme-sam-altman-nyff | Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York
+
+=== filmes-series (0 articles) ===
+
+=== quadrinhos (11 articles) ===
+ID 8 | ficcao-cientifica-x-ciencia-real | Ficção Científica x Ciência Real: O que o Cinema Acerta e o que Exagera
+ID 51 | futuro-do-streaming-2026-consolidacao | O Futuro do Streaming em 2026: Consolidação e Novos Modelos
+ID 54 | superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos | Superpoderes e Ciência Real: A Física Por Trás dos Quadrinhos
+ID 59 | marvel-novidades-universo-dos-herois-2026 | Marvel: As Principais Novidades que Estão Movimentando o Universo dos Heróis em 2026
+ID 60 | spider-man-historia-futuro-nos-quadrinhos-da-marvel | Spider-Man: Novas Histórias e o Futuro do Herói nos Quadrinhos da Marvel
+ID 61 | avengers-nova-fase-universo-marvel | Avengers: O Que Esperar da Nova Fase do Universo Marvel
+ID 63 | superman-futuro-homem-de-aco-universo-dc | Superman e o Futuro do Homem de Aço no Universo da DC
+ID 64 | batman-novas-historias-desafios-cavaleiro-das-trevas | Batman: Novas Histórias e Desafios Para o Cavaleiro das Trevas
+ID 75 | supergirl-woman-of-tomorrow-filme-do-novo-universo-dc | Supergirl: Woman of Tomorrow — O Novo Filme da Garota de Aço no Universo da DC
+ID 86 | linha-absolute-dc-quadrinhos-2026 | Linha Absolute da DC: o Universo Paralelo que Redefiniu os Clássicos nos Quadrinhos
+ID 87 | dc-setembro-2026-teen-titans-novas-series | DC em Setembro de 2026: Teen Titans #1 e as Novas Séries da Editora
+
+=== curiosidades (3 articles) ===
+ID 10 | curiosidades-do-corpo-humano | Curiosidades Científicas do Corpo Humano que Vão te Surpreender
+ID 55 | oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar | Oceanos Profundos: O Que Ainda Não Conhecemos do Fundo do Mar
+ID 56 | matematica-do-universo-padroes-escondidos-na-natureza | A Matemática do Universo: Os Padrões Escondidos na Natureza
+
+=== ciencia (7 articles) ===
+ID 5 | por-que-humanos-sonham | Por Que Humanos Sonham: As Teorias Científicas
+ID 14 | inteligencia-artificial-na-medicina | Inteligência Artificial na Medicina: Revolução nos Diagnósticos
+ID 19 | microbioma-intestinal | Microbioma Intestinal: O Universo de Bactérias que Moram em Você
+ID 20 | particulas-subatomicas-cern | Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos
+ID 47 | microbioma-intestinal-bacterias-que-controlam-o-corpo | Microbioma Intestinal: As Bactérias Que Influenciam o Corpo Inteiro
+ID 48 | cern-novas-particulas-e-o-futuro-da-fisica | CERN e o Futuro da Física de Partículas: O Que Vem Depois do LHC
+ID 93 | ia-hollywood-google-suno-disputa-2026 | IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios
+
+=== tecnologia (9 articles) ===
+ID 4 | computacao-quantica-vs-classica | Computação Quântica vs Clássica: As Diferenças Fundamentais
+ID 13 | ciberseguranca-para-iniciantes | Cibersegurança para Iniciantes: Como Proteger Seus Dados Online
+ID 21 | algoritmos-de-busca | Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta
+ID 22 | realidade-virtual-vs-aumentada | Realidade Virtual vs Aumentada: Qual é a Diferença?
+ID 38 | samsung-hbm-proxima-geracao | Samsung Prepara Nova Geração de Memória HBM com Computação Integrada
+ID 39 | instagram-regras-para-perfis-de-ia | Instagram Aperta as Regras para Perfis Criados com Inteligência Artificial
+ID 43 | ia-medicina-detecao-precoce-de-doencas | IA na Medicina: O Avanço da Detecção Precoce de Doenças
+ID 46 | 5g-6g-a-proxima-era-da-conectividade | 5G Avançado e 6G: O Que Vem depois da Revolução da Conectividade
+ID 92 | ps5-live-tv-sony-novo-recurso | PS5 Live TV: a Sony Transforma o Console em Central de Transmissões ao Vivo
+
+=== espaco (9 articles) ===
+ID 1 | como-buracos-negros-funcionam | Como Buracos Negros Funcionam: O Mistério Cósmico Desvendado
+ID 2 | inteligencia-artificial-generativa | Inteligência Artificial Generativa: Como Ela Funciona
+ID 16 | telescopio-espacial-james-webb | Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo
+ID 17 | exoplanetas-a-busca-por-mundos-habitaveis | Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar
+ID 18 | missoes-artemis | Missões Artemis: O Caminho de Volta à Lua e Além
+ID 41 | telescopio-especial-roman-nova-era-observacao | Telescópio Espacial Roman: A Nova Era de Observação do Universo
+ID 42 | artemis-caminho-de-volta-a-lua | Artemis: O Caminho de Volta à Lua Passa por Grandes Desafios
+ID 95 | nvidia-compra-hugging-face-129-bilhoes-ia | NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA
+ID 97 | pandora-missao-nasa-exoplanetas-comeca-observacoes | Pandora: a Missão da NASA que Começou a Decifrar Atmosferas de Exoplanetas
+
+=== inteligencia-artificial (0 articles) ===
+
+=== futuro (6 articles) ===
+ID 11 | cidades-inteligentes-do-futuro | Cidades Inteligentes: Como a Tecnologia Vai Moldar o Amanhã
+ID 12 | energia-limpa-fusao-nuclear | Fusão Nuclear: A Fonte de Energia Que Pode Mudar o Mundo
+ID 29 | computacao-vestivel | Computação Vestível: A Tecnologia que Você Veste
+ID 30 | transporte-autonomo | Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar
+ID 57 | computacao-wearable-gadgets-que-usamos-no-corpo | Computação Vestível: O Futuro dos Gadgets que Usamos no Corpo
+ID 58 | energia-de-fusao-avancos-rumo-a-energia-limpa | Energia de Fusão: Os Avanços Rumo à Energia Limpa Ilimitada
+
+=== games (18 articles) ===
+ID 6 | o-que-e-ray-tracing | O Que é Ray Tracing: A Tecnologia que Tornou os Games Realistas
+ID 7 | inteligencia-artificial-nos-games | Inteligência Artificial nos Games: Do Fantasma a Inimigos que Aprendem
+ID 23 | aprendizado-de-maquina-explicado | Aprendizado de Máquina Explicado: Como Computadores Aprendem
+ID 28 | cloud-gaming | Cloud Gaming: Jogar Sem Console, Direto da Nuvem
+ID 31 | dlss-5-revolucao-dos-graficos | NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gráficos dos Jogos
+ID 32 | dlss-5-dividindo-os-jogadores | DLSS 5 Está Dividindo os Jogadores: Avanço Gráfico ou IA Demais nos Games?
+ID 33 | anthropic-claude-5-fable-mythos | Claude 5 da Anthropic: Como Fable e Mythos Estão Redefinindo a IA
+ID 36 | pcs-gamers-viram-maquinas-de-ia | PCs Gamers Podem Virar Máquinas de IA: A Nova Ideia que Aproveita GPUs Ociosas
+ID 49 | ia-generativa-no-design-de-games | IA Generativa no Design de Games: Como a Tecnologia Está Mudando a Criação de Jogos
+ID 50 | cloud-gaming-2026-jogar-na-nuvem | Cloud Gaming em 2026: O Jogar na Nuvem Finalmente Amadureceu?
+ID 65 | hbo-max-lancamentos-geek-2026 | HBO Max: Os Lançamentos Geek que Prometem Dominar o Streaming em 2026
+ID 88 | the-duskbloods-fromsoftware-switch-2 | The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2
+ID 89 | star-wars-zero-company-jogo-estrategia | Star Wars Zero Company: o Jogo de Táticas da BIT REACTOR Coloca Você no Comando
+ID 90 | the-witcher-4-cd-projekt-red-nova-saga | The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia
+ID 91 | xbox-series-x-25-anos-celebracao | Xbox Series X e os 25 Anos do Xbox: o que a Geração Atual Aprendeu com o Legado
+ID 98 | playstation-state-of-play-setembro-2026-resumo | State of Play de Setembro de 2026: Todos os Anúncios da Sony em Um Só Lugar
+ID 99 | final-fantasy-vii-revelation-data-lancamento-2027 | Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027
+ID 100 | artificial-luca-guadagnino-filme-sam-altman-nyff | Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York
+
+=== filmes-series (0 articles) ===
+
+=== quadrinhos (11 articles) ===
+ID 8 | ficcao-cientifica-x-ciencia-real | Ficção Científica x Ciência Real: O que o Cinema Acerta e o que Exagera
+ID 51 | futuro-do-streaming-2026-consolidacao | O Futuro do Streaming em 2026: Consolidação e Novos Modelos
+ID 54 | superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos | Superpoderes e Ciência Real: A Física Por Trás dos Quadrinhos
+ID 59 | marvel-novidades-universo-dos-herois-2026 | Marvel: As Principais Novidades que Estão Movimentando o Universo dos Heróis em 2026
+ID 60 | spider-man-historia-futuro-nos-quadrinhos-da-marvel | Spider-Man: Novas Histórias e o Futuro do Herói nos Quadrinhos da Marvel
+ID 61 | avengers-nova-fase-universo-marvel | Avengers: O Que Esperar da Nova Fase do Universo Marvel
+ID 63 | superman-futuro-homem-de-aco-universo-dc | Superman e o Futuro do Homem de Aço no Universo da DC
+ID 64 | batman-novas-historias-desafios-cavaleiro-das-trevas | Batman: Novas Histórias e Desafios Para o Cavaleiro das Trevas
+ID 75 | supergirl-woman-of-tomorrow-filme-do-novo-universo-dc | Supergirl: Woman of Tomorrow — O Novo Filme da Garota de Aço no Universo da DC
+ID 86 | linha-absolute-dc-quadrinhos-2026 | Linha Absolute da DC: o Universo Paralelo que Redefiniu os Clássicos nos Quadrinhos
+ID 87 | dc-setembro-2026-teen-titans-novas-series | DC em Setembro de 2026: Teen Titans #1 e as Novas Séries da Editora
+
+=== curiosidades (3 articles) ===
+ID 10 | curiosidades-do-corpo-humano | Curiosidades Científicas do Corpo Humano que Vão te Surpreender
+ID 55 | oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar | Oceanos Profundos: O Que Ainda Não Conhecemos do Fundo do Mar
+ID 56 | matematica-do-universo-padroes-escondidos-na-natureza | A Matemática do Universo: Os Padrões Escondidos na Natureza
+

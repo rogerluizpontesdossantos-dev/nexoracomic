@@ -1,0 +1,119 @@
+{
+  "task": "Task 12 - Lote 4 - picks de substituicao",
+  "date": "2026-09-07",
+  "method": "URLs candidatas testadas via HTTP GET (com redirects) + verificacao de titulo/conteudo; busca em listagens oficiais (nvidianews, blogs.nvidia, Tom's Hardware, Club386, NASA Science); mecanismos de busca (DDG/Bing) bloqueados ou genericos",
+  "picks": [
+    {
+      "articleId": 32,
+      "original": "https://www.techspot.com/news/102428-nvidia-dlss-5-developer-control-ai-slop.html (redirect para artigo divergente) + tweaktown 403 + heise/en/news 404",
+      "replacements": [
+        { "newUrl": "https://www.nvidia.com/en-us/geforce/technologies/dlss/", "publisher": "NVIDIA", "type": "official", "http": 200, "evidence": "pagina oficial com 'DLSS 5 | Introducing 3D-Guided Neural Rendering'" },
+        { "newUrl": "https://www.tomshardware.com/pc-components/gpus/modders-get-leaked-dlss-5-running-in-control-early-blackwell-test-drops-rtx-5070-ti-from-71-to-35-fps-at-4k", "publisher": "Tom's Hardware", "type": "publication", "http": 200, "evidence": "confirma dado 71->35 FPS do artigo" },
+        { "newUrl": "https://www.tomshardware.com/pc-components/gpus/jensen-huang-says-gamers-are-completely-wrong-about-dlss-5-nvidia-ceo-responds-to-dlss-5-backlash", "publisher": "Tom's Hardware", "type": "publication", "http": 200, "evidence": "confirma backlash/AI slop" }
+      ],
+      "rejected": [
+        { "url": "https://www.tomshardware.com/video-games/graphics-gpus/nvidia-ceo-says-hes-empathetic-to-dlss-5-concerns", "why": "slug presumido 404" }
+      ]
+    },
+    {
+      "articleId": 33,
+      "original": "claude.com/product (generica) + Wikipedia Anthropic (generica)",
+      "replacements": [
+        { "newUrl": "https://docs.claude.com/en/docs/about-claude/models/overview", "publisher": "Anthropic", "type": "documentation", "http": 200, "evidence": "docs oficiais: Fable 5.1, Opus 5, Sonnet 5, Haiku 4.5 com precos" }
+      ],
+      "kept": "https://www.anthropic.com/news/claude-opus-5 (200, 'Introducing Claude Opus 5' 24/07/2026)",
+      "rejected": [
+        { "url": "https://claude.com/blog/claude-opus-5", "why": "404" }
+      ]
+    },
+    {
+      "articleId": 34,
+      "original": "Reuters 401 + nvidianews home generica + blockhead.io ERR",
+      "replacements": [
+        { "newUrl": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms", "publisher": "NVIDIA Newsroom", "type": "official", "http": 200, "evidence": "press release 31/08/2026: 'invested $3.5 billion in convertible bonds issued by MediaTek'; 3 eixos do artigo (infra, local AI, automotivo)" }
+      ],
+      "rejected": [
+        { "url": "https://blockhead.io/news/nvidia-mediatek-investment", "why": "dominio nao responde" }
+      ]
+    },
+    {
+      "articleId": 35,
+      "original": "3 homepages (tomshardware, club386, tweaktown)",
+      "replacements": [
+        { "newUrl": "https://www.club386.com/regular-nvidia-geforce-rtx-5090-inflation/", "publisher": "Club386", "type": "publication", "http": 200, "evidence": "'Regular Nvidia GeForce RTX 5090 cards sail beyond $5,090, now costing 2.5x MSRP'" },
+        { "newUrl": "https://www.tomshardware.com/pc-components/gpus/rtx-5090-scalpers-sell-blackwell-flagship-gpu-for-up-to-usd7-000-2x-3x-scalper-markup-over-msrp", "publisher": "Tom's Hardware", "type": "publication", "http": 200, "evidence": "precos acima do MSRP / scalping" },
+        { "newUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/", "publisher": "NVIDIA", "type": "official", "http": 200, "evidence": "pagina oficial do produto (MSRP/specs)" }
+      ],
+      "rejected": [
+        { "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-top-end-rtx-5090-gaming-gpu-now-costs-at-least-dollar5000", "why": "slug presumido 404" }
+      ]
+    },
+    {
+      "articleId": 36,
+      "original": "XDA 404 + VentureBeat 429 + TechCrunch 404",
+      "replacements": [
+        { "newUrl": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/", "publisher": "NVIDIA Blog", "type": "official", "http": 200, "evidence": "'Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026'" },
+        { "newUrl": "https://www.tomshardware.com/pc-components/gpus/ai-enthusiast-adds-nvidia-tesla-v100-as-loud-as-a-lawnmower-to-gaming-pc-for-usd266-32gb-of-vram-rig-can-run-27-billion-parameter-model-at-32-tokens-per-second", "publisher": "Tom's Hardware", "type": "publication", "http": 200, "evidence": "PC gamer rodando modelo 27B localmente" }
+      ],
+      "rejected": []
+    },
+    {
+      "articleId": 37,
+      "original": "samsung.com/odyssey-g8-6k 404 + tomshardware home + msi.com home",
+      "replacements": [
+        { "newUrl": "https://www.samsung.com/us/computing/monitors/odyssey/", "publisher": "Samsung", "type": "company", "http": 200, "evidence": "'Shop the Latest 2026 Odyssey Gaming Monitors'" },
+        { "newUrl": "https://www.tomshardware.com/monitors/gaming-monitors/samsung-launches-the-worlds-first-500hz-oled-gaming-monitor-for-usd1-300-with-its-burn-in-fighting-heat-pipes-in-tow", "publisher": "Tom's Hardware", "type": "publication", "http": 200, "evidence": "OLED 500Hz especifico" }
+      ],
+      "rejected": [
+        { "url": "https://www.asus.com/us/monitors/rog-swift-oled-pg27ucdm/", "why": "redirect para listagem generica" },
+        { "url": "https://rog.asus.com/monitors/rog-swift-oled-pg27ucdm/", "why": "404" }
+      ]
+    },
+    {
+      "articleId": 38,
+      "original": "samsung.com/samsung-fms-2026 404 + hothardware bot-check + businesswire home",
+      "replacements": [
+        { "newUrl": "https://www.tomshardware.com/tech-industry/semiconductors/hot-chips-2026-samsung-reveals-a-three-phase-hbm-roadmap-that-puts-logic-and-compute-inside-memory-zhbm-ultimately-stacks-dram-directly-on-top-of-the-processor", "publisher": "Tom's Hardware", "type": "publication", "http": 200, "evidence": "roadmap HBM/zHBM da Samsung" },
+        { "newUrl": "https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies", "publisher": "Tom's Hardware", "type": "publication", "http": 200, "evidence": "zHBM para data centers de IA" },
+        { "newUrl": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/", "publisher": "NVIDIA Blog", "type": "official", "http": 200, "evidence": "NVHBM/NVLink Fusion oficial" }
+      ],
+      "rejected": [
+        { "url": "https://semiconductor.samsung.com/newsroom/news", "why": "listagem vazia (JS)" },
+        { "url": "https://semiconductor.samsung.com/products/dram/hbm", "why": "404" }
+      ]
+    },
+    {
+      "articleId": 39,
+      "original": "techlomedia 403 + medianama 404",
+      "replacements": [],
+      "kept": "https://help.instagram.com/ai-generated-profile-labels (200 em 2 verificacoes; oficial e especifica)",
+      "pending": "fonte de imprensa adicional sem URL verificavel",
+      "rejected": [
+        { "url": "about.fb.com busca 'AI profiles'", "why": "sem resultado sobre rotulagem de perfis de IA" },
+        { "url": "theverge.com/search", "why": "sem resultado especifico" }
+      ]
+    },
+    {
+      "articleId": 40,
+      "original": "bleepingcomputer 404 + msn 404",
+      "replacements": [],
+      "kept": "https://status.microsoft.com (oficial, pre-existente, citada no corpo do artigo; acesso bloqueado neste ambiente)",
+      "pending": "URL real do artigo BleepingComputer do outage nao extraivel do HTML - nao inventar",
+      "rejected": [
+        { "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-causes-auth-issues-service-failures/", "why": "slug presumido 404; artigo existe (titulo confirmado na listagem 01/09/2026)" },
+        { "url": "https://downdetector.com/status/microsoft-365/", "why": "403" },
+        { "url": "theregister.com search", "why": "sem resultado especifico" }
+      ]
+    },
+    {
+      "articleId": 41,
+      "original": "roman.gsfc.nasa.gov (shell JS) + space.com 404",
+      "replacements": [
+        { "newUrl": "https://science.nasa.gov/mission/roman-space-telescope/", "publisher": "NASA", "type": "agency", "http": 200, "evidence": "pagina oficial da missao: energia escura, exoplanetas, campo 100x Hubble" },
+        { "newUrl": "https://science.nasa.gov/mission/roman-space-telescope/exoplanets/", "publisher": "NASA", "type": "agency", "http": 200, "evidence": "subpagina oficial exoplanetas/microlente" },
+        { "newUrl": "https://science.nasa.gov/mission/roman-space-telescope/dark-energy/", "publisher": "NASA", "type": "agency", "http": 200, "evidence": "subpagina oficial energia escura" }
+      ],
+      "rejected": []
+    }
+  ]
+}

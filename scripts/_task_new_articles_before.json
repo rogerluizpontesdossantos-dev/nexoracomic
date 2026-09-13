@@ -1,0 +1,527 @@
+[
+ {
+  "id": 1,
+  "slug": "como-buracos-negros-funcionam",
+  "title": "Como Buracos Negros Funcionam: O Mistério Cósmico Desvendado"
+ },
+ {
+  "id": 1,
+  "slug": "inteligencia-artificial-generativa",
+  "title": "Inteligência Artificial Generativa: Como Ela Funciona"
+ },
+ {
+  "id": 1,
+  "slug": "por-que-marte-e-vermelho",
+  "title": "Por Que Marte é Vermelho: A Ciência Atrás do Planeta Vermelho"
+ },
+ {
+  "id": 1,
+  "slug": "computacao-quantica-vs-classica",
+  "title": "Computação Quântica vs Clássica: As Diferenças Fundamentais"
+ },
+ {
+  "id": 1,
+  "slug": "por-que-humanos-sonham",
+  "title": "Por Que Humanos Sonham: As Teorias Científicas"
+ },
+ {
+  "id": 1,
+  "slug": "o-que-e-ray-tracing",
+  "title": "O Que é Ray Tracing: A Tecnologia que Tornou os Games Realistas"
+ },
+ {
+  "id": 1,
+  "slug": "inteligencia-artificial-nos-games",
+  "title": "Inteligência Artificial nos Games: Do Fantasma a Inimigos que Aprendem"
+ },
+ {
+  "id": 1,
+  "slug": "ficcao-cientifica-x-ciencia-real",
+  "title": "Ficção Científica x Ciência Real: O que o Cinema Acerta e o que Exagera"
+ },
+ {
+  "id": 1,
+  "slug": "ciencia-nos-quadrinhos-superpoderes",
+  "title": "Ciência nos Quadrinhos: Os Poderes dos Heróis Sob a Ótica da Física"
+ },
+ {
+  "id": 1,
+  "slug": "curiosidades-do-corpo-humano",
+  "title": "Curiosidades Científicas do Corpo Humano que Vão te Surpreender"
+ },
+ {
+  "id": 1,
+  "slug": "cidades-inteligentes-do-futuro",
+  "title": "Cidades Inteligentes: Como a Tecnologia Vai Moldar o Amanhã"
+ },
+ {
+  "id": 1,
+  "slug": "energia-limpa-fusao-nuclear",
+  "title": "Fusão Nuclear: A Fonte de Energia Que Pode Mudar o Mundo"
+ },
+ {
+  "id": 1,
+  "slug": "ciberseguranca-para-iniciantes",
+  "title": "Cibersegurança para Iniciantes: Como Proteger Seus Dados Online"
+ },
+ {
+  "id": 1,
+  "slug": "inteligencia-artificial-na-medicina",
+  "title": "Inteligência Artificial na Medicina: Revolução nos Diagnósticos"
+ },
+ {
+  "id": 1,
+  "slug": "edicao-genetica-crispr",
+  "title": "Edição Genética CRISPR: Como Funciona e o que Pode Mudar"
+ },
+ {
+  "id": 1,
+  "slug": "telescopio-espacial-james-webb",
+  "title": "Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo"
+ },
+ {
+  "id": 1,
+  "slug": "exoplanetas-a-busca-por-mundos-habitaveis",
+  "title": "Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar"
+ },
+ {
+  "id": 1,
+  "slug": "missoes-artemis",
+  "title": "Missões Artemis: O Caminho de Volta à Lua e Além"
+ },
+ {
+  "id": 1,
+  "slug": "microbioma-intestinal",
+  "title": "Microbioma Intestinal: O Universo de Bactérias que Moram em Você"
+ },
+ {
+  "id": 1,
+  "slug": "particulas-subatomicas-cern",
+  "title": "Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos"
+ },
+ {
+  "id": 1,
+  "slug": "algoritmos-de-busca",
+  "title": "Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta"
+ },
+ {
+  "id": 1,
+  "slug": "realidade-virtual-vs-aumentada",
+  "title": "Realidade Virtual vs Aumentada: Qual é a Diferença?"
+ },
+ {
+  "id": 1,
+  "slug": "aprendizado-de-maquina-explicado",
+  "title": "Aprendizado de Máquina Explicado: Como Computadores Aprendem"
+ },
+ {
+  "id": 1,
+  "slug": "etica-e-vieses-da-ia",
+  "title": "Ética e Vieses da IA: Quando o Algoritmo Herda Nossos Preconceitos"
+ },
+ {
+  "id": 1,
+  "slug": "como-funciona-o-cgi",
+  "title": "Como Funciona o CGI: A Ciência Por Trás dos Efeitos Especiais"
+ },
+ {
+  "id": 1,
+  "slug": "futuro-do-streaming",
+  "title": "O Futuro do Streaming: Onde a TV Por Assinatura Digital Está Indo"
+ },
+ {
+  "id": 1,
+  "slug": "evolucao-dos-motores-graficos",
+  "title": "A Evolução dos Motores Gráficos: Dos Pixels ao Tempo Real Fotorrealista"
+ },
+ {
+  "id": 1,
+  "slug": "cloud-gaming",
+  "title": "Cloud Gaming: Jogar Sem Console, Direto da Nuvem"
+ },
+ {
+  "id": 1,
+  "slug": "computacao-vestivel",
+  "title": "Computação Vestível: A Tecnologia que Você Veste"
+ },
+ {
+  "id": 1,
+  "slug": "transporte-autonomo",
+  "title": "Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar"
+ },
+ {
+  "id": 1,
+  "slug": "dlss-5-revolucao-dos-graficos",
+  "title": "NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gráficos dos Jogos"
+ },
+ {
+  "id": 1,
+  "slug": "dlss-5-dividindo-os-jogadores",
+  "title": "DLSS 5 Está Dividindo os Jogadores: Avanço Gráfico ou IA Demais nos Games?"
+ },
+ {
+  "id": 1,
+  "slug": "anthropic-claude-5-fable-mythos",
+  "title": "Claude 5 da Anthropic: Como Fable e Mythos Estão Redefinindo a IA"
+ },
+ {
+  "id": 1,
+  "slug": "nvidia-inviste-bilhoes-mediatek",
+  "title": "NVIDIA Investe Bilhões na MediaTek para Acelerar a Próxima Geração de IA"
+ },
+ {
+  "id": 1,
+  "slug": "rtx-5090-por-que-esta-tao-cara",
+  "title": "RTX 5090 Dispara de Preço: Por Que as Placas de Vídeo Topo de Linha Ficaram Tão Caras?"
+ },
+ {
+  "id": 1,
+  "slug": "pcs-gamers-viram-maquinas-de-ia",
+  "title": "PCs Gamers Podem Virar Máquinas de IA: A Nova Ideia que Aproveita GPUs Ociosas"
+ },
+ {
+  "id": 1,
+  "slug": "monitores-oled-gamers-nova-geracao",
+  "title": "Nova Geração de Monitores OLED para Gamers: 4K, Alta Taxa e Velocidade Extrema"
+ },
+ {
+  "id": 1,
+  "slug": "samsung-hbm-proxima-geracao",
+  "title": "Samsung Prepara Nova Geração de Memória HBM com Computação Integrada"
+ },
+ {
+  "id": 1,
+  "slug": "instagram-regras-para-perfis-de-ia",
+  "title": "Instagram Aperta as Regras para Perfis Criados com Inteligência Artificial"
+ },
+ {
+  "id": 1,
+  "slug": "microsoft-365-instabilidade",
+  "title": "Microsoft 365 Enfrenta Instabilidade: O Que Aconteceu"
+ },
+ {
+  "id": 1,
+  "slug": "telescopio-especial-roman-nova-era-observacao",
+  "title": "Telescópio Espacial Roman: A Nova Era de Observação do Universo"
+ },
+ {
+  "id": 1,
+  "slug": "artemis-caminho-de-volta-a-lua",
+  "title": "Artemis: O Caminho de Volta à Lua Passa por Grandes Desafios"
+ },
+ {
+  "id": 1,
+  "slug": "ia-medicina-detecao-precoce-de-doencas",
+  "title": "IA na Medicina: O Avanço da Detecção Precoce de Doenças"
+ },
+ {
+  "id": 1,
+  "slug": "etica-e-vieses-ia-os-desafios-da-inteligencia-artificial",
+  "title": "Ética e Vieses: Os Grandes Desafios da Inteligência Artificial em 2026"
+ },
+ {
+  "id": 1,
+  "slug": "computacao-quantica-2026-avancos-e-desafios",
+  "title": "Computação Quântica em 2026: Avanços Reais e Desafios Ainda Longe de Acabar"
+ },
+ {
+  "id": 1,
+  "slug": "5g-6g-a-proxima-era-da-conectividade",
+  "title": "5G Avançado e 6G: O Que Vem depois da Revolução da Conectividade"
+ },
+ {
+  "id": 1,
+  "slug": "microbioma-intestinal-bacterias-que-controlam-o-corpo",
+  "title": "Microbioma Intestinal: As Bactérias Que Influenciam o Corpo Inteiro"
+ },
+ {
+  "id": 1,
+  "slug": "cern-novas-particulas-e-o-futuro-da-fisica",
+  "title": "CERN e o Futuro da Física de Partículas: O Que Vem Depois do LHC"
+ },
+ {
+  "id": 1,
+  "slug": "ia-generativa-no-design-de-games",
+  "title": "IA Generativa no Design de Games: Como a Tecnologia Está Mudando a Criação de Jogos"
+ },
+ {
+  "id": 1,
+  "slug": "cloud-gaming-2026-jogar-na-nuvem",
+  "title": "Cloud Gaming em 2026: O Jogar na Nuvem Finalmente Amadureceu?"
+ },
+ {
+  "id": 1,
+  "slug": "futuro-do-streaming-2026-consolidacao",
+  "title": "O Futuro do Streaming em 2026: Consolidação e Novos Modelos"
+ },
+ {
+  "id": 1,
+  "slug": "ia-no-cinema-transformando-os-bastidores",
+  "title": "IA no Cinema: Como a Inteligência Artificial Transforma os Bastidores"
+ },
+ {
+  "id": 1,
+  "slug": "hqs-digitais-streaming-de-quadrinhos",
+  "title": "HQs Digitais: O Streaming de Quadrinhos Chega à Maturidade"
+ },
+ {
+  "id": 1,
+  "slug": "superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos",
+  "title": "Superpoderes e Ciência Real: A Física Por Trás dos Quadrinhos"
+ },
+ {
+  "id": 1,
+  "slug": "oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar",
+  "title": "Oceanos Profundos: O Que Ainda Não Conhecemos do Fundo do Mar"
+ },
+ {
+  "id": 1,
+  "slug": "matematica-do-universo-padroes-escondidos-na-natureza",
+  "title": "A Matemática do Universo: Os Padrões Escondidos na Natureza"
+ },
+ {
+  "id": 1,
+  "slug": "computacao-wearable-gadgets-que-usamos-no-corpo",
+  "title": "Computação Vestível: O Futuro dos Gadgets que Usamos no Corpo"
+ },
+ {
+  "id": 1,
+  "slug": "energia-de-fusao-avancos-rumo-a-energia-limpa",
+  "title": "Energia de Fusão: Os Avanços Rumo à Energia Limpa Ilimitada"
+ },
+ {
+  "id": 1,
+  "slug": "marvel-novidades-universo-dos-herois-2026",
+  "title": "Marvel: As Principais Novidades que Estão Movimentando o Universo dos Heróis em 2026"
+ },
+ {
+  "id": 1,
+  "slug": "spider-man-historia-futuro-nos-quadrinhos-da-marvel",
+  "title": "Spider-Man: Novas Histórias e o Futuro do Herói nos Quadrinhos da Marvel"
+ },
+ {
+  "id": 1,
+  "slug": "avengers-nova-fase-universo-marvel",
+  "title": "Avengers: O Que Esperar da Nova Fase do Universo Marvel"
+ },
+ {
+  "id": 1,
+  "slug": "dc-comics-nova-fase-dos-herois-2026",
+  "title": "DC Comics: A Nova Fase dos Heróis Que Está Chamando Atenção em 2026"
+ },
+ {
+  "id": 1,
+  "slug": "superman-futuro-homem-de-aco-universo-dc",
+  "title": "Superman e o Futuro do Homem de Aço no Universo da DC"
+ },
+ {
+  "id": 1,
+  "slug": "batman-novas-historias-desafios-cavaleiro-das-trevas",
+  "title": "Batman: Novas Histórias e Desafios Para o Cavaleiro das Trevas"
+ },
+ {
+  "id": 1,
+  "slug": "hbo-max-lancamentos-geek-2026",
+  "title": "HBO Max: Os Lançamentos Geek que Prometem Dominar o Streaming em 2026"
+ },
+ {
+  "id": 1,
+  "slug": "backrooms-lenda-da-internet-chega-ao-streaming",
+  "title": "O Terror das Backrooms Chega ao Streaming e Transforma uma Lenda da Internet em Filme"
+ },
+ {
+  "id": 1,
+  "slug": "series-fantasia-ficcao-cientifica-em-destaque-na-hbo-max",
+  "title": "As Séries de Fantasia e Ficção Científica que Estão Ganhando Destaque na HBO Max"
+ },
+ {
+  "id": 1,
+  "slug": "netflix-novidades-geek-catalogo-2026",
+  "title": "Netflix: As Principais Novidades Geek que Chegam ao Catálogo em 2026"
+ },
+ {
+  "id": 1,
+  "slug": "resident-evil-retorno-da-franquia-nova-adaptacao",
+  "title": "Resident Evil: O Retorno da Franquia e o Que Esperar da Nova Adaptação"
+ },
+ {
+  "id": 1,
+  "slug": "series-ficcao-cientifica-fantasia-mais-aguardadas-netflix",
+  "title": "As Séries de Ficção Científica e Fantasia Mais Aguardadas da Netflix"
+ },
+ {
+  "id": 1,
+  "slug": "disney-plus-novidades-marvel-star-wars-2026",
+  "title": "Disney+: As Novidades de Marvel e Star Wars que Movimentam o Streaming em 2026"
+ },
+ {
+  "id": 1,
+  "slug": "the-mandalorian-e-grogu-futuro-de-star-wars",
+  "title": "The Mandalorian e Grogu: O Futuro de Star Wars Após a Nova Fase da Franquia"
+ },
+ {
+  "id": 1,
+  "slug": "disney-marvel-star-wars-novas-franquias-entretenimento-geek",
+  "title": "Disney: Como Marvel, Star Wars e Novas Franquias Estão Moldando o Entretenimento Geek"
+ },
+ {
+  "id": 1,
+  "slug": "gta-vi-o-retorno-mais-aguardado-de-2026",
+  "title": "GTA VI: O Retorno Mais Aguardado de 2026 e Tudo o Que Sabemos Antes do Lançamento"
+ },
+ {
+  "id": 1,
+  "slug": "supergirl-woman-of-tomorrow-filme-do-novo-universo-dc",
+  "title": "Supergirl: Woman of Tomorrow — O Novo Filme da Garota de Aço no Universo da DC"
+ },
+ {
+  "id": 1,
+  "slug": "harry-potter-serie-hbo-max-reboot-fantasia",
+  "title": "Harry Potter: A Série do HBO Max Que Pretende Rebobinar a Fantasia na Televisão"
+ },
+ {
+  "id": 1,
+  "slug": "the-witcher-temporada-final-netflix",
+  "title": "The Witcher: A Temporada Final e o Futuro da Fantasia na Netflix"
+ },
+ {
+  "id": 1,
+  "slug": "welcome-to-derry-serie-terror-do-max",
+  "title": "Welcome to Derry: A Série de Terror do Max Que Reconstrói o Universo de Stephen King"
+ },
+ {
+  "id": 1,
+  "slug": "ahsoka-temporada-2-teaser-e-data-de-estreia",
+  "title": "Ahsoka: Temporada 2 Ganha Teaser e Data de Estreia — O Que Sabemos"
+ },
+ {
+  "id": 1,
+  "slug": "star-wars-starfighter-novo-filme-ryan-gosling",
+  "title": "Star Wars: Starfighter: O Novo Filme da Saga Terá Ryan Gosling como Protagonista"
+ },
+ {
+  "id": 1,
+  "slug": "lanterns-serie-hbo-dc-studios-hal-jordan-john-stewart",
+  "title": "Lanterns: A Série da HBO que Aproxima os Lanternas Verdes do Estilo True Detective"
+ },
+ {
+  "id": 1,
+  "slug": "spider-man-brand-new-day-em-cartaz-2026",
+  "title": "Spider-Man: Brand New Day Está em Cartaz: O Novo Capítulo de Tom Holland nos Cinemas"
+ },
+ {
+  "id": 1,
+  "slug": "netflix-setembro-2026-destaques-geek",
+  "title": "Netflix em Setembro de 2026: os Destaques Geek do Mês no Streaming"
+ },
+ {
+  "id": 1,
+  "slug": "coyote-vs-acme-filme-do-looney-tunes",
+  "title": "Coyote vs. Acme: a História do Filme que Foi Engavetado e Renasceu"
+ },
+ {
+  "id": 1,
+  "slug": "crossover-star-wars-marvel-comics-2026",
+  "title": "Star Wars × Marvel: o Crossover Editorial que Une Duas Maiores Máquinas de Histórias"
+ },
+ {
+  "id": 1,
+  "slug": "linha-absolute-dc-quadrinhos-2026",
+  "title": "Linha Absolute da DC: o Universo Paralelo que Redefiniu os Clássicos nos Quadrinhos"
+ },
+ {
+  "id": 1,
+  "slug": "dc-setembro-2026-teen-titans-novas-series",
+  "title": "DC em Setembro de 2026: Teen Titans #1 e as Novas Séries da Editora"
+ },
+ {
+  "id": 1,
+  "slug": "the-duskbloods-fromsoftware-switch-2",
+  "title": "The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2"
+ },
+ {
+  "id": 1,
+  "slug": "star-wars-zero-company-jogo-estrategia",
+  "title": "Star Wars Zero Company: o Jogo de Táticas da BIT REACTOR Coloca Você no Comando"
+ },
+ {
+  "id": 1,
+  "slug": "the-witcher-4-cd-projekt-red-nova-saga",
+  "title": "The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia"
+ },
+ {
+  "id": 1,
+  "slug": "xbox-series-x-25-anos-celebracao",
+  "title": "Xbox Series X e os 25 Anos do Xbox: o que a Geração Atual Aprendeu com o Legado"
+ },
+ {
+  "id": 1,
+  "slug": "ps5-live-tv-sony-novo-recurso",
+  "title": "PS5 Live TV: a Sony Transforma o Console em Central de Transmissões ao Vivo"
+ },
+ {
+  "id": 1,
+  "slug": "ia-hollywood-google-suno-disputa-2026",
+  "title": "IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios"
+ },
+ {
+  "id": 1,
+  "slug": "bepicolombo-inicia-chegada-mercurio-2026",
+  "title": "BepiColombo Inicia a Chegada a Mercúrio: o Fim de uma Travessia de Oito Anos"
+ },
+ {
+  "id": 1,
+  "slug": "nvidia-compra-hugging-face-129-bilhoes-ia",
+  "title": "NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA"
+ },
+ {
+  "id": 1,
+  "slug": "hubble-decagono-polo-sul-saturno",
+  "title": "O Decágono de Saturno: Hubble Descobre Padrão Gigante no Polo Sul do Planeta"
+ },
+ {
+  "id": 1,
+  "slug": "pandora-missao-nasa-exoplanetas-comeca-observacoes",
+  "title": "Pandora: a Missão da NASA que Começou a Decifrar Atmosferas de Exoplanetas"
+ },
+ {
+  "id": 1,
+  "slug": "playstation-state-of-play-setembro-2026-resumo",
+  "title": "State of Play de Setembro de 2026: Todos os Anúncios da Sony em Um Só Lugar"
+ },
+ {
+  "id": 1,
+  "slug": "final-fantasy-vii-revelation-data-lancamento-2027",
+  "title": "Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027"
+ },
+ {
+  "id": 1,
+  "slug": "artificial-luca-guadagnino-filme-sam-altman-nyff",
+  "title": "Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York"
+ },
+ {
+  "id": 1,
+  "slug": "the-odyssey-imax-70mm-recorde-nolan",
+  "title": "The Odyssey de Christopher Nolan: IMAX 70mm Estendido e Vendas que Batem Recordes"
+ },
+ {
+  "id": 1,
+  "slug": "supergirl-hbo-max-data-streaming",
+  "title": "Supergirl Define Data de Chegada ao Streaming: Quando Ver o Filme da DC no HBO Max"
+ },
+ {
+  "id": 1,
+  "slug": "star-wars-starfighter-kade-auberon-ryan-gosling",
+  "title": "Star Wars: Starfighter: Ryan Gosling é Kade Auberon — o Que a Revelação Diz Sobre o Filme"
+ },
+ {
+  "id": 1,
+  "slug": "avatar-the-last-airbender-temporada-3-fire-nation-2027",
+  "title": "Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Nação do Fogo"
+ },
+ {
+  "id": 1,
+  "slug": "rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105",
+  "title": "Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar"
+ }
+]

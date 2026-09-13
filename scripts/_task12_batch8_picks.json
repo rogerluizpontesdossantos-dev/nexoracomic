@@ -1,0 +1,68 @@
+{
+  "batch": 8,
+  "articlesRange": "102-105",
+  "totalArticles": 4,
+  "picks": [
+    {
+      "id": 102,
+      "title": "Supergirl: Woman of Tomorrow",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://variety.com/v/film/",
+          "reason": "URL específica"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.dc.com/",
+          "newUrl": "https://www.dc.com/movies/supergirl-woman-of-tomorrow",
+          "reason": "Homepage genérica substituída por página específica"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Star Wars: Starfighter",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.starwars.com/news",
+          "reason": "URL oficial"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.space.com/news",
+          "reason": "URL válida"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Avatar: The Last Airbender S3",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.netflix.com/tudum/avatar-the-last-airbender",
+          "reason": "URL específica"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.netflix.com/tudum",
+          "newUrl": "https://www.netflix.com/tudum/avatar-the-last-airbender",
+          "reason": "Substituída homepage redundante pela URL específica da série"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "title": "GTA 6 Abastecimento",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/",
+          "reason": "Fonte específica e válida"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "club386": {
+    "status": 200,
+    "found": [
+      "https://www.club386.com/regular-nvidia-geforce-rtx-5090-inflation/",
+      "https://www.club386.com/nvidia-rtx-5090-astral-owner-builds-a-tool-to-shut-down-the-pc-before-the-12v-2x6-cable-burns/",
+      "https://www.club386.com/no-nvidia-isnt-launching-a-geforce-rtx-5090-se/",
+      "https://www.club386.com/get-a-gram-of-pure-gold-with-gigabytes-3900-aorus-rtx-5090-infinity-card/",
+      "https://www.club386.com/how-to-destroy-a-4999-msi-rtx-5090-lightning-z-while-attempting-a-power-mod/",
+      "https://www.club386.com/ebay-seller-finds-missing-gpu-and-memory-on-a-returned-nvidia-geforce-rtx-5090/",
+      "https://www.club386.com/msi-geforce-rtx-5090-lightning-z-review/"
+    ]
+  },
+  "bleeping365": {
+    "status": 200,
+    "found": [
+      "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+      "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
+      "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/"
+    ]
+  },
+  "toms_hbm_tag": {
+    "status": 200,
+    "found": [
+      "https://www.tomshardware.com/tag/hbm",
+      "https://www.tomshardware.com/uk/tag/hbm",
+      "https://www.tomshardware.com/tag/hbm/page/2",
+      "https://www.tomshardware.com/tag/hbm/page/9",
+      "https://www.tomshardware.com/feeds/tag/hbm",
+      "https://www.tomshardware.com/tech-industry/semiconductors/hot-chips-2026-samsung-reveals-a-three-phase-hbm-roadmap-that-puts-logic-and-compute-inside-memory-zhbm-ultimately-stacks-dram-directly-on-top-of-the-processor",
+      "https://www.tomshardware.com/pc-components/dram/cxmt-reportedly-begins-risk-production-of-hbm3e-memory-in-breakthrough-for-chinese-dram-production-company-could-be-in-mass-production-in-2027",
+      "https://www.tomshardware.com/pc-components/dram/sk-hynix-breaks-ground-on-the-first-hbm-plant-in-the-us-bringing-key-ai-component-production-to-the-states-says-production-starts-in-2029",
+      "https://www.tomshardware.com/pc-components/dram/nvidia-custom-nvhbm-promises-30-percent-higher-bandwidth-15-percent-lower-power-than-commodity-hbm4e-custom-base-die-and-phy-will-be-available-to-nvlink-fusion-partners",
+      "https://www.tomshardware.com/pc-components/ssds/hot-chips-2026-high-bandwidth-flash-promises-massive-bandwidth-and-capacity-but-its-usability-is-extremely-limited-new-memory-format-strikes-a-balance-between-hbm-and-nand-flash",
+      "https://www.tomshardware.com/tech-industry/semiconductors/micron-says-the-silicon-gap-between-hbm-and-ddr5-is-widening-with-every-generation",
+      "https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies",
+      "https://www.tomshardware.com/pc-components/ram/dram-chip-supply-to-module-makers-could-drop-by-more-than-70-percent-year-on-year-in-2027-says-apacer-ceo-demand-for-hbm-and-server-ram-continues-to-devour-manufacturing-capacity",
+      "https://www.tomshardware.com/tag/hbm/page/3",
+      "https://www.tomshardware.com/tag/hbm/page/4",
+      "https://www.tomshardware.com/tag/hbm/page/5",
+      "https://www.tomshardware.com/tag/hbm/page/6",
+      "https://www.tomshardware.com/tag/hbm/page/7",
+      "https://www.tomshardware.com/tag/hbm/page/8"
+    ]
+  },
+  "nvidia_nvhbm": {
+    "status": 200,
+    "found": [
+      "https://blogs.nvidia.com/?s=NVHBM",
+      "https://blogs.nvidia.com/search/NVHBM/feed/rss2/",
+      "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
+    ]
+  },
+  "toms_24gb": {
+    "status": 200,
+    "found": [
+      "https://www.tomshardware.com/tag/llm",
+      "https://www.tomshardware.com/pc-components/gpus/nvidias-new-cpx-gpu-aims-to-change-the-game-in-ai-inference-how-the-debut-of-cheaper-and-cooler-gddr7-memory-could-redefine-ai-inference-infrastructure",
+      "https://www.tomshardware.com/pc-components/gpus/intel-rumored-to-launch-a-24gb-battlemage-gpu-for-professionals-in-2025-double-the-vram-capacity-of-its-alchemist-counterpart-targeted-at-ai-workloads",
+      "https://www.tomshardware.com/pc-components/gpus/sk-hynix-confirms-3gb-gddr7-memory-modules-are-in-the-works-higher-capacity-could-pave-the-way-for-fabled-rtx-50-series-super-cards-with-24gb-vram",
+      "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-rubin-cpx-forms-one-half-of-new-disaggregated-ai-inference-architecture-approach-splits-work-between-compute-and-bandwidth-optimized-chips-for-best-performance",
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-unveils-ai200-and-ai250-ai-inference-accelerators-hexagon-takes-on-amd-and-nvidia-in-the-booming-data-center-realm",
+      "https://www.tomshardware.com/pc-components/gpus/ai-enthusiast-adds-nvidia-tesla-v100-as-loud-as-a-lawnmower-to-gaming-pc-for-usd266-32gb-of-vram-rig-can-run-27-billion-parameter-model-at-32-tokens-per-second",
+      "https://www.tomshardware.com/pc-components/ram/new-3d-stacked-memory-tech-seeks-to-dethrone-hbm-in-ai-inference-d-matrix-claims-3dimc-will-be-10x-faster-and-10x-more-efficient",
+      "https://www.tomshardware.com/pc-components/gpus/intel-unveils-crescent-island-an-inference-only-gpu-with-xe3p-architecture-and-160gb-of-memory",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-continues-to-feed-the-ai-monster-with-new-rtx-pro-5000-blackwell-gpu-with-72gb-gddr7-50-percent-more-vram-than-the-regular-version",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-details-rubin-architectural-optimizations-for-inference-improvements-target-better-performance-and-efficiency-from-the-gpu-to-the-rack",
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/positron-ai-says-its-atlas-accelerator-beats-nvidia-h200-on-inference-in-just-33-percent-of-the-power-delivers-280-tokens-per-second-per-user-with-llama-3-1-8b-in-2000w-envelope",
+      "https://www.tomshardware.com/pc-components/gpus/leaker-claims-nvidia-rtx-5090-mobile-could-offer-24gb-of-memory-nvidia-expected-to-employ-3gb-gddr7-modules-to-increase-vram-capacities-on-the-same-256-bit-interface",
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/phison-demos-10x-faster-ai-inference-on-consumer-pcs-with-software-and-hardware-combo-that-enables-3x-larger-ai-models-nvidia-amd-msi-and-acer-systems-demoed-with-aidaptiv",
+      "https://www.tomshardware.com/tech-industry/nvidia-backed-startup-invents-ethernet-memory-pool-to-help-power-ai-claims-it-can-add-up-to-18tb-of-ddr5-capacity-for-large-scale-inference-workloads-and-reduce-per-token-generation-costs-by-up-to-50-percent",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-launches-vera-rubin-nvl72-ai-supercomputer-at-ces-promises-up-to-5x-greater-inference-performance-and-10x-lower-cost-per-token-than-blackwell-coming-2h-2026",
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-in-early-talks-to-buy-inference-chips-from-uk-startup-fractile",
+      "https://www.tomshardware.com/pc-components/gpus/palit-officially-announces-rtx-3060-return-with-new-infinity-2-oc-launch-2021-gpu-with-12gb-of-vram-is-an-ai-crisis-stopgap",
+      "https://www.tomshardware.com/software/operating-systems/ubuntus-ai-roadmap-revealed-universal-ai-kill-switch-and-forced-ai-integration-are-not-part-of-the-plan-cloud-tracking-local-inference-and-agentic-system-tools-take-center-stage",
+      "https://www.tomshardware.com/pc-components/gpus/japanese-repair-shop-sells-gddr6-vram-upgrades-for-usd25-per-gb-during-memory-crisis-rtx-2080-ti-modded-to-22gb-for-just-usd282-double-the-vram-creates-a-budget-ai-powerhouse",
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-and-cerebras-partner-on-low-latency-high-throughput-ai-inference-epyc-processors-in-helios-rack-scale-infrastructure-paired-with-cerebras-wafer-scale-engine-wse-solutions",
+      "https://www.tomshardware.com/pc-components/gpus/nvidias-rtx-50-super-lineup-leak-hints-at-increased-vram-of-up-to-24gb-and-415w-tgp",
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/intel-and-sambanova-team-up-on-heterogenous-ai-inference-platform-different-hardware-performs-different-workloads"
+    ]
+  },
+  "toms_price2": {
+    "status": 200,
+    "found": [
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-exhibits-27-percent-higher-cuda-performance-than-rtx-4090-exceeds-500k-points-in-geekbench",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-and-rtx-5080-listed-for-usd2-600-and-usd1-350-at-chinese-retailer-leaked-listing-suggests-blackwell-might-see-a-price-hike-at-least-in-china",
+      "https://www.tomshardware.com/pc-components/gpus/custom-rtx-5090-rtx-5080-listed-for-up-to-usd2-800-and-usd1-400-overseas-initial-pricing-exceeds-msrp",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-and-rtx-5080-gaming-pcs-listed-prematurely-for-usd7-539-and-usd4-399-at-a-retailer-blackwell-meets-arrow-lake-to-power-upcoming-predator-orion-7000-pcs-from-acer",
+      "https://www.tomshardware.com/desktops/gaming-pcs/get-an-rtx-5090-alienware-pc-for-less-than-the-price-of-the-gpu-alone-usd1-550-discount-means-area-51-is-usd20-cheaper-than-buying-the-card-by-itself",
+      "https://www.tomshardware.com/pc-components/gpus/asus-luxurious-rtx-5090-gpu-is-twice-as-expensive-as-nvidia-founders-edition-rog-matrix-platinum-geforce-rtx-5090-launches-at-usd3-999-with-just-1-000-units-available",
+      "https://www.tomshardware.com/pc-components/gpus/msis-rtx-5090-lightning-storms-in-at-a-thunderous-usd5-200-limited-edition-gpu-shatters-everything-from-world-records-to-your-bank-account",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-is-allegedly-39-percent-faster-than-rtx-4090-in-3dmark-benchmarks-beats-rx-7900-xtx-by-93-percent",
+      "https://www.tomshardware.com/pc-components/this-usd2699-msi-rtx-5090-is-the-cheapest-youll-find-right-now",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-scalpers-sell-blackwell-flagship-gpu-for-up-to-usd7-000-2x-3x-scalper-markup-over-msrp",
+      "https://www.tomshardware.com/3d-printing/this-rtx-5090-is-cheaper-than-anything-we-saw-on-prime-day-and-isnt-even-discounted-grab-zotacs-triple-fan-beast-for-just-usd2-499",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-prototype-allegedly-has-24-576-cuda-cores-and-800w-tdp-two-16-pin-connectors-present",
+      "https://www.tomshardware.com/pc-components/gpus/the-geforce-rtx-5090-just-got-an-actual-discount-for-prime-day-usd350-saving-makes-it-one-of-the-cheapest-weve-seen",
+      "https://www.tomshardware.com/pc-components/gpus/newegg-has-rtx-5090-bundles-starting-at-usd3-139-counts-as-a-good-gpu-deal-these-days",
+      "https://www.tomshardware.com/desktops/gaming-pcs/get-an-entire-rtx-5090-gaming-pc-for-around-the-price-of-just-the-gpu-a-high-end-battle-station-for-under-usd4-000",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-blower-gpu-sells-for-usd5-999-at-u-s-retailer-dual-slot-design-converts-blackwell-gaming-flagship-into-an-ai-workhorse",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-rtx-5090-rtx-5080-and-rtx-5070-laptop-gpus-rtx-50-blackwell-goes-mobile-with-up-to-24gb-of-gddr7-memory",
+      "https://www.tomshardware.com/desktops/gaming-pcs/get-an-entire-rtx-5090-gaming-pc-for-the-same-price-as-the-gpu-alone-usd3-599-rig-includes-9700x-32gb-of-ram-and-a-2tb-ssd-in-msis-pc-deal",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-beats-rtx-4090-by-36-percent-in-the-blender-benchmark-rtx-5090d-is-40-percent-faster-than-rtx-4090d",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-cuts-down-the-china-specific-rtx-5090d-ai-tops-performance-by-almost-23-percent-to-meet-us-export-guidelines",
+      "https://www.tomshardware.com/pc-components/gpus/purported-nvidia-rtx-5090-powered-on-in-an-indonesian-factory-geforce-card-booting-windows-causes-cheers-among-factory-staff",
+      "https://www.tomshardware.com/pc-components/gpus/zotac-denies-recent-rtx-5090-gpu-boot-up-rumor-vendor-clarifies-that-the-gpu-was-an-rtx-4070-ti-super",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-geforce-rtx-5090-versus-rtx-4090-how-does-the-new-halo-gpu-compare-with-its-predecessor",
+      "https://www.tomshardware.com/pc-components/gpus/nvidia-shows-off-geforce-rtx-5090-fe-pcb-30-phases-of-stable-575w-power",
+      "https://www.tomshardware.com/pc-components/gpus/where-to-buy-nvidias-rtx-5090-graphics-card",
+      "https://www.tomshardware.com/pc-components/gpus/asus-rolls-out-golden-rtx-5090-for-buyers-with-deep-pockets-rog-astral-geforce-rtx-5090-dhahab-oc-edition-for-the-middle-eastern-market",
+      "https://www.tomshardware.com/pc-components/gpus/uk-reseller-claims-single-digit-rtx-5090-inventory-flagship-gpu-could-sell-out-in-seconds",
+      "https://www.tomshardware.com/pc-components/gpus/upgraded-nvidia-rtx-5090-gets-128gb-vram-and-usd13-000-price-tag-super-limited-gpu-is-described-as-a-prototype",
+      "https://www.tomshardware.com/pc-components/gpus/gamer-reportedly-received-an-rtx-5080-with-rtx-5090-branding-it-turns-out-to-be-an-rtx-5080-after-all",
+      "https://www.tomshardware.com/laptops/gaming-laptops/get-an-entire-lenovo-legion-pro-7i-rtx-5090-gaming-laptop-with-oled-screen-for-usd3-199-less-than-the-price-of-a-desktop-rtx-5090-graphics-card-save-usd800-while-stocks-last-on-this-monster-machine"
+    ]
+  }
+}

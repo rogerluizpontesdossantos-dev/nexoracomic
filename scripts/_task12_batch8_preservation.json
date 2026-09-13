@@ -1,0 +1,23 @@
+{
+  "batch": 8,
+  "articlesRange": "102-105",
+  "onlySourcesChanged": true,
+  "results": [
+    {
+      "id": 102,
+      "status": "PASS"
+    },
+    {
+      "id": 103,
+      "status": "PASS"
+    },
+    {
+      "id": 104,
+      "status": "PASS"
+    },
+    {
+      "id": 105,
+      "status": "PASS"
+    }
+  ]
+}

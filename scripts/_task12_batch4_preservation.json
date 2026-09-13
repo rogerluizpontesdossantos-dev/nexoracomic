@@ -1,0 +1,124 @@
+[
+  {
+    "id": "32",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+      "https://www.tomshardware.com/pc-components/gpus/modders-get-leaked-dlss-5-running-in-control-early-blackwell-test-drops-rtx-5070-ti-from-71-to-35-fps-at-4k",
+      "https://www.tomshardware.com/pc-components/gpus/jensen-huang-says-gamers-are-completely-wrong-about-dlss-5-nvidia-ceo-responds-to-dlss-5-backlash"
+    ],
+    "urlsAfter": [
+      "https://www.nvidia.com/en-us/geforce/technologies/dlss/",
+      "https://www.tomshardware.com/pc-components/gpus/modders-get-leaked-dlss-5-running-in-control-early-blackwell-test-drops-rtx-5070-ti-from-71-to-35-fps-at-4k",
+      "https://www.tomshardware.com/pc-components/gpus/jensen-huang-says-gamers-are-completely-wrong-about-dlss-5-nvidia-ceo-responds-to-dlss-5-backlash"
+    ]
+  },
+  {
+    "id": "33",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://www.anthropic.com/news/claude-opus-5",
+      "https://docs.claude.com/en/docs/about-claude/models/overview"
+    ],
+    "urlsAfter": [
+      "https://www.anthropic.com/news/claude-opus-5",
+      "https://docs.claude.com/en/docs/about-claude/models/overview"
+    ]
+  },
+  {
+    "id": "34",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms"
+    ],
+    "urlsAfter": [
+      "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms"
+    ]
+  },
+  {
+    "id": "35",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://www.club386.com/regular-nvidia-geforce-rtx-5090-inflation/",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-scalpers-sell-blackwell-flagship-gpu-for-up-to-usd7-000-2x-3x-scalper-markup-over-msrp",
+      "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/"
+    ],
+    "urlsAfter": [
+      "https://www.club386.com/regular-nvidia-geforce-rtx-5090-inflation/",
+      "https://www.tomshardware.com/pc-components/gpus/rtx-5090-scalpers-sell-blackwell-flagship-gpu-for-up-to-usd7-000-2x-3x-scalper-markup-over-msrp",
+      "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/"
+    ]
+  },
+  {
+    "id": "36",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "https://www.tomshardware.com/pc-components/gpus/ai-enthusiast-adds-nvidia-tesla-v100-as-loud-as-a-lawnmower-to-gaming-pc-for-usd266-32gb-of-vram-rig-can-run-27-billion-parameter-model-at-32-tokens-per-second"
+    ],
+    "urlsAfter": [
+      "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "https://www.tomshardware.com/pc-components/gpus/ai-enthusiast-adds-nvidia-tesla-v100-as-loud-as-a-lawnmower-to-gaming-pc-for-usd266-32gb-of-vram-rig-can-run-27-billion-parameter-model-at-32-tokens-per-second"
+    ]
+  },
+  {
+    "id": "37",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://www.samsung.com/us/computing/monitors/odyssey/",
+      "https://www.tomshardware.com/monitors/gaming-monitors/samsung-launches-the-worlds-first-500hz-oled-gaming-monitor-for-usd1-300-with-its-burn-in-fighting-heat-pipes-in-tow"
+    ],
+    "urlsAfter": [
+      "https://www.samsung.com/us/computing/monitors/odyssey/",
+      "https://www.tomshardware.com/monitors/gaming-monitors/samsung-launches-the-worlds-first-500hz-oled-gaming-monitor-for-usd1-300-with-its-burn-in-fighting-heat-pipes-in-tow"
+    ]
+  },
+  {
+    "id": "38",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://www.tomshardware.com/tech-industry/semiconductors/hot-chips-2026-samsung-reveals-a-three-phase-hbm-roadmap-that-puts-logic-and-compute-inside-memory-zhbm-ultimately-stacks-dram-directly-on-top-of-the-processor",
+      "https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies",
+      "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
+    ],
+    "urlsAfter": [
+      "https://www.tomshardware.com/tech-industry/semiconductors/hot-chips-2026-samsung-reveals-a-three-phase-hbm-roadmap-that-puts-logic-and-compute-inside-memory-zhbm-ultimately-stacks-dram-directly-on-top-of-the-processor",
+      "https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies",
+      "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/"
+    ]
+  },
+  {
+    "id": "39",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://help.instagram.com/ai-generated-profile-labels"
+    ],
+    "urlsAfter": [
+      "https://help.instagram.com/ai-generated-profile-labels"
+    ]
+  },
+  {
+    "id": "40",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://status.microsoft.com"
+    ],
+    "urlsAfter": [
+      "https://status.microsoft.com"
+    ]
+  },
+  {
+    "id": "41",
+    "onlySourcesChanged": true,
+    "urlsBefore": [
+      "https://science.nasa.gov/mission/roman-space-telescope/",
+      "https://science.nasa.gov/mission/roman-space-telescope/exoplanets/",
+      "https://science.nasa.gov/mission/roman-space-telescope/dark-energy/"
+    ],
+    "urlsAfter": [
+      "https://science.nasa.gov/mission/roman-space-telescope/",
+      "https://science.nasa.gov/mission/roman-space-telescope/exoplanets/",
+      "https://science.nasa.gov/mission/roman-space-telescope/dark-energy/"
+    ]
+  }
+]

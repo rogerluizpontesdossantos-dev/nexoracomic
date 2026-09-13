@@ -1,0 +1,32 @@
+{
+  "batch": 6,
+  "articlesRange": "52-71",
+  "totalArticles": 20,
+  "summary": {
+    "articlesAudited": 20,
+    "sourcesAnalyzed": 40,
+    "sourcesKept": 24,
+    "sourcesReplaced": 16,
+    "sourcesRemoved": 0,
+    "sourcesAdded": 16,
+    "pendingUrls": 0,
+    "urlsApplied": 6,
+    "urlsRejected": 14,
+    "inventedUrlsFound": 14
+  },
+  "tests": {
+    "validateArticles": "PASS",
+    "typescript": "PASS",
+    "eslint": "PASS",
+    "build": "PASS"
+  },
+  "filesModified": [
+    "lib/articles.ts"
+  ],
+  "filesCreated": [
+    "scripts/_task12_batch6_audit.json",
+    "scripts/_task12_batch6_picks.json",
+    "scripts/_task12_batch6_preservation.json",
+    "scripts/_task12_batch6_final.json"
+  ]
+}

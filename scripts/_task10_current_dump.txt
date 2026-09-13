@@ -1,0 +1,343 @@
+undefined | undefined
+   -> official | NASA - What Is a Black Hole? | https://science.nasa.gov/astrophysics/focus-areas/black-holes/
+   -> official | ESA - Black holes | https://www.esa.int/Science_Exploration/Space_Science/Black_Holes
+undefined | undefined
+   -> journal | Vaswani et al. (2017). Attention Is All You Need | https://arxiv.org/abs/1706.03762
+   -> company | Google Research - Transformer: A Novel Neural Network Architecture for Language Understanding | https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/
+   -> university | Stanford HAI - AI Index Report | https://hai.stanford.edu/ai-index
+undefined | undefined
+   -> official | NASA Science - Mars | https://science.nasa.gov/mars/
+   -> official | ESA - Mars Express: Investigating the Red Planet | https://www.esa.int/Science_Exploration/Space_Science/Mars_Express
+undefined | undefined
+   -> company | IBM Quantum Computing | https://www.ibm.com/quantum
+   -> company | Google Quantum AI - Building Quantum Computing | https://quantumai.google/
+undefined | undefined
+   -> other | Sleep Foundation - Dreams: Why They Happen & What They Mean | https://www.sleepfoundation.org/dreams
+   -> university | Harvard Health - How to Sleep Better | https://www.health.harvard.edu/topics/sleep
+undefined | undefined
+   -> company | NVIDIA Developer - Real-Time Ray Tracing | https://developer.nvidia.com/rtx/ray-tracing
+   -> company | NVIDIA - DLSS Technology | https://www.nvidia.com/en-us/geforce/technologies/dlss/
+undefined | undefined
+   -> publication | MIT Technology Review - The Future of Game AI | https://www.technologyreview.com/
+   -> company | DeepMind - AI for Games | https://deepmind.google/
+undefined | undefined
+   -> agency | NASA - Science Fiction and Science Fact | https://www.nasa.gov/
+   -> agency | Event Horizon Telescope - Black Hole Image | https://eventhorizontelescope.org/
+undefined | undefined
+   -> agency | NIH - How Gene Editing Works | https://www.nih.gov/
+   -> journal | Nature - Biotechnology and Genetics | https://www.nature.com/subjects/biotechnology
+undefined | undefined
+   -> agency | National Sleep Foundation | https://www.sleepfoundation.org/
+   -> university | Harvard Health - Body and Health | https://www.health.harvard.edu/
+undefined | undefined
+   -> publication | IEEE - Smart Cities | https://www.ieee.org/
+   -> agency | European Commission - Smart Cities | https://smart-cities-marketplace.ec.europa.eu/
+undefined | undefined
+   -> agency | ITER - The Way to New Energy | https://www.iter.org/
+   -> agency | IAEA - Nuclear Fusion | https://www.iaea.org/
+undefined | undefined
+   -> agency | CISA - Cybersecurity Tips | https://www.cisa.gov/
+   -> agency | NCSC - Cyber Aware | https://www.ncsc.gov.uk/
+undefined | undefined
+   -> agency | World Health Organization - AI in Health | https://www.who.int/
+   -> journal | Nature Medicine - Artificial Intelligence | https://www.nature.com/nm/
+undefined | undefined
+   -> agency | NIH - What are Genome Editing and CRISPR-Cas9? | https://www.genome.gov/
+   -> journal | Nature - CRISPR Technology | https://www.nature.com/subjects/crispr
+undefined | undefined
+   -> agency | NASA - James Webb Space Telescope | https://science.nasa.gov/mission/webb/
+   -> agency | ESA - Webb | https://www.esa.int/Science_Exploration/Space_Science/Webb
+   -> university | STScI - Webb Science | https://www.stsci.edu/
+undefined | undefined
+   -> agency | NASA Exoplanet Exploration | https://science.nasa.gov/exoplanets/
+   -> agency | NASA Exoplanet Archive | https://exoplanetarchive.ipac.caltech.edu/
+   -> agency | ESO - Exoplanets | https://www.eso.org/public/exoplanets/
+undefined | undefined
+   -> agency | NASA - Artemis Program | https://www.nasa.gov/artemis/
+   -> agency | ESA - Orion European Service Module | https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion
+   -> agency | NASA - Lunar Exploration | https://science.nasa.gov/moon/
+undefined | undefined
+   -> agency | NIH - Human Microbiome Project | https://www.hmpdacc.org/
+   -> journal | Nature Reviews Microbiology | https://www.nature.com/nrmicro/
+   -> university | Harvard T.H. Chan School - The Microbiome | https://www.hsph.harvard.edu/nutritionsource/microbiome/
+undefined | undefined
+   -> agency | CERN - The Large Hadron Collider | https://home.cern/science/accelerators/large-hadron-collider
+   -> agency | CERN - The Standard Model | https://home.cern/science/physics/standard-model
+   -> agency | Energy.gov - Particle Physics | https://www.energy.gov/science/doe-explainsparticles-and-particle-physics
+undefined | undefined
+   -> company | Google Search Central - How Search Works | https://developers.google.com/search/docs/fundamentals/how-search-works
+   -> university | Stanford - The PageRank Citation Ranking | https://ilpubs.stanford.edu/422/
+   -> company | Bing Webmaster Tools | https://www.bing.com/webmasters/about
+undefined | undefined
+   -> company | Meta Quest - How VR Works | https://www.meta.com/quest/
+   -> company | Apple - ARKit Developer Documentation | https://developer.apple.com/augmented-reality/arkit/
+   -> publication | IEEE - Virtual and Augmented Reality | https://spectrum.ieee.org/
+undefined | undefined
+   -> company | Google - Machine Learning Crash Course | https://developers.google.com/machine-learning/crash-course
+   -> university | MIT - Introduction to Machine Learning | https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/
+   -> journal | Nature - Machine Learning | https://www.nature.com/subjects/machine-learning
+undefined | undefined
+   -> agency | UNESCO - Ethics of Artificial Intelligence | https://www.unesco.org/en/artificial-intelligence/recommendation-ethics
+   -> agency | NIST - AI Risk Management Framework | https://www.nist.gov/itl/ai-risk-management-framework
+   -> other | EU - AI Act | https://artificialintelligenceact.eu/
+undefined | undefined
+   -> company | Autodesk - VFX and Animation Tools | https://www.autodesk.com/
+   -> publication | CGSociety - Computer Graphics Society | https://cgsociety.org/
+   -> university | ACM SIGGRAPH | https://www.siggraph.org/
+undefined | undefined
+   -> publication | Nielsen - Streaming Data | https://www.nielsen.com/insights/
+   -> company | Deloitte - Digital Media Trends | https://www2.deloitte.com/us/en/insights/industry/technology/digital-media-trends.html
+undefined | undefined
+   -> company | Unreal Engine - Official Site | https://www.unrealengine.com/
+   -> company | Unity - Real-Time Development Platform | https://unity.com/
+   -> company | NVIDIA - Developer Graphics | https://developer.nvidia.com/
+undefined | undefined
+   -> company | NVIDIA GeForce NOW | https://www.nvidia.com/geforce-now/
+   -> company | Xbox Cloud Gaming | https://www.xbox.com/play
+   -> publication | IEEE - Cloud Gaming Latency Studies | https://spectrum.ieee.org/
+undefined | undefined
+   -> agency | NIH - Wearable Health Devices | https://www.nih.gov/
+   -> publication | IEEE - Wearables Standards | https://standards.ieee.org/
+   -> agency | FDA - Digital Health | https://www.fda.gov/medical-devices/digital-health
+undefined | undefined
+   -> agency | NHTSA - Automated Vehicles | https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety
+   -> other | SAE International - J3016 Levels of Driving Automation | https://www.sae.org/standards/content/j3016_202104/
+   -> company | Waymo Safety Report | https://waymo.com/safety/
+undefined | undefined
+   -> company | NVIDIA Developer - DLSS | https://developer.nvidia.com/rtx/dlss
+   -> publication | TechPowerUp - NVIDIA DLSS 5 Technical Preview Review | https://www.techpowerup.com/review/nvidia-dlss-5/
+   -> other | SIGGRAPH 2026 - NVIDIA Keynote | https://www.siggraph.org/conference/2026
+undefined | undefined
+   -> publication | TechSpot - Nvidia is giving developers more control over DLSS 5 | https://www.techspot.com/news/102428-nvidia-dlss-5-developer-control-ai-slop.html
+   -> publication | TweakTown - NVIDIA showcases updated DLSS 5 with developer tools | https://www.tweaktown.com/news/165437/nvidia-showcases-updated-dlss-5-with-developer-tools-that-help-preserve-artistic-intent/index.html
+   -> publication | heise online - Neural Rendering: Nvidia shows DLSS 5 much more cautiously | https://www.heise.de/en/news
+undefined | undefined
+   -> company | Anthropic - Introducing Claude Opus 5 | https://www.anthropic.com/news/claude-opus-5
+   -> company | Claude.com - Products | https://claude.com/product
+   -> other | Wikipedia - Anthropic | https://en.wikipedia.org/wiki/Anthropic
+undefined | undefined
+   -> journal | Reuters - Nvidia to invest $3.5 billion in chipmaker MediaTek | https://www.reuters.com/technology/nvidia-invest-mediaTek-3-5-billion-ai-chip-partnership-idUSKBN5Z0NP
+   -> company | NVIDIA Newsroom | https://nvidianews.nvidia.com
+   -> publication | Blockonomi - Nvidia Invests $3.5 Billion in MediaTek | https://blockhead.io/news/nvidia-mediatek-investment
+undefined | undefined
+   -> publication | Tom's Hardware - Nvidia's top-end RTX 5090 gaming GPU now costs at least $5,000 | https://www.tomshardware.com
+   -> publication | Club386 - Regular Nvidia GeForce RTX 5090 cards sail beyond $5,090 | https://www.club386.com
+   -> publication | TweakTown - Your next Nvidia GPU could cost up to 30% more | https://www.tweaktown.com
+undefined | undefined
+   -> publication | XDA Developers - Old Nvidia GPUs with 24GB VRAM crush AI inference | https://www.xda-developers.com/old-nvidia-gpus-24gb-vram-ai-inference
+   -> publication | VentureBeat - Microsoft debuts Surface RTX Spark Dev Box | https://venturebeat.com/microsoft-surface-rtx-spark-dev-box-ai
+   -> publication | TechCrunch - General Compute GPU-backed loan | https://techcrunch.com/general-compute-gpu-backed-loan
+undefined | undefined
+   -> company | Samsung - Odyssey G8 6K Monitor Announcement | https://www.samsung.com/odyssey-g8-6k
+   -> publication | Tom's Hardware - NVIDIA G-SYNC Compatible Samsung Monitors | https://www.tomshardware.com
+   -> company | MSI - Odyssey OLED G8 Pricing Announcement | https://www.msi.com
+undefined | undefined
+   -> company | Samsung - FMS 2026 Next-Gen 3D-Memory Vision | https://www.samsung.com/samsung-fms-2026
+   -> publication | Hot Hardware - Samsung zHBM 3D Memory Concept | https://www.hothardware.com/samsung-zhbm-3d-memory
+   -> agency | Business Wire - Samsung Unveils Next-Gen 3D-Memory Vision | https://www.businesswire.com
+undefined | undefined
+   -> company | Instagram - AI-Generated Profile Labels FAQ | https://help.instagram.com/ai-generated-profile-labels
+   -> publication | Techlomedia - Instagram Will Limit Reach of Undisclosed AI-Generated Profiles | https://www.techlomedia.in/news/instagram-ai-profile-labels
+   -> publication | MediaNama - Meta to limit the reach of undisclosed AI-generated profiles | https://www.medianama.com/2026/meta-instagram-ai-profiles
+undefined | undefined
+   -> publication | Bleeping Computer - Microsoft confirms outage affecting search in M365 apps | https://www.bleepingcomputer.com/news/microsoft/microsoft-365-search-outage-august-2026
+   -> publication | PCQuest on MSN - Microsoft Outlook coming back online but outage not over | https://www.msn.com/en-us/news/technology/microsoft-outlook-outage-august-31-2026
+   -> company | Microsoft 365 Service Status | https://status.microsoft.com
+undefined | undefined
+   -> agency | NASA - Nancy Grace Roman Space Telescope | https://roman.gsfc.nasa.gov
+   -> publication | Space.com - Roman telescope microlensing exoplanet search | https://www.space.com/roman-telescope-exoplanet-microlensing
+undefined | undefined
+   -> agency | NASA - Artemis Program | https://www.nasa.gov/specials/artemis
+   -> publication | Ars Technica - Artemis timeline and landing system updates | https://arstechnica.com/science/artemis-timeline-2026
+undefined | undefined
+   -> journal | Nature Medicine - AI in diagnostic imaging review | https://www.nature.com/articles/s41591-ai-medicine-review
+   -> agency | WHO - Ethics and governance of artificial intelligence for health | https://www.who.int/publications/ai-health
+undefined | undefined
+   -> university | Stanford HAI - Algorithmic bias and fairness research | https://hai.stanford.edu/algorithmic-bias
+   -> agency | UNESCO - Recommendation on the Ethics of Artificial Intelligence | https://www.unesco.org/en/artificial-intelligence/ethics
+undefined | undefined
+   -> journal | Science - Quantum computing error correction progress | https://www.science.org/quantum-error-correction
+   -> publication | MIT Technology Review - Quantum computing reality check | https://www.technologyreview.com/quantum-computing-2026
+undefined | undefined
+   -> company | GSMA - 5G Advanced and 6G vision | https://www.gsma.com/futurenetworks/6g
+   -> agency | ITU - IMT-2030 framework for 6G | https://www.itu.int/imt2030-framework-6g
+undefined | undefined
+   -> journal | Nature Reviews - Gut microbiome and human health | https://www.nature.com/nrgastro/gut-microbiome-health
+   -> university | Harvard T.H. Chan - The gut-brain connection | https://www.hsph.harvard.edu/nutritionsource/gut-brain
+undefined | undefined
+   -> agency | CERN - Future circular collider study | https://home.cern/science/future-circular-collider
+   -> publication | Symmetry Magazine - The future of particle physics | https://www.symmetrymagazine.org/future-of-particle-physics
+undefined | undefined
+   -> publication | Game Developers Conference - AI in game production | https://gdconf.com/ai-game-production
+   -> publication | Polygon - The business of AI in video games | https://www.polygon.com/ai-in-video-games
+undefined | undefined
+   -> publication | The Verge - The state of cloud gaming | https://www.theverge.com/cloud-gaming-2026
+   -> publication | IGN - Cloud gaming latency and performance tests | https://www.ign.com/cloud-gaming-latency-2026
+undefined | undefined
+   -> publication | Variety - The consolidation era of streaming | https://variety.com/streaming-consolidation-2026
+   -> publication | Hollywood Reporter - The future of streaming business models | https://www.hollywoodreporter.com/streaming-future-2026
+undefined | undefined
+   -> publication | The Hollywood Reporter - AI in movie production | https://www.hollywoodreporter.com/ai-film-production-2026
+   -> agency | WGA - AI and the writing process guidelines | https://www.wga.org/ai-guidelines
+undefined | undefined
+   -> publication | Comic Book Resources - The rise of digital comics | https://www.cbr.com/digital-comics-streaming
+   -> publication | ICv2 - Digital comics market analysis | https://icv2.com/digital-comics-market-2026
+undefined | undefined
+   -> journal | Phys.org - The science of superpowers | https://phys.org/the-science-of-superpowers
+   -> publication | Scientific American - Physics of superheroes explained | https://www.scientificamerican.com/physics-superheroes
+undefined | undefined
+   -> agency | NOAA - Ocean exploration and research | https://oceanexplorer.noaa.gov
+   -> journal | Nature - Deep-sea biodiversity discoveries | https://www.nature.com/deep-sea-biodiversity
+undefined | undefined
+   -> publication | Plus Magazine - Nature's numbers and patterns | https://plus.maths.org/natures-numbers
+   -> publication | Simons Foundation - The mathematics of natural patterns | https://www.simonsfoundation.org/mathematics-nature-patterns
+undefined | undefined
+   -> publication | MobiHealthNews - Wearable technology trends | https://www.mobihealthnews.com/wearable-tech-trends
+   -> publication | Wearable Technologies - The future of on-body computing | https://www.wearable-technologies.com/future-on-body
+undefined | undefined
+   -> university | ITER - International Fusion Energy Organization | https://www.iter.org
+   -> journal | Nature Physics - Recent advances in fusion energy research | https://www.nature.com/physics-fusion-advances-2026
+undefined | undefined
+   -> company | Marvel Oficial - Notícias e Anúncios | https://www.marvel.com/news
+   -> publication | Variety - Marvel Studios e Cinema | https://variety.com/t/marvel/
+undefined | undefined
+   -> company | Marvel Oficial - Spider-Man nos Quadrinhos | https://www.marvel.com/comics
+   -> publication | The Hollywood Reporter - Spider-Man: Brand New Day | https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-2026
+undefined | undefined
+   -> company | Marvel Studios - Avengers: Doomsday | https://www.marvel.com/movies/avengers-doomsday
+   -> publication | Variety - Avengers: Doomsday notícias | https://variety.com/t/avengers-doomsday/
+undefined | undefined
+   -> company | DC Comics - Notícias Oficiais | https://www.dc.com/news
+   -> company | DC Studios - Universo DC | https://www.dcstudios.com
+undefined | undefined
+   -> company | DC Comics - Superman | https://www.dc.com/superman
+   -> company | DC Studios - Superman (2025) | https://www.dcstudios.com/superman
+undefined | undefined
+   -> company | DC Comics - Batman | https://www.dc.com/batman
+   -> company | DC Comics - Novidades do Batman | https://www.dc.com/news
+undefined | undefined
+   -> company | Max - Plataforma de Streaming | https://www.max.com
+   -> publication | Variety - Max streaming lançamentos | https://variety.com/t/max/
+undefined | undefined
+   -> publication | Variety - Filme das Backrooms em desenvolvimento | https://variety.com/t/backrooms/
+   -> other | Wikipedia - The Backrooms | https://en.wikipedia.org/wiki/The_Backrooms
+undefined | undefined
+   -> company | Max - Plataforma de Streaming | https://www.max.com
+   -> publication | Collider - Max séries e notícias | https://collider.com/max/
+undefined | undefined
+   -> company | Netflix Tudum - Novidades | https://www.netflix.com/tudum
+   -> publication | Collider - Netflix notícias | https://collider.com/netflix/
+undefined | undefined
+   -> company | Capcom - Resident Evil oficial | https://game.capcom.com/residentevil/
+   -> publication | IGN - Resident Evil notícias | https://www.ign.com/resident-evil
+undefined | undefined
+   -> company | Netflix Tudum - Novidades | https://www.netflix.com/tudum
+   -> publication | Collider - Netflix notícias | https://collider.com/netflix/
+undefined | undefined
+   -> company | Disney+ - Plataforma | https://www.disneyplus.com
+   -> company | StarWars.com - Notícias | https://www.starwars.com
+undefined | undefined
+   -> company | StarWars.com - The Mandalorian and Grogu | https://www.starwars.com
+   -> publication | Deadline - The Mandalorian and Grogu | https://deadline.com/the-mandalorian-and-grogu
+undefined | undefined
+   -> company | Disney+ - Plataforma | https://www.disneyplus.com
+   -> company | The Walt Disney Company - Notícias | https://thewaltdisneycompany.com
+undefined | undefined
+   -> company | Rockstar Games - GTA VI | https://www.rockstargames.com/VI
+   -> publication | IGN - Grand Theft Auto VI | https://www.ign.com/games/grand-theft-auto-6
+undefined | undefined
+   -> company | DC Studios - Supergirl | https://www.dcstudios.com/supergirl
+   -> publication | Variety - Supergirl (2026) | https://variety.com/t/supergirl/
+undefined | undefined
+   -> company | Warner Bros. Television - Harry Potter | https://www.warnerbros.com/tv/harry-potter
+   -> publication | BBC - Elenco da série Harry Potter | https://www.bbc.com/news/articles/c5ygp0908g9o
+undefined | undefined
+   -> company | Netflix Tudum - The Witcher | https://www.netflix.com/tudum/topics/the-witcher
+   -> publication | Collider - The Witcher temporada final | https://collider.com/tag/the-witcher/
+undefined | undefined
+   -> company | Max - Welcome to Derry | https://www.max.com/shows/welcome-to-derry
+   -> publication | Variety - Welcome to Derry | https://variety.com/t/welcome-to-derry/
+undefined | undefined
+   -> company | StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date | https://www.starwars.com/news
+   -> publication | Variety - Cobertura de Star Wars | https://variety.com/
+undefined | undefined
+   -> company | StarWars.com - Notícias oficiais | https://www.starwars.com/news
+   -> publication | Variety - Cobertura de cinema | https://variety.com/v/film/
+undefined | undefined
+   -> company | HBO - Lanterns (série oficial) | https://www.hbo.com/lanterns
+   -> publication | The Verge - Entertainment | https://www.theverge.com/entertainment
+undefined | undefined
+   -> publication | Variety - Film News | https://variety.com/v/film/news/
+   -> company | Sony Pictures - Spider-Man: Brand New Day | https://www.sonypictures.com/
+undefined | undefined
+   -> company | Netflix Tudum - Go Behind the Streams | https://www.netflix.com/tudum/
+   -> publication | The Verge - Streaming | https://www.theverge.com/streaming
+undefined | undefined
+   -> publication | The Verge - Entertainment | https://www.theverge.com/entertainment
+   -> publication | Variety - Cobertura de cinema | https://variety.com/v/film/
+undefined | undefined
+   -> company | StarWars.com - Notícias oficiais | https://www.starwars.com/news
+   -> company | Marvel - Comics | https://www.marvel.com/comics
+undefined | undefined
+   -> company | DC.com - Blog e lançamentos | https://www.dc.com/blog
+   -> company | DC.com - Latest Comics | https://www.dc.com/comics
+undefined | undefined
+   -> company | DC.com - Blog | https://www.dc.com/blog
+   -> company | DC.com - Latest Comics & Graphic Novels | https://www.dc.com/comics
+undefined | undefined
+   -> company | Nintendo - The Duskbloods (página oficial) | https://www.nintendo.com/us/store/products/
+   -> publication | IGN - Notícias | https://www.ign.com/news
+undefined | undefined
+   -> company | StarWars.com - Games + Interactive | https://www.starwars.com/news
+   -> publication | IGN - Star Wars Zero Company | https://www.ign.com/news
+undefined | undefined
+   -> publication | IGN - Notícias | https://www.ign.com/news
+   -> company | CD Projekt Red - Site oficial | https://www.cdprojektred.com/en/news
+undefined | undefined
+   -> publication | The Verge - Gaming | https://www.theverge.com/gaming
+   -> company | Xbox Wire - Notícias oficiais | https://news.xbox.com/
+undefined | undefined
+   -> publication | IGN - Notícias | https://www.ign.com/news
+   -> company | PlayStation - Site oficial | https://www.playstation.com/
+undefined | undefined
+   -> publication | The Verge - Entertainment | https://www.theverge.com/entertainment
+   -> publication | The Verge - AI | https://www.theverge.com/ai-artificial-intelligence
+undefined | undefined
+   -> agency | ESA - BepiColombo Science & Exploration | https://www.esa.int/Science_Exploration/Space_Science/BepiColombo
+   -> publication | Space.com - Space News | https://www.space.com/news
+undefined | undefined
+   -> company | NVIDIA Newsroom - NVIDIA to Acquire Hugging Face | https://nvidianews.nvidia.com/
+   -> publication | TechCrunch - AI News | https://techcrunch.com/category/artificial-intelligence/
+undefined | undefined
+   -> agency | ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole | https://esahubble.org/
+   -> publication | ScienceDaily - Top Science News | https://www.sciencedaily.com/
+undefined | undefined
+   -> agency | NASA Science - Missão Pandora | https://science.nasa.gov/mission/pandora/
+   -> agency | NASA - NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars | https://www.nasa.gov/news/
+undefined | undefined
+   -> company | PlayStation.Blog - State of Play & State of Play Japan: all announcements | https://blog.playstation.com/
+   -> publication | IGN - Latest News | https://www.ign.com/articles
+undefined | undefined
+   -> company | PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027 | https://blog.playstation.com/
+   -> company | Square Enix - Site Oficial | https://www.square-enix-games.com/
+undefined | undefined
+   -> publication | Variety - Luca Guadagnino’s ‘Artificial’ to World Premiere at New York Film Festival (EXCLUSIVE) | https://variety.com/v/film/
+   -> publication | The Verge - Entertainment | https://www.theverge.com/entertainment
+undefined | undefined
+   -> publication | Variety - ‘The Odyssey’ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million | https://variety.com/v/film/
+   -> company | IMAX - Site Oficial | https://www.imax.com/
+undefined | undefined
+   -> publication | Variety - ‘Supergirl’ Sets HBO Max Streaming Release Date | https://variety.com/v/film/
+   -> company | DC - Site Oficial | https://www.dc.com/
+undefined | undefined
+   -> company | StarWars.com - Ryan Gosling is Kade Auberon in Star Wars: Starfighter | https://www.starwars.com/news
+   -> publication | Space.com - Space Movies & Shows | https://www.space.com/news
+undefined | undefined
+   -> company | Netflix Tudum - Avatar: The Last Airbender (Temporada 3 em 2027) | https://www.netflix.com/tudum/avatar-the-last-airbender
+   -> company | Netflix Tudum - Página oficial da série | https://www.netflix.com/tudum
+undefined | undefined
+   -> publication | adrenaline.com.br — Rockstar defende abastecimento em GTA 6 | https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/
+undefined | undefined
+   -> publication | canaltech.com.br — Sony revela controles do GTA 6 para PS5; veja preço e data de lançamento | https://canaltech.com.br/games/ony-revela-controles-do-gta-6-para-ps5-veja-preco-e-data-de-lancamento/
+undefined | undefined
+   -> publication | gamerant.com — GTA 6: 6 Reasons To Be Worried After The Official Look | https://gamerant.com/gta-6-reasons-worry-after-netflix-extended-look/

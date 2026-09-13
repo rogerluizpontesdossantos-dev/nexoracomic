@@ -1,0 +1,63 @@
+{
+  "task": "adsense_ads_txt_audit",
+  "date": "2026-09-07",
+  "publisher_id": "pub-9710418432642580",
+  "expected_line": "google.com, pub-9710418432642580, DIRECT, f08c47fec0942fa0",
+  "sites": [
+    {
+      "site": "NexoraComic",
+      "domain": "https://nexoracomic.vercel.app",
+      "ads_txt_local": "C:\\Users\\dizzritimia\\CascadeProjects\\nexoracomic\\public\\ads.txt",
+      "encoding": "UTF-8 sem BOM (primeiros bytes: 67 6F 6F 67 6C 65...)",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "redirect": "nenhum",
+      "content": "google.com, pub-9710418432642580, DIRECT, f08c47fec0942fa0",
+      "content_length": 60,
+      "response_time_ms": 247,
+      "x_robots_tag": "ausente (OK)",
+      "robots_txt": "200 OK - User-agent: * / Allow: / / Disallow apenas /api/, /_next/, /admin/ - Sitemap declarado",
+      "sitemap_xml": "200 OK (application/xml)",
+      "vercel": "deployment atual serve /ads.txt (X-Matched-Path: /ads.txt, X-Vercel-Cache: HIT)",
+      "problems_found": [],
+      "fixes_applied": []
+    },
+    {
+      "site": "Tres-B-Pratikus",
+      "domain": "https://tres-b-pratikus.vercel.app",
+      "ads_txt_local": "C:\\Users\\dizzritimia\\CascadeProjects\\tres-b-pratikus-2.0\\public\\ads.txt",
+      "encoding": "UTF-8 sem BOM",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "redirect": "nenhum",
+      "content": "google.com, pub-9710418432642580, DIRECT, f08c47fec0942fa0",
+      "content_length": 59,
+      "response_time_ms": 798,
+      "x_robots_tag": "ausente (OK)",
+      "robots_txt": "200 OK - User-agent: * / Allow: / / Sitemap declarado",
+      "sitemap_xml": "200 OK (application/xml)",
+      "vercel": "deployment atual serve /ads.txt (X-Matched-Path: /ads.txt, X-Vercel-Cache: HIT)",
+      "problems_found": [],
+      "fixes_applied": []
+    },
+    {
+      "site": "Aureon Web Studio",
+      "domain": "https://aureon-web-studio.vercel.app",
+      "ads_txt_local": "C:\\Users\\dizzritimia\\CascadeProjects\\aureon-web-studio\\ads.txt",
+      "encoding": "UTF-8 sem BOM",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "redirect": "nenhum",
+      "content": "google.com, pub-9710418432642580, DIRECT, f08c47fec0942fa0",
+      "content_length": 60,
+      "response_time_ms": 182,
+      "x_robots_tag": "ausente (OK)",
+      "robots_txt": "200 OK - User-agent: * / Allow: / / Sitemap declarado",
+      "sitemap_xml": "200 OK (application/xml)",
+      "vercel": "site estático, vercel.json apenas com cleanUrls/trailingSlash; deployment atual serve /ads.txt (X-Vercel-Cache: HIT)",
+      "problems_found": [],
+      "fixes_applied": []
+    }
+  ],
+  "conclusion": "Os três arquivos ads.txt estão publicados corretamente e acessíveis em produção (HTTP 200, text/plain, publisher correto, sem redirects, sem X-Robots-Tag, sem bloqueio a crawlers). Não foi encontrada falha técnica no código/deploy que justifique alteração. Qualquer estado de 'Preparando', 'Não encontrado' ou processamento pendente no painel do AdSense deve ser tratado como etapa de reconhecimento/processamento do Google, não como um problema comprovado do projeto."
+}

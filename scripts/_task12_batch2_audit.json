@@ -1,0 +1,29 @@
+{
+  "batch": 2,
+  "task": "TASK 12 - LOTE 2: fontes editoriais para os proximos 10 artigos MISSING_SOURCES / Prioridade 1 (IDs 12-21)",
+  "generatedAt": "2026-09-07",
+  "worklist": "scripts/_task12_worklist.json (fila Prioridade 1 apos Lote 1 = IDs 2-11)",
+  "articles": [
+    { "id": "12", "title": "Fusão Nuclear: A Fonte de Energia Que Pode Mudar o Mundo", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" },
+    { "id": "13", "title": "Cibersegurança para Iniciantes: Como Proteger Seus Dados Online", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" },
+    { "id": "14", "title": "Inteligência Artificial na Medicina: Revolução nos Diagnósticos", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" },
+    { "id": "15", "title": "Edição Genética CRISPR: Como Funciona e o que Pode Mudar", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" },
+    { "id": "16", "title": "Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" },
+    { "id": "17", "title": "Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" },
+    { "id": "18", "title": "Missões Artemis: O Caminho de Volta à Lua e Além", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" },
+    { "id": "19", "title": "Microbioma Intestinal: O Universo de Bactérias que Moram em Você", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" },
+    { "id": "20", "title": "Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" },
+    { "id": "21", "title": "Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta", "currentSources": [], "existingUsable": [], "missing": "sem campo sources" }
+  ],
+  "rejectionsDuringResearch": [
+    { "url": "https://hmpdacc.org/", "reason": "Dominio sequestrado - conteudo de cassino (REJEITADA)" },
+    { "url": "https://www.iter.org/sci/what-is-fusion", "reason": "HTTP 404" },
+    { "url": "https://www.energy.gov/articles/doe-national-laboratory-makes-history-first-fusion-ignition", "reason": "HTTP 404" },
+    { "url": "https://www.iaea.org/bulletin/what-is-fusion-and-why-is-it-so-difficult-to-achieve", "reason": "HTTP 403 - nao confirmavel, nao aplicada" },
+    { "url": "https://www.llnl.gov/news/national-ignition-facility-achieves-fusion-ignition", "reason": "HTTP 200 mas conteudo retornado nao confirmou o artigo especifico (ambiguo) - REJEITADA por cautela" },
+    { "url": "https://science.nasa.gov/exoplanets/5-ways-to-find-a-planet/", "reason": "HTTP 404" },
+    { "url": "https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/", "reason": "Redireciona para hub generico de Exoplanets - REJEITADA" },
+    { "url": "https://www.nasa.gov/mission/artemis/", "reason": "HTTP 404 - substituida por /humans-in-space/artemis/" },
+    { "url": "https://webbtelescope.org/contents/about-jwst", "reason": "Redireciona para science.nasa.gov/mission/webb - usada apenas a versao NASA" }
+  ]
+}

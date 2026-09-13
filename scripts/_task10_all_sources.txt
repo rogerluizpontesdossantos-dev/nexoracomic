@@ -1,0 +1,454 @@
+ART 1 [espaco] Como Buracos Negros Funcionam: O Mist+®rio C+¦smico Desvendado (como-buracos-negros-funcionam)
+    src[agency] NASA Science - Black Holes -> https://science.nasa.gov/astrophysics/focus-areas/black-holes/
+    src[university] Harvard-Smithsonian Center for Astrophysics - Black Holes -> https://www.cfa.harvard.edu/research/topic/black-holes
+    src[university] LIGO - Gravitational Waves from Black Holes -> https://www.ligo.caltech.edu/page/black-holes
+
+ART 2 [inteligencia-artificial] Intelig+¬ncia Artificial Generativa: Como Ela Funciona (inteligencia-artificial-generativa)
+    src[journal] Vaswani et al. (2017). Attention Is All You Need -> https://arxiv.org/abs/1706.03762
+    src[company] Google AI - Transformer Architecture -> https://ai.googleblog.com/2017/08/transformer-neural-network-architecture-for.html
+    src[university] Stanford HAI - AI Index Report -> https://hai.stanford.edu/ai-index
+
+ART 3 [espaco] Por Que Marte +® Vermelho: A Ci+¬ncia Atr+ís do Planeta Vermelho (por-que-marte-e-vermelho)
+    src[agency] NASA Science - Mars -> https://science.nasa.gov/mars/
+    src[agency] ESA - Mars Express -> https://www.esa.int/Science_Exploration/Space_Science/Mars_Express
+    src[journal] Nature - Mars Research -> https://www.nature.com/subjects/mars-exploration
+
+ART 4 [tecnologia] Computa+º+úo Qu+óntica vs Cl+íssica: As Diferen+ºas Fundamentais (computacao-quantica-vs-classica)
+    src[company] IBM Quantum Computing -> https://www.ibm.com/quantum
+    src[company] Google Quantum AI -> https://quantumai.google/
+    src[journal] Nature - Quantum Physics -> https://www.nature.com/subjects/quantum-physics
+
+ART 5 [ciencia] Por Que Humanos Sonham: As Teorias Cient+¡ficas (por-que-humanos-sonham)
+    src[agency] National Sleep Foundation -> https://www.sleepfoundation.org/
+    src[agency] NIH - Sleep and Sleep Disorders -> https://www.ninds.nih.gov/health-information/sleep-disorders
+    src[university] Harvard Health - Sleep -> https://www.health.harvard.edu/topics/sleep
+
+ART 6 [games] O Que +® Ray Tracing: A Tecnologia que Tornou os Games Realistas (o-que-e-ray-tracing)
+    src[company] NVIDIA - What Is Ray Tracing? -> https://www.nvidia.com/en-us/geforce/ray-tracing/
+    src[publication] SIGGRAPH - Ray Tracing in Real-Time -> https://www.siggraph.org/
+
+ART 7 [games] Intelig+¬ncia Artificial nos Games: Do Fantasma a Inimigos que Aprendem (inteligencia-artificial-nos-games)
+    src[publication] MIT Technology Review - The Future of Game AI -> https://www.technologyreview.com/
+    src[company] DeepMind - AI for Games -> https://deepmind.google/
+
+ART 8 [filmes-series] Fic+º+úo Cient+¡fica x Ci+¬ncia Real: O que o Cinema Acerta e o que Exagera (ficcao-cientifica-x-ciencia-real)
+    src[agency] NASA - Science Fiction and Science Fact -> https://www.nasa.gov/
+    src[agency] Event Horizon Telescope - Black Hole Image -> https://eventhorizontelescope.org/
+
+ART 9 [quadrinhos] Ci+¬ncia nos Quadrinhos: Os Poderes dos Her+¦is Sob a +ôtica da F+¡sica (ciencia-nos-quadrinhos-superpoderes)
+    src[agency] NIH - How Gene Editing Works -> https://www.nih.gov/
+    src[journal] Nature - Biotechnology and Genetics -> https://www.nature.com/subjects/biotechnology
+
+ART 10 [curiosidades] Curiosidades Cient+¡ficas do Corpo Humano que V+úo te Surpreender (curiosidades-do-corpo-humano)
+    src[agency] National Sleep Foundation -> https://www.sleepfoundation.org/
+    src[university] Harvard Health - Body and Health -> https://www.health.harvard.edu/
+
+ART 11 [futuro] Cidades Inteligentes: Como a Tecnologia Vai Moldar o Amanh+ú (cidades-inteligentes-do-futuro)
+    src[publication] IEEE - Smart Cities -> https://www.ieee.org/
+    src[agency] European Commission - Smart Cities -> https://smart-cities-marketplace.ec.europa.eu/
+
+ART 12 [futuro] Fus+úo Nuclear: A Fonte de Energia Que Pode Mudar o Mundo (energia-limpa-fusao-nuclear)
+    src[agency] ITER - The Way to New Energy -> https://www.iter.org/
+    src[agency] IAEA - Nuclear Fusion -> https://www.iaea.org/
+
+ART 13 [tecnologia] Ciberseguran+ºa para Iniciantes: Como Proteger Seus Dados Online (ciberseguranca-para-iniciantes)
+    src[agency] CISA - Cybersecurity Tips -> https://www.cisa.gov/
+    src[agency] NCSC - Cyber Aware -> https://www.ncsc.gov.uk/
+
+ART 14 [inteligencia-artificial] Intelig+¬ncia Artificial na Medicina: Revolu+º+úo nos Diagn+¦sticos (inteligencia-artificial-na-medicina)
+    src[agency] World Health Organization - AI in Health -> https://www.who.int/
+    src[journal] Nature Medicine - Artificial Intelligence -> https://www.nature.com/nm/
+
+ART 15 [ciencia] Edi+º+úo Gen+®tica CRISPR: Como Funciona e o que Pode Mudar (edicao-genetica-crispr)
+    src[agency] NIH - What are Genome Editing and CRISPR-Cas9? -> https://www.genome.gov/
+    src[journal] Nature - CRISPR Technology -> https://www.nature.com/subjects/crispr
+
+ART 16 [espaco] Telesc+¦pio Espacial James Webb: A M+íquina que V+¬ o Passado do Universo (telescopio-espacial-james-webb)
+    src[agency] NASA - James Webb Space Telescope -> https://science.nasa.gov/mission/webb/
+    src[agency] ESA - Webb -> https://www.esa.int/Science_Exploration/Space_Science/Webb
+    src[university] STScI - Webb Science -> https://www.stsci.edu/
+
+ART 17 [espaco] Exoplanetas: A Busca por Mundos Habit+íveis Al+®m do Sistema Solar (exoplanetas-a-busca-por-mundos-habitaveis)
+    src[agency] NASA Exoplanet Exploration -> https://science.nasa.gov/exoplanets/
+    src[agency] NASA Exoplanet Archive -> https://exoplanetarchive.ipac.caltech.edu/
+    src[agency] ESO - Exoplanets -> https://www.eso.org/public/exoplanets/
+
+ART 18 [espaco] Miss+Áes Artemis: O Caminho de Volta +á Lua e Al+®m (missoes-artemis)
+    src[agency] NASA - Artemis Program -> https://www.nasa.gov/artemis/
+    src[agency] ESA - Orion European Service Module -> https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion
+    src[agency] NASA - Lunar Exploration -> https://science.nasa.gov/moon/
+
+ART 19 [ciencia] Microbioma Intestinal: O Universo de Bact+®rias que Moram em Voc+¬ (microbioma-intestinal)
+    src[agency] NIH - Human Microbiome Project -> https://www.hmpdacc.org/
+    src[journal] Nature Reviews Microbiology -> https://www.nature.com/nrmicro/
+    src[university] Harvard T.H. Chan School - The Microbiome -> https://www.hsph.harvard.edu/nutritionsource/microbiome/
+
+ART 20 [ciencia] Part+¡culas Subat+¦micas e o CERN: Dentro da M+íquina que Estuda o Menor dos Mundos (particulas-subatomicas-cern)
+    src[agency] CERN - The Large Hadron Collider -> https://home.cern/science/accelerators/large-hadron-collider
+    src[agency] CERN - The Standard Model -> https://home.cern/science/physics/standard-model
+    src[agency] Energy.gov - Particle Physics -> https://www.energy.gov/science/doe-explainsparticles-and-particle-physics
+
+ART 21 [tecnologia] Como Funcionam os Algoritmos de Busca: Da Palavra-chave +á Resposta (algoritmos-de-busca)
+    src[company] Google Search Central - How Search Works -> https://developers.google.com/search/docs/fundamentals/how-search-works
+    src[university] Stanford - The PageRank Citation Ranking -> https://ilpubs.stanford.edu/422/
+    src[company] Bing Webmaster Tools -> https://www.bing.com/webmasters/about
+
+ART 22 [tecnologia] Realidade Virtual vs Aumentada: Qual +® a Diferen+ºa? (realidade-virtual-vs-aumentada)
+    src[company] Meta Quest - How VR Works -> https://www.meta.com/quest/
+    src[company] Apple - ARKit Developer Documentation -> https://developer.apple.com/augmented-reality/arkit/
+    src[publication] IEEE - Virtual and Augmented Reality -> https://spectrum.ieee.org/
+
+ART 23 [inteligencia-artificial] Aprendizado de M+íquina Explicado: Como Computadores Aprendem (aprendizado-de-maquina-explicado)
+    src[company] Google - Machine Learning Crash Course -> https://developers.google.com/machine-learning/crash-course
+    src[university] MIT - Introduction to Machine Learning -> https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/
+    src[journal] Nature - Machine Learning -> https://www.nature.com/subjects/machine-learning
+
+ART 24 [inteligencia-artificial] +ëtica e Vieses da IA: Quando o Algoritmo Herda Nossos Preconceitos (etica-e-vieses-da-ia)
+    src[agency] UNESCO - Ethics of Artificial Intelligence -> https://www.unesco.org/en/artificial-intelligence/recommendation-ethics
+    src[agency] NIST - AI Risk Management Framework -> https://www.nist.gov/itl/ai-risk-management-framework
+    src[other] EU - AI Act -> https://artificialintelligenceact.eu/
+
+ART 25 [filmes-series] Como Funciona o CGI: A Ci+¬ncia Por Tr+ís dos Efeitos Especiais (como-funciona-o-cgi)
+    src[company] Autodesk - VFX and Animation Tools -> https://www.autodesk.com/
+    src[publication] CGSociety - Computer Graphics Society -> https://cgsociety.org/
+    src[university] ACM SIGGRAPH -> https://www.siggraph.org/
+
+ART 26 [filmes-series] O Futuro do Streaming: Onde a TV Por Assinatura Digital Est+í Indo (futuro-do-streaming)
+    src[publication] Nielsen - Streaming Data -> https://www.nielsen.com/insights/
+    src[company] Deloitte - Digital Media Trends -> https://www2.deloitte.com/us/en/insights/industry/technology/digital-media-trends.html
+
+ART 27 [games] A Evolu+º+úo dos Motores Gr+íficos: Dos Pixels ao Tempo Real Fotorrealista (evolucao-dos-motores-graficos)
+    src[company] Unreal Engine - Official Site -> https://www.unrealengine.com/
+    src[company] Unity - Real-Time Development Platform -> https://unity.com/
+    src[company] NVIDIA - Developer Graphics -> https://developer.nvidia.com/
+
+ART 28 [games] Cloud Gaming: Jogar Sem Console, Direto da Nuvem (cloud-gaming)
+    src[company] NVIDIA GeForce NOW -> https://www.nvidia.com/geforce-now/
+    src[company] Xbox Cloud Gaming -> https://www.xbox.com/play
+    src[publication] IEEE - Cloud Gaming Latency Studies -> https://spectrum.ieee.org/
+
+ART 29 [futuro] Computa+º+úo Vest+¡vel: A Tecnologia que Voc+¬ Veste (computacao-vestivel)
+    src[agency] NIH - Wearable Health Devices -> https://www.nih.gov/
+    src[publication] IEEE - Wearables Standards -> https://standards.ieee.org/
+    src[agency] FDA - Digital Health -> https://www.fda.gov/medical-devices/digital-health
+
+ART 30 [futuro] Transporte Aut+¦nomo: Como Carros Dirigem Sozinhas ÔÇö e Por Que Ainda N+úo Se V+¬ em Todo Lugar (transporte-autonomo)
+    src[agency] NHTSA - Automated Vehicles -> https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety
+    src[other] SAE International - J3016 Levels of Driving Automation -> https://www.sae.org/standards/content/j3016_202104/
+    src[company] Waymo Safety Report -> https://waymo.com/safety/
+
+ART 31 [games] NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gr+íficos dos Jogos (dlss-5-revolucao-dos-graficos)
+    src[company] NVIDIA Developer - DLSS -> https://developer.nvidia.com/rtx/dlss
+    src[publication] TechPowerUp - NVIDIA DLSS 5 Technical Preview Review -> https://www.techpowerup.com/review/nvidia-dlss-5/
+    src[other] SIGGRAPH 2026 - NVIDIA Keynote -> https://www.siggraph.org/conference/2026
+
+ART 32 [games] DLSS 5 Est+í Dividindo os Jogadores: Avan+ºo Gr+ífico ou IA Demais nos Games? (dlss-5-dividindo-os-jogadores)
+    src[publication] TechSpot - Nvidia is giving developers more control over DLSS 5 -> https://www.techspot.com/news/102428-nvidia-dlss-5-developer-control-ai-slop.html
+    src[publication] TweakTown - NVIDIA showcases updated DLSS 5 with developer tools -> https://www.tweaktown.com/news/165437/nvidia-showcases-updated-dlss-5-with-developer-tools-that-help-preserve-artistic-intent/index.html
+    src[publication] heise online - Neural Rendering: Nvidia shows DLSS 5 much more cautiously -> https://www.heise.de/en/news
+
+ART 33 [inteligencia-artificial] Claude 5 da Anthropic: Como Fable e Mythos Est+úo Redefinindo a IA (anthropic-claude-5-fable-mythos)
+    src[company] Anthropic - Introducing Claude Opus 5 -> https://www.anthropic.com/news/claude-opus-5
+    src[company] Claude.com - Products -> https://claude.com/product
+    src[other] Wikipedia - Anthropic -> https://en.wikipedia.org/wiki/Anthropic
+
+ART 34 [inteligencia-artificial] NVIDIA Investe Bilh+Áes na MediaTek para Acelerar a Pr+¦xima Gera+º+úo de IA (nvidia-inviste-bilhoes-mediatek)
+    src[journal] Reuters - Nvidia to invest $3.5 billion in chipmaker MediaTek -> https://www.reuters.com/technology/nvidia-invest-mediaTek-3-5-billion-ai-chip-partnership-idUSKBN5Z0NP
+    src[company] NVIDIA Newsroom -> https://nvidianews.nvidia.com
+    src[publication] Blockonomi - Nvidia Invests $3.5 Billion in MediaTek -> https://blockhead.io/news/nvidia-mediatek-investment
+
+ART 35 [games] RTX 5090 Dispara de Pre+ºo: Por Que as Placas de V+¡deo Topo de Linha Ficaram T+úo Caras? (rtx-5090-por-que-esta-tao-cara)
+    src[publication] Tom's Hardware - Nvidia's top-end RTX 5090 gaming GPU now costs at least $5,000 -> https://www.tomshardware.com
+    src[publication] Club386 - Regular Nvidia GeForce RTX 5090 cards sail beyond $5,090 -> https://www.club386.com
+    src[publication] TweakTown - Your next Nvidia GPU could cost up to 30% more -> https://www.tweaktown.com
+
+ART 36 [inteligencia-artificial] PCs Gamers Podem Virar M+íquinas de IA: A Nova Ideia que Aproveita GPUs Ociosas (pcs-gamers-viram-maquinas-de-ia)
+    src[publication] XDA Developers - Old Nvidia GPUs with 24GB VRAM crush AI inference -> https://www.xda-developers.com/old-nvidia-gpus-24gb-vram-ai-inference
+    src[publication] VentureBeat - Microsoft debuts Surface RTX Spark Dev Box -> https://venturebeat.com/microsoft-surface-rtx-spark-dev-box-ai
+    src[publication] TechCrunch - General Compute GPU-backed loan -> https://techcrunch.com/general-compute-gpu-backed-loan
+
+ART 37 [games] Nova Gera+º+úo de Monitores OLED para Gamers: 4K, Alta Taxa e Velocidade Extrema (monitores-oled-gamers-nova-geracao)
+    src[company] Samsung - Odyssey G8 6K Monitor Announcement -> https://www.samsung.com/odyssey-g8-6k
+    src[publication] Tom's Hardware - NVIDIA G-SYNC Compatible Samsung Monitors -> https://www.tomshardware.com
+    src[company] MSI - Odyssey OLED G8 Pricing Announcement -> https://www.msi.com
+
+ART 38 [tecnologia] Samsung Prepara Nova Gera+º+úo de Mem+¦ria HBM com Computa+º+úo Integrada (samsung-hbm-proxima-geracao)
+    src[company] Samsung - FMS 2026 Next-Gen 3D-Memory Vision -> https://www.samsung.com/samsung-fms-2026
+    src[publication] Hot Hardware - Samsung zHBM 3D Memory Concept -> https://www.hothardware.com/samsung-zhbm-3d-memory
+    src[agency] Business Wire - Samsung Unveils Next-Gen 3D-Memory Vision -> https://www.businesswire.com
+
+ART 39 [inteligencia-artificial] Instagram Aperta as Regras para Perfis Criados com Intelig+¬ncia Artificial (instagram-regras-para-perfis-de-ia)
+    src[company] Instagram - AI-Generated Profile Labels FAQ -> https://help.instagram.com/ai-generated-profile-labels
+    src[publication] Techlomedia - Instagram Will Limit Reach of Undisclosed AI-Generated Profiles -> https://www.techlomedia.in/news/instagram-ai-profile-labels
+    src[publication] MediaNama - Meta to limit the reach of undisclosed AI-generated profiles -> https://www.medianama.com/2026/meta-instagram-ai-profiles
+
+ART 40 [tecnologia] Microsoft 365 Enfrenta Instabilidade: O Que Aconteceu (microsoft-365-instabilidade)
+    src[publication] Bleeping Computer - Microsoft confirms outage affecting search in M365 apps -> https://www.bleepingcomputer.com/news/microsoft/microsoft-365-search-outage-august-2026
+    src[publication] PCQuest on MSN - Microsoft Outlook coming back online but outage not over -> https://www.msn.com/en-us/news/technology/microsoft-outlook-outage-august-31-2026
+    src[company] Microsoft 365 Service Status -> https://status.microsoft.com
+
+ART 41 [espaco] Telesc+¦pio Espacial Roman: A Nova Era de Observa+º+úo do Universo (telescopio-especial-roman-nova-era-observacao)
+    src[agency] NASA - Nancy Grace Roman Space Telescope -> https://roman.gsfc.nasa.gov
+    src[publication] Space.com - Roman telescope microlensing exoplanet search -> https://www.space.com/roman-telescope-exoplanet-microlensing
+
+ART 42 [espaco] Artemis: O Caminho de Volta +á Lua Passa por Grandes Desafios (artemis-caminho-de-volta-a-lua)
+    src[agency] NASA - Artemis Program -> https://www.nasa.gov/specials/artemis
+    src[publication] Ars Technica - Artemis timeline and landing system updates -> https://arstechnica.com/science/artemis-timeline-2026
+
+ART 43 [inteligencia-artificial] IA na Medicina: O Avan+ºo da Detec+º+úo Precoce de Doen+ºas (ia-medicina-detecao-precoce-de-doencas)
+    src[journal] Nature Medicine - AI in diagnostic imaging review -> https://www.nature.com/articles/s41591-ai-medicine-review
+    src[agency] WHO - Ethics and governance of artificial intelligence for health -> https://www.who.int/publications/ai-health
+
+ART 44 [inteligencia-artificial] +ëtica e Vieses: Os Grandes Desafios da Intelig+¬ncia Artificial em 2026 (etica-e-vieses-ia-os-desafios-da-inteligencia-artificial)
+    src[university] Stanford HAI - Algorithmic bias and fairness research -> https://hai.stanford.edu/algorithmic-bias
+    src[agency] UNESCO - Recommendation on the Ethics of Artificial Intelligence -> https://www.unesco.org/en/artificial-intelligence/ethics
+
+ART 45 [tecnologia] Computa+º+úo Qu+óntica em 2026: Avan+ºos Reais e Desafios Ainda Longe de Acabar (computacao-quantica-2026-avancos-e-desafios)
+    src[journal] Science - Quantum computing error correction progress -> https://www.science.org/quantum-error-correction
+    src[publication] MIT Technology Review - Quantum computing reality check -> https://www.technologyreview.com/quantum-computing-2026
+
+ART 46 [tecnologia] 5G Avan+ºado e 6G: O Que Vem depois da Revolu+º+úo da Conectividade (5g-6g-a-proxima-era-da-conectividade)
+    src[company] GSMA - 5G Advanced and 6G vision -> https://www.gsma.com/futurenetworks/6g
+    src[agency] ITU - IMT-2030 framework for 6G -> https://www.itu.int/imt2030-framework-6g
+
+ART 47 [ciencia] Microbioma Intestinal: As Bact+®rias Que Influenciam o Corpo Inteiro (microbioma-intestinal-bacterias-que-controlam-o-corpo)
+    src[journal] Nature Reviews - Gut microbiome and human health -> https://www.nature.com/nrgastro/gut-microbiome-health
+    src[university] Harvard T.H. Chan - The gut-brain connection -> https://www.hsph.harvard.edu/nutritionsource/gut-brain
+
+ART 48 [ciencia] CERN e o Futuro da F+¡sica de Part+¡culas: O Que Vem Depois do LHC (cern-novas-particulas-e-o-futuro-da-fisica)
+    src[agency] CERN - Future circular collider study -> https://home.cern/science/future-circular-collider
+    src[publication] Symmetry Magazine - The future of particle physics -> https://www.symmetrymagazine.org/future-of-particle-physics
+
+ART 49 [games] IA Generativa no Design de Games: Como a Tecnologia Est+í Mudando a Cria+º+úo de Jogos (ia-generativa-no-design-de-games)
+    src[publication] Game Developers Conference - AI in game production -> https://gdconf.com/ai-game-production
+    src[publication] Polygon - The business of AI in video games -> https://www.polygon.com/ai-in-video-games
+
+ART 50 [games] Cloud Gaming em 2026: O Jogar na Nuvem Finalmente Amadureceu? (cloud-gaming-2026-jogar-na-nuvem)
+    src[publication] The Verge - The state of cloud gaming -> https://www.theverge.com/cloud-gaming-2026
+    src[publication] IGN - Cloud gaming latency and performance tests -> https://www.ign.com/cloud-gaming-latency-2026
+
+ART 51 [filmes-series] O Futuro do Streaming em 2026: Consolida+º+úo e Novos Modelos (futuro-do-streaming-2026-consolidacao)
+    src[publication] Variety - The consolidation era of streaming -> https://variety.com/streaming-consolidation-2026
+    src[publication] Hollywood Reporter - The future of streaming business models -> https://www.hollywoodreporter.com/streaming-future-2026
+
+ART 52 [filmes-series] IA no Cinema: Como a Intelig+¬ncia Artificial Transforma os Bastidores (ia-no-cinema-transformando-os-bastidores)
+    src[publication] The Hollywood Reporter - AI in movie production -> https://www.hollywoodreporter.com/ai-film-production-2026
+    src[agency] WGA - AI and the writing process guidelines -> https://www.wga.org/ai-guidelines
+
+ART 53 [quadrinhos] HQs Digitais: O Streaming de Quadrinhos Chega +á Maturidade (hqs-digitais-streaming-de-quadrinhos)
+    src[publication] Comic Book Resources - The rise of digital comics -> https://www.cbr.com/digital-comics-streaming
+    src[publication] ICv2 - Digital comics market analysis -> https://icv2.com/digital-comics-market-2026
+
+ART 54 [quadrinhos] Superpoderes e Ci+¬ncia Real: A F+¡sica Por Tr+ís dos Quadrinhos (superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos)
+    src[journal] Phys.org - The science of superpowers -> https://phys.org/the-science-of-superpowers
+    src[publication] Scientific American - Physics of superheroes explained -> https://www.scientificamerican.com/physics-superheroes
+
+ART 55 [curiosidades] Oceanos Profundos: O Que Ainda N+úo Conhecemos do Fundo do Mar (oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar)
+    src[agency] NOAA - Ocean exploration and research -> https://oceanexplorer.noaa.gov
+    src[journal] Nature - Deep-sea biodiversity discoveries -> https://www.nature.com/deep-sea-biodiversity
+
+ART 56 [curiosidades] A Matem+ítica do Universo: Os Padr+Áes Escondidos na Natureza (matematica-do-universo-padroes-escondidos-na-natureza)
+    src[publication] Plus Magazine - Nature's numbers and patterns -> https://plus.maths.org/natures-numbers
+    src[publication] Simons Foundation - The mathematics of natural patterns -> https://www.simonsfoundation.org/mathematics-nature-patterns
+
+ART 57 [futuro] Computa+º+úo Vest+¡vel: O Futuro dos Gadgets que Usamos no Corpo (computacao-wearable-gadgets-que-usamos-no-corpo)
+    src[publication] MobiHealthNews - Wearable technology trends -> https://www.mobihealthnews.com/wearable-tech-trends
+    src[publication] Wearable Technologies - The future of on-body computing -> https://www.wearable-technologies.com/future-on-body
+
+ART 58 [futuro] Energia de Fus+úo: Os Avan+ºos Rumo +á Energia Limpa Ilimitada (energia-de-fusao-avancos-rumo-a-energia-limpa)
+    src[university] ITER - International Fusion Energy Organization -> https://www.iter.org
+    src[journal] Nature Physics - Recent advances in fusion energy research -> https://www.nature.com/physics-fusion-advances-2026
+
+ART 59 [quadrinhos] Marvel: As Principais Novidades que Est+úo Movimentando o Universo dos Her+¦is em 2026 (marvel-novidades-universo-dos-herois-2026)
+    src[company] Marvel Oficial - Not+¡cias e An+¦ncios -> https://www.marvel.com/news
+    src[publication] Variety - Marvel Studios e Cinema -> https://variety.com/t/marvel/
+
+ART 60 [quadrinhos] Spider-Man: Novas Hist+¦rias e o Futuro do Her+¦i nos Quadrinhos da Marvel (spider-man-historia-futuro-nos-quadrinhos-da-marvel)
+    src[company] Marvel Oficial - Spider-Man nos Quadrinhos -> https://www.marvel.com/comics
+    src[publication] The Hollywood Reporter - Spider-Man: Brand New Day -> https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-2026
+
+ART 61 [filmes-series] Avengers: O Que Esperar da Nova Fase do Universo Marvel (avengers-nova-fase-universo-marvel)
+    src[company] Marvel Studios - Avengers: Doomsday -> https://www.marvel.com/movies/avengers-doomsday
+    src[publication] Variety - Avengers: Doomsday not+¡cias -> https://variety.com/t/avengers-doomsday/
+
+ART 62 [quadrinhos] DC Comics: A Nova Fase dos Her+¦is Que Est+í Chamando Aten+º+úo em 2026 (dc-comics-nova-fase-dos-herois-2026)
+    src[company] DC Comics - Not+¡cias Oficiais -> https://www.dc.com/news
+    src[company] DC Studios - Universo DC -> https://www.dcstudios.com
+
+ART 63 [quadrinhos] Superman e o Futuro do Homem de A+ºo no Universo da DC (superman-futuro-homem-de-aco-universo-dc)
+    src[company] DC Comics - Superman -> https://www.dc.com/superman
+    src[company] DC Studios - Superman (2025) -> https://www.dcstudios.com/superman
+
+ART 64 [quadrinhos] Batman: Novas Hist+¦rias e Desafios Para o Cavaleiro das Trevas (batman-novas-historias-desafios-cavaleiro-das-trevas)
+    src[company] DC Comics - Batman -> https://www.dc.com/batman
+    src[company] DC Comics - Novidades do Batman -> https://www.dc.com/news
+
+ART 65 [filmes-series] HBO Max: Os Lan+ºamentos Geek que Prometem Dominar o Streaming em 2026 (hbo-max-lancamentos-geek-2026)
+    src[company] Max - Plataforma de Streaming -> https://www.max.com
+    src[publication] Variety - Max streaming lan+ºamentos -> https://variety.com/t/max/
+
+ART 66 [filmes-series] O Terror das Backrooms Chega ao Streaming e Transforma uma Lenda da Internet em Filme (backrooms-lenda-da-internet-chega-ao-streaming)
+    src[publication] Variety - Filme das Backrooms em desenvolvimento -> https://variety.com/t/backrooms/
+    src[other] Wikipedia - The Backrooms -> https://en.wikipedia.org/wiki/The_Backrooms
+
+ART 67 [filmes-series] As S+®ries de Fantasia e Fic+º+úo Cient+¡fica que Est+úo Ganhando Destaque na HBO Max (series-fantasia-ficcao-cientifica-em-destaque-na-hbo-max)
+    src[company] Max - Plataforma de Streaming -> https://www.max.com
+    src[publication] Collider - Max s+®ries e not+¡cias -> https://collider.com/max/
+
+ART 68 [filmes-series] Netflix: As Principais Novidades Geek que Chegam ao Cat+ílogo em 2026 (netflix-novidades-geek-catalogo-2026)
+    src[company] Netflix Tudum - Novidades -> https://www.netflix.com/tudum
+    src[publication] Collider - Netflix not+¡cias -> https://collider.com/netflix/
+
+ART 69 [filmes-series] Resident Evil: O Retorno da Franquia e o Que Esperar da Nova Adapta+º+úo (resident-evil-retorno-da-franquia-nova-adaptacao)
+    src[company] Capcom - Resident Evil oficial -> https://game.capcom.com/residentevil/
+    src[publication] IGN - Resident Evil not+¡cias -> https://www.ign.com/resident-evil
+
+ART 70 [filmes-series] As S+®ries de Fic+º+úo Cient+¡fica e Fantasia Mais Aguardadas da Netflix (series-ficcao-cientifica-fantasia-mais-aguardadas-netflix)
+    src[company] Netflix Tudum - Novidades -> https://www.netflix.com/tudum
+    src[publication] Collider - Netflix not+¡cias -> https://collider.com/netflix/
+
+ART 71 [filmes-series] Disney+: As Novidades de Marvel e Star Wars que Movimentam o Streaming em 2026 (disney-plus-novidades-marvel-star-wars-2026)
+    src[company] Disney+ - Plataforma -> https://www.disneyplus.com
+    src[company] StarWars.com - Not+¡cias -> https://www.starwars.com
+
+ART 72 [filmes-series] The Mandalorian e Grogu: O Futuro de Star Wars Ap+¦s a Nova Fase da Franquia (the-mandalorian-e-grogu-futuro-de-star-wars)
+    src[company] StarWars.com - The Mandalorian and Grogu -> https://www.starwars.com
+    src[publication] Deadline - The Mandalorian and Grogu -> https://deadline.com/the-mandalorian-and-grogu
+
+ART 73 [filmes-series] Disney: Como Marvel, Star Wars e Novas Franquias Est+úo Moldando o Entretenimento Geek (disney-marvel-star-wars-novas-franquias-entretenimento-geek)
+    src[company] Disney+ - Plataforma -> https://www.disneyplus.com
+    src[company] The Walt Disney Company - Not+¡cias -> https://thewaltdisneycompany.com
+
+ART 74 [games] GTA VI: O Retorno Mais Aguardado de 2026 e Tudo o Que Sabemos Antes do Lan+ºamento (gta-vi-o-retorno-mais-aguardado-de-2026)
+    src[company] Rockstar Games - GTA VI -> https://www.rockstargames.com/VI
+    src[publication] IGN - Grand Theft Auto VI -> https://www.ign.com/games/grand-theft-auto-6
+
+ART 75 [filmes-series] Supergirl: Woman of Tomorrow ÔÇö O Novo Filme da Garota de A+ºo no Universo da DC (supergirl-woman-of-tomorrow-filme-do-novo-universo-dc)
+    src[company] DC Studios - Supergirl -> https://www.dcstudios.com/supergirl
+    src[publication] Variety - Supergirl (2026) -> https://variety.com/t/supergirl/
+
+ART 76 [filmes-series] Harry Potter: A S+®rie do HBO Max Que Pretende Rebobinar a Fantasia na Televis+úo (harry-potter-serie-hbo-max-reboot-fantasia)
+    src[company] Warner Bros. Television - Harry Potter -> https://www.warnerbros.com/tv/harry-potter
+    src[publication] BBC - Elenco da s+®rie Harry Potter -> https://www.bbc.com/news/articles/c5ygp0908g9o
+
+ART 77 [filmes-series] The Witcher: A Temporada Final e o Futuro da Fantasia na Netflix (the-witcher-temporada-final-netflix)
+    src[company] Netflix Tudum - The Witcher -> https://www.netflix.com/tudum/topics/the-witcher
+    src[publication] Collider - The Witcher temporada final -> https://collider.com/tag/the-witcher/
+
+ART 78 [filmes-series] Welcome to Derry: A S+®rie de Terror do Max Que Reconstr+¦i o Universo de Stephen King (welcome-to-derry-serie-terror-do-max)
+    src[company] Max - Welcome to Derry -> https://www.max.com/shows/welcome-to-derry
+    src[publication] Variety - Welcome to Derry -> https://variety.com/t/welcome-to-derry/
+
+ART 79 [filmes-series] Ahsoka: Temporada 2 Ganha Teaser e Data de Estreia ÔÇö O Que Sabemos (ahsoka-temporada-2-teaser-e-data-de-estreia)
+    src[company] StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date -> https://www.starwars.com/news
+    src[publication] Variety - Cobertura de Star Wars -> https://variety.com/
+
+ART 80 [filmes-series] Star Wars: Starfighter: O Novo Filme da Saga Ter+í Ryan Gosling como Protagonista (star-wars-starfighter-novo-filme-ryan-gosling)
+    src[company] StarWars.com - Not+¡cias oficiais -> https://www.starwars.com/news
+    src[publication] Variety - Cobertura de cinema -> https://variety.com/v/film/
+
+ART 81 [filmes-series] Lanterns: A S+®rie da HBO que Aproxima os Lanternas Verdes do Estilo True Detective (lanterns-serie-hbo-dc-studios-hal-jordan-john-stewart)
+    src[company] HBO - Lanterns (s+®rie oficial) -> https://www.hbo.com/lanterns
+    src[publication] The Verge - Entertainment -> https://www.theverge.com/entertainment
+
+ART 82 [filmes-series] Spider-Man: Brand New Day Est+í em Cartaz: O Novo Cap+¡tulo de Tom Holland nos Cinemas (spider-man-brand-new-day-em-cartaz-2026)
+    src[publication] Variety - Film News -> https://variety.com/v/film/news/
+    src[company] Sony Pictures - Spider-Man: Brand New Day -> https://www.sonypictures.com/
+
+ART 83 [filmes-series] Netflix em Setembro de 2026: os Destaques Geek do M+¬s no Streaming (netflix-setembro-2026-destaques-geek)
+    src[company] Netflix Tudum - Go Behind the Streams -> https://www.netflix.com/tudum/
+    src[publication] The Verge - Streaming -> https://www.theverge.com/streaming
+
+ART 84 [filmes-series] Coyote vs. Acme: a Hist+¦ria do Filme que Foi Engavetado e Renasceu (coyote-vs-acme-filme-do-looney-tunes)
+    src[publication] The Verge - Entertainment -> https://www.theverge.com/entertainment
+    src[publication] Variety - Cobertura de cinema -> https://variety.com/v/film/
+
+ART 85 [quadrinhos] Star Wars +ù Marvel: o Crossover Editorial que Une Duas Maiores M+íquinas de Hist+¦rias (crossover-star-wars-marvel-comics-2026)
+    src[company] StarWars.com - Not+¡cias oficiais -> https://www.starwars.com/news
+    src[company] Marvel - Comics -> https://www.marvel.com/comics
+
+ART 86 [quadrinhos] Linha Absolute da DC: o Universo Paralelo que Redefiniu os Cl+íssicos nos Quadrinhos (linha-absolute-dc-quadrinhos-2026)
+    src[company] DC.com - Blog e lan+ºamentos -> https://www.dc.com/blog
+    src[company] DC.com - Latest Comics -> https://www.dc.com/comics
+
+ART 87 [quadrinhos] DC em Setembro de 2026: Teen Titans #1 e as Novas S+®ries da Editora (dc-setembro-2026-teen-titans-novas-series)
+    src[company] DC.com - Blog -> https://www.dc.com/blog
+    src[company] DC.com - Latest Comics & Graphic Novels -> https://www.dc.com/comics
+
+ART 88 [games] The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2 (the-duskbloods-fromsoftware-switch-2)
+    src[company] Nintendo - The Duskbloods (p+ígina oficial) -> https://www.nintendo.com/us/store/products/
+    src[publication] IGN - Not+¡cias -> https://www.ign.com/news
+
+ART 89 [games] Star Wars Zero Company: o Jogo de T+íticas da BIT REACTOR Coloca Voc+¬ no Comando (star-wars-zero-company-jogo-estrategia)
+    src[company] StarWars.com - Games + Interactive -> https://www.starwars.com/news
+    src[publication] IGN - Star Wars Zero Company -> https://www.ign.com/news
+
+ART 90 [games] The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia (the-witcher-4-cd-projekt-red-nova-saga)
+    src[publication] IGN - Not+¡cias -> https://www.ign.com/news
+    src[company] CD Projekt Red - Site oficial -> https://www.cdprojektred.com/en/news
+
+ART 91 [games] Xbox Series X e os 25 Anos do Xbox: o que a Gera+º+úo Atual Aprendeu com o Legado (xbox-series-x-25-anos-celebracao)
+    src[publication] The Verge - Gaming -> https://www.theverge.com/gaming
+    src[company] Xbox Wire - Not+¡cias oficiais -> https://news.xbox.com/
+
+ART 92 [tecnologia] PS5 Live TV: a Sony Transforma o Console em Central de Transmiss+Áes ao Vivo (ps5-live-tv-sony-novo-recurso)
+    src[publication] IGN - Not+¡cias -> https://www.ign.com/news
+    src[company] PlayStation - Site oficial -> https://www.playstation.com/
+
+ART 93 [inteligencia-artificial] IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Est+¦dios (ia-hollywood-google-suno-disputa-2026)
+    src[publication] The Verge - Entertainment -> https://www.theverge.com/entertainment
+    src[publication] The Verge - AI -> https://www.theverge.com/ai-artificial-intelligence
+
+ART 94 [ciencia] BepiColombo Inicia a Chegada a Merc+¦rio: o Fim de uma Travessia de Oito Anos (bepicolombo-inicia-chegada-mercurio-2026)
+    src[agency] ESA - BepiColombo Science & Exploration -> https://www.esa.int/Science_Exploration/Space_Science/BepiColombo
+    src[publication] Space.com - Space News -> https://www.space.com/news
+
+ART 95 [inteligencia-artificial] NVIDIA Compra o Hugging Face por US$ 12,9 Bilh+Áes: o Que a Aquisi+º+úo Significa para a IA (nvidia-compra-hugging-face-129-bilhoes-ia)
+    src[company] NVIDIA Newsroom - NVIDIA to Acquire Hugging Face -> https://nvidianews.nvidia.com/
+    src[publication] TechCrunch - AI News -> https://techcrunch.com/category/artificial-intelligence/
+
+ART 96 [espaco] O Dec+ígono de Saturno: Hubble Descobre Padr+úo Gigante no Polo Sul do Planeta (hubble-decagono-polo-sul-saturno)
+    src[agency] ESA/Hubble - Hubble tracks new decagon encircling SaturnÔÇÖs south pole -> https://esahubble.org/
+    src[publication] ScienceDaily - Top Science News -> https://www.sciencedaily.com/
+
+ART 97 [espaco] Pandora: a Miss+úo da NASA que Come+ºou a Decifrar Atmosferas de Exoplanetas (pandora-missao-nasa-exoplanetas-comeca-observacoes)
+    src[agency] NASA Science - Miss+úo Pandora -> https://science.nasa.gov/mission/pandora/
+    src[agency] NASA - NASAÔÇÖs Pandora Mission Begins Study of Exoplanets, Host Stars -> https://www.nasa.gov/news/
+
+ART 98 [games] State of Play de Setembro de 2026: Todos os An+¦ncios da Sony em Um S+¦ Lugar (playstation-state-of-play-setembro-2026-resumo)
+    src[company] PlayStation.Blog - State of Play & State of Play Japan: all announcements -> https://blog.playstation.com/
+    src[publication] IGN - Latest News -> https://www.ign.com/articles
+
+ART 99 [games] Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027 (final-fantasy-vii-revelation-data-lancamento-2027)
+    src[company] PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027 -> https://blog.playstation.com/
+    src[company] Square Enix - Site Oficial -> https://www.square-enix-games.com/
+
+ART 100 [filmes-series] Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York (artificial-luca-guadagnino-filme-sam-altman-nyff)
+    src[publication] Variety - Luca GuadagninoÔÇÖs ÔÇÿArtificialÔÇÖ to World Premiere at New York Film Festival (EXCLUSIVE) -> https://variety.com/v/film/
+    src[publication] The Verge - Entertainment -> https://www.theverge.com/entertainment
+
+ART 101 [filmes-series] The Odyssey de Christopher Nolan: IMAX 70mm Estendido e Vendas que Batem Recordes (the-odyssey-imax-70mm-recorde-nolan)
+    src[publication] Variety - ÔÇÿThe OdysseyÔÇÖ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million -> https://variety.com/v/film/
+    src[company] IMAX - Site Oficial -> https://www.imax.com/
+
+ART 102 [filmes-series] Supergirl Define Data de Chegada ao Streaming: Quando Ver o Filme da DC no HBO Max (supergirl-hbo-max-data-streaming)
+    src[publication] Variety - ÔÇÿSupergirlÔÇÖ Sets HBO Max Streaming Release Date -> https://variety.com/v/film/
+    src[company] DC - Site Oficial -> https://www.dc.com/
+
+ART 103 [filmes-series] Star Wars: Starfighter: Ryan Gosling +® Kade Auberon ÔÇö o Que a Revela+º+úo Diz Sobre o Filme (star-wars-starfighter-kade-auberon-ryan-gosling)
+    src[company] StarWars.com - Ryan Gosling is Kade Auberon in Star Wars: Starfighter -> https://www.starwars.com/news
+    src[publication] Space.com - Space Movies & Shows -> https://www.space.com/news
+
+ART 104 [filmes-series] Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Na+º+úo do Fogo (avatar-the-last-airbender-temporada-3-fire-nation-2027)
+    src[company] Netflix Tudum - Avatar: The Last Airbender (Temporada 3 em 2027) -> https://www.netflix.com/tudum/avatar-the-last-airbender
+    src[company] Netflix Tudum - P+ígina oficial da s+®rie -> https://www.netflix.com/tudum
+
+ART 105 [games] Rockstar defende abastecimento em GTA 6 e diz que mec+ónica ser+í r+ípida demais para incomodar (rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-s-auto-105)
+    src[publication] adrenaline.com.br ÔÇö Rockstar defende abastecimento em GTA 6 -> https://www.adrenaline.com.br/games/rockstar-defende-abastecimento-em-gta-6-e-diz-que-mecanica-sera-rapida-demais-para-incomodar/
+
+ART 106 [games] Sony revela controles do GTA 6 para PS5; veja pre+ºo e data de lan+ºamento (sony-revela-controles-do-gta-6-para-ps5-veja-preco-e-data-de-auto-106)
+    src[publication] canaltech.com.br ÔÇö Sony revela controles do GTA 6 para PS5; veja pre+ºo e data de lan+ºamento -> https://canaltech.com.br/games/ony-revela-controles-do-gta-6-para-ps5-veja-preco-e-data-de-lancamento/
+
+ART 107 [games] GTA 6: 6 Reasons To Be Worried After The Official Look (gta-6-6-reasons-to-be-worried-after-the-official-look-auto-107)
+    src[publication] gamerant.com ÔÇö GTA 6: 6 Reasons To Be Worried After The Official Look -> https://gamerant.com/gta-6-reasons-worry-after-netflix-extended-look/
+

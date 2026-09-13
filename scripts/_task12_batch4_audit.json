@@ -1,0 +1,138 @@
+{
+  "task": "Task 12 - Lote 4 (artigos 32-41)",
+  "date": "2026-09-07",
+  "articles": [
+    {
+      "id": "32",
+      "sourcesBefore": [
+        { "url": "https://www.techspot.com/news/102428-nvidia-dlss-5-developer-control-ai-slop.html", "status": 200, "issue": "redirect para artigo diferente (SBF) - quebrada" },
+        { "url": "https://www.tweaktown.com/news/165437/nvidia-showcases-updated-dlss-5-with-developer-tools-that-help-preserve-artistic-intent/index.html", "status": 403, "issue": "bloqueio bot, nao verificavel" },
+        { "url": "https://www.heise.de/en/news", "status": 404, "issue": "404 + secao generica" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://www.nvidia.com/en-us/geforce/technologies/dlss/", "status": 200, "type": "official" },
+        { "url": "https://www.tomshardware.com/pc-components/gpus/modders-get-leaked-dlss-5-running-in-control-early-blackwell-test-drops-rtx-5070-ti-from-71-to-35-fps-at-4k", "status": 200, "type": "publication" },
+        { "url": "https://www.tomshardware.com/pc-components/gpus/jensen-huang-says-gamers-are-completely-wrong-about-dlss-5-nvidia-ceo-responds-to-dlss-5-backlash", "status": 200, "type": "publication" }
+      ],
+      "kept": 0, "replaced": 3, "removed": 0, "pending": 0
+    },
+    {
+      "id": "33",
+      "sourcesBefore": [
+        { "url": "https://www.anthropic.com/news/claude-opus-5", "status": 200, "issue": "nenhum - mantida" },
+        { "url": "https://claude.com/product", "status": 200, "issue": "pagina generica de produto" },
+        { "url": "https://en.wikipedia.org/wiki/Anthropic", "status": 200, "issue": "pagina generica" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://www.anthropic.com/news/claude-opus-5", "status": 200, "type": "company" },
+        { "url": "https://docs.claude.com/en/docs/about-claude/models/overview", "status": 200, "type": "documentation" }
+      ],
+      "kept": 1, "replaced": 1, "removed": 1, "pending": 0
+    },
+    {
+      "id": "34",
+      "sourcesBefore": [
+        { "url": "https://www.reuters.com/technology/nvidia-invest-mediaTek-3-5-billion-ai-chip-partnership-idUSKBN5Z0NP", "status": 401, "issue": "401" },
+        { "url": "https://nvidianews.nvidia.com", "status": 200, "issue": "homepage generica" },
+        { "url": "https://blockhead.io/news/nvidia-mediatek-investment", "status": "ERR", "issue": "fetch failed / dominio suspeito" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms", "status": 200, "type": "official" }
+      ],
+      "kept": 0, "replaced": 1, "removed": 2, "pending": 0
+    },
+    {
+      "id": "35",
+      "sourcesBefore": [
+        { "url": "https://www.tomshardware.com", "status": 200, "issue": "homepage generica" },
+        { "url": "https://www.club386.com", "status": 200, "issue": "homepage generica" },
+        { "url": "https://www.tweaktown.com", "status": 403, "issue": "homepage generica + bot" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://www.club386.com/regular-nvidia-geforce-rtx-5090-inflation/", "status": 200, "type": "publication" },
+        { "url": "https://www.tomshardware.com/pc-components/gpus/rtx-5090-scalpers-sell-blackwell-flagship-gpu-for-up-to-usd7-000-2x-3x-scalper-markup-over-msrp", "status": 200, "type": "publication" },
+        { "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/", "status": 200, "type": "official" }
+      ],
+      "kept": 0, "replaced": 3, "removed": 0, "pending": 0
+    },
+    {
+      "id": "36",
+      "sourcesBefore": [
+        { "url": "https://www.xda-developers.com/old-nvidia-gpus-24gb-vram-ai-inference", "status": 404, "issue": "404" },
+        { "url": "https://venturebeat.com/microsoft-surface-rtx-spark-dev-box-ai", "status": 429, "issue": "security checkpoint" },
+        { "url": "https://techcrunch.com/general-compute-gpu-backed-loan", "status": 404, "issue": "Page not found" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/", "status": 200, "type": "official" },
+        { "url": "https://www.tomshardware.com/pc-components/gpus/ai-enthusiast-adds-nvidia-tesla-v100-as-loud-as-a-lawnmower-to-gaming-pc-for-usd266-32gb-of-vram-rig-can-run-27-billion-parameter-model-at-32-tokens-per-second", "status": 200, "type": "publication" }
+      ],
+      "kept": 0, "replaced": 3, "removed": 0, "pending": 0
+    },
+    {
+      "id": "37",
+      "sourcesBefore": [
+        { "url": "https://www.samsung.com/odyssey-g8-6k", "status": 404, "issue": "404" },
+        { "url": "https://www.tomshardware.com", "status": 200, "issue": "homepage generica" },
+        { "url": "https://www.msi.com", "status": 200, "issue": "homepage generica/irrelevante" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://www.samsung.com/us/computing/monitors/odyssey/", "status": 200, "type": "company" },
+        { "url": "https://www.tomshardware.com/monitors/gaming-monitors/samsung-launches-the-worlds-first-500hz-oled-gaming-monitor-for-usd1-300-with-its-burn-in-fighting-heat-pipes-in-tow", "status": 200, "type": "publication" }
+      ],
+      "kept": 0, "replaced": 3, "removed": 0, "pending": 0
+    },
+    {
+      "id": "38",
+      "sourcesBefore": [
+        { "url": "https://www.samsung.com/samsung-fms-2026", "status": 404, "issue": "404" },
+        { "url": "https://www.hothardware.com/samsung-zhbm-3d-memory", "status": 200, "issue": "responde GIF de bot-check, nao verificavel" },
+        { "url": "https://www.businesswire.com", "status": 200, "issue": "homepage generica" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://www.tomshardware.com/tech-industry/semiconductors/hot-chips-2026-samsung-reveals-a-three-phase-hbm-roadmap-that-puts-logic-and-compute-inside-memory-zhbm-ultimately-stacks-dram-directly-on-top-of-the-processor", "status": 200, "type": "publication" },
+        { "url": "https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies", "status": 200, "type": "publication" },
+        { "url": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory/", "status": 200, "type": "official" }
+      ],
+      "kept": 0, "replaced": 3, "removed": 0, "pending": 0
+    },
+    {
+      "id": "39",
+      "sourcesBefore": [
+        { "url": "https://help.instagram.com/ai-generated-profile-labels", "status": 200, "issue": "nenhum - oficial e especifica, mantida (400 para alguns user-agents de bot)" },
+        { "url": "https://www.techlomedia.in/news/instagram-ai-profile-labels", "status": 403, "issue": "bloqueio bot" },
+        { "url": "https://www.medianama.com/2026/meta-instagram-ai-profiles", "status": 404, "issue": "Page not found" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://help.instagram.com/ai-generated-profile-labels", "status": 200, "type": "company" }
+      ],
+      "kept": 1, "replaced": 0, "removed": 2, "pending": 1,
+      "pendingNote": "fonte adicional de imprensa nao encontrada com URL verificavel"
+    },
+    {
+      "id": "40",
+      "sourcesBefore": [
+        { "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-search-outage-august-2026", "status": 404, "issue": "Page not found" },
+        { "url": "https://www.msn.com/en-us/news/technology/microsoft-outlook-outage-august-31-2026", "status": 404, "issue": "404" },
+        { "url": "https://status.microsoft.com", "status": "ERR", "issue": "inacessivel neste ambiente, mas pagina oficial real pre-existente" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://status.microsoft.com", "status": "unverified-access", "type": "company" }
+      ],
+      "kept": 0, "replaced": 0, "removed": 2, "pending": 1,
+      "pendingNote": "artigo 'Massive Microsoft 365 outage causes auth issues, service failures' (BleepingComputer 01/09/2026) existe - titulo confirmado na listagem - mas a URL nao foi extraivel do HTML; URL NAO inventada; status.microsoft.com e oficial e citada no corpo do artigo"
+    },
+    {
+      "id": "41",
+      "sourcesBefore": [
+        { "url": "https://roman.gsfc.nasa.gov", "status": 200, "issue": "shell JS (195 bytes), conteudo nao verificavel" },
+        { "url": "https://www.space.com/roman-telescope-exoplanet-microlensing", "status": 404, "issue": "404" }
+      ],
+      "sourcesAfter": [
+        { "url": "https://science.nasa.gov/mission/roman-space-telescope/", "status": 200, "type": "agency" },
+        { "url": "https://science.nasa.gov/mission/roman-space-telescope/exoplanets/", "status": 200, "type": "agency" },
+        { "url": "https://science.nasa.gov/mission/roman-space-telescope/dark-energy/", "status": 200, "type": "agency" }
+      ],
+      "kept": 0, "replaced": 2, "removed": 0, "pending": 0
+    }
+  ]
+}

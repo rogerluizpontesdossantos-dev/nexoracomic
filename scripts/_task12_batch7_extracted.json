@@ -1,0 +1,515 @@
+{
+  "total": 30,
+  "articles": [
+    {
+      "id": 72,
+      "title": "The Mandalorian e Grogu: O Futuro de Star Wars Após a Nova Fase da Franquia",
+      "sources": [
+        {
+          "title": "StarWars.com - The Mandalorian and Grogu",
+          "url": "https://www.starwars.com",
+          "type": "company"
+        },
+        {
+          "title": "Deadline - The Mandalorian and Grogu",
+          "url": "https://deadline.com/the-mandalorian-and-grogu",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 73,
+      "title": "Disney: Como Marvel, Star Wars e Novas Franquias Estão Moldando o Entretenimento Geek",
+      "sources": [
+        {
+          "title": "Disney+ - Plataforma",
+          "url": "https://www.disneyplus.com",
+          "type": "company"
+        },
+        {
+          "title": "The Walt Disney Company - Notícias",
+          "url": "https://thewaltdisneycompany.com",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 74,
+      "title": "GTA VI: O Retorno Mais Aguardado de 2026 e Tudo o Que Sabemos Antes do Lançamento",
+      "sources": [
+        {
+          "title": "Rockstar Games - GTA VI",
+          "url": "https://www.rockstargames.com/VI",
+          "type": "company"
+        },
+        {
+          "title": "IGN - Grand Theft Auto VI",
+          "url": "https://www.ign.com/games/grand-theft-auto-6",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 75,
+      "title": "Supergirl: Woman of Tomorrow — O Novo Filme da Garota de Aço no Universo da DC",
+      "sources": [
+        {
+          "title": "DC Studios - Supergirl",
+          "url": "https://www.dcstudios.com/supergirl",
+          "type": "company"
+        },
+        {
+          "title": "Variety - Supergirl (2026)",
+          "url": "https://variety.com/t/supergirl/",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 76,
+      "title": "Harry Potter: A Série do HBO Max Que Pretende Rebobinar a Fantasia na Televisão",
+      "sources": [
+        {
+          "title": "Warner Bros. Television - Harry Potter",
+          "url": "https://www.warnerbros.com/tv/harry-potter",
+          "type": "company"
+        },
+        {
+          "title": "BBC - Elenco da série Harry Potter",
+          "url": "https://www.bbc.com/news/articles/c5ygp0908g9o",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 77,
+      "title": "The Witcher: A Temporada Final e o Futuro da Fantasia na Netflix",
+      "sources": [
+        {
+          "title": "Netflix Tudum - The Witcher",
+          "url": "https://www.netflix.com/tudum/topics/the-witcher",
+          "type": "company"
+        },
+        {
+          "title": "Collider - The Witcher temporada final",
+          "url": "https://collider.com/tag/the-witcher/",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 78,
+      "title": "Welcome to Derry: A Série de Terror do Max Que Reconstrói o Universo de Stephen King",
+      "sources": [
+        {
+          "title": "Max - Welcome to Derry",
+          "url": "https://www.max.com/shows/welcome-to-derry",
+          "type": "company"
+        },
+        {
+          "title": "Variety - Welcome to Derry",
+          "url": "https://variety.com/t/welcome-to-derry/",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 79,
+      "title": "Ahsoka: Temporada 2 Ganha Teaser e Data de Estreia — O Que Sabemos",
+      "sources": [
+        {
+          "title": "StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date",
+          "url": "https://www.starwars.com/news",
+          "type": "company"
+        },
+        {
+          "title": "Variety - Cobertura de Star Wars",
+          "url": "https://variety.com/",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 80,
+      "title": "Star Wars: Starfighter: O Novo Filme da Saga Terá Ryan Gosling como Protagonista",
+      "sources": [
+        {
+          "title": "StarWars.com - Notícias oficiais",
+          "url": "https://www.starwars.com/news",
+          "type": "company"
+        },
+        {
+          "title": "Variety - Cobertura de cinema",
+          "url": "https://variety.com/v/film/",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 81,
+      "title": "Lanterns: A Série da HBO que Aproxima os Lanternas Verdes do Estilo True Detective",
+      "sources": [
+        {
+          "title": "HBO - Lanterns (série oficial)",
+          "url": "https://www.hbo.com/lanterns",
+          "type": "company"
+        },
+        {
+          "title": "The Verge - Entertainment",
+          "url": "https://www.theverge.com/entertainment",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 82,
+      "title": "Spider-Man: Brand New Day Está em Cartaz: O Novo Capítulo de Tom Holland nos Cinemas",
+      "sources": [
+        {
+          "title": "Variety - Film News",
+          "url": "https://variety.com/v/film/news/",
+          "type": "publication"
+        },
+        {
+          "title": "Sony Pictures - Spider-Man: Brand New Day",
+          "url": "https://www.sonypictures.com/",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 83,
+      "title": "Netflix em Setembro de 2026: os Destaques Geek do Mês no Streaming",
+      "sources": [
+        {
+          "title": "Netflix Tudum - Go Behind the Streams",
+          "url": "https://www.netflix.com/tudum/",
+          "type": "company"
+        },
+        {
+          "title": "The Verge - Streaming",
+          "url": "https://www.theverge.com/streaming",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 84,
+      "title": "Coyote vs. Acme: a História do Filme que Foi Engavetado e Renasceu",
+      "sources": [
+        {
+          "title": "The Verge - Entertainment",
+          "url": "https://www.theverge.com/entertainment",
+          "type": "publication"
+        },
+        {
+          "title": "Variety - Cobertura de cinema",
+          "url": "https://variety.com/v/film/",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 85,
+      "title": "Star Wars × Marvel: o Crossover Editorial que Une Duas Maiores Máquinas de Histórias",
+      "sources": [
+        {
+          "title": "StarWars.com - Notícias oficiais",
+          "url": "https://www.starwars.com/news",
+          "type": "company"
+        },
+        {
+          "title": "Marvel - Comics",
+          "url": "https://www.marvel.com/comics",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 86,
+      "title": "Linha Absolute da DC: o Universo Paralelo que Redefiniu os Clássicos nos Quadrinhos",
+      "sources": [
+        {
+          "title": "DC.com - Blog e lançamentos",
+          "url": "https://www.dc.com/blog",
+          "type": "company"
+        },
+        {
+          "title": "DC.com - Latest Comics",
+          "url": "https://www.dc.com/comics",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 87,
+      "title": "DC em Setembro de 2026: Teen Titans #1 e as Novas Séries da Editora",
+      "sources": [
+        {
+          "title": "DC.com - Blog",
+          "url": "https://www.dc.com/blog",
+          "type": "company"
+        },
+        {
+          "title": "DC.com - Latest Comics & Graphic Novels",
+          "url": "https://www.dc.com/comics",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 88,
+      "title": "The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2",
+      "sources": [
+        {
+          "title": "Nintendo - The Duskbloods (página oficial)",
+          "url": "https://www.nintendo.com/us/store/products/",
+          "type": "company"
+        },
+        {
+          "title": "IGN - Notícias",
+          "url": "https://www.ign.com/news",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 89,
+      "title": "Star Wars Zero Company: o Jogo de Táticas da BIT REACTOR Coloca Você no Comando",
+      "sources": [
+        {
+          "title": "StarWars.com - Games + Interactive",
+          "url": "https://www.starwars.com/news",
+          "type": "company"
+        },
+        {
+          "title": "IGN - Star Wars Zero Company",
+          "url": "https://www.ign.com/news",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 90,
+      "title": "The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia",
+      "sources": [
+        {
+          "title": "IGN - Notícias",
+          "url": "https://www.ign.com/news",
+          "type": "publication"
+        },
+        {
+          "title": "CD Projekt Red - Site oficial",
+          "url": "https://www.cdprojektred.com/en/news",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 91,
+      "title": "Xbox Series X e os 25 Anos do Xbox: o que a Geração Atual Aprendeu com o Legado",
+      "sources": [
+        {
+          "title": "The Verge - Gaming",
+          "url": "https://www.theverge.com/gaming",
+          "type": "publication"
+        },
+        {
+          "title": "Xbox Wire - Notícias oficiais",
+          "url": "https://news.xbox.com/",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 92,
+      "title": "PS5 Live TV: a Sony Transforma o Console em Central de Transmissões ao Vivo",
+      "sources": [
+        {
+          "title": "IGN - Notícias",
+          "url": "https://www.ign.com/news",
+          "type": "publication"
+        },
+        {
+          "title": "PlayStation - Site oficial",
+          "url": "https://www.playstation.com/",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 93,
+      "title": "IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios",
+      "sources": [
+        {
+          "title": "The Verge - Entertainment",
+          "url": "https://www.theverge.com/entertainment",
+          "type": "publication"
+        },
+        {
+          "title": "The Verge - AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 94,
+      "title": "BepiColombo Inicia a Chegada a Mercúrio: o Fim de uma Travessia de Oito Anos",
+      "sources": [
+        {
+          "title": "ESA - BepiColombo Science & Exploration",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo",
+          "type": "agency"
+        },
+        {
+          "title": "Space.com - Space News",
+          "url": "https://www.space.com/news",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 95,
+      "title": "NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA",
+      "sources": [
+        {
+          "title": "NVIDIA Newsroom - NVIDIA to Acquire Hugging Face",
+          "url": "https://nvidianews.nvidia.com/",
+          "type": "company"
+        },
+        {
+          "title": "TechCrunch - AI News",
+          "url": "https://techcrunch.com/category/artificial-intelligence/",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 96,
+      "title": "O Decágono de Saturno: Hubble Descobre Padrão Gigante no Polo Sul do Planeta",
+      "sources": [
+        {
+          "title": "ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole",
+          "url": "https://esahubble.org/",
+          "type": "agency"
+        },
+        {
+          "title": "ScienceDaily - Top Science News",
+          "url": "https://www.sciencedaily.com/",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 97,
+      "title": "Pandora: a Missão da NASA que Começou a Decifrar Atmosferas de Exoplanetas",
+      "sources": [
+        {
+          "title": "NASA Science - Missão Pandora",
+          "url": "https://science.nasa.gov/mission/pandora/",
+          "type": "agency"
+        },
+        {
+          "title": "NASA - NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars",
+          "url": "https://www.nasa.gov/news/",
+          "type": "agency"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 98,
+      "title": "State of Play de Setembro de 2026: Todos os Anúncios da Sony em Um Só Lugar",
+      "sources": [
+        {
+          "title": "PlayStation.Blog - State of Play & State of Play Japan: all announcements",
+          "url": "https://blog.playstation.com/",
+          "type": "company"
+        },
+        {
+          "title": "IGN - Latest News",
+          "url": "https://www.ign.com/articles",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 99,
+      "title": "Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027",
+      "sources": [
+        {
+          "title": "PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027",
+          "url": "https://blog.playstation.com/",
+          "type": "company"
+        },
+        {
+          "title": "Square Enix - Site Oficial",
+          "url": "https://www.square-enix-games.com/",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 100,
+      "title": "Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York",
+      "sources": [
+        {
+          "title": "Variety - Luca Guadagnino’s ‘Artificial’ to World Premiere at New York Film Festival (EXCLUSIVE)",
+          "url": "https://variety.com/v/film/",
+          "type": "publication"
+        },
+        {
+          "title": "The Verge - Entertainment",
+          "url": "https://www.theverge.com/entertainment",
+          "type": "publication"
+        }
+      ],
+      "sourcesCount": 2
+    },
+    {
+      "id": 101,
+      "title": "The Odyssey de Christopher Nolan: IMAX 70mm Estendido e Vendas que Batem Recordes",
+      "sources": [
+        {
+          "title": "Variety - ‘The Odyssey’ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million",
+          "url": "https://variety.com/v/film/",
+          "type": "publication"
+        },
+        {
+          "title": "IMAX - Site Oficial",
+          "url": "https://www.imax.com/",
+          "type": "company"
+        }
+      ],
+      "sourcesCount": 2
+    }
+  ]
+}

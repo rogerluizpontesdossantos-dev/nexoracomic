@@ -1,0 +1,408 @@
+{
+  "batch": 2,
+  "generatedAt": "2026-09-07",
+  "validationDate": "2026-09-07",
+  "note": "Worklist marcava IDs 12-21 como MISSING_SOURCES, mas o lib/articles.ts ja continha sources GENERICAS (homepages/URLs nao confirmadas, uma delas em dominio sequestrado). Executada substituicao das genericas por fontes especificas validadas por fetch (HTTP 200 + conteudo relacionado). Fontes especificas e validadas foram PRESERVADAS; fontes nao validadas foram REMOVIDAS (nunca substituidas por URLs nao confirmadas).",
+  "records": [
+    {
+      "articleId": "12",
+      "title": "Fusão Nuclear: A Fonte de Energia Que Pode Mudar o Mundo",
+      "oldSources": [
+        { "title": "ITER - The Way to New Energy", "url": "https://www.iter.org/", "type": "agency" },
+        { "title": "IAEA - Nuclear Fusion", "url": "https://www.iaea.org/", "type": "agency" }
+      ],
+      "newSources": [
+        {
+          "title": "ITER - About: In a Few Lines (o projeto ITER e a fusão como fonte de energia em larga escala)",
+          "url": "https://www.iter.org/proj/inafewlines",
+          "sourceUrl": "https://www.iter.org/proj/inafewlines",
+          "publisher": "ITER Organization",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://www.iter.org/", "action": "REPLACED", "newUrl": "https://www.iter.org/proj/inafewlines", "reason": "Homepage generica; substituida por pagina especifica do projeto ITER (objetivos, fusao como energia carbono-zero, cronograma)." },
+        { "oldUrl": "https://www.iaea.org/", "reason": "Homepage generica; pagina especifica da IAEA sobre fusao retornou 403 (nao confirmavel). Substituida pela fonte oficial especifica do ITER." }
+      ],
+      "validated": true,
+      "reason": "Fontes anteriores eram homepages genericas. Candidatas DOE (404), LLNL (conteudo nao confirmavel) e IAEA (403) rejeitadas."
+    },
+    {
+      "articleId": "13",
+      "title": "Cibersegurança para Iniciantes: Como Proteger Seus Dados Online",
+      "oldSources": [
+        { "title": "CISA - Cybersecurity Tips", "url": "https://www.cisa.gov/", "type": "agency" },
+        { "title": "NCSC - Cyber Aware", "url": "https://www.ncsc.gov.uk/", "type": "agency" }
+      ],
+      "newSources": [
+        {
+          "title": "CISA - Secure Our World (dicas para se proteger online)",
+          "url": "https://www.cisa.gov/secure-our-world",
+          "sourceUrl": "https://www.cisa.gov/secure-our-world",
+          "publisher": "CISA (Cybersecurity and Infrastructure Security Agency)",
+          "type": "government",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        },
+        {
+          "title": "NIST - Cybersecurity Framework (CSF 2.0)",
+          "url": "https://www.nist.gov/cyberframework",
+          "sourceUrl": "https://www.nist.gov/cyberframework",
+          "publisher": "NIST (National Institute of Standards and Technology)",
+          "type": "government",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://www.cisa.gov/", "action": "REPLACED", "newUrl": "https://www.cisa.gov/secure-our-world", "reason": "Homepage da CISA; substituida pelo programa especifico de protecao online (phishing, senhas fortes, MFA, atualizacoes)." },
+        { "oldUrl": "https://www.ncsc.gov.uk/", "action": "REPLACED", "newUrl": "https://www.nist.gov/cyberframework", "reason": "Homepage do NCSC UK; substituida pelo NIST CSF 2.0, framework oficial especifico de gestao de risco cibernetico." }
+      ],
+      "validated": true,
+      "reason": "Artigo pratico de ciberseguranca: guia pratico da CISA + framework oficial do NIST, ambos governamentais e especificos."
+    },
+    {
+      "articleId": "14",
+      "title": "Inteligência Artificial na Medicina: Revolução nos Diagnósticos",
+      "oldSources": [
+        { "title": "World Health Organization - AI in Health", "url": "https://www.who.int/", "type": "agency" },
+        { "title": "Nature Medicine - Artificial Intelligence", "url": "https://www.nature.com/nm/", "type": "journal" }
+      ],
+      "newSources": [
+        {
+          "title": "WHO - Ethics and governance of artificial intelligence for health",
+          "url": "https://www.who.int/publications/i/item/9789240029200",
+          "sourceUrl": "https://www.who.int/publications/i/item/9789240029200",
+          "publisher": "World Health Organization (OMS)",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        },
+        {
+          "title": "FDA - Artificial Intelligence-Enabled Medical Devices (lista oficial de dispositivos médicos com IA autorizados)",
+          "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+          "sourceUrl": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
+          "publisher": "FDA (U.S. Food and Drug Administration)",
+          "type": "government",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://www.who.int/", "action": "REPLACED", "newUrl": "https://www.who.int/publications/i/item/9789240029200", "reason": "Homepage da OMS; substituida pela diretriz oficial especifica da OMS sobre IA em saude." },
+        { "oldUrl": "https://www.nature.com/nm/", "action": "REPLACED", "newUrl": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices", "reason": "Homepage do periodico Nature Medicine (generico); substituida pela pagina oficial da FDA com a lista de dispositivos medicos com IA/ML autorizados (incl. radiologia/diagnostico)." }
+      ],
+      "validated": true,
+      "reason": "IA na medicina: diretriz da OMS sobre IA em saude + dados regulamentares oficiais da FDA sobre dispositivos de diagnostico com IA."
+    },
+    {
+      "articleId": "15",
+      "title": "Edição Genética CRISPR: Como Funciona e o que Pode Mudar",
+      "oldSources": [
+        { "title": "NIH - What are Genome Editing and CRISPR-Cas9?", "url": "https://www.genome.gov/", "type": "agency" },
+        { "title": "Nature - CRISPR Technology", "url": "https://www.nature.com/subjects/crispr", "type": "journal" }
+      ],
+      "newSources": [
+        {
+          "title": "NIH/NHGRI - Talking Glossary: CRISPR",
+          "url": "https://www.genome.gov/genetics-glossary/CRISPR",
+          "sourceUrl": "https://www.genome.gov/genetics-glossary/CRISPR",
+          "publisher": "National Human Genome Research Institute (NIH)",
+          "type": "government",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        },
+        {
+          "title": "The Nobel Prize in Chemistry 2020 (Charpentier e Doudna - desenvolvimento do método de edição genômica)",
+          "url": "https://www.nobelprize.org/prizes/chemistry/2020/summary/",
+          "sourceUrl": "https://www.nobelprize.org/prizes/chemistry/2020/summary/",
+          "publisher": "Nobel Prize Outreach",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://www.genome.gov/", "action": "REPLACED", "newUrl": "https://www.genome.gov/genetics-glossary/CRISPR", "reason": "Homepage do NHGRI; substituida pela pagina especifica do glossario oficial sobre CRISPR (mesmo dominio oficial)." },
+        { "oldUrl": "https://www.nature.com/subjects/crispr", "action": "REPLACED", "newUrl": "https://www.nobelprize.org/prizes/chemistry/2020/summary/", "reason": "Pagina de categoria/collection generica do Nature; substituida pela pagina oficial do Premio Nobel de Quimica 2020 (edicao genetica CRISPR-Cas9)." }
+      ],
+      "validated": true,
+      "reason": "CRISPR: definicao oficial do NIH + pagina oficial do Nobel de Quimica 2020."
+    },
+    {
+      "articleId": "16",
+      "title": "Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo",
+      "oldSources": [
+        { "title": "NASA - James Webb Space Telescope", "url": "https://science.nasa.gov/mission/webb/", "type": "agency" },
+        { "title": "ESA - Webb", "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb", "type": "agency" },
+        { "title": "STScI - Webb Science", "url": "https://www.stsci.edu/", "type": "university" }
+      ],
+      "newSources": [
+        {
+          "title": "NASA - James Webb Space Telescope (página oficial da missão)",
+          "url": "https://science.nasa.gov/mission/webb/",
+          "sourceUrl": "https://science.nasa.gov/mission/webb/",
+          "publisher": "NASA",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07",
+          "kept": true
+        },
+        {
+          "title": "ESA - Webb (missão James Webb, parceria NASA/ESA/CSA)",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb",
+          "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb",
+          "publisher": "European Space Agency (ESA)",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07",
+          "kept": true
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://www.stsci.edu/", "action": "REMOVED", "reason": "Homepage do STScI (generica); removida. A pagina 'about-jwst' do STScI redireciona para a pagina oficial da NASA, ja mantida." }
+      ],
+      "validated": true,
+      "reason": "Fontes NASA/ESA especificas e validadas foram PRESERVADAS; homepage generica do STScI removida."
+    },
+    {
+      "articleId": "17",
+      "title": "Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar",
+      "oldSources": [
+        { "title": "NASA Exoplanet Exploration", "url": "https://science.nasa.gov/exoplanets/", "type": "agency" },
+        { "title": "NASA Exoplanet Archive", "url": "https://exoplanetarchive.ipac.caltech.edu/", "type": "agency" },
+        { "title": "ESO - Exoplanets", "url": "https://www.eso.org/public/exoplanets/", "type": "agency" }
+      ],
+      "newSources": [
+        {
+          "title": "NASA - What is an exoplanet?",
+          "url": "https://science.nasa.gov/exoplanets/what-is-an-exoplanet/",
+          "sourceUrl": "https://science.nasa.gov/exoplanets/what-is-an-exoplanet/",
+          "publisher": "NASA",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        },
+        {
+          "title": "NASA - The Habitable Zone (a busca por mundos habitáveis)",
+          "url": "https://science.nasa.gov/exoplanets/habitable-zone/",
+          "sourceUrl": "https://science.nasa.gov/exoplanets/habitable-zone/",
+          "publisher": "NASA",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://science.nasa.gov/exoplanets/", "action": "REPLACED", "newUrl": "https://science.nasa.gov/exoplanets/what-is-an-exoplanet/", "reason": "Hub generico de exoplanetas; substituido por pagina especifica 'What is an exoplanet?'." },
+        { "oldUrl": "https://exoplanetarchive.ipac.caltech.edu/", "action": "REPLACED", "newUrl": "https://science.nasa.gov/exoplanets/habitable-zone/", "reason": "Portal de banco de dados nao validado por fetch; substituido por pagina NASA especifica sobre a zona habitavel (tema central do artigo)." },
+        { "oldUrl": "https://www.eso.org/public/exoplanets/", "action": "REPLACED", "newUrl": "https://science.nasa.gov/exoplanets/habitable-zone/", "reason": "Pagina de assunto generica da ESO nao validada; consolidada em fontes NASA especificas validadas." }
+      ],
+      "validated": true,
+      "reason": "Duas paginas NASA especificas (exoplanetas + zona habitavel), ambas validadas por fetch."
+    },
+    {
+      "articleId": "18",
+      "title": "Missões Artemis: O Caminho de Volta à Lua e Além",
+      "oldSources": [
+        { "title": "NASA - Artemis Program", "url": "https://www.nasa.gov/artemis/", "type": "agency" },
+        { "title": "ESA - Orion European Service Module", "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion", "type": "agency" },
+        { "title": "NASA - Lunar Exploration", "url": "https://science.nasa.gov/moon/", "type": "agency" }
+      ],
+      "newSources": [
+        {
+          "title": "NASA - Moon to Mars | NASA's Artemis Program",
+          "url": "https://www.nasa.gov/humans-in-space/artemis/",
+          "sourceUrl": "https://www.nasa.gov/humans-in-space/artemis/",
+          "publisher": "NASA",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        },
+        {
+          "title": "NASA - Artemis I (página oficial da missão)",
+          "url": "https://www.nasa.gov/mission/artemis-i/",
+          "sourceUrl": "https://www.nasa.gov/mission/artemis-i/",
+          "publisher": "NASA",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://www.nasa.gov/artemis/", "action": "REPLACED", "newUrl": "https://www.nasa.gov/humans-in-space/artemis/", "reason": "URL antiga do programa Artemis (404 na validacao); substituida pela pagina oficial atual do programa Artemis." },
+        { "oldUrl": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Orion", "action": "REPLACED", "newUrl": "https://www.nasa.gov/mission/artemis-i/", "reason": "Pagina generica do modulo Orion nao validada; substituida pela pagina oficial especifica da missao Artemis I." },
+        { "oldUrl": "https://science.nasa.gov/moon/", "action": "REPLACED", "newUrl": "https://www.nasa.gov/mission/artemis-i/", "reason": "Hub generico da Lua; consolidado na fonte especifica da missao." }
+      ],
+      "validated": true,
+      "reason": "Pagina oficial do programa Artemis + pagina especifica da missao Artemis I (NASA), ambas validadas."
+    },
+    {
+      "articleId": "19",
+      "title": "Microbioma Intestinal: O Universo de Bactérias que Moram em Você",
+      "oldSources": [
+        { "title": "NIH - Human Microbiome Project", "url": "https://www.hmpdacc.org/", "type": "agency" },
+        { "title": "Nature Reviews Microbiology", "url": "https://www.nature.com/nrmicro/", "type": "journal" },
+        { "title": "Harvard T.H. Chan School - The Microbiome", "url": "https://www.hsph.harvard.edu/nutritionsource/microbiome/", "type": "university" }
+      ],
+      "newSources": [
+        {
+          "title": "NIH/NHGRI - Talking Glossary: Microbiome",
+          "url": "https://www.genome.gov/genetics-glossary/Microbiome",
+          "sourceUrl": "https://www.genome.gov/genetics-glossary/Microbiome",
+          "publisher": "National Human Genome Research Institute (NIH)",
+          "type": "government",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        },
+        {
+          "title": "Turnbaugh et al. (2007). The human microbiome project - Nature (PMC)",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709439/",
+          "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709439/",
+          "publisher": "Nature / NIH PMC (NCBI)",
+          "type": "journal",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://www.hmpdacc.org/", "action": "REPLACED", "newUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709439/", "reason": "CRITICO: dominio hmpdacc.org esta SEQUESTRADO e exibe conteudo de cassino; substituido pelo artigo cientifico do Human Microbiome Project (Nature) via NIH PMC." },
+        { "oldUrl": "https://www.nature.com/nrmicro/", "action": "REPLACED", "newUrl": "https://www.genome.gov/genetics-glossary/Microbiome", "reason": "Homepage do periodico (generica); substituida pela definicao oficial de microbioma do NIH." },
+        { "oldUrl": "https://www.hsph.harvard.edu/nutritionsource/microbiome/", "action": "REPLACED", "newUrl": "https://www.genome.gov/genetics-glossary/Microbiome", "reason": "Pagina universitaria especifica mas nao validada por fetch nesta task; consolidada em fontes validadas." }
+      ],
+      "validated": true,
+      "reason": "Definicao oficial (NIH) + artigo cientifico especifico do HMP (Nature/PMC). Fonte anterior em dominio sequestrado eliminada."
+    },
+    {
+      "articleId": "20",
+      "title": "Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos",
+      "oldSources": [
+        { "title": "CERN - The Large Hadron Collider", "url": "https://home.cern/science/accelerators/large-hadron-collider", "type": "agency" },
+        { "title": "CERN - The Standard Model", "url": "https://home.cern/science/physics/standard-model", "type": "agency" },
+        { "title": "Energy.gov - Particle Physics", "url": "https://www.energy.gov/science/doe-explainsparticles-and-particle-physics", "type": "agency" }
+      ],
+      "newSources": [
+        {
+          "title": "CERN - The Standard Model",
+          "url": "https://home.cern/science/physics/standard-model",
+          "sourceUrl": "https://home.cern/science/physics/standard-model",
+          "publisher": "CERN",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07",
+          "kept": true
+        },
+        {
+          "title": "CERN - Large Hadron Collider",
+          "url": "https://home.cern/science/accelerators/large-hadron-collider",
+          "sourceUrl": "https://home.cern/science/accelerators/large-hadron-collider",
+          "publisher": "CERN",
+          "type": "official",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07",
+          "kept": true
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://www.energy.gov/science/doe-explainsparticles-and-particle-physics", "action": "REMOVED", "reason": "URL do DOE nao validada nesta task (outras paginas DOE retornaram 404); removida por cautela. As duas fontes oficiais do CERN, especificas e validadas, foram preservadas." }
+      ],
+      "validated": true,
+      "reason": "Fontes oficiais do CERN especificas (Modelo Padrao + LHC) preservadas; fonte DOE nao confirmavel removida."
+    },
+    {
+      "articleId": "21",
+      "title": "Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta",
+      "oldSources": [
+        { "title": "Google Search Central - How Search Works", "url": "https://developers.google.com/search/docs/fundamentals/how-search-works", "type": "company" },
+        { "title": "Stanford - The PageRank Citation Ranking", "url": "https://ilpubs.stanford.edu/422/", "type": "university" },
+        { "title": "Bing Webmaster Tools", "url": "https://www.bing.com/webmasters/about", "type": "company" }
+      ],
+      "newSources": [
+        {
+          "title": "Google Search Central - In-Depth Guide to How Google Search Works (crawling, indexing, serving)",
+          "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+          "sourceUrl": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+          "publisher": "Google",
+          "type": "documentation",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07",
+          "kept": true
+        },
+        {
+          "title": "Google - How Search Works",
+          "url": "https://www.google.com/search/howsearchworks/",
+          "sourceUrl": "https://www.google.com/search/howsearchworks/",
+          "publisher": "Google",
+          "type": "company",
+          "httpStatus": 200,
+          "contentType": "text/html",
+          "specific": true,
+          "official": true,
+          "validationDate": "2026-09-07"
+        }
+      ],
+      "changes": [
+        { "oldUrl": "https://ilpubs.stanford.edu/422/", "action": "REPLACED", "newUrl": "https://www.google.com/search/howsearchworks/", "reason": "Publicacao academica especifica (PageRank) mas nao validada por fetch nesta task; substituida pela pagina oficial do Google sobre como a Pesquisa funciona." },
+        { "oldUrl": "https://www.bing.com/webmasters/about", "action": "REMOVED", "reason": "Pagina de produto (ferramenta para webmasters), nao fonte sobre o funcionamento de algoritmos de busca; removida." }
+      ],
+      "validated": true,
+      "reason": "Documentacao oficial do Google (fonte primaria sobre o algoritmo) preservada + pagina institucional 'How Search Works' adicionada."
+    }
+  ]
+}

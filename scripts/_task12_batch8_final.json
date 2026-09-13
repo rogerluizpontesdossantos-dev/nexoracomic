@@ -1,0 +1,22 @@
+{
+  "batch": 8,
+  "articlesRange": "102-105",
+  "totalArticles": 4,
+  "summary": {
+    "articlesAudited": 4,
+    "sourcesAnalyzed": 7,
+    "sourcesKept": 5,
+    "sourcesReplaced": 2,
+    "sourcesRemoved": 0,
+    "sourcesAdded": 2
+  },
+  "tests": {
+    "validateArticles": "PASS",
+    "typescript": "PASS",
+    "eslint": "PASS",
+    "build": "PASS"
+  },
+  "preservation": {
+    "onlySourcesChanged": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "bing_bleeping": {
+    "status": 200,
+    "hrefs": []
+  },
+  "register": {
+    "status": 404,
+    "hrefs": [
+      "https://www.theregister.com/special_features/vmware_explore_2026",
+      "https://www.theregister.com/special_features/cloud_infrastructure_month_2026",
+      "https://www.theregister.com/special_features/ai_infrastructure_month_2026",
+      "https://www.theregister.com/special_features/state_of_storage_2026",
+      "https://www.theregister.com/software/2026/09/07/oracle-may-be-next-in-eu-software-licensing-hot-seat-following-sap-deal/5294805",
+      "https://www.theregister.com/security/2026/09/07/hackers-drain-320m-in-bitcoin-from-liquid-network-claim-theyre-the-good-guys/5294770",
+      "https://www.theregister.com/os-platforms/2026/09/07/asahi-linux-takes-on-apple-m3-minus-a-few-creature-comforts/5294788",
+      "https://www.theregister.com/security/2026/09/07/welsh-environment-regulators-foi-blunder-exposes-diversity-data-of-2000-staff/5294748",
+      "https://www.theregister.com/security/2026/09/07/uk-food-supply-chain-at-risk-from-hostile-attacks/5294719",
+      "https://www.theregister.com/os-platforms/2026/09/07/feel-peak-windows-was-7-you-might-like-kumander-linux/5294760",
+      "https://www.theregister.com/columnists/2026/09/07/openais-rebel-agent-swarm-died-young-but-its-chilling-logs-live-on/5294446",
+      "https://www.theregister.com/on-prem/2026/09/07/amazon-branded-plane-in-fatal-accident-at-miami-airport/5294707",
+      "https://www.theregister.com/off-prem/2026/09/07/thailand-pauses-all-datacenter-builds-and-approvals/5294688",
+      "https://www.theregister.com/offbeat/2026/09/06/time-lords-prepare-to-kick-leap-seconds-into-the-next-millennium/5294538",
+      "https://www.theregister.com/public-sector/2026/09/06/us-troops-can-still-be-tracked-by-purchased-location-data-and-congress-wants-to-know-why/5294652"
+    ]
+  },
+  "meta": {
+    "status": 200,
+    "hrefs": [
+      "https://about.fb.com/wp-content/uploads/2021/10/meta-favicon.png?fit=16%2C16",
+      "https://about.fb.com/news/2026/02/animate-facebook-profile-picture-meta-ai/",
+      "https://about.fb.com/news/2026/03/facebook-marketplace-new-meta-ai-tools-make-selling-faster-and-easier/",
+      "https://about.fb.com/news/2026/07/introducing-facebook-verified/",
+      "https://about.fb.com/news/2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/",
+      "https://about.fb.com/news/2026/03/boosting-your-support-and-safety-on-metas-apps-with-ai/",
+      "https://about.fb.com/news/2026/06/strengthening-teen-accounts-with-new-safety-updates-on-instagram-and-facebook/",
+      "https://about.fb.com/news/2026/05/introducing-business-ai-on-whatsapp-for-small-businesses-in-india/",
+      "https://about.fb.com/news/2026/08/metas-compliance-with-australias-social-media-ban/",
+      "https://about.fb.com/news/2026/03/whatsapp-new-features-simplify-storage-switch-accounts/",
+      "https://about.fb.com/news/2025/12/making-it-easier-to-access-account-support-on-facebook-and-instagram/"
+    ]
+  },
+  "help_instagram": {
+    "status": 400,
+    "finalUrl": "https://help.instagram.com/ai-generated-profile-labels",
+    "title": "Error"
+  },
+  "ig_blog": {
+    "status": 400,
+    "hrefs": []
+  }
+}

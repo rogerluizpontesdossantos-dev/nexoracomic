@@ -1,0 +1,238 @@
+{
+  "task": "new_articles_expansion",
+  "date": "2026-09-10",
+  "status": "completed",
+  "audit": {
+    "categories_found": 9,
+    "category_list": [
+      "ciencia",
+      "tecnologia",
+      "espaco",
+      "inteligencia-artificial",
+      "futuro",
+      "games",
+      "filmes-series",
+      "quadrinhos",
+      "curiosidades"
+    ]
+  },
+  "counts": {
+    "before": 105,
+    "added": 18,
+    "after": 123,
+    "expected_added": 18,
+    "by_category_before": {
+      "ciencia": 7,
+      "tecnologia": 9,
+      "espaco": 9,
+      "inteligencia_artificial": 12,
+      "futuro": 6,
+      "games": 18,
+      "filmes_series": 30,
+      "quadrinhos": 11,
+      "curiosidades": 3
+    },
+    "by_category_after": {
+      "ciencia": 9,
+      "tecnologia": 11,
+      "espaco": 11,
+      "inteligencia_artificial": 14,
+      "futuro": 8,
+      "games": 20,
+      "filmes_series": 32,
+      "quadrinhos": 13,
+      "curiosidades": 5
+    }
+  },
+  "new_articles": [
+    {
+      "id": "106",
+      "title": "Ondas Gravitacionais: Como Detectamos Ondulações no Tecido do Espaço-Tempo",
+      "slug": "ondas-gravitacionais-detectando-espaco-tempo",
+      "category": "ciencia",
+      "sources": [
+        "https://www.ligo.caltech.edu/",
+        "https://en.wikipedia.org/wiki/Gravitational_wave"
+      ]
+    },
+    {
+      "id": "107",
+      "title": "CRISPR e Terapia Gênica",
+      "slug": "crispr-terapia-genica-doencas-tratamento",
+      "category": "ciencia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+        "https://en.wikipedia.org/wiki/Casgevy"
+      ]
+    },
+    {
+      "id": "108",
+      "title": "Edge Computing",
+      "slug": "edge-computinge-processamento-de-dados",
+      "category": "tecnologia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Edge_computing",
+        "https://en.wikipedia.org/wiki/Fog_computing"
+      ]
+    },
+    {
+      "id": "109",
+      "title": "TPU",
+      "slug": "tpu-tensor-processing-unit-google-ia",
+      "category": "tecnologia",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tensor_Processing_Unit",
+        "https://en.wikipedia.org/wiki/AI_accelerator"
+      ]
+    },
+    {
+      "id": "110",
+      "title": "Aurora Boreal",
+      "slug": "aurora-boreais-ciencia-luzes-do-norte",
+      "category": "espaco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Aurora",
+        "https://en.wikipedia.org/wiki/Solar_wind"
+      ]
+    },
+    {
+      "id": "111",
+      "title": "Europa Clipper",
+      "slug": "europa-clipper-missao-nasa-lua-jupiter",
+      "category": "espaco",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Europa_Clipper",
+        "https://en.wikipedia.org/wiki/Europa_(moon)"
+      ]
+    },
+    {
+      "id": "112",
+      "title": "Agentes Autônomos de IA",
+      "slug": "agentes-autonomos-ia-tomada-de-decisao",
+      "category": "inteligencia-artificial",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Agentic_AI",
+        "https://en.wikipedia.org/wiki/Autonomous_agent"
+      ]
+    },
+    {
+      "id": "113",
+      "title": "Modelos Multimodais",
+      "slug": "modelos-multimodais-ia-texto-imagem-audio",
+      "category": "inteligencia-artificial",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Multimodal_learning",
+        "https://en.wikipedia.org/wiki/Vision_language_model"
+      ]
+    },
+    {
+      "id": "114",
+      "title": "Biologia Sintética",
+      "slug": "biologia-sintetica-criando-organismos-artificiais",
+      "category": "futuro",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Synthetic_biology",
+        "https://en.wikipedia.org/wiki/Genetic_circuit"
+      ]
+    },
+    {
+      "id": "115",
+      "title": "Energia Solar Espacial",
+      "slug": "energia-solar-espacial-paineis-orbita",
+      "category": "futuro",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Space-based_solar_power",
+        "https://en.wikipedia.org/wiki/Solar_power_satellite"
+      ]
+    },
+    {
+      "id": "116",
+      "title": "Geração Procedural",
+      "slug": "geracao-procedural-mundo-aberto-games",
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Procedural_generation",
+        "https://en.wikipedia.org/wiki/Procedural_generation_in_video_games"
+      ]
+    },
+    {
+      "id": "117",
+      "title": "Acessibilidade em Games",
+      "slug": "acessibilidade-games-jogadores-deficiencia",
+      "category": "games",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Game_accessibility",
+        "https://en.wikipedia.org/wiki/Xbox_Adaptive_Controller"
+      ]
+    },
+    {
+      "id": "118",
+      "title": "Preservação Digital de Filmes",
+      "slug": "preservacao-digital-filmes-antigos-restauracao",
+      "category": "filmes-series",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Film_preservation",
+        "https://en.wikipedia.org/wiki/Digital_restoration"
+      ]
+    },
+    {
+      "id": "119",
+      "title": "Deepfake no Cinema",
+      "slug": "deepfake-cinema-rostos-sinteticos-impacto",
+      "category": "filmes-series",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Deepfake",
+        "https://en.wikipedia.org/wiki/Digital_likeness"
+      ]
+    },
+    {
+      "id": "120",
+      "title": "Webcomics",
+      "slug": "webcomics-quadrinhos-digitais-revolucao",
+      "category": "quadrinhos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Webcomic",
+        "https://en.wikipedia.org/wiki/Webtoon"
+      ]
+    },
+    {
+      "id": "121",
+      "title": "Diversidade nos Quadrinhos",
+      "slug": "representacao-diversidade-quadrinhos-evolucao",
+      "category": "quadrinhos",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Representation_in_comics",
+        "https://en.wikipedia.org/wiki/Diversity_in_comic_books"
+      ]
+    },
+    {
+      "id": "122",
+      "title": "Ilusões de Óptica",
+      "slug": "ilusoes-opticas-cerebro-enganado",
+      "category": "curiosidades",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Optical_illusion",
+        "https://en.wikipedia.org/wiki/Optical_illusion_types"
+      ]
+    },
+    {
+      "id": "123",
+      "title": "Animais que Usam Ferramentas",
+      "slug": "animais-que-usam-ferramentas-inteligencia",
+      "category": "curiosidades",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tool_use_by_animals",
+        "https://en.wikipedia.org/wiki/Tool_use_by_non-human_animals"
+      ]
+    }
+  ],
+  "validation": {
+    "ids_unique": true,
+    "slugs_unique": true,
+    "categories_valid": true,
+    "sources_real": true,
+    "build_passed": true,
+    "static_pages_generated": 146,
+    "new_routes_working": true
+  }
+}

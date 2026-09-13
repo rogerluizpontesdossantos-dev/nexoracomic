@@ -1,0 +1,14 @@
+{
+  "batch": 6,
+  "articlesRange": "52-71",
+  "totalArticles": 20,
+  "auditDate": "2026-09-07",
+  "summary": {
+    "totalSourcesAnalyzed": 40,
+    "sourcesKept": 24,
+    "sourcesReplaced": 16,
+    "inventedUrlsFound": 14,
+    "homepageUrlsFound": 10,
+    "specificUrlsFound": 16
+  }
+}

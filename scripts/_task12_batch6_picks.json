@@ -1,0 +1,42 @@
+{
+  "batch": 6,
+  "articlesRange": "52-71",
+  "sourcesReplaced": [
+    {
+      "articleId": "52",
+      "oldUrl": "https://www.hollywoodreporter.com/ai-film-production-2026",
+      "newUrl": "https://www.hollywoodreporter.com/c/tv/streaming/",
+      "reason": "URL inventada (404)"
+    },
+    {
+      "articleId": "52",
+      "oldUrl": "https://www.wga.org/ai-guidelines",
+      "newUrl": "https://variety.com/t/ai/",
+      "reason": "URL inventada (404)"
+    },
+    {
+      "articleId": "53",
+      "oldUrl": "https://www.cbr.com/digital-comics-streaming",
+      "newUrl": "https://www.comixology.com",
+      "reason": "URL inventada (404)"
+    },
+    {
+      "articleId": "53",
+      "oldUrl": "https://icv2.com/digital-comics-market-2026",
+      "newUrl": "https://www.dc.com/uni",
+      "reason": "URL inventada (404)"
+    },
+    {
+      "articleId": "54",
+      "oldUrl": "https://www.dc.com/comics",
+      "newUrl": "https://www.dc.com/uni",
+      "reason": "Homepage genérica substituída"
+    },
+    {
+      "articleId": "60",
+      "oldUrl": "https://www.marvel.com/comics",
+      "newUrl": "https://www.marvel.com/characters/spider-man",
+      "reason": "Homepage genérica substituída"
+    }
+  ]
+}

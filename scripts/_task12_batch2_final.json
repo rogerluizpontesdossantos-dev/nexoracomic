@@ -1,0 +1,76 @@
+{
+  "batch": 2,
+  "task": "TASK 12 - LOTE 2: fontes editoriais oficiais e verificaveis (IDs 12-21)",
+  "generatedAt": "2026-09-07",
+  "importantNote": "A worklist marcava IDs 12-21 como MISSING_SOURCES, mas o lib/articles.ts ja continha sources (estado pre-Lote 2 desatualizado): homepages genericas (iter.org, iaea.org, who.int, genome.gov, nature.com/nm/, stsci.edu, nature.com/nrmicro/), dominio SEQUESTRADO (hmpdacc.org) e URLs nao confirmadas (nasa.gov/artemis/, DOE explainer). As fontes genericas/invalidas foram SUBSTITUIDAS por fontes especificas validadas por fetch real; fontes especificas validadas foram PRESERVADAS; fontes nao confirmadas foram REMOVIDAS. Durante a task constatou-se que um pipeline de automacao edita o repositorio concorrentemente (novos artigos 102-107 e trocas de imagem aparecem no diff sem relacao com este lote).",
+  "articles": {
+    "processed": 10,
+    "ids": ["12", "13", "14", "15", "16", "17", "18", "19", "20", "21"],
+    "beforeAfter": [
+      { "id": "12", "title": "Fusão Nuclear", "fontesAntes": 2, "fontesDepois": 1 },
+      { "id": "13", "title": "Cibersegurança para Iniciantes", "fontesAntes": 2, "fontesDepois": 2 },
+      { "id": "14", "title": "IA na Medicina", "fontesAntes": 2, "fontesDepois": 2 },
+      { "id": "15", "title": "Edição Genética CRISPR", "fontesAntes": 2, "fontesDepois": 2 },
+      { "id": "16", "title": "Telescópio James Webb", "fontesAntes": 3, "fontesDepois": 2 },
+      { "id": "17", "title": "Exoplanetas", "fontesAntes": 3, "fontesDepois": 2 },
+      { "id": "18", "title": "Missões Artemis", "fontesAntes": 3, "fontesDepois": 2 },
+      { "id": "19", "title": "Microbioma Intestinal", "fontesAntes": 3, "fontesDepois": 2 },
+      { "id": "20", "title": "Partículas Subatômicas e o CERN", "fontesAntes": 3, "fontesDepois": 2 },
+      { "id": "21", "title": "Algoritmos de Busca", "fontesAntes": 3, "fontesDepois": 2 }
+    ]
+  },
+  "sources": {
+    "totalAnalisado": 31,
+    "mantidas": 4,
+    "substituidas": 15,
+    "adicionadas": 2,
+    "removidas": 8,
+    "rejeitadas": 9,
+    "pendentes": 0
+  },
+  "validation": {
+    "method": "fetch real de cada URL candidata (HTTP status + Content-Type + analise do conteudo)",
+    "httpAll200": true,
+    "contentType": "text/html em todas as aplicadas",
+    "especificidade": "todas as fontes aplicadas sao paginas especificas (sem homepages/hubs)",
+    "oficialidade": "todas primarias ou oficiais (NASA, ESA, CERN, ITER, NIH, NIST, CISA, FDA, OMS, Nobel, NCBI/PMC, Google)",
+    "relevancia": "conteudo verificado como relacionado ao tema de cada artigo"
+  },
+  "tests": {
+    "validateArticles": "PASS - 107 artigos, 0 sem sources, 0 arrays vazios, 0 erros, 0 warnings",
+    "typescript": "PASS - npx tsc --noEmit (exit 0)",
+    "build": "PASS - npm run build (exit 0)",
+    "lint": "PASS - npx eslint lib/articles.ts (exit 0)",
+    "errosNovos": 0,
+    "errosPreexistentes": 0,
+    "warningsPreexistentes": 0
+  },
+  "git": {
+    "arquivosModificadosPeloLote2": ["lib/articles.ts (somente campo sources dos IDs '12'-'21')"],
+    "arquivosCriados": [
+      "scripts/_task12_batch2_audit.json",
+      "scripts/_task12_batch2_picks.json",
+      "scripts/_task12_batch2_final.json",
+      "scripts/_task12_batch2_apply.cjs",
+      "scripts/_task12_batch2_diff_audit.cjs",
+      "scripts/_task12_batch2_baseline_diff.txt"
+    ],
+    "observacaoDiff": "O git diff completo de lib/articles.ts inclui alteracoes preexistentes de tasks anteriores nao commitadas e mudancas de um pipeline de automacao concorrente (novos artigos, trocas de imagens). A verificacao direta dos blocos confirmou que o Lote 2 alterou SOMENTE sources dos IDs 12-21 (imageAlt/titulo/conteudo/SEO/imagens intactos nos 10 blocos).",
+    "commit": "NAO",
+    "push": "NAO"
+  },
+  "successCriteria": {
+    "exatamente10Artigos": true,
+    "proximos10DaFilaPrioridade1": true,
+    "fontesReaisEVerificaveis": true,
+    "nenhumaURLInventada": true,
+    "genericasSubstituidas": true,
+    "apenasSourcesAlterado": true,
+    "validateArticlesPass": true,
+    "typescriptPass": true,
+    "buildPass": true,
+    "diffAuditado": true,
+    "semCommitPush": true
+  }
+}
+

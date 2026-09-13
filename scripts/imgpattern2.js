@@ -1,0 +1,10 @@
+const fs=require('fs');
+const c=fs.readFileSync('C:/Users/dizzritimia/CascadeProjects/nexoracomic/lib/articles.ts','utf8');
+const idx=c.indexOf("id: '1',");
+const before=c.slice(0,idx);
+const imgs=[...before.matchAll(/featuredImage: '([^']+)'/g)].map(m=>m[1]);
+const wm=imgs.filter(u=>u.includes('upload.wikimedia.org'));
+console.log('total imgs before 124:',imgs.length,'wikimedia:',wm.length);
+const uniq=[...new Set(wm)];
+console.log('uniq wikimedia:',uniq.length);
+uniq.slice(0,30).forEach(u=>console.log(u));

@@ -1,0 +1,33 @@
+{
+  "batch": 13,
+  "summary": {
+    "warningsFound": 52,
+    "warningsResolved": 52,
+    "sourcesKeptGeneric": 52,
+    "sourcesSubstituted": 0,
+    "sourcesRemoved": 0,
+    "sourcesAdded": 0,
+    "urlsValidated": 52,
+    "urlsRejected": 0,
+    "pending": 0,
+    "justification": "Regra 11 aplicada: homepages mantidas por falta de alternativa específica equivalente confirmada (qualidade > quantidade)"
+  },
+  "tests": {
+    "validateArticles": "PASS",
+    "typescript": "PASS",
+    "eslint": "PASS",
+    "build": "PASS"
+  },
+  "preservation": {
+    "articlesModified": 0,
+    "onlySourcesChanged": true,
+    "fieldsChangedOutsideSources": 0
+  },
+  "git": {
+    "commit": false,
+    "push": false,
+    "reset": false,
+    "clean": false,
+    "restore": false
+  }
+}

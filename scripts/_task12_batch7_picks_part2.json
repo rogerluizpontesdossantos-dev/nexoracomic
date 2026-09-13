@@ -1,0 +1,157 @@
+{
+  "batch": 7,
+  "articlesRange": "82-90",
+  "picks": [
+    {
+      "id": 82,
+      "title": "Spider-Man: Brand New Day",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://variety.com/v/film/news/",
+          "reason": "URL específica para notícias de filmes"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.sonypictures.com/",
+          "newUrl": "https://www.sonypictures.com/movies/spider-manbrand-new-day",
+          "reason": "Homepage genérica substituída por página específica"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Netflix em Setembro de 2026",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.netflix.com/tudum/",
+          "newUrl": "https://www.netflix.com/tudum",
+          "reason": "Redirecionamento canônico removido"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.theverge.com/streaming",
+          "reason": "URL específica para a seção de streaming"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "title": "Coyote vs. Acme",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.theverge.com/entertainment",
+          "reason": "URL válida"
+        },
+        {
+          "action": "keep",
+          "url": "https://variety.com/v/film/",
+          "reason": "URL específica para filmes"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Star Wars × Marvel",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.starwars.com/news",
+          "reason": "URL válida"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.marvel.com/comics",
+          "newUrl": "https://www.marvel.com/articles",
+          "reason": "Homepage substituída"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Linha Absolute da DC",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.dc.com/blog",
+          "newUrl": "https://www.dc.com/comics",
+          "reason": "Redirecionamento canônico"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.dc.com/comics",
+          "reason": "URL específica"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "title": "DC em Setembro de 2026",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.dc.com/blog",
+          "newUrl": "https://www.dc.com/comics",
+          "reason": "Redirecionamento canônico"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.dc.com/comics",
+          "reason": "URL específica"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "title": "The Duskbloods",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.nintendo.com/us/store/products/",
+          "newUrl": "https://www.nintendo.com/us/store/products/the-duskbloods-switch-2/",
+          "reason": "Homepage substituída"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.ign.com/news",
+          "reason": "URL válida"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Star Wars Zero Company",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.starwars.com/news",
+          "reason": "URL válida"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.ign.com/news",
+          "reason": "URL válida"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "title": "The Witcher 4",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.ign.com/news",
+          "reason": "URL válida"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://www.cdprojektred.com/en/news",
+          "newUrl": "https://www.cdprojektred.com/en/media",
+          "reason": "URL original retornava 404"
+        }
+      ]
+    }
+  ]
+}

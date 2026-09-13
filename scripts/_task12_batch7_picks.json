@@ -1,0 +1,177 @@
+{
+  "batch": 7,
+  "articlesRange": "72-101",
+  "totalArticles": 30,
+  "picks": [
+    {
+      "id": 72,
+      "title": "The Mandalorian e Grogu",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.starwars.com",
+          "newUrl": "https://www.starwars.com/films/the-mandalorian-and-grogu",
+          "reason": "Homepage genérica substituída por página específica do filme"
+        },
+        {
+          "action": "replace",
+          "oldUrl": "https://deadline.com/the-mandalorian-and-grogu",
+          "newUrl": "https://deadline.com/2026/05/the-mandalorian-and-grogu-box-office-1234752890/",
+          "reason": "URL original redirecionava para página não relacionada"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Disney: Como Marvel, Star Wars e Novas Franquias Estão Moldando o Entretenimento Geek",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.disneyplus.com",
+          "newUrl": "https://press.disneyplus.com",
+          "reason": "Homepage genérica substituída por site de imprensa oficial"
+        },
+        {
+          "action": "keep",
+          "url": "https://thewaltdisneycompany.com",
+          "reason": "Homepage oficial da empresa"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "title": "GTA VI: O Retorno Mais Aguardado de 2026",
+      "changes": [
+        {
+          "action": "keep",
+          "url": "https://www.rockstargames.com/VI",
+          "reason": "URL específica do jogo no site oficial da Rockstar"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.ign.com/games/grand-theft-auto-6",
+          "reason": "Redirecionamento canônico para URL correta"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Supergirl: Woman of Tomorrow",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.dcstudios.com/supergirl",
+          "newUrl": "https://www.dc.com/movies/supergirl-woman-of-tomorrow",
+          "reason": "URL original redirecionava para página genérica"
+        },
+        {
+          "action": "keep",
+          "url": "https://variety.com/t/supergirl/",
+          "reason": "URL específica para a categoria Supergirl"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Harry Potter: A Série do HBO Max",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.warnerbros.com/tv/harry-potter",
+          "newUrl": "https://www.hbo.com/harry-potter",
+          "reason": "URL original retornava 404"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.bbc.com/news/articles/c5ygp0908g9o",
+          "reason": "Artigo específico da BBC"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "title": "The Witcher: A Temporada Final",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.netflix.com/tudum/topics/the-witcher",
+          "newUrl": "https://www.netflix.com/title/80189685",
+          "reason": "URL original retornava 404"
+        },
+        {
+          "action": "keep",
+          "url": "https://collider.com/tag/the-witcher/",
+          "reason": "URL específica para a tag The Witcher"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Welcome to Derry",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.max.com/shows/welcome-to-derry",
+          "newUrl": "https://www.hbomax.com/shows/welcome-to-derry",
+          "reason": "URL original redirecionava para HBOMax"
+        },
+        {
+          "action": "keep",
+          "url": "https://variety.com/t/welcome-to-derry/",
+          "reason": "URL específica para a categoria"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Ahsoka: Temporada 2",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.starwars.com/news",
+          "newUrl": "https://www.starwars.com/series/ahsoka",
+          "reason": "Homepage de notícias substituída por página específica"
+        },
+        {
+          "action": "keep",
+          "url": "https://variety.com/",
+          "reason": "Homepage do Variety, aceitável"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Star Wars: Starfighter",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.starwars.com/news",
+          "newUrl": "https://www.starwars.com/films/star-wars-starfighter",
+          "reason": "Homepage de notícias substituída por página específica"
+        },
+        {
+          "action": "keep",
+          "url": "https://variety.com/v/film/",
+          "reason": "URL específica para a seção de filmes"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Lanterns: A Série da HBO",
+      "changes": [
+        {
+          "action": "replace",
+          "oldUrl": "https://www.hbo.com/lanterns",
+          "newUrl": "https://www.dc.com/tv/lanterns",
+          "reason": "URL original retornava 404"
+        },
+        {
+          "action": "keep",
+          "url": "https://www.theverge.com/entertainment",
+          "reason": "URL válida para seção de entretenimento"
+        }
+      ]
+    }
+  ]
+}

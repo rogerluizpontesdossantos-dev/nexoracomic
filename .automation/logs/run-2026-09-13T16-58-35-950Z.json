@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "published": true,
+  "articleId": "142",
+  "title": "Minecraft: Guia completo",
+  "slug": "minecraft-guia-completo-auto-142",
+  "featuredImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Arcade_cabinet.png/1280px-Arcade_cabinet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "category": "games",
+  "topic": "minecraft",
+  "source": "Portal especializado em games",
+  "sourceDomain": "br.ign.com",
+  "timestamp": "2026-09-13T16:58:30.834Z",
+  "log": [
+    "[pipeline] Início — 2026-09-13T16:58:04.688Z",
+    "[pipeline] Modo: PUBLICAÇÃO",
+    "[pipeline] Artigos no acervo: 148",
+    "[pipeline] Pautas já publicadas (state): 4",
+    "[pipeline] Tópico destino: Minecraft",
+    "[pipeline] Buscando feeds...",
+    "[pipeline] Itens encontrados: 10",
+    "[pipeline] Avisos de fetch: 2",
+    "  ⚠ Minecraft.net: HTTP 500",
+    "  ⚠ IGN: HTTP 500",
+    "[pipeline] Selecionando melhor pauta...",
+    "[pipeline] Pauta selecionada: \"Minecraft: Guia completo\" (score 68, tier 3, confirmed)",
+    "[pipeline] Fonte: Portal especializado em games — https://br.ign.com/minecraft/86604/wiki/minecraft-guia-completo",
+    "[pipeline] Próximo ID: 142",
+    "[pipeline] Buscando imagem de capa relacionada ao tema...",
+    "[pipeline] Imagem encontrada: \"File:Arcade cabinet.png\" [CC0] (tema: games-general)",
+    "[pipeline] Artigo gerado: \"Minecraft: Guia completo\" (slug: minecraft-guia-completo-auto-142)",
+    "[pipeline] Tags: Minecraft, Mojang, games",
+    "[pipeline] Fontes: https://br.ign.com/minecraft/86604/wiki/minecraft-guia-completo",
+    "[pipeline] Imagem de capa validada (HTTP 200, image/png)",
+    "[pipeline] Artigo inserido em lib/articles.ts",
+    "[pipeline] Créditos da imagem registrados em _commons_picks.json",
+    "[pipeline] State atualizado"
+  ],
+  "publish": {
+    "ok": false,
+    "deployed": false,
+    "url": null,
+    "error": "tsc falhou",
+    "log": [
+      "[publish] tsc --noEmit"
+    ]
+  }
+}

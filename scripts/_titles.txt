@@ -1,0 +1,343 @@
+Como Buracos Negros Funcionam: O Mistério Cósmico Desvendado
+NASA Science - Black Holes
+Harvard-Smithsonian Center for Astrophysics - Black Holes
+LIGO - Gravitational Waves from Black Holes
+Inteligência Artificial Generativa: Como Ela Funciona
+Vaswani et al. (2017). Attention Is All You Need
+Google AI - Transformer Architecture
+Stanford HAI - AI Index Report
+Por Que Marte é Vermelho: A Ciência Atrás do Planeta Vermelho
+NASA Science - Mars
+ESA - Mars Express
+Nature - Mars Research
+Computação Quântica vs Clássica: As Diferenças Fundamentais
+IBM Quantum Computing
+Google Quantum AI
+Nature - Quantum Physics
+Por Que Humanos Sonham: As Teorias Científicas
+National Sleep Foundation
+NIH - Sleep and Sleep Disorders
+Harvard Health - Sleep
+O Que é Ray Tracing: A Tecnologia que Tornou os Games Realistas
+NVIDIA - What Is Ray Tracing?
+SIGGRAPH - Ray Tracing in Real-Time
+Inteligência Artificial nos Games: Do Fantasma a Inimigos que Aprendem
+MIT Technology Review - The Future of Game AI
+DeepMind - AI for Games
+Ficção Científica x Ciência Real: O que o Cinema Acerta e o que Exagera
+NASA - Science Fiction and Science Fact
+Event Horizon Telescope - Black Hole Image
+Ciência nos Quadrinhos: Os Poderes dos Heróis Sob a Ótica da Física
+NIH - How Gene Editing Works
+Nature - Biotechnology and Genetics
+Curiosidades Científicas do Corpo Humano que Vão te Surpreender
+National Sleep Foundation
+Harvard Health - Body and Health
+Cidades Inteligentes: Como a Tecnologia Vai Moldar o Amanhã
+IEEE - Smart Cities
+European Commission - Smart Cities
+Fusão Nuclear: A Fonte de Energia Que Pode Mudar o Mundo
+ITER - The Way to New Energy
+IAEA - Nuclear Fusion
+Cibersegurança para Iniciantes: Como Proteger Seus Dados Online
+CISA - Cybersecurity Tips
+NCSC - Cyber Aware
+Inteligência Artificial na Medicina: Revolução nos Diagnósticos
+World Health Organization - AI in Health
+Nature Medicine - Artificial Intelligence
+Edição Genética CRISPR: Como Funciona e o que Pode Mudar
+NIH - What are Genome Editing and CRISPR-Cas9?
+Nature - CRISPR Technology
+Telescópio Espacial James Webb: A Máquina que Vê o Passado do Universo
+NASA - James Webb Space Telescope
+ESA - Webb
+STScI - Webb Science
+Exoplanetas: A Busca por Mundos Habitáveis Além do Sistema Solar
+NASA Exoplanet Exploration
+NASA Exoplanet Archive
+ESO - Exoplanets
+Missões Artemis: O Caminho de Volta à Lua e Além
+NASA - Artemis Program
+ESA - Orion European Service Module
+NASA - Lunar Exploration
+Microbioma Intestinal: O Universo de Bactérias que Moram em Você
+NIH - Human Microbiome Project
+Nature Reviews Microbiology
+Harvard T.H. Chan School - The Microbiome
+Partículas Subatômicas e o CERN: Dentro da Máquina que Estuda o Menor dos Mundos
+CERN - The Large Hadron Collider
+CERN - The Standard Model
+Energy.gov - Particle Physics
+Como Funcionam os Algoritmos de Busca: Da Palavra-chave à Resposta
+Google Search Central - How Search Works
+Stanford - The PageRank Citation Ranking
+Bing Webmaster Tools
+Realidade Virtual vs Aumentada: Qual é a Diferença?
+Meta Quest - How VR Works
+Apple - ARKit Developer Documentation
+IEEE - Virtual and Augmented Reality
+Aprendizado de Máquina Explicado: Como Computadores Aprendem
+Google - Machine Learning Crash Course
+MIT - Introduction to Machine Learning
+Nature - Machine Learning
+Ética e Vieses da IA: Quando o Algoritmo Herda Nossos Preconceitos
+UNESCO - Ethics of Artificial Intelligence
+NIST - AI Risk Management Framework
+EU - AI Act
+Como Funciona o CGI: A Ciência Por Trás dos Efeitos Especiais
+Autodesk - VFX and Animation Tools
+CGSociety - Computer Graphics Society
+ACM SIGGRAPH
+O Futuro do Streaming: Onde a TV Por Assinatura Digital Está Indo
+Nielsen - Streaming Data
+Deloitte - Digital Media Trends
+A Evolução dos Motores Gráficos: Dos Pixels ao Tempo Real Fotorrealista
+Unreal Engine - Official Site
+Unity - Real-Time Development Platform
+NVIDIA - Developer Graphics
+Cloud Gaming: Jogar Sem Console, Direto da Nuvem
+NVIDIA GeForce NOW
+Xbox Cloud Gaming
+IEEE - Cloud Gaming Latency Studies
+Computação Vestível: A Tecnologia que Você Veste
+NIH - Wearable Health Devices
+IEEE - Wearables Standards
+FDA - Digital Health
+Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar
+NHTSA - Automated Vehicles
+SAE International - J3016 Levels of Driving Automation
+Waymo Safety Report
+NVIDIA DLSS 5: IA Generativa e Neural Rendering Redefinem os Gráficos dos Jogos
+NVIDIA Developer - DLSS
+TechPowerUp - NVIDIA DLSS 5 Technical Preview Review
+SIGGRAPH 2026 - NVIDIA Keynote
+DLSS 5 Está Dividindo os Jogadores: Avanço Gráfico ou IA Demais nos Games?
+TechSpot - Nvidia is giving developers more control over DLSS 5
+TweakTown - NVIDIA showcases updated DLSS 5 with developer tools
+heise online - Neural Rendering: Nvidia shows DLSS 5 much more cautiously
+Claude 5 da Anthropic: Como Fable e Mythos Estão Redefinindo a IA
+Anthropic - Introducing Claude Opus 5
+Claude.com - Products
+Wikipedia - Anthropic
+NVIDIA Investe Bilhões na MediaTek para Acelerar a Próxima Geração de IA
+Reuters - Nvidia to invest $3.5 billion in chipmaker MediaTek
+NVIDIA Newsroom
+Blockonomi - Nvidia Invests $3.5 Billion in MediaTek
+RTX 5090 Dispara de Preço: Por Que as Placas de Vídeo Topo de Linha Ficaram Tão Caras?
+Tom\'s Hardware - Nvidia\'s top-end RTX 5090 gaming GPU now costs at least $5,000
+Club386 - Regular Nvidia GeForce RTX 5090 cards sail beyond $5,090
+TweakTown - Your next Nvidia GPU could cost up to 30% more
+PCs Gamers Podem Virar Máquinas de IA: A Nova Ideia que Aproveita GPUs Ociosas
+XDA Developers - Old Nvidia GPUs with 24GB VRAM crush AI inference
+VentureBeat - Microsoft debuts Surface RTX Spark Dev Box
+TechCrunch - General Compute GPU-backed loan
+Nova Geração de Monitores OLED para Gamers: 4K, Alta Taxa e Velocidade Extrema
+Samsung - Odyssey G8 6K Monitor Announcement
+Tom\'s Hardware - NVIDIA G-SYNC Compatible Samsung Monitors
+MSI - Odyssey OLED G8 Pricing Announcement
+Samsung Prepara Nova Geração de Memória HBM com Computação Integrada
+Samsung - FMS 2026 Next-Gen 3D-Memory Vision
+Hot Hardware - Samsung zHBM 3D Memory Concept
+Business Wire - Samsung Unveils Next-Gen 3D-Memory Vision
+Instagram Aperta as Regras para Perfis Criados com Inteligência Artificial
+Instagram - AI-Generated Profile Labels FAQ
+Techlomedia - Instagram Will Limit Reach of Undisclosed AI-Generated Profiles
+MediaNama - Meta to limit the reach of undisclosed AI-generated profiles
+Microsoft 365 Enfrenta Instabilidade: O Que Aconteceu
+Bleeping Computer - Microsoft confirms outage affecting search in M365 apps
+PCQuest on MSN - Microsoft Outlook coming back online but outage not over
+Microsoft 365 Service Status
+Telescópio Espacial Roman: A Nova Era de Observação do Universo
+NASA - Nancy Grace Roman Space Telescope
+Space.com - Roman telescope microlensing exoplanet search
+Artemis: O Caminho de Volta à Lua Passa por Grandes Desafios
+NASA - Artemis Program
+NASA - Artemis II Mission
+IA na Medicina: O Avanço da Detecção Precoce de Doenças
+Nature Medicine - AI in health and medicine
+WHO - Ethics and governance of artificial intelligence for health
+Ética e Vieses: Os Grandes Desafios da Inteligência Artificial em 2026
+NIST - AI Risk Management Framework
+UNESCO - Recommendation on the Ethics of Artificial Intelligence
+Computação Quântica em 2026: Avanços Reais e Desafios Ainda Longe de Acabar
+Nature - Suppressing quantum errors by scaling a surface code logical qubit
+IBM Quantum - Hardware and roadmap
+5G Avançado e 6G: O Que Vem depois da Revolução da Conectividade
+ITU - Future networks and 6G vision
+ITU - IMT-2030 framework for 6G
+Microbioma Intestinal: As Bactérias Que Influenciam o Corpo Inteiro
+Nature Reviews Gastroenterology - Gut microbiome
+Harvard T.H. Chan - The Microbiome
+CERN e o Futuro da Física de Partículas: O Que Vem Depois do LHC
+CERN - Accelerators and future projects
+CERN - High-Luminosity LHC
+IA Generativa no Design de Games: Como a Tecnologia Está Mudando a Criação de Jogos
+GDC - State of the Game Industry Report 2026
+NVIDIA - AI in game development
+Cloud Gaming em 2026: O Jogar na Nuvem Finalmente Amadureceu?
+The Verge - Cloud gaming is finally working
+Microsoft - Xbox Cloud Gaming
+O Futuro do Streaming em 2026: Consolidação e Novos Modelos
+Variety - Streaming business and industry news
+Hollywood Reporter - Streaming business news
+IA no Cinema: Como a Inteligência Artificial Transforma os Bastidores
+The Hollywood Reporter - Streaming Coverage
+Variety - AI in Entertainment
+HQs Digitais: O Streaming de Quadrinhos Chega à Maturidade
+ComiXology - Official Site
+DC Universe Infinite
+Superpoderes e Ciência Real: A Física Por Trás dos Quadrinhos
+Marvel - Official Site
+DC Comics - Official Site
+Oceanos Profundos: O Que Ainda Não Conhecemos do Fundo do Mar
+NOAA - Ocean exploration and research
+Nature - Ocean science
+A Matemática do Universo: Os Padrões Escondidos na Natureza
+Plus Magazine - Nature\'s numbers and patterns
+Simons Foundation - The mathematics of natural patterns
+Computação Vestível: O Futuro dos Gadgets que Usamos no Corpo
+MobiHealthNews - Wearable technology trends
+Wearable Technologies - The future of on-body computing
+Energia de Fusão: Os Avanços Rumo à Energia Limpa Ilimitada
+ITER - International Fusion Energy Organization
+Nature Physics - Fusion energy
+Marvel: As Principais Novidades que Estão Movimentando o Universo dos Heróis em 2026
+Marvel Oficial - Notícias e Anúncios
+Variety - Marvel Studios e Cinema
+Spider-Man: Novas Histórias e o Futuro do Herói nos Quadrinhos da Marvel
+Marvel Oficial - Spider-Man nos Quadrinhos
+The Hollywood Reporter - Spider-Man: Brand New Day
+Avengers: O Que Esperar da Nova Fase do Universo Marvel
+Marvel Studios - Avengers: Doomsday
+Variety - Avengers: Doomsday notícias
+DC Comics: A Nova Fase dos Heróis Que Está Chamando Atenção em 2026
+DC Comics - Notícias Oficiais
+DC Studios - Universo DC
+Superman e o Futuro do Homem de Aço no Universo da DC
+DC Comics - Superman
+DC Studios - Superman (2025)
+Batman: Novas Histórias e Desafios Para o Cavaleiro das Trevas
+DC Comics - Batman
+DC Comics - Novidades do Batman
+HBO Max: Os Lançamentos Geek que Prometem Dominar o Streaming em 2026
+Max - Plataforma de Streaming
+Variety - Max streaming lançamentos
+O Terror das Backrooms Chega ao Streaming e Transforma uma Lenda da Internet em Filme
+Variety - Filme das Backrooms em desenvolvimento
+Wikipedia - The Backrooms
+As Séries de Fantasia e Ficção Científica que Estão Ganhando Destaque na HBO Max
+Max - Plataforma de Streaming
+Collider - Max séries e notícias
+Netflix: As Principais Novidades Geek que Chegam ao Catálogo em 2026
+Netflix Tudum - Novidades
+Collider - Netflix notícias
+Resident Evil: O Retorno da Franquia e o Que Esperar da Nova Adaptação
+Capcom - Resident Evil oficial
+IGN - Resident Evil notícias
+As Séries de Ficção Científica e Fantasia Mais Aguardadas da Netflix
+Netflix Tudum - Novidades
+Collider - Netflix notícias
+Disney+: As Novidades de Marvel e Star Wars que Movimentam o Streaming em 2026
+Disney+ - Plataforma
+StarWars.com - Notícias
+The Mandalorian e Grogu: O Futuro de Star Wars Após a Nova Fase da Franquia
+StarWars.com - The Mandalorian and Grogu
+Deadline - The Mandalorian and Grogu
+Disney: Como Marvel, Star Wars e Novas Franquias Estão Moldando o Entretenimento Geek
+Disney+ - Plataforma
+The Walt Disney Company - Notícias
+GTA VI: O Retorno Mais Aguardado de 2026 e Tudo o Que Sabemos Antes do Lançamento
+Rockstar Games - GTA VI
+IGN - Grand Theft Auto VI
+Supergirl: Woman of Tomorrow — O Novo Filme da Garota de Aço no Universo da DC
+DC Studios - Supergirl
+Variety - Supergirl (2026)
+Harry Potter: A Série do HBO Max Que Pretende Rebobinar a Fantasia na Televisão
+Warner Bros. Television - Harry Potter
+BBC - Elenco da série Harry Potter
+The Witcher: A Temporada Final e o Futuro da Fantasia na Netflix
+Netflix Tudum - The Witcher
+Collider - The Witcher temporada final
+Welcome to Derry: A Série de Terror do Max Que Reconstrói o Universo de Stephen King
+Max - Welcome to Derry
+Variety - Welcome to Derry
+Ahsoka: Temporada 2 Ganha Teaser e Data de Estreia — O Que Sabemos
+StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date
+Variety - Cobertura de Star Wars
+Star Wars: Starfighter: O Novo Filme da Saga Terá Ryan Gosling como Protagonista
+StarWars.com - Notícias oficiais
+Variety - Cobertura de cinema
+Lanterns: A Série da HBO que Aproxima os Lanternas Verdes do Estilo True Detective
+HBO - Lanterns (série oficial)
+The Verge - Entertainment
+Spider-Man: Brand New Day Está em Cartaz: O Novo Capítulo de Tom Holland nos Cinemas
+Variety - Film News
+Sony Pictures - Spider-Man: Brand New Day
+Netflix em Setembro de 2026: os Destaques Geek do Mês no Streaming
+Netflix Tudum - Go Behind the Streams
+The Verge - Streaming
+Coyote vs. Acme: a História do Filme que Foi Engavetado e Renasceu
+The Verge - Entertainment
+Variety - Cobertura de cinema
+Star Wars × Marvel: o Crossover Editorial que Une Duas Maiores Máquinas de Histórias
+StarWars.com - Notícias oficiais
+Marvel - Comics
+Linha Absolute da DC: o Universo Paralelo que Redefiniu os Clássicos nos Quadrinhos
+DC.com - Blog e lançamentos
+DC.com - Latest Comics
+DC em Setembro de 2026: Teen Titans #1 e as Novas Séries da Editora
+DC.com - Blog
+DC.com - Latest Comics & Graphic Novels
+The Duskbloods: o Novo PvPvE de FromSoftware Chega ao Nintendo Switch 2
+Nintendo - The Duskbloods (página oficial)
+IGN - Notícias
+Star Wars Zero Company: o Jogo de Táticas da BIT REACTOR Coloca Você no Comando
+StarWars.com - Games + Interactive
+IGN - Star Wars Zero Company
+The Witcher 4: a Nova Saga da CD Projekt Red e o Futuro da Franquia
+IGN - Notícias
+CD Projekt Red - Site oficial
+Xbox Series X e os 25 Anos do Xbox: o que a Geração Atual Aprendeu com o Legado
+The Verge - Gaming
+Xbox Wire - Notícias oficiais
+PS5 Live TV: a Sony Transforma o Console em Central de Transmissões ao Vivo
+IGN - Notícias
+PlayStation - Site oficial
+IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios
+The Verge - Entertainment
+The Verge - AI
+BepiColombo Inicia a Chegada a Mercúrio: o Fim de uma Travessia de Oito Anos
+ESA - BepiColombo Science & Exploration
+Space.com - Space News
+NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA
+NVIDIA Newsroom - NVIDIA to Acquire Hugging Face
+TechCrunch - AI News
+O Decágono de Saturno: Hubble Descobre Padrão Gigante no Polo Sul do Planeta
+ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole
+ScienceDaily - Top Science News
+Pandora: a Missão da NASA que Começou a Decifrar Atmosferas de Exoplanetas
+NASA Science - Missão Pandora
+NASA - NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars
+State of Play de Setembro de 2026: Todos os Anúncios da Sony em Um Só Lugar
+PlayStation.Blog - State of Play & State of Play Japan: all announcements
+IGN - Latest News
+Final Fantasy VII Revelation Tem Data Marcada: o Fim da Trilogia Remake Chega em 2027
+PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027
+Square Enix - Site Oficial
+Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York
+Variety - Luca Guadagnino’s ‘Artificial’ to World Premiere at New York Film Festival (EXCLUSIVE)
+The Verge - Entertainment
+The Odyssey de Christopher Nolan: IMAX 70mm Estendido e Vendas que Batem Recordes
+Variety - ‘The Odyssey’ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million
+IMAX - Site Oficial
+Supergirl Define Data de Chegada ao Streaming: Quando Ver o Filme da DC no HBO Max
+Variety - ‘Supergirl’ Sets HBO Max Streaming Release Date
+DC - Site Oficial
+Star Wars: Starfighter: Ryan Gosling é Kade Auberon — o Que a Revelação Diz Sobre o Filme
+StarWars.com - Ryan Gosling is Kade Auberon in Star Wars: Starfighter
+Space.com - Space Movies & Shows
+Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Nação do Fogo
+Netflix Tudum - Avatar: The Last Airbender (Temporada 3 em 2027)
+Netflix Tudum - Página oficial da série
+Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar
+adrenaline.com.br — Rockstar defende abastecimento em GTA 6
