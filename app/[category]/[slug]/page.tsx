@@ -61,6 +61,7 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     openGraph: {
       title: article.title,
       description: article.excerpt,
+      url: `${SITE_URL}/${article.category.slug}/${article.slug}`,
       images: article.featuredImage ? [{ url: article.featuredImage }] : undefined,
       type: 'article',
       publishedTime: article.publishedAt,
