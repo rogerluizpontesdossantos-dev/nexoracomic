@@ -13,9 +13,9 @@ export default function Hero() {
         distance={24}
         elevation={-5.5}
         fov={42}
-        glow={1}
-        steps={300}
-        resolution={0.7}
+        glow={0.8}
+        steps={150}
+        resolution={0.5}
         hotColor="#FFF3DE"
         midColor="#FF9838"
         coolColor="#8E3A0B"

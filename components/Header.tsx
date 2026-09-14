@@ -99,7 +99,7 @@ export default function Header() {
               className="lg:hidden p-2 rounded-lg hover:bg-card transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-expanded={mobileMenuOpen}
-              aria-label="Menu"
+              aria-label={mobileMenuOpen ? "Fechar menu" : "Abrir menu"}
             >
               <svg
                 className="w-6 h-6"

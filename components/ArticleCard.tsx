@@ -16,6 +16,8 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
               <img
                 src={article.featuredImage}
                 alt={article.imageAlt || article.title}
+                width={80}
+                height={80}
                 className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
                 loading="lazy"
               />
@@ -53,6 +55,8 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
                 <img
                   src={article.featuredImage}
                   alt={article.imageAlt || article.title}
+                  width={800}
+                  height={400}
                   className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
                   loading="eager"
                 />
@@ -105,6 +109,8 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
               <img
                 src={article.featuredImage}
                 alt={article.imageAlt || article.title}
+                width={800}
+                height={400}
                 className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />

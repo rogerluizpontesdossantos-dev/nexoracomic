@@ -268,13 +268,22 @@ html {
   transform: scale(1.04);
 }
 
-/* Reduced motion support */
+/* Reduced motion support - consolidated */
 @media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
   .card-hover:hover {
     transform: none;
   }
 
-     .group:hover img {
+  .group:hover img {
     transform: none;
   }
 }
@@ -336,14 +345,4 @@ html {
 
 .animate-pulse-glow {
   animation: pulse-glow 4s ease-in-out infinite;
-}
-
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
 }
