@@ -1,6 +1,28 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+
+// A 404 não deve ser indexada e não deve declarar canonical.
+// Sem este export, o metadata do layout raiz ("index, follow" e
+// canonical "/") é herdado e chega ao HTML da página 404, produzindo
+// duas diretivas de robots conflitantes e um canonical para a home.
+// Next.js já adiciona `noindex` automaticamente nesta rota; declarar aqui
+// remove o conflito e neutraliza o canonical herdado.
+export const metadata: Metadata = {
+  title: 'Página não encontrada',
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
+  },
+  alternates: {
+    canonical: undefined,
+  },
+};
 
 export default function NotFound() {
   return (

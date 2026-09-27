@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
+import Link from 'next/link';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 
@@ -29,6 +30,7 @@ interface ArticleImage {
   id: string;
   slug: string;
   title: string;
+  categorySlug?: string;
   imageFile?: string;
   imageLicense?: string;
   imageArtist?: string;
@@ -53,14 +55,17 @@ function getArticleImages(): ArticleImage[] {
     const raw = readFileSync(filePath, 'utf8');
     
     const articles: ArticleImage[] = [];
-    const articleRegex = /id:\s*'([^']+)'[\s\S]*?slug:\s*'([^']+)'[\s\S]*?title:\s*'([^']+)'[\s\S]*?featuredImage:\s*'([^']+)'[\s\S]*?imageAlt:\s*'([^']+)'/g;
+    // A categoria real do artigo é capturada junto: o link "Ver artigo" precisa
+    // usar /{category.slug}/{slug}, nunca uma categoria fixa.
+    const articleRegex = /id:\s*'([^']+)'[\s\S]*?slug:\s*'([^']+)'[\s\S]*?title:\s*'([^']+)'[\s\S]*?category:\s*\{\s*id:\s*'[^']*',\s*slug:\s*'([^']*)'[\s\S]*?featuredImage:\s*'([^']+)'[\s\S]*?imageAlt:\s*'([^']+)'/g;
     
     let match;
     while ((match = articleRegex.exec(raw)) !== null) {
       const id = match[1];
       const slug = match[2];
       const title = match[3];
-      const featuredImage = match[4];
+      const categorySlug = match[4];
+      const featuredImage = match[5];
       
       const metaRegex = new RegExp(
         `id:\\s*'${id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'[\\s\\S]*?imageLicense:\\s*'([^']*)'[\\s\\S]*?imageArtist:\\s*'([^']*)'[\\s\\S]*?imageCommonsUrl:\\s*'([^']*)'`
@@ -71,6 +76,7 @@ function getArticleImages(): ArticleImage[] {
         id,
         slug,
         title,
+        categorySlug: categorySlug || undefined,
         featuredImage,
         imageLicense: metaMatch?.[1] || undefined,
         imageArtist: metaMatch?.[2] || undefined,
@@ -93,6 +99,7 @@ export default function CreditosImagensPage() {
     id: string;
     title: string;
     slug?: string;
+    categorySlug?: string;
     imageFile: string;
     license: string;
     artist: string;
@@ -123,6 +130,7 @@ export default function CreditosImagensPage() {
         id: article.id,
         title: article.title,
         slug: article.slug,
+        categorySlug: article.categorySlug,
         imageFile: article.featuredImage,
         license: article.imageLicense || 'Desconhecida',
         artist: article.imageArtist || 'Desconhecido',
@@ -184,13 +192,13 @@ export default function CreditosImagensPage() {
 
                 <div className="p-4 space-y-2">
                   <h3 className="font-semibold text-sm line-clamp-2">{credit.title}</h3>
-                  {credit.slug && (
-                    <a 
-                      href={`/games/${credit.slug}`}
+                  {credit.slug && credit.categorySlug && (
+                    <Link
+                      href={`/${credit.categorySlug}/${credit.slug}`}
                       className="text-xs text-amber-400 hover:text-amber-300 hover:underline"
                     >
                       Ver artigo →
-                    </a>
+                    </Link>
                   )}
                   <div className="pt-2 border-t border-zinc-800 space-y-1 text-xs text-zinc-400">
                     <p><strong className="text-zinc-300">Autor:</strong> {credit.artist}</p>
