@@ -1,3 +1,11 @@
+'use client';
+
+import { useEffect, useSyncExternalStore } from 'react';
+import { ADSENSE_CLIENT_ID, isAdsEnabled } from '@/lib/ads';
+
+const CONSENT_KEY = 'nexora_cookie_consent';
+const CONSENT_EVENT = 'nexora:consent';
+
 interface AdSlotProps {
   slot: string;
   size?: 'banner' | 'rectangle' | 'skyscraper';
@@ -5,25 +13,65 @@ interface AdSlotProps {
 }
 
 /**
- * AdSense Ad Slot Component
- * 
- * This component is DISABLED by default until AdSense approval is received.
- * To enable ads:
- * 1. Get AdSense approval from Google
- * 2. Add your AdSense publisher ID to environment variables
- * 3. Set ENABLE_ADS=true in environment variables
- * 4. Replace the placeholder with actual AdSense code
- * 
+ * Estado de consentimento como external store.
+ *
+ * Evita setState dentro de effect: o valor é lido sob demanda via
+ * getSnapshot e o componente re-renderiza quando o evento de
+ * consentimento é disparado (ou quando outro aba altera o storage).
+ */
+function subscribeToConsent(onChange: () => void): () => void {
+  window.addEventListener(CONSENT_EVENT, onChange);
+  window.addEventListener('storage', onChange);
+  return () => {
+    window.removeEventListener(CONSENT_EVENT, onChange);
+    window.removeEventListener('storage', onChange);
+  };
+}
+
+function getConsentSnapshot(): string {
+  return window.localStorage.getItem(CONSENT_KEY) ?? 'pending';
+}
+
+/** No servidor não há localStorage: nada é renderizado. */
+function getServerConsentSnapshot(): string {
+  return 'pending';
+}
+
+/**
+ * AdSense Ad Slot.
+ *
+ * Regras (idênticas às do carregamento do script em CookieConsent):
+ *  - Publicidade desabilitada (NEXT_PUBLIC_ENABLE_ADS != 'true')
+ *    -> não renderiza nada e não carrega script algum.
+ *  - Sem consentimento aceito -> não renderiza o <ins>, portanto nenhum
+ *    pedido ao AdSense é feito.
+ *  - Com consentimento + anúncios habilitados -> renderiza o <ins> e
+ *    envia o push para o adsbygoogle.
+ *
  * NEVER enable ads before official approval.
  * NEVER place ads over navigation or buttons.
  * NEVER make ads look like content.
  */
-
 export default function AdSlot({ slot, size = 'banner', className = '' }: AdSlotProps) {
-  // Ads are disabled by default
-  const adsEnabled = process.env.NEXT_PUBLIC_ENABLE_ADS === 'true';
+  const adsEnabled = isAdsEnabled();
+  const consent = useSyncExternalStore(
+    subscribeToConsent,
+    getConsentSnapshot,
+    getServerConsentSnapshot
+  );
 
-  if (!adsEnabled) {
+  const shouldRender = adsEnabled && consent === 'accepted';
+
+  // Garante que o adsbygoogle esteja disponível antes do push, apenas
+  // quando o script foi de fato carregado (consentimento + anúncios).
+  useEffect(() => {
+    if (!shouldRender) return;
+    const w = window as Window & { adsbygoogle?: unknown[] };
+    w.adsbygoogle = w.adsbygoogle || [];
+    w.adsbygoogle.push({});
+  }, [shouldRender]);
+
+  if (!shouldRender) {
     return null;
   }
 
@@ -35,24 +83,18 @@ export default function AdSlot({ slot, size = 'banner', className = '' }: AdSlot
 
   return (
     <div
-      className={`flex items-center justify-center bg-card/30 border border-border ${sizeClasses[size]} ${className}`}
+      className={`flex items-center justify-center ${sizeClasses[size]} ${className}`}
       data-ad-slot={slot}
       aria-label="Publicidade"
     >
-      {/* 
-        TODO: Replace with actual AdSense code when approved
-        Example:
-        <ins
-          className="adsbygoogle"
-          style={{ display: 'block' }}
-          data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-          data-ad-slot={slot}
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      */}
-      <span className="text-xs text-muted-foreground">Espaço reservado para publicidade</span>
+      <ins
+        className="adsbygoogle"
+        style={{ display: 'block' }}
+        data-ad-client={ADSENSE_CLIENT_ID}
+        data-ad-slot={slot}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
     </div>
   );
 }

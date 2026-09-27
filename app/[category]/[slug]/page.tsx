@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Newsletter from '@/components/Newsletter';
 import { ArticleBreadcrumbs } from '@/components/Breadcrumbs';
 import ArticleCard from '@/components/ArticleCard';
-import { Article, SITE_URL } from '@/lib/types';
+import { Article, SITE_NAME, SITE_URL } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 import AdSlot from '@/components/AdSlot';
 
@@ -52,27 +52,38 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
     };
   }
 
+  const url = `${SITE_URL}/${article.category.slug}/${article.slug}`;
+  // Imagem social: capa do artigo (TASK 61-A) ou fallback do site.
+  const image = article.featuredImage ?? '/og-image.png';
+
   return {
     title: article.title,
     description: article.excerpt,
+    authors: [{ name: article.author.name }],
+    keywords: article.tags,
     alternates: {
-      canonical: `${SITE_URL}/${article.category.slug}/${article.slug}`,
+      canonical: url,
     },
     openGraph: {
+      type: 'article',
+      siteName: SITE_NAME,
+      locale: 'pt_BR',
+      url,
       title: article.title,
       description: article.excerpt,
-      url: `${SITE_URL}/${article.category.slug}/${article.slug}`,
-      images: article.featuredImage ? [{ url: article.featuredImage }] : undefined,
-      type: 'article',
+      images: [{ url: image, alt: article.imageAlt || article.title }],
       publishedTime: article.publishedAt,
-      modifiedTime: article.updatedAt,
+      // Sem updatedAt real, não emitir modifiedTime (evita data inventada).
+      ...(article.updatedAt ? { modifiedTime: article.updatedAt } : {}),
       authors: [article.author.name],
+      section: article.category.name,
+      tags: article.tags,
     },
     twitter: {
       card: 'summary_large_image',
       title: article.title,
       description: article.excerpt,
-      images: article.featuredImage ? [article.featuredImage] : undefined,
+      images: [image],
     },
   };
 }
@@ -87,26 +98,53 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
   const relatedArticles = getRelatedArticles(article, 3);
 
+  const articleUrl = `${SITE_URL}/${article.category.slug}/${article.slug}`;
+
+  // Schema.org "Article" (não "NewsArticle"): o NexoraComic publica
+  // análises e textos editoriais de ciência/tecnologia/cultura, não
+  // notícias breaking. Usar NewsArticle aqui seria imjustificado.
+  // dateModified = updatedAt quando existir; caso contrário permanece
+  // igual à publicação (nenhuma data é inventada).
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
+    '@id': articleUrl,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': articleUrl,
+      url: articleUrl,
+    },
+    url: articleUrl,
     headline: article.title,
     description: article.excerpt,
-    image: article.featuredImage,
-    mainEntityOfPage: `${SITE_URL}/${article.category.slug}/${article.slug}`,
-    author: {
-      '@type': 'Person',
-      name: article.author.name,
-    },
+    image: article.featuredImage ? [article.featuredImage] : [`${SITE_URL}/og-image.png`],
+    inLanguage: 'pt-BR',
     datePublished: article.publishedAt,
     dateModified: article.updatedAt || article.publishedAt,
+    // A autoria é de uma equipe editorial (organização), não uma pessoa real:
+    // declarar "Person" seria inventar autoria individual.
+    author: {
+      '@type': 'Organization',
+      name: article.author.name,
+      url: SITE_URL,
+    },
     publisher: {
       '@type': 'Organization',
-      name: 'NexoraComic',
+      name: SITE_NAME,
+      url: SITE_URL,
       logo: {
         '@type': 'ImageObject',
         url: `${SITE_URL}/logo-icon.svg`,
+        width: 512,
+        height: 512,
       },
+    },
+    articleSection: article.category.name,
+    keywords: article.tags?.length ? article.tags.join(', ') : undefined,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: SITE_NAME,
+      url: SITE_URL,
     },
   };
 

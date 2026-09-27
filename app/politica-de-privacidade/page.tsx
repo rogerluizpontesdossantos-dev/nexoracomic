@@ -21,7 +21,7 @@ export default function PoliticaPrivacidadePage() {
           
           <div className="prose prose-invert max-w-none space-y-6">
             <p className="text-sm text-muted-foreground">
-              Última atualização: 15 de janeiro de 2024
+              Última atualização: 27 de setembro de 2026
             </p>
             
             <p>
@@ -63,12 +63,21 @@ export default function PoliticaPrivacidadePage() {
               <li>Para proteger nossos direitos e propriedade</li>
             </ul>
             
-            <h2>4. Cookies e Publicidade</h2>
+            <h2>4. Cookies, Publicidade e Consentimento</h2>
             <p>
               Usamos cookies para melhorar sua experiência de navegação, analisar o tráfego do site e personalizar conteúdo. Você pode configurar seu navegador para recusar cookies.
             </p>
             <p>
-              O NexoraComic poderá exibir anúncios por meio do Google AdSense no futuro. Quando isso ocorrer, o Google e seus parceiros poderão usar cookies para veicular anúncios com base em visitas anteriores a este ou a outros sites. Você pode desativar a publicidade personalizada nas{' '}
+              Este site exibe um banner de consentimento.{' '}
+              <strong>Somente após o seu aceite</strong> são carregados recursos de terceiros —
+              Google AdSense (publicidade) e Google Analytics (métricas de acesso). Se você
+              escolher recusar, esses recursos não são carregados. Você pode revisar e alterar
+              sua escolha a qualquer momento pelo botão de preferências de cookies.
+            </p>
+            <p>
+              O NexoraComic utiliza o Google AdSense para publicidade. O Google e seus parceiros
+              podem usar cookies para veicular anúncios com base em visitas anteriores a este ou a
+              outros sites. Você pode desativar a publicidade personalizada nas{' '}
               <a
                 href="https://www.google.com/settings/ads"
                 target="_blank"
@@ -77,7 +86,21 @@ export default function PoliticaPrivacidadePage() {
               >
                 Configurações de Anúncios do Google
               </a>
-              . Esta seção será atualizada quando a publicidade for efetivamente ativada.
+              . Os dados são tratados conforme a{' '}
+              <a
+                href="https://policies.google.com/technologies/partner-sites"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                política de sites de parceiros do Google
+              </a>
+              .
+            </p>
+            <p>
+              O site também declara sua conta de publicidade no arquivo{' '}
+              <a href="/ads.txt" className="text-primary hover:underline">ads.txt</a>, para que
+              redes de publicidade possam verificar a titularidade do publisher.
             </p>
             
             <h2>5. Seus Direitos</h2>

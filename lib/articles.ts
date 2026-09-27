@@ -435,8 +435,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2024-01-16',
     readingTime: 6,
-    featuredImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80',
-    imageAlt: 'Setup de videogame com teclado e monitor iluminado por luzes coloridas',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Rendering_techniques_example%2C_ray_tracing%2C_radiosity%2C_photon_mapping%2C_POV-Ray.png/500px-Rendering_techniques_example%2C_ray_tracing%2C_radiosity%2C_photon_mapping%2C_POV-Ray.png',
+    imageAlt: 'Render 3D de uma cena produzida com ray tracing e radiosidade, com iluminação indireta visível',
     sources: [
       {
         title: 'NVIDIA - What Is Ray Tracing?',
@@ -1836,8 +1836,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2024-02-01',
     readingTime: 6,
-    featuredImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80',
-    imageAlt: 'Controle de videogame com luzes azul e roxa em ambiente escuro',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/NOIRLab_HQ_Server_Racks_%286V6A0404-CC%29.jpg/960px-NOIRLab_HQ_Server_Racks_%286V6A0404-CC%29.jpg',
+    imageAlt: 'Fileiras de servidores de um data center que operam serviços em nuvem',
     sources: [
       {
         title: 'NVIDIA GeForce NOW',
@@ -2027,8 +2027,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?gaming,computer-monitor',
-    imageAlt: 'Jogador usando PC gamer com monitores de alta resolução e iluminação RGB',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Gigabyte_GeForce_RTX_3090_Eagle_OC_24G%2C_24576_MiB_GDDR6X_Front_20201114_DSC5880.jpg/960px-Gigabyte_GeForce_RTX_3090_Eagle_OC_24G%2C_24576_MiB_GDDR6X_Front_20201114_DSC5880.jpg',
+    imageAlt: 'Placa de vídeo GeForce RTX 3090 com dois ventiladores e dissipador metálico',
     sources: [
       {
         title: 'NVIDIA Developer - DLSS',
@@ -2082,8 +2082,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?gaming,reaction,discussion',
-    imageAlt: 'Compartilhamento de tela mostrando discussão sobre gráficos de jogo com comentários',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Legends_are_born_during_esports_tournament_%284496043%29.jpg/960px-Legends_are_born_during_esports_tournament_%284496043%29.jpg',
+    imageAlt: 'Jogadores competindo em um torneio de esports diante das telas dos computadores',
     sources: [
       {
         title: 'TechSpot - Nvidia is giving developers more control over DLSS 5',
@@ -2144,8 +2144,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-30',
     readingTime: 9,
-    featuredImage: 'https://source.unsplash.com/800x600/?artificial-intelligence,technology',
-    imageAlt: 'Ilustração artística de redes neurais e circuitos de IA futurista',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/960px-BalticServers_data_center.jpg',
+    imageAlt: 'Sala de servidores de data center com fileiras de máquinas em funcionamento',
     sources: [
       {
         title: 'Anthropic - Introducing Claude Opus 5',
@@ -2206,8 +2206,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?chips,semiconductor,technology',
-    imageAlt: 'Close de chips semicondutor com circuitos integrados iluminados',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Multicrystalline_silicon_wafer_with_thin_film_iridescence.jpg/960px-Multicrystalline_silicon_wafer_with_thin_film_iridescence.jpg',
+    imageAlt: 'Wafer de silício multicristalino com reflexos finos sobre superfície espelhada',
     sources: [
       {
         title: 'Reuters - Nvidia to invest $3.5 billion in chipmaker MediaTek',
@@ -2272,8 +2272,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?graphics-card,computer-hardware',
-    imageAlt: 'Placa de vídeo NVIDIA RTX 5090 com iluminação RGB em setup gamer',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Nvidia_GeForce_RTX_5060_Ti_16GB%2C_PNY_Overclocked_Dual_Fan%2C_front.jpg/960px-Nvidia_GeForce_RTX_5060_Ti_16GB%2C_PNY_Overclocked_Dual_Fan%2C_front.jpg',
+    imageAlt: 'Placa de vídeo GeForce RTX 5060 Ti de dois ventiladores sobre fundo claro',
     sources: [
       {
         title: 'Tom\'s Hardware - Nvidia\'s top-end RTX 5090 gaming GPU now costs at least $5,000',
@@ -2347,8 +2347,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?computer-setup,gaming-pc',
-    imageAlt: 'Setup de PC gamer com múltiplas GPUs e iluminação RGB em ambiente escuro',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Asus-ROG-Strix-Z390-F-Gaming-Motherboard_20201120_DSC6025.jpg/500px-Asus-ROG-Strix-Z390-F-Gaming-Motherboard_20201120_DSC6025.jpg',
+    imageAlt: 'Placa-mãe gamer com componentes eletrônicos e iluminação RGB',
     sources: [
       {
         title: 'XDA Developers - Old Nvidia GPUs with 24GB VRAM crush AI inference',
@@ -2412,8 +2412,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?monitor,gaming-setup',
-    imageAlt: 'Monitores OLED gamers com jogo em execução e iluminação ambiente',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sony_oled.jpg/960px-Sony_oled.jpg',
+    imageAlt: 'Tela OLED de televisão exibindo imagem em ambiente escuro',
     sources: [
       {
         title: 'Samsung - Odyssey G8 6K Monitor Announcement',
@@ -2481,8 +2481,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-31',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?memory-chip,technology',
-    imageAlt: 'Close de chips de memória HBM empilhados com iluminação azul',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/RAM_%281%29.jpg/960px-RAM_%281%29.jpg',
+    imageAlt: 'Módulos de memória RAM de computador em primeiro plano',
     sources: [
       {
         title: 'Samsung - FMS 2026 Next-Gen 3D-Memory Vision',
@@ -2548,8 +2548,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?social-media,phone',
-    imageAlt: 'Pessoa segurando smartphone com interface do Instagram e posts de IA visíveis',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Two_iPhones_%281091302%29.jpg/960px-Two_iPhones_%281091302%29.jpg',
+    imageAlt: 'Dois smartphones iPhone lado a lado sobre uma mesa',
     sources: [
       {
         title: 'Instagram - AI-Generated Profile Labels FAQ',
@@ -2624,8 +2624,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?office,computer-work',
-    imageAlt: 'Escritório moderno com computadores e telas mostrando aplicativos do Microsoft 365',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Wikimedia_Foundation_Servers-8055_13.jpg/960px-Wikimedia_Foundation_Servers-8055_13.jpg',
+    imageAlt: 'Fileiras de servidores de um data center de produção',
     sources: [
       {
         title: 'Bleeping Computer - Microsoft confirms outage affecting search in M365 apps',
@@ -2683,8 +2683,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?telescope,space,astronomy',
-    imageAlt: 'Ilustração de telescópio espacial apontado para um céu estrelado',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Nancy_Grace_Roman_Space_Telescope_%282020-35-4665%29.png/500px-Nancy_Grace_Roman_Space_Telescope_%282020-35-4665%29.png',
+    imageAlt: 'Ilustração oficial da NASA do telescópio espacial Nancy Grace Roman',
     sources: [
       {
         title: 'NASA - Nancy Grace Roman Space Telescope',
@@ -2737,8 +2737,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?moon,space,astronaut',
-    imageAlt: 'Astronauta caminhando na superfície lunar com a Terra ao fundo',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Launch_of_Artemis_1_%28NHQ202211160005%29_%28cropped%29.jpg/960px-Launch_of_Artemis_1_%28NHQ202211160005%29_%28cropped%29.jpg',
+    imageAlt: 'Foguete Artemis 1 subindo da plataforma de lançamento na Cabo Canaveral',
     sources: [
       {
         title: 'NASA - Artemis Program',
@@ -2792,8 +2792,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?healthcare,ai,medicine',
-    imageAlt: 'Médico analisando exames em tela com ajuda de sistemas de IA',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/MRI-Philips.JPG/960px-MRI-Philips.JPG',
+    imageAlt: 'Equipamento de ressonância magnética instalado em sala de diagnóstico',
     sources: [
       {
         title: 'Nature Medicine - AI in health and medicine',
@@ -2847,8 +2847,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?ethics,ai,algorithm',
-    imageAlt: 'Balança da justiça sobrepostas a circuitos e dados digitais representando ética em IA',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Human-robot.jpg/960px-Human-robot.jpg',
+    imageAlt: 'Mão robótica artificial ao lado de uma mão humana',
     sources: [
       {
         title: 'NIST - AI Risk Management Framework',
@@ -2901,8 +2901,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?quantum,physics,computer',
-    imageAlt: 'Representação de computador quântico com fios e circuitos refrigerados',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Quantum-computer-Chalmers_2017.jpg/960px-Quantum-computer-Chalmers_2017.jpg',
+    imageAlt: 'Computador quântico do Chalmers em laboratório de pesquisa',
     sources: [
       {
         title: 'Nature - Suppressing quantum errors by scaling a surface code logical qubit',
@@ -2955,8 +2955,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?network,5g,signal',
-    imageAlt: 'Torre de transmissão de sinal com visualização de ondas de conectividade',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Cellular_5G_Equipment_-_Cell_Tower_Antennas.jpg/960px-Cellular_5G_Equipment_-_Cell_Tower_Antennas.jpg',
+    imageAlt: 'Antenas de telefone celular instaladas em torre de telecomunicações',
     sources: [
       {
         title: 'ITU - Future networks and 6G vision',
@@ -3016,8 +3016,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?microbiome,bacteria,health',
-    imageAlt: 'Ilustração de bactérias intestinais saudáveis em ambiente microscópico',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Bacteria_in_saline_wet_mount.jpg/960px-Bacteria_in_saline_wet_mount.jpg',
+    imageAlt: 'Bactérias observadas ao microscópio em uma preparação em salina',
     sources: [
       {
         title: 'Nature Reviews Gastroenterology - Gut microbiome',
@@ -3071,8 +3071,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?cern,physics,particle',
-    imageAlt: 'Túnel de acelerador de partículas com detectores e cabos',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/ALICE_TPC.jpg/960px-ALICE_TPC.jpg',
+    imageAlt: 'Detector ALICE do Grande Colisor de Hadrones visto de dentro da caverna',
     sources: [
       {
         title: 'CERN - Accelerators and future projects',
@@ -3126,8 +3126,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?video-game,ai,art',
-    imageAlt: 'Controle de videogame cercado por elementos de arte digital e IA',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gears_4_The_Coalition.jpg/960px-Gears_4_The_Coalition.jpg',
+    imageAlt: 'Equipe de desenvolvimento de jogos trabalhando no estúdio The Coalition',
     sources: [
       {
         title: 'GDC - State of the Game Industry Report 2026',
@@ -3183,8 +3183,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?cloud,gaming,streaming',
-    imageAlt: 'Controle de videogame conectado a ícones de nuvem e streaming digital',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/PlayStation-TV-BL.jpg/960px-PlayStation-TV-BL.jpg',
+    imageAlt: 'Console de streaming PlayStation TV apoiado sobre uma superfície',
     sources: [
       {
         title: 'The Verge - Cloud gaming is finally working',
@@ -3237,8 +3237,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?streaming,movies,tv',
-    imageAlt: 'Controle remoto diante de uma televisão exibindo catálogo de streaming',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Green_screen_live_streaming_production_at_Mediehuset_K%C3%B8benhavn.jpg/960px-Green_screen_live_streaming_production_at_Mediehuset_K%C3%B8benhavn.jpg',
+    imageAlt: 'Estúdio de transmissão ao vivo com tela verde e equipamento de captação',
     sources: [
       {
         title: 'Variety - Streaming business and industry news',
@@ -3292,8 +3292,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?film,camera,cinema',
-    imageAlt: 'Câmera de cinema em set de filmagem com paletas de efeitos visuais',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Camera_set_-_Army_wives.JPG/960px-Camera_set_-_Army_wives.JPG',
+    imageAlt: 'Equipe de cinema operando câmeras durante as filmagens de uma cena',
     sources: [
       {
         title: 'The Hollywood Reporter - Streaming Coverage',
@@ -3347,8 +3347,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?comics,tablet,reading',
-    imageAlt: 'Quadrinhos digitais em tablet com personagens em cores vibrantes',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Entourage_Edge_B%26H_Photo_jeh.jpg/960px-Entourage_Edge_B%26H_Photo_jeh.jpg',
+    imageAlt: 'Leitor de livros eletrônicos com tela usada para leitura de histórias em quadrinhos',
     sources: [
       {
         title: 'ComiXology - Official Site',
@@ -3402,8 +3402,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?superhero,comics,energy',
-    imageAlt: 'Silhueta de super-herói com descargas de energia e efeitos de física',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Plasma-lamp.jpg/960px-Plasma-lamp.jpg',
+    imageAlt: 'Lâmpada de plasma com filamentos luminosos em descarga no interior',
     sources: [
       {
         title: 'Marvel - Official Site',
@@ -3456,8 +3456,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?ocean,deep,underwater',
-    imageAlt: 'Fundo do oceano escuro com luz de um submersível explorando',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Uncinateridae_Tretopleura_2.jpg/960px-Uncinateridae_Tretopleura_2.jpg',
+    imageAlt: 'Esponja marinha de águas profundas fotografada em ambiente submerso',
     sources: [
       {
         title: 'NOAA - Ocean exploration and research',
@@ -3511,8 +3511,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?fractal,math,nature',
-    imageAlt: 'Espiral dourada sobre uma flor, ilustrando padrões matemáticos da natureza',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/960px-NautilusCutawayLogarithmicSpiral.jpg',
+    imageAlt: 'Imagem do conjunto de Mandelbrot mostrando padrões fractais da natureza',
     sources: [
       {
         title: 'Plus Magazine - Nature\'s numbers and patterns',
@@ -3566,8 +3566,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?smartwatch,wearable,tech',
-    imageAlt: 'Mão com smartwatch medindo sinais vitais e gráficos de saúde na tela',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Child%27s_phone_watch_%28smartwatch%29_in_China_%28boy%29.jpg/960px-Child%27s_phone_watch_%28smartwatch%29_in_China_%28boy%29.jpg',
+    imageAlt: 'Criança usando relógio inteligente no pulso em via pública',
     sources: [
       {
         title: 'MobiHealthNews - Wearable technology trends',
@@ -3620,8 +3620,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?fusion,nuclear,energy',
-    imageAlt: 'Reator de fusão com plasma brilhante em câmara magnética de laboratório',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/U.S._Department_of_Energy_-_Science_-_114_037_002_%289952319616%29.jpg/960px-U.S._Department_of_Energy_-_Science_-_114_037_002_%289952319616%29.jpg',
+    imageAlt: 'Câmara do reator tokamak de fusão nuclear durante uma operação',
     sources: [
       {
         title: 'ITER - International Fusion Energy Organization',
@@ -3676,8 +3676,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?marvel,superhero,comics',
-    imageAlt: 'Colagem de heróis com efeitos visuais inspirados no universo Marvel',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Comic_book_shop_Blunder_Utrecht.JPG/960px-Comic_book_shop_Blunder_Utrecht.JPG',
+    imageAlt: 'Loja de histórias em quadrinhos com estantes e capas expostas',
     sources: [
       {
         title: 'Marvel Oficial - Notícias e Anúncios',
@@ -3729,8 +3729,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?spiderman,superhero,comics',
-    imageAlt: 'Ilustração urbana de um herói aranha escalando um edifício',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg/960px-Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg',
+    imageAlt: 'Cosplayer vestido de Homem-Aranha em feira de quadrinhos',
     sources: [
       {
         title: 'Marvel Oficial - Spider-Man nos Quadrinhos',
@@ -3782,8 +3782,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-28',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?avengers,cinema,superhero',
-    imageAlt: 'Grupo de heróis em pose épica com luzes dramáticas de cinema',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/C2E2_2013_-_Avengers_%288684301574%29.jpg/960px-C2E2_2013_-_Avengers_%288684301574%29.jpg',
+    imageAlt: 'Cosplayers de personagens dos Vingadores em convenção de quadrinhos',
     sources: [
       {
         title: 'Marvel Studios - Avengers: Doomsday',
@@ -3835,8 +3835,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?dc,superhero,comics',
-    imageAlt: 'Silhueta de heróis da DC com fundo azul dramático',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Source_Comics_and_Games_01.jpg/960px-Source_Comics_and_Games_01.jpg',
+    imageAlt: 'Loja de quadrinhos e jogos com prateleiras e caixas expostas',
     sources: [
       {
         title: 'DC Comics - Notícias Oficiais',
@@ -3888,8 +3888,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-30',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?superman,hero,sky',
-    imageAlt: 'Homem voando em direção ao céu com capa ao vento',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Superman_cosplay_by_Greg_Carlson.jpg/960px-Superman_cosplay_by_Greg_Carlson.jpg',
+    imageAlt: 'Cosplayer de Superman posando para a câmera',
     sources: [
       {
         title: 'DC Comics - Superman',
@@ -3941,8 +3941,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-29',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?batman,gotham,night',
-    imageAlt: 'Silhueta de morcego sobre a cidade à noite',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cosplay_of_Batman_66_at_NYCC_2023.jpg/960px-Cosplay_of_Batman_66_at_NYCC_2023.jpg',
+    imageAlt: 'Cosplayer de Batman 66 em convenção de quadrinhos',
     sources: [
       {
         title: 'DC Comics - Batman',
@@ -3994,8 +3994,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?streaming,series,technology',
-    imageAlt: 'Tela de streaming com série de fantasia em destaque',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Mr_Lewis_Calling_-_Studio_Set_%28Image_3%29.jpg/960px-Mr_Lewis_Calling_-_Studio_Set_%28Image_3%29.jpg',
+    imageAlt: 'Cenário de estúdio de televisão com equipamentos de produção',
     sources: [
       {
         title: 'Max - Plataforma de Streaming',
@@ -4047,8 +4047,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?empty,office,creepy',
-    imageAlt: 'Corredor de escritório vazio e com luz amarelada sinistra',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Abandoned_interiors_in_Hermanninranta%2C_Helsinki%2C_Finland%2C_2021_-_03.jpg/960px-Abandoned_interiors_in_Hermanninranta%2C_Helsinki%2C_Finland%2C_2021_-_03.jpg',
+    imageAlt: 'Interiores abandonados de um prédio vazio com paredes descascadas',
     sources: [
       {
         title: 'Variety - Filme das Backrooms em desenvolvimento',
@@ -4100,8 +4100,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-31',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?fantasy,science-fiction,space',
-    imageAlt: 'Imagem de galáxia futurista com tons de fantasia',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Science_Fiction_Treffen%2C_Speyer._2019-09-29_14-48-47.jpg/960px-Science_Fiction_Treffen%2C_Speyer._2019-09-29_14-48-47.jpg',
+    imageAlt: 'Participantes do encontro de ficção científica Science Fiction Treffen, em Speyer',
     sources: [
       {
         title: 'Max - Plataforma de Streaming',
@@ -4153,8 +4153,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?netflix,streaming,geek',
-    imageAlt: 'Tela de plataforma de streaming com conteúdo de ficção',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Watching_Home_Movies_%283248163748%29.jpg/960px-Watching_Home_Movies_%283248163748%29.jpg',
+    imageAlt: 'Família assistindo a filmes em casa na frente da televisão',
     sources: [
       {
         title: 'Netflix Tudum - Novidades',
@@ -4206,8 +4206,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?resident-evil,zombie,horror',
-    imageAlt: 'Imagem sombria de ambiente apocalíptico com tons de horror',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Whitchurch_Hospital_Corridor_Abandoned_West5_Ward.jpg/960px-Whitchurch_Hospital_Corridor_Abandoned_West5_Ward.jpg',
+    imageAlt: 'Corredor abandonado de hospital com paredes descascadas',
     sources: [
       {
         title: 'Capcom - Resident Evil oficial',
@@ -4259,8 +4259,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-27',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?science-fiction,netflix,fantasy',
-    imageAlt: 'Ilustração de mundo futurista com elementos de fantasia',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Comets_Kick_up_Dust_in_Helix_Nebula_%28PIA09178%29.jpg/960px-Comets_Kick_up_Dust_in_Helix_Nebula_%28PIA09178%29.jpg',
+    imageAlt: 'Cometa levantando poeira na Nebulosa da Hélice',
     sources: [
       {
         title: 'Netflix Tudum - Novidades',
@@ -4312,8 +4312,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?disney,space,galaxy',
-    imageAlt: 'Cena de ficção científica com naves e galáxia ao fundo',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Star_Wars_Celebration_2015_-_Oakland_Tusken_Raider_%2817398487474%29.jpg/960px-Star_Wars_Celebration_2015_-_Oakland_Tusken_Raider_%2817398487474%29.jpg',
+    imageAlt: 'Cosplayer de Tusken Raider em evento Star Wars Celebration',
     sources: [
       {
         title: 'Disney+ - Plataforma',
@@ -4365,8 +4365,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?mandalorian,starwars,space',
-    imageAlt: 'Capa de Mandaloriano viajando pelo espaço profundo',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mandalorian_Conversation_Star_Wars_Celebration_VI.jpg/960px-Mandalorian_Conversation_Star_Wars_Celebration_VI.jpg',
+    imageAlt: 'Cosplayers de Mandalorianos conversando em convenção Star Wars',
     sources: [
       {
         title: 'StarWars.com - The Mandalorian and Grogu',
@@ -4418,8 +4418,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-26',
     readingTime: 8,
-    featuredImage: 'https://source.unsplash.com/800x600/?disney,entertainment,geek',
-    imageAlt: 'Colagem de ícones geek com a magia dos parques da Disney',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cinderella_Castle_%40_Magic_Kingdom.jpg/960px-Cinderella_Castle_%40_Magic_Kingdom.jpg',
+    imageAlt: 'Castelo da Cinderela no Magic Kingdom ao anoitecer',
     sources: [
       {
         title: 'Disney+ - Plataforma',
@@ -4471,8 +4471,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?grand-theft-auto,game,neon,vice',
-    imageAlt: 'Cidade noturna de inspiração retrô com luzes neon de jogo de mundo aberto',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Night_Panorama_Miami_Florida_5462.jpg/960px-Night_Panorama_Miami_Florida_5462.jpg',
+    imageAlt: 'Panorâmica noturna do centro de Miami com as luzes da cidade',
     sources: [
       {
         title: 'Rockstar Games - GTA VI',
@@ -4524,8 +4524,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-20',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?supergirl,woman,hero,dc',
-    imageAlt: 'Jovem heroína voando com capa vermelha em céu dramático',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Supergirl_cosplay_2.jpg/500px-Supergirl_cosplay_2.jpg',
+    imageAlt: 'Cosplayer de Supergirl em convenção de quadrinhos',
     sources: [
       {
         title: 'DC Studios - Supergirl',
@@ -4577,8 +4577,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?harry-potter,fantasy,magic,castle',
-    imageAlt: 'Castelo mágico com atmosfera de fantasia e luzes encantadas',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Harry_Potter_fans_-_2007_Tokyo_premier.jpg/960px-Harry_Potter_fans_-_2007_Tokyo_premier.jpg',
+    imageAlt: 'Fãs de Harry Potter com fantasia na estreia de um filme',
     sources: [
       {
         title: 'Warner Bros. Television - Harry Potter',
@@ -4630,8 +4630,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-28',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?witcher,fantasy,sword,medieval',
-    imageAlt: 'Cavaleiro de armadura medievais empunhando espada em clima de fantasia',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ciri_Cosplay_%28The_Witcher_3_Wild_Hunt%29_%E2%80%A2_2.jpg/960px-Ciri_Cosplay_%28The_Witcher_3_Wild_Hunt%29_%E2%80%A2_2.jpg',
+    imageAlt: 'Cosplayer de Ciri de The Witcher 3 em convenção de games',
     sources: [
       {
         title: 'Netflix Tudum - The Witcher',
@@ -4683,8 +4683,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-25',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?clown,horror,terror,derry',
-    imageAlt: 'Imagem sombria de cidade pequena com atmosfera de terror',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Comikaze_2015_-_Twisty_the_Clown_%2822698507130%29.jpg/960px-Comikaze_2015_-_Twisty_the_Clown_%2822698507130%29.jpg',
+    imageAlt: 'Cosplayer de palhaço de terror em convenção de quadrinhos',
     sources: [
       {
         title: 'Max - Welcome to Derry',
@@ -4737,8 +4737,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?starwars,galaxy,sciencefiction',
-    imageAlt: 'Paisagem espacial com tons alaranjados inspirada em Star Wars',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ahsoka_Tano_costume.jpg/960px-Ahsoka_Tano_costume.jpg',
+    imageAlt: 'Cosplayer de Ahsoka Tano com o visual da personagem',
     sources: [
       {
         title: 'StarWars.com - Ahsoka Season 2 Teaser Trailer and Release Date',
@@ -4788,8 +4788,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-31',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?starwars,spaceship,galaxy',
-    imageAlt: 'Nave estelar cruzando o espaço sideral em cena inspirada em Star Wars',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Incom_T-65B_X-wing_replica_%286-17-2025%29.jpg/960px-Incom_T-65B_X-wing_replica_%286-17-2025%29.jpg',
+    imageAlt: 'Réplica de caça X-wing T-65B exposta em um museu',
     sources: [
       {
         title: 'StarWars.com - Notícias oficiais',
@@ -4843,8 +4843,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-31',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?green,lantern,space',
-    imageAlt: 'Luz verde iluminando a escuridão em clima de investigação cósmica',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Green_Lantern_Deadpool_Cosplay_Fan_Expo_Canada_2012.jpg/960px-Green_Lantern_Deadpool_Cosplay_Fan_Expo_Canada_2012.jpg',
+    imageAlt: 'Cosplayers de Lanternas Verdes e outros heróis em convenção',
     sources: [
       {
         title: 'HBO - Lanterns (série oficial)',
@@ -4898,8 +4898,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-30',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?spiderman,superhero,city',
-    imageAlt: 'Silhueta de herói agachado em arranha-céu ao entardecer em Nova York',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/New_York_City_at_night_HDR.jpg/960px-New_York_City_at_night_HDR.jpg',
+    imageAlt: 'Nova York à noite vista de Nova Jersey com o skyline iluminado',
     sources: [
       {
         title: 'Variety - Film News',
@@ -4957,8 +4957,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?streaming,television,sofa',
-    imageAlt: 'Sala de estar com TV acesa exibindo catálogo de streaming',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Child_enjoys_movie_night_at_home_with_popcorn_and_a_gaming_console_in_a_cozy_living_room_setting.jpg/960px-Child_enjoys_movie_night_at_home_with_popcorn_and_a_gaming_console_in_a_cozy_living_room_setting.jpg',
+    imageAlt: 'Criança aproveitando uma noite de cinema em casa',
     sources: [
       {
         title: 'Netflix Tudum - Go Behind the Streams',
@@ -5011,8 +5011,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-29',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?cartoon,desert,coyote',
-    imageAlt: 'Deserto estilizado em clima de animação clássica de perseguições',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Desert_View_Drive_-_Grand_Canyon_National_Park.jpg/960px-Desert_View_Drive_-_Grand_Canyon_National_Park.jpg',
+    imageAlt: 'Estrada de terra no Desert View Drive, no Grand Canyon',
     sources: [
       {
         title: 'The Verge - Entertainment',
@@ -5065,8 +5065,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-28',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?comics,cosplay,sciencefiction',
-    imageAlt: 'Quadrinhos abertos com luz neon verde e azul em clima espacial',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Dallas_Fan_Expo_2024_Cosplay_Comic_Con_-_Beatlejuice_2.jpg/960px-Dallas_Fan_Expo_2024_Cosplay_Comic_Con_-_Beatlejuice_2.jpg',
+    imageAlt: 'Cosplayers de personagens de quadrinhos em feira de convenção',
     sources: [
       {
         title: 'StarWars.com - Notícias oficiais',
@@ -5123,8 +5123,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-27',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?comics,superhero,batman',
-    imageAlt: 'Páginas de quadrinhos com ilustrações dramáticas de super-heróis',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/HK_%E9%95%B7%E6%B4%B2%E5%85%AC%E5%85%B1%E5%9C%96%E6%9B%B8%E9%A4%A8_Cheung_Chau_Public_Library_%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_bookbacks_Dec-2013.JPG/960px-HK_%E9%95%B7%E6%B4%B2%E5%85%AC%E5%85%B1%E5%9C%96%E6%9B%B8%E9%A4%A8_Cheung_Chau_Public_Library_%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_bookbacks_Dec-2013.JPG',
+    imageAlt: 'Estantes de livros em biblioteca pública de Hong Kong',
     sources: [
       {
         title: 'DC.com - Blog e lançamentos',
@@ -5179,8 +5179,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?comics,teen,superhero,team',
-    imageAlt: 'Grupo de heróis jovens ilustrados em estilo de quadrinhos contemporâneo',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Comic_convention_draws_hundreds_to_community_center_130504-M-SD875-466.jpg/960px-Comic_convention_draws_hundreds_to_community_center_130504-M-SD875-466.jpg',
+    imageAlt: 'Público reunido em grande convenção de quadrinhos',
     sources: [
       {
         title: 'DC.com - Blog',
@@ -5234,8 +5234,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-26',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?gothic,castle,fog',
-    imageAlt: 'Castelo gótico envolto em névoa em atmosfera sombria de fantasia',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Bran-Castle-Transylvania-0101.jpg/960px-Bran-Castle-Transylvania-0101.jpg',
+    imageAlt: 'Castelo de Bran, na Transilvânia, sob a luz do dia',
     sources: [
       {
         title: 'Nintendo - The Duskbloods (página oficial)',
@@ -5286,8 +5286,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-25',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?tactics,space,war',
-    imageAlt: 'Mapa tático futurista com unidades em posição de combate espacial',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Stormtrooper_Star_Wars_Cosplay_-_MCM_Comic_Con_2016_%2827122905180%29.jpg/960px-Stormtrooper_Star_Wars_Cosplay_-_MCM_Comic_Con_2016_%2827122905180%29.jpg',
+    imageAlt: 'Cosplayer de stormtrooper em convenção de quadrinhos',
     sources: [
       {
         title: 'StarWars.com - Games + Interactive',
@@ -5341,8 +5341,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-24',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?medieval,fantasy,forest',
-    imageAlt: 'Floresta nebulosa medieval com atmosfera de fantasia sombria',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/The_Bialowieza_Forest%2C_Poland.jpg/500px-The_Bialowieza_Forest%2C_Poland.jpg',
+    imageAlt: 'Floresta de Białowieża, na Polônia, com trilha entre as árvores',
     sources: [
       {
         title: 'IGN - Notícias',
@@ -5396,8 +5396,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-23',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?gaming,console,xbox',
-    imageAlt: 'Console de videogame preto em setup gamer com iluminação verde',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Xbox_Series_X%E3%81%A8Series_S.jpg/960px-Xbox_Series_X%E3%81%A8Series_S.jpg',
+    imageAlt: 'Consoles Xbox Series X e Series S lado a lado em exposição',
     sources: [
       {
         title: 'The Verge - Gaming',
@@ -5451,8 +5451,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-22',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?playstation,gaming,television',
-    imageAlt: 'Console de videogame conectado à TV em sala de estar moderna',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/All_PlayStations_%281-5%2C_PSP%2C_%26_Vita%29.jpg/960px-All_PlayStations_%281-5%2C_PSP%2C_%26_Vita%29.jpg',
+    imageAlt: 'Linha de consoles PlayStation da primeira à quinta geração reunidas',
     sources: [
       {
         title: 'IGN - Notícias',
@@ -5506,8 +5506,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?artificialintelligence,cinema,studio',
-    imageAlt: 'Mesa de edição de cinema com telas exibindo interfaces de inteligência artificial',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Sound_stage_1_and_2%2C_Shinfield_Studios.jpg/960px-Sound_stage_1_and_2%2C_Shinfield_Studios.jpg',
+    imageAlt: 'Estúdios de cinema com cenários e equipamentos de produção',
     sources: [
       {
         title: 'The Verge - Entertainment',
@@ -5560,8 +5560,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?mercury,planet,space',
-    imageAlt: 'Planeta Mercúrio em tons de cinza craterizado sobre fundo espacial escuro',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/BepiColombo_spacecraft_stack_ESA380846.jpg/960px-BepiColombo_spacecraft_stack_ESA380846.jpg',
+    imageAlt: 'Espaçonave BepiColombo em preparo para a viagem até Mercúrio',
     sources: [
       {
         title: 'ESA - BepiColombo Science & Exploration',
@@ -5615,8 +5615,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?technology,computer,chip',
-    imageAlt: 'Placa de circuito iluminada em tons verdes simbolizando hardware de inteligência artificial',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/960px-NVIDIA_Headquarters.jpg',
+    imageAlt: 'Sede corporativa da NVIDIA em Santa Clara, Califórnia',
     sources: [
       {
         title: 'NVIDIA Newsroom - NVIDIA to Acquire Hugging Face',
@@ -5670,8 +5670,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?saturn,planet,rings',
-    imageAlt: 'Planeta Saturno com anéis visíveis sobre fundo estrelado escuro',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Saturn_hexagonal_north_pole_feature.jpg/960px-Saturn_hexagonal_north_pole_feature.jpg',
+    imageAlt: 'Polo norte de Saturno com o padrão hexagonal de nuvens',
     sources: [
       {
         title: 'ESA/Hubble - Hubble tracks new decagon encircling Saturn’s south pole',
@@ -5722,8 +5722,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?satellite,space,stars',
-    imageAlt: 'Satélite de observação espacial com painéis solares estendidos sobre campo estelar',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Clouds_in_Atmosphere_of_Exoplanet_GJ_1214b_%28Artist%27s_View%29.jpg/960px-Clouds_in_Atmosphere_of_Exoplanet_GJ_1214b_%28Artist%27s_View%29.jpg',
+    imageAlt: 'Ilustração das nuvens na atmosfera do exoplaneta GJ 1214b',
     sources: [
       {
         title: 'NASA Science - Missão Pandora',
@@ -5778,8 +5778,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 7,
-    featuredImage: 'https://source.unsplash.com/800x600/?gaming,console,controller',
-    imageAlt: 'Controle de videogame branco sobre mesa com iluminação azul de setup gamer',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Playstation_Dualsense_controller.jpg/960px-Playstation_Dualsense_controller.jpg',
+    imageAlt: 'Controle DualSense do PlayStation 5 sobre fundo claro',
     sources: [
       {
         title: 'PlayStation.Blog - State of Play & State of Play Japan: all announcements',
@@ -5833,8 +5833,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 6,
-    featuredImage: 'https://source.unsplash.com/800x600/?videogame,fantasy,rpg',
-    imageAlt: 'Cenário de fantasia com luzes neon azuis e verdes evocando RPG japonês moderno',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Final_Fantasy_XIII_character_cosplay_-_Animethon_2017.jpg/960px-Final_Fantasy_XIII_character_cosplay_-_Animethon_2017.jpg',
+    imageAlt: 'Cosplayer de personagem de Final Fantasy em evento de games',
     sources: [
       {
         title: 'PlayStation.Blog - Final Fantasy VII Revelation launches on PS5 April 8, 2027',
@@ -5885,8 +5885,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 5,
-    featuredImage: 'https://source.unsplash.com/800x600/?cinema,film,camera',
-    imageAlt: 'Câmera de cinema profissional em estúdio com iluminação dramática',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Red_carpet_Carthage_Film_Festival_2018_14.jpg/960px-Red_carpet_Carthage_Film_Festival_2018_14.jpg',
+    imageAlt: 'Tapete vermelho de festival de cinema com fotografos e convidados',
     sources: [
       {
         title: 'Variety - Luca Guadagnino’s ‘Artificial’ to World Premiere at New York Film Festival (EXCLUSIVE)',
@@ -5937,8 +5937,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 5,
-    featuredImage: 'https://source.unsplash.com/800x600/?cinema,projector,screen',
-    imageAlt: 'Projetor de cinema vintage projetando feixe de luz em sala escura',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/IMAX_camera_1.jpg/960px-IMAX_camera_1.jpg',
+    imageAlt: 'Câmera IMAX de cinema instalada em ambiente de produção',
     sources: [
       {
         title: 'Variety - ‘The Odyssey’ Extends Imax 70mm Run as Imax Ticket Sales Surpass $450 Million',
@@ -5989,8 +5989,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 5,
-    featuredImage: 'https://source.unsplash.com/800x600/?space,stars,red',
-    imageAlt: 'Nebulosa avermelhada e campo estelar evocando espaço cósmico do universo DC',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Cinema-long-exposure-hdr-0a.jpg/960px-Cinema-long-exposure-hdr-0a.jpg',
+    imageAlt: 'Interior de sala de cinema com poltronas e grande tela',
     sources: [
       {
         title: 'Variety - ‘Supergirl’ Sets HBO Max Streaming Release Date',
@@ -6041,8 +6041,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 5,
-    featuredImage: 'https://source.unsplash.com/800x600/?spacecraft,space,stars',
-    imageAlt: 'Nave espacial cruzando campo estelar em cena de ficção científica',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Orion_Spacecraft_Outfitted_Interior_2021_%28no_labels%29.jpg/960px-Orion_Spacecraft_Outfitted_Interior_2021_%28no_labels%29.jpg',
+    imageAlt: 'Interior de uma cápsula espacial em preparo para missões tripuladas',
     sources: [
       {
         title: 'StarWars.com - Ryan Gosling is Kade Auberon in Star Wars: Starfighter',
@@ -6093,8 +6093,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 5,
-    featuredImage: 'https://source.unsplash.com/800x600/?fire,flames,epic',
-    imageAlt: 'Chamas laranjas em movimento evocando o elemento fogo da Nação do Fogo',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Agni_Utsav_The_Sacred_Bonfire_of_Satpuda_Holi.jpg/960px-Agni_Utsav_The_Sacred_Bonfire_of_Satpuda_Holi.jpg',
+    imageAlt: 'Fogueira ritual acesa durante festival ao ar livre',
     sources: [
       {
         title: 'Netflix Tudum - Avatar: The Last Airbender (Temporada 3 em 2027)',
@@ -6148,8 +6148,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-03',
     readingTime: 4,
-    featuredImage: 'https://source.unsplash.com/800x600/?gaming,gta,videogame',
-    imageAlt: 'Imagem relacionada a Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Gas_Station_at_Night_%2851118972527%29.jpg/960px-Gas_Station_at_Night_%2851118972527%29.jpg',
+    imageAlt: 'Posto de combustível iluminado à noite',
     sources: [
       {
         title: 'adrenaline.com.br — Rockstar defende abastecimento em GTA 6',
@@ -6191,8 +6191,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/LIGO_Hanford_aerial_1.jpg/800px-LIGO_Hanford_aerial_1.jpg',
-    imageAlt: 'Fotografia aérea do observatório LIGO em Hanford, mostrando os dois braços perpendiculares de 4 km',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/LIGO_Hanford_aerial_05.jpg/960px-LIGO_Hanford_aerial_05.jpg',
+    imageAlt: 'Vista aérea do observatório LIGO em Hanford, com os dois braços de 4 km',
     sources: [
       {
         title: 'LIGO — Laser Interferometer Gravitational-Wave Observatory (página oficial)',
@@ -6231,8 +6231,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/CRISPR-Cas9_Editing_of_the_Genome_%281%29.jpg/800px-CRISPR-Cas9_Editing_of_the_Genome_%281%29.jpg',
-    imageAlt: 'Ilustração mostrando o mecanismo de edição genética CRISPR-Cas9 cortando DNA',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg/960px-CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg',
+    imageAlt: 'Ilustração do sistema CRISPR-Cas9 editando o genoma',
     sources: [
       {
         title: 'Wikipedia — CRISPR gene editing (visão geral)',
@@ -6258,8 +6258,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Edge_computing_architecture.png/800px-Edge_computing_architecture.png',
-    imageAlt: 'Diagrama mostrando a arquitetura de edge computing',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Technician_with_laptop_working_on_server_rack_at_NERSC.jpg/960px-Technician_with_laptop_working_on_server_rack_at_NERSC.jpg',
+    imageAlt: 'Técnico trabalhando com notebook diante de um rack de servidores',
     sources: [
       { title: 'Wikipedia — Edge computing', url: 'https://en.wikipedia.org/wiki/Edge_computing', type: 'other' },
       { title: 'Wikipedia — Fog computing', url: 'https://en.wikipedia.org/wiki/Fog_computing', type: 'other' },
@@ -6276,8 +6276,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Google_TPU_v1.jpg/800px-Google_TPU_v1.jpg',
-    imageAlt: 'Foto de um chip TPU do Google',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tensor_Processing_Unit_3.0.jpg/960px-Tensor_Processing_Unit_3.0.jpg',
+    imageAlt: 'Placa de processamento TPU usada para acelerar o treinamento de modelos de IA',
     sources: [
       { title: 'Wikipedia — Tensor Processing Unit', url: 'https://en.wikipedia.org/wiki/Tensor_Processing_Unit', type: 'other' },
       { title: 'Google Cloud \u2014 Tensor Processing Units', url: 'https://cloud.google.com/tpu', type: 'official' }
@@ -6294,8 +6294,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Aurora_boreal_-_panoramio.jpg/800px-Aurora_boreal_-_panoramio.jpg',
-    imageAlt: 'Fotografia de uma aurora boreal verde sobre paisagem nevada',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg/960px-Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg',
+    imageAlt: 'Aurora boreal verde sobre o céu noturno da Islândia',
     sources: [
       { title: 'Wikipedia — Aurora', url: 'https://en.wikipedia.org/wiki/Aurora', type: 'other' },
       { title: 'Wikipedia — Solar wind', url: 'https://en.wikipedia.org/wiki/Solar_wind', type: 'other' },
@@ -6312,8 +6312,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Europa_Clipper_spacecraft_model.png/800px-Europa_Clipper_spacecraft_model.png',
-    imageAlt: 'Modelo da nave Europa Clipper da NASA',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Europa_Clipper_Team_Deploys_Magnetometer_Boom.jpg/960px-Europa_Clipper_Team_Deploys_Magnetometer_Boom.jpg',
+    imageAlt: 'Equipe da missão Europa Clipper implantando a haste do magnetômetro',
     sources: [
       { title: 'Wikipedia — Europa Clipper', url: 'https://en.wikipedia.org/wiki/Europa_Clipper', type: 'other' },
       { title: 'NASA \u2014 Europa Clipper Mission', url: 'https://europa.nasa.gov/', type: 'official' }
@@ -6330,8 +6330,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/AI_agent_architecture.png/800px-AI_agent_architecture.png',
-    imageAlt: 'Diagrama mostrando a arquitetura de um agente autônomo de IA',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Robot_arm_handles_an_assay_plate.jpg/960px-Robot_arm_handles_an_assay_plate.jpg',
+    imageAlt: 'Braço robótico manipulando uma placa de ensaio em laboratório',
     sources: [
       { title: 'Wikipedia — Agentic AI', url: 'https://en.wikipedia.org/wiki/Agentic_AI', type: 'other' },
       { title: 'Wikipedia — Autonomous agent', url: 'https://en.wikipedia.org/wiki/Autonomous_agent', type: 'other' },
@@ -6348,8 +6348,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Multimodal_AI_architecture.png/800px-Multimodal_AI_architecture.png',
-    imageAlt: 'Diagrama mostrando a arquitetura de um modelo multimodal de IA',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg/960px-Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg',
+    imageAlt: 'Robô humanoide ao lado de uma engenheira em demonstração técnica',
     sources: [
       { title: 'Wikipedia — Multimodal learning', url: 'https://en.wikipedia.org/wiki/Multimodal_learning', type: 'other' },
       { title: 'Wikipedia — Vision-language model', url: 'https://en.wikipedia.org/wiki/Vision_language_model', type: 'other' },
@@ -6366,8 +6366,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Synthetic_biology_diagram.png/800px-Synthetic_biology_diagram.png',
-    imageAlt: 'Diagrama mostrando o ciclo de projeto-construção-teste da biologia sintética',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/NHGRI_researcher_uses_a_pipette_to_remove_DNA_from_a_micro_test_tube.jpg/960px-NHGRI_researcher_uses_a_pipette_to_remove_DNA_from_a_micro_test_tube.jpg',
+    imageAlt: 'Pesquisadora do NHGRI usando pipeta para retirar DNA de um tubo',
     sources: [
       { title: 'Wikipedia — Synthetic biology', url: 'https://en.wikipedia.org/wiki/Synthetic_biology', type: 'other' },
       { title: 'Wikipedia — Genetic circuit', url: 'https://en.wikipedia.org/wiki/Genetic_circuit', type: 'other' },
@@ -6384,8 +6384,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Solar_power_satellite.jpg/800px-Solar_power_satellite.jpg',
-    imageAlt: 'Ilustração de um satélite de energia solar espacial',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/NASA_solar_power_satellite_concept_1976.jpg/960px-NASA_solar_power_satellite_concept_1976.jpg',
+    imageAlt: 'Conceito da NASA de satélite coletor de energia solar no espaço',
     sources: [
       { title: 'Wikipedia — Space-based solar power', url: 'https://en.wikipedia.org/wiki/Space-based_solar_power', type: 'other' },
       { title: 'Wikipedia — Solar power satellite', url: 'https://en.wikipedia.org/wiki/Solar_power_satellite', type: 'other' },
@@ -6402,8 +6402,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Minecraft_world_example.png/800px-Minecraft_world_example.png',
-    imageAlt: 'Captura de tela de um mundo gerado proceduralmente em Minecraft',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Terragen_render.jpg/960px-Terragen_render.jpg',
+    imageAlt: 'Render de terreno gerado proceduralmente com o Terragen',
     sources: [
       { title: 'Wikipedia — Procedural generation', url: 'https://en.wikipedia.org/wiki/Procedural_generation', type: 'other' },
       { title: 'Wikipedia — Procedural generation in video games', url: 'https://en.wikipedia.org/wiki/Procedural_generation_in_video_games', type: 'other' },
@@ -6420,8 +6420,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Xbox_Adaptive_Controller.jpg/800px-Xbox_Adaptive_Controller.jpg',
-    imageAlt: 'Foto do Xbox Adaptive Controller',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/InclusiveGameLab_Person-Using-Adaptive-Controller_2_CC-BY-SA.jpg/960px-InclusiveGameLab_Person-Using-Adaptive-Controller_2_CC-BY-SA.jpg',
+    imageAlt: 'Pessoa usando o controle adaptativo da Xbox durante uma sessão de jogo',
     sources: [
       { title: 'Wikipedia — Game accessibility', url: 'https://en.wikipedia.org/wiki/Game_accessibility', type: 'other' },
       { title: 'Wikipedia — Xbox Adaptive Controller', url: 'https://en.wikipedia.org/wiki/Xbox_Adaptive_Controller', type: 'other' },
@@ -6438,8 +6438,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Film_restoration_scanner.jpg/800px-Film_restoration_scanner.jpg',
-    imageAlt: 'Scanner de restauração de filmes em alta resolução',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/16mm_film_reel_%286498607729%29.jpg/960px-16mm_film_reel_%286498607729%29.jpg',
+    imageAlt: 'Bobina de filme de 16 mm pronta para digitalização',
     sources: [
       { title: 'Wikipedia — Film preservation', url: 'https://en.wikipedia.org/wiki/Film_preservation', type: 'other' },
       { title: 'Wikipedia — Digital restoration', url: 'https://en.wikipedia.org/wiki/Digital_restoration', type: 'other' },
@@ -6456,8 +6456,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Deepfake_example.jpg/800px-Deepfake_example.jpg',
-    imageAlt: 'Exemplo de deepfake mostrando substituição de rosto em vídeo',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Computer-generated_human_face_illustrating_the_glabella.jpg/960px-Computer-generated_human_face_illustrating_the_glabella.jpg',
+    imageAlt: 'Rosto humano gerado por computador, produzido por software de inteligência artificial',
     sources: [
       { title: 'Wikipedia — Deepfake', url: 'https://en.wikipedia.org/wiki/Deepfake', type: 'other' },
       { title: 'Wikipedia — Digital likeness', url: 'https://en.wikipedia.org/wiki/Digital_likeness', type: 'other' },
@@ -6474,8 +6474,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Webtoon_example.jpg/800px-Webtoon_example.jpg',
-    imageAlt: 'Captura de tela de um webcomic digital no formato webtoon',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Yehuda_Devir_drawing.jpg/960px-Yehuda_Devir_drawing.jpg',
+    imageAlt: 'Desenhista de quadrinhos produzindo um desenho no papel',
     sources: [
       { title: 'Wikipedia — Webcomic', url: 'https://en.wikipedia.org/wiki/Webcomic', type: 'other' },
       { title: 'Wikipedia — Webtoon', url: 'https://en.wikipedia.org/wiki/Webtoon', type: 'other' },
@@ -6492,8 +6492,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Diverse_superheroes.jpg/800px-Diverse_superheroes.jpg',
-    imageAlt: 'Ilustração mostrando diversos super-heróis de diferentes etnias e gêneros',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/NYCC_2016_-_Cosplayers_in_the_Food_Court_%2830130860801%29.jpg/960px-NYCC_2016_-_Cosplayers_in_the_Food_Court_%2830130860801%29.jpg',
+    imageAlt: 'Grupo de cosplayers em diferentes fantasias na convenção de quadrinhos',
     sources: [
       { title: 'Wikipedia — Portrayal of women in comics', url: 'https://en.wikipedia.org/wiki/Portrayal_of_women_in_comics', type: 'other' },
       { title: 'Wikipedia — Portrayal of women in American comics', url: 'https://en.wikipedia.org/wiki/Portrayal_of_women_in_American_comics', type: 'other' },
@@ -6510,8 +6510,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Müller-Lyer_illusion.svg/800px-Müller-Lyer_illusion.svg.png',
-    imageAlt: 'Ilustração da ilusão de Müller-Lyer',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ames_room_forced_perspective.jpg/960px-Ames_room_forced_perspective.jpg',
+    imageAlt: 'Sala Ames demonstrando a ilusão de óptica da perspectiva forçada',
     sources: [
       { title: 'Wikipedia — Optical illusion', url: 'https://en.wikipedia.org/wiki/Optical_illusion', type: 'other' },
       { title: 'Wikipedia \u2014 Checker shadow illusion', url: 'https://en.wikipedia.org/wiki/Checker_shadow_illusion', type: 'other' }
@@ -6528,8 +6528,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-10',
     readingTime: 9,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Chimpanzee_using_tool.jpg/800px-Chimpanzee_using_tool.jpg',
-    imageAlt: 'Foto de um chimpanzé usando uma vara para extrair cupins',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chimpanzee_using_grass_tool_to_feed_on_insects_in_tree_-_DPLA_-_135341160d67061d909f9592096800dd.jpg/960px-Chimpanzee_using_grass_tool_to_feed_on_insects_in_tree_-_DPLA_-_135341160d67061d909f9592096800dd.jpg',
+    imageAlt: 'Chimpanzé usando um graveto para retirar insetos de uma árvore',
     sources: [
       { title: 'Wikipedia — Tool use by animals', url: 'https://en.wikipedia.org/wiki/Tool_use_by_animals', type: 'other' },
       { title: 'Wikipedia — Tool use by non-human animals', url: 'https://en.wikipedia.org/wiki/Tool_use_by_non-human_animals', type: 'other' },
@@ -6548,8 +6548,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg',
-    imageAlt: 'Sonda espacial Euclid da ESA em representacao artistica',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg/500px-Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg',
+    imageAlt: 'Imagem do aglomerado de galáxias de Perseu captada pelo telescópio Euclid da ESA, com centenas de galáxias visíveis',
     sources: [
       { title: 'ESA - Euclid mission', url: 'https://www.esa.int/Science_Exploration/Space_Science/Euclid', type: 'agency' },
     ]
@@ -6565,7 +6565,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Artist%E2%80%99s_Impression_of_a_Kuiper_Belt_Object.jpg',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Artist%E2%80%99s_Impression_of_a_Kuiper_Belt_Object.jpg/960px-Artist%E2%80%99s_Impression_of_a_Kuiper_Belt_Object.jpg',
     imageAlt: 'Ilustracao de objetos gelados do Cinturao de Kuiper alem de Netuno',
     sources: [
       { title: 'NASA - Hubble mission', url: 'https://science.nasa.gov/mission/hubble/', type: 'agency' },
@@ -6583,8 +6583,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg',
-    imageAlt: 'Logotipo do ChatGPT representando nova geracao de IA',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/960px-Virginia_Tech_-_data_center.jpg',
+    imageAlt: 'Sala de servidores de data center universitário com fileiras de máquinas',
     sources: [
       { title: 'OpenAI - GPT-6 Astra', url: 'https://openai.com/', type: 'company' },
     ]
@@ -6600,8 +6600,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/DNA_chemical_structure.svg',
-    imageAlt: 'Diagrama da estrutura quimica do DNA em dupla helice',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/DNA_sequencing.jpg/960px-DNA_sequencing.jpg',
+    imageAlt: 'Bancada de sequenciamento de DNA em laboratório de genética',
     sources: [
       { title: 'Google DeepMind - AlphaGenome Atlas', url: 'https://deepmind.google/discover/blog/', type: 'company' },
     ]
@@ -6617,8 +6617,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg',
-    imageAlt: 'Logotipo da Apple em fundo claro',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Foldable_Smartphones.jpg/960px-Foldable_Smartphones.jpg',
+    imageAlt: 'Smartphones dobráveis abertos exibindo as telas',
     sources: [
       { title: 'Apple - iPhone Duo', url: 'https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/', type: 'company' },
     ]
@@ -6634,8 +6634,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg',
-    imageAlt: 'Logotipo da Apple representando linha AirPods',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Technics-EAH-AZ60M2_09.jpg/960px-Technics-EAH-AZ60M2_09.jpg',
+    imageAlt: 'Fones de ouvido sem fio em primeiro plano sobre uma base',
     sources: [
       { title: 'Apple - AirPods 5', url: 'https://www.apple.com/newsroom/', type: 'company' },
     ]
@@ -6651,8 +6651,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/DNA_chemical_structure.svg',
-    imageAlt: 'Estrutura quimica do DNA ilustrando edicao genetica',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/20251019_Replica_DNA_double_helix_model_Berlin_01.jpg/960px-20251019_Replica_DNA_double_helix_model_Berlin_01.jpg',
+    imageAlt: 'Modelo tridimensional da dupla hélice do DNA',
     sources: [
       { title: 'Nature - DNA-editing pencils', url: 'https://www.nature.com/search?q=DNA-editing+pencils+probe+early+human+development', type: 'journal' },
     ]
@@ -6668,8 +6668,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/0/01/Liposome_scheme-en.svg',
-    imageAlt: 'Ilustracao de nanoparticulas para entrega de medicamentos',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Liposomy_a_%C5%99%C3%ADzen%C3%A9_uvol%C5%88ov%C3%A1n%C3%AD_l%C3%A9%C4%8Div.png/500px-Liposomy_a_%C5%99%C3%ADzen%C3%A9_uvol%C5%88ov%C3%A1n%C3%AD_l%C3%A9%C4%8Div.png',
+    imageAlt: 'Diagrama de lipossomos liberando medicamentos de forma controlada no alvo',
     sources: [
       { title: 'Nature - drug delivery advances', url: 'https://www.nature.com/search?q=these+six+advances+could+change+how+drugs+are+delivered', type: 'journal' },
     ]
@@ -6685,8 +6685,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Nintendo_Switch_2_logo_transparent.svg',
-    imageAlt: 'Logotipo do Nintendo Switch 2',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/960px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg',
+    imageAlt: 'Console Nintendo Switch encaixado no suporte com um controle Joy-Con',
     sources: [
       { title: 'Nintendo - jogos de setembro no Switch 2', url: 'https://www.nintendo.com/us/whatsnew/', type: 'company' },
     ]
@@ -6702,8 +6702,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Xbox_logo_%282019%29.svg',
-    imageAlt: 'Logotipo do Xbox',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cautious_Tabby_Red_Cat.jpg/960px-Cautious_Tabby_Red_Cat.jpg',
+    imageAlt: 'Gato tigrado vermelho atento olhando para a câmera',
     sources: [
       { title: 'Xbox Wire - lancamentos de setembro', url: 'https://news.xbox.com/', type: 'company' },
     ]
@@ -6719,8 +6719,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Star_Wars_Yellow_Logo.svg',
-    imageAlt: 'Logotipo de Star Wars',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Scarlet_Studios_Ug_02.jpg/960px-Scarlet_Studios_Ug_02.jpg',
+    imageAlt: 'Estúdio de efeitos visuais com equipamentos de produção audiovisual',
     sources: [
       { title: 'StarWars.com - Rotta the Hutt', url: 'https://www.starwars.com/news', type: 'company' },
     ]
@@ -6736,8 +6736,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg',
-    imageAlt: 'Logotipo da Netflix',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Dedicated_home_theater.jpg/960px-Dedicated_home_theater.jpg',
+    imageAlt: 'Sala de cinema doméstica com tela grande e poltronas',
     sources: [
       { title: 'Netflix Tudum - estreias de setembro 2026', url: 'https://www.netflix.com/tudum/', type: 'company' },
     ]
@@ -6753,8 +6753,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg',
-    imageAlt: 'Logotipo da DC Comics',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cosplay_at_New_York_Comic_Con_2017_Cosplay_of_Black_Canary_and_Tokyo_Ghoul.jpg/500px-Cosplay_at_New_York_Comic_Con_2017_Cosplay_of_Black_Canary_and_Tokyo_Ghoul.jpg',
+    imageAlt: 'Cosplayers de heroínas de quadrinhos durante a convenção de Nova York',
     sources: [
       { title: 'DC - DC/Marvel Cosmic Kiss Caper', url: 'https://www.dc.com/blog', type: 'company' },
     ]
@@ -6770,8 +6770,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/3/3d/DC_Comics_logo.svg',
-    imageAlt: 'Logotipo da DC Comics',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/SDCC_2014_-_Cosplay_Superman_%287737408012%29.jpg/960px-SDCC_2014_-_Cosplay_Superman_%287737408012%29.jpg',
+    imageAlt: 'Cosplayer de Superman na convenção de quadrinhos de San Diego',
     sources: [
       { title: 'DC - Superman The Stranger', url: 'https://www.dc.com/blog', type: 'company' },
     ]
@@ -6787,7 +6787,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/Cluster_satellite_reentering_Earth%27s_atmosphere_ESA500772.jpg',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Cluster_satellite_reentering_Earth%27s_atmosphere_ESA500772.jpg/960px-Cluster_satellite_reentering_Earth%27s_atmosphere_ESA500772.jpg',
     imageAlt: 'Reentrada do satelite Samba registrada em imagem',
     sources: [
       { title: 'ESA - reentrada do Tango', url: 'https://www.esa.int/Space_Safety/Clean_Space', type: 'agency' },
@@ -6804,7 +6804,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 5,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Dust_storm_off_West_Africa_%28MODIS_2015-01-05%29.jpg',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Dust_storm_off_West_Africa_%28MODIS_2015-01-05%29.jpg/960px-Dust_storm_off_West_Africa_%28MODIS_2015-01-05%29.jpg',
     imageAlt: 'Tempestade de poeira sobre o Mali vista por satelite',
     sources: [
       { title: 'NASA Earth Observatory - poeira no Mali', url: 'https://earthobservatory.nasa.gov/images/153000/dust-storm-sweeps-over-mali', type: 'agency' },
@@ -6821,7 +6821,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/4/40/LRO_WAC_South_Pole_Mosaic.jpg',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/LRO_WAC_South_Pole_Mosaic.jpg/960px-LRO_WAC_South_Pole_Mosaic.jpg',
     imageAlt: 'Lua cheia vista do espaco, alvo do mapeamento da NASA e IBM',
     sources: [
       { title: 'NASA Science - missoes e ciencia lunar', url: 'https://science.nasa.gov/', type: 'agency' },
@@ -6838,7 +6838,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
     readingTime: 8,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/ITER_central_building_construction_%2841767823552%29.jpg',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/ITER_central_building_construction_%2841767823552%29.jpg/960px-ITER_central_building_construction_%2841767823552%29.jpg',
     imageAlt: 'Complexo do tokamak ITER em construcao',
     sources: [
       { title: 'ITER - progresso do verao', url: 'https://www.iter.org/', type: 'agency' },
@@ -6855,8 +6855,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-13',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Google_Quantum_AI_chip_Willow.jpg/1280px-Google_Quantum_AI_chip_Willow.jpg',
-    imageAlt: 'Processador quântico Willow do Google',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Google_Sycamore_Chip_001.png/960px-Google_Sycamore_Chip_001.png',
+    imageAlt: 'Chip quântico Sycamore do Google em primeiro plano',
     sources: [
       { title: 'Nature - Quantum error correction below the surface code threshold', url: 'https://www.nature.com/articles/s41586-024-08449-y', type: 'journal' },
       { title: 'Google Quantum AI Blog - Willow quantum chip', url: 'https://blog.google/innovation-and-ai/technology/research/google-willow-quantum-chip/', type: 'company' }
@@ -6873,8 +6873,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-13',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Nancy_Grace_Roman_Space_Telescope_artist_concept.jpg/1280px-Nancy_Grace_Roman_Space_Telescope_artist_concept.jpg',
-    imageAlt: 'Conceito artístico do Telescópio Espacial Roman',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NASA%27s_Nancy_Grace_Roman_Space_Telescope-_Systems%2C_Assemble%21_%28SVS14693%29.jpg/960px-NASA%27s_Nancy_Grace_Roman_Space_Telescope-_Systems%2C_Assemble%21_%28SVS14693%29.jpg',
+    imageAlt: 'Montagem do telescópio espacial Nancy Grace Roman em sala limpa da NASA',
     sources: [
       { title: 'NASA - Roman Space Telescope construction complete', url: 'https://www.nasa.gov/missions/roman-space-telescope/nasa-completes-nancy-grace-roman-space-telescope-construction/', type: 'agency' },
       { title: 'NASA Science - Roman Space Telescope FAQ', url: 'https://science.nasa.gov/mission/roman-space-telescope/frequently-asked-questions/', type: 'agency' }
@@ -6891,8 +6891,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-13',
     readingTime: 5,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bryde%27s_whale_size_comparison_to_human.jpg/1280px-Bryde%27s_whale_size_comparison_to_human.jpg',
-    imageAlt: 'Ilustração comparativa de tamanho da baleia-de-Bryde com humano',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Bryde%27s_whale_1.jpg/960px-Bryde%27s_whale_1.jpg',
+    imageAlt: 'Baleia-jubarte vista na superfície do oceano',
     sources: [
       { title: 'Frontiers in Marine Science - Biotwang mystery solved', url: 'https://www.frontiersin.org/articles/10.3389/fmars.2024.1234567/full', type: 'journal' },
       { title: 'Scientific American - Biotwang sound mystery', url: 'https://www.scientificamerican.com/article/mystery-of-deep-ocean-biotwang-sound-has-finally-been-solved/', type: 'journal' }
@@ -6909,8 +6909,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-13',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Dickson_Fjord_Greenland.jpg/1280px-Dickson_Fjord_Greenland.jpg',
-    imageAlt: 'Vista aérea do Dickson Fjord na Groenlândia',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dickson_Land_IMG_3937_Dicksonfjorden.JPG/960px-Dickson_Land_IMG_3937_Dicksonfjorden.JPG',
+    imageAlt: 'Vista do Dickson Fjord, na Groenlândia, com água e montanhas',
     sources: [
       { title: 'Science - Greenland landslide nine-day seismic event', url: 'https://www.science.org/doi/10.1126/science.adk4864', type: 'journal' },
       { title: 'Scientific American - Greenland megatsunami', url: 'https://www.scientificamerican.com/article/a-huge-tsunami-caused-by-a-thinning-glacier-created-a-seismic-event-for-nine/', type: 'journal' }
@@ -6927,7 +6927,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-13',
     readingTime: 5,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ecballium_elaterium.jpg/1280px-Ecballium_elaterium.jpg',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ecballium_elaterium.jpg/960px-Ecballium_elaterium.jpg',
     imageAlt: 'Pepino-estourante (Ecballium elaterium) com frutos maduros',
     sources: [
       { title: 'PNAS - Explosive secret of squirting cucumber', url: 'https://www.pnas.org/doi/10.1073/pnas.2412345121', type: 'journal' },
@@ -6945,8 +6945,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-13',
     readingTime: 5,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Octopus_cyanea.jpg/1280px-Octopus_cyanea.jpg',
-    imageAlt: 'Polvo Octopus cyanea em recife de coral',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Octopus._The_best_camouflage_in_the_world-1.jpg/960px-Octopus._The_best_camouflage_in_the_world-1.jpg',
+    imageAlt: 'Polvo camuflado no fundo do mar entre pedras e corais',
     sources: [
       { title: 'Nature Ecology & Evolution - Octopus fish hunting groups', url: 'https://www.nature.com/articles/s41559-024-02525-2', type: 'journal' },
       { title: 'National Geographic - Why octopus punch fish', url: 'https://www.nationalgeographic.com/animals/article/octopuses-punch-fish-predators-red-sea', type: 'journal' }
@@ -6963,8 +6963,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-13',
     readingTime: 5,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Clay_cylinders_Umm_el-Marra.jpg/1280px-Clay_cylinders_Umm_el-Marra.jpg',
-    imageAlt: 'Cilindros de argila com inscrições de Tell Umm el-Marra',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Cuneiform_Writing_on_Clay_Tablet_-_36394195382.jpg/960px-Cuneiform_Writing_on_Clay_Tablet_-_36394195382.jpg',
+    imageAlt: 'Tábua de argila com inscrições em escrita cuneiforme',
     sources: [
       { title: 'Scientific American - World oldest alphabet discovered', url: 'https://www.scientificamerican.com/article/worlds-oldest-alphabet-discovered/', type: 'journal' },
       { title: 'Johns Hopkins University - Umm el-Marra discovery', url: 'https://web.jhu.edu/archaeology/', type: 'university' }

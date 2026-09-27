@@ -1,32 +1,34 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { ADSENSE_SCRIPT_SRC, isAdsEnabled } from '@/lib/ads';
+
+const CONSENT_KEY = 'nexora_cookie_consent';
+type Consent = 'accepted' | 'rejected';
 
 export default function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false);
-  const [consent, setConsent] = useState<'accepted' | 'rejected' | null>(null);
+  const [consent, setConsent] = useState<Consent | null>(null);
 
-  useEffect(() => {
-    const savedConsent = localStorage.getItem('nexora_cookie_consent');
-    if (savedConsent === 'accepted' || savedConsent === 'rejected') {
-      setConsent(savedConsent);
-      if (savedConsent === 'accepted') {
-        loadScripts();
-      }
-    } else {
-      setShowBanner(true);
+  /**
+   * Carrega os scripts de terceiros SOMENTE após consentimento.
+   * Analytics (Google Analytics) mantém o comportamento existente.
+   * O AdSense é carregado apenas se a publicidade estiver habilitada
+   * (NEXT_PUBLIC_ENABLE_ADS=true) — caso contrário, nenhum script é
+   * requisitado.
+   */
+  const loadScripts = (value: Consent) => {
+    // AdSense — somente se os anúncios estiverem habilitados.
+    if (isAdsEnabled()) {
+      const adSenseScript = document.createElement('script');
+      adSenseScript.async = true;
+      adSenseScript.src = ADSENSE_SCRIPT_SRC;
+      adSenseScript.crossOrigin = 'anonymous';
+      adSenseScript.dataset.adsense = 'true';
+      document.head.appendChild(adSenseScript);
     }
-  }, []);
 
-  const loadScripts = () => {
-    // Load AdSense script
-    const adSenseScript = document.createElement('script');
-    adSenseScript.async = true;
-    adSenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9710418432642580';
-    adSenseScript.crossOrigin = 'anonymous';
-    document.head.appendChild(adSenseScript);
-
-    // Load Analytics script (if NEXT_PUBLIC_GA_ID is set)
+    // Analytics script (if NEXT_PUBLIC_GA_ID is set)
     const gaId = process.env.NEXT_PUBLIC_GA_ID;
     if (gaId) {
       const analyticsScript = document.createElement('script');
@@ -43,17 +45,33 @@ export default function CookieConsent() {
       `;
       document.head.appendChild(gtagScript);
     }
+
+    // Notifica os AdSlots (montados no servidor) de que há consentimento,
+    // para que só então renderizem o <ins> do AdSense.
+    window.dispatchEvent(new CustomEvent('nexora:consent', { detail: value }));
   };
 
+  useEffect(() => {
+    const savedConsent = localStorage.getItem(CONSENT_KEY);
+    if (savedConsent === 'accepted' || savedConsent === 'rejected') {
+      setConsent(savedConsent);
+      if (savedConsent === 'accepted') {
+        loadScripts(savedConsent);
+      }
+    } else {
+      setShowBanner(true);
+    }
+  }, []);
+
   const handleAccept = () => {
-    localStorage.setItem('nexora_cookie_consent', 'accepted');
+    localStorage.setItem(CONSENT_KEY, 'accepted');
     setConsent('accepted');
     setShowBanner(false);
-    loadScripts();
+    loadScripts('accepted');
   };
 
   const handleReject = () => {
-    localStorage.setItem('nexora_cookie_consent', 'rejected');
+    localStorage.setItem(CONSENT_KEY, 'rejected');
     setConsent('rejected');
     setShowBanner(false);
   };
