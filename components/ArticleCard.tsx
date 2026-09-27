@@ -20,6 +20,7 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
                 height={80}
                 className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
                 loading="lazy"
+                decoding="async"
               />
             </div>
           )}
@@ -58,7 +59,14 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
                   width={800}
                   height={400}
                   className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
-                  loading="eager"
+                  // O card featured é renderizado abaixo do Hero (que ocupa
+                  // 92svh, ou seja, a viewport inteira), logo a imagem está
+                  // sempre fora da primeira dobra. Carregá-la com `eager`
+                  // fazia o Next.js emitir <link rel="preload"> para um
+                  // terceiro (Wikimedia/Unsplash) que não é o LCP, fazendo-o
+                  // competir com a fonte e com o JS crítico do Hero.
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
               </div>
@@ -113,6 +121,7 @@ export default function ArticleCard({ article, variant = 'default' }: ArticleCar
                 height={400}
                 className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
+                decoding="async"
               />
               <div className="absolute top-3 left-3">
                 <span 

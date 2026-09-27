@@ -10,6 +10,19 @@ export const metadata = {
   alternates: {
     canonical: '/pesquisar',
   },
+  // Página de busca interna: os resultados são gerados por query string
+  // (?q=...) e não constituem conteúdo editorial próprio. Marcamos
+  // noindex, follow (não nofollow) para que os links de artigos continuem
+  // sendo rastreados pelos crawlers, evitando que URLs de resultado sem
+  // valor editorial entrem no índice.
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: {
+      index: false,
+      follow: true,
+    },
+  },
 };
 
 export default function SearchPage() {
@@ -17,7 +30,7 @@ export default function SearchPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
       
-      <main className="flex-1">
+      <main id="main-content" className="flex-1">
         <div className="container mx-auto px-4 py-12 max-w-3xl">
           <h1 className="text-4xl font-bold mb-8">Pesquisar</h1>
           

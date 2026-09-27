@@ -145,7 +145,7 @@ export default function CreditosImagensPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-1">
+      <main id="main-content" className="flex-1">
         <div className="container mx-auto px-4 py-12 max-w-6xl">
           <h1 className="text-4xl font-bold mb-4">Créditos de Imagens</h1>
           <p className="text-lg text-zinc-400 mb-8">

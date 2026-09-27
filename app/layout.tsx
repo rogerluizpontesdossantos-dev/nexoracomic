@@ -4,6 +4,7 @@ import "./globals.css";
 import { SITE_NAME, SITE_URL } from "@/lib/types";
 import Analytics from "@/components/Analytics";
 import CookieConsent from "@/components/CookieConsent";
+import SkipLink from "@/components/SkipLink";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -99,6 +100,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* AdSense and Analytics are now loaded conditionally by CookieConsent component */}
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <SkipLink />
         {children}
         <CookieConsent />
         <Analytics />

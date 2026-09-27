@@ -86,7 +86,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     <div className="flex flex-col min-h-screen">
       <Header />
       
-      <main className="flex-1">
+      <main id="main-content" className="flex-1">
         {/* Breadcrumbs */}
         <div className="container mx-auto px-4 py-4">
           <CategoryBreadcrumbs categorySlug={category.slug} categoryName={category.name} />

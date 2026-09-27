@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { ADSENSE_SCRIPT_SRC, isAdsEnabled } from '@/lib/ads';
 
 const CONSENT_KEY = 'nexora_cookie_consent';
@@ -104,9 +105,9 @@ export default function CookieConsent() {
         <div className="flex-1 text-sm text-muted-foreground">
           <p className="mb-2">
             Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa{' '}
-            <a href="/politica-de-privacidade" className="underline hover:text-foreground">
+            <Link href="/politica-de-privacidade" className="underline hover:text-foreground">
               Política de Privacidade
-            </a>
+            </Link>
             .
           </p>
         </div>
