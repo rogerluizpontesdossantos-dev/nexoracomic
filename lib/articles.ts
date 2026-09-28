@@ -7469,38 +7469,9 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     id: '156',
     slug: 'webb-descobre-anas-marras-massa-jupiter',
     title: 'Webb Descobre Anãs Marras com Massa de Apenas 2x Júpiter',
-    excerpt: 'O Telescópio Espacial James Webb encontrou anãs marras tão pequenas que desafiam as teorias de formação estelar, com apenas o dobro da massa de Júpiter.',
-    content: `
-      <h2>Uma Descoberta Surpreendente</h2>
-      <p>O Telescópio Espacial James Webb da NASA recentemente observou IC 348, uma região de formação estelar a apenas 1.000 anos-luz da Terra. A visão nítida do Webb revelou anãs marras minúsculas, algumas com apenas duas vezes a massa de Júpiter, e estrelas jovens ejetando jatos poderosos que colidem com gás e poeira circundantes.</p>
-
-      <h2>O Que São Anãs Marras?</h2>
-      <p>Anãs marras são objetos subestelares — massivos demais para serem planetas, mas não massivos o suficiente para sustentar fusão nuclear de hidrogênio em seus núcleos. Eles ocupam a lacuna de massa entre os maiores planetas gigantes gasosos e as menores estrelas.</p>
-
-      <h3>Buscando os Menores</h3>
-      <p>Pesquisadores buscando responder à pergunta sobre quão pequenas as anãs marras podem ser usaram primeiro o Webb para estudar IC 348 em 2022, quando descobriram anãs marras com massas tão baixas quanto três a quatro vezes a massa de Júpiter. Agora, a mesma equipe usou o Webb para sondar ainda mais profundamente na região em busca de anãs marras ainda menores.</p>
-
-      <h2>Observações em Infravermelho</h2>
-      <p>A equipe usou a câmera NIRCam (Near-Infrared Camera) do Webb em 2024 para capturar o brilho quente de anãs marras jovens e estrelas recém-nascidas nesta nova imagem de IC 348. Depois de selecionar candidatas a anãs marras com base em suas cores e brilho, eles seguiram com o NIRSpec (Near-Infrared Spectrograph) do Webb em 2025 para conduzir observações espectroscópicas para estudar as massas das anãs marras.</p>
-
-      <h3>Um Desafio à Teoria</h3>
-      <p>Essas observações profundas do Webb revelaram algo notável aos pesquisadores: anãs marras com massas tão baixas quanto apenas duas vezes a massa de Júpiter, ou apenas 0,19% da massa do Sol — muito menores do que a teoria prevê que as anãs marras deveriam ser. A existência desses objetos desafia os modelos atuais de formação estelar.</p>
-
-      <h2>Implicações para Formação Estelar</h2>
-      <p>Esta descoberta sugere que:</p>
-      <ul>
-        <li><strong>Modelos incompletos:</strong> Nossos modelos de formação estelar estão faltando processos importantes</li>
-        <li><strong>Limite inferior desconhecido:</strong> Não sabemos o limite inferior real para a massa de anãs marras</li>
-        <li><strong>Diversidade de objetos:</strong> Existe mais diversidade de objetos subestelares do que imaginávamos</li>
-        <li><strong>Novos mecanismos:</strong> Podem existir mecanismos de formação que ainda não entendemos</li>
-      </ul>
-
-      <h3>Por Que IC 348?</h3>
-      <p>IC 348 é uma região de formação estelar ideal para este tipo de estudo porque é relativamente próxima (1.000 anos-luz) e jovem (cerca de 5 milhões de anos), permitindo que os pesquisadores estudem objetos em estágios iniciais de formação.</p>
-
-      <h2>O Futuro da Pesquisa</h2>
-      <p>Os pesquisadores planejam continuar procurando anãs marras ainda menores em IC 348 e outras regiões de formação estelar, usando o poder sem precedentes do Webb para sondar os limites inferiores da formação estelar.</p>
-    `,
+    excerpt: 'O Telescópio Webb encontrou anãs marras de até 2 massas de Júpiter em IC 348 e identificou uma nova classe espectral, a classe H.',
+    content: `<h2>O que são anãs marras</h2><p>Anãs marras são objetos que ocupam exatamente a fronteira entre estrelas e planetas. Elas se formam como estrelas, condensando sob a própria gravidade até ficarem densas o suficiente, mas nunca ficam densas e quentes o bastante para iniciar a fusão do hidrogênio. Por isso são chamadas às vezes de estrelas fracassadas. No extremo inferior de massa, elas se confundem com os grandes planetas: pesam apenas algumas vezes a massa de Júpiter.</p><p>A pergunta que intriga os astrônomos há décadas é qual é o menor objeto que consegue se formar por colapso gravitacional, como uma estrela. É uma das questões básicas de qualquer livro de astronomia, e responde-la exige distinguir com precisão objetos verdadeiramente estelares de galáxias distantes que só parecem brilhantes.</p><h2>O aglomerado escolhido: IC 348</h2><p>Para atacar a questão, Kevin Luhman, da Universidade do Estado da Pensilvânia, e Catarina Alves de Oliveira, da Agência Espacial Europeia, escolheram o aglomerado estelar IC 348, localizado a cerca de 1.000 anos-luz da Terra, na região de formação estelar de Perseu.</p><p>O aglomerado é jovem, com apenas cerca de 5 milhões de anos. Essa é a chave da estratégia: anãs marras tão leves emitem pouca luz visível, mas, enquanto jovens, ainda irradiam o calor acumulado durante a formação, o que as torna relativamente brilhantes no infravermelho. Observar em infravermelho é, portanto, a forma mais eficiente de encontrá-las.</p><h2>Como o Webb fez a busca</h2><p>A equipe usou a câmera NIRCam do Telescópio Espacial James Webb para identificar candidatos com base no brilho e na cor. Depois, os alvos mais promissores foram observados com o NIRSpec, o espectrógrafo de infravermelho, que usa uma matriz de microobturadores para obter espectros de dezenas de objetos em uma única exposição.</p><p>A sensibilidade ao infravermelho do Webb foi decisiva para detectar objetos mais fracos do que telescópios terrestres conseguem, mas a nitidez da imagem foi igualmente importante: ela permitiu separar as anãs marras, que aparecem como pontos bem definidos, de galáxias de fundo, que aparecem como manchas difusas. Essa triagem reduziu o campo a três alvos muito interessantes, com massas entre 3 e 8 massas de Júpiter e temperaturas de superfície entre 830 e 1.500 graus Celsius.</p><h2>A descoberta mais inesperada: hidrocarbonetos</h2><p>O achado mais surpreendente do primeiro estudo não foi a massa, e sim a química. Dois dos novos objetos exibiam features de absorção de um hidrocarboneto alifático não identificado, que os modelos de atmosfera de anãs marras não previam e que nunca tinha sido detectado em atmosferas fora do Sistema Solar.</p><p>Como explicou Alves de Oliveira, os modelos não preveem a existência dessa molécula. Os astrônomos estavam olhando para objetos com idades e massas menores do que jamais se observara, e o resultado foi algo novo e inesperado. A leitura é que estamos novamente vendo a fronteira do que se sabe: o que funciona para as anãs marras mais massivas e mais velhas pode não valer para as mais leves e mais jovens.</p>
+<h2>A busca mais profunda de 2025 e o novo limite de massa</h2><p>Em 2025, a mesma equipe publicou um levantamento mais profundo, cobrindo uma área maior do aglomerado. Os resultados foram definitivos. A NIRCam identificou 39 candidatos a anãs marras, dos quais 15 receberam espectro pela NIRSpec, e nove foram classificados como membros subestelares confirmados do aglomerado.</p><p>O número que mais interessa é o do objeto mais fraco: as estimativas de massa dos novos membros mais tênues ficam em torno de 2 massas de Júpiter. Isso estabelece um novo limite inferior para a massa mínima da função de massa inicial, o que significa que a fragmentação de nuvens moleculares é capaz de produzir objetos substelares ainda mais leves do que se pensava. É um dado que aperta os modelos de formação estelar em uma de suas previsões mais básicas.</p><h2>Uma nova classe espectral</h2><p>Dos nove novos membros, oito apresentaram as mesmas features de hidrocarbonetos, assim como um membro já conhecido observado novamente com a NIRSpec. Considerando todos os objetos de IC 348, são 11 anãs marras com detecção do hidrocarboneto.</p><p>O padrão é consistente: as features ficam mais fortes quanto menor é a magnitude aparente, ou seja, quanto mais frio e menos massivo o objeto. A conclusão dos autores é que o hidrocarboneto é um constituinte natural das atmosferas das anãs marras recém-nascidas mais frias, e não uma anomalia.</p><p>Com base nisso, o grupo propôs uma nova classe espectral, a classe H, definida pela presença da banda fundamental de 3,4 micrômetros desse hidrocarboneto. Propor uma classe nova é um ato raro em astronomia, reservado a objetos que se diferenciam de forma clara. As implicações são profundas para a astronomia exoplanetária: a mesma química que marca essas anãs marras pode estar presente nas atmosferas de exoplanetas rochosos, e a detecção na banda de 3,4 micrômetros já é uma técnica usada no estudo de exoplanetas.</p><h2>Seriam planetas errantes?</h2><p>Uma objeção legítima existe: se esses objetos pesam apenas 2 a 3 massas de Júpiter, como distinguir anã marra de planeta gigante ejetado de seu sistema? A equipe reconhece a questão e considera a hipótese menos provável por dois argumentos.</p><p>Primeiro, planetas gigantes são incomuns em geral, e muito mais raros ainda entre estrelas de baixa massa, que são maioria no aglomerado. Segundo, com apenas 5 milhões de anos, provavelmente não houve tempo suficiente para que um gigante se formasse e fosse ejetado do sistema. Observações futuras podem esclarecer a questão, principalmente porque a teoria sugere que planetas errantes seriam mais frequentes nas bordas do aglomerado.</p><h2>O que ainda pode ser encontrado</h2><p>O levantamento realizado era curto e foi dimensionado para detectar objetos até cerca de 2 massas de Júpiter. Levantamentos mais longos e mais profundos poderiam com facilidade alcançar 1 massa de Júpiter, aproximando o limite ainda mais do regime dos grandes planetas. As observações desta campanha foram realizadas como parte do Guaranteed Time Observation número 1229. O estudo de 2023 foi publicado no Astronomical Journal, e os resultados do levantamento de 2025 no Astrophysical Journal Letters.</p><h2>Fontes e Referências</h2><p>ESA/Webb, comunicado científico weic2331, "Webb identifies tiniest free-floating brown dwarf", de 13 de dezembro de 2023, que descreve a identificação inicial das três anãs marras em IC 348, o uso da NIRCam e da NIRSpec e a detecção do hidrocarboneto. NASA Science, "NASA's Webb Identifies Tiniest Free-Floating Brown Dwarf", página de missão do Webb, que detalha o programa GTO 1229 e a publicação no Astronomical Journal. arXiv:2506.08969, "A New Spectral Class of Brown Dwarfs at the Bottom of the IMF in IC 348", de K. L. Luhman e C. Alves de Oliveira, preprint de 10 de junho de 2025 publicado no Astrophysical Journal Letters, que descreve o levantamento de 39 candidatos, os nove membros confirmados, a massa mínima de aproximadamente 2 massas de Júpiter e a proposta da classe espectral H.</p>`,
     category: {
       id: 'espaco',
       slug: 'espaco',
@@ -7515,16 +7486,9 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Star_Cluster_IC_348_%28NIRCam_image%29_%28weic2331a%29.tiff/lossy-page1-960px-Star_Cluster_IC_348_%28NIRCam_image%29_%28weic2331a%29.tiff.jpg',
     imageAlt: 'Aglomerado estelar IC 348 capturado pela câmera NIRCam do telescópio Webb',
     sources: [
-      {
-        title: 'NASA Science - Webb reveals brown dwarfs',
-        url: 'https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/',
-        type: 'agency'
-      },
-      {
-        title: 'Penn State - IC 348 brown dwarf research',
-        url: 'https://www.psu.edu/',
-        type: 'university'
-      }
+      { title: 'ESA/Webb - Webb identifies tiniest free-floating brown dwarf (comunicado weic2331, 13/12/2023)', url: 'https://esawebb.org/news/weic2331/', type: 'agency' },
+      { title: 'NASA Science - Webb identifica a menor anã marra livre flutuante (página de missão do telescópio Webb)', url: 'https://science.nasa.gov/missions/webb/nasas-webb-identifies-tiniest-free-floating-brown-dwarf/', type: 'government' },
+      { title: 'arXiv:2506.08969 - A New Spectral Class of Brown Dwarfs at the Bottom of the IMF in IC 348 (Luhman e Alves de Oliveira)', url: 'https://arxiv.org/abs/2506.08969', type: 'scientific' }
     ]
   },
   {
@@ -8051,41 +8015,9 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     id: '164',
     slug: 'missao-mmx-idefix-rover-fobos-marte',
     title: 'Missão MMX e Rover Idefix: A Jornada para as Luas de Marte',
-    excerpt: 'A missão MMX lançará em outubro de 2026 para as luas de Marte, com o rover Idefix sendo o primeiro lander a tocar o solo de Fobos.',
-    content: `
-      <h2>Uma Missão Histórica</h2>
-      <p>A missão MMX (Martian Moons eXploration) da JAXA lançará em 19 de outubro de 2026 às 21:41 CEST. É a maior missão japonesa ao Sistema Solar até agora: será a primeira no mundo a pousar na lua marciana Fobos e, em 2031, trazer as primeiras amostras jamais obtidas de Fobos — e portanto do sistema de Marte — de volta à Terra.</p>
-
-      <h2>O Rover Idefix</h2>
-      <p>Uma parte importante da missão é o rover Idefix®, um lander germano-francês que tocará em Fobos em 2029. O rover fará história como o primeiro lander a deixar trilhas em uma lua de Marte, explorando sua superfície de perto por 100 dias.</p>
-
-      <h3>Colaboração Internacional</h3>
-      <p>O Idefix foi desenvolvido em colaboração entre a DLR (Agência Espacial Alemã) e a CNES (Agência Espacial Francesa). A JAXA apresentou a sonda espacial completa com o rover montado ao público em agosto no Centro Espacial de Tanegashima.</p>
-
-      <h2>O Que é Fobos?</h2>
-      <p>Fobos é a maior das duas luas de Marte, orbitando muito mais perto do planeta que nossa lua orbita a Terra. É um objeto irregular com cerca de 22 km de diâmetro, coberto por crateras e com características misteriosas como sulcos paralelos.</p>
-
-      <h3>Cientistas Ainda Debatem a Origem</h3>
-      <p>A origem de Fobos é debatida: pode ser um asteroide capturado pela gravidade de Marte, ou pode ter se formado a partir de debris após um impacto com Marte. As amostras que a missão trará de volta ajudarão a resolver essa questão.</p>
-
-      <h2>O Lançamento</h2>
-      <p>A janela de lançamento para Marte se estende até 7 de novembro de 2026. A sonda será montada no poderoso foguete H3 da JAXA, que levará a MMX ao sistema de Marte.</p>
-
-      <h3>Preparações Finais</h3>
-      <p>Os preparativos finais de lançamento estão em andamento, com a sonda espacial sendo montada no foguete. A equipe de missão está concluindo os testes e preparativos para o lançamento histórico.</p>
-
-      <h2>Implicações Científicas</h2>
-      <p>Esta missão é importante porque:</p>
-      <ul>
-        <li><strong>Primeiras amostras de Fobos:</strong> Nunca obtivemos material das luas de Marte</li>
-        <li><strong>Origem das luas:</strong> As amostras revelarão se Fobos é capturado ou formado localmente</li>
-        <li><strong>História de Marte:</strong> As luas podem conter informações sobre a evolução de Marte</li>
-        <li><strong>Tecnologia de pousos:</strong> Aterrissar em uma lua pequena é tecnicamente desafiador</li>
-      </ul>
-
-      <h2>O Futuro da Exploração</h2>
-      <p>A missão MMX representa um passo importante na exploração do sistema de Marte, abrindo caminho para futuras missões às luas de Marte e além.</p>
-    `,
+    excerpt: 'A missão MMX da JAXA vai trazer mais de 10 gramas de amostras da lua Fobos e testar se as luas de Marte nasceram do próprio planeta ou são asteroides capturados.',
+    content: `<h2>Uma missão para trazer material de volta</h2><p>A missão MMX, sigla de Martian Moons eXploration, é o projeto da agência espacial japonesa JAXA para investigar as luas de Marte e trazer amostras da lua Fobos de volta à Terra. A missão está programada para lançamento no ano fiscal japonês de 2026, seguida de uma viagem de aproximadamente cinco anos para a ida e a volta à região marciana.</p><p>O objetivo de coletar mais de 10 gramas de material de Fobos faria da MMX a primeira missão de retorno de amostras da região de Marte. A massa é modesta se comparada às centenas de gramas devolvidas por sondas como a Hayabusa2, que explorou um asteroide, mas a distância e as condições tornam o feito sem precedentes.</p><h2>Por que Fobos</h2><p>Fobos é a maior das duas luas de Marte. O motivo científico central da missão é resolver um debate antigo sobre a origem delas. Existem duas hipóteses principais, e cada uma leva a implicações bem diferentes para a formação de planetas no Sistema Solar.</p><h3>Hipótese 1: material de Marte ejetado</h3><p>A primeira considera que as luas são remanescentes do próprio planeta: material que teria sido ejetado por um impacto gigante com um corpo jovem. Nessa hipótese, Fobos e Deimos nasceram junto com Marte e compartilhariam com ele uma assinatura química própria.</p><h3>Hipótese 2: asteroides capturados</h3><p>A segunda considera que as luas são asteroides capturados pela gravidade marciana. Nesse caso, elas teriam trazido material do sistema solar externo, e a assinatura isotópica seria diferente da de Marte. A origem do debate, como descreve a JAXA, é diretamente ligada a uma das questões centrais da planetologia: como os planetas se formaram e de que material são feitos.</p><h2>Como a missão vai funcionar</h2><p>Cerca de um ano após o lançamento, a espaçonave MMX chegará a Marte. A partir daí, entrará em órbita ao redor de Fobos, em uma órbita chamada quase-estacionária, e realizará uma série de observações. O período restante nas proximidades da lua será definido durante os estudos em andamento, conforme o planejamento científico da missão.</p><p>Depois das observações e da coleta, a nave seguirá de volta à Terra em uma viagem de cerca de um ano, entregando as amostras. É justamente esse o momento mais delicado do percurso, e é nele que se concentra boa parte do trabalho de engenharia.</p>
+<h2>A espaçonave e seus subsistemas</h2><p>A espaçonave MMX é composta por um conjunto amplo de subsistemas. Entre eles estão o MIRS, o módulo de instrumentos científicos, que reúne os diversos sensores usados para coletar dados; o subsistema de energia elétrica, que gera, armazena e fornece a energia de toda a nave; e o subsistema de tratamento de dados, que processa as informações dos instrumentos e do próprio corpo da espaçonave antes de transmiti-las à Terra.</p><p>Os dados que não podem ser enviados imediatamente são gravados em um registrador instalado na cápsula de retorno de amostras. Há ainda subsistemas de controle de atitude e órbita, que estabilizam a nave e controlam sua órbita usando sensores e propulsores; de pouso, composto pelo mecanismo de aterrissagem; de controle térmico, que mantém as condições de temperatura dos equipamentos; de comunicação; e de estrutura, que dá suporte ao módulo de propulsão, ao módulo de exploração e ao módulo de retorno.</p><h2>Objetivos de engenharia</h2><p>Além dos objetivos científicos, a missão tem uma agenda de engenharia igualmente relevante, definida pela JAXA em duas frentes.</p><p>A primeira é estabelecer a tecnologia necessária para a viagem de ida e volta entre a Terra e Marte, o que envolve as comunicações de longo prazo e a navegação em um ambiente onde os atrasos de sinal tornam o controle remoto difíceis. A segunda é estabelecer técnicas avançadas de coleta em corpos celestes, um problema consideravelmente mais delicado do que parece porque uma amostra precisa ser coletada sem contaminar o material nem danificar o equipamento em um ambiente com gravidade muito baixa e poeira fina.</p><p>Há ainda um terceiro objetivo: otimizar tecnologias de comunicação usando uma estação terrestre recém-desenvolvida para a missão.</p><h2>O que a amostra pode revelar</h2><p>Se Fobos se formou a partir de material marciano, a amostra deve ter uma assinatura isotópica compatível com Marte. Se for um asteroide capturado, a assinatura será outra, apontando para o sistema solar externo. Essa diferença pode ser resolvida de forma relativamente direta por análise laboratorial, o que torna o retorno de amostras decisivo para encerrar o debate.</p><p>Além disso, as observações remotas e as análises da amostra devem esclarecer como o material da atmosfera marciana circula e escapa para o espaço. Isso oferece pistas sobre os processos que moldaram a evolução de longo prazo do planeta e se conecta a uma das perguntas centrais da planetologia: como surgiram, no Sistema Solar, ambientes capazes de sustentar a química pré-biótica necessária ao surgimento da vida.</p><h2>O que ainda não se sabe</h2><p>Convém registrar o que permanece em aberto. A JAXA é explícita ao afirmar que o período que a espaçonave passará nas proximidades de Fobos ainda será definido durante estudos em andamento, e que o planejamento depende das observações previstas. Além disso, as duas hipóteses sobre a origem das luas seguem ambas compatíveis com o que se sabe, e apenas a análise da amostra poderá dizer qual se confirma.</p><h2>Fontes e Referências</h2><p>JAXA, "Mission Overview / Mission Flow", página oficial da missão MMX, que descreve o lançamento previsto para o ano fiscal de 2026, a viagem de aproximadamente cinco anos, a chegada a Marte cerca de um ano após o lançamento, a órbita quase-estacionária ao redor de Fobos, o retorno à Terra em cerca de um ano, a meta de coletar mais de 10 gramas de material, as duas hipóteses concorrentes sobre a origem das luas marcianas, os objetivos científicos e de engenharia, e a lista de subsistemas da espaçonave.</p>`,
     category: {
       id: 'espaco',
       slug: 'espaco',
@@ -8100,16 +8032,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Phobos_moon_%28large%29.jpg',
     imageAlt: 'Lua Fobos fotografada por sonda da NASA, de superfície irregular',
     sources: [
-      {
-        title: 'DLR - MMX mission and Idefix rover',
-        url: 'https://www.dlr.de/en/latest/news/2026/off-to-the-moons-of-mars-mmx-mission-and-idefix-rover-ready-for-launch',
-        type: 'agency'
-      },
-      {
-        title: 'JAXA - MMX mission overview',
-        url: 'https://www.jaxa.jp/projects/sat/mmx/index_e.html',
-        type: 'agency'
-      }
+      { title: 'JAXA - MMX Mission Overview / Mission Flow', url: 'https://www.mmx.jaxa.jp/en/mission/index.html', type: 'agency' }
     ]
   },
   {

@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "validate:images": "node scripts/validate-images.mjs",
+    "validate:editorial": "node scripts/validate-editorial.mjs",
     "radar": "node scripts/auto-run.mjs",
     "radar:dry": "node scripts/auto-dry-run.mjs",
     "publish": "node scripts/auto-run.mjs"
