@@ -7014,8 +7014,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Boiling_Spring_Lassen.jpg/960px-Boiling_Spring_Lassen.jpg',
-    imageAlt: 'Fonte termal borbulhante no Parque Nacional Vulcânico Lassen',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Amoeba_proteus_with_many_pseudopodia.jpg/960px-Amoeba_proteus_with_many_pseudopodia.jpg',
+    imageAlt: 'Ameba vista em microscópio, com núcleo e pseudópodes visíveis',
     sources: [
       {
         title: 'Reuters - Tenacious hot springs amoeba sets heat-tolerance record',
@@ -7082,8 +7082,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coral_reef_at_Five_Holes_Raja_Ampat.jpg/960px-Coral_reef_at_Five_Holes_Raja_Ampat.jpg',
-    imageAlt: 'Recife de coral colorido com peixes nadando',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Coral_Outcrop_Flynn_Reef.jpg/960px-Coral_Outcrop_Flynn_Reef.jpg',
+    imageAlt: 'Recife de coral subaquático com peixes e formações de coral',
     sources: [
       {
         title: 'PLOS Genetics - Chemosynthesis genes in fish gill bacteria',
@@ -7153,8 +7153,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Brain_human_sagittal_section.svg/960px-Brain_human_sagittal_section.svg.png',
-    imageAlt: 'Diagrama anatômico do cérebro humano em corte sagital',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Human_brain_frontal_%28coronal%29_section.JPG',
+    imageAlt: 'Corte coronal do cérebro humano mostrando as regiões corticais',
     sources: [
       {
         title: 'Nature Genetics - Single-nucleus atlas of human brain',
@@ -7223,8 +7223,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Solar_cell.jpg/960px-Solar_cell.jpg',
-    imageAlt: 'Célula solar azul com padrão de grade brilhante',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Ground_mounted_solar_panels.gk.jpg/960px-Ground_mounted_solar_panels.gk.jpg',
+    imageAlt: 'Painéis solares instalados em terreno aberto',
     sources: [
       {
         title: 'Science Bulletin - Perovskite/Si tandem solar cells 34% efficiency',
@@ -7302,8 +7302,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Siemens_SGT-700_gas_turbine.jpg/960px-Siemens_SGT-700_gas_turbine.jpg',
-    imageAlt: 'Turbina a gás industrial em instalação de teste',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Steam_turbines%3B_a_practical_and_theoretical_treatise_for_engineers_and_students%2C_including_a_discussion_of_the_gas_turbine_%281917%29_%2814779720654%29.jpg/960px-Steam_turbines%3B_a_practical_and_theoretical_treatise_for_engineers_and_students%2C_including_a_discussion_of_the_gas_turbine_%281917%29_%2814779720654%29.jpg',
+    imageAlt: 'Turbinas a vapor industriais vistas da estrutura externa',
     sources: [
       {
         title: 'Energies Media - Hydrogen turbine without compressor',
@@ -7373,8 +7373,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Sea_spider_1.jpg/960px-Sea_spider_1.jpg',
-    imageAlt: 'Aranha do mar com corpo translúcido e pernas longas',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nymphon_gracile_003.jpg/960px-Nymphon_gracile_003.jpg',
+    imageAlt: 'Aranha-do-mar, animal marinho com oito patas finas',
     sources: [
       {
         title: 'UBC Science - Hairy-legged red-eyed sea spiders',
@@ -7450,8 +7450,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mantis_shrimp.jpg/960px-Mantis_shrimp.jpg',
-    imageAlt: 'Camarão mantis colorido com olhos compostos protuberantes',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Odontodactylus_scyllarus1.jpg/960px-Odontodactylus_scyllarus1.jpg',
+    imageAlt: 'Camarão-mantis, crustáceo com olhos e antenas pronunciados',
     sources: [
       {
         title: 'ScienceNews.dk - Football-pitch-sized imaging device',
@@ -7512,8 +7512,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/IC_348_-_Hubble_Space_Telescope.jpg/960px-IC_348_-_Hubble_Space_Telescope.jpg',
-    imageAlt: 'Nebulosa IC 348 com estrelas jovens e poeira cósmica',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Star_Cluster_IC_348_%28NIRCam_image%29_%28weic2331a%29.tiff/lossy-page1-960px-Star_Cluster_IC_348_%28NIRCam_image%29_%28weic2331a%29.tiff.jpg',
+    imageAlt: 'Aglomerado estelar IC 348 capturado pela câmera NIRCam do telescópio Webb',
     sources: [
       {
         title: 'NASA Science - Webb reveals brown dwarfs',
@@ -7583,8 +7583,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Artist%27s_impression_of_young_planet_in_a_protoplanetary_disc.jpg/960px-Artist%27s_impression_of_young_planet_in_a_protoplanetary_disc.jpg',
-    imageAlt: 'Ilustração artística de um planeta jovem em um disco protoplanetário',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Exoplanet_Tracker_Discovers_Young_Star_with_Planetary_Companion_%28noao0605b%29.tiff/lossy-page1-500px-Exoplanet_Tracker_Discovers_Young_Star_with_Planetary_Companion_%28noao0605b%29.tiff.jpg',
+    imageAlt: 'Ilustração de um exoplaneta jovem ainda cercado por material',
     sources: [
       {
         title: 'NASA Science - Newfound baby planet',
@@ -7651,8 +7651,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nancy_Grace_Roman_Space_Telescope.jpg/960px-Nancy_Grace_Roman_Space_Telescope.jpg',
-    imageAlt: 'Ilustração artística do Telescópio Espacial Nancy Grace Roman',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WFIRST-AFTA_%28Wide_Field_Infrared_Survey_Telescope_-_Astrophysics_Focused_Telescope_Assets%29.jpg/960px-WFIRST-AFTA_%28Wide_Field_Infrared_Survey_Telescope_-_Astrophysics_Focused_Telescope_Assets%29.jpg',
+    imageAlt: 'Ilustração do telescópio espacial Roman em órbita',
     sources: [
       {
         title: 'NASA Science - Roman ground stations confirmed',
@@ -7725,8 +7725,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Oculus_Rift_S_HMD_with_Touch_controllers.jpg/960px-Oculus_Rift_S_HMD_with_Touch_controllers.jpg',
-    imageAlt: 'Headset de realidade virtual com controladores',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/b/b0/Virtual_reality_headset_and_wired_gloves%2C_Ames_Research_Center.jpg',
+    imageAlt: 'Headset de realidade virtual com controles ao lado',
     sources: [
       {
         title: 'Meta - Introducing Meta VR Glasses',
@@ -7805,8 +7805,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Quantum_computer_2.jpg/960px-Quantum_computer_2.jpg',
-    imageAlt: 'Computador quântico com complexo sistema de cabos e resfriamento',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Quantum-computer-Chalmers_2017.jpg/960px-Quantum-computer-Chalmers_2017.jpg',
+    imageAlt: 'Computador quântico em ambiente de laboratório',
     sources: [
       {
         title: 'Live Science - Japan room-temperature quantum computer',
@@ -7879,8 +7879,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Quantum_computer_chip.jpg/960px-Quantum_computer_chip.jpg',
-    imageAlt: 'Chip de computador quântico com padrões complexos',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Quantum_Computing_for_Google_Goggles_%284171280876%29.jpg/960px-Quantum_Computing_for_Google_Goggles_%284171280876%29.jpg',
+    imageAlt: 'Chip quântico de processamento sobre placa de circuitos',
     sources: [
       {
         title: 'Infleqtion - 30 entangled logical qubits',
@@ -7958,8 +7958,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Crispr-cas9-gene-editing-3d-rendering.jpg/960px-Crispr-cas9-gene-editing-3d-rendering.jpg',
-    imageAlt: 'Renderização 3D do sistema CRISPR-Cas9 de edição de genes',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/CRISPR_Biotech_main_lab.jpg/960px-CRISPR_Biotech_main_lab.jpg',
+    imageAlt: 'Laboratório de biotecnologia com equipamentos de manipulação genética',
     sources: [
       {
         title: 'Anthropic - Claude discovers novel enzyme system',
@@ -8032,8 +8032,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Avatar_icon.png/960px-Avatar_icon.png',
-    imageAlt: 'Ícone de avatar genérico representando personagem digital',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/EMULATE_AVATAR_OrganChip_%28EMULATE_CHIPS_SELECT-1-EDITED%29.jpg/960px-EMULATE_AVATAR_OrganChip_%28EMULATE_CHIPS_SELECT-1-EDITED%29.jpg',
+    imageAlt: 'Painel de lançamento do projeto de avatar humano da Meta',
     sources: [
       {
         title: 'Meta AI Research - Bringing Your Muse to Life',
@@ -8097,8 +8097,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Phobos_Mars_Moon.jpg/960px-Phobos_Mars_Moon.jpg',
-    imageAlt: 'Imagem da lua marciana Fobos mostrando sua superfície irregular e craterada',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Phobos_moon_%28large%29.jpg',
+    imageAlt: 'Lua Fobos fotografada por sonda da NASA, de superfície irregular',
     sources: [
       {
         title: 'DLR - MMX mission and Idefix rover',
@@ -8178,8 +8178,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CRISPR-Cas9_molecular_scissors_editing_DNA.jpg/960px-CRISPR-Cas9_molecular_scissors_editing_DNA.jpg',
-    imageAlt: 'Ilustração do sistema CRISPR-Cas9 editando DNA',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg/960px-CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg',
+    imageAlt: 'Ilustração do mecanismo de edição genética CRISPR-Cas9',
     sources: [
       {
         title: 'Nature - Targeted genomic integration using prime assembly',
@@ -8249,8 +8249,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/DNA_nanotechnology_schematic.jpg/960px-DNA_nanotechnology_schematic.jpg',
-    imageAlt: 'Esquema de nanotecnologia de DNA mostrando estruturas moleculares complexas',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Amyloid_beta_fibrils.png',
+    imageAlt: 'Fibrilas de beta-amiloide em escala ampliada, de forma filamentosa',
     sources: [
       {
         title: 'Nature - Sequence-encoded hexagonal lattices in peptide nanofibrils',
@@ -8317,8 +8317,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Quark_structure_proton.svg/960px-Quark_structure_proton.svg.png',
-    imageAlt: 'Diagrama da estrutura de quarks em um próton',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Large_Hadron_Collider_dipole_magnets_IMG_0955.jpg/960px-Large_Hadron_Collider_dipole_magnets_IMG_0955.jpg',
+    imageAlt: 'Magnetos do dipole do Grande Colisor de Hadrons, acelerador de partículas',
     sources: [
       {
         title: 'Interesting Engineering - Quantum simulator string breaking',
@@ -8388,8 +8388,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/LHCb_event_display.jpg/960px-LHCb_event_display.jpg',
-    imageAlt: 'Display de evento do detector LHCb mostrando trilha de partículas',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/CERN%2C_Geneva%2C_particle_accelerator_%2816284713042%29.jpg/960px-CERN%2C_Geneva%2C_particle_accelerator_%2816284713042%29.jpg',
+    imageAlt: 'Complexo de aceleradores de partículas do CERN em Genebra',
     sources: [
       {
         title: 'arXiv - Observation of the doubly charmed baryon',
@@ -8465,8 +8465,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Virus_capsid_diagram.svg/960px-Virus_capsid_diagram.svg.png',
-    imageAlt: 'Diagrama estrutural de capsídeo viral mostrando organização geométrica',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ebola_Virus_-_Electron_Micrograph.tiff/lossy-page1-960px-Ebola_Virus_-_Electron_Micrograph.tiff.jpg',
+    imageAlt: 'Micrografia eletrônica de partículas virais',
     sources: [
       {
         title: 'Nature - Molecular-level observation of virus-like particle self-assembly',
@@ -8539,8 +8539,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Solar_cell_array.jpg/960px-Solar_cell_array.jpg',
-    imageAlt: 'Array de células solares de silício azuis em painel fotovoltaico',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/SolarPowerPlantSerpa.jpg/960px-SolarPowerPlantSerpa.jpg',
+    imageAlt: 'Usina de energia solar com fileiras de painéis vista aérea',
     sources: [
       {
         title: 'PV Magazine - Longi 28.29% world record',
@@ -8619,8 +8619,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Manga_influencers.jpg/960px-Manga_influencers.jpg',
-    imageAlt: 'Pilha de volumes de mangá em estante',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Comic_History_of_Rome_p_205_Roman_Lady_Shopping.jpg/960px-Comic_History_of_Rome_p_205_Roman_Lady_Shopping.jpg',
+    imageAlt: 'Página de quadrinhos colorida com personagens ilustrados',
     sources: [
       {
         title: 'ICv2 - Japanese-run digital manga platforms',
@@ -8693,8 +8693,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
     readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cloud_gaming_concept.jpg/960px-Cloud_gaming_concept.jpg',
-    imageAlt: 'Ilustração conceitual de cloud gaming mostrando jogador e streaming',
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Snake_Esports_vs_Oh_My_God%2C_19_July_2015_Shanghai_%28115500173%29.jpg/960px-Snake_Esports_vs_Oh_My_God%2C_19_July_2015_Shanghai_%28115500173%29.jpg',
+    imageAlt: 'Jogadores em competição de esports em palco iluminado',
     sources: [
       {
         title: 'Global Warfighter League - Cloud gaming esports-ready',
