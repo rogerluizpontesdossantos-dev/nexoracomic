@@ -10,9 +10,401 @@
     <description>NexoraComic é uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek. Artigos sobre astronomia, física, IA, games, filmes e curiosidades científicas.</description>
     <language>pt-BR</language>
     <copyright>Copyright 2024-2026 NexoraComic. Todos os direitos reservados.</copyright>
-    <lastBuildDate>Sun, 13 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link rel="self" href="https://nexoracomic.vercel.app/rss.xml" type="application/rss+xml" />
 
+    <item>
+      <title>A Amoeba de Fogo das Cascades: O Organismo Mais Resistente ao Calor Conhecido</title>
+      <link>https://nexoracomic.vercel.app/ciencia/amoeba-incendiamoeba-cascades-resistencia-termica</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/amoeba-incendiamoeba-cascades-resistencia-termica</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Cientistas descobriram uma nova espécie de ameba que sobrevive em temperaturas que matariam todos os outros organismos complexos conhecidos.</description>
+      <content:encoded>Cientistas descobriram uma nova espécie de ameba que sobrevive em temperaturas que matariam todos os outros organismos complexos conhecidos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Boiling_Spring_Lassen.jpg/960px-Boiling_Spring_Lassen.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Boiling_Spring_Lassen.jpg/960px-Boiling_Spring_Lassen.jpg" medium="image">
+        <media:title type="html">Fonte termal borbulhante no Parque Nacional Vulcânico Lassen</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Bactérias Quimiossintéticas Descobertas em Guelras de Peixes de Coral</title>
+      <link>https://nexoracomic.vercel.app/ciencia/bacterias-quimiossinteticas-guelras-peixes-coral</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/bacterias-quimiossinteticas-guelras-peixes-coral</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Pesquisadores encontraram genes de quimiossíntese em bactérias que vivem nas guelras de peixes de recife de coral, revelando um novo tipo de simbiose.</description>
+      <content:encoded>Pesquisadores encontraram genes de quimiossíntese em bactérias que vivem nas guelras de peixes de recife de coral, revelando um novo tipo de simbiose.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coral_reef_at_Five_Holes_Raja_Ampat.jpg/960px-Coral_reef_at_Five_Holes_Raja_Ampat.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coral_reef_at_Five_Holes_Raja_Ampat.jpg/960px-Coral_reef_at_Five_Holes_Raja_Ampat.jpg" medium="image">
+        <media:title type="html">Recife de coral colorido com peixes nadando</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Atlas Genético do Cérebro Humano: 5,6 Milhões de Núcleos Mapeados</title>
+      <link>https://nexoracomic.vercel.app/ciencia/atlas-genetico-cerebro-humano-nucleo-unico</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/atlas-genetico-cerebro-humano-nucleo-unico</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Cientistas criaram o atlas mais abrangente da regulação genética no cérebro humano, revelando genes específicos de tipos celulares associados a doenças neurológicas.</description>
+      <content:encoded>Cientistas criaram o atlas mais abrangente da regulação genética no cérebro humano, revelando genes específicos de tipos celulares associados a doenças neurológicas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Brain_human_sagittal_section.svg/960px-Brain_human_sagittal_section.svg.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Brain_human_sagittal_section.svg/960px-Brain_human_sagittal_section.svg.png" medium="image">
+        <media:title type="html">Diagrama anatômico do cérebro humano em corte sagital</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Células Solares Tandem Perovskita-Silício Alcançam 34% de Eficiência</title>
+      <link>https://nexoracomic.vercel.app/futuro/celulas-solares-tandem-perovskita-silicio-eficiencia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/celulas-solares-tandem-perovskita-silicio-eficiencia</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>Pesquisadores chineses desenvolveram células solares tandem com eficiência recorde de 34%, usando nanopartículas de zircônia como camada interfacial.</description>
+      <content:encoded>Pesquisadores chineses desenvolveram células solares tandem com eficiência recorde de 34%, usando nanopartículas de zircônia como camada interfacial.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Solar_cell.jpg/960px-Solar_cell.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Solar_cell.jpg/960px-Solar_cell.jpg" medium="image">
+        <media:title type="html">Célula solar azul com padrão de grade brilhante</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Turbina de Hidrogênio sem Compressor Gera Eletricidade pela Primeira Vez</title>
+      <link>https://nexoracomic.vercel.app/futuro/turbina-hidrogenio-sem-compressor-geracao-eletricidade</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/turbina-hidrogenio-sem-compressor-geracao-eletricidade</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>Pesquisadores alemães operaram uma turbina de gás de hidrogênio sem compressor por 303 segundos, gerando eletricidade em um recorde histórico.</description>
+      <content:encoded>Pesquisadores alemães operaram uma turbina de gás de hidrogênio sem compressor por 303 segundos, gerando eletricidade em um recorde histórico.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Siemens_SGT-700_gas_turbine.jpg/960px-Siemens_SGT-700_gas_turbine.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Siemens_SGT-700_gas_turbine.jpg/960px-Siemens_SGT-700_gas_turbine.jpg" medium="image">
+        <media:title type="html">Turbina a gás industrial em instalação de teste</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Aranhas do Mar de Pernas Peludas Descobertas no Salish Sea</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/aranhas-mar-pernas-peludas-salish-sea-descobertas</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/aranhas-mar-pernas-peludas-salish-sea-descobertas</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Pesquisadores da UBC descreveram duas novas espécies de aranhas do mar com pernas peludas e olhos vermelhos, as primeiras descobertas na região em quase um século.</description>
+      <content:encoded>Pesquisadores da UBC descreveram duas novas espécies de aranhas do mar com pernas peludas e olhos vermelhos, as primeiras descobertas na região em quase um século.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Sea_spider_1.jpg/960px-Sea_spider_1.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Sea_spider_1.jpg/960px-Sea_spider_1.jpg" medium="image">
+        <media:title type="html">Aranha do mar com corpo translúcido e pernas longas</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Olho de Camarão Mantis Capturado em 3D com Resolução Sem Precedentes</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/olho-camarao-mantis-imagem-3d-sincrotron</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/olho-camarao-mantis-imagem-3d-sincrotron</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Pesquisadores usaram um sinchrotron do tamanho de um campo de futebol para criar uma imagem 3D do olho de um camarão mantis, revelando estruturas nunca antes descritas.</description>
+      <content:encoded>Pesquisadores usaram um sinchrotron do tamanho de um campo de futebol para criar uma imagem 3D do olho de um camarão mantis, revelando estruturas nunca antes descritas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mantis_shrimp.jpg/960px-Mantis_shrimp.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mantis_shrimp.jpg/960px-Mantis_shrimp.jpg" medium="image">
+        <media:title type="html">Camarão mantis colorido com olhos compostos protuberantes</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Webb Descobre Anãs Marras com Massa de Apenas 2x Júpiter</title>
+      <link>https://nexoracomic.vercel.app/espaco/webb-descobre-anas-marras-massa-jupiter</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/webb-descobre-anas-marras-massa-jupiter</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>O Telescópio Espacial James Webb encontrou anãs marras tão pequenas que desafiam as teorias de formação estelar, com apenas o dobro da massa de Júpiter.</description>
+      <content:encoded>O Telescópio Espacial James Webb encontrou anãs marras tão pequenas que desafiam as teorias de formação estelar, com apenas o dobro da massa de Júpiter.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/IC_348_-_Hubble_Space_Telescope.jpg/960px-IC_348_-_Hubble_Space_Telescope.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/IC_348_-_Hubble_Space_Telescope.jpg/960px-IC_348_-_Hubble_Space_Telescope.jpg" medium="image">
+        <media:title type="html">Nebulosa IC 348 com estrelas jovens e poeira cósmica</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Planeta Bebê Elias 2-24 b Quebra Recorde como Mundo Mais Jovem Conhecido</title>
+      <link>https://nexoracomic.vercel.app/espaco/planeta-bebe-elias-2-24-b-mais-jovem-conhecido</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/planeta-bebe-elias-2-24-b-mais-jovem-conhecido</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Astrônomos confirmaram um mundo com menos de 1 milhão de anos como o planeta mais jovem conhecido, usando dados de arquivos financiados pela NASA.</description>
+      <content:encoded>Astrônomos confirmaram um mundo com menos de 1 milhão de anos como o planeta mais jovem conhecido, usando dados de arquivos financiados pela NASA.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Artist%27s_impression_of_young_planet_in_a_protoplanetary_disc.jpg/960px-Artist%27s_impression_of_young_planet_in_a_protoplanetary_disc.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Artist%27s_impression_of_young_planet_in_a_protoplanetary_disc.jpg/960px-Artist%27s_impression_of_young_planet_in_a_protoplanetary_disc.jpg" medium="image">
+        <media:title type="html">Ilustração artística de um planeta jovem em um disco protoplanetário</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Telescópio Espacial Roman: Estações Terrestres Confirmadas para Receber Dados</title>
+      <link>https://nexoracomic.vercel.app/espaco/telescopio-roman-estacoes-terrestres-confirmadas</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/telescopio-roman-estacoes-terrestres-confirmadas</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>A NASA confirmou que todas as estações terrestres que apoiam o Telescópio Espacial Nancy Grace Roman estão prontas para receber o alto volume de dados da missão.</description>
+      <content:encoded>A NASA confirmou que todas as estações terrestres que apoiam o Telescópio Espacial Nancy Grace Roman estão prontas para receber o alto volume de dados da missão.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nancy_Grace_Roman_Space_Telescope.jpg/960px-Nancy_Grace_Roman_Space_Telescope.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nancy_Grace_Roman_Space_Telescope.jpg/960px-Nancy_Grace_Roman_Space_Telescope.jpg" medium="image">
+        <media:title type="html">Ilustração artística do Telescópio Espacial Nancy Grace Roman</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Meta VR Glasses: Óculos VR de 100g com Cinema, Workspace e Console</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/meta-vr-glasses-oculos-100g-cinema-workspace</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/meta-vr-glasses-oculos-100g-cinema-workspace</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>A Meta anunciou novos óculos VR que pesam apenas 100g e oferecem experiência de cinema, workspace e console em um formato de óculos confortável.</description>
+      <content:encoded>A Meta anunciou novos óculos VR que pesam apenas 100g e oferecem experiência de cinema, workspace e console em um formato de óculos confortável.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Oculus_Rift_S_HMD_with_Touch_controllers.jpg/960px-Oculus_Rift_S_HMD_with_Touch_controllers.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Oculus_Rift_S_HMD_with_Touch_controllers.jpg/960px-Oculus_Rift_S_HMD_with_Touch_controllers.jpg" medium="image">
+        <media:title type="html">Headset de realidade virtual com controladores</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Computador Quântico de Temperatura Ambiente do Japão: Sistema Shunkai</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/computador-quantico-temperatura-ambiente-shunkai-japao</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/computador-quantico-temperatura-ambiente-shunkai-japao</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Pesquisadores japoneses ligaram Shunkai, o primeiro computador quântico de pilha completa de temperatura ambiente do país, usando átomos neutros capturados por pinças ópticas.</description>
+      <content:encoded>Pesquisadores japoneses ligaram Shunkai, o primeiro computador quântico de pilha completa de temperatura ambiente do país, usando átomos neutros capturados por pinças ópticas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Quantum_computer_2.jpg/960px-Quantum_computer_2.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Quantum_computer_2.jpg/960px-Quantum_computer_2.jpg" medium="image">
+        <media:title type="html">Computador quântico com complexo sistema de cabos e resfriamento</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Infleqtion Alcança 30 Qubits Lógicos Entrelaçados em Computador Sqale</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/infleqtion-30-qubits-logicos-entrelacados-sqale</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/infleqtion-30-qubits-logicos-entrelacados-sqale</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>A Infleqtion alcançou 30 qubits lógicos entrelaçados usando apenas 80 qubits físicos em sua plataforma Sqale, validando a arquitetura do hardware.</description>
+      <content:encoded>A Infleqtion alcançou 30 qubits lógicos entrelaçados usando apenas 80 qubits físicos em sua plataforma Sqale, validando a arquitetura do hardware.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Quantum_computer_chip.jpg/960px-Quantum_computer_chip.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Quantum_computer_chip.jpg/960px-Quantum_computer_chip.jpg" medium="image">
+        <media:title type="html">Chip de computador quântico com padrões complexos</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Claude Descobre Sistema Enzimático com Repetições do Tipo CRISPR</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/claude-descobre-sistema-enzimatico-crispr-anthropic</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/claude-descobre-sistema-enzimatico-crispr-anthropic</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>A Anthropic anunciou que Claude descobriu um novo sistema enzimático com propriedades reminiscentes do CRISPR, expandindo as capacidades da IA em pesquisa biológica.</description>
+      <content:encoded>A Anthropic anunciou que Claude descobriu um novo sistema enzimático com propriedades reminiscentes do CRISPR, expandindo as capacidades da IA em pesquisa biológica.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Crispr-cas9-gene-editing-3d-rendering.jpg/960px-Crispr-cas9-gene-editing-3d-rendering.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Crispr-cas9-gene-editing-3d-rendering.jpg/960px-Crispr-cas9-gene-editing-3d-rendering.jpg" medium="image">
+        <media:title type="html">Renderização 3D do sistema CRISPR-Cas9 de edição de genes</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Muse Realtime Avatar: Avatar Interativo em Tempo Real da Meta AI</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/muse-realtime-avatar-meta-ai-interativo-tempo-real</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/muse-realtime-avatar-meta-ai-interativo-tempo-real</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>A Meta AI Research introduziu Muse Realtime Avatar, tecnologia de incorporação que traz qualquer personagem para uma conversa ao vivo com expressões faciais e corporais.</description>
+      <content:encoded>A Meta AI Research introduziu Muse Realtime Avatar, tecnologia de incorporação que traz qualquer personagem para uma conversa ao vivo com expressões faciais e corporais.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Avatar_icon.png/960px-Avatar_icon.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Avatar_icon.png/960px-Avatar_icon.png" medium="image">
+        <media:title type="html">Ícone de avatar genérico representando personagem digital</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Missão MMX e Rover Idefix: A Jornada para as Luas de Marte</title>
+      <link>https://nexoracomic.vercel.app/espaco/missao-mmx-idefix-rover-fobos-marte</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/missao-mmx-idefix-rover-fobos-marte</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>A missão MMX lançará em outubro de 2026 para as luas de Marte, com o rover Idefix sendo o primeiro lander a tocar o solo de Fobos.</description>
+      <content:encoded>A missão MMX lançará em outubro de 2026 para as luas de Marte, com o rover Idefix sendo o primeiro lander a tocar o solo de Fobos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Phobos_Mars_Moon.jpg/960px-Phobos_Mars_Moon.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Phobos_Mars_Moon.jpg/960px-Phobos_Mars_Moon.jpg" medium="image">
+        <media:title type="html">Imagem da lua marciana Fobos mostrando sua superfície irregular e craterada</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Prime Assembly: Nova Técnica de Edição Genética Mais Poderosa que CRISPR</title>
+      <link>https://nexoracomic.vercel.app/ciencia/prime-assembly-edicao-genetica-crispr</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/prime-assembly-edicao-genetica-crispr</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Cientistas desenvolveram o Prime Assembly, uma técnica que permite integração e rearranjo genômico usando CRISPR, sem precisar de doadores de DNA de fita dupla.</description>
+      <content:encoded>Cientistas desenvolveram o Prime Assembly, uma técnica que permite integração e rearranjo genômico usando CRISPR, sem precisar de doadores de DNA de fita dupla.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CRISPR-Cas9_molecular_scissors_editing_DNA.jpg/960px-CRISPR-Cas9_molecular_scissors_editing_DNA.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/CRISPR-Cas9_molecular_scissors_editing_DNA.jpg/960px-CRISPR-Cas9_molecular_scissors_editing_DNA.jpg" medium="image">
+        <media:title type="html">Ilustração do sistema CRISPR-Cas9 editando DNA</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Nanofibrilas Peptídicas Hexagonais: Estrutura Biológica que Cria Canais Nanoscópicos</title>
+      <link>https://nexoracomic.vercel.app/ciencia/nanofibrilas-peptidicas-hexagonais-estrutura-biologica</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/nanofibrilas-peptidicas-hexagonais-estrutura-biologica</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Cientistas descobriram que peptídeos mínimos de nove resíduos podem codificar motivos de interação lateral que direcionam organização supramolecular complexa.</description>
+      <content:encoded>Cientistas descobriram que peptídeos mínimos de nove resíduos podem codificar motivos de interação lateral que direcionam organização supramolecular complexa.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/DNA_nanotechnology_schematic.jpg/960px-DNA_nanotechnology_schematic.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/DNA_nanotechnology_schematic.jpg/960px-DNA_nanotechnology_schematic.jpg" medium="image">
+        <media:title type="html">Esquema de nanotecnologia de DNA mostrando estruturas moleculares complexas</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Simulador Quântico Captura Processo Estranho que Quebra Cordas de Quarks</title>
+      <link>https://nexoracomic.vercel.app/ciencia/quarks-cordas-quebra-simulador-quantico</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/quarks-cordas-quebra-simulador-quantico</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Físicos rastrearam pares de carga conforme emergem e se espalham, revelando dinâmicas ocultas dentro de uma teoria de gauge simplificada.</description>
+      <content:encoded>Físicos rastrearam pares de carga conforme emergem e se espalham, revelando dinâmicas ocultas dentro de uma teoria de gauge simplificada.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Quark_structure_proton.svg/960px-Quark_structure_proton.svg.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Quark_structure_proton.svg/960px-Quark_structure_proton.svg.png" medium="image">
+        <media:title type="html">Diagrama da estrutura de quarks em um próton</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Bárion Duplamente Encantado Ω+ccc Observado pela Primeira Vez</title>
+      <link>https://nexoracomic.vercel.app/ciencia/baryon-doubly-charmed-omega-ccc-descoberto</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/baryon-doubly-charmed-omega-ccc-descoberto</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>O LHCb observou o bárion Ω+ccc, composto por três quarks charm, confirmando uma previsão de longa data do Modelo Padrão.</description>
+      <content:encoded>O LHCb observou o bárion Ω+ccc, composto por três quarks charm, confirmando uma previsão de longa data do Modelo Padrão.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/LHCb_event_display.jpg/960px-LHCb_event_display.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/LHCb_event_display.jpg/960px-LHCb_event_display.jpg" medium="image">
+        <media:title type="html">Display de evento do detector LHCb mostrando trilha de partículas</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Observação em Nível Molecular da Auto-Organização de Partícula Viral</title>
+      <link>https://nexoracomic.vercel.app/ciencia/self-assembly-virus-like-particle-molecular-observation</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/self-assembly-virus-like-particle-molecular-observation</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Cientistas observaram pela primeira vez a auto-organização de partículas semelhantes a vírus em nível molecular, revelando como vírus se montam.</description>
+      <content:encoded>Cientistas observaram pela primeira vez a auto-organização de partículas semelhantes a vírus em nível molecular, revelando como vírus se montam.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Virus_capsid_diagram.svg/960px-Virus_capsid_diagram.svg.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Virus_capsid_diagram.svg/960px-Virus_capsid_diagram.svg.png" medium="image">
+        <media:title type="html">Diagrama estrutural de capsídeo viral mostrando organização geométrica</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Longi Estabelece Recorde Mundial de 28,29% em Célula Solar de Silício</title>
+      <link>https://nexoracomic.vercel.app/futuro/longi-recorde-eficiencia-celula-solar-silicio</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/longi-recorde-eficiencia-celula-solar-silicio</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
+      <description>A fabricante chinesa Longi alcançou uma eficiência de conversão de 28,29% para células solares de silício de junção única, superando o recorde anterior.</description>
+      <content:encoded>A fabricante chinesa Longi alcançou uma eficiência de conversão de 28,29% para células solares de silício de junção única, superando o recorde anterior.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Solar_cell_array.jpg/960px-Solar_cell_array.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Solar_cell_array.jpg/960px-Solar_cell_array.jpg" medium="image">
+        <media:title type="html">Array de células solares de silício azuis em painel fotovoltaico</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Plataformas Digitais de Quadrinhos Japonesas se Multiplicam na América do Norte</title>
+      <link>https://nexoracomic.vercel.app/quadrinhos/plataformas-digitais-quadrinhos-japonesas-norte-america</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/plataformas-digitais-quadrinhos-japonesas-norte-america</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
+      <description>Mais de uma dúzia de plataformas digitais de mangá operadas por empresas japonesas estão acessíveis na América do Norte, mais de dois terços abertas nos últimos 5 anos.</description>
+      <content:encoded>Mais de uma dúzia de plataformas digitais de mangá operadas por empresas japonesas estão acessíveis na América do Norte, mais de dois terços abertas nos últimos 5 anos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Manga_influencers.jpg/960px-Manga_influencers.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Manga_influencers.jpg/960px-Manga_influencers.jpg" medium="image">
+        <media:title type="html">Pilha de volumes de mangá em estante</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Cloud Gaming Esports-Ready: Benchmarks Modernos de Latência Realmente Mostram</title>
+      <link>https://nexoracomic.vercel.app/games/cloud-gaming-esports-latencia-competitivo-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/cloud-gaming-esports-latencia-competitivo-2026</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>O cloud gaming alcançou latências baixas o suficiente para competição, mas o esports exige repetibilidade e variância baixa, não apenas melhores casos.</description>
+      <content:encoded>O cloud gaming alcançou latências baixas o suficiente para competição, mas o esports exige repetibilidade e variância baixa, não apenas melhores casos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cloud_gaming_concept.jpg/960px-Cloud_gaming_concept.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cloud_gaming_concept.jpg/960px-Cloud_gaming_concept.jpg" medium="image">
+        <media:title type="html">Ilustração conceitual de cloud gaming mostrando jogador e streaming</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como Funciona o Transformer: A Arquitetura que Redefiniu a IA</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/como-funciona-o-transformer-atencao-ia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/como-funciona-o-transformer-atencao-ia</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>O Transformer abandonou o processamento sequencial e transformou a atenção no motor dos modelos de linguagem mais avançados do mundo.</description>
+      <content:encoded>O Transformer abandonou o processamento sequencial e transformou a atenção no motor dos modelos de linguagem mais avançados do mundo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Neural_networks_diagram.png/960px-Neural_networks_diagram.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Neural_networks_diagram.png/960px-Neural_networks_diagram.png" medium="image">
+        <media:title type="html">Diagrama de uma rede neural artificial com camadas de neurônios interligados</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>A Bateria de Íon-Lítio: a Tecnologia que o Nobel de 2019 Recompensou</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/bateria-ion-litio-origem-premio-nobel</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/bateria-ion-litio-origem-premio-nobel</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Três cientistas partiram de um problema da crise petrolífera e criaram a tecnologia que move celulares, notebooks e carros elétricos.</description>
+      <content:encoded>Três cientistas partiram de um problema da crise petrolífera e criaram a tecnologia que move celulares, notebooks e carros elétricos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lithium-Ion_Cell_cylindric.JPG/960px-Lithium-Ion_Cell_cylindric.JPG" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lithium-Ion_Cell_cylindric.JPG/960px-Lithium-Ion_Cell_cylindric.JPG" medium="image">
+        <media:title type="html">Pilha cilíndrica de íon-lítio em escala, mostrando o formato, a etiqueta e os terminais metálicos</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como o Sistema Solar se Formou: Da Nuvem de Gás aos Planetas</title>
+      <link>https://nexoracomic.vercel.app/espaco/como-formou-o-sistema-solar</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/como-formou-o-sistema-solar</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Tudo começou em uma nuvem de gás e poeira que colapsou há 4,6 bilhões de anos. A sequência de eventos que criou o Sol e os planetas.</description>
+      <content:encoded>Tudo começou em uma nuvem de gás e poeira que colapsou há 4,6 bilhões de anos. A sequência de eventos que criou o Sol e os planetas.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Protoplanetary_Disk_%28Artist%27s_Concept%29_%282024-121%29.jpg/960px-Protoplanetary_Disk_%28Artist%27s_Concept%29_%282024-121%29.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Protoplanetary_Disk_%28Artist%27s_Concept%29_%282024-121%29.jpg/960px-Protoplanetary_Disk_%28Artist%27s_Concept%29_%282024-121%29.jpg" medium="image">
+        <media:title type="html">Ilustração conceitual de um disco protoplanetário com anéis de gás e poeira ao redor de uma estrela jovem</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Resistência Antimicrobiana: Quando os Antibióticos Deixam de Funcionar</title>
+      <link>https://nexoracomic.vercel.app/ciencia/resistencia-antimicrobiana-superbacterias</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/resistencia-antimicrobiana-superbacterias</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>A OMS estima que mais de 4,7 milhões de mortes em 2021 estavam ligadas a bactérias resistentes. Entenda por que isso está acontecendo.</description>
+      <content:encoded>A OMS estima que mais de 4,7 milhões de mortes em 2021 estavam ligadas a bactérias resistentes. Entenda por que isso está acontecendo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Antibiotic_resistance_mechanisms.jpg/960px-Antibiotic_resistance_mechanisms.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Antibiotic_resistance_mechanisms.jpg/960px-Antibiotic_resistance_mechanisms.jpg" medium="image">
+        <media:title type="html">Diagrama científico ilustrando mecanismos de resistência bacteriana a antibióticos</media:title>
+      </media:content>
+    </item>
     <item>
       <title>O Chip Willow do Google: Um Salto Histórico na Correção de Erros Quânticos</title>
       <link>https://nexoracomic.vercel.app/inteligencia-artificial/google-willow-chip-quantum-error-correction-breakthrough</link>
