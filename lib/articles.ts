@@ -6974,34 +6974,38 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     id: '149',
     slug: 'amoeba-incendiamoeba-cascades-resistencia-termica',
     title: 'A Amoeba de Fogo das Cascades: O Organismo Mais Resistente ao Calor Conhecido',
-    excerpt: 'Cientistas descobriram uma nova espécie de ameba que sobrevive em temperaturas que matariam todos os outros organismos complexos conhecidos.',
+    excerpt: 'Uma nova espécie de ameba cresce e se divide a 63 °C, elevando o limite superior dos eucariotos, até então considerado fixo em 60 °C há décadas.',
     content: `
-      <h2>Uma Descoberta Extrema</h2>
-      <p>No Parque Nacional Vulcânico Lassen, na Califórnia, onde fontes termais e características geotérmicas criam um paisagem extraordinária alimentada por rocha derretida abaixo da superfície, cientistas encontraram um microorganismo que pode ser um dos organismos mais resistentes da Terra.</p>
+      <h2>O que significa "vida complexa" e onde estaria o limite</h2>
+<p>Existe uma hierarquia térmica na vida que raramente aparece em livros didáticos. No topo da temperatura estão vírus e arqueias — organismos de célula simples, sem núcleo delimitado. O <em>Methanopyrus kandleri</em>, uma arqueia que vive perto de fontes hidrotermais no fundo do oceano, cresce a 122&nbsp;°C. É o organismo mais quente que se conhece.</p>
+<p>Os eucariotos — células com núcleo, das quais animais, plantas e fungos fazem parte — vivem num patamar muito mais frio. Por décadas, a comunidade científica tratou <strong>60&nbsp;°C como um teto</strong> para eucariotos. Alguns poucos se aproximavam desse valor, mas a maioria morria bem antes. Esse número não era uma lei da física: era um consenso empírico, construído a partir de muito poucas espécies estudadas a fundo.</p>
+<p>É por isso que a história é interessante. O número 60&nbsp;°C existia porque quase ninguém tinha procurado com cuidado suficiente.</p>
 
-      <h2>A Amoeba "Fire from Cascades"</h2>
-      <p>A nova espécie, nomeada <em>Incendiamoeba cascadensis</em>, foi encontrada em uma das fontes termais de Lassen. O que a torna extraordinária é sua capacidade de realizar divisão celular — reprodução — em temperaturas que destruiriam todos os outros organismos complexos conhecidos.</p>
+<h2>Como a ameba foi encontrada</h2>
+<p>Entre 2023 e 2025, uma equipe da Universidade de Syracuse coletou organismos em riachos geotérmicos do Parque Nacional Vulcânico Lassen, na Serra Nevada californiana. Nos pontos de amostragem, a água variava entre 47&nbsp;°C e 64&nbsp;°C — um intervalo que, para a maioria dos eucariotos, seria letal.</p>
+<p>Entre todas as amostras, uma ameba desconhecida chamou atenção: em laboratório, crescia de forma robusta a <strong>57&nbsp;°C</strong>, a temperatura mais alta já registrada para crescimento de ameba. Em vez de considerar o resultado suficiente, a equipe continuou elevando a temperatura. Aos <strong>63&nbsp;°C</strong>, observaram a ameba em mitose, o processo de divisão celular.</p>
+<p>Esse detalhe é o que separa um resultado interessante de um resultado relevante. Sobreviver a uma temperatura é uma coisa; completar a divisão celular é outra. Só quem termina a mitose está de fato se reproduzindo naquele ambiente. A espécie foi descrita como <em>Incendiamoeba cascadensis</em>, nome que combina "amoeba de fogo" com a referência às Cascades.</p>
 
-      <h3>Temperaturas Extremas</h3>
-      <p>A <em>Incendiamoeba cascadensis</em> não apenas sobrevive, mas se reproduz ativamente em temperaturas que excedem os limites de tolerância de qualquer outro eucarioto conhecido. Isso a torna um organismo único em termos de resistência térmica.</p>
+<h2>Quando o calor aperta, a célula muda de forma</h2>
+<p>Acima de 63&nbsp;°C, a ameba deixa de crescer normalmente e passa a se proteger: altera o próprio contorno e forma uma camada externa protetora. Exposta a <strong>70&nbsp;°C</strong>, ela não morre — apenas entra em um estado de contenção e, ao voltar a temperaturas menores, retoma a atividade.</p>
+<p>É uma distinção importante que a imprensa costuma tratar mal. Não se trata de um organismo que "funciona a 70 graus". Trata-se de um organismo cujo limite de crescimento fica em torno de 63&nbsp;°C e que possui um mecanismo de sobrevivência acima desse valor. Confundir os dois números infla artificialmente a descoberta.</p>
 
-      <h2>Por Que Isso Importa?</h2>
-      <p>Descobrir organismos que prosperam em condições extremas expande nosso entendimento sobre os limites da vida na Terra. Essas descobertas também têm implicações para a astrobiologia — o estudo da vida em outros planetas — pois mostram que a vida pode existir em ambientes que consideraríamos inóspitos.</p>
+<h2>O que o genoma revela</h2>
+<p>O sequenciamento do genoma mostrou que a <em>Incendiamoeba cascadensis</em> carrega genes adicionais associados à manutenção de proteínas e ao reparo de DNA, em comparação com amebas de ambientes mais amenos. Parte da resposta está, portanto, nos genes que protegem a máquina celular quando ela se degrada.</p>
+<p>A outra pista é mais sutil e talvez mais reveladora. As proteínas da ameba de fogo apresentam <strong>mais aminoácidos carregados positivamente</strong> na superfície do que as de amebas convencionais. Esse mesmo traço aparece em algumas das bactérias e arqueias mais termorresistentes conhecidas.</p>
+<p>É um caso de evolução convergente: dois grupos sem parentesco próximo, submetidos a pressões semelhantes ao longo de bilhões de anos, chegaram a soluções moleculares parecidas para o mesmo problema — manter proteínas dobradas em solução e evitar que se agreguem sob calor intenso. A primeira autora do estudo, a estudante de doutorado H. Beryl Rappaport, resumiu o achado justamente como convergência de propriedades proteicas.</p>
 
-      <h3>Adaptações Biológicas</h3>
-      <p>A capacidade de sobreviver em temperaturas extremas sugere que a <em>Incendiamoeba cascadensis</em> possui adaptações únicas em seus processos celulares, proteínas e membranas. Estudar essas adaptações pode ajudar os cientistas a entender como a vida evolui em ambientes extremos.</p>
+<h2>Por que isso importa além da curiosidade</h2>
+<p>Há um valor prático em mapear os limites da vida. Em astrobiologia, o registro de um organismo que <em>cresce</em> a determinada temperatura é um dado que calibra modelos sobre onde e como a vida poderia se instalar em outros mundos. Em biologia aplicada, enzimas que funcionam a altas temperaturas são de interesse industrial.</p>
+<p>Existe também um efeito menos glamouroso e mais importante: um efeito sobre o método. Durante décadas, parte da comunidade tratou 60&nbsp;°C como um limite físico do que é possível. O resultado mostra que o número era, em boa parte, um artefato de onde e de como as pessoas procuravam. Angela Oliverio, da Universidade de Syracuse, argumentou que esses limites devem ser testados sem assumir de antemão onde ficam.</p>
 
-      <h2>Implicações para a Pesquisa</h2>
-      <p>Organismos extremófilos como esta amoeba podem oferecer insights sobre:</p>
-      <ul>
-        <li><strong>Estabilidade de proteínas:</strong> Como suas proteínas permanecem funcionais em altas temperaturas</li>
-        <li><strong>Integridade de membranas:</strong> Como suas membranas celulares se mantêm estáveis</li>
-        <li><strong>Processos enzimáticos:</strong> Como suas enzimas continuam funcionando sob estresse térmico</li>
-        <li><strong>Limits da vida:</strong> Onde estão os limites absolutos para a vida complexa</li>
-      </ul>
+<h2>O que ainda não se sabe</h2>
+<p>Vale registrar o que a descoberta <em>não</em> resolveu. O estudo descreve o fenótipo e aponta mecanismos moleculares plausíveis, mas não mediu diretamente o quanto cada gene contribui para a tolerância térmica. Também não está claro se a espécie tem ciclo reprodutivo sexuado, nem por quanto tempo popula aquele riacho, nem se a distribuição é restrita ou mais ampla pela Serra Nevada.</p>
 
-      <h2>O Futuro da Pesquisa</h2>
-      <p>A descoberta da <em>Incendiamoeba cascadensis</em> abre novas avenidas de pesquisa sobre adaptabilidade biológica. Cientistas agora podem estudar como este organismo evoluiu para tolerar tais condições extremas e se existem outros organismos semelhantes esperando para serem descobertos.</p>
+<h2>Fontes e referências</h2>
+<p><a href="https://sciencesources.eurekalert.org/news-releases/1143919" target="_blank" rel="noopener noreferrer">EurekAlert / Cell Press — Hot spring organism breaks record for heat tolerance of complex life (comunicado de 22/09/2026)</a><br><a href="https://doi.org/10.1016/j.cell.2026.08.043" target="_blank" rel="noopener noreferrer">Cell — A geothermal amoeba sets a new upper temperature limit for eukaryotes (Rappaport et al., DOI 10.1016/j.cell.2026.08.043)</a></p>
+
+<p>E o número pode ser provisório. Outros eucariotas não foram examinados com o mesmo cuidado, e um recorde de crescimento é, por natureza, um alvo móvel. O marco de 63&nbsp;°C é real e verificável; tratá-lo como teto absoluto seria repetir, em tempo real, o mesmo erro que a equipe de Syracuse se recusou a cometer.</p>
     `,
     category: {
       id: 'ciencia',
@@ -7017,59 +7021,42 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Amoeba_proteus_with_many_pseudopodia.jpg/960px-Amoeba_proteus_with_many_pseudopodia.jpg',
     imageAlt: 'Ameba vista em microscópio, com núcleo e pseudópodes visíveis',
     sources: [
-      {
-        title: 'Reuters - Tenacious hot springs amoeba sets heat-tolerance record',
-        url: 'https://www.reuters.com/business/environment/tenacious-hot-springs-amoeba-sets-heat-tolerance-record-2026-09-22/',
-        type: 'agency'
-      },
-      {
-        title: 'Lassen Volcanic National Park - Hot Springs',
-        url: 'https://www.nps.gov/lavo/learn/nature/hot-springs.htm',
-        type: 'agency'
-      }
+      { title: 'EurekAlert / Cell Press - Hot spring organism breaks record for heat tolerance of complex life (comunicado de 22/09/2026)', url: 'https://sciencesources.eurekalert.org/news-releases/1143919', type: 'agency' },
+      { title: 'Cell - A geothermal amoeba sets a new upper temperature limit for eukaryotes (DOI 10.1016/j.cell.2026.08.043)', url: 'https://doi.org/10.1016/j.cell.2026.08.043', type: 'journal' }
     ]
   },
   {
     id: '150',
     slug: 'bacterias-quimiossinteticas-guelras-peixes-coral',
     title: 'Bactérias Quimiossintéticas Descobertas em Guelras de Peixes de Coral',
-    excerpt: 'Pesquisadores encontraram genes de quimiossíntese em bactérias que vivem nas guelras de peixes de recife de coral, revelando um novo tipo de simbiose.',
+    excerpt: 'Sequenciamento de 353 guelras de 15 espécies de hamlet no Caribe revela 70 genomas bacterianos, em grande parte inéditos, com capacidade de quimiossíntese.',
     content: `
-      <h2>Uma Descoberta Inesperada</h2>
-      <p>Cientistas do Centro de Pesquisa Tropical de Bremen (ZMT) e do Instituto de Química e Biologia do Mar (ICBM) examinaram o microbioma das guelras de peixes de recife de coral chamados hamlets (<em>Hypoplectrus</em> spp.) e fizeram uma descoberta surpreendente.</p>
+      <h2>Um recife dentro do peixe</h2>
+<p>Peixes de recife vivem em água rasa, quente, lotada de microrganismos e atravessada por predação constante. É fácil supor que a microbiota interna de um peixe seja apenas um reflexo do meio em que ele nada. Um trabalho recente de uma equipe europeia derruba essa suposição para um grupo específico: os hamlets, peixes do gênero <em>Hypoplectrus</em>, habitantes dos recifes do Grande Caribe.</p>
+<p>Hamlets ocupam uma posição incomum na cadeia alimentar. Eles se alimentam de pequenos peixes e crustáceos que habitam o próprio recife, o que significa que passam boa parte do tempo dentro ou muito perto de outros animais. Essa vida expõe as guelras a um mundo microbiano permanente.</p>
+<p>E as guelras dos peixes são, estruturalmente, o oposto de uma superfície estéril. São placas de tecido recobertas por uma lamela secundária que multiplica a área de contato com a água, e essa área é colonizada de forma constante por uma comunidade própria.</p>
 
-      <h2>O Microbioma das Guelras</h2>
-      <p>Ao analisar centenas de amostras de guelras de peixes do Caribe, os pesquisadores reconstruíram 70 genomas bacterianos de 17 grupos diferentes. A vasta maioria dessas bactérias era nova para a ciência, revelando um ecossistema microbiano complexo e pouco estudado.</p>
+<h2>O que foi sequenciado</h2>
+<p>Uma equipe do Centro de Pesquisa Tropical de Bremen (ZMT), do Instituto de Química e Biologia do Mar (ICBM) em Oldemburgo e do Smithsonian Tropical Research Institute, no Panamá, sequenciou <strong>353 amostras de tecido de guelra</strong> de <strong>15 espécies de hamlet</strong>. As coletas ocorreram entre <strong>2004 e 2017</strong> em <strong>oito locais</strong> espalhados pelo Grande Caribe — uma dispersão geográfica e temporal incomum para esse tipo de estudo, e provavelmente a razão de a amostra ser tão informativa.</p>
+<p>Como comparação, os pesquisadores sequenciaram também recortes de barbatana dos mesmos peixes, usados como controle procedimental, e amostras de água de recife coletadas no mesmo arquipélago. Essa última comparação é a chave do desenho experimental: sem ela, seria impossível distinguir um microrganismo que vive nas guelras de um que apenas circula no recife.</p>
 
-      <h3>Uma Comunidade Especializada</h3>
-      <p>O microbioma das guelras era completamente diferente da comunidade de microorganismos na água do mar circundante. Isso sugere que as bactérias das guelras são especializadas para viver nesse ambiente específico, em vez de serem apenas reflexo da água circundante.</p>
+<h2>Setenta genomas reconstruídos</h2>
+<p>Em vez de trabalhar apenas com abundâncias relativas, a equipe montou e agrupou as sequências em <strong>70 genomas bacterianos reconstruídos</strong>, conhecidos como MAGs, do inglês metagenome-assembled genomes. Só foram mantidos os genomas com pelo menos 40% de completude e menos de 10% de contaminação.</p>
+<p>Esse agrupamento é o que separa o sinal do ruído. Em uma amostra de tecido de guelra, a maior parte do DNA é do próprio peixe; as bactérias estão presentes em proporção minúscula. Reunir os fragmentos de DNA em conjuntos coerentes permite dizer quantas espécies distintas existem ali, em vez de apenas listar quais sequências foram detectadas.</p>
+<p>Quando essa lista de linhagens foi classificada contra bases de dados de referência, a maior parte não teve correspondência confiável. Como escreveram os próprios autores, o microbioma das guelras é muito mais diverso do que se imaginava, e a proporção de táxons novos indica que o campo segue em fase exploratória, de descrição.</p>
 
-      <h2>Quimiossíntese: Uma Surpresa Maior</h2>
-      <p>A descoberta mais notável foi que as bactérias mais difundidas nas guelras possuem todos os genes necessários para quimiossíntese — a capacidade de fixar dióxido de carbono usando energia derivada da oxidação de compostos inorgânicos, em vez de luz solar como as plantas fazem.</p>
+<h2>Bactérias com vocação para quimiossíntese</h2>
+<p>O achado central do trabalho não é a variedade, e sim a função. As bactérias mais abundantes nas guelras eram quase todas proteobactérias, e a análise genômica mostrou que carregam genes da via de <strong>quimiossíntese</strong> — a capacidade de obter energia pela oxidação de substâncias inorgânicas, em vez de depender de luz como fazem as plantas.</p>
+<p>Vale entender com cuidado o que isso significa, porque o termo costuma ser associado apenas às fontes hidrotermais abissais, onde a luz nunca chega. Nas guelras de um peixe de recife, a situação é inteiramente diferente: há luz abundante, há oxigênio e há matéria orgânica vinda da dieta. A presença dos genes, portanto, não indica que essas bactérias estejam produzindo energia dessa maneira o tempo todo. Indica que <em>possuem a capacidade</em> e que, havendo substrato adequado, podem usá-la.</p>
+<p>É essa distinção entre ter a maquinaria e acionar a maquinaria que dá ao resultado o seu peso científico. O microbioma das guelras não é um emaranhado passivo, mas um conjunto com opções metabólicas — e o papel dessas vias no bem-estar do peixe continua em aberto.</p>
 
-      <h3>O Que é Quimiossíntese?</h3>
-      <p>A quimiossíntese é um processo onde organismos produzem compostos orgânicos a partir de dióxido de carbono usando energia química, em vez de luz solar. É comum em ambientes como fontes hidrotermais profundas, onde a luz não chega, mas sua presença em peixes de recife de coral é inédita.</p>
+<h2>Por que isso importa</h2>
+<p>Conhecer o microbioma das guelras é relevante para a saúde do peixe em um sentido concreto. Doenças bacterianas em recifes têm com frequência início na superfície do animal, e saber quem vive ali, e com que capacidades, ajuda a explicar por que alguns hospedeiros são mais vulneráveis que outros.</p>
+<p>O resultado também reforça um ponto que a ecologia microbiana marinha costuma subestimar: a escala. O estudo cobriu oito locais e treze anos e ainda assim pede mais sequenciamento. A mensagem dos autores é que estamos descrevendo, não compreendendo. Mesmo com centenas de amostras e uma análise bioinformática sofisticada, boa parte da diversidade continua sem nome e sem função conhecida.</p>
+<p>Convém, porém, delimitar o que o estudo <em>não</em> demonstra. Ele caracteriza a composição e o potencial metabólico; não mostra que essas bactérias beneficiem ou prejudiquem o peixe, não mede produção de metabólitos e não isolou essas linhagens em laboratório. Ter potencial quimiossintético não equivale a exercer quimiossíntese, nem a ser útil para o hospedeiro. Uma simbiose funcional exige demonstração, e ela ainda não chegou.</p>
 
-      <h2>Implicações Biológicas</h2>
-      <p>Esta descoberta sugere que:</p>
-      <ul>
-        <li><strong>Novo tipo de simbiose:</strong> As bactérias podem estar fornecendo benefícios metabólicos aos peixes</li>
-        <li><strong>Metabolismo alternativo:</strong> Os peixes podem estar obtendo nutrientes através dessa relação simbiótica</li>
-        <li><strong>Imunidade e saúde:</strong> O microbioma especializado pode desempenhar um papel na imunidade dos peixes</li>
-        <li><strong>Diversidade microbiana:</strong> Existe muito mais diversidade microbiana em peixes do que se imaginava</li>
-      </ul>
-
-      <h2>Por Que Isso Importa?</h2>
-      <p>Entender essas relações simbióticas pode ajudar a:</p>
-      <ul>
-        <li>Compreender melhor a saúde dos recifes de coral</li>
-        <li>Desenvolver novas abordagens para aquicultura sustentável</li>
-        <li>Revelar novos mecanismos de metabolismo microbiano</li>
-        <li>Expandir nosso conhecimento sobre ecossistemas marinhos</li>
-      </ul>
-
-      <h2>O Futuro da Pesquisa</h2>
-      <p>Os pesquisadores agora planejam investigar como essa quimiossíntese afeta o metabolismo dos peixes e se essa relação simbiótica é comum em outras espécies de peixes de recife de coral.</p>
+<h2>Fontes e referências</h2>
+<p><a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012266" target="_blank" rel="noopener noreferrer">PLOS Genetics — Proteobacteria with chemosynthetic potential are highly prevalent in the gills of Hypoplectrus reef fishes (Abdelghany, Helmkampf, Schechter, Veseli, Leray, Eren e Puebla, 28/08/2026)</a><br><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13552952/" target="_blank" rel="noopener noreferrer">PubMed Central — texto completo em acesso aberto do artigo (PMC13552952)</a></p>
     `,
     category: {
       id: 'ciencia',
@@ -7085,62 +7072,47 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Coral_Outcrop_Flynn_Reef.jpg/960px-Coral_Outcrop_Flynn_Reef.jpg',
     imageAlt: 'Recife de coral subaquático com peixes e formações de coral',
     sources: [
-      {
-        title: 'PLOS Genetics - Chemosynthesis genes in fish gill bacteria',
-        url: 'https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011384',
-        type: 'journal'
-      },
-      {
-        title: 'Phys.org - DNA reveals chemosynthesis genes',
-        url: 'https://phys.org/news/2026-09-dna-reveals-chemosynthesis-genes-bacteria.html',
-        type: 'journal'
-      }
+      { title: 'PLOS Genetics - Proteobacteria with chemosynthetic potential are highly prevalent in the gills of Hypoplectrus reef fishes (28/08/2026)', url: 'https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012266', type: 'journal' },
+      { title: 'PubMed Central - texto completo em acesso aberto do artigo (PMC13552952)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13552952/', type: 'journal' }
     ]
   },
   {
     id: '151',
     slug: 'atlas-genetico-cerebro-humano-nucleo-unico',
     title: 'Atlas Genético do Cérebro Humano: 5,6 Milhões de Núcleos Mapeados',
-    excerpt: 'Cientistas criaram o atlas mais abrangente da regulação genética no cérebro humano, revelando genes específicos de tipos celulares associados a doenças neurológicas.',
+    excerpt: 'Atlas de 5,6 milhões de núcleos de 1.384 doadores mapeia a regulação genética no córtex pré-frontal e revela genes ligados a Alzheimer e esquizofrenia invisíveis em análise de tecido agrupado.',
     content: `
-      <h2>Um Mapa Sem Precedentes</h2>
-      <p>Cientistas criaram um atlas abrangente da regulação genética no córtex pré-frontal humano, analisando 5,6 milhões de núcleos de 1.384 doadores de ancestridades diversas. Este é o estudo mais detalhado já realizado sobre como genes são regulados em diferentes tipos de células cerebrais.</p>
+      <h2>O ponto cego da neurogenética</h2>
+<p>Boa parte das variantes genéticas associadas a doenças comuns não está em genes, mas em regiões regulatórias: trechos de DNA que controlam quando e quanto um gene é ligado. É aí que mora boa parte do risco genético, e é por isso que entender quais genes são afetados importa tanto quanto entender qual variante está presente.</p>
+<p>O problema é que a maioria dos estudos mede isso em tecido agrupado, sem distinguir os tipos de célula. Ao misturar neurônios de tipos diferentes numa única amostra, sinais opostos se cancelam. Um gene que liga demais em um subtipo celular e pouco em outro desaparece na média, e com ele some a possibilidade de ligar essa alteração a um sintoma clínico.</p>
+<p>É esse o problema que um atlas publicado na <em>Nature Genetics</em> em setembro de 2026 se propõe a resolver, separando a análise célula a célula.</p>
 
-      <h2>O Córtex Pré-Frontal</h2>
-      <p>O córtex pré-frontal dorsolateral (DLPFC) é uma região crucial do cérebro envolvida em funções cognitivas superiores como tomada de decisões, planejamento e controle executivo. É também particularmente sensível ao declínio relacionado à idade e a doenças neurológicas.</p>
+<h2>Uma escala sem precedentes</h2>
+<p>O trabalho, liderado por Biao Zeng e publicado pelo consórcio PsychAD sob a coordenação sênior de Gabriel Hoffman, reuniu <strong>5,6 milhões de núcleos</strong> de <strong>1.384 doadores</strong> de ancestrias diversas. O foco é o córtex pré-frontal, uma das regiões mais estudadas do cérebro humano.</p>
+<p>A escolha do núcleo, e não da célula inteira, tem motivo técnico: em tecido cerebral adulto, boa parte das células é difícil de dissociar sem destruir justamente a estrutura que se quer estudar. O núcleo preserva o RNA da célula mesmo quando o processo de isolamento é violento.</p>
+<p>Os núcleos foram analisados em múltiplas resoluções: <strong>oito grandes classes celulares</strong> e <strong>27 subclasses</strong>. Essa segunda granularidade é essencial. Diferenças que se escondem entre "neurônio" e "glia" podem aparecer com nitidez entre "neurônio excitatório de camada superficial" e "neurônio excitatório de camada profunda".</p>
 
-      <h3>Resolução Celular</h3>
-      <p>O atlas fornece análises em múltiplas resoluções, abrangendo oito grandes classes de células e 27 subclasses. Essa resolução sem precedentes permite aos cientistas entender como a regulação genética varia entre diferentes tipos de células cerebrais.</p>
+<h2>Quatro tipos de efeito regulatório</h2>
+<p>Os autores identificaram regulação genética para <strong>14.258 genes</strong>, separados em categorias que revelam mecanismos distintos:</p>
+<ul>
+<li><strong>981 genes</strong> com efeito regulatório específico de tipo celular no nível de classe</li>
+<li><strong>857 genes</strong> com efeito específico no nível de subclasse</li>
+<li><strong>2.073 genes</strong> com efeitos que variam ao longo da trajetória de desenvolvimento</li>
+<li><strong>1.655 genes</strong> com efeitos regulatórios distantes, chamados de efeitos trans</li>
+</ul>
+<h2>Doenças entram na análise</h2>
+<p>Através de colocalização, que compara quais variantes afetam a expressão de cada gene e quais se associam a um traço de doença, os autores identificaram candidatos específicos de tipo celular ligados à <strong>doença de Alzheimer</strong> e à <strong>esquizofrenia</strong>, entre outros transtornos, que não apareceriam em análises de tecido agrupado.</p>
+<p>Isso não transforma os achados em tratamento. Colocalização indica que dois sinais provavelmente compartilham a mesma variação de fundo; ela não demonstra causalidade nem que modificar aquele gene mudaria o desfecho. O valor está em apontar alvos que antes eram invisíveis, e em oferecer uma base para testes funcionais.</p>
 
-      <h2>Descobertas Principais</h2>
-      <p>O estudo identificou regulação genética para 14.258 genes, com:</p>
-      <ul>
-        <li><strong>981 genes</strong> mostrando efeitos regulatórios específicos de tipo celular no nível de classe</li>
-        <li><strong>857 genes</strong> com efeitos específicos no nível de subclasse</li>
-        <li><strong>2.073 genes</strong> com efeitos regulatórios que variam ao longo do desenvolvimento</li>
-        <li><strong>1.655 genes</strong> com efeitos de regulação trans (distante)</li>
-      </ul>
+<p>O último grupo é o mais interessante conceitualmente. Uma variante pode estar a centenas de milhares de pares de bases do gene que regula e, ainda assim, controlá-lo. Efeitos distantes são difíceis de detectar porque não se sabe, de antemão, qual gene procurar: a análise varre o genoma inteiro em busca de efeitos, em vez de testar um locus já conhecido.</p>
+<h2>Desenvolvimento, diversidade e o que falta</h2>
+<p>A análise de regulação dinâmica, feita em nível de núcleo individual, identificou 2.073 genes cujos efeitos mudam ao longo do desenvolvimento. Como o desenho é transversal, essas trajetórias são <em>inferidas</em> a partir da faixa etária dos doadores, e não de um acompanhamento dos mesmos indivíduos ao longo da vida. A limitação é relevante: uma mudança aparente com a idade pode refletir coortes diferentes tanto quanto mudança real.</p>
+<p>Outro ponto merece destaque: <strong>35,6% dos doadores têm ascendência não europeia</strong>. A crítica padrão aos grandes estudos genéticos é a de que, sendo baseados em populações europeias, produzem resultados que não generalizam. Incluir ancestralidade diversa desde a coleta não corrige todos os problemas, mas evita parte importante deles.</p>
 
-      <h3>Implicações para Doenças</h3>
-      <p>A colocalização de variantes genéticas associadas à regulação de genes e características de doenças revelou novos genes específicos de tipos celulares implicados em doenças de Alzheimer, esquizofrenia e outros transtornos que não eram detectáveis em análises de tecido em massa.</p>
+<h2>Fontes e referências</h2>
+<p><a href="https://www.nature.com/articles/s41588-026-02733-5" target="_blank" rel="noopener noreferrer">Nature Genetics — Single-nucleus atlas of cell-type specific genetic regulation in the human brain (Zeng, Yang, Hoffman et al., 23/09/2026)</a><br><a href="https://doi.org/10.1038/s41588-026-02733-5" target="_blank" rel="noopener noreferrer">DOI do artigo no Nature Genetics (10.1038/s41588-026-02733-5)</a></p>
 
-      <h2>Diversidade Ancestral</h2>
-      <p>Um aspecto importante do estudo é a inclusão de doadores de ancestridades diversas, com 35,6% de ascendência não europeia. Isso é crucial porque a maioria dos estudos genéticos anteriores se concentrou em populações europeias, limitando a generalização dos resultados.</p>
-
-      <h3>Dinâmica de Desenvolvimento</h3>
-      <p>A análise de regulação genética dinâmica ao nível de núcleo único identificou genes cujos efeitos regulatórios variam ao longo de trajetórias de desenvolvimento, inferidas a partir de uma ampla faixa etária de doadores.</p>
-
-      <h2>Aplicações Práticas</h2>
-      <p>Este atlas oferece:</p>
-      <ul>
-        <li><strong>Novos alvos terapêuticos:</strong> Genes específicos de tipos celulares podem ser alvos para tratamentos</li>
-        <li><strong>Melhor compreensão de doenças:</strong> Revela mecanismos celulares subjacentes a transtornos neurológicos</li>
-        <li><strong>Precisão na medicina:</strong> Permite tratamentos mais direcionados a tipos celulares específicos</li>
-        <li><strong>Equidade em pesquisa:</strong> Dados de ancestridades diversas melhoram a aplicabilidade global</li>
-      </ul>
-
-      <h2>O Futuro da Neurociência</h2>
-      <p>Este atlas estabelece uma nova referência para entender a arquitetura regulatória do cérebro humano em nível de tipo celular. Ele também oferece um modelo para como estudos genéticos podem incorporar diversidade ancestral e resolução celular avançada.</p>
+<p>Resta uma tensão que o trabalho não resolve. Quanto mais se aumenta a resolução da análise, mais rarefeito fica o poder estatístico: com 1.384 doadores distribuídos por oito classes e 27 subclasses, cada comparação é feita sobre um punhado de indivíduos. Um atlas pode ser abrangente em cobertura e, ainda assim, frágil em precisão. Esse equilíbrio entre profundidade e poder estatístico é a restrição prática que vai definir o que resultados como esse conseguem oferecer nas próximas décadas.</p>
     `,
     category: {
       id: 'ciencia',
@@ -7156,61 +7128,45 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Human_brain_frontal_%28coronal%29_section.JPG',
     imageAlt: 'Corte coronal do cérebro humano mostrando as regiões corticais',
     sources: [
-      {
-        title: 'Nature Genetics - Single-nucleus atlas of human brain',
-        url: 'https://www.nature.com/articles/s41588-026-02733-5',
-        type: 'journal'
-      },
-      {
-        title: 'Nature - Single-nucleus transcriptome-wide association study',
-        url: 'https://www.nature.com/articles/s41586-026-10836-6',
-        type: 'journal'
-      }
+      { title: 'Nature Genetics - Single-nucleus atlas of cell-type specific genetic regulation in the human brain (Zeng, Yang, Hoffman et al., 23/09/2026)', url: 'https://www.nature.com/articles/s41588-026-02733-5', type: 'journal' },
+      { title: 'DOI do artigo no Nature Genetics (10.1038/s41588-026-02733-5)', url: 'https://doi.org/10.1038/s41588-026-02733-5', type: 'journal' }
     ]
   },
   {
     id: '152',
     slug: 'celulas-solares-tandem-perovskita-silicio-eficiencia',
     title: 'Células Solares Tandem Perovskita-Silício Alcançam 34% de Eficiência',
-    excerpt: 'Pesquisadores chineses desenvolveram células solares tandem com eficiência recorde de 34%, usando nanopartículas de zircônia como camada interfacial.',
+    excerpt: 'Nanopartículas de zircona usadas como nanosscaffold interfacial elevam a célula tandem perovskita-silício a 34,0% de eficiência, com tensão de circuito aberto certificada de 2,014 V.',
     content: `
-      <h2>Um Recorde de Eficiência</h2>
-      <p>Uma equipe de pesquisadores da Universidade de Soochow desenvolveu uma célula solar tandem perovskita-silício que alcançou uma eficiência de conversão de potência de laboratório de 34,0%. Um dispositivo certificado independentemente alcançou uma eficiência de estado estacionário de 33,5% com uma tensão de circuito aberto recorde de 2,014 V.</p>
+      <h2>Por que empilhar duas células</h2>
+<p>Uma célula solar de silício comum converte luz em eletricidade absorvendo fótons. Cada fóton acima da energia mínima gera um elétron, e o silício tem uma banda de passagem de energia de cerca de 1,1 eV, que define o limite dessa conversão. Fótons mais energetivos produzem um elétron, mas o excedente de energia se dissipa como calor. Essa perda é irreversível e é a principal razão pela qual nenhuma célula de silício puro se aproxima de 100% de eficiência.</p>
+<p>A saída para essa limitação é divisória. Uma célula tandem empilha dois absorvedores com bandas de passagem diferentes: um material de banda larga no topo, que captura a fração de alta energia do espectro, e um de banda estreita embaixo, que aproveita o resto. Cada fóton é aproveitado em um estágio ou no outro, e as perdas por excesso de energia caem bastante.</p>
+<p>Os materiais usados no topo têm sido os perovskitas, cristais de estrutura simples que podem ser depositados como tinta sobre um substrato e, ao contrário do silício cristalino, não exigem equipamentos de fabricação caros em temperatura elevada. A combinação perovskita-silício é hoje a rota mais avançada da fotovoltaica.</p>
 
-      <h2>O Que São Células Tandem?</h2>
-      <p>Células solares tandem combinam duas células com diferentes bandgaps — uma de faixa larga (perovskita) no topo e uma de faixa estreita (silício) na parte inferior — para usar a luz solar de forma mais eficiente do que células de silício de junção única convencionais.</p>
+<h2>Onde estava o gargalo</h2>
+<p>Se a ideia é simples, a execução é difícil. A perovskita cresce de forma irregular sobre a superfície texturizada do silício, e a interface entre os dois materiais perde carga: elétrons e buracos se recombinam antes de chegar aos contatos. Esse fenômeno se chama recombinação não radiativa, porque a energia se perde como calor em vez de gerar luz ou corrente.</p>
+<p>As soluções conhecidas até então criavam um problema novo. Camadas passivantes que reduziam a recombinação também atrasavam a extração de carga, e a célula ganhava tensão em repouso, mas perdia corrente. Era uma troca ruim: um parâmetro melhorava exatamente às custas do outro, e nenhum dos dois chegava ao potencial que a arquitetura permite.</p>
 
-      <h3>O Desafio da Camada Interfacial</h3>
-      <p>O desempenho das células tandem perovskita-silício é limitado pelo crescimento desigual de perovskita em silício texturizado e pela recombinação não radiativa na interface com a camada de transporte de buracos. Estratégias anteriores de passivação reduziram a recombinação, mas também retardaram a extração de carga, criando um trade-off difícil entre tensão e transporte de carga.</p>
+<h2>A camada de zircona</h2>
+<p>Uma equipe da Universidade de Soochow, na China,PUBLIcou uma solução que ataca os dois problemas ao mesmo tempo: nanopartículas de dióxido de zircono, ou ZrO<sub>2</sub>, depositadas como camada interfacial. O efeito é duplo, e essa é a razão do resultado.</p>
+<p>A primeira função é <strong>estrutural</strong>. As nanopartículas funcionam como pontos de ancoragem para a perovskita, que passa a crescer de maneira mais uniforme sobre a textura do silício. Sem isso, a camada de perovskita fica irregular, com defeitos e áreas mal cobertas, e parte da luz é absorvida em vez de gerar corrente.</p>
+<p>A segunda função é <strong>elétrica</strong>. Como as nanopartículas são discretas e não formam uma camada contínua isolante, elas criam contatos nanométricos localizados na interface. As regiões de zirconia fornecem passivação por efeito de campo, que suprime a recombinação não radiativa, enquanto os trechos de monocamada que ficam expostos preservam a extração de buracos. A constante dielétrica alta do zirconia também ajuda a blindar flutuações elétricas locais, limitar o acúmulo de carga e reduzir a histerese do dispositivo.</p>
+<p>A equipe optou por usar zirconia <strong>monoclínica</strong> em vez de uma camada contínua, e a distinção é o ponto central da solução. Uma camada contínua passivaria bem, mas bloquearia a passagem de carga. Partículas discretas produzem uma espécie de padrão regular: partes passivadas, partes abertas para a extração. Segundo a equipe, microscopia e espectroscopia confirmaram o mecanismo, e o tempo médio de vida do portador subiu de <strong>1,46 para 2,81 microssegundos</strong>.</p>
 
-      <h2>A Solução: Nanopartículas de Zircônia</h2>
-      <p>A equipe usou nanopartículas de dióxido de zircônio (ZrO₂) como uma camada interfacial de função dupla. As nanopartículas:</p>
-      <ul>
-        <li><strong>Permitem deposição uniforme:</strong> Melhoram o crescimento da perovskita em silício texturizado</li>
-        <li><strong>Suprimem recombinação:</strong> Reduzem a recombinação na interface</li>
-        <li><strong>Mantêm extração de carga:</strong> Não sacrificam o transporte de elétrons</li>
-      </ul>
+<h2>Os números</h2>
+<p>O dispositivo atingiu <strong>34,0% de eficiência</strong> em medição de laboratório. Um segundo dispositivo, certificado de forma independente, ficou em <strong>33,5%</strong> com tensão de circuito aberto de <strong>2,014 volts</strong> — valor que está entre os mais altos já relatados para células tandem dessa classe.</p>
+<p>Há um número que merece atenção especial, porque é o que distingue um resultado de laboratório de um dispositivo que funciona. A tensão de circuito aberto é a diferença de potencial que a célula mantém sem nenhuma carga externa conectada. Para uma tandem, o valor esperado é aproximadamente a soma das tensões das duas junções. Obter 2,014 V significa que as duas camadas estão de fato operando perto do regime ideal, sem perdas que reduzissem o total esperado.</p>
+<p>Os autores também reportaram <strong>2.000 horas de operação</strong> sob rastreamento do ponto de potência máxima, com retenção de <strong>84% da eficiência inicial</strong>. É um dado relevante, mas convém dimensioná-lo: 2.000 horas equivalem a pouco mais de três meses. Componentes fotovoltaicos instalados são projetados para 25 a 30 anos, e testes dessa duração servem como triagem inicial, não como prova de vida útil. O resultado indica que o material não se degrada de forma acelerada logo no início, o que já é um bom sinal, mas não encerra a questão da durabilidade.</p>
 
-      <h3>Mecanismo de Ação</h3>
-      <p>As nanopartículas de ZrO₂ na interface enterrada atuam melhorando a morfologia da perovskita e passivando defeitos de superfície. Isso permite tensões mais altas sem comprometer a extração de carga.</p>
+<h2>Entre o laboratório e a usina</h2>
+<p>Um aproveitamento de 34% é notável em termos absolutos, mas o que interessa para o mercado é outro número: a energia gerada por ano por metro quadrado instalado, ao longo de décadas, já descontando a perda por degradação. Uma célula que começa em 34% e cai para 60% do inicial em poucos anos pode gerar menos que uma célula estável de 30%.</p>
+<p>Há ainda a questão da escala. A perovskita degrada com umidade e calor, e o processo de deposição em laboratório produz filme de espessura e uniformidade controladas, condições que não se reproduzem automaticamente em uma linha de produção com áreas de metro quadrado. Por isso, anúncios de novo recorde costumam vir acompanhados, ou deveriam vir, de um cronograma industrial.</p>
+<p>A camada de zircona é interessante exatamente por isso: é um material simples e barato, compatível com deposição em escala, e resolve um problema de interface que limitava toda a arquitetura. Se a perovskita estabilizar, o caminho para a produção em larga escala fica mais curto do que parece. Se não estabilizar, a arquitetura continua em risco, porque a camada que a fez funcionar não elimina a fragilidade do material acima dela.</p>
 
-      <h2>Estabilidade e Durabilidade</h2>
-      <p>O dispositivo modificado com ZrO₂ reteve 84% de sua eficiência inicial após 2.000 horas de operação contínua sob condições de rastreamento de ponto de potência máximo (MPPT), demonstrando boa estabilidade operacional.</p>
+<h2>Fontes e referências</h2>
+<p><a href="https://www.eurekalert.org/news-releases/1144549" target="_blank" rel="noopener noreferrer">EurekAlert / Science China Press — Nano-scaffold breakthrough pushes perovskite/silicon tandem solar cells to 34% efficiency (comunicado de 18/09/2026)</a><br><a href="https://doi.org/10.1016/j.scib.2026.09.007" target="_blank" rel="noopener noreferrer">Science Bulletin — artigo original (DOI 10.1016/j.scib.2026.09.007)</a><br><a href="https://www.pv-magazine.com/2026/09/10/longi-soochow-university-unveil-34-0-perovskite-silicon-tandem-solar-cell-based-on-dual-anchored-interfacial-design/" target="_blank" rel="noopener noreferrer">pv magazine — Longi e Soochow University apresentam célula tandem de 34,0% baseada em projeto interfacial de ancoragem dupla (10/09/2026)</a></p>
 
-      <h3>Certificação Independente</h3>
-      <p>A eficiência de 33,5% foi certificada independentemente, garantindo que os resultados são reproduzíveis e confiáveis. A tensão de circuito aberto de 2,014 V está entre as mais altas relatadas para esta classe de células solares.</p>
-
-      <h2>Implicações para Energia Solar</h2>
-      <p>Este avanço é significativo porque:</p>
-      <ul>
-        <li><strong>Superou limites anteriores:</strong> Quebrou barreiras de eficiência para células tandem</li>
-        <li><strong>Tensão recorde:</strong> A tensão de 2,014 V é inédita para esta tecnologia</li>
-        <li><strong>Estabilidade demonstrada:</strong> Mostra potencial para aplicações práticas</li>
-        <li><strong>Escala viável:</strong> A abordagem pode ser escalada para produção comercial</li>
-      </ul>
-
-      <h2>O Futuro da Energia Solar</h2>
-      <p>Células solares tandem representam o futuro da fotovoltaica, pois podem superar os limites teóricos de células de silício de junção única. Este recorde de 34% representa um passo importante em direção a células solares mais eficientes e economicamente viáveis.</p>
+<p>É a diferença entre um avanço de engenharia e um avanço de tecnologia. O primeiro melhora um número. O segundo muda o que é possível, e ainda não está decidido qual dos dois este resultado representa.</p>
     `,
     category: {
       id: 'futuro',
@@ -7226,16 +7182,9 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Ground_mounted_solar_panels.gk.jpg/960px-Ground_mounted_solar_panels.gk.jpg',
     imageAlt: 'Painéis solares instalados em terreno aberto',
     sources: [
-      {
-        title: 'Science Bulletin - Perovskite/Si tandem solar cells 34% efficiency',
-        url: 'https://www.sciencedirect.com/science/article/pii/S2095927326004715',
-        type: 'journal'
-      },
-      {
-        title: 'EurekAlert - Nano-scaffold breakthrough tandem solar cells',
-        url: 'https://www.eurekalert.org/news-releases/1144549',
-        type: 'agency'
-      }
+      { title: 'EurekAlert / Science China Press - Nano-scaffold breakthrough pushes perovskite/silicon tandem solar cells to 34% efficiency (18/09/2026)', url: 'https://www.eurekalert.org/news-releases/1144549', type: 'agency' },
+      { title: 'Science Bulletin - artigo original (DOI 10.1016/j.scib.2026.09.007)', url: 'https://doi.org/10.1016/j.scib.2026.09.007', type: 'journal' },
+      { title: 'pv magazine - Longi e Soochow University apresentam célula tandem de 34,0% (10/09/2026)', url: 'https://www.pv-magazine.com/2026/09/10/longi-soochow-university-unveil-34-0-perovskite-silicon-tandem-solar-cell-based-on-dual-anchored-interfacial-design/', type: 'journal' }
     ]
   },
   {
