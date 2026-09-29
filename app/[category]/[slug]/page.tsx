@@ -9,6 +9,7 @@ import ArticleCard from '@/components/ArticleCard';
 import { Article, SITE_NAME, SITE_URL } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 import AdSlot from '@/components/AdSlot';
+import AffiliateBlock from '@/components/AffiliateBlock';
 
 interface ArticlePageProps {
   params: Promise<{
@@ -263,6 +264,11 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               <div dangerouslySetInnerHTML={{ __html: article.content }} />
             )}
           </div>
+
+          {/* Bloco de afiliados (TASK 6AQ). Condicional: hoje `article.affiliate`
+              é undefined nos 176 artigos, então este componente retorna null
+              e nada é renderizado. */}
+          <AffiliateBlock affiliate={article.affiliate} />
 
           {/* Ad placeholder — disabled until AdSense approval (AdSlot renders null) */}
           <AdSlot slot="article-bottom" size="rectangle" className="mt-12" />

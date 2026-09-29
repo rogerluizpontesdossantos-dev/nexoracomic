@@ -14,6 +14,14 @@ export interface Article {
   readingTime: number;
   sources?: Source[];
   relatedArticles?: string[];
+  /**
+   * Bloco de recomendação de afiliados (TASK 6AQ).
+   *
+   * OPCIONAL e hoje presente em ZERO artigos. Quando presente e com ao
+   * menos um produto, `AffiliateBlock` renderiza a recomendação. Quando
+   * ausente ou vazio, nada é renderizado — o artigo fica idêntico ao atual.
+   */
+  affiliate?: AffiliateBlockData;
   meta?: ArticleAutomationMeta;
 }
 
@@ -83,6 +91,41 @@ export interface Source {
   url: string;
   publisher?: string;
   type?: 'official' | 'scientific' | 'government' | 'university' | 'news' | 'documentation' | 'journal' | 'agency' | 'company' | 'publication' | 'other';
+}
+
+/**
+ * Produto recomendado em um artigo (TASK 6AQ — infraestrutura).
+ *
+ * REGRA: `amazonUrl` e `searchUrl` são sempre preenchidos MANUALMENTE e
+ * revisados por uma pessoa. Nenhuma URL é gerada, deduzida ou montada a
+ * partir de `label` ou `category` em tempo de renderização. Se ambas as
+ * URLs estiverem ausentes, o componente renderiza o produto SEM link,
+ * nunca com um href vazio ou inventado.
+ */
+export interface AffiliateProduct {
+  /** Nome do produto ou tipo de produto, exibido ao leitor. */
+  label: string;
+  /** Categoria editorial do produto (ex.: 'monitor-gaming-oled'). NÃO é uma URL. */
+  category: string;
+  /** URL de página de produto específica, previamente validada. */
+  amazonUrl?: string;
+  /** URL de busca/categoria da loja, previamente validada. */
+  searchUrl?: string;
+  /** Por que este produto é relevante para o leitor. Obrigatório. */
+  reason: string;
+}
+
+/**
+ * Bloco de recomendação de afiliados (opcional por artigo).
+ *
+ * Ausente na totalidade dos 176 artigos atuais: a infraestrutura existe,
+ * mas nada é publicado. Nenhum ASIN, tag de afiliado ou tracking é
+ * gerado — a URL fornecida é usada exatamente como foi validada.
+ */
+export interface AffiliateBlockData {
+  /** Texto de divulgação. Se ausente, o componente usa um fallback seguro. */
+  disclosure?: string;
+  products: AffiliateProduct[];
 }
 
 export interface NewsletterData {
