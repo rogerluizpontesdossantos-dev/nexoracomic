@@ -8967,6 +8967,18 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'company',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'SSD NVMe',
+          category: 'armazenamento',
+          amazonUrl: 'https://link.amazon/B03mAh2an',
+          reason:
+            'Uma opção relacionada ao armazenamento NVMe e aos critérios de escolha discutidos neste artigo.'
+        },
+      ]
+    }
   },
   {
     id: '179',
@@ -9038,6 +9050,18 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'documentation',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Memória RAM para PC',
+          category: 'memoria',
+          amazonUrl: 'https://link.amazon/B0ietfWP4',
+          reason:
+            'Uma opção relacionada à memória RAM e aos critérios de capacidade discutidos para PCs gamers.'
+        },
+      ]
+    }
   },
   {
     id: '180',
@@ -9109,6 +9133,18 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'official',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Teclado mecânico gamer',
+          category: 'periferico',
+          amazonUrl: 'https://link.amazon/B0as421Ea',
+          reason:
+            'Uma opção relacionada a teclados mecânicos e às características discutidas neste guia.'
+        },
+      ]
+    }
   },
   {
     id: '181',
@@ -9182,6 +9218,18 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'documentation',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Headset gamer',
+          category: 'periferico-audio',
+          amazonUrl: 'https://link.amazon/A0fqSeyGC',
+          reason:
+            'Uma opção relacionada a headsets e aos aspectos de áudio discutidos neste artigo.'
+        },
+      ]
+    }
   },
   {
     id: '182',
@@ -9256,6 +9304,18 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'official',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Controle para PC',
+          category: 'periferico',
+          amazonUrl: 'https://link.amazon/A0aWIwbzw',
+          reason:
+            'Uma opção relacionada a controles para PC e aos diferentes estilos de jogo abordados neste guia.'
+        },
+      ]
+    }
   },
   {
     id: '183',
@@ -9328,6 +9388,18 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'official',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Roteador Wi-Fi',
+          category: 'rede',
+          amazonUrl: 'https://link.amazon/B0gn5Jhob',
+          reason:
+            'Uma opção relacionada a roteadores e às tecnologias de conexão Wi-Fi discutidas neste artigo.'
+        },
+      ]
+    }
   },
   {
     id: '184',
@@ -9397,6 +9469,18 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'company',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Hub USB-C / Dock',
+          category: 'conectividade',
+          amazonUrl: 'https://link.amazon/B05XJOk2F',
+          reason:
+            'Uma opção relacionada a hubs e conectividade USB-C, tema central deste artigo.'
+        },
+      ]
+    }
   },
   {
     id: '185',
@@ -9473,6 +9557,18 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'official',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Placa de vídeo',
+          category: 'gpu',
+          amazonUrl: 'https://link.amazon/B07l7aAl3',
+          reason:
+            'Uma opção relacionada a placas de vídeo e aos critérios de escolha discutidos neste guia.'
+        },
+      ]
+    }
   },
   {
     id: '186',
@@ -9556,6 +9652,18 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'documentation',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Hardware para IA local',
+          category: 'hardware-ia',
+          amazonUrl: 'https://link.amazon/B0f60YPD5',
+          reason:
+            'Uma opção relacionada ao hardware necessário para executar modelos de IA localmente.'
+        },
+      ]
+    }
   },
   {
     id: '187',
@@ -9631,5 +9739,17 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'company',
       },
     ],
+    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Microfone para criadores',
+          category: 'audio-criacao',
+          amazonUrl: 'https://link.amazon/B0aNDqLpf',
+          reason:
+            'Uma opção relacionada a microfones e aos critérios de áudio discutidos para criadores de conteúdo.'
+        },
+      ]
+    }
   },
 ];
