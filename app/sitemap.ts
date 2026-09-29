@@ -59,6 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entry('/', { lastModified: latestArticleDate, changeFrequency: 'daily', priority: 1 }),
     entry('/categorias', { changeFrequency: 'weekly', priority: 0.7 }),
     entry('/creditos-imagens', { changeFrequency: 'monthly', priority: 0.2 }),
+    entry('/produtos', { changeFrequency: 'weekly', priority: 0.4 }),
     entry('/sobre', { changeFrequency: 'monthly', priority: 0.5 }),
     entry('/contato', { changeFrequency: 'monthly', priority: 0.3 }),
     entry('/politica-de-privacidade', { changeFrequency: 'yearly', priority: 0.1 }),

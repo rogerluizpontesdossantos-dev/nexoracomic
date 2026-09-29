@@ -8900,4 +8900,736 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       { title: 'WHO - Antimicrobial resistance (ficha técnica)', url: 'https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance', type: 'government' }
     ]
   },
+  {
+    id: '178',
+    slug: 'ssd-nvme-vs-sata-como-escolher-armazenamento',
+    title: 'SSD NVMe vs SATA: Como Escolher o Armazenamento Certo para Seu PC',
+    excerpt: 'A diferença entre um SSD NVMe e um SATA não está só na velocidade: está no barramento, no preço por gigabytes e no uso que cada um atende. Entenda qual escolher.',
+    content: `
+      <p>Troquei o disco de fábrica do meu notebook por um SSD e a diferença não foi de "velocidade": foi de comportamento. O sistema deixou de engasgar, os jogos pararam de carregar do zero toda vez, e a máquina parou de parecer lenta mesmo com a CPU ociosa. Esse é o tipo de ganho que importa quando se fala em armazenamento.</p>
+
+      <h2>O Que Muda Entre NVMe e SATA</h2>
+      <p>Os dois são flash NAND e os dois substituem o disco rígido mecânico. A diferença está em como o sistema conversa com eles.</p>
+      <p>O <strong>SATA</strong> é um protocolo serial criado para discos rígidos e depois aproveitado por SSDs. Ele opera sobre um barramento de 2,5 Gbit/s. Na prática, SSDs SATA chegam a valores próximos desse teto: a interface é o limite, não o chip.</p>
+      <p>O <strong>NVMe</strong> é um protocolo criado especificamente para flash, projetado para operar diretamente sobre o PCI Express, o mesmo barramento que a placa de vídeo usa. Isso libera uma largura de banda ordens de grandeza maior e reduz a latência, porque dispensa camadas de tradução que o SATA impõe.</p>
+
+      <h3>Por que a diferença importa na prática</h3>
+      <p>Em jogos, o ganho mais perceptível não é o tempo de carregamento puro, e sim o <strong>carregamento de recursos em segundo plano</strong>. Um SSD NVMe mantém o sistema e o jogo competindo por dados sem fila de espera perceptível.</p>
+      <p>Em uso geral — abrir o navegador com dezenas de abas, editar vídeo, usar máquina virtual — o salto é imediato e constante. O disco deixa de ser o gargalo.</p>
+
+      <h2>NVMe Gen4 ou Gen5?</h2>
+      <p>As gerações seguem o padrão PCI Express. <strong>Gen3</strong> e <strong>Gen4</strong> são os mais-finding no consumidor: um SSD Gen4 funciona bem em uma máquina que só tem Gen3, apenas rodando mais devagar.</p>
+      <p><strong>Gen5</strong> entrega o dobro da largura de banda, mas traz dois alertas práticos: <em>calor</em> — muitos modelos exigem dissipador próprio para não sofrer limitação térmica — e <em>preço</em> por gigabytes ainda alto em relação ao Gen4. A PCIe 5.0 só faz sentido se a placa-mãe oferecer o barramento e se o uso for profissional, como edição de vídeo em alta resolução ou conjuntos de dados grandes.</p>
+
+      <h2>Formato: M.2 ou 2,5 polegadas?</h2>
+      <p>Não confunda formato com protocolo. <strong>M.2</strong> é o formato físico (uma lâmina pequena que encaixa direto na placa-mãe) e <strong>2,5 polegadas</strong> é o formato tradicional, do tamanho de um disco de 3,5 polegadas. Existem SSDs M.2 SATA e SSDs M.2 NVMe; a notação costuma vir explícita na embalagem ou na própria lista da placa-mãe.</p>
+      <p>Antes de comprar qualquer M.2, confira no manual da placa-mãe quantos slots existem e se suportam NVMe. Muitos modeloscompactos trazem apenas um slot, e ele pode ser somente SATA.</p>
+
+      <h2>Como Escolher na Prática</h2>
+      <ul>
+        <li><strong>Uso geral e jogos:</strong> um NVMe de 1 TB na geração que sua placa suporta já resolve com folga.</li>
+        <li><strong>Upgrade de notebook antigo:</strong> verifique se há slot M.2 livre. Alguns modelos têm apenas um, ocupado pela placa de rede ou pelo armazenamento de fábrica.</li>
+        <li><strong>Edição pesada e conjuntos de dados:</strong> priorize capacidade acima de velocidade máxima; ter 4 TB mais lentos é melhor do que 1 TB rápido que enche.</li>
+        <li><strong>Orçamento apertado:</strong> um SATA de 1 TB continua sendo um ganho enorme em relação a disco rígido, e cabe em muitos notebooks antigos.</li>
+      </ul>
+      <p>Dois detalhes finais que costumam passar batido: <strong>habilite AHCI no setup</strong> se o sistema não reconhecer o NVMe, e confira se a <strong>capacidade real</strong> do sistema operacional aparece menor que a do disco — isso é normal em discos grandes em partições antigas.</p>
+
+      <h2>Conclusão</h2>
+      <p>A pergunta "NVMe ou SATA?" tem resposta curta quando o orçamento permite: NVMe. A pergunta melhor é "quanto de armazenamento eu preciso e o que minha máquina suporta?". Definir isso evita comprar o disco mais rápido do que a placa é capaz de aproveitar — o que acontece com frequência em máquinas de meia-vida.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Hardware, componentes e inovação tecnológica',
+      color: '#06b6d4',
+    },
+    tags: ['SSD', 'NVMe', 'armazenamento', 'hardware', 'PC'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 9,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20980%20PRO%20PCIe%204.0%20NVMe%20SSD%201TB-top%20PNr%C2%B00915.jpg?width=960',
+    imageAlt: 'Placa de armazenamento SSD NVMe em formato M.2 vista de cima sobre fundo claro',
+    sources: [
+      {
+        title: 'NVM Express - especificações e documentação oficial do padrão NVMe',
+        url: 'https://nvmexpress.org/specifications/',
+        type: 'official',
+      },
+      {
+        title: 'Serial ATA International Organization - revisão da especificação SATA',
+        url: 'https://sata-io.org/developers',
+        type: 'official',
+      },
+      {
+        title: 'PCI-SIG - padrão PCI Express e suas revisões',
+        url: 'https://pcisig.com/pci-express',
+        type: 'company',
+      },
+    ],
+  },
+  {
+    id: '179',
+    slug: 'quanto-de-ram-um-pc-gamer-precisa',
+    title: 'Quanto de Memória RAM um PC Gamer Precisa? Guia Prático por Uso',
+    excerpt: '8 GB, 16 GB ou 32 GB? A resposta depende menos do seu hardware e mais do que você faz. Veja como dimensionar memória sem gastar à toa.',
+    content: `
+      <p>Toda dúvida de upgrade começa na mesma pergunta: "isto é mesmo um gargalo ou estou só com medo de travar?". Na memória, essa pergunta tem resposta mais clara do que na placa de vídeo — e o erro mais comum é comprar mais do que o jogo utiliza, gastando dinheiro que faria mais diferença em outro lugar.</p>
+
+      <h2>Quanto Cada Uso Consome</h2>
+      <p>Podemos olhar o consumo de memória de forma prática, sem transformar o guia em promessa:</p>
+      <ul>
+        <li><strong>Navegador com muitas abas, trabalho de escritório e streaming:</strong> 8 GB já fica no limite.</li>
+        <li><strong>Jogos atuais em 1080p ou 1440p:</strong> 16 GB é o ponto confortável da maioria dos títulos.</li>
+        <li><strong>Jogos com muito streaming de recursos e mundos abertos:</strong> 16 GB é o mínimo razoável.</li>
+        <li><strong>Edição de vídeo, máquinas virtuais, desenvolvimento com contêineres:</strong> 32 GB evita travamentos constantes.</li>
+        <li><strong>Uso de IA local:</strong> 32 GB ou mais, porque o modelo é carregado inteiro na memória.</li>
+      </ul>
+      <p>Repare no padrão: <strong>16 GB é o novo 8 GB</strong>. Não porque 8 GB tenha parado de existir, mas porque 16 GB virou o mínimo para não sentir atrito no uso misto — e a diferença de preço entre 8 e 16 já se pagou há alguns anos.</p>
+
+      <h2>DDR4 ou DDR5?</h2>
+      <p>A escolha mais relevante hoje é a geração da memória, e ela não é uma preferência: é uma restrição da plataforma.</p>
+      <p><strong>DDR4</strong> ainda faz sentido em placas mais antigas, e kits geralmente saem mais baratos. <strong>DDR5</strong> traz mais largura de banda por módulo e melhores tempos em teoria, mas custa mais, exige uma <em>placa-mãe compatível</em> e consome um pouco mais de energia.</p>
+      <p>Na prática, para jogos, a diferença de desempenho entre um kit DDR5 bem escolhido e um DDR4 equivalente é pequena e nem sempre mensurável. O ganho real aparece em operações que realmente usam largura de banda de memória. Priorize <strong>capacidade antes de frequência</strong> — 32 GB em DDR4 quase sempre rendem mais do que 16 GB em DDR5.</p>
+
+      <h2>Quantidade de Módulos Importa</h2>
+      <p>Um detalhe que aparece pouco nos vídeos de recomendação: dois módulos (Dual Channel) entregam mais largura de banda do que um módulo sozinho (Single Channel) para a mesma capacidade total.</p>
+      <p>Se a placa tem quatro slots, um kit de dois módulos ocupa dois deles e deixa espaço para expandir depois. Prefira essa configuração a um único módulo de capacidade equivalente.</p>
+
+      <h2>Como Saber se a Memória é o Problema</h2>
+      <p>Antes de comprar, confirme que o gargalo existe:</p>
+      <ul>
+        <li>Abra o Gerenciador de Tarefas e acompanhe a coluna de memória durante o jogo.</li>
+        <li>Se o uso fica abaixo de 70% e o jogo ainda engasga, a memória não é o problema.</li>
+        <li>Se o uso toca 90% ou mais, ou o sistema aciona o arquivo de paginação, aí sim há falta.</li>
+      </ul>
+      <p>Esse passo evita a situação mais comum: gastar em RAM porque "todo mundo está comprando", quando o gargalo real é a placa de vídeo ou a configuração de um driver.</p>
+
+      <h2>Conclusão</h2>
+      <p>Para a maioria das máquinas de jogo hoje, <strong>16 GB é o ponto de partida razoável e 32 GB é o conforto de quem faz outras coisas ao mesmo tempo</strong>. Confirme o consumo real antes de comprar, prefira dois módulos em vez de um, e lembre que a geração (DDR4 ou DDR5) é decidida pela sua placa-mãe, não pela moda. Memória mal dimensionada trava o sistema; memória superdimensionada só pesa no bolso.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444',
+    },
+    tags: ['RAM', 'memória', 'hardware', 'PC gamer', 'upgrade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 9,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2%2A8Go%20DDR4%20Corsair%20-%202018-05-08.jpg?width=960',
+    imageAlt: 'Dois módulos de memória DDR4 Corsair instalados lado a lado sobre uma mesa',
+    sources: [
+      {
+        title: 'JEDEC - Joint Electron Device Engineering Council (padrões de memória)',
+        url: 'https://www.jedec.org/standards-documents/standards/jedec-ddr5',
+        type: 'official',
+      },
+      {
+        title: 'Crucial - guia técnico sobre módulos de memória e canais',
+        url: 'https://www.crucial.com/about-us/education/articles',
+        type: 'company',
+      },
+      {
+        title: 'Microsoft - documentação do Gerenciador de Tarefas no Windows',
+        url: 'https://support.microsoft.com/pt-br/windows/gerenciador-de-tarefas-do-windows',
+        type: 'documentation',
+      },
+    ],
+  },
+  {
+    id: '180',
+    slug: 'teclado-mecanico-para-games-como-escolher',
+    title: 'Teclado Mecânico para Games: Switch, Tamanho e o Que Realmente Muda no Jogo',
+    excerpt: 'Linear, tátil ou clicky? Tamanho compacto ou full-size? Um guia para escolher teclado mecânico pelo que importa de verdade na jogabilidade.',
+    content: `
+      <p>Todo jogador que passa muitas horas no teclado se pergunta a mesma coisa em algum momento: mecânico ou de membrana? A resposta curta é que o tipo de switch importa mais que a marca — e que "mecânico" não é sinônimo de melhor. O que importa é como a tecla se comporta sob o seu dedo, quantas vezes ele é acionado e se o equipamento acompanha a sua mão.</p>
+
+      <h2>Switch: o componente que define a sensação</h2>
+      <p>Um switch é a peça que abre e fecha o circuito a cada tecla. Existem três famílias principais:</p>
+      <ul>
+        <li><strong>Linear:</strong> desce e sobe sem resistência intermediária. É o mais rápido para sucesso em jogos de tiro, porque não há nenhuma barreira a superar. O lado negativo é o som: sem a resistência mecânica, o acionamento é mais seco e pode ser alto.</li>
+        <li><strong>Tátil:</strong> oferece um leve ponto de resistência no meio do curso, que dá retorno sensorial e evita acionamento acidental no fundo da tecla. É a escolha mais equilibrada para quem joga de tudo.</li>
+        <li><strong>Clicky:</strong> tem um clique audível mecânico no acionamento. Dá feedback claro, mas o som é o mais alto dos três — e costuma incomodar em chamadas e streaming.</li>
+      </ul>
+      <p>Um detalhe técnico que muda a sensação sem mudar a família: a espessura da <em>placa de montagem</em>. Teclados com placa de alumínio ou montagens mais rígidas produzem um som mais grave e uma devolução mais firme; plataformas de plástico tendem a soar mais ocas e macias.</p>
+
+      <h2>Tamanho: o que cada formato oferece</h2>
+      <p>O formato determina quanto espaço sobra para a mão e quantos recursos vêm junto:</p>
+      <ul>
+        <li><strong>Full-size (100%):</strong> inclui teclado numérico e teclas de função em linha. É o mais completo e ocupa mais mesa.</li>
+        <li><strong>Tenkeyless (80%):</strong> remove apenas o numérico, mantendo as funções. É o equilíbrio mais comum: mantém a tecla à esquerda da barra de espaço e libera espaço para a mão do mouse.</li>
+        <li><strong>Compacto (65% a 75%):</strong> remove também a fileira de funções. Precisa de atalhos para as teclas que sumiram, o que é ótimo para quem joga e ruim para quem trabalha no mesmo teclado.</li>
+        <li><strong>Mini (60%):</strong> apenas letras e pontuação. Máximo aproveitamento de mesa e mínima ergonomia sem camadas dedicadas.</li>
+      </ul>
+      <p>Se o seu jogo usa muito o teclado numérico — planilhas, edição, alguns jogos de estratégia — o full-size compensa. Para jogo competitivo, o 80% costuma ser a melhor escolha.</p>
+
+      <h2>Polling Rate e Latência</h2>
+      <p>Além do switch, dois números aparecem nas especificações e merecem atenção.</p>
+      <p>O <strong>polling rate</strong> é a frequência com que o teclado informa ao computador qual tecla foi pressionada, em Hz. Um teclado de 1000 Hz consulta a cada milissegundo. Taxas maiores reduzem, em teoria, o atraso entre a tecla e o comando, mas o ganho humano é pequeno e o custo de energia sobe.</p>
+      <p>Já a <strong>latência</strong> de um teclado para jogos costuma ficar entre 1 e 5 milissegundos nos modelos dedicados. Em partidas competitivas, qualquer diferença abaixo disso é ofuscada pelo tempo de reação do jogador.</p>
+
+      <h2>Construção e Durabilidade</h2>
+      <p>Dois fatores mais importantes que a lista de recursos:</p>
+      <ul>
+        <li><strong>Hot-swap:</strong> permite trocar switches sem soldar. Se você ainda não sabe qual tipo prefere, é o recurso que torna a compra segura.</li>
+        <li><strong>Keycaps PBT ou ABS:</strong> keycaps de ABS tendem a brilhar e a ficar escorregdios com o uso; as de PBT são mais resistentes ao brilho e à marca de dedo. Para jogos, o atrito estável importa porque a tecla não deve escorregar sob o dedo em combos rápidos.</li>
+      </ul>
+
+      <h2>O Que Não Vale a Pena Pagar</h2>
+      <p>Iluminação por teclado, macros complicadas e software de personalização mudam a aparência, não a resposta. Priorize nesta ordem: <strong>tamanho adequado à sua mesa, depois switch compatível com o seu estilo, depois construção sólida, depois hot-swap, e só então o restante</strong>.</p>
+
+      <h2>Conclusão</h2>
+      <p>Não existe teclado mecânico "melhor" em abstrato — existe o que combina com a sua mão, o seu tempo de sessão e os seus jogos. Comece definindo o tamanho pelo espaço da sua mesa e o switch pelo tipo de retorno que você não se importa de ouvir. O resto é detalhe. Uma escolha bem feita aparece como <em>menos cansaço depois de duas horas de partida</em>, e é por isso que vale a pesquisa antes da compra.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444',
+    },
+    tags: ['teclado mecânico', 'periférico', 'hardware', 'PC gamer'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 10,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mechanical%20keyboard%20example.jpg?width=960',
+    imageAlt: 'Teclado mecânico com teclas coloridas posicionado sobre uma mesa',
+    sources: [
+      {
+        title: 'Cherry MX - página oficial dos switches e sua história',
+        url: 'https://www.cherrymx.com/en/cherrymx-switches',
+        type: 'company',
+      },
+      {
+        title: 'USB-IF - padrão USB HID usado por teclados e dispositivos de entrada',
+        url: 'https://usb.org/document-library/human-interface-devices',
+        type: 'official',
+      },
+    ],
+  },
+  {
+    id: '181',
+    slug: 'headset-gamer-como-escolher-audio-para-jogos',
+    title: 'Headset Gamer: Como Escolher um Áudio que Faz a Diferença no Jogo',
+    excerpt: 'Surround, estéreo e escuta aberta. O headset muda como você entende o jogo, mas escolher errado é dinheiro jogado fora. Um guia focado em decisão.',
+    content: `
+      <p>Existe um tipo de upgrade de PC que parece óbvio e raramente é priorizado: o headset. A maioria das máquinas novas vem com fone e microfone genéricos, e a diferença entre isso e um headset bem escolhido não é de conforto — é de informação. Em jogos competitivos, ouvir um recarregamento atrás de você é literalmente a diferença entre vencer e morrer.</p>
+
+      <h2>Surround ou Estéreo?</h2>
+      <p>É a primeira pergunta real, e a resposta depende do que você joga.</p>
+      <p><strong>Surround virtual</strong> (marcado como 7.1 ou 9.1) cria a impressão de que o som vem de várias direções. É eficiente em jogos competitivos — de tiro, MOBA e de ritmo — onde localizar passos pelo ângulo faz diferença tática.</p>
+      <p><strong>Estéreo</strong> é mais natural para música, filmes e jogos narrativos. Para quem joga uma mistura de gêneros, um estéreo de qualidade costuma ser a escolha mais universal e mais confortável em sessões longas.</p>
+      <p>Vale conhecer a regra geral: o surround virtual não adiciona canais reais, ele processa o sinal estéreo para criar a sensação de direcionalidade. Um mapeamento ruim gera sons do lado errado — o pior resultado possível, porque o jogador perde confiança no áudio.</p>
+
+      <h2>Resposta de Frequência e Driver</h2>
+      <p>A especificação que mais importa na prática é a resposta de frequência, medida em Hz. Faixas comuns:</p>
+      <ul>
+        <li><strong>20 Hz a 20 kHz</strong> — a faixa audível padrão; qualquer headset moderno atende.</li>
+        <li><strong>50 Hz a 10 kHz</strong> — comum em headsets com reforço de graves, priorizando a sensação de impacto.</li>
+        <li><strong>5 Hz a 40 kHz</strong> — marketing aberto, sem relação direta com a experiência.</li>
+      </ul>
+      <p>Sobre o driver, vale a regra: <strong>40 mm é o ponto de equilíbrio</strong>; 50 mm e acima tendem a ser mais graves e encorpados; drivers menores perdem graves, mas ajudam na clareza de passos e na captura de som distante. Novamente: o que importa é o tipo de jogo.</p>
+
+      <h2>Microfone: haste ou cápsula</h2>
+      <p>Todo headset tem microfone; a diferença está no tipo e no padrão de captação:</p>
+      <ul>
+        <li><strong>Microfone de haste articulada:</strong> fica na lateral e é o mais comum. Funciona bem na maioria dos casos.</li>
+        <li><strong>Omnidirecional:</strong> capta som de todas as direções. Sensível e suscetível a ruído ambiente.</li>
+        <li><strong>Cardioide:</strong> capta mais da frente e rejeita laterais e traseiras. É o melhor para clareza em sala compartilhada ou streaming.</li>
+      </ul>
+      <p>Se o uso envolve streaming ou gravação, o cardioide faz diferença concreta. Para chamada rápida, qualquer opção funciona.</p>
+
+      <h2>Conforto e Material</h2>
+      <p>É aqui que muitos produtos economizam e depois se arrependem. Um headset que aperta ou esquenta derruba qualquer ganho de áudio:</p>
+      <ul>
+        <li>Almofadas em <strong>couro sintético</strong> selam melhor e isolam mais, mas acumulam calor.</li>
+        <li>Almofadas em <strong>espuma com tecido</strong> respiram melhor, para sessões longas.</li>
+        <li>A pressão da haste deve ser suficiente para firme, sem criar marca.</li>
+        <li>Headset com fio é mais confiável; sem fio evita o problema do cabo preso.</li>
+      </ul>
+
+      <h2>Uma Nota sobre Áudio Externo</h2>
+      <p>Muitos jogos de tiro têm um modo de áudio direcional com HRTF, que entrega boa localização apenas em fones estéreo comuns. Para quem joga competitivo, ele pode representar a mesma função de um surround pago, sem custo adicional. Testar essa opção antes de comprar evita uma despesa desnecessária.</p>
+
+      <h2>Conclusão</h2>
+      <p>Escolher headset é escolher <em>informação</em>, não conforto. Defina primeiro o tipo de jogo e se precisa ou não de boa captação de microfone; depois ajuste o conforto ao seu tempo de sessão. Com esses dois critérios definidos, a lista de opções se reduz bastante — e a chance de arrependimento também.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444',
+    },
+    tags: ['headset', 'áudio', 'periférico', 'PC gamer'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 9,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/RGB%20gaming%20headset%20on%20desk%20with%20ambient%20lighting.jpg?width=960',
+    imageAlt: 'Headset gamer com iluminação RGB apoiado sobre uma mesa',
+    sources: [
+      {
+        title: 'Audio Engineering Society - recursos e padrões técnicos de áudio',
+        url: 'https://www.aes.org/technical-standards',
+        type: 'official',
+      },
+      {
+        title: 'Microsoft - como corrigir problemas de áudio e headsets no Windows',
+        url: 'https://support.microsoft.com/pt-br/windows/corrigir-problemas-de-audio-no-windows',
+        type: 'documentation',
+      },
+    ],
+  },
+  {
+    id: '182',
+    slug: 'controle-para-pc-como-escolher-pelo-estilo-de-jogo',
+    title: 'Controle para PC: Como Escolher pelo Seu Estilo de Jogo',
+    excerpt: 'Analógico ou digital? Sem fio ou com fio? Preferência não é sinônimo de escolha certa. Entenda qual controle faz sentido para o que você joga.',
+    content: `
+      <p>Grande parte dos jogos de console chega ao PC com controle, e a escolha do modelo certo muda como o jogo se sente. Mas o mercado de controles é cheio de diferença cosmética, e escolher pelo desenho às vezes custa mais caro sem melhorar a experiência.</p>
+
+      <h2>Layouts: o que muda para cada tipo de jogo</h2>
+      <p>Existe um consenso razoável sobre quais tipos de jogo se beneficiam de quais controles:</p>
+      <ul>
+        <li><strong>Ação e aventura:</strong> teclado e mouse são mais precisos em câmera e mira. Controle funciona, mas exige adaptação.</li>
+        <li><strong>Tiro competitivo:</strong> teclado e mouse continuam sendo o padrão, pela precisão de mira e pela possibilidade de inclinar e de usar matrizes. Controle é opção secundária.</li>
+        <li><strong>Jogos de console portados:</strong> controle é a experiência pretendida e, muitas vezes, a única com suporte completo.</li>
+        <li><strong>RPG tático e estratégia:</strong> teclado e mouse são superiores para cliques rápidos e atalhos.</li>
+        <li><strong>Jogos de corrida e luta:</strong> controle com analógico de precisão é o mais confortável.</li>
+      </ul>
+      <p>Ou seja: o controle não é universalmente melhor — ele é adequado a alguns gêneros e questionável em outros. O erro comum é comprar um controle para substituir o mouse em jogos de tiro.</p>
+
+      <h2>Analógico ou Digital nodirecional</h2>
+      <p>Uma diferença técnica que importa mais do que parece: o <strong>direcional digital</strong> (setas separadas) e o <strong>direcional analógico</strong> (disco que gira e inclina).</p>
+      <p>Jogos 3D com câmera analógica se beneficiam do analógico, porque ele permite inclinação suave. Jogos de plataforma retrô, jogos de luta e estratégias que exigem precisão direcional funcionam muito melhor com o digital, que não tem ambiguidade de diagonal.</p>
+
+      <h2>Com Fio ou Sem Fio?</h2>
+      <p>É uma escolha de compromisso real:</p>
+      <ul>
+        <li><strong>Com fio (USB):</strong> latência mínima e sem bateria. Em competitivo, é o padrão.</li>
+        <li><strong>Sem fio com dongle de 2,4 GHz:</strong> conveniência e organização de mesa, com latência equivalente ao cabo na prática. É a melhor opção sem fio.</li>
+        <li><strong>Bluetooth puro:</strong> o mais conveniente e o que mais degrada a latência; evite para jogos rápidos.</li>
+      </ul>
+      <p>Se o jogo for competitivo e o orçamento permitir, um controle com fio ou com dongle de 2,4 GHz é a escolha segura.</p>
+
+      <h2>Gatilhos Analógicos e Vibração</h2>
+      <p>Dois recursos que valem atenção em jogos de ação e corrida.</p>
+      <p>Os <strong>gatilhos analógicos</strong>, em vez de botões digitais, permitem pressionar parcialmente o acelerador ou o freio. Em jogos de corrida, isso muda a técnica de frenagem — de algo travado e brusco para progressão contínua.</p>
+      <p>A <strong>vibração</strong> é útil em jogos de ação e corrida, mas exige software de suporte no próprio jogo. Controles muito caros com motor de vibração potente podem incomodar em sessões longas; prefira intensidade ajustável.</p>
+
+      <h2>Compatibilidade Antes de Tudo</h2>
+      <p>Antes de qualquer comparação de preço, confirme:</p>
+      <ul>
+        <li>O controle é compatível com o sistema operacional do seu PC (Windows, Linux, macOS).</li>
+        <li>O jogo suporta controle de forma nativa ou por camada de tradução.</li>
+        <li>Se usar teclado e mouse juntos, existe software de remapeamento para as funções extras.</li>
+      </ul>
+
+      <h2>Conclusão</h2>
+      <p>O controle certo é o que combina com o seu gênero favorito e com a sua mesa. Comece definindo para quais jogos ele se destina, escolha o tipo de conexão de acordo com a tolerância a latência e preste atenção no formato do direcional. Marca, iluminação e construção são detalhes — a experiência de uso vem do ajuste ao jogo.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444',
+    },
+    tags: ['controle', 'gamepad', 'periférico', 'PC gamer'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 9,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-Switch-Pro-Controller-FL.jpg?width=960',
+    imageAlt: 'Controle de videogame branco visto de frente sobre fundo neutro',
+    sources: [
+      {
+        title: 'Microsoft - DirectInput, o padrão de entrada do Windows para controles',
+        url: 'https://learn.microsoft.com/pt-br/windows/win32/inputdev/directinput',
+        type: 'documentation',
+      },
+      {
+        title: 'Bluetooth SIG - especificações do Bluetooth Core para dispositivos sem fio',
+        url: 'https://www.bluetooth.com/specifications/specs/',
+        type: 'official',
+      },
+    ],
+  },
+  {
+    id: '183',
+    slug: 'wi-fi-lento-como-escolher-roteador-que-resolva',
+    title: 'Wi-Fi Lento em Casa: Como Escolher um Roteador que Resolve o Problema',
+    excerpt: 'Sinal fraco, quedas de conexão e velocidade errada. O roteador é o equipamento que mais impacta a sua conexão — e o mais ignorado.',
+    content: `
+      <p>Contratar uma internet de mil megabytes não adianta se o equipamento que distribui o sinal já tem anos e virou o elo mais fraco de toda a cadeia. Em boa parte das casas, o roteador é justamente o componente ignorado — e é o que mais influencia a experiência do dia a dia.</p>
+
+      <h2>Por que o Roteador é o Gargalo</h2>
+      <p>O caminho de um dado dentro de casa tem três etapas: o sinal chega do provedor no formato de <strong>cabo</strong> até o equipamento, o equipamento converte cabo em <strong>rádio</strong> (Wi-Fi), e os dispositivos reconvertem rádio em dados. Só a etapa do meio é sem fio — e é ela que limita a casa inteira.</p>
+      <p>Se o provedor entrega 500 Mbps por cabo e o roteador entrega 80 Mbps por Wi-Fi, o problema não é o plano nem o seu dispositivo: é o intermediário.</p>
+
+      <h2>Bandas: 2,4 GHz, 5 GHz e 6 GHz</h2>
+      <p>Os roteadores atuais trabalham em faixas de frequência com características bem distintas:</p>
+      <ul>
+        <li><strong>2,4 GHz:</strong> maior alcance e melhor penetração em paredes, mas mais interferida (vizinhos, micro-ondas, Bluetooth) e mais lenta.</li>
+        <li><strong>5 GHz:</strong> muito mais rápida e limpa, com alcance menor e parede atenuando mais o sinal. É a faixa ideal para quem está perto do roteador.</li>
+        <li><strong>6 GHz (Wi-Fi 6E):</strong> ainda mais rápida e limpa, com canais muito mais largos e menor interferência. Exige dispositivos compatíveis e tem o menor alcance entre as três.</li>
+      </ul>
+      <p>Um bom roteador oferece <strong>bandas simultâneas</strong> (dual ou tri-band), permitindo que o celular use uma faixa e o notebook use outra ao mesmo tempo.</p>
+
+      <h2>Normas: Wi-Fi 5, 6 e 7</h2>
+      <p>A numeração indica a geração do padrão:</p>
+      <ul>
+        <li><strong>Wi-Fi 5 (802.11ac):</strong> introduziu mais canais e 5 GHz dedicado. Ainda é o padrão de roteadores antigos.</li>
+        <li><strong>Wi-Fi 6 (802.11ax):</strong> traz OFDMA, que permite atender vários dispositivos simultaneamente com menos conflito — essencial em casa com muitos celulares e dispositivos conectados.</li>
+        <li><strong>Wi-Fi 7 (802.11be):</strong> multiplica a largura de canal e reduz a latência. Indicado para ambientes com Wi-Fi 6E ou 7 nos dispositivos.</li>
+      </ul>
+      <p>Para uma casa com celular, notebook e televisão inteligente, <strong>Wi-Fi 6 já resolve a maioria dos casos</strong>. Wi-Fi 7 faz sentido se você tem muitos dispositivos de alta largura de banda ou quer se preparar para o futuro.</p>
+
+      <h2>Posicionamento: antes de comprar, ajuste</h2>
+      <p>Um ajuste gratuito que resolve boa parte dos casos de "internet lenta":</p>
+      <ul>
+        <li>Posicione o roteador <strong>centralizado</strong> e elevado (uma prateleira alta), não no chão ou dentro do rack da televisão.</li>
+        <li>Evite colocá-lo ao lado de micro-ondas ou de aparelhos metálicos que interfiram.</li>
+        <li>Se a casa for grande ou de dois andares, considere <strong>sistema mesh</strong> em vez de aumentar a potência de um único equipamento.</li>
+        <li>Verifique se o cabo que chega do provedor é <strong>Categoria 5e ou superior</strong> — cabo antigo estrangula a velocidade do plano.</li>
+      </ul>
+
+      <h2>Malha ou Roteador Único?</h2>
+      <p>Se o problema é <em>cobertura</em> — cômodo longe sem sinal — a solução é <strong>sistema mesh</strong>: vários pontos distribuídos pela casa que se comunicam entre si sem fio. Se o problema é <em>capacidade</em> — todos os dispositivos competem por banda — um roteador mais novo já resolve.</p>
+      <p>Identificar qual dos dois é o seu caso evita comprar o equipamento errado.</p>
+
+      <h2>Conclusão</h2>
+      <p>Internet lenta em casa raramente é problema de provedor: é problema de distribuição. Antes de trocar de plano, faça o diagnóstico básico — cabo, posicionamento e padrão do equipamento. Se o roteador tiver Wi-Fi 5 ou mais antigo, trocar por um modelo Wi-Fi 6 de banda dupla costuma ser a mudança com melhor relação entre custo e benefício. E se a casa for grande, o problema não é o roteador: é a cobertura.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Hardware, componentes e inovação tecnológica',
+      color: '#06b6d4',
+    },
+    tags: ['Wi-Fi', 'roteador', 'rede', 'tecnologia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 10,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20Wi-Fi%20ROUTER%20TUF%206500.jpg?width=960',
+    imageAlt: 'Roteador Wi-Fi de mesa em formato de caixa preta com antenas',
+    sources: [
+      {
+        title: 'Wi-Fi Alliance - visão geral das certificações Wi-Fi (5, 6, 6E e 7)',
+        url: 'https://www.wi-fi.org/discover-wi-fi/wi-fi-certified',
+        type: 'official',
+      },
+      {
+        title: 'IEEE - padrão 802.11 para redes sem fio',
+        url: 'https://standards.ieee.org/ieee/802.11/7028/',
+        type: 'official',
+      },
+    ],
+  },
+  {
+    id: '184',
+    slug: 'usb-c-thunderbolt-hubs-como-funcionam',
+    title: 'USB-C, Thunderbolt e Hubs: Entenda as Portas do Notebook Antes de Comprar',
+    excerpt: 'Nem todo USB-C é igual, nem todo hub entrega o que promete. Entenda a diferença entre as portas para escolher o acessório certo sem frustração.',
+    content: `
+      <p>USB-C virou o conector padrão, mas a padronização da forma não padronizou a função. Duas entradas com o mesmo formato podem ter capacidades completamente diferentes, e essa confusão é a origem de quase toda frustração com docks e cabos.</p>
+
+      <h2>USB-C é Forma, Não Função</h2>
+      <p>O USB-C define o conector — o formato físico, pequeno e reversível. Ele não define o protocolo. Uma porta USB-C pode carregar, transmitir dados, gerar vídeo, ou tudo isso ao mesmo tempo — e isso depende de como o fabricante do notebook implementou a porta.</p>
+      <p>É por isso que dois notebooks com a mesma etiqueta "USB-C" podem se comportar de formas completamente diferentes com o mesmo acessório.</p>
+
+      <h2>As Quatro Capacidades da Porta</h2>
+      <p>Ao avaliar uma porta USB-C, verifique quatro funções separadas:</p>
+      <ul>
+        <li><strong>Carregamento (Power Delivery):</strong> define quantos watts a porta entrega. Sem suporte a PD, o hub não carrega o notebook.</li>
+        <li><strong>Dados (USB):</strong> a versão (de 5 Gbps a 20 Gbps nas gerações recentes) define a velocidade com discos externos, pen drives e docks.</li>
+        <li><strong>Vídeo (DisplayPort Alt Mode):</strong> permite transmitir imagem para um monitor. Sem Alt Mode, a porta não envia vídeo.</li>
+        <li><strong>Thunderbolt:</strong> é a camada de maior desempenho, sobre USB-C. Trafega até 40 Gbps no Thunderbolt 3 e 4, e mais nas gerações seguintes.</li>
+      </ul>
+      <p>Só a combinação completa garante todas as funções. E nem toda porta Thunderbolt é igual: <strong>Thunderbolt 3</strong> e <strong>4</strong> compartilham o conector, mas o TB4 adiciona requisitos de segurança e uma arquitetura de comutação que evita gargalos quando muitos dispositivos estão conectados.</p>
+
+      <h2>Hubs e Docks: Duas Coisas Diferentes</h2>
+      <p>O termo "hub" é usado para coisas distintas:</p>
+      <p>O <strong>hub USB</strong> é simples: recebe uma porta e multiplica em várias portas USB, sem saída de vídeo nem carregamento. É a solução barata para adicionar pen drives e periféricos.</p>
+      <p>O <strong>dock</strong> é mais completo: normalmente inclui várias portas USB, uma ou mais saídas de vídeo (HDMI ou DisplayPort) e carregamento. É o que transforma um notebook em um setup de mesa com um cabo só.</p>
+      <p>Para quem trabalha com dois monitores, teclado e mouse, o dock é o produto certo. Para quem só precisa de mais portas USB, o hub resolve e custa menos.</p>
+
+      <h2>Alimentação: o Detalhe que Trava o Setup</h2>
+      <p>Um problema frequente: conectar um dock alimentado e o notebook não carregar, ou o dock não reconhecer o dispositivo porque não tem fonte suficiente.</p>
+      <p>Verifique se o dock tem <strong>fonte de alimentação própria</strong> ou se depende do host para alimentar os periféricos. Docks que dependem do notebook costumam limitar o número de dispositivos ou não sustentar unidades externas de maior consumo.</p>
+
+      <h2>O Que Verificar Antes de Comprar</h2>
+      <ul>
+        <li>Qual é a <strong>versão USB do seu notebook</strong> e quais funções a porta realmente suporta (consulte o manual).</li>
+        <li>Você precisa de <strong>vídeo</strong>? Se sim, o hub precisa ter DisplayPort Alt Mode e uma saída de vídeo.</li>
+        <li>Você precisa <strong>carregar</strong>? Se sim, o dock precisa de Power Delivery com potência suficiente para o seu modelo.</li>
+        <li>Quantos <strong>dispositivos</strong> serão conectados ao mesmo tempo? Isso define o número de portas e a fonte.</li>
+      </ul>
+
+      <h2>Conclusão</h2>
+      <p>A regra de ouro: <strong>nada de comprar pelo formato</strong>. Antes de escolher qualquer hub, dock ou cabo, abra o manual do seu notebook e confirme as funções da porta USB-C. Com essa informação em mãos, a escolha deixa de ser tentativa e vira compatibilidade — e o acessório que funciona de primeira, em vez de frustrar na segunda, passa a ser a solução.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Hardware, componentes e inovação tecnológica',
+      color: '#06b6d4',
+    },
+    tags: ['USB-C', 'Thunderbolt', 'hub', 'dock', 'periférico'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 10,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2023%20Hub%20USB%202.0.jpg?width=960',
+    imageAlt: 'Hub USB com várias portas sobre uma mesa de madeira',
+    sources: [
+      {
+        title: 'USB-IF - especificações do USB Type-C e dos modos alternativos',
+        url: 'https://usb.org/developers',
+        type: 'official',
+      },
+      {
+        title: 'Intel - visão geral da tecnologia Thunderbolt',
+        url: 'https://www.intel.com/content/www/us/en/products/features/thunderbolt/overview.html',
+        type: 'company',
+      },
+    ],
+  },
+  {
+    id: '185',
+    slug: 'como-escolher-placa-de-video-para-pc-gamer',
+    title: 'Como Escolher Placa de Vídeo para PC Gamer: O Guia que Poupa Dinheiro Errado',
+    excerpt: 'VRAM, resolução, ray tracing e upscaling de IA. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.',
+    content: `
+      <p>Comprar placa de vídeo é, para a maioria das pessoas, a decisão mais cara e mais confusa do PC. As especificações técnicas existem de propósito, mas a movimentação do mercado faz com que comparar números nem sempre produza a escolha certa.</p>
+
+      <h2>O Que Realmente Define o Desempenho</h2>
+      <p>Quatro fatores, em ordem de importância real:</p>
+      <ul>
+        <li><strong>Resolução-alvo:</strong> jogar em 1080p, 1440p ou 4K muda a exigência da placa de forma drástica. A mesma placa que roda 144 Hz em 1080p pode ter dificuldade em 4K.</li>
+        <li><strong>Memória de vídeo:</strong> é o limite de resolução, texturas e ray tracing que a placa suporta. Abaixo de 6 GB, jogos atuais começam a mostrar.</li>
+        <li><strong>Ray tracing:</strong> renderiza iluminação e reflexos reais. É bonito e pesado; ter ou não é decisão de hardware, não de preferência.</li>
+        <li><strong>Upscaling de IA:</strong> reduz a resolução interna e reconstrói a imagem. É o que permite usar uma placa de geração anterior em títulos novos com desempenho razoável.</li>
+      </ul>
+      <p>Perceba que desempenho bruto é apenas um dos fatores. Uma placa da geração anterior com upscaling de IA bem implementado pode entregar uma melhor experiência do que uma placa cara com recursos que você não usa.</p>
+
+      <h2>Memória de Vídeo: a Métrica que Mais Fala</h2>
+      <p>Se você ouve falar de apenas um número antes de comprar, que seja a memória de vídeo. Ela define, na prática:</p>
+      <ul>
+        <li>Qual a resolução máxima que a placa suporta em alta qualidade.</li>
+        <li>Se texturas e ray tracing cabem sem travar.</li>
+        <li>Quanto tempo a placa vai ser relevante antes de precisar de troca.</li>
+      </ul>
+      <p>Para 1080p, 8 GB é confortável hoje. Para 1440p, 12 GB ou mais é recomendado. Para 4K com ray tracing, 16 GB ou mais evita entrar no limite já no presente. Valores menores que isso geralmente indicam uma placa de geração anterior, o que precisa ser compensado por preço menor.</p>
+
+      <h2>Resolução: o Ponto de Partida</h2>
+      <p>Antes de escolher qualquer modelo, defina onde você vai jogar:</p>
+      <ul>
+        <li><strong>1080p:</strong> ainda é o cenário mais comum e o mais fácil de rodar. Priorize taxa de quadros e uma placa intermediária.</li>
+        <li><strong>1440p:</strong> o meio-termo que entrega grande salto de qualidade sem exigir 4K. É o alvo mais comum para placa de gama média.</li>
+        <li><strong>4K:</strong> exige muito mais da placa e quase sempre combina bem com upscaling de IA para manter taxa de quadros.</li>
+      </ul>
+
+      <h2>Upscaling de IA: o Recurso que Mais Muda o Jogo</h2>
+      <p>Tecnologias como o DLSS, da NVIDIA, e o FSR, da AMD e de parceiros, renderizam o jogo em resolução menor e usam aprendizado de máquina para reconstruir a imagem. Em muitos títulos, isso entrega mais quadros do que uma placa mais cara, com perda visual pequena.</p>
+      <p>Isso muda a lógica de comparação: em vez de escolher "a placa mais rápida do mercado", vale escolher "a placa que entrega desempenho suficiente com upscaling ativado". Em muitos casos, essa placa custa menos e entrega uma experiência melhor do que a alternativa cara com ray tracing desligado.</p>
+
+      <h2>Como Não Errar</h2>
+      <ul>
+        <li>Não compre pelo desempenho absoluto: compre pelo desempenho <em>na sua resolução</em>.</li>
+        <li>Verifique a memória de vídeo antes de qualquer comparação.</li>
+        <li>Confira se o sistema tem fonte de alimentação e cooler suficientes para a placa escolhida.</li>
+        <li>Considere a obsolescência: uma placa intermediária atual dura mais do que uma de topo de linha de geração passada.</li>
+      </ul>
+
+      <h2>Conclusão</h2>
+      <p>A placa de vídeo certa é aquela que entrega taxa de quadros estável na sua resolução, com memória suficiente para os títulos que você joga. Fora isso, o resto é especificação que o mercado usa para justificar preço. Defina resolução e memória de vídeo primeiro; depois compare desempenho. Nessa ordem, a escolha deixa de ser confusa e vira racional.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444',
+    },
+    tags: ['placa de vídeo', 'GPU', 'hardware', 'PC gamer', 'VRAM'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 10,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sapphire-Radeon-HD-5570-Video-Card.jpg?width=960',
+    imageAlt: 'Placa de vídeo Sapphire Radeon HD 5570 instalada em um computador, usada como imagem ilustrativa de GPU',
+    sources: [
+      {
+        title: 'NVIDIA - visão geral da tecnologia DLSS (Deep Learning Super Sampling)',
+        url: 'https://www.nvidia.com/en-us/geforce/technologies/dlss/',
+        type: 'company',
+      },
+      {
+        title: 'Khronos Group - documentação da API Vulkan e de recursos gráficos',
+        url: 'https://www.khronos.org/vulkan/',
+        type: 'official',
+      },
+    ],
+  },
+  {
+    id: '186',
+    slug: 'hardware-para-ia-local-como-rodar-modelos-em-casa',
+    title: 'Hardware para IA Local: O que Você Precisa para Rodar Modelos no Seu PC',
+    excerpt: 'GPU, memória de vídeo e RAM determinam quais modelos rodam bem na sua máquina. Entenda os requisitos reais da inferência local sem mito.',
+    content: `
+      <p>Rodar modelos de IA na sua própria máquina deixou de ser impossível há alguns anos. Mas a primeira tentativa de um iniciante costuma esbarrar em uma parede: o modelo não carrega, ou carrega e o sistema trava. A causa quase sempre é a mesma — a demanda de memória.</p>
+
+      <h2>Onde o Trabalho Acontece</h2>
+      <p>Para entender o que sua máquina precisa, vale saber onde o processamento ocorre:</p>
+      <ul>
+        <li><strong>Na GPU (memória de vídeo):</strong> é o caminho mais rápido. O modelo inteiro é carregado na memória de vídeo, e a GPU faz o trabalho pesado. Requisito: memória de vídeo suficiente para o modelo.</li>
+        <li><strong>Na CPU (RAM):</strong> quando não há GPU dedicada, ou quando o modelo não cabe na memória de vídeo. Funciona, mas é ordens de grandeza mais lento.</li>
+        <li><strong>Híbrido (CPU e GPU):</strong> camadas do modelo são divididas entre os dois. Útil quando a memória de vídeo não comporta o modelo inteiro, com custo de velocidade pela comunicação entre dispositivos.</li>
+      </ul>
+      <p>Compreender essa divisão é o que permite escolher hardware com critério, em vez de descobrir o limite depois.</p>
+
+      <h2>Memória de Vídeo: o Requisito que Domina</h2>
+      <p>Existe uma regra prática que sintetiza quase tudo: <strong>o modelo precisa caber na memória de vídeo, com folga</strong>.</p>
+      <p>Quando um modelo não cabe, o sistema é forçado a usar a RAM, e a velocidade cai drasticamente. Esse é o motivo número um de "minha máquina está travando".</p>
+      <p>Regra geral de dimensionamento: <strong>mais memória de vídeo vale mais do que GPU mais rápida com pouca memória</strong>. Uma placa com menos memória e mais poder de processamento é inútil para inferência se o modelo não couber nela.</p>
+
+      <h2>Memória do Sistema (RAM)</h2>
+      <p>Mesmo com GPU dedicada, a RAM do sistema importa:</p>
+      <ul>
+        <li>Modelos maiores que a capacidade da GPU transbordam para a RAM — e é aí que a velocidade despenca.</li>
+        <li><strong>32 GB</strong> é hoje um piso razoável para inferência local em modelos médios.</li>
+        <li><strong>64 GB ou mais</strong> amplia o leque de modelos possíveis, especialmente os maiores.</li>
+      </ul>
+      <p>Além disso, existe a técnica de <em>quantização</em>, que reduz o tamanho do modelo e o requisito de memória ao custo de alguma qualidade. Essa redução é o que torna viável rodar modelos grandes em hardware de consumo.</p>
+
+      <h2>O que Define uma GPU Boa para IA Local</h2>
+      <p>Não toda GPU é equivalente para inferência. O que mais importa:</p>
+      <ul>
+        <li><strong>Quantidade de memória de vídeo</strong>, já discutida.</li>
+        <li><strong>Suporte a tipos numéricos reduzidos</strong> (como FP16, BF16, INT8 e INT4), que aceleram a inferência de modelos quantizados.</li>
+        <li><strong>Vazão de memória</strong> — placas com barramento mais largo movem mais dados por segundo, o que pesa na geração de texto, token a token.</li>
+        <li><strong>Suporte às bibliotecas principais</strong> (CUDA, ROCm, Vulkan). A compatibilidade de software é tão importante quanto o hardware.</li>
+      </ul>
+
+      <h2>Como Definir o que Roda na Sua Máquina</h2>
+      <ol>
+        <li>Anote a memória de vídeo da sua GPU, ou suponha que não há GPU dedicada.</li>
+        <li>Escolha o modelo considerando um pouco menos que isso — deixe folga, não opere no limite.</li>
+        <li>Se o modelo for maior do que a memória de vídeo, confirme se a RAM do sistema permite o modo híbrido.</li>
+        <li>Considere a quantização como forma de rodar modelos maiores no mesmo hardware.</li>
+      </ol>
+      <p>Se você quer saber se um modelo específico roda na sua máquina, a regra é simples: compare a memória disponível com o tamanho estimado do modelo. O resto é consequência.</p>
+
+      <h2>Conclusão</h2>
+      <p>Rodar IA em casa não exige supercomputador — exige <strong>hardware dimensionado pela memória</strong>, não pela potência bruta. Defina primeiro qual uso você quer (modelo pequeno para uso diário, ou modelo grande para tarefas complexas), depois dimensione a memória de vídeo e a RAM em cima disso. Com a memória resolvida, a escolha de GPU deixa de ser adivinhação e vira consequência.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899',
+    },
+    tags: ['IA local', 'hardware', 'GPU', 'VRAM', 'inferência'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 10,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ATX%20Computer%20power%20supply%20unit.jpg?width=960',
+    imageAlt: 'Componente interno de computador sobre fundo claro, usado como imagem ilustrativa de hardware',
+    sources: [
+      {
+        title: 'NVIDIA - plataforma CUDA para computação acelerada em GPU',
+        url: 'https://developer.nvidia.com/cuda-zone',
+        type: 'company',
+      },
+      {
+        title: 'AMD - plataforma ROCm para computação em GPUs AMD',
+        url: 'https://www.amd.com/en/developer/resources/rocm.html',
+        type: 'company',
+      },
+      {
+        title: 'Hugging Face - documentação sobre quantização de modelos',
+        url: 'https://huggingface.co/docs/transformers/quantization/overview',
+        type: 'documentation',
+      },
+    ],
+  },
+  {
+    id: '187',
+    slug: 'microfone-para-criadores-de-conteudo-como-escolher',
+    title: 'Microfone para Criadores de Conteúdo: Como Escolher Áudio que Parece Profissional',
+    excerpt: 'Condensador, dinâmico, USB ou XLR? O microfone é o equipamento que mais impacta a qualidade do seu conteúdo. Um guia sem jargão desnecessário.',
+    content: `
+      <p>Se você produz vídeo, podcast ou transmissão, o áudio é o primeiro ponto que o público percebe quando está ruim. Câmera ruim passa despercebida em um vídeo com bom áudio; áudio ruim entrega mesmo com imagem perfeita. E o upgrade mais barato dessa cadeia é, na maioria das vezes, trocar o microfone.</p>
+
+      <h2>Os Dois Tipos que Cobrem a Maioria dos Casos</h2>
+      <p>A classificação mais importante de todas é:</p>
+      <ul>
+        <li><strong>Dinâmico:</strong> capta apenas o som que chega diretamente na cápsula. Rejeita bem ruído ambiente e captação fora de eixo. É a escolha certa para quarto tratado, sala com eco ou gravação em rua.</li>
+        <li><strong>Condensador:</strong> muito mais sensível, capta nuances e detalhes da voz. Também capta tudo o mais: ventilador, ar-condicionado, rua. É a escolha certa para estúdio tratado.</li>
+      </ul>
+      <p>Se o seu ambiente não é tratado acusticamente, começar por um microfone dinâmico é a decisão mais inteligente. Não há como corrigir microfone ruim na edição.</p>
+
+      <h2>USB ou XLR?</h2>
+      <p>O segundo eixo de decisão é a conexão:</p>
+      <ul>
+        <li><strong>USB:</strong> conecta e usa. Tem pré-amplificador e conversor analógico-digital integrados. Para a maioria dos criadores iniciantes, remove toda a complexidade de áudio sem perda real de qualidade.</li>
+        <li><strong>XLR (balanceado):</strong> é o padrão de estúdio. Passa por uma interface de áudio e oferece controle fino de ganho e proteção contra interferência. É a porta de entrada para quando a USB começa a limitar.</li>
+        <li><strong>Uso combinado:</strong> muitos estúdios usam USB como solução rápida de contingência e XLR como solução principal.</li>
+      </ul>
+      <p>Regra prática: comece com USB de qualidade razoável. Migrar para XLR faz sentido quando você já domina ganho, posicionamento e tratamento — não antes.</p>
+
+      <h2>Posicionamento: o Ganho Mais Barato</h2>
+      <p>Antes de falar de modelo, a distância entre a boca e o microfone é o fator mais determinante da qualidade. A relação é direta: <strong>cada centímetro a mais reduz o ruído ambiente proporcionalmente</strong>. Voz a 15 cm do microfone soa ordens de grandeza melhor do que a 50 cm, independentemente do modelo.</p>
+      <p>Outras práticas que melhoram o áudio sem custo:</p>
+      <ul>
+        <li>Use um <strong>filtro de pop</strong> para eliminar os ruídos de consoantes.</li>
+        <li>Posicione o microfone levemente fora do eixo da boca, não apontado direto — isso reduz o sopro e as plosivas.</li>
+        <li>Trate a parede atrás de você com roupa, cortina ou espuma — o eco é o maior inimigo da gravação doméstica.</li>
+        <li>Mantenha o microfone em suporte com amortecimento para não captar vibração da mesa.</li>
+      </ul>
+
+      <h2>Especificações que Importam</h2>
+      <ul>
+        <li><strong>Resposta de frequência:</strong> para voz, uma faixa de 80 Hz a 15 kHz cobre o essencial. Faixas muito largas indicam captação excessiva de graves e ruído.</li>
+        <li><strong>Padrão polar:</strong> cardioide (frente) e supercardioide (frente apertada) são os mais usados para voz. Omnidirecional é para gravação de ambiente, não para voz individual.</li>
+        <li><strong>Ruído próprio:</strong> quanto menor, melhor. Um microfone com muito ruído interno exige mais ganho e amplifica o chiado.</li>
+        <li><strong>Alimentação fantasma (+48V):</strong> microfones de condensador de qualidade exigem alimentação fantasma — disponível na maioria das interfaces e em alguns modelos USB.</li>
+      </ul>
+
+      <h2>Ligação com o Processamento por IA</h2>
+      <p>Se você usa IA para limpar áudio (redução de ruído, remoção de fundo), a exigência de captação fica ainda mais relevante: a IA limpa o que dá, mas o que não foi gravado bem não volta. O microfone é o primeiro investimento; o processamento é o segundo.</p>
+
+      <h2>Conclusão</h2>
+      <p>Escolher microfone para criar conteúdo é escolher <em>quantidade de informação útil por ruído captado</em>. Comece definindo o seu ambiente: tratado ou não. Depois, dinâmico se não há tratamento e condensador se há. USB se você quer simplicidade, XLR se quer controle. E lembre: <strong>distância e tratamento acústico valem mais do que o modelo</strong> — um microfone modesto bem posicionado entrega áudio melhor do que um caro mal ajustado.</p>
+    `,
+    category: {
+      id: 'curiosidades',
+      slug: 'curiosidades',
+      name: 'Curiosidades',
+      description: 'Fatos, mitos e curiosidades que valem a pena saber',
+      color: '#14b8a6',
+    },
+    tags: ['microfone', 'áudio', 'criador de conteúdo', 'streaming', 'podcast'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-09-28',
+    readingTime: 10,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AKG%20C214%20Condenser%20microphone.jpg?width=960',
+    imageAlt: 'Microfone condensador AKG C214 com grade metálica e shock mount sobre fundo escuro',
+    sources: [
+      {
+        title: 'Audio Engineering Society - padrões e recursos técnicos de áudio',
+        url: 'https://www.aes.org/technical-standards',
+        type: 'official',
+      },
+      {
+        title: 'Shure - guia técnico de microfones (dinâmicos, condensadores e padrões polares)',
+        url: 'https://www.shure.com/en-US/resources/technologies/microphone-types',
+        type: 'company',
+      },
+    ],
+  },
 ];
