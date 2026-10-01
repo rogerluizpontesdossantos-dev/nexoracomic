@@ -11,6 +11,12 @@ export interface Article {
   updatedAt?: string;
   featuredImage?: string;
   imageAlt?: string;
+  /** Licença Creative Commons da imagem de capa. */
+  imageLicense?: string;
+  /** Autor/artista da imagem de capa. */
+  imageArtist?: string;
+  /** Página do arquivo no Wikimedia Commons, quando a origem for o Commons. */
+  imageCommonsUrl?: string;
   readingTime: number;
   sources?: Source[];
   relatedArticles?: string[];

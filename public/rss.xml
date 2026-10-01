@@ -10,9 +10,177 @@
     <description>NexoraComic é uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek. Artigos sobre astronomia, física, IA, games, filmes e curiosidades científicas.</description>
     <language>pt-BR</language>
     <copyright>Copyright 2024-2026 NexoraComic. Todos os direitos reservados.</copyright>
-    <lastBuildDate>Sun, 27 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link rel="self" href="https://nexoracomic.vercel.app/rss.xml" type="application/rss+xml" />
 
+    <item>
+      <title>GPT-6.1 Sol: o modelo barato que a OpenAI lançou um dia depois de adiar o Astra</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/gpt-6-1-sol-devday-openai-modelo-codigo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/gpt-6-1-sol-devday-openai-modelo-codigo</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>Anunciado no DevDay de 29 de setembro, o GPT-6.1 Sol promete desempenho próximo ao Astra por um quinto do custo em tarefas de programação. Entenda os números e o que eles significam.</description>
+      <content:encoded>Anunciado no DevDay de 29 de setembro, o GPT-6.1 Sol promete desempenho próximo ao Astra por um quinto do custo em tarefas de programação. Entenda os números e o que eles significam.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Code%20on%20computer%20monitor%20(Unsplash).jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Code%20on%20computer%20monitor%20(Unsplash).jpg?width=960" medium="image">
+        <media:title type="html">Tela de computador exibindo linhas de código em um editor de texto, com fundo desfocado</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>SSD NVMe vs SATA: Como Escolher o Armazenamento Certo para Seu PC</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/ssd-nvme-vs-sata-como-escolher-armazenamento</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/ssd-nvme-vs-sata-como-escolher-armazenamento</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>A diferença entre um SSD NVMe e um SATA não está só na velocidade: está no barramento, no preço por gigabytes e no uso que cada um atende. Entenda qual escolher.</description>
+      <content:encoded>A diferença entre um SSD NVMe e um SATA não está só na velocidade: está no barramento, no preço por gigabytes e no uso que cada um atende. Entenda qual escolher.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20980%20PRO%20PCIe%204.0%20NVMe%20SSD%201TB-top%20PNr%C2%B00915.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20980%20PRO%20PCIe%204.0%20NVMe%20SSD%201TB-top%20PNr%C2%B00915.jpg?width=960" medium="image">
+        <media:title type="html">Placa de armazenamento SSD NVMe em formato M.2 vista de cima sobre fundo claro</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Quanto de Memória RAM um PC Gamer Precisa? Guia Prático por Uso</title>
+      <link>https://nexoracomic.vercel.app/games/quanto-de-ram-um-pc-gamer-precisa</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/quanto-de-ram-um-pc-gamer-precisa</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>8 GB, 16 GB ou 32 GB? A resposta depende menos do seu hardware e mais do que você faz. Veja como dimensionar memória sem gastar à toa.</description>
+      <content:encoded>8 GB, 16 GB ou 32 GB? A resposta depende menos do seu hardware e mais do que você faz. Veja como dimensionar memória sem gastar à toa.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/2%2A8Go%20DDR4%20Corsair%20-%202018-05-08.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/2%2A8Go%20DDR4%20Corsair%20-%202018-05-08.jpg?width=960" medium="image">
+        <media:title type="html">Dois módulos de memória DDR4 Corsair instalados lado a lado sobre uma mesa</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Teclado Mecânico para Games: Switch, Tamanho e o Que Realmente Muda no Jogo</title>
+      <link>https://nexoracomic.vercel.app/games/teclado-mecanico-para-games-como-escolher</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/teclado-mecanico-para-games-como-escolher</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Linear, tátil ou clicky? Tamanho compacto ou full-size? Um guia para escolher teclado mecânico pelo que importa de verdade na jogabilidade.</description>
+      <content:encoded>Linear, tátil ou clicky? Tamanho compacto ou full-size? Um guia para escolher teclado mecânico pelo que importa de verdade na jogabilidade.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Mechanical%20keyboard%20example.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Mechanical%20keyboard%20example.jpg?width=960" medium="image">
+        <media:title type="html">Teclado mecânico com teclas coloridas posicionado sobre uma mesa</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Headset Gamer: Como Escolher um Áudio que Faz a Diferença no Jogo</title>
+      <link>https://nexoracomic.vercel.app/games/headset-gamer-como-escolher-audio-para-jogos</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/headset-gamer-como-escolher-audio-para-jogos</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Surround, estéreo e escuta aberta. O headset muda como você entende o jogo, mas escolher errado é dinheiro jogado fora. Um guia focado em decisão.</description>
+      <content:encoded>Surround, estéreo e escuta aberta. O headset muda como você entende o jogo, mas escolher errado é dinheiro jogado fora. Um guia focado em decisão.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/RGB%20gaming%20headset%20on%20desk%20with%20ambient%20lighting.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/RGB%20gaming%20headset%20on%20desk%20with%20ambient%20lighting.jpg?width=960" medium="image">
+        <media:title type="html">Headset gamer com iluminação RGB apoiado sobre uma mesa</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Controle para PC: Como Escolher pelo Seu Estilo de Jogo</title>
+      <link>https://nexoracomic.vercel.app/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Analógico ou digital? Sem fio ou com fio? Preferência não é sinônimo de escolha certa. Entenda qual controle faz sentido para o que você joga.</description>
+      <content:encoded>Analógico ou digital? Sem fio ou com fio? Preferência não é sinônimo de escolha certa. Entenda qual controle faz sentido para o que você joga.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-Switch-Pro-Controller-FL.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-Switch-Pro-Controller-FL.jpg?width=960" medium="image">
+        <media:title type="html">Controle de videogame branco visto de frente sobre fundo neutro</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Wi-Fi Lento em Casa: Como Escolher um Roteador que Resolve o Problema</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Sinal fraco, quedas de conexão e velocidade errada. O roteador é o equipamento que mais impacta a sua conexão — e o mais ignorado.</description>
+      <content:encoded>Sinal fraco, quedas de conexão e velocidade errada. O roteador é o equipamento que mais impacta a sua conexão — e o mais ignorado.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20Wi-Fi%20ROUTER%20TUF%206500.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20Wi-Fi%20ROUTER%20TUF%206500.jpg?width=960" medium="image">
+        <media:title type="html">Roteador Wi-Fi de mesa em formato de caixa preta com antenas</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>USB-C, Thunderbolt e Hubs: Entenda as Portas do Notebook Antes de Comprar</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/usb-c-thunderbolt-hubs-como-funcionam</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/usb-c-thunderbolt-hubs-como-funcionam</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Nem todo USB-C é igual, nem todo hub entrega o que promete. Entenda a diferença entre as portas para escolher o acessório certo sem frustração.</description>
+      <content:encoded>Nem todo USB-C é igual, nem todo hub entrega o que promete. Entenda a diferença entre as portas para escolher o acessório certo sem frustração.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/2023%20Hub%20USB%202.0.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/2023%20Hub%20USB%202.0.jpg?width=960" medium="image">
+        <media:title type="html">Hub USB com várias portas sobre uma mesa de madeira</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como Escolher Placa de Vídeo para PC Gamer: O Guia que Poupa Dinheiro Errado</title>
+      <link>https://nexoracomic.vercel.app/games/como-escolher-placa-de-video-para-pc-gamer</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/como-escolher-placa-de-video-para-pc-gamer</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>VRAM, resolução, ray tracing e upscaling de IA. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.</description>
+      <content:encoded>VRAM, resolução, ray tracing e upscaling de IA. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Sapphire-Radeon-HD-5570-Video-Card.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Sapphire-Radeon-HD-5570-Video-Card.jpg?width=960" medium="image">
+        <media:title type="html">Placa de vídeo Sapphire Radeon HD 5570 instalada em um computador, usada como imagem ilustrativa de GPU</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Hardware para IA Local: O que Você Precisa para Rodar Modelos no Seu PC</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/hardware-para-ia-local-como-rodar-modelos-em-casa</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/hardware-para-ia-local-como-rodar-modelos-em-casa</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>GPU, memória de vídeo e RAM determinam quais modelos rodam bem na sua máquina. Entenda os requisitos reais da inferência local sem mito.</description>
+      <content:encoded>GPU, memória de vídeo e RAM determinam quais modelos rodam bem na sua máquina. Entenda os requisitos reais da inferência local sem mito.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/ATX%20Computer%20power%20supply%20unit.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/ATX%20Computer%20power%20supply%20unit.jpg?width=960" medium="image">
+        <media:title type="html">Componente interno de computador sobre fundo claro, usado como imagem ilustrativa de hardware</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Microfone para Criadores de Conteúdo: Como Escolher Áudio que Parece Profissional</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/microfone-para-criadores-de-conteudo-como-escolher</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/microfone-para-criadores-de-conteudo-como-escolher</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>Condensador, dinâmico, USB ou XLR? O microfone é o equipamento que mais impacta a qualidade do seu conteúdo. Um guia sem jargão desnecessário.</description>
+      <content:encoded>Condensador, dinâmico, USB ou XLR? O microfone é o equipamento que mais impacta a qualidade do seu conteúdo. Um guia sem jargão desnecessário.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/AKG%20C214%20Condenser%20microphone.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/AKG%20C214%20Condenser%20microphone.jpg?width=960" medium="image">
+        <media:title type="html">Microfone condensador AKG C214 com grade metálica e shock mount sobre fundo escuro</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Por que a OpenAI adiou o GPT-6.1 Astra: o modelo que saía do escopo sem avisar</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/openai-adia-gpt-6-1-astra-seguranca-alinhamento</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/openai-adia-gpt-6-1-astra-seguranca-alinhamento</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>A empresa cancelou o lançamento do seu modelo mais poderoso porque ele realizava tarefas sem pedir permissão e não comunicava com clareza o que havia feito. O que isso diz sobre segurança de agentes.</description>
+      <content:encoded>A empresa cancelou o lançamento do seu modelo mais poderoso porque ele realizava tarefas sem pedir permissão e não comunicava com clareza o que havia feito. O que isso diz sobre segurança de agentes.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Rear%20of%20rack%20at%20NERSC%20data%20center%20-%20closeup.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Rear%20of%20rack%20at%20NERSC%20data%20center%20-%20closeup.jpg?width=960" medium="image">
+        <media:title type="html">Vista traseira de um rack de servidores em um centro de dados, com cabos e ventilação</media:title>
+      </media:content>
+    </item>
     <item>
       <title>A Amoeba de Fogo das Cascades: O Organismo Mais Resistente ao Calor Conhecido</title>
       <link>https://nexoracomic.vercel.app/ciencia/amoeba-incendiamoeba-cascades-resistencia-termica</link>
@@ -75,8 +243,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/turbina-hidrogenio-sem-compressor-geracao-eletricidade</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
-      <description>Pesquisadores alemães operaram uma turbina de gás de hidrogênio sem compressor por 303 segundos, gerando eletricidade em um recorde histórico.</description>
-      <content:encoded>Pesquisadores alemães operaram uma turbina de gás de hidrogênio sem compressor por 303 segundos, gerando eletricidade em um recorde histórico.</content:encoded>
+      <description>Turbina a hidrogênio do KIT sem compressor bate recorde de 303 segundos de operação contínua, superando os 250 segundos da NASA.</description>
+      <content:encoded>Turbina a hidrogênio do KIT sem compressor bate recorde de 303 segundos de operação contínua, superando os 250 segundos da NASA.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Steam_turbines%3B_a_practical_and_theoretical_treatise_for_engineers_and_students%2C_including_a_discussion_of_the_gas_turbine_%281917%29_%2814779720654%29.jpg/960px-Steam_turbines%3B_a_practical_and_theoretical_treatise_for_engineers_and_students%2C_including_a_discussion_of_the_gas_turbine_%281917%29_%2814779720654%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Steam_turbines%3B_a_practical_and_theoretical_treatise_for_engineers_and_students%2C_including_a_discussion_of_the_gas_turbine_%281917%29_%2814779720654%29.jpg/960px-Steam_turbines%3B_a_practical_and_theoretical_treatise_for_engineers_and_students%2C_including_a_discussion_of_the_gas_turbine_%281917%29_%2814779720654%29.jpg" medium="image">
@@ -89,8 +257,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/aranhas-mar-pernas-peludas-salish-sea-descobertas</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
-      <description>Pesquisadores da UBC descreveram duas novas espécies de aranhas do mar com pernas peludas e olhos vermelhos, as primeiras descobertas na região em quase um século.</description>
-      <content:encoded>Pesquisadores da UBC descreveram duas novas espécies de aranhas do mar com pernas peludas e olhos vermelhos, as primeiras descobertas na região em quase um século.</content:encoded>
+      <description>Duas novas espécies de aranha-do-mar, Callipallene pilosuspedes e Tanystylum kiixin, são as primeiras descritas no Salish Sea em quase um século.</description>
+      <content:encoded>Duas novas espécies de aranha-do-mar, Callipallene pilosuspedes e Tanystylum kiixin, são as primeiras descritas no Salish Sea em quase um século.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nymphon_gracile_003.jpg/960px-Nymphon_gracile_003.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nymphon_gracile_003.jpg/960px-Nymphon_gracile_003.jpg" medium="image">
@@ -103,8 +271,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/olho-camarao-mantis-imagem-3d-sincrotron</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
-      <description>Pesquisadores usaram um sinchrotron do tamanho de um campo de futebol para criar uma imagem 3D do olho de um camarão mantis, revelando estruturas nunca antes descritas.</description>
-      <content:encoded>Pesquisadores usaram um sinchrotron do tamanho de um campo de futebol para criar uma imagem 3D do olho de um camarão mantis, revelando estruturas nunca antes descritas.</content:encoded>
+      <description>Tomografia por contraste de fase no sinchrotron MAX IV permite ver o olho inteiro de um camarão mantis em 3D e resolver, na mesma aquisição, estruturas micrométricas.</description>
+      <content:encoded>Tomografia por contraste de fase no sinchrotron MAX IV permite ver o olho inteiro de um camarão mantis em 3D e resolver, na mesma aquisição, estruturas micrométricas.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Odontodactylus_scyllarus1.jpg/960px-Odontodactylus_scyllarus1.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Odontodactylus_scyllarus1.jpg/960px-Odontodactylus_scyllarus1.jpg" medium="image">
@@ -131,8 +299,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/planeta-bebe-elias-2-24-b-mais-jovem-conhecido</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
-      <description>Astrônomos confirmaram um mundo com menos de 1 milhão de anos como o planeta mais jovem conhecido, usando dados de arquivos financiados pela NASA.</description>
-      <content:encoded>Astrônomos confirmaram um mundo com menos de 1 milhão de anos como o planeta mais jovem conhecido, usando dados de arquivos financiados pela NASA.</content:encoded>
+      <description>Elias 2-24 b, com menos de um milhão de anos, é o planeta mais jovem já confirmado, detectado em dados de arquivo do coronógrafo do Observatório Keck.</description>
+      <content:encoded>Elias 2-24 b, com menos de um milhão de anos, é o planeta mais jovem já confirmado, detectado em dados de arquivo do coronógrafo do Observatório Keck.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Exoplanet_Tracker_Discovers_Young_Star_with_Planetary_Companion_%28noao0605b%29.tiff/lossy-page1-500px-Exoplanet_Tracker_Discovers_Young_Star_with_Planetary_Companion_%28noao0605b%29.tiff.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Exoplanet_Tracker_Discovers_Young_Star_with_Planetary_Companion_%28noao0605b%29.tiff/lossy-page1-500px-Exoplanet_Tracker_Discovers_Young_Star_with_Planetary_Companion_%28noao0605b%29.tiff.jpg" medium="image">
@@ -145,8 +313,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/telescopio-roman-estacoes-terrestres-confirmadas</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
-      <description>A NASA confirmou que todas as estações terrestres que apoiam o Telescópio Espacial Nancy Grace Roman estão prontas para receber o alto volume de dados da missão.</description>
-      <content:encoded>A NASA confirmou que todas as estações terrestres que apoiam o Telescópio Espacial Nancy Grace Roman estão prontas para receber o alto volume de dados da missão.</content:encoded>
+      <description>A NASA concluiu os testes das três estações terrestres que vão receber os dados do Telescópio Espacial Nancy Grace Roman, um volume de cerca de 1,4 terabytes por dia a até 500 megabits por segundo.</description>
+      <content:encoded>A NASA concluiu os testes das três estações terrestres que vão receber os dados do Telescópio Espacial Nancy Grace Roman, um volume de cerca de 1,4 terabytes por dia a até 500 megabits por segundo.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WFIRST-AFTA_%28Wide_Field_Infrared_Survey_Telescope_-_Astrophysics_Focused_Telescope_Assets%29.jpg/960px-WFIRST-AFTA_%28Wide_Field_Infrared_Survey_Telescope_-_Astrophysics_Focused_Telescope_Assets%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WFIRST-AFTA_%28Wide_Field_Infrared_Survey_Telescope_-_Astrophysics_Focused_Telescope_Assets%29.jpg/960px-WFIRST-AFTA_%28Wide_Field_Infrared_Survey_Telescope_-_Astrophysics_Focused_Telescope_Assets%29.jpg" medium="image">
@@ -159,8 +327,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/meta-vr-glasses-oculos-100g-cinema-workspace</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
-      <description>A Meta anunciou novos óculos VR que pesam apenas 100g e oferecem experiência de cinema, workspace e console em um formato de óculos confortável.</description>
-      <content:encoded>A Meta anunciou novos óculos VR que pesam apenas 100g e oferecem experiência de cinema, workspace e console em um formato de óculos confortável.</content:encoded>
+      <description>A Meta anunciou os Meta VR Glasses, óculos de realidade virtual de cerca de 100 gramas com display micro-OLED 5K, cinema certificado IMAX Enhanced e preço de US$ 1.299,99 para a primavera de 2027.</description>
+      <content:encoded>A Meta anunciou os Meta VR Glasses, óculos de realidade virtual de cerca de 100 gramas com display micro-OLED 5K, cinema certificado IMAX Enhanced e preço de US$ 1.299,99 para a primavera de 2027.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/b/b0/Virtual_reality_headset_and_wired_gloves%2C_Ames_Research_Center.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/b/b0/Virtual_reality_headset_and_wired_gloves%2C_Ames_Research_Center.jpg" medium="image">
@@ -173,8 +341,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/computador-quantico-temperatura-ambiente-shunkai-japao</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
-      <description>Pesquisadores japoneses ligaram Shunkai, o primeiro computador quântico de pilha completa de temperatura ambiente do país, usando átomos neutros capturados por pinças ópticas.</description>
-      <content:encoded>Pesquisadores japoneses ligaram Shunkai, o primeiro computador quântico de pilha completa de temperatura ambiente do país, usando átomos neutros capturados por pinças ópticas.</content:encoded>
+      <description>O Instituto de Ciências Moleculares do Japão anunciou Shunkai, o primeiro computador quântico de átomos neutros de pilha completa do país, com meta de 10 mil qubits físicos até março de 2031.</description>
+      <content:encoded>O Instituto de Ciências Moleculares do Japão anunciou Shunkai, o primeiro computador quântico de átomos neutros de pilha completa do país, com meta de 10 mil qubits físicos até março de 2031.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Quantum-computer-Chalmers_2017.jpg/960px-Quantum-computer-Chalmers_2017.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Quantum-computer-Chalmers_2017.jpg/960px-Quantum-computer-Chalmers_2017.jpg" medium="image">
@@ -187,8 +355,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/infleqtion-30-qubits-logicos-entrelacados-sqale</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
-      <description>A Infleqtion alcançou 30 qubits lógicos entrelaçados usando apenas 80 qubits físicos em sua plataforma Sqale, validando a arquitetura do hardware.</description>
-      <content:encoded>A Infleqtion alcançou 30 qubits lógicos entrelaçados usando apenas 80 qubits físicos em sua plataforma Sqale, validando a arquitetura do hardware.</content:encoded>
+      <description>A Infleqtion anunciou 30 qubits lógicos entrelaçados usando 80 qubits físicos em sua plataforma Sqale de átomos neutros, com sinal cerca de mil vezes acima do ruído.</description>
+      <content:encoded>A Infleqtion anunciou 30 qubits lógicos entrelaçados usando 80 qubits físicos em sua plataforma Sqale de átomos neutros, com sinal cerca de mil vezes acima do ruído.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Quantum_Computing_for_Google_Goggles_%284171280876%29.jpg/960px-Quantum_Computing_for_Google_Goggles_%284171280876%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Quantum_Computing_for_Google_Goggles_%284171280876%29.jpg/960px-Quantum_Computing_for_Google_Goggles_%284171280876%29.jpg" medium="image">
@@ -201,8 +369,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/claude-descobre-sistema-enzimatico-crispr-anthropic</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
-      <description>A Anthropic anunciou que Claude descobriu um novo sistema enzimático com propriedades reminiscentes do CRISPR, expandindo as capacidades da IA em pesquisa biológica.</description>
-      <content:encoded>A Anthropic anunciou que Claude descobriu um novo sistema enzimático com propriedades reminiscentes do CRISPR, expandindo as capacidades da IA em pesquisa biológica.</content:encoded>
+      <description>A Anthropic relata que um agente do Claude autonomamente identificou o sistema ART, uma família de arrays de repetições de DNA associados a transcriptase reversa em bacteriófagos — ainda sem função biológica conhecida.</description>
+      <content:encoded>A Anthropic relata que um agente do Claude autonomamente identificou o sistema ART, uma família de arrays de repetições de DNA associados a transcriptase reversa em bacteriófagos — ainda sem função biológica conhecida.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/CRISPR_Biotech_main_lab.jpg/960px-CRISPR_Biotech_main_lab.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/CRISPR_Biotech_main_lab.jpg/960px-CRISPR_Biotech_main_lab.jpg" medium="image">
@@ -215,8 +383,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/muse-realtime-avatar-meta-ai-interativo-tempo-real</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
-      <description>A Meta AI Research introduziu Muse Realtime Avatar, tecnologia de incorporação que traz qualquer personagem para uma conversa ao vivo com expressões faciais e corporais.</description>
-      <content:encoded>A Meta AI Research introduziu Muse Realtime Avatar, tecnologia de incorporação que traz qualquer personagem para uma conversa ao vivo com expressões faciais e corporais.</content:encoded>
+      <description>A Meta AI Research apresentou o Muse Realtime Avatar, um modelo de difusão que gera vídeo de avatares a 25 quadros por segundo com cerca de 870 ms de latência, compartilhando o fluxo de voz do Muse Realtime Voice.</description>
+      <content:encoded>A Meta AI Research apresentou o Muse Realtime Avatar, um modelo de difusão que gera vídeo de avatares a 25 quadros por segundo com cerca de 870 ms de latência, compartilhando o fluxo de voz do Muse Realtime Voice.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/EMULATE_AVATAR_OrganChip_%28EMULATE_CHIPS_SELECT-1-EDITED%29.jpg/960px-EMULATE_AVATAR_OrganChip_%28EMULATE_CHIPS_SELECT-1-EDITED%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/EMULATE_AVATAR_OrganChip_%28EMULATE_CHIPS_SELECT-1-EDITED%29.jpg/960px-EMULATE_AVATAR_OrganChip_%28EMULATE_CHIPS_SELECT-1-EDITED%29.jpg" medium="image">
@@ -243,8 +411,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/prime-assembly-edicao-genetica-crispr</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
-      <description>Cientistas desenvolveram o Prime Assembly, uma técnica que permite integração e rearranjo genômico usando CRISPR, sem precisar de doadores de DNA de fita dupla.</description>
-      <content:encoded>Cientistas desenvolveram o Prime Assembly, uma técnica que permite integração e rearranjo genômico usando CRISPR, sem precisar de doadores de DNA de fita dupla.</content:encoded>
+      <description>Publicada na Nature em setembro de 2026, a técnica prime assembly permite integrar fragmentos de DNA de porte médio e grande em pontos específicos do genoma, funcionando também em células que não se dividem.</description>
+      <content:encoded>Publicada na Nature em setembro de 2026, a técnica prime assembly permite integrar fragmentos de DNA de porte médio e grande em pontos específicos do genoma, funcionando também em células que não se dividem.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg/960px-CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg/960px-CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg" medium="image">
@@ -257,8 +425,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/nanofibrilas-peptidicas-hexagonais-estrutura-biologica</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
-      <description>Cientistas descobriram que peptídeos mínimos de nove resíduos podem codificar motivos de interação lateral que direcionam organização supramolecular complexa.</description>
-      <content:encoded>Cientistas descobriram que peptídeos mínimos de nove resíduos podem codificar motivos de interação lateral que direcionam organização supramolecular complexa.</content:encoded>
+      <description>Pesquisadores do Instituto Max Planck de Pesquisa de Polímeros mostram que peptídeos de apenas nove resíduos bastam para codificar poros hexagonais e nanofibrilas com canais contínuos de cerca de 5 nanômetros.</description>
+      <content:encoded>Pesquisadores do Instituto Max Planck de Pesquisa de Polímeros mostram que peptídeos de apenas nove resíduos bastam para codificar poros hexagonais e nanofibrilas com canais contínuos de cerca de 5 nanômetros.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/c/c8/Amyloid_beta_fibrils.png" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/c/c8/Amyloid_beta_fibrils.png" medium="image">
@@ -271,8 +439,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/quarks-cordas-quebra-simulador-quantico</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
-      <description>Físicos rastrearam pares de carga conforme emergem e se espalham, revelando dinâmicas ocultas dentro de uma teoria de gauge simplificada.</description>
-      <content:encoded>Físicos rastrearam pares de carga conforme emergem e se espalham, revelando dinâmicas ocultas dentro de uma teoria de gauge simplificada.</content:encoded>
+      <description>Pesquisadores de Duke recriaram, em um simulador quântico de íons aprisionados, a quebra de cordas de uma teoria de gauge simplificada e observaram que os pares de carga nascem nas bordas antes de se espalhar.</description>
+      <content:encoded>Pesquisadores de Duke recriaram, em um simulador quântico de íons aprisionados, a quebra de cordas de uma teoria de gauge simplificada e observaram que os pares de carga nascem nas bordas antes de se espalhar.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Large_Hadron_Collider_dipole_magnets_IMG_0955.jpg/960px-Large_Hadron_Collider_dipole_magnets_IMG_0955.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Large_Hadron_Collider_dipole_magnets_IMG_0955.jpg/960px-Large_Hadron_Collider_dipole_magnets_IMG_0955.jpg" medium="image">
@@ -285,8 +453,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/baryon-doubly-charmed-omega-ccc-descoberto</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
-      <description>O LHCb observou o bárion Ω+ccc, composto por três quarks charm, confirmando uma previsão de longa data do Modelo Padrão.</description>
-      <content:encoded>O LHCb observou o bárion Ω+ccc, composto por três quarks charm, confirmando uma previsão de longa data do Modelo Padrão.</content:encoded>
+      <description>A colaboração LHCb observou pela primeira vez o bárion Omega com dois quarks charm, com significância de 8,7 sigma e massa de 3725,9 MeV/c², um resultado que havia sido procurado por décadas.</description>
+      <content:encoded>A colaboração LHCb observou pela primeira vez o bárion Omega com dois quarks charm, com significância de 8,7 sigma e massa de 3725,9 MeV/c², um resultado que havia sido procurado por décadas.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/CERN%2C_Geneva%2C_particle_accelerator_%2816284713042%29.jpg/960px-CERN%2C_Geneva%2C_particle_accelerator_%2816284713042%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/CERN%2C_Geneva%2C_particle_accelerator_%2816284713042%29.jpg/960px-CERN%2C_Geneva%2C_particle_accelerator_%2816284713042%29.jpg" medium="image">
@@ -313,8 +481,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/longi-recorde-eficiencia-celula-solar-silicio</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
-      <description>A fabricante chinesa Longi alcançou uma eficiência de conversão de 28,29% para células solares de silício de junção única, superando o recorde anterior.</description>
-      <content:encoded>A fabricante chinesa Longi alcançou uma eficiência de conversão de 28,29% para células solares de silício de junção única, superando o recorde anterior.</content:encoded>
+      <description>A LONGi alcançou 28,29% de eficiência em uma célula solar de silício de junção única com arquitetura HIBC, resultado verificado pelo ISFH e apresentado na ENERGY EXPO, na Romênia.</description>
+      <content:encoded>A LONGi alcançou 28,29% de eficiência em uma célula solar de silício de junção única com arquitetura HIBC, resultado verificado pelo ISFH e apresentado na ENERGY EXPO, na Romênia.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/SolarPowerPlantSerpa.jpg/960px-SolarPowerPlantSerpa.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/SolarPowerPlantSerpa.jpg/960px-SolarPowerPlantSerpa.jpg" medium="image">
@@ -406,6 +574,20 @@
       </media:content>
     </item>
     <item>
+      <title>Physint muda para a Xbox depois de a PlayStation cancelar o projeto</title>
+      <link>https://nexoracomic.vercel.app/games/physint-kojima-productions-muda-para-xbox</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/physint-kojima-productions-muda-para-xbox</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A Kojima Productions confirmou Bill Skarsgård como protagonista de Physint e a Xbox como nova parceira de publicação do jogo de espionagem. O que a troca significa.</description>
+      <content:encoded>A Kojima Productions confirmou Bill Skarsgård como protagonista de Physint e a Xbox como nova parceira de publicação do jogo de espionagem. O que a troca significa.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Hideo%20Kojima%202025%20SXSW.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Hideo%20Kojima%202025%20SXSW.jpg?width=960" medium="image">
+        <media:title type="html">Hideo Kojima fotografado no evento SXSW, visto de perfil sob iluminação de palco</media:title>
+      </media:content>
+    </item>
+    <item>
       <title>O Chip Willow do Google: Um Salto Histórico na Correção de Erros Quânticos</title>
       <link>https://nexoracomic.vercel.app/inteligencia-artificial/google-willow-chip-quantum-error-correction-breakthrough</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/google-willow-chip-quantum-error-correction-breakthrough</guid>
@@ -453,8 +635,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/greenland-landslide-nine-day-earthquake</guid>
       <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
-      <description>Um deslizamento de gelo e rocha desencadeou um megatsunami de 200 metros que criou uma onda estacionária, detectada por sismógrafos em todo o mundo.</description>
-      <content:encoded>Um deslizamento de gelo e rocha desencadeou um megatsunami de 200 metros que criou uma onda estacionária, detectada por sismógrafos em todo o mundo.</content:encoded>
+      <description>Um deslizamento na Groenlândia gerou um megatsunami de 200 metros, cuja onda ficou presa no fjord e produziu um zumbido sísmico contínuo por nove dias. Identificar a origem exigiu combinar dados sísmicos, imagens de satélite e simulações.</description>
+      <content:encoded>Um deslizamento na Groenlândia gerou um megatsunami de 200 metros, cuja onda ficou presa no fjord e produziu um zumbido sísmico contínuo por nove dias. Identificar a origem exigiu combinar dados sísmicos, imagens de satélite e simulações.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dickson_Land_IMG_3937_Dicksonfjorden.JPG/960px-Dickson_Land_IMG_3937_Dicksonfjorden.JPG" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dickson_Land_IMG_3937_Dicksonfjorden.JPG/960px-Dickson_Land_IMG_3937_Dicksonfjorden.JPG" medium="image">
@@ -509,8 +691,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/euclid-telescopio-esa-materia-escura</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
-      <description>Lancado em 2023, o Euclid cria o maior mapa 3D do cosmos para entender materia e energia escuras.</description>
-      <content:encoded>Lancado em 2023, o Euclid cria o maior mapa 3D do cosmos para entender materia e energia escuras.</content:encoded>
+      <description>O Euclid mede a forma de mais de um bilhão de galáxias para mapear a matéria escura por lente gravitacional, e mede distâncias para construir um mapa tridimensional de mais de um terço do céu. Ele é feito para cobrir área, não para ampliar detalhes.</description>
+      <content:encoded>O Euclid mede a forma de mais de um bilhão de galáxias para mapear a matéria escura por lente gravitacional, e mede distâncias para construir um mapa tridimensional de mais de um terço do céu. Ele é feito para cobrir área, não para ampliar detalhes.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg/500px-Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg/500px-Euclid%E2%80%99s_view_of_the_Perseus_cluster_of_galaxies_ESA25170535.jpg" medium="image">
@@ -523,8 +705,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/hubble-webb-objetos-transnetunianos-passado-sistema-solar</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
-      <description>Hubble e James Webb observaram juntos objetos transnetunianos e descobriram que eles guardam a memoria quimica da formacao do Sistema Solar.</description>
-      <content:encoded>Hubble e James Webb observaram juntos objetos transnetunianos e descobriram que eles guardam a memoria quimica da formacao do Sistema Solar.</content:encoded>
+      <description>Hubble mediu a luz visível e Webb a infravermelha de 27 objetos transnetunianos recém-descobertos. O menor tem cerca de 5 quilômetros, e as observações indicam que colisões não alteraram suas superfícies.</description>
+      <content:encoded>Hubble mediu a luz visível e Webb a infravermelha de 27 objetos transnetunianos recém-descobertos. O menor tem cerca de 5 quilômetros, e as observações indicam que colisões não alteraram suas superfícies.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Artist%E2%80%99s_Impression_of_a_Kuiper_Belt_Object.jpg/960px-Artist%E2%80%99s_Impression_of_a_Kuiper_Belt_Object.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Artist%E2%80%99s_Impression_of_a_Kuiper_Belt_Object.jpg/960px-Artist%E2%80%99s_Impression_of_a_Kuiper_Belt_Object.jpg" medium="image">
@@ -537,8 +719,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/gpt-6-astra-nova-geracao-ia-openai</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
-      <description>Segundo a OpenAI, o GPT-6 Astra avanca em programacao, uso de computador, ciencia e agentes. Entenda o anuncio e o que ainda depende de verificacao.</description>
-      <content:encoded>Segundo a OpenAI, o GPT-6 Astra avanca em programacao, uso de computador, ciencia e agentes. Entenda o anuncio e o que ainda depende de verificacao.</content:encoded>
+      <description>A OpenAI lançou o GPT-6 Astra em 3 de setembro de 2026, com foco em uso de computador e agentes. O relatório de segurança reconhece tanto o avanço em alinhamento quanto uma redução na capacidade de monitoramento do modelo.</description>
+      <content:encoded>A OpenAI lançou o GPT-6 Astra em 3 de setembro de 2026, com foco em uso de computador e agentes. O relatório de segurança reconhece tanto o avanço em alinhamento quanto uma redução na capacidade de monitoramento do modelo.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/960px-Virginia_Tech_-_data_center.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/960px-Virginia_Tech_-_data_center.jpg" medium="image">
@@ -551,8 +733,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/alphagenome-atlas-ia-9-bilhoes-variantes-dna</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
-      <description>O DeepMind previu o efeito de 9 bilhoes de variantes de letra unica no DNA. Um atlas para a pesquisa biomedica, nao um oraculo de doencas.</description>
-      <content:encoded>O DeepMind previu o efeito de 9 bilhoes de variantes de letra unica no DNA. Um atlas para a pesquisa biomedica, nao um oraculo de doencas.</content:encoded>
+      <description>O AlphaGenome é o modelo do Google DeepMind que prevê o efeito de variantes genéticas. O AlphaGenome Atlas é o conjunto de 1 petabyte que guarda a previsão para as nove bilhões de trocas possíveis, cada uma com uma pontuação de impacto.</description>
+      <content:encoded>O AlphaGenome é o modelo do Google DeepMind que prevê o efeito de variantes genéticas. O AlphaGenome Atlas é o conjunto de 1 petabyte que guarda a previsão para as nove bilhões de trocas possíveis, cada uma com uma pontuação de impacto.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/DNA_sequencing.jpg/960px-DNA_sequencing.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/DNA_sequencing.jpg/960px-DNA_sequencing.jpg" medium="image">
@@ -565,8 +747,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/iphone-duo-dobravel-por-que-pode-mudar-mercado</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
-      <description>Dobradica sem vinco aparente, tela interna ampla e chip A20 Pro: entenda as especificacoes anunciadas pela Apple e o que elas significam.</description>
-      <content:encoded>Dobradica sem vinco aparente, tela interna ampla e chip A20 Pro: entenda as especificacoes anunciadas pela Apple e o que elas significam.</content:encoded>
+      <description>Anunciado em 9 de setembro de 2026, o iPhone Duo é o primeiro iPhone dobrável da Apple, com tela interna de 7,6 polegadas, externa de 5,4 e dobradiça de mais de 100 componentes. O preço não foi divulgado.</description>
+      <content:encoded>Anunciado em 9 de setembro de 2026, o iPhone Duo é o primeiro iPhone dobrável da Apple, com tela interna de 7,6 polegadas, externa de 5,4 e dobradiça de mais de 100 componentes. O preço não foi divulgado.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Foldable_Smartphones.jpg/960px-Foldable_Smartphones.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Foldable_Smartphones.jpg/960px-Foldable_Smartphones.jpg" medium="image">
@@ -579,8 +761,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/airpods-5-cancelamento-ruido-traducao-ao-vivo</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
-      <description>Design aberto com cancelamento ativo, arquitetura acustica nova e Traducao ao Vivo com IA: entenda o que os AirPods 5 entregam.</description>
-      <content:encoded>Design aberto com cancelamento ativo, arquitetura acustica nova e Traducao ao Vivo com IA: entenda o que os AirPods 5 entregam.</content:encoded>
+      <description>Os AirPods 5 são a geração aberta da Apple, com cancelamento de ruído ativo, Tradução ao Vivo e até 4 horas por carga. A ficha técnica não informa quantos decibéis o cancelamento remove.</description>
+      <content:encoded>Os AirPods 5 são a geração aberta da Apple, com cancelamento de ruído ativo, Tradução ao Vivo e até 4 horas por carga. A ficha técnica não informa quantos decibéis o cancelamento remove.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Technics-EAH-AZ60M2_09.jpg/960px-Technics-EAH-AZ60M2_09.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Technics-EAH-AZ60M2_09.jpg/960px-Technics-EAH-AZ60M2_09.jpg" medium="image">
@@ -593,8 +775,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/base-editing-lapis-edicao-genetica-desenvolvimento-humano</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
-      <description>Diferente do CRISPR que corta o DNA, o base editing reescreve uma letra por vez e permite estudar embrioes iniciais com mais precisao.</description>
-      <content:encoded>Diferente do CRISPR que corta o DNA, o base editing reescreve uma letra por vez e permite estudar embrioes iniciais com mais precisao.</content:encoded>
+      <description>A edição de bases, e não o corte de DNA, permitiu silenciar o gene NANOG em embriões humanos e mostrar que o epiblasto não se forma sem ele. O estudo é ciência básica, e não tratamento.</description>
+      <content:encoded>A edição de bases, e não o corte de DNA, permitiu silenciar o gene NANOG em embriões humanos e mostrar que o epiblasto não se forma sem ele. O estudo é ciência básica, e não tratamento.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/20251019_Replica_DNA_double_helix_model_Berlin_01.jpg/960px-20251019_Replica_DNA_double_helix_model_Berlin_01.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/20251019_Replica_DNA_double_helix_model_Berlin_01.jpg/960px-20251019_Replica_DNA_double_helix_model_Berlin_01.jpg" medium="image">
@@ -607,8 +789,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/novos-metodos-medicamentos-alvo-corpo</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
-      <description>Nanoparticulas, DNA que se monta sozinho e vacinas nasais: seis linhas de pesquisa que tentam levar farmacos ao alvo certo.</description>
-      <content:encoded>Nanoparticulas, DNA que se monta sozinho e vacinas nasais: seis linhas de pesquisa que tentam levar farmacos ao alvo certo.</content:encoded>
+      <description>Nem toda entrega de medicamento é experimental: a lipossoma está em uso clínico desde 1995. O artigo separa o que já foi aprovado do que ainda depende de ensaios em humanos.</description>
+      <content:encoded>Nem toda entrega de medicamento é experimental: a lipossoma está em uso clínico desde 1995. O artigo separa o que já foi aprovado do que ainda depende de ensaios em humanos.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Liposomy_a_%C5%99%C3%ADzen%C3%A9_uvol%C5%88ov%C3%A1n%C3%AD_l%C3%A9%C4%8Div.png/500px-Liposomy_a_%C5%99%C3%ADzen%C3%A9_uvol%C5%88ov%C3%A1n%C3%AD_l%C3%A9%C4%8Div.png" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Liposomy_a_%C5%99%C3%ADzen%C3%A9_uvol%C5%88ov%C3%A1n%C3%AD_l%C3%A9%C4%8Div.png/500px-Liposomy_a_%C5%99%C3%ADzen%C3%A9_uvol%C5%88ov%C3%A1n%C3%AD_l%C3%A9%C4%8Div.png" medium="image">
@@ -621,8 +803,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/games/orbitals-cooperativo-espacial-switch-2</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/games">Games</category>
-      <description>Feito para dois jogadores no mesmo sofaa ou online, Orbitals mistura gravidade zero, comunicacao e caos cooperativo no Switch 2.</description>
-      <content:encoded>Feito para dois jogadores no mesmo sofaa ou online, Orbitals mistura gravidade zero, comunicacao e caos cooperativo no Switch 2.</content:encoded>
+      <description>Orbitals é um cooperativo de dois jogadores feito para o Switch 2, com Maki e Omura atravessando uma tempestade cósmica em uma homenagem ao anime dos anos 1980. Entenda a mecânica, o que a crítica acclaimou e as limitações do título.</description>
+      <content:encoded>Orbitals é um cooperativo de dois jogadores feito para o Switch 2, com Maki e Omura atravessando uma tempestade cósmica em uma homenagem ao anime dos anos 1980. Entenda a mecânica, o que a crítica acclaimou e as limitações do título.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/960px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/960px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg" medium="image">
@@ -635,8 +817,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/games/mewgenics-rpg-gatos-genetica-xbox</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/games">Games</category>
-      <description>Cruze gatos, herde habilidades e encare masmorras: Mewgenics mistura genetica, tatica por turnos e roguelike no Xbox.</description>
-      <content:encoded>Cruze gatos, herde habilidades e encare masmorras: Mewgenics mistura genetica, tatica por turnos e roguelike no Xbox.</content:encoded>
+      <description>Mewgenics transformou a criação de gatos em sistema central: a genética é herdada entre gerações e decide o combate por turnos em grade. O jogo saiu no PC em fevereiro e nos consoles em setembro de 2026.</description>
+      <content:encoded>Mewgenics transformou a criação de gatos em sistema central: a genética é herdada entre gerações e decide o combate por turnos em grade. O jogo saiu no PC em fevereiro e nos consoles em setembro de 2026.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cautious_Tabby_Red_Cat.jpg/960px-Cautious_Tabby_Red_Cat.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cautious_Tabby_Red_Cat.jpg/960px-Cautious_Tabby_Red_Cat.jpg" medium="image">
@@ -649,8 +831,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/mandalorian-grogu-bastidores-efeitos-rotta-hutt</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
-      <description>Rotta the Hutt volta maior, pratico e digital ao mesmo tempo: como a ILM mistura bonecos, CGI e som no novo filme.</description>
-      <content:encoded>Rotta the Hutt volta maior, pratico e digital ao mesmo tempo: como a ILM mistura bonecos, CGI e som no novo filme.</content:encoded>
+      <description>Rotta the Hutt saiu da mochila de Ahsoka em 2008 e virou protagonista em ação ao vivo. A Lucasfilm e a ILM contam como o personagem foi desenhado, modelado digitalmente e por que a cena do rabo é uma citação de 1997.</description>
+      <content:encoded>Rotta the Hutt saiu da mochila de Ahsoka em 2008 e virou protagonista em ação ao vivo. A Lucasfilm e a ILM contam como o personagem foi desenhado, modelado digitalmente e por que a cena do rabo é uma citação de 1997.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Scarlet_Studios_Ug_02.jpg/960px-Scarlet_Studios_Ug_02.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Scarlet_Studios_Ug_02.jpg/960px-Scarlet_Studios_Ug_02.jpg" medium="image">
@@ -663,8 +845,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/netflix-setembro-2026-filmes-series-destaques</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
-      <description>Entre retornos aguardados e estreias de ficcao cientifica, setembro de 2026 mostra a Netflix apostando em eventos semanais.</description>
-      <content:encoded>Entre retornos aguardados e estreias de ficcao cientifica, setembro de 2026 mostra a Netflix apostando em eventos semanais.</content:encoded>
+      <description>Setembro de 2026 na Netflix misturou A Different World, duas edições de Physical 100 e Lizzie Borden. O catálogo do mês está disponível por data, e a Tudum explica o que chega sem avaliar o que vale a pena.</description>
+      <content:encoded>Setembro de 2026 na Netflix misturou A Different World, duas edições de Physical 100 e Lizzie Borden. O catálogo do mês está disponível por data, e a Tudum explica o que chega sem avaliar o que vale a pena.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Dedicated_home_theater.jpg/960px-Dedicated_home_theater.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Dedicated_home_theater.jpg/960px-Dedicated_home_theater.jpg" medium="image">
@@ -677,8 +859,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/dc-marvel-crossover-cosmic-kiss-importancia</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
-      <description>Batman encontra Deadpool e Superman encontra Homem-Aranha: o retorno dos crossovers DC e Marvel depois de decadas.</description>
-      <content:encoded>Batman encontra Deadpool e Superman encontra Homem-Aranha: o retorno dos crossovers DC e Marvel depois de decadas.</content:encoded>
+      <description>Batman/Deadpool por Morrison e Mora, Superman/Homem-Aranha por Waid e Jimenez e 224 paginas que unem DC e Marvel pela primeira vez em mais de duas decadas.</description>
+      <content:encoded>Batman/Deadpool por Morrison e Mora, Superman/Homem-Aranha por Waid e Jimenez e 224 paginas que unem DC e Marvel pela primeira vez em mais de duas decadas.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cosplay_at_New_York_Comic_Con_2017_Cosplay_of_Black_Canary_and_Tokyo_Ghoul.jpg/500px-Cosplay_at_New_York_Comic_Con_2017_Cosplay_of_Black_Canary_and_Tokyo_Ghoul.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cosplay_at_New_York_Comic_Con_2017_Cosplay_of_Black_Canary_and_Tokyo_Ghoul.jpg/500px-Cosplay_at_New_York_Comic_Con_2017_Cosplay_of_Black_Canary_and_Tokyo_Ghoul.jpg" medium="image">
@@ -691,8 +873,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/superman-stranger-era-ouro-1938</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
-      <description>De volta a 1938: Wes Craig reimagina o primeiro ano do Superman com visual pulp equestoes sociais da epoca.</description>
-      <content:encoded>De volta a 1938: Wes Craig reimagina o primeiro ano do Superman com visual pulp equestoes sociais da epoca.</content:encoded>
+      <description>Wes Craig escreve e desenha uma serie Black Label de seis edições que leva o Superman a uma Metropolis art deco de 1938, com o primeiro número em 2 de setembro de 2026.</description>
+      <content:encoded>Wes Craig escreve e desenha uma serie Black Label de seis edições que leva o Superman a uma Metropolis art deco de 1938, com o primeiro número em 2 de setembro de 2026.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/SDCC_2014_-_Cosplay_Superman_%287737408012%29.jpg/960px-SDCC_2014_-_Cosplay_Superman_%287737408012%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/SDCC_2014_-_Cosplay_Superman_%287737408012%29.jpg/960px-SDCC_2014_-_Cosplay_Superman_%287737408012%29.jpg" medium="image">
@@ -733,8 +915,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/nasa-ibm-ia-gelo-lua-bases-humanas</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
-      <description>O Lunar Foundation Model, de codigo aberto, analisa crateras e gelo lunar para apoiar o programa Artemis. Entenda limites e usos.</description>
-      <content:encoded>O Lunar Foundation Model, de codigo aberto, analisa crateras e gelo lunar para apoiar o programa Artemis. Entenda limites e usos.</content:encoded>
+      <description>O NASA-IBM Lunar Foundation Model reúne dados de missões norte-americanas e japonesas em um único modelo aberto, voltado a mapear crateras, datar vulcanismo e prospectar gelo nos polos. O que ele entrega e o que ainda não entrega.</description>
+      <content:encoded>O NASA-IBM Lunar Foundation Model reúne dados de missões norte-americanas e japonesas em um único modelo aberto, voltado a mapear crateras, datar vulcanismo e prospectar gelo nos polos. O que ele entrega e o que ainda não entrega.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/LRO_WAC_South_Pole_Mosaic.jpg/960px-LRO_WAC_South_Pole_Mosaic.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/LRO_WAC_South_Pole_Mosaic.jpg/960px-LRO_WAC_South_Pole_Mosaic.jpg" medium="image">
@@ -747,8 +929,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/fusao-nuclear-iter-avanco-energia-comercial</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
-      <description>Montagem do tokamak, bobinas gigantes e marcos de 2026: o experimento ITER avanca, mas usina comercial ainda e futuro.</description>
-      <content:encoded>Montagem do tokamak, bobinas gigantes e marcos de 2026: o experimento ITER avanca, mas usina comercial ainda e futuro.</content:encoded>
+      <description>O ITER vai injetar 50 MW de aquecimento para produzir 500 MW de fusão, um ganho de dez vezes que ainda é objetivo de projeto. O recorde atual em tokamak é Q igual a 0,67, e a máquina não foi desenhada para gerar eletricidade.</description>
+      <content:encoded>O ITER vai injetar 50 MW de aquecimento para produzir 500 MW de fusão, um ganho de dez vezes que ainda é objetivo de projeto. O recorde atual em tokamak é Q igual a 0,67, e a máquina não foi desenhada para gerar eletricidade.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/ITER_central_building_construction_%2841767823552%29.jpg/960px-ITER_central_building_construction_%2841767823552%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/ITER_central_building_construction_%2841767823552%29.jpg/960px-ITER_central_building_construction_%2841767823552%29.jpg" medium="image">
@@ -775,8 +957,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/crispr-terapia-genica-doencas-tratamento</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
-      <description>A técnica de edição genética CRISPR-Cas9 está saindo dos laboratórios e chegando aos tratamentos clínicos. Entendemos como as primeiras terapias aprovadas funcionam e o que ainda falta para democratizar o acesso.</description>
-      <content:encoded>A técnica de edição genética CRISPR-Cas9 está saindo dos laboratórios e chegando aos tratamentos clínicos. Entendemos como as primeiras terapias aprovadas funcionam e o que ainda falta para democratizar o acesso.</content:encoded>
+      <description>A primeira terapia gênica aprovada com edição do genoma não corrige a mutação da doença falciforme: ela desliga o interruptor que desliga a hemoglobina fetal. Entenda o mecanismo, os números dos ensaios e os riscos registrados na bula.</description>
+      <content:encoded>A primeira terapia gênica aprovada com edição do genoma não corrige a mutação da doença falciforme: ela desliga o interruptor que desliga a hemoglobina fetal. Entenda o mecanismo, os números dos ensaios e os riscos registrados na bula.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg/960px-CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg/960px-CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg" medium="image">
@@ -789,8 +971,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/edge-computinge-processamento-de-dados</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
-      <description>O edge computing aproxima o processamento de dados de onde eles são gerados, reduzindo latência e uso de banda.</description>
-      <content:encoded>O edge computing aproxima o processamento de dados de onde eles são gerados, reduzindo latência e uso de banda.</content:encoded>
+      <description>A RFC 9556 do IETF explica o que a computação na borda tenta resolver: sensibilidade a tempo, volume de dados, custo de conectividade, serviços intermitentes, privacidade e segurança. E explica também por que a nuvem continua sendo necessária.</description>
+      <content:encoded>A RFC 9556 do IETF explica o que a computação na borda tenta resolver: sensibilidade a tempo, volume de dados, custo de conectividade, serviços intermitentes, privacidade e segurança. E explica também por que a nuvem continua sendo necessária.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Technician_with_laptop_working_on_server_rack_at_NERSC.jpg/960px-Technician_with_laptop_working_on_server_rack_at_NERSC.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Technician_with_laptop_working_on_server_rack_at_NERSC.jpg/960px-Technician_with_laptop_working_on_server_rack_at_NERSC.jpg" medium="image">
@@ -803,8 +985,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/tpu-tensor-processing-unit-google-ia</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
-      <description>O Tensor Processing Unit (TPU) é um chip projetado especificamente para cargas de trabalho de machine learning.</description>
-      <content:encoded>O Tensor Processing Unit (TPU) é um chip projetado especificamente para cargas de trabalho de machine learning.</content:encoded>
+      <description>A TPU é um acelerador construído em torno de uma operação: a multiplicação de matrizes. A documentação do Google Cloud explica o MXU, as matrizes sistólicas, o papel do compilador XLA e por que dimensões múltiplas de 128 decidem o desempenho.</description>
+      <content:encoded>A TPU é um acelerador construído em torno de uma operação: a multiplicação de matrizes. A documentação do Google Cloud explica o MXU, as matrizes sistólicas, o papel do compilador XLA e por que dimensões múltiplas de 128 decidem o desempenho.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tensor_Processing_Unit_3.0.jpg/960px-Tensor_Processing_Unit_3.0.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Tensor_Processing_Unit_3.0.jpg/960px-Tensor_Processing_Unit_3.0.jpg" medium="image">
@@ -817,8 +999,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/aurora-boreais-ciencia-luzes-do-norte</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
-      <description>As auroras boreais são causadas pela interação de partículas solares com o campo magnético da Terra.</description>
-      <content:encoded>As auroras boreais são causadas pela interação de partículas solares com o campo magnético da Terra.</content:encoded>
+      <description>Auroras não são fogo no céu: são gases da atmosfera excitados por partículas do vento solar, canalizadas pelo campo magnético da Terra até as regiões polares. A cor de cada luz revela altitude e composição.</description>
+      <content:encoded>Auroras não são fogo no céu: são gases da atmosfera excitados por partículas do vento solar, canalizadas pelo campo magnético da Terra até as regiões polares. A cor de cada luz revela altitude e composição.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg/960px-Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg/960px-Aurora_Borealis_-_Iceland_-_2_Nov._2013.jpg" medium="image">
@@ -831,8 +1013,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/europa-clipper-missao-nasa-lua-jupiter</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
-      <description>A missão Europa Clipper, lançada em 2024, vai investigar a lua Europa de Júpiter, que abriga um oceano subterrâneo.</description>
-      <content:encoded>A missão Europa Clipper, lançada em 2024, vai investigar a lua Europa de Júpiter, que abriga um oceano subterrâneo.</content:encoded>
+      <description>A Europa Clipper vai sobrevoar a lua de Júpiter 49 vezes para avaliar se o oceano sob o gelo poderia sustentar vida — sem nunca pousar, coletar amostras ou detectar organismos.</description>
+      <content:encoded>A Europa Clipper vai sobrevoar a lua de Júpiter 49 vezes para avaliar se o oceano sob o gelo poderia sustentar vida — sem nunca pousar, coletar amostras ou detectar organismos.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Europa_Clipper_Team_Deploys_Magnetometer_Boom.jpg/960px-Europa_Clipper_Team_Deploys_Magnetometer_Boom.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Europa_Clipper_Team_Deploys_Magnetometer_Boom.jpg/960px-Europa_Clipper_Team_Deploys_Magnetometer_Boom.jpg" medium="image">
@@ -845,8 +1027,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/agentes-autonomos-ia-tomada-de-decisao</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
-      <description>Os agentes autônomos de IA vão além dos chatbots: são sistemas que percebem o ambiente, planejam ações e executam tarefas complexas sozinhos.</description>
-      <content:encoded>Os agentes autônomos de IA vão além dos chatbots: são sistemas que percebem o ambiente, planejam ações e executam tarefas complexas sozinhos.</content:encoded>
+      <description>Workflow e agente não são sinônimos: no primeiro, o caminho é escrito em código; no segundo, o modelo decide o próximo passo. É essa diferença que sustenta a recomendação de ficar com a solução mais simples possível.</description>
+      <content:encoded>Workflow e agente não são sinônimos: no primeiro, o caminho é escrito em código; no segundo, o modelo decide o próximo passo. É essa diferença que sustenta a recomendação de ficar com a solução mais simples possível.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Robot_arm_handles_an_assay_plate.jpg/960px-Robot_arm_handles_an_assay_plate.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Robot_arm_handles_an_assay_plate.jpg/960px-Robot_arm_handles_an_assay_plate.jpg" medium="image">
@@ -859,8 +1041,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/modelos-multimodais-ia-texto-imagem-audio</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
-      <description>Os modelos multimodais representam um salto na inteligência artificial, permitindo que um único sistema processe e relacione diferentes tipos de dados.</description>
-      <content:encoded>Os modelos multimodais representam um salto na inteligência artificial, permitindo que um único sistema processe e relacione diferentes tipos de dados.</content:encoded>
+      <description>Modelos multimodais não se distinguem por aceitar várias modalidades, e sim por produzir saídas que também podem ser multimodais. A revisão de avaliação organiza o problema em quatro eixos e trata a alucinação como característica estrutural.</description>
+      <content:encoded>Modelos multimodais não se distinguem por aceitar várias modalidades, e sim por produzir saídas que também podem ser multimodais. A revisão de avaliação organiza o problema em quatro eixos e trata a alucinação como característica estrutural.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg/960px-Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg/960px-Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg" medium="image">
@@ -873,8 +1055,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/biologia-sintetica-criando-organismos-artificiais</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
-      <description>A biologia sintética combina engenharia e biologia para criar organismos com funções novas.</description>
-      <content:encoded>A biologia sintética combina engenharia e biologia para criar organismos com funções novas.</content:encoded>
+      <description>Em vez de apenas alterar organismos existentes, a biologia sintética projeta sistemas biológicos como se fossem máquinas: DNA vira peça, células recebem lógica e a segurança passa a ser desenhada junto com o organismo.</description>
+      <content:encoded>Em vez de apenas alterar organismos existentes, a biologia sintética projeta sistemas biológicos como se fossem máquinas: DNA vira peça, células recebem lógica e a segurança passa a ser desenhada junto com o organismo.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/NHGRI_researcher_uses_a_pipette_to_remove_DNA_from_a_micro_test_tube.jpg/960px-NHGRI_researcher_uses_a_pipette_to_remove_DNA_from_a_micro_test_tube.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/NHGRI_researcher_uses_a_pipette_to_remove_DNA_from_a_micro_test_tube.jpg/960px-NHGRI_researcher_uses_a_pipette_to_remove_DNA_from_a_micro_test_tube.jpg" medium="image">
@@ -887,8 +1069,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/energia-solar-espacial-paineis-orbita</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/futuro">Futuro</category>
-      <description>A energia solar espacial propõe captar luz solar em órbita e transmiti-la para a Terra via micro-ondas.</description>
-      <content:encoded>A energia solar espacial propõe captar luz solar em órbita e transmiti-la para a Terra via micro-ondas.</content:encoded>
+      <description>Coletar luz solar fora da atmosfera não é o mesmo que entregá-la na Terra. A ESA investe em pesquisa, e os gargalos estão na conversão de energia, na montagem de estruturas quilométricas e na manutenção em órbita.</description>
+      <content:encoded>Coletar luz solar fora da atmosfera não é o mesmo que entregá-la na Terra. A ESA investe em pesquisa, e os gargalos estão na conversão de energia, na montagem de estruturas quilométricas e na manutenção em órbita.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/NASA_solar_power_satellite_concept_1976.jpg/960px-NASA_solar_power_satellite_concept_1976.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/NASA_solar_power_satellite_concept_1976.jpg/960px-NASA_solar_power_satellite_concept_1976.jpg" medium="image">
@@ -901,8 +1083,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/games/geracao-procedural-mundo-aberto-games</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/games">Games</category>
-      <description>A geração procedural permite que jogos criem mundos vastos e únicos sem que artistas modelem cada árvore manualmente.</description>
-      <content:encoded>A geração procedural permite que jogos criem mundos vastos e únicos sem que artistas modelem cada árvore manualmente.</content:encoded>
+      <description>A geração procedural não é o oposto do design: o projetista escreve a regra e o algoritmo aplica. O ponto difícil é validar, porque uma saída pode obedecer às regras e ainda assim ser impossível de jogar.</description>
+      <content:encoded>A geração procedural não é o oposto do design: o projetista escreve a regra e o algoritmo aplica. O ponto difícil é validar, porque uma saída pode obedecer às regras e ainda assim ser impossível de jogar.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Terragen_render.jpg/960px-Terragen_render.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Terragen_render.jpg/960px-Terragen_render.jpg" medium="image">
@@ -915,8 +1097,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/games/acessibilidade-games-jogadores-deficiencia</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/games">Games</category>
-      <description>A indústria de games está investindo em recursos de acessibilidade que permitem que pessoas com deficiência visual, auditiva ou motora joguem.</description>
-      <content:encoded>A indústria de games está investindo em recursos de acessibilidade que permitem que pessoas com deficiência visual, auditiva ou motora joguem.</content:encoded>
+      <description>As Game Accessibility Guidelines definem acessibilidade como evitar barreiras desnecessárias, e organizam o problema em cinco categorias. A recomendação prática é revisar as diretrizes antes de começar o projeto, porque depois o custo só cresce.</description>
+      <content:encoded>As Game Accessibility Guidelines definem acessibilidade como evitar barreiras desnecessárias, e organizam o problema em cinco categorias. A recomendação prática é revisar as diretrizes antes de começar o projeto, porque depois o custo só cresce.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/InclusiveGameLab_Person-Using-Adaptive-Controller_2_CC-BY-SA.jpg/960px-InclusiveGameLab_Person-Using-Adaptive-Controller_2_CC-BY-SA.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/InclusiveGameLab_Person-Using-Adaptive-Controller_2_CC-BY-SA.jpg/960px-InclusiveGameLab_Person-Using-Adaptive-Controller_2_CC-BY-SA.jpg" medium="image">
@@ -929,8 +1111,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/preservacao-digital-filmes-antigos-restauracao</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
-      <description>Milhares de filmes antigos estão se deteriorando em arquivos físicos. A preservação digital usa scanners de alta resolução e IA para restaurar e proteger o cinema clássico.</description>
-      <content:encoded>Milhares de filmes antigos estão se deteriorando em arquivos físicos. A preservação digital usa scanners de alta resolução e IA para restaurar e proteger o cinema clássico.</content:encoded>
+      <description>A deterioração do acetato acelera à medida que avança, e é por isso que o diagnóstico precoce importa: as tiras A-D detectam a síndrome do vinagre antes do cheiro. Um bom ambiente de armazenamento vence a natureza da degradação.</description>
+      <content:encoded>A deterioração do acetato acelera à medida que avança, e é por isso que o diagnóstico precoce importa: as tiras A-D detectam a síndrome do vinagre antes do cheiro. Um bom ambiente de armazenamento vence a natureza da degradação.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/16mm_film_reel_%286498607729%29.jpg/960px-16mm_film_reel_%286498607729%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/16mm_film_reel_%286498607729%29.jpg/960px-16mm_film_reel_%286498607729%29.jpg" medium="image">
@@ -943,8 +1125,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/deepfake-cinema-rostos-sinteticos-impacto</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
-      <description>A tecnologia deepfake permite substituir rostos em vídeos com realismo impressionante. No cinema, é usada para rejuvenescer atores e criar dublês digitais.</description>
-      <content:encoded>A tecnologia deepfake permite substituir rostos em vídeos com realismo impressionante. No cinema, é usada para rejuvenescer atores e criar dublês digitais.</content:encoded>
+      <description>A literatura separa deepfake em quatro tipos de manipulação facial. As revisões registram que a geração melhorou mais rápido do que a detecção, e o cinema aparece como área de aplicação potencial, sem qualquer caso específico documentado.</description>
+      <content:encoded>A literatura separa deepfake em quatro tipos de manipulação facial. As revisões registram que a geração melhorou mais rápido do que a detecção, e o cinema aparece como área de aplicação potencial, sem qualquer caso específico documentado.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Computer-generated_human_face_illustrating_the_glabella.jpg/960px-Computer-generated_human_face_illustrating_the_glabella.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Computer-generated_human_face_illustrating_the_glabella.jpg/960px-Computer-generated_human_face_illustrating_the_glabella.jpg" medium="image">
@@ -957,8 +1139,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/webcomics-quadrinhos-digitais-revolucao</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
-      <description>As webcomics e plataformas digitais democratizaram a publicação de quadrinhos, permitindo que artistas independentes alcancem milhões de leitores.</description>
-      <content:encoded>As webcomics e plataformas digitais democratizaram a publicação de quadrinhos, permitindo que artistas independentes alcancem milhões de leitores.</content:encoded>
+      <description>O webtoon não é a página de quadrinhos em tela pequena: ele é desenhado para rolar no celular, acrescenta uma dimensão sonora e se publica por meio de plataformas que intermediam a relação entre autor e leitor.</description>
+      <content:encoded>O webtoon não é a página de quadrinhos em tela pequena: ele é desenhado para rolar no celular, acrescenta uma dimensão sonora e se publica por meio de plataformas que intermediam a relação entre autor e leitor.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Yehuda_Devir_drawing.jpg/960px-Yehuda_Devir_drawing.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Yehuda_Devir_drawing.jpg/960px-Yehuda_Devir_drawing.jpg" medium="image">
@@ -971,8 +1153,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/representacao-diversidade-quadrinhos-evolucao</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
-      <description>Os quadrinhos historicamente foram dominados por personagens brancos e masculinos. Nas últimas décadas, a indústria tem se esforçado para incluir mais diversidade.</description>
-      <content:encoded>Os quadrinhos historicamente foram dominados por personagens brancos e masculinos. Nas últimas décadas, a indústria tem se esforçado para incluir mais diversidade.</content:encoded>
+      <description>Pesquisas que medem mídia visual mostram que a ausência de diversidade não é neutra: ela amplifica vieses. Mas o estudo mais rigoroso disponível analisou revistas e pôsteres, não quadrinhos, e o texto delimita esse alcance.</description>
+      <content:encoded>Pesquisas que medem mídia visual mostram que a ausência de diversidade não é neutra: ela amplifica vieses. Mas o estudo mais rigoroso disponível analisou revistas e pôsteres, não quadrinhos, e o texto delimita esse alcance.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/NYCC_2016_-_Cosplayers_in_the_Food_Court_%2830130860801%29.jpg/960px-NYCC_2016_-_Cosplayers_in_the_Food_Court_%2830130860801%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/NYCC_2016_-_Cosplayers_in_the_Food_Court_%2830130860801%29.jpg/960px-NYCC_2016_-_Cosplayers_in_the_Food_Court_%2830130860801%29.jpg" medium="image">
@@ -985,8 +1167,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/ilusoes-opticas-cerebro-enganado</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
-      <description>As ilusões de óptica revelam como o cérebro interpreta (e muitas vezes distorce) a realidade visual.</description>
-      <content:encoded>As ilusões de óptica revelam como o cérebro interpreta (e muitas vezes distorce) a realidade visual.</content:encoded>
+      <description>A visão não é uma câmera: o cérebro estima o objeto a partir de um padrão de luz ambíguo. A ilusão do tabuleiro de xadrez mostra que ver uma cor já exige corrigir a luz recebida pela iluminação da cena.</description>
+      <content:encoded>A visão não é uma câmera: o cérebro estima o objeto a partir de um padrão de luz ambíguo. A ilusão do tabuleiro de xadrez mostra que ver uma cor já exige corrigir a luz recebida pela iluminação da cena.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ames_room_forced_perspective.jpg/960px-Ames_room_forced_perspective.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ames_room_forced_perspective.jpg/960px-Ames_room_forced_perspective.jpg" medium="image">
@@ -999,12 +1181,26 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/animais-que-usam-ferramentas-inteligencia</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
-      <description>O uso de ferramentas, considerado exclusivo dos humanos, é observado em diversas espécies: chimpanzés, corvos, polvos e até formigas.</description>
-      <content:encoded>O uso de ferramentas, considerado exclusivo dos humanos, é observado em diversas espécies: chimpanzés, corvos, polvos e até formigas.</content:encoded>
+      <description>Usar uma ferramenta exige que a forma do objeto seja aproveitada para atingir um objetivo. Chimpanzés ajustam o martelo à dureza da noz, corvos da Nova Caledônia pescam larvas com gravetos e polvos empilham cascas de coco para se proteger.</description>
+      <content:encoded>Usar uma ferramenta exige que a forma do objeto seja aproveitada para atingir um objetivo. Chimpanzés ajustam o martelo à dureza da noz, corvos da Nova Caledônia pescam larvas com gravetos e polvos empilham cascas de coco para se proteger.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chimpanzee_using_grass_tool_to_feed_on_insects_in_tree_-_DPLA_-_135341160d67061d909f9592096800dd.jpg/960px-Chimpanzee_using_grass_tool_to_feed_on_insects_in_tree_-_DPLA_-_135341160d67061d909f9592096800dd.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Chimpanzee_using_grass_tool_to_feed_on_insects_in_tree_-_DPLA_-_135341160d67061d909f9592096800dd.jpg/960px-Chimpanzee_using_grass_tool_to_feed_on_insects_in_tree_-_DPLA_-_135341160d67061d909f9592096800dd.jpg" medium="image">
         <media:title type="html">Chimpanzé usando um graveto para retirar insetos de uma árvore</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Nintendo Direct de setembro: Persona 6, Metroid Ravenous e o Switch 2 ganha corpo</title>
+      <link>https://nexoracomic.vercel.app/games/nintendo-direct-setembro-2026-lancamentos-switch-2</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/nintendo-direct-setembro-2026-lancamentos-switch-2</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A Nintendo dedicou 45 minutos aos próximos lançamentos para Switch e Switch 2. Saiu de lá uma lista concreta de datas, com dois anúncios que não estavam no radar.</description>
+      <content:encoded>A Nintendo dedicou 45 minutos aos próximos lançamentos para Switch e Switch 2. Saiu de lá uma lista concreta de datas, com dois anúncios que não estavam no radar.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo%20Switch%202%20in%20Handheld%20Mode.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo%20Switch%202%20in%20Handheld%20Mode.jpg?width=960" medium="image">
+        <media:title type="html">Console Nintendo Switch 2 em modo portátil, com os Joy-Con 2 conectados e a tela ligada</media:title>
       </media:content>
     </item>
     <item>
@@ -1173,6 +1369,20 @@
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Gas_Station_at_Night_%2851118972527%29.jpg/960px-Gas_Station_at_Night_%2851118972527%29.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Gas_Station_at_Night_%2851118972527%29.jpg/960px-Gas_Station_at_Night_%2851118972527%29.jpg" medium="image">
         <media:title type="html">Posto de combustível iluminado à noite</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>MOONS faz a primeira luz no Very Large Telescope e promete mapear milhões de estrelas</title>
+      <link>https://nexoracomic.vercel.app/espaco/moons-vlt-primeira-luz-espectroscopia-milhao-estrelas</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/moons-vlt-primeira-luz-espectroscopia-milhao-estrelas</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>O novo espectrógrafo do VLT captou quase mil estrelas e galáxias em uma única observação. A primeira delas foi o coração encoberto da Via Láctea.</description>
+      <content:encoded>O novo espectrógrafo do VLT captou quase mil estrelas e galáxias em uma única observação. A primeira delas foi o coração encoberto da Via Láctea.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/MOONS%20the%20Multi-Object%20Optical%20and%20Near-infrared%20Spectrograph%20(15394388975).jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/MOONS%20the%20Multi-Object%20Optical%20and%20Near-infrared%20Spectrograph%20(15394388975).jpg?width=960" medium="image">
+        <media:title type="html">Instrumento MOONS, espectrógrafo multi-objeto do Very Large Telescope, instalado no observatório de Paranal</media:title>
       </media:content>
     </item>
     <item>
@@ -2066,8 +2276,8 @@
       <description>Sensores, algoritmos e níveis de automação: entenda a tecnologia por trás dos veículos autônomos e os desafios para a adoção em massa.</description>
       <content:encoded>Sensores, algoritmos e níveis de automação: entenda a tecnologia por trás dos veículos autônomos e os desafios para a adoção em massa.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Zoox%20Toyota%20Highlander%20Test%20Vehicle%20-%20Sensor%20Closeup%20-%20San%20Francisco%2C%20May%202025%2006.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Zoox%20Toyota%20Highlander%20Test%20Vehicle%20-%20Sensor%20Closeup%20-%20San%20Francisco%2C%20May%202025%2006.jpg?width=960" medium="image">
         <media:title type="html">Carro autônomo com sensores e visualização digital de trajetória</media:title>
       </media:content>
     </item>
@@ -2080,8 +2290,8 @@
       <description>Relógios inteligentes, anéis e óculos: dispositivos vestíveis monitoram saúde, conectam rotinas e apontam para uma computação cada vez mais pessoal.</description>
       <content:encoded>Relógios inteligentes, anéis e óculos: dispositivos vestíveis monitoram saúde, conectam rotinas e apontam para uma computação cada vez mais pessoal.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Smartwatch-health2.png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Smartwatch-health2.png?width=960" medium="image">
         <media:title type="html">Relógio inteligente moderno exibindo métricas de atividade física</media:title>
       </media:content>
     </item>
@@ -2108,8 +2318,8 @@
       <description>Dos cubos coloridos aos mundos abertos realistas, a história dos motores gráficos é uma corrida contra os limites do hardware.</description>
       <content:encoded>Dos cubos coloridos aos mundos abertos realistas, a história dos motores gráficos é uma corrida contra os limites do hardware.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Unreal%20Engine%20GDC%202016.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Unreal%20Engine%20GDC%202016.jpg?width=960" medium="image">
         <media:title type="html">Setup de desenvolvimento de jogos com telas mostrando editores 3D</media:title>
       </media:content>
     </item>
@@ -2122,8 +2332,8 @@
       <description>Preços sobem, catálogos mudam e novidades transformam o mercado. Entenda as tendências que vão definir a próxima década do streaming.</description>
       <content:encoded>Preços sobem, catálogos mudam e novidades transformam o mercado. Entenda as tendências que vão definir a próxima década do streaming.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/LG%20smart%20TV.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/LG%20smart%20TV.jpg?width=960" medium="image">
         <media:title type="html">Controle remoto apontado para TV com streaming de conteúdo</media:title>
       </media:content>
     </item>
@@ -2136,8 +2346,8 @@
       <description>De dinossauros a planetas inteiros, o CGI constrói mundos no computador. Entenda modelagem 3D, texturização, iluminação e renderização em etapas.</description>
       <content:encoded>De dinossauros a planetas inteiros, o CGI constrói mundos no computador. Entenda modelagem 3D, texturização, iluminação e renderização em etapas.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Green%20screen%202000.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Green%20screen%202000.jpg?width=960" medium="image">
         <media:title type="html">Estúdio de produção cinematográfica com telas verdes e equipamentos de filmagem</media:title>
       </media:content>
     </item>
@@ -2150,8 +2360,8 @@
       <description>Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa.</description>
       <content:encoded>Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Timnit%20Gebru%20crop.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Timnit%20Gebru%20crop.jpg?width=960" medium="image">
         <media:title type="html">Balança da justiça ao lado de circuitos eletrônicos representando ética em inteligência artificial</media:title>
       </media:content>
     </item>
@@ -2164,8 +2374,8 @@
       <description>Sem regras programadas à mão, máquinas aprendem padrões a partir de exemplos. Entenda os três tipos de aprendizado e como funcionam na prática.</description>
       <content:encoded>Sem regras programadas à mão, máquinas aprendem padrões a partir de exemplos. Entenda os três tipos de aprendizado e como funcionam na prática.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Decoder%20self-attention%20with%20causal%20masking%2C%20detailed%20diagram.png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Decoder%20self-attention%20with%20causal%20masking%2C%20detailed%20diagram.png?width=960" medium="image">
         <media:title type="html">Representação visual de rede neural artificial com conexões luminosas</media:title>
       </media:content>
     </item>
@@ -2178,8 +2388,8 @@
       <description>VR imerge, RA sobrepõe. Entenda como cada tecnologia funciona, onde já são usadas hoje e para onde caminham com os óculos mistos.</description>
       <content:encoded>VR imerge, RA sobrepõe. Entenda como cada tecnologia funciona, onde já são usadas hoje e para onde caminham com os óculos mistos.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Oculus-Rift-CV1-Headset-Front.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Oculus-Rift-CV1-Headset-Front.jpg?width=960" medium="image">
         <media:title type="html">Pessoa usando headset de realidade virtual com luzes neon ao fundo</media:title>
       </media:content>
     </item>
@@ -2192,8 +2402,8 @@
       <description>Você digita uma pergunta e recebe milhões de resultados em milésimos de segundo. Entenda como mecanismos de busca rastreiam, indexam e rankeiam a web.</description>
       <content:encoded>Você digita uma pergunta e recebe milhões de resultados em milésimos de segundo. Entenda como mecanismos de busca rastreiam, indexam e rankeiam a web.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Google%20search%20result%20for%20Magic%20Flute%20opera.png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Google%20search%20result%20for%20Magic%20Flute%20opera.png?width=960" medium="image">
         <media:title type="html">Notebook exibindo resultados de busca com gráficos de dados ao fundo</media:title>
       </media:content>
     </item>
@@ -2206,8 +2416,8 @@
       <description>Quarks, léptons e bósons: entenda do que a matéria é feita e como o LHC do CERN recria condições do universo primitivo para desvendá-las.</description>
       <content:encoded>Quarks, léptons e bósons: entenda do que a matéria é feita e como o LHC do CERN recria condições do universo primitivo para desvendá-las.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1451188502541-13943edb6acb?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1451188502541-13943edb6acb?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/CERN%20ATLAS%20Detector.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/CERN%20ATLAS%20Detector.jpg?width=960" medium="image">
         <media:title type="html">Detector de partículas do CERN com estrutura circular metálica complexa</media:title>
       </media:content>
     </item>
@@ -2220,8 +2430,8 @@
       <description>Trilhões de microrganismos vivem no seu intestino e influenciam digestão, imunidade e até humor. Descubra o que a ciência já sabe sobre o microbioma.</description>
       <content:encoded>Trilhões de microrganismos vivem no seu intestino e influenciam digestão, imunidade e até humor. Descubra o que a ciência já sabe sobre o microbioma.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Intestinal%20transgene%20delivery%20with%20native%20E.%20coli%20chassis%20allows%20persistent%20physiological%20changes.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Intestinal%20transgene%20delivery%20with%20native%20E.%20coli%20chassis%20allows%20persistent%20physiological%20changes.jpg?width=960" medium="image">
         <media:title type="html">Microscope image of bacteria in laboratory research</media:title>
       </media:content>
     </item>
@@ -2234,8 +2444,8 @@
       <description>Meio século após a Apollo, a humanidade se prepara para voltar à Lua. Entenda o programa Artemis, suas etapas e por que a Lua é trampolim para Marte.</description>
       <content:encoded>Meio século após a Apollo, a humanidade se prepara para voltar à Lua. Entenda o programa Artemis, suas etapas e por que a Lua é trampolim para Marte.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Artemis%20I%20Prelaunch%20(NHQ202208290102).jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Artemis%20I%20Prelaunch%20(NHQ202208290102).jpg?width=960" medium="image">
         <media:title type="html">Foguete em lançamento rumo ao espaço com destroços de nuvens de fumaça</media:title>
       </media:content>
     </item>
@@ -2248,8 +2458,8 @@
       <description>O James Webb é o telescópio mais poderoso já lançado. Entenda como ele funciona, por que observa em infravermelho e o que ele já revelou sobre o cosmos.</description>
       <content:encoded>O James Webb é o telescópio mais poderoso já lançado. Entenda como ele funciona, por que observa em infravermelho e o que ele já revelou sobre o cosmos.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Webb%20Space%20Telescope%202009%20top.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/James%20Webb%20Space%20Telescope%202009%20top.jpg?width=960" medium="image">
         <media:title type="html">Telescópio espacial em órbita da Terra com painéis solares estendidos</media:title>
       </media:content>
     </item>
@@ -2262,8 +2472,8 @@
       <description>Milhares de planetas já foram confirmados fora do Sistema Solar. Descubra como os cientistas os detectam e o que torna um exoplaneta potencialmente habitável.</description>
       <content:encoded>Milhares de planetas já foram confirmados fora do Sistema Solar. Descubra como os cientistas os detectam e o que torna um exoplaneta potencialmente habitável.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/PIA23690-Exoplanet-Kepler1649c-20200415.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/PIA23690-Exoplanet-Kepler1649c-20200415.jpg?width=960" medium="image">
         <media:title type="html">Representação artística de um exoplaneta orbitando uma estrela distante no espaço</media:title>
       </media:content>
     </item>
@@ -2276,8 +2486,8 @@
       <description>A IA está transformando a saúde, ajudando médicos a detectar doenças e personalizar tratamentos. Veja como ela já é usada nos hospitais.</description>
       <content:encoded>A IA está transformando a saúde, ajudando médicos a detectar doenças e personalizar tratamentos. Veja como ela já é usada nos hospitais.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/MRI%20brain%20tumor.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/MRI%20brain%20tumor.jpg?width=960" medium="image">
         <media:title type="html">Profissional de saúde analisando dados médicos em um dispositivo tecnológico</media:title>
       </media:content>
     </item>
@@ -2290,8 +2500,8 @@
       <description>A técnica CRISPR permite modificar o DNA com precisão, abrindo caminhos na medicina e na biotecnologia. Entenda como ela funciona e seus desafios.</description>
       <content:encoded>A técnica CRISPR permite modificar o DNA com precisão, abrindo caminhos na medicina e na biotecnologia. Entenda como ela funciona e seus desafios.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/DNA%20Structure%2BKey%2BLabelled.pn%20NoBB.png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/DNA%20Structure%2BKey%2BLabelled.pn%20NoBB.png?width=960" medium="image">
         <media:title type="html">Laboratório de pesquisa com equipamentos científicos e vidraria</media:title>
       </media:content>
     </item>
@@ -2304,8 +2514,8 @@
       <description>A fusão nuclear, a energia que alimenta o Sol, promete energia limpa e quase ilimitada. Entenda como funciona e quais os desafios para viabilizá-la.</description>
       <content:encoded>A fusão nuclear, a energia que alimenta o Sol, promete energia limpa e quase ilimitada. Entenda como funciona e quais os desafios para viabilizá-la.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/ITER%20construction%20in%202018%20(41809718461).jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/ITER%20construction%20in%202018%20(41809718461).jpg?width=960" medium="image">
         <media:title type="html">Mão de cientista tocando um painel tecnológico com energia visualizada</media:title>
       </media:content>
     </item>
@@ -2318,8 +2528,8 @@
       <description>Proteger contas, senhas e dados pessoais é essencial no mundo digital. Veja conceitos básicos de cibersegurança e boas práticas para navegar com mais segurança.</description>
       <content:encoded>Proteger contas, senhas e dados pessoais é essencial no mundo digital. Veja conceitos básicos de cibersegurança e boas práticas para navegar com mais segurança.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Cybersecurity.png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Cybersecurity.png?width=960" medium="image">
         <media:title type="html">Placa de circuito eletrônico com componentes iluminados</media:title>
       </media:content>
     </item>
@@ -2332,8 +2542,8 @@
       <description>O corpo humano é uma máquina impressionante. Conheça fatos científicos que explicam por que sentimos, aprendemos e funcionamos como funcionamos.</description>
       <content:encoded>O corpo humano é uma máquina impressionante. Conheça fatos científicos que explicam por que sentimos, aprendemos e funcionamos como funcionamos.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Naval%20Medical%20Research%20Unit%20No.%202%2C%20Phnom%20Penh%2C%20Cambodia%2C%20Feb.%2027%2C%202014%20-%2013386826325.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Naval%20Medical%20Research%20Unit%20No.%202%2C%20Phnom%20Penh%2C%20Cambodia%2C%20Feb.%2027%2C%202014%20-%2013386826325.jpg?width=960" medium="image">
         <media:title type="html">Laboratório científico com equipamentos e vidraria</media:title>
       </media:content>
     </item>
@@ -2346,8 +2556,8 @@
       <description>Sensores, dados e conectividade transformam a vida urbana. Entenda o que são cidades inteligentes e como a tecnologia pode tornar as metrópoles mais eficientes.</description>
       <content:encoded>Sensores, dados e conectividade transformam a vida urbana. Entenda o que são cidades inteligentes e como a tecnologia pode tornar as metrópoles mais eficientes.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/New%20York%20Midtown%20Skyline%20at%20night%20-%20Jan%202006%20edit1.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/New%20York%20Midtown%20Skyline%20at%20night%20-%20Jan%202006%20edit1.jpg?width=960" medium="image">
         <media:title type="html">Cidade moderna com arquitetura contemporânea ao entardecer</media:title>
       </media:content>
     </item>
@@ -2360,8 +2570,8 @@
       <description>Dos buracos de minhoca aos robôs conscientes, a ficção científica inspira a ciência — mas nem tudo é como nos filmes. Compare as ideias.</description>
       <content:encoded>Dos buracos de minhoca aos robôs conscientes, a ficção científica inspira a ciência — mas nem tudo é como nos filmes. Compare as ideias.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/F%C4%B1rat%20G%C3%BCm%C3%BC%C5%9Ftekin%20on%20a%20film%20set.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/F%C4%B1rat%20G%C3%BCm%C3%BC%C5%9Ftekin%20on%20a%20film%20set.jpg?width=960" medium="image">
         <media:title type="html">Câmera de cinema em cena de produção cinematográfica</media:title>
       </media:content>
     </item>
@@ -2374,8 +2584,8 @@
       <description>De super-heróis a mutantes, os quadrinhos misturam ficção científica e física real. Entenda onde os superpoderes exageram e onde se apoiam na ciência.</description>
       <content:encoded>De super-heróis a mutantes, os quadrinhos misturam ficção científica e física real. Entenda onde os superpoderes exageram e onde se apoiam na ciência.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Freak%20Point%20(Lalone%2C%202024)%2003.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Freak%20Point%20(Lalone%2C%202024)%2003.jpg?width=960" medium="image">
         <media:title type="html">Livro aberto sobre uma mesa, representando leitura e conhecimento</media:title>
       </media:content>
     </item>
@@ -2402,8 +2612,8 @@
       <description>A IA dos jogos evoluiu de simples padrões de movimento para sistemas que reagem ao comportamento do jogador. Veja como ela funciona.</description>
       <content:encoded>A IA dos jogos evoluiu de simples padrões de movimento para sistemas que reagem ao comportamento do jogador. Veja como ela funciona.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Controller%20Testing%20Steps%20Diagram.png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Controller%20Testing%20Steps%20Diagram.png?width=960" medium="image">
         <media:title type="html">Controle de videogame em fundo colorido e vibrante</media:title>
       </media:content>
     </item>
@@ -2416,8 +2626,8 @@
       <description>Buracos negros são um dos objetos mais misteriosos e fascinantes do universo. Entenda como eles se formam, suas propriedades e o que sabemos sobre eles.</description>
       <content:encoded>Buracos negros são um dos objetos mais misteriosos e fascinantes do universo. Entenda como eles se formam, suas propriedades e o que sabemos sobre eles.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Black%20hole%20-%20Messier%2087%20crop%20max%20res.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Black%20hole%20-%20Messier%2087%20crop%20max%20res.jpg?width=960" medium="image">
         <media:title type="html">Ilustração artística de um buraco negro com disco de acreção brilhante</media:title>
       </media:content>
     </item>
@@ -2430,8 +2640,8 @@
       <description>A IA generativa está transformando a forma como criamos conteúdo. Descubra como modelos como GPT e DALL-E funcionam por trás dos panos.</description>
       <content:encoded>A IA generativa está transformando a forma como criamos conteúdo. Descubra como modelos como GPT e DALL-E funcionam por trás dos panos.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Transformer%2C%20stacked%20layers%20and%20sublayers.png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Transformer%2C%20stacked%20layers%20and%20sublayers.png?width=960" medium="image">
         <media:title type="html">Visualização abstrata de rede neural artificial com conexões brilhantes</media:title>
       </media:content>
     </item>
@@ -2444,8 +2654,8 @@
       <description>A cor característica de Marte tem uma explicação científica fascinante envolvendo óxido de ferro e a história geológica do planeta.</description>
       <content:encoded>A cor característica de Marte tem uma explicação científica fascinante envolvendo óxido de ferro e a história geológica do planeta.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Curiosity%20Finds%20Evidence%20of%20an%20Ancient%20Sandstorm%20(PIA26728).png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Curiosity%20Finds%20Evidence%20of%20an%20Ancient%20Sandstorm%20(PIA26728).png?width=960" medium="image">
         <media:title type="html">Superfície de Marte mostrando sua cor vermelha característica com rochas e dunas</media:title>
       </media:content>
     </item>
@@ -2458,8 +2668,8 @@
       <description>A computação quântica promete revolucionar o processamento de informações. Entenda as diferenças fundamentais entre computadores quânticos e clássicos.</description>
       <content:encoded>A computação quântica promete revolucionar o processamento de informações. Entenda as diferenças fundamentais entre computadores quânticos e clássicos.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Quantum-computer-Chalmers%202017.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Quantum-computer-Chalmers%202017.jpg?width=960" medium="image">
         <media:title type="html">Visualização artística de chip de computador quântico com luz azul</media:title>
       </media:content>
     </item>
@@ -2472,8 +2682,8 @@
       <description>Os sonhos têm fascinado a humanidade por milênios. Descubra o que a ciência sabe sobre por que sonhamos e as principais teorias explicativas.</description>
       <content:encoded>Os sonhos têm fascinado a humanidade por milênios. Descubra o que a ciência sabe sobre por que sonhamos e as principais teorias explicativas.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&amp;q=80" />
-      <media:content url="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&amp;q=80" medium="image">
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/EEG%20record%20of%20brain%20activity%20and%20wave%20patterns%20from%20a%20sleeping%20boy.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/EEG%20record%20of%20brain%20activity%20and%20wave%20patterns%20from%20a%20sleeping%20boy.jpg?width=960" medium="image">
         <media:title type="html">Ilustração abstrata de cérebro humano com luzes coloridas representando sonhos</media:title>
       </media:content>
     </item>

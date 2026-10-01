@@ -1,15 +1,54 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useRef, useState, useSyncExternalStore } from 'react';
 import Link from 'next/link';
 import { ADSENSE_SCRIPT_SRC, isAdsEnabled } from '@/lib/ads';
 
 const CONSENT_KEY = 'nexora_cookie_consent';
+const CONSENT_EVENT = 'nexora:consent';
 type Consent = 'accepted' | 'rejected';
 
+/**
+ * Consentimento como external store — mesmo padrão já usado em AdSlot.tsx.
+ *
+ * Evita setState dentro de effect: o valor é lido sob demanda por
+ * getSnapshot e o componente re-renderiza quando o evento de
+ * consentimento é disparado (ou quando outra aba altera o storage).
+ */
+function subscribeToConsent(onChange: () => void): () => void {
+  window.addEventListener(CONSENT_EVENT, onChange);
+  window.addEventListener('storage', onChange);
+  return () => {
+    window.removeEventListener(CONSENT_EVENT, onChange);
+    window.removeEventListener('storage', onChange);
+  };
+}
+
+function getConsentSnapshot(): string {
+  return window.localStorage.getItem(CONSENT_KEY) ?? 'pending';
+}
+
+/** No servidor não há localStorage: o estado é desconhecido. */
+function getServerConsentSnapshot(): string {
+  return 'pending';
+}
+
 export default function CookieConsent() {
-  const [showBanner, setShowBanner] = useState(false);
-  const [consent, setConsent] = useState<Consent | null>(null);
+  // 'pending' no servidor e antes da hidratação; 'accepted' | 'rejected'
+  // quando há consentimento salvo; 'pending' quando não há.
+  const snapshot = useSyncExternalStore(
+    subscribeToConsent,
+    getConsentSnapshot,
+    getServerConsentSnapshot
+  );
+  const consent: Consent | null =
+    snapshot === 'accepted' || snapshot === 'rejected' ? snapshot : null;
+
+  // Aberto manualmente pelo botão "Preferências de cookies".
+  const [preferencesOpen, setPreferencesOpen] = useState(false);
+
+  // Evita inserir os scripts de terceiros mais de uma vez.
+  const scriptsLoaded = useRef(false);
 
   /**
    * Carrega os scripts de terceiros SOMENTE após consentimento.
@@ -52,33 +91,35 @@ export default function CookieConsent() {
     window.dispatchEvent(new CustomEvent('nexora:consent', { detail: value }));
   };
 
+  // Carrega os scripts de terceiros no máximo uma vez e SOMENTE após
+  // consentimento ACEITO. Efeito colateral puro (nenhum setState aqui).
   useEffect(() => {
-    const savedConsent = localStorage.getItem(CONSENT_KEY);
-    if (savedConsent === 'accepted' || savedConsent === 'rejected') {
-      setConsent(savedConsent);
-      if (savedConsent === 'accepted') {
-        loadScripts(savedConsent);
-      }
-    } else {
-      setShowBanner(true);
-    }
-  }, []);
+    if (consent !== 'accepted' || scriptsLoaded.current) return;
+    scriptsLoaded.current = true;
+    loadScripts(consent);
+  }, [consent]);
+
+  // Sem consentimento salvo o banner aparece; com consentimento salvo ele
+  // só aparece quando o visitante abre as preferências de volta.
+  const showBanner = consent === null || preferencesOpen;
+
+  const persist = (value: Consent) => {
+    localStorage.setItem(CONSENT_KEY, value);
+    setPreferencesOpen(false);
+    // Notifica os AdSlots (e este próprio componente) da mudança.
+    window.dispatchEvent(new CustomEvent(CONSENT_EVENT, { detail: value }));
+  };
 
   const handleAccept = () => {
-    localStorage.setItem(CONSENT_KEY, 'accepted');
-    setConsent('accepted');
-    setShowBanner(false);
-    loadScripts('accepted');
+    persist('accepted');
   };
 
   const handleReject = () => {
-    localStorage.setItem(CONSENT_KEY, 'rejected');
-    setConsent('rejected');
-    setShowBanner(false);
+    persist('rejected');
   };
 
   const handleOpenSettings = () => {
-    setShowBanner(true);
+    setPreferencesOpen(true);
   };
 
   if (!showBanner) {

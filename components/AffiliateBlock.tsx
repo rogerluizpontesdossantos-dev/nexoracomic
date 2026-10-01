@@ -72,7 +72,7 @@ export default function AffiliateBlock({ affiliate, className = '' }: AffiliateB
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}
-            d="M16 11V7a1 1 0 10-2 0m2 0a2 2 0 114 0v1a4 4 0 014 4v1a1 1 0 01-1 1H5a1 1 0 01-1-1v-1a4 4 0 014-4m2 0V7a2 2 0 114 0m-2 0a1 1 0 001 1v1a1 1 0 001-1 1m0-4h4"
+            d="M16 11V7a1 1 0 1 0 -2 0m2 0a2 2 0 1 1 4 0v1a4 4 0 0 1 4 4v1a1 1 0 0 1 -1 1H5a1 1 0 0 1 -1 -1v-1a4 4 0 0 1 4-4m2 0V7a2 2 0 1 1 4 0m-2 0a1 1 0 0 0 1 1v1a1 1 0 0 0 -1 -1m0-4h4"
           />
         </svg>
         Produtos relacionados

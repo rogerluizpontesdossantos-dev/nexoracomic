@@ -1,6 +1,5 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import Image from 'next/image';
 import Link from 'next/link';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
@@ -38,6 +37,27 @@ interface ArticleImage {
   featuredImage: string;
 }
 
+// Um autor só é publicável se for um crédito real. O Commons usa este mesmo
+// campo para avisos do uploader ("I would appreciate..."), links de origem,
+// anotações de moderação e rótulos técnicos — nada disso é uma autoria.
+function isJunkArtist(value?: string): boolean {
+  const v = (value || '').trim();
+  if (!v) return true;
+  if (/^I would appreciate|^No machine-readable|^https?:\/\//i.test(v)) return true;
+  if (/^IMAGE:|^Unknown author|^Unknown$|^Desconhecid[ao]$/i.test(v)) return true;
+  return false;
+}
+
+// Fallback legado do `_commons_picks.json`: além do filtro de lixo, descarta
+// crédito institucional longo ou lista truncada no meio.
+function isUsablePickArtist(value?: string): boolean {
+  if (isJunkArtist(value)) return false;
+  const v = (value || '').trim();
+  if (v.length > 170) return false;
+  if (/[,;:]\s*$/.test(v)) return false;
+  return true;
+}
+
 function getCommonsPicks(): CommonsPick[] {
   try {
     const filePath = path.join(process.cwd(), '_commons_picks.json');
@@ -67,10 +87,20 @@ function getArticleImages(): ArticleImage[] {
       const categorySlug = match[4];
       const featuredImage = match[5];
       
+      // O bloco do artigo é recortado ANTES do regex de metadados. Sem esse
+      // recorte, um `[\s\S]*?` lazy atravessa o arquivo e um artigo sem
+      // crédito herdaria os campos do artigo seguinte — publicando autoria e
+      // licença ERRADAS na página de créditos.
+      const idIdx = raw.indexOf(`id: '${id}'`);
+      let block = '';
+      if (idIdx !== -1) {
+        const nextIdx = raw.indexOf(`\n    id: '`, idIdx + 1);
+        block = nextIdx === -1 ? raw.slice(idIdx) : raw.slice(idIdx, nextIdx);
+      }
       const metaRegex = new RegExp(
-        `id:\\s*'${id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'[\\s\\S]*?imageLicense:\\s*'([^']*)'[\\s\\S]*?imageArtist:\\s*'([^']*)'[\\s\\S]*?imageCommonsUrl:\\s*'([^']*)'`
+        `imageLicense:\\s*'([^']*)'[\\s\\S]*?imageArtist:\\s*'([^']*)'[\\s\\S]*?imageCommonsUrl:\\s*'([^']*)'`
       );
-      const metaMatch = metaRegex.exec(raw);
+      const metaMatch = metaRegex.exec(block);
       
       articles.push({
         id,
@@ -107,37 +137,48 @@ export default function CreditosImagensPage() {
     thumbnail: string;
   }> = [];
   
-  for (const pick of commonsPicks) {
-    allCredits.push({
-      source: 'commons',
-      id: pick.id,
-      title: pick.file.replace(/^File:/, '').replace(/\.[^.]+$/, ''),
-      imageFile: pick.file,
-      license: pick.license,
-      artist: pick.artist,
-      commonsUrl: 'https://commons.wikimedia.org/wiki/' + encodeURIComponent(pick.file),
-      thumbnail: pick.thumbUrl || pick.originalUrl,
-    });
-  }
-  
+  // Cada artigo tem UM único card. Se `_commons_picks.json` tiver um pick para a
+  // mesma imagem, os campos comprovados do próprio Article (imageLicense/
+  // imageArtist/imageCommonsUrl) prevalecem — eles foram verificados contra a
+  // API do Commons. O pick só serve de fallback para artigos sem crédito.
   for (const article of articleImages) {
-    const existsInCommons = commonsPicks.some(p => 
-      p.usedUrl === article.featuredImage || p.originalUrl === article.featuredImage
+    const pick = commonsPicks.find(
+      (p) => p.usedUrl === article.featuredImage || p.originalUrl === article.featuredImage
     );
-    if (!existsInCommons) {
-      allCredits.push({
-        source: 'article',
-        id: article.id,
-        title: article.title,
-        slug: article.slug,
-        categorySlug: article.categorySlug,
-        imageFile: article.featuredImage,
-        license: article.imageLicense || 'Desconhecida',
-        artist: article.imageArtist || 'Desconhecido',
-        commonsUrl: article.imageCommonsUrl || '',
-        thumbnail: article.featuredImage,
-      });
-    }
+
+    // Crédito do artigo tem prioridade, desde que o autor seja publicável.
+    const articleArtistOk = !isJunkArtist(article.imageArtist);
+    const hasArticleCredit = Boolean(articleArtistOk && article.imageLicense);
+    const pickArtistOk = isUsablePickArtist(pick?.artist);
+
+    const artist = hasArticleCredit
+      ? (article.imageArtist as string)
+      : pickArtistOk
+        ? (pick!.artist as string)
+        : 'Desconhecido';
+
+    const license = hasArticleCredit
+      ? (article.imageLicense as string)
+      : pick?.license || 'Desconhecida';
+
+    // Só usa o pick quando ele traz um autor publicável ou uma licença real;
+    // caso contrário, o link do Commons vem do próprio artigo.
+    const commonsUrl =
+      article.imageCommonsUrl ||
+      (pick ? 'https://commons.wikimedia.org/wiki/' + encodeURIComponent(pick.file) : '');
+
+    allCredits.push({
+      source: hasArticleCredit ? 'article' : 'commons',
+      id: article.id,
+      title: article.title,
+      slug: article.slug,
+      categorySlug: article.categorySlug,
+      imageFile: article.featuredImage,
+      license,
+      artist,
+      commonsUrl,
+      thumbnail: article.featuredImage,
+    });
   }
   
   allCredits.sort((a, b) => parseInt(a.id) - parseInt(b.id));
@@ -181,12 +222,16 @@ export default function CreditosImagensPage() {
             {allCredits.map((credit) => (
               <div key={`${credit.source}-${credit.id}`} className="bg-zinc-900/80 border border-zinc-800 rounded-lg overflow-hidden hover:border-amber-500/50 transition-colors">
                 <div className="relative aspect-video bg-zinc-800">
-                  <Image
+                  {/* eslint-disable-next-line @next/next/no-img-element --
+                      Tag <img> direta: o build estático (output: 'export') não gera
+                      o endpoint /_next/image, então miniaturas via next/image quebravam.
+                      O posicionamento absoluto reproduz o comportamento do `fill`. */}
+                  <img
                     src={credit.thumbnail}
                     alt={credit.title}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="absolute inset-0 h-full w-full object-cover"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
 
