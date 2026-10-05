@@ -1,0 +1,39 @@
+{
+  "redirects": [
+    {
+      "source": "/filmes-series/futuro-do-streaming-2026-consolidacao",
+      "destination": "/filmes-series/futuro-do-streaming",
+      "permanent": true
+    },
+    {
+      "source": "/filmes-series/netflix-setembro-2026-destaques-geek",
+      "destination": "/filmes-series/netflix-setembro-2026-filmes-series-destaques",
+      "permanent": true
+    },
+    {
+      "source": "/filmes-series/star-wars-starfighter-kade-auberon-ryan-gosling",
+      "destination": "/filmes-series/star-wars-starfighter-novo-filme-ryan-gosling",
+      "permanent": true
+    },
+    {
+      "source": "/quadrinhos/hqs-digitais-streaming-de-quadrinhos",
+      "destination": "/quadrinhos/webcomics-quadrinhos-digitais-revolucao",
+      "permanent": true
+    },
+    {
+      "source": "/inteligencia-artificial/nvidia-inviste-bilhoes-mediatek",
+      "destination": "/inteligencia-artificial/nvidia-investe-bilhoes-mediatek",
+      "permanent": true
+    },
+    {
+      "source": "/tecnologia/edge-computinge-processamento-de-dados",
+      "destination": "/tecnologia/edge-computing-processamento-de-dados",
+      "permanent": true
+    },
+    {
+      "source": "/inteligencia-artificial/nvidia-compra-hugging-face-129-bilhoes-ia",
+      "destination": "/inteligencia-artificial/nvidia-compra-hugging-face-ia",
+      "permanent": true
+    }
+  ]
+}

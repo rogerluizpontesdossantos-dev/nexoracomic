@@ -2264,7 +2264,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   },
     {
     id: '34',
-    slug: 'nvidia-inviste-bilhoes-mediatek',
+    slug: 'nvidia-investe-bilhoes-mediatek',
     title: 'NVIDIA Investe Bilhões na MediaTek para Acelerar a Próxima Geração de IA',
     excerpt: 'NVIDIA anunciou um investimento de US$ 3,5 bilhão na MediaTek, expandindo parceria para chips de IA personalizados para data centers, PCs e carros. Entenda o impacto dessa aliança.',
     content: `
@@ -5812,7 +5812,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   },
   {
     id: '95',
-    slug: 'nvidia-compra-hugging-face-129-bilhoes-ia',
+    slug: 'nvidia-compra-hugging-face-ia',
     title: 'NVIDIA Compra o Hugging Face: O Que Muda para a IA',
     excerpt: 'A NVIDIA confirmou a compra do Hugging Face, a maior plataforma open-source de modelos de IA, por US$ 12,93 bilhões. Entenda o que isso muda no tabuleiro da inteligência artificial.',
     content: `
@@ -6435,7 +6435,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
   {
     id: '108',
-    slug: 'edge-computinge-processamento-de-dados',
+    slug: 'edge-computing-processamento-de-dados',
     title: 'Edge Computing: Dados Processados na Borda da Rede',
     excerpt: 'A RFC 9556 do IETF explica o que a computação na borda tenta resolver: sensibilidade a tempo, volume de dados, custo de conectividade, serviços intermitentes, privacidade e segurança. E explica também por que a nuvem continua sendo necessária.',
     content: `
