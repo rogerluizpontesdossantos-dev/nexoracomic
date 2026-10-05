@@ -28,14 +28,19 @@ export async function generateMetadata({ params }: CategoryPageProps) {
     };
   }
 
+  // `seoTitle` é o título de busca/ social da categoria. `name` continua
+  // sendo o rótulo visível (h1, menus, cards, breadcrumb, busca interna) e
+  // NÃO é alterado aqui de propósito.
+  const seoTitle = category.seoTitle ?? category.name;
+
   return {
-    title: category.name,
+    title: seoTitle,
     description: category.description,
     alternates: {
       canonical: `${SITE_URL}/${category.slug}`,
     },
     openGraph: {
-      title: `${category.name} | NexoraComic`,
+      title: `${seoTitle} | NexoraComic`,
       description: category.description,
       type: 'website',
       url: `${SITE_URL}/${category.slug}`,
@@ -43,7 +48,7 @@ export async function generateMetadata({ params }: CategoryPageProps) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${category.name} | NexoraComic`,
+      title: `${seoTitle} | NexoraComic`,
       description: category.description,
       images: ['/og-image.png'],
     },

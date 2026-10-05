@@ -2052,7 +2052,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '30',
     slug: 'transporte-autonomo',
-    title: 'Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar',
+    title: 'Transporte Autônomo: Por Que Ainda Não Chega',
     excerpt: 'Sensores, algoritmos e níveis de automação: entenda a tecnologia por trás dos veículos autônomos e os desafios para a adoção em massa.',
     content: `
       <h2>O Que é um Veículo Autônomo?</h2>
@@ -2330,7 +2330,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     {
     id: '35',
     slug: 'rtx-5090-por-que-esta-tao-cara',
-    title: 'RTX 5090 Dispara de Preço: Por Que as Placas de Vídeo Topo de Linha Ficaram Tão Caras?',
+    title: 'RTX 5090: De US$ 1.999 a Mais de US$ 5.000 por Causa da IA',
     excerpt: 'A RTX 5090, que custava US$ 1.999 no lançamento, agora custa mais de US$ 5.000 no varejo. Entenda por que a alta demanda por GPUs para data centers de IA está esmagando o mercado de consumo.',
     content: `
       <h2>Do Sonho ao Pesadelo: O Preço que Dobrou</h2>
@@ -5813,7 +5813,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '95',
     slug: 'nvidia-compra-hugging-face-129-bilhoes-ia',
-    title: 'NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA',
+    title: 'NVIDIA Compra o Hugging Face: O Que Muda para a IA',
     excerpt: 'A NVIDIA confirmou a compra do Hugging Face, a maior plataforma open-source de modelos de IA, por US$ 12,93 bilhões. Entenda o que isso muda no tabuleiro da inteligência artificial.',
     content: `
       <h2>O Anúncio que Mexeu com o Ecossistema Open-Source</h2>
@@ -6096,7 +6096,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '100',
     slug: 'artificial-luca-guadagnino-filme-sam-altman-nyff',
-    title: 'Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York',
+    title: 'Artificial: O Filme de Guadagnino sobre a Era da IA Chega a Nova York',
     excerpt: '“Artificial”, novo drama de Luca Guadagnino com distribuição da Neon e inspirado na ascensão de Sam Altman e da OpenAI, terá estreia mundial no New York Film Festival.',
     content: `
       <h2>Quando Hollywood Vira o Próprio Assunto</h2>
@@ -6310,7 +6310,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '105',
     slug: 'rockstar-defende-abastecimento-em-gta-6',
-    title: 'Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar',
+    title: 'Rockstar Diz que o Abastecimento de GTA 6 Não Incomodará',
     excerpt: 'Rockstar Games defende mecânica de abastecimento em GTA 6 e promete que sistema será rápido demais para incomodar jogadores.',
     content: `
       <h2>Rockstar defende abastecimento em GTA 6</h2>
@@ -6436,7 +6436,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '108',
     slug: 'edge-computinge-processamento-de-dados',
-    title: 'Edge Computing: Como o Processamento de Dados na Borda da Rede Está Mudando a Tecnologia',
+    title: 'Edge Computing: Dados Processados na Borda da Rede',
     excerpt: 'A RFC 9556 do IETF explica o que a computação na borda tenta resolver: sensibilidade a tempo, volume de dados, custo de conectividade, serviços intermitentes, privacidade e segurança. E explica também por que a nuvem continua sendo necessária.',
     content: `
 <h2>Por que o cálculo sai do centro de dados</h2>
@@ -6482,7 +6482,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '109',
     slug: 'tpu-tensor-processing-unit-google-ia',
-    title: 'TPU: Os Chips Especializados do Google que Aceleram o Treinamento de Inteligência Artificial',
+    title: 'TPU: O Chip do Google que Acelera o Treino de IA',
     excerpt: 'A TPU é um acelerador construído em torno de uma operação: a multiplicação de matrizes. A documentação do Google Cloud explica o MXU, as matrizes sistólicas, o papel do compilador XLA e por que dimensões múltiplas de 128 decidem o desempenho.',
     content: `
 <h2>Um chip desenhado em torno de uma única operação</h2>
@@ -6759,7 +6759,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '115',
     slug: 'energia-solar-espacial-paineis-orbita',
-    title: 'Energia Solar Espacial: A Ideia de Captar Luz do Sol no Espaço e Transmiti-la para a Terra',
+    title: 'Energia Solar Espacial: Luz do Sol na Órbita',
     excerpt: 'Coletar luz solar fora da atmosfera não é o mesmo que entregá-la na Terra. A ESA investe em pesquisa, e os gargalos estão na conversão de energia, na montagem de estruturas quilométricas e na manutenção em órbita.',
     content: `
 <h2>A ideia, e por que ela volta à mesa</h2>
@@ -6907,7 +6907,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '118',
     slug: 'preservacao-digital-filmes-antigos-restauracao',
-    title: 'Preservação Digital de Filmes: Como a Tecnologia Está Salvando Clássicos da Deterioração',
+    title: 'Preservação Digital: Como a Tecnologia Salva Filmes',
     excerpt: 'A deterioração do acetato acelera à medida que avança, e é por isso que o diagnóstico precoce importa: as tiras A-D detectam a síndrome do vinagre antes do cheiro. Um bom ambiente de armazenamento vence a natureza da degradação.',
     content: `
 <h2>Por que o celuloide se destrói sozinho</h2>
@@ -7002,7 +7002,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '120',
     slug: 'webcomics-quadrinhos-digitais-revolucao',
-    title: 'Webcomics e Quadrinhos Digitais: Como as Plataformas Online Estão Reinventando a Forma de Publicar HQs',
+    title: 'Webcomics: A Nova Forma de Publicar Quadrinhos',
     excerpt: 'O webtoon não é a página de quadrinhos em tela pequena: ele é desenhado para rolar no celular, acrescenta uma dimensão sonora e se publica por meio de plataformas que intermediam a relação entre autor e leitor.',
     content: `
 <h2>Uma migração de suporte, não de formato</h2>
@@ -7054,7 +7054,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '121',
     slug: 'representacao-diversidade-quadrinhos-evolucao',
-    title: 'Representação e Diversidade nos Quadrinhos: Como a Indústria Está Evoluindo para Incluir Todos os Leitores',
+    title: 'Representação e Diversidade na Mídia Visual: O Que os Dados Mostram',
     excerpt: 'Pesquisas que medem mídia visual mostram que a ausência de diversidade não é neutra: ela amplifica vieses. Mas o estudo mais rigoroso disponível analisou revistas e pôsteres, não quadrinhos, e o texto delimita esse alcance.',
     content: `
 <h2>O que a pesquisa sobre representação consegue medir</h2>
@@ -7099,7 +7099,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '122',
     slug: 'ilusoes-opticas-cerebro-enganado',
-    title: 'Ilusões de Óptica e o Cérebro: Como Nossa Mente é Enganada por Imagens que Não São o Que Parecem',
+    title: 'Ilusões de Óptica: Por Que o Cérebro Engana a Visão',
     excerpt: 'A visão não é uma câmera: o cérebro estima o objeto a partir de um padrão de luz ambíguo. A ilusão do tabuleiro de xadrez mostra que ver uma cor já exige corrigir a luz recebida pela iluminação da cena.',
     content: `
 <h2>O retina recebe luz, e não história</h2>
@@ -7155,7 +7155,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '123',
     slug: 'animais-que-usam-ferramentas-inteligencia',
-    title: 'Animais que Usam Ferramentas: A Inteligência Surpreendente de Espécies Além dos Humanos',
+    title: 'Animais que Usam Ferramentas: Entender o Que Conta',
     excerpt: 'Usar uma ferramenta exige que a forma do objeto seja aproveitada para atingir um objetivo. Chimpanzés ajustam o martelo à dureza da noz, corvos da Nova Caledônia pescam larvas com gravetos e polvos empilham cascas de coco para se proteger.',
     content: `
 <h2>O que realmente conta como usar uma ferramenta</h2>
@@ -7283,7 +7283,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '125',
     slug: 'hubble-webb-objetos-transnetunianos-passado-sistema-solar',
-    title: 'Hubble e Webb encontram pistas sobre o passado dos objetos mais distantes do Sistema Solar',
+    title: 'Hubble e Webb Estudam Objetos Transnetunianos Recém-Descobertos',
     excerpt: 'Hubble mediu a luz visível e Webb a infravermelha de 27 objetos transnetunianos recém-descobertos. O menor tem cerca de 5 quilômetros, e as observações indicam que colisões não alteraram suas superfícies.',
     content: `
 <h2>Corpos gelados além da órbita de Netuno</h2>
@@ -7383,7 +7383,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '127',
     slug: 'alphagenome-atlas-ia-9-bilhoes-variantes-dna',
-    title: 'AlphaGenome Atlas: a IA que mapeou os efeitos de 9 bilhoes de possiveis alteracoes no DNA',
+    title: 'AlphaGenome Atlas: A IA que Lê Bilhões de Mutações',
     excerpt: 'O AlphaGenome é o modelo do Google DeepMind que prevê o efeito de variantes genéticas. O AlphaGenome Atlas é o conjunto de 1 petabyte que guarda a previsão para as nove bilhões de trocas possíveis, cada uma com uma pontuação de impacto.',
     content: `
 <h2>Dois nomes que aparecem juntos, mas não são a mesma coisa</h2>
@@ -7521,7 +7521,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '130',
     slug: 'base-editing-lapis-edicao-genetica-desenvolvimento-humano',
-    title: 'Os lapis de edicao genetica: como o base editing ajuda a estudar o desenvolvimento humano',
+    title: 'Edição de Bases: A Ferramenta que Troca uma Letra do DNA',
     excerpt: 'A edição de bases, e não o corte de DNA, permitiu silenciar o gene NANOG em embriões humanos e mostrar que o epiblasto não se forma sem ele. O estudo é ciência básica, e não tratamento.',
     content: `<h2>Do corte de dupla fita à troca de uma letra</h2><p>O nome "lápis de edição genética" é um apelido jornalístico, e não um termo técnico. A tecnologia descrita neste artigo chama-se edição de bases, do inglês <em>base editing</em>. A distinção importa. O CRISPR/Cas9 clássico funciona como uma tesoura molecular: produz uma quebra de dupla fita no DNA, e a célula repara esse corte de forma imprevisível. A edição de bases troca um único par de bases nitrogenadas sem gerar essa quebra, o que deu origem à analogia do lápis, que corrige em vez de rasgar a página. Nos artigos científicos, o que aparece é o nome técnico da ferramenta, e não a metáfora.</p><p>O trabalho, publicado na revista Nature em 25 de junho de 2026 e assinado por Oliver J. Bower e colaboradores, aplicou edição de bases de adenina ABE8e para atingir um sítio doador de splice de um íntron. Isso produziu um defeito de splicing e, com isso, um nocaute funcional do gene NANOG em embriões humanos. A perda de NANOG impediu a especificação do epiblasto, a população de células que forma o próprio embrião. Em vez disso, as células seguiram em direção ao endoderma primitivo, o saco vitelino, ou à trofectoderme, o componente placentário. O estudo também registrou que os embriões humanos editados mantêm a diferenciação em endoderma primitivo de um modo que os embriões de camundongo não mantêm, uma compensação funcional distinta da observada em murinos.</p><p>A equipe de Kathy Niakan, do Loke Centre for Trophoblast Research da Universidade de Cambridge, já havia mostrado em trabalho anterior que o uso do CRISPR convencional em células embrionárias humanas provoca anormalidades cromossômicas, e concluiu que aquela técnica não deveria ser usada em embriões humanos para correção genética. Essa observação anterior é a razão direta de a equipe recorrer à edição de bases. No estudo de 2026, a edição não provocou genotoxicidade observável e apresentou edição fora do alvo limitada, o que representa uma vantagem mensurável em relação às abordagens baseadas em nuclease.</p><p>Este não é o primeiro estudo do grupo a editar genes em embriões humanos. Em 2017, Fogarty e colaboradores publicaram na Nature artigo mostrando que a edição genética revela um papel para OCT4 na embriogênese humana. O que muda agora é a ferramenta: onde antes o grupo usava uma abordagem baseada em nuclease, com os problemas cromossômicos já documentados, a edição de bases permite silenciar o mesmo tipo de gene-alvo com menos dano observável. Ou seja, o estudo de 2026 se apoia em uma técnica já testada em embriões humanos, mas aplicada com um método diferente.</p><h2>Por que o epiblasto importa</h2><p>O epiblasto é a camada que origina o corpo do embrião. Quando as células não conseguem se tornar epiblasto, seguem outros rumos de diferenciação e o embrião deixa de se organizar como deveria. Entender esse passo é relevante para a medicina reprodutiva, para a pesquisa em medicina regenerativa e para compreender por que tantos embriões de fertilização in vitro falham em se desenvolver, apesar de aparecerem com aparência normal na avaliação morfológica. A utilidade da ferramenta está, portanto, na capacidade de investigação, e não em uma terapia.</p><p>Um dos resultados mais relevantes do trabalho é justamente onde humanos e camundongos divergem. Quando os embriões de camundongo perdem a capacidade de formar epiblasto, as células normalmente não mantêm a diferenciação em endoderma primitivo. Nos embriões humanos, essa via foi preservada. A equipe interpreta isso como uma compensação funcional ausente nos murinos, e a consequência é direta para a biologia: o desenvolvimento humano não pode ser deduzido do desenvolvimento murino, e ferramentas derivadas de modelos animais precisam ser validadas em sistema humano. Esse argumento aparece como justificativa para o uso de embriões humanos em laboratório, e é o que separa esta pesquisa de uma manipulação de células em cultura.</p><h2>As limitações que os próprios autores reconhecem</h2><p>Especialistas que comentaram o estudo de forma independente, entre eles Helen O’Neill, da University College London, e Robin Lovell-Badge, laureado com o Nobel de Medicina em 2016, consideraram o trabalho cuidadosamente delimitado. Os números são pequenos, os embriões não foram transferidos de volta para o organismo, e permanecem questões em aberto sobre mosaicismo, efeitos fora do alvo, competência de desenvolvimento e sobre a possibilidade de algum dia se demonstrar segurança no nível exigido para uso clínico. A edição de bases não eliminou as edições fora do alvo, apenas as reduziu. O trabalho também nada estabelece sobre a criação de embriões com alterações hereditárias.</p><h2>Para que serve uma ferramenta como esta no laboratório</h2><p>A utilidade prática de silenciar um gene em embriões humanos está na modelagem de doença. A Universidade de Cambridge resume os usos da linha de células-tronco embrionárias humanas em três frentes: modelagem de doença, terapia de reposição celular e descoberta de medicamentos. A edição de bases entra como ferramenta de perturbação: sem ela, é difícil saber se um fenótipo observado em cultura de células decorre do gene estudado ou de artefato do sistema. Um gene desligado de forma limpa é o que permite essa verificação.</p><h2>Ciência básica, e não tratamento</h2><p>Este estudo não é tratamento, não é procedimento e não está disponível para pacientes. É ciência básica sobre as regras genéticas que regem os primeiros estágios da vida humana. A discussão ética sobre edição de embriões costuma ser enquadrada como se o único destino possível fosse o de gerar bebês de designer, e esse enquadramento perde o valor científico imediato da ferramenta. A aplicação clínica direta, se vier a existir, será a de compreender melhor a infertilidade e a perda gestacional, e isso ainda exigiria anos adicionais de pesquisa e de debate regulatório. A edição germinativa em humanos permanece proibida ou fortemente restrita na maioria das jurisdições.</p>`,
     category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
@@ -7586,7 +7586,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '133',
     slug: 'mewgenics-rpg-gatos-genetica-xbox',
-    title: 'Mewgenics: o RPG de gatos com genetica, estrategia e roguelike que chegou ao Xbox',
+    title: 'Mewgenics: O RPG de Gatos com Genética, Estratégia e Roguelike',
     excerpt: 'Mewgenics transformou a criação de gatos em sistema central: a genética é herdada entre gerações e decide o combate por turnos em grade. O jogo saiu no PC em fevereiro e nos consoles em setembro de 2026.',
     content: `<h2>Oito anos de desenvolvimento para um jogo sobre gatos</h2><p>Mewgenics é um jogo de estratégia por turnos, roguelike e simulação, criado por Edmund McMillen, conhecido por The Binding of Isaac e Super Meat Boy, e por Tyler Glaiel, conhecido por Closure e The End Is Nigh. A história do projeto é longa. O jogo foi anunciado em 2012 pela Team Meat como continuação de Super Meat Boy, entrou em um ciclo de produção que o público acompanhou de perto e chegou a ser cancelado. Foi então readquirido por McMillen, que passou a desenvolvê-lo em 2018 ao lado de Glaiel. No computador, o lançamento aconteceu em 10 de fevereiro de 2026, e o começo foi forte: a loja registra mais de 150 mil cópias vendidas nas primeiras seis horas. Nos consoles, saiu em 8 de setembro de 2026 para Nintendo Switch 2, PlayStation 5 e Xbox Series X e S, publicado pela Nicalis.</p><h2>O circuito do dia a dia começa na casa dos gatos</h2><p>A peça central é o que a página oficial chama de circuito do gato. Tudo acontece em Boon County, e o ponto de partida é a casa do jogador. A cada dia, um grupo é montado a partir do elenco que vive ali, e cada gato recebe uma coleira de classe, como lutador, tanque ou mago. A partir desse arranjo é que a partida se organiza. O avanço geracional é literal: os gatos que voltam das aventuras chegam com cicatrizes, com experiência e, às vezes, com cabeças a mais, e tudo isso é repassado para a geração seguinte.</p><h2>A criação em série é o sistema central, não um detalhe</h2><p>Aqui está a diferença em relação a quase todos os outros jogos de que trata este site. A genética não é um bônus nem uma variação cosmética. É o motor do jogo. Os descendentes herdam traços, mutações e defeitos, e o jogador pode mexer na linhagem, explorar combinações estranhas e escolher entre manter um filhote ou entregá-lo a um dos muitos personagens que existem no jogo, que em troca melhoram a casa. A própria Nicalis descreve o sistema como uma criação de gatos por gerações, e resume o desenho de combate em grade em que posicionamento e sinergia de itens são a diferença entre sobreviver e desaparecer. O resultado é um jogo em que decidir quem entra na equipe da manhã é tão importante quanto a batalha da tarde.</p><p>O volume de conteúdo é grande mesmo em termos de estrutura. A ficha oficial lista dez ou mais classes de personagem, com 75 habilidades únicas em cada uma, o que dá a base de um repertório tático com mais de mil habilidades. Somam-se a isso mais de 900 itens, mais de 200 inimigos e chefes e uma campanha principal com mais de 200 horas. A loja acrescenta 281 conquistas no computador e dez idiomas, entre os quais o português do Brasil. O combate acontece em grade e por turnos, e a própria Nicalis resume o ponto central em uma frase: fatores como posicionamento e sinergia de itens podem ser a diferença entre a sobrevivência e a extinção. Ou seja, o valor de cada turno não está em atacar com mais força, mas em ocupar a posição certa e combinar efeitos. A campanha é ramificada, de modo que inimigos, objetivos e desafios mudam conforme as escolhas feitas.</p><h2>O que a loja avisa sobre o conteúdo adulto</h2><p>A descrição do conteúdo na loja é direta e vale citá-la. O jogo traz efeitos de sangue, desmembramento e decapitação, com áreas salpicadas de entranhas. Também há pisos cobertos de fezes e urina, e certos itens permitem que os gatos se aliviem ou convoquem personagens com foco em excremento. Os jogadores podem usar pílulas para melhorias temporárias, e é comum ver gatos se montando uns nos outros, o que pode ser desativado nas configurações. A classificação indicativa é 14 anos, com linguagem imprópria, drogas ilícitas e violência. Nada disso é surpresa em um jogo de fantasia sombria, mas é informação relevante para quem decide pela faixa etária da família.</p><p>Vale notar a ordem dos lançamentos. O computador recebeu o jogo em 10 de fevereiro de 2026, cerca de sete meses antes das versões de console, que saíram em 8 de setembro de 2026 para Nintendo Switch 2, PlayStation 5 e Xbox Series X e S, com publicação da Nicalis. Quem se interessou no computador pôde acompanhar o título antes da chegada aos consoles. A proporção de avaliações citadas pela loja é da versão de computador, o que é uma limitação a considerar: o público que julga o jogo nos consoles ainda tende a ser menor.</p><h2>O que a loja diz sobre a proposta do jogo</h2><p>A própria página trata o caminho até o lançamento como parte da história. A descrição oficial posiciona Mewgenics como um roguelite de tática e criação, vindo dos criadores de The Binding of Isaac e The End Is Nigh. A diferenciação está no peso dado à parte genética: em quase todo RPG a árvore de talentos é uma escolha individual dentro de uma partida, enquanto aqui a herança atravessa gerações e sobrevive às expedições. A frase que resume a proposta está na própria ficha: criar o exército de gatos perfeito e enviá-lo a aventuras táticas em busca de comida, dinheiro e tesouros.</p><p>Pelos números, o público é quem gosta de comparar duas soluções antes de agir. A campanha de mais de 200 horas, com mais de mil habilidades e mais de 900 itens, só faz sentido para quem gosta de planejar e reaproveitar o que funcionou. Ao mesmo tempo, a ausência de cooperativo significa que o jogo premia o tempo sozinho, o que pode ser um problema para quem simplesmente não tem o hábito. Os números de venda e as avaliações sugerem que esse público existe e é grande, mas a decisão continua sendo individual.</p><p>A avaliação do público na loja é muito boa: 90 por cento das 28.805 avaliações em inglês são positivas, e o recorte dos últimos trinta dias mantém 86 por cento. A nota agregada indicada no Metacritic é 88, o que coloca o jogo acima da média entre as avaliações. Vale, porém, registrar o que ele não oferece. Mewgenics é de um jogador só, e isso está declarado na página oficial da Nicalis. Não há modo cooperativo, nem online, nem para dois no mesmo sofá. É um jogo de estratégia por turnos, não um cooperativo. Para quem procura a experiência compartilhada, essa é uma razão concreta para olhar em outra direção. O preço pedido na loja brasileira é de 88,99 reais para o computador.</p>`,
     category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
@@ -7607,7 +7607,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '134',
     slug: 'mandalorian-grogu-bastidores-efeitos-rotta-hutt',
-    title: 'The Mandalorian e Grogu: os bastidores dos efeitos e criaturas do novo filme de Star Wars',
+    title: 'Rotta the Hutt: Do Debut em Ahsoka a Protagonista em Star Wars',
     excerpt: 'Rotta the Hutt saiu da mochila de Ahsoka em 2008 e virou protagonista em ação ao vivo. A Lucasfilm e a ILM contam como o personagem foi desenhado, modelado digitalmente e por que a cena do rabo é uma citação de 1997.',
     content: `<h2>Quem é Rotta e de onde ele veio</h2><p>Rotta the Hutt é o filho de Jabba e o herdeiro do império hutt. O Databank oficial do Star Wars o descreve como uma espécie hutt, com 1,93 metro de altura, e o situa em Tatooine. O registro oficial também conta que o tio-avô dele, Ziro, por sua vez maquineou o sequestro do próprio Rotta como parte de um plano para desacreditar os Jedi e impedir uma aliança com os Hutts. O público conheceu o personagem muito antes do filme em ação ao vivo. Na estreia do longa animado The Clone Wars, no fim do verão de 2008, o filho de Jabba não passava de uma pequena massa verde dentro da mochila de Ahsoka Tano, com o apelido de Stinky. O próprio filme animado marcou também a estreia da personagem interpretada por Rosario Dawson. São quase duas décadas separando uma aparição minúscula e um papel de protagonista.</p><h2>A piada do rabo, repetida anos depois</h2><p>A página de bastidores da Lucasfilm abre o texto justamente com uma coincidência. Na Edição Especial de 1997 de Star Wars: A New Hope, o contrabandista Han Solo passa por trás de um Jabba feito em computação gráfica e pisa na cauda dele. Anos depois, o supervisor de animação da ILM Hal Hickel revela que a mesma coisa acontece no filme novo: durante a luta, Mando dá a volta por trás de Rotta, pisa na cauda para ganhar um pouco de altura e afasta o braço dele. A equipe afirma que a cena não foi inserida como referência, e a frase de Hickel é a de que a coincidência funciona como uma rima entre as duas obras. É um detalhe pequeno, mas diz algo sobre como a produção pensa a própria linhagem: um personagem de 1997 volta ao mesmo gesto, décadas depois, sem que ninguém precise explicar a piada.</p><h2>De onde veio o desenho de Rotta</h2><p>O processo começou longe da computação. O departamento de arte conceitual do diretor de produção Doug Chiang trabalhou em muitas iterações até resolver como seria uma versão adulta de Rotta, e potencialmente menos fedida. A arte conceitual do personagem é creditada a Richard Lim. Só depois o desenho chegou à Industrial Light & Magic, empresa responsável pelos efeitos do filme. A partir daí, a construção começou por uma iteração digital feita pelo modelador principal Masa Narita e sua equipe. A ordem importa para entender o processo: primeiro a forma, depois o volume, e só mais tarde a cena.</p><p>Masa Narita não começou do zero. Ele havia trabalhado antes nos Gêmeos Hutt para The Book of Boba Fett, e ele próprio diz que usou os dois como ponto de partida quando o trabalho de Rotta começou. O detalhe importa porque explica a economia do processo: criar um hutt convincente do zero exigiria resolver anatomia, proporções e pele desde o princípio. Partir de um par de Hutts já resolvido permite concentrar o trabalho no que faz Rotta ser ele, e não no gênero da criatura. Vale registrar com precisão o que a Lucasfilm documenta: trata-se de uma construção digital, feita na ILM.</p><h2>O calendário apertado entre dois projetos</h2><p>A mesma página de bastidores lembra que a segunda temporada de Ahsoka, a série de Rosario Dawson, chega no ano seguinte. Isso cria uma pressão real sobre a ILM, que precisava concluir o trabalho de um personagem novo, que já estava pronto no filme e que ao mesmo tempo ganhava um projeto próprio. Rotta deixa assim de ser um figurante animado de bolso e passa a ter orçamento, equipe e prazo de produção.</p><p>A distância entre as duas aparições é maior do que a escala do personagem sugere. Em 2008, Rotta era um detalhe de bolso dentro de uma história maior. No filme de 2026, ele é um dos personagens principais, o que significa que a equipe precisou resolver perguntas que antes não existiam: como ele se move em cena, como encara os atores, como reage à luz. Nada disso foi detalhado pela Lucasfilm. A documentação pública chega até o desenho e ao modelo digital, sem entrar na execução de cada cena. </p><h2>A distância entre as duas aparições, medida em anos</h2><p>A diferença de escala entre 2008 e 2026 é o dado mais simples de extrair e o mais revelador. Um personagem que ocupava a mochila de outra figura passou a ter cenas próprias, luz própria e orçamento próprio em menos de duas décadas. Ao mesmo tempo, a página de bastidores deixa claro que a ILM não partiu do zero: Narita reaproveitou o trabalho feito para os Gêmeos Hutt em outra produção. É esse o ponto que vale guardar sobre a produção, porque mostra que personagem novo em ação ao vivo pode se apoiar em personagem já resolvido em efeitos.</p><p>Vale entender o alcance dessa fonte. A página de bastidores da Lucasfilm é um texto de divulgação, não um relatório técnico de pipeline, e isso explica por que ela detalha desenho, modelagem e uma citação de supervisor, mas não descreve a execução de cada cena. O que o texto sustenta é uma cadeia curta e verificável: arte conceitual sob a responsabilidade de Doug Chiang, com desenho de Richard Lim, entregue à ILM, modelado digitalmente por Masa Narita, que reaproveitou trabalho anterior dos Gêmeos Hutt. Tudo o mais seria especulação.</p><p>Vale registrar o que não encontrei. As fontes oficiais que li descrevem o conceito, a modelagem digital na ILM e a citação do supervisor de animação, mas não detalham figurino, dublagem ou som de Rotta. Também não encontrei confirmação de que exista um boneco físico em escala para o personagem. O que está documentado, e é o que o texto acima sustenta, é uma construção digital feita pela Industrial Light & Magic. Qualquer afirmação sobre bonecos ou sobre som precisaria de outra fonte, e por isso não é feita aqui.</p>`,
     category: { id: 'filmes-series', slug: 'filmes-series', name: 'Filmes e Séries', description: 'Ficção científica, tecnologia no cinema e análise de produções', color: '#f97316' },
@@ -7650,7 +7650,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '136',
     slug: 'dc-marvel-crossover-cosmic-kiss-importancia',
-    title: 'DC/Marvel: por que o novo crossover entre os dois universos e tao importante',
+    title: 'DC x Marvel: Por Que o Novo Crossover é Importante',
     excerpt: 'Batman/Deadpool por Morrison e Mora, Superman/Homem-Aranha por Waid e Jimenez e 224 paginas que unem DC e Marvel pela primeira vez em mais de duas decadas.',
     content: `<h2>O que a coleção reúne, com números da própria DC</h2><p>A <strong>DC Comics</strong> anunciou que <strong>DC/Marvel: The Cosmic Kiss Caper &amp; Other Stories</strong> chega às bancas em <strong>8 de setembro de 2026</strong>. Segundo o comunicado oficial, trata-se de uma coletânea de <strong>224 páginas</strong> que reúne os quadrinhos de crossover DC/Marvel publicados mais recentemente, descrita pela editora como a primeira grande coleção de crossover entre as duas empresas em <strong>mais de duas décadas</strong>. A edição sai em <strong>capa dura e paperback</strong>, com uma nova capa desenhada por <strong>Jim Cheung</strong>.</p><p>O que a DC apresenta é o resultado editorial da cooperação entre as duas marcas: um volume que reúne histórias já publicadas e duas histórias que chegam ali pela primeira vez em formato impresso. A novidade não é, portanto, uma narrativa única que atravessa as páginas, mas um conjunto de aventuras independentes reunidas pelo mesmo tema. A distinção importa para quem compra, porque a leitura não exige ordem nem continuidade entre os capítulos.</p><h2>As duas histórias que dão nome ao volume</h2><p>As histórias de capa são <strong>Batman/Deadpool</strong>, escrita por <strong>Grant Morrison</strong> e desenhada por <strong>Dan Mora</strong>, e <strong>Superman/Homem-Aranha</strong>, escrita por <strong>Mark Waid</strong> e desenhada por <strong>Jorge Jiménez</strong>. O comunicado descreve a primeira como o choque entre o Cavaleiro das Trevas de Gotham e o Mercenário Falante do universo Marvel.</p><p>Na segunda, o roteiro declarado é mais específico: Clark Kent e Peter Parker perseguem a mesma história e descobrem uma conspiração que envolve <strong>Brainiac</strong> e <strong>Doctor Octopus</strong> e ameaça os dois mundos. É uma premissa que permite que dois protegidos se cruzem sem que nenhum precise abandonar o próprio jeito de ser. O Clark Kent jornalista e o Peter Parker detetive alimentam a mesma investigação, e a tensão nasce da dificuldade de um confiar no outro.</p><h2>As duplas curtas e os criadores por trás delas</h2><p>Além das duas histórias de capa, a coleção reúne <strong>histórias curtas</strong> com emparelhamentos inesperados: <strong>Lois Lane com Mary Jane Watson</strong>, <strong>Power Girl com Punisher</strong>, <strong>Nightwing com Wolverine</strong>, <strong>Jimmy Olsen com Carnage</strong> e <strong>Superboy com Homem-Aranha 2099</strong>, entre outros pares citados pela editora. São exatamente esses cruzamentos de personagens de apoio que servem de porta de entrada para quem não acompanha as séries regulares das duas editoras.</p><p>A lista de autores e desenhistas é extensa e reúne nomes do mainstream contemporâneo dos dois selos: <strong>Tom King, Jim Lee, Gail Simone, Belén Ortega, Tom Taylor, Bruno Redondo, Matt Fraction, Steve Lieber, Sean Murphy, Christopher Priest, Daniel Sampere, Greg Rucka, Nicola Scott, Jeff Lemire</strong> e <strong>Rafa Sandoval</strong>, entre outros. O comunicado destaca ainda os elencos das histórias de capa e também cita <strong>Denys Cowan, G. Willow Wilson, Mariko Tamaki, Amanda Conner, Hayden Sherman, James Tynion IV, Joshua Williamson, Scott Snyder, Jeremy Adams, Adrian Gutierrez, CRC Payne</strong> e <strong>Mikel Janín</strong>.</p><h2>Por que duas dessas histórias chegam agora em papel</h2><p>Um dos pontos práticos da coleção é a destinação de <strong>duas histórias que já existiam em formato digital</strong> e que recebem ali as suas <strong>primeiras edições impressas</strong>: <strong>DC/Marvel: The Flash/Fantastic Four</strong>, por <strong>Jeremy Adams</strong> e <strong>Adrian Gutierrez</strong>, e <strong>DC/Marvel: Supergirl/Blade</strong>, por <strong>CRC Payne</strong> e <strong>Mikel Janín</strong>. Ambas havia aparecido como quadrinhos digitais de <strong>rolagem vertical</strong>, um formato pensado para leitura em tela longa.</p><p>A coletânea reúne, portanto, quatro títulos: <strong>Batman/Deadpool 1</strong> e <strong>Superman/Homem-Aranha 1</strong>, ambos em sua edição número um, e as duas histórias digitais convertidas para o formato tradicional. O anúncio oficial não traz, nesse momento, sinalização de novos títulos além desses, nem uma relação de eventos que indique o vindouro dos próximos confrontos entre as editoras.</p><h2>Quando DC e Marvel se cruzaram pela última vez</h2><p>O histórico ajuda a dimensionar o que a editora chama de mais de duas décadas. Segundo reportagem do <strong>SYFY WIRE</strong>, as duas empresas cooperaram pela primeira vez em <strong>1975</strong>, na adaptação em quadrinhos de <strong>O Mágico de Oz</strong> produzida para a MGM, escrita por <strong>Roy Thomas</strong> e desenhada por <strong>John Buscema</strong> e <strong>Tony DeZuniga</strong>. O reencontro entre super-heróis das duas marcas veio no ano seguinte, com <strong>Superman vs. Homem-Aranha</strong>, escrita por <strong>Gerry Conway</strong> e com arte de <strong>Ross Andru</strong>.</p><p>Depois daquele episódio vieram confrontos como <strong>Darkseid contra Galactus</strong>, <strong>X-Men contra os Teen Titans</strong>, <strong>Batman com o Punisher</strong> e <strong>Superman com os Fantastic Four</strong>, uma série de encontros que a reportagem localiza entre os anos 1970 e o começo dos anos 2000, e que terminou com <strong>JLA/Vingadores</strong> em <strong>2003</strong>. Na mesma entrevista, Conway descreveu a relação entre as editoras como <strong>competição estrutural</strong>, e não guerra, atribuindo à própria concorrência o papel de manter as duas na liderança do setor.</p><p>É nesse intervalo que a coleção de setembro se insere. A escala é outra: enquanto os encontros anteriores eram eventos pontuais, o volume atual empacota dezenas de histórias e reúne de uma só vez boa parte do elenco de criadores das duas empresas. Para o leitor, a leitura permanece por histórias avulsas; o que muda é a escala da cooperação entre as editoras, agora descrita pela própria DC como um marco.</p>`,
     category: { id: 'quadrinhos', slug: 'quadrinhos', name: 'Quadrinhos', description: 'Comics, super-heróis', color: '#6366f1' },
@@ -7777,7 +7777,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '141',
     slug: 'fusao-nuclear-iter-avanco-energia-comercial',
-    title: 'Fusao nuclear: por que o ITER esta avancando e o que falta para energia comercial',
+    title: 'Fusão Nuclear: Por que o ITER Avança e o que Falta',
     excerpt: 'O ITER vai injetar 50 MW de aquecimento para produzir 500 MW de fusão, um ganho de dez vezes que ainda é objetivo de projeto. O recorde atual em tokamak é Q igual a 0,67, e a máquina não foi desenhada para gerar eletricidade.',
     content: `
 <h2>Por que a fusão é difícil de reproduzir na Terra</h2>
@@ -10551,7 +10551,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 {
     id: '193',
     slug: 'perseverance-possivel-vida-marte-biossignatura',
-    title: 'Possível Vida em Marte: O Que o Perseverance Encontrou e o Que Isso Realmente Significa',
+    title: 'Possível Vida em Marte: O Que o Perseverance Encontrou — e o Que Falta',
     excerpt: 'O rover encontrou minerais e matéria orgânica que podem ter origem biológica em Marte. Isso não é prova de vida, e a diferença entre as duas coisas é o ponto central desta explicação.',
     content: `<h2>O que aconteceu, em uma frase</h2>
       <p>Em 10 de setembro de 2025, a NASA anunciou que uma amostra de rocha coletada pelo rover Perseverance na cratera Jezero contém o que a agência chama de <strong>potencial biossignatura</strong>: substâncias e estruturas que podem ter origem biológica, mas que ainda não permitem concluir se houve ou não vida ali. A análise foi publicada na revista <em>Nature</em>, com Joel Hurowitz, da Universidade de Stony Brook, como autor principal.</p>
@@ -10904,7 +10904,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
   {
     id: '196',
     slug: 'por-que-taiwan-importa-tanto-para-os-chips',
-    title: 'Por que Taiwan Importa Tanto para os Chips: A Fábrica que o Mundo Não Consegue Substituir',
+    title: 'Por que Taiwan Domina a Produção de Chips',
     excerpt: 'Uma única empresa responde por mais de sete em cada dez dólares de fabricação de chips contratados no mundo. Entender o que está em jogo nessa concentração.',
     content: `<h2>O número que resume o problema</h2>
       <p>No segundo trimestre de 2026, a TSMC — Taiwan Semiconductor Manufacturing Company — teve receita de fundição próxima de <strong>40,2 bilhões de dólares</strong> e participação de <strong>72,5% do mercado mundial</strong> de fabricação de chips por contrato, segundo a TrendForce. É a maior fatia já registrada pela empresa.</p>
@@ -10989,7 +10989,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
   {
     id: '197',
     slug: 'como-saber-se-um-asteroide-vai-atingir-a-terra',
-    title: 'Como Saber se um Asteroide Vai Atingir a Terra: O Que a NASA Faz e o Que Ela Ainda Não Sabe',
+    title: 'Como Saber se um Asteroide Vai Atingir a Terra',
     excerpt: 'A ciência já desviou um asteroide de propósito e mediu o quanto. Mas a pergunta mais difícil continua sem resposta: como prever o comportamento de um corpo que nunca vemos de perto.',
     content: `<h2>A pergunta que a astronomia ainda não responde</h2>
       <p>Em 2025, um asteroide chamado <strong>2024 YR4</strong> ficou brevemente entre os objetos mais discutidos do planeta. Quando foi descoberto, as estimativas de chance de impacto com a Terra em 22 de dezembro de 2032 eram pequenas, porém não desprezíveis. Depois que o <a href="/espaco/telescopio-espacial-james-webb">telescópio James Webb</a> observou o objeto em duas datas, a NASA anunciou que não havia risco significativo para a Terra em 2032 nem depois.</p>

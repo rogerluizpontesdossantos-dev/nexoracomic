@@ -81,6 +81,13 @@ export interface Category {
   id: string;
   slug: string;
   name: string;
+  /**
+   * Título usado APENAS no `<title>`, Open Graph e Twitter da página da
+   * categoria. Fica separado de `name` de propósito: `name` é o rótulo
+   * visível (h1, menus, cards, breadcrumb, busca) e mudar ele quebraria a
+   * interface e a busca. Ausente -> usa `name`, como sempre foi.
+   */
+  seoTitle?: string;
   description: string;
   color: string;
 }
@@ -164,6 +171,7 @@ export const CATEGORIES: Category[] = [
     id: 'ciencia',
     slug: 'ciencia',
     name: 'Ciência',
+    seoTitle: 'Ciência: Genética, Biologia e Medicina',
     description: 'Biologia, física, química, neurociência e descobertas científicas',
     color: '#8b5cf6'
   },
@@ -171,6 +179,7 @@ export const CATEGORIES: Category[] = [
     id: 'tecnologia',
     slug: 'tecnologia',
     name: 'Tecnologia',
+    seoTitle: 'Tecnologia: Chips, Gadgets e Computação',
     description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
     color: '#06b6d4'
   },
@@ -178,6 +187,7 @@ export const CATEGORIES: Category[] = [
     id: 'espaco',
     slug: 'espaco',
     name: 'Espaço',
+    seoTitle: 'Espaço: Astronomia, Missões e Descobertas',
     description: 'Astronomia, NASA, planetas, estrelas e missões espaciais',
     color: '#f59e0b'
   },
@@ -185,6 +195,7 @@ export const CATEGORIES: Category[] = [
     id: 'inteligencia-artificial',
     slug: 'inteligencia-artificial',
     name: 'Inteligência Artificial',
+    seoTitle: 'Inteligência Artificial: IA Generativa e Ferramentas',
     description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
     color: '#ec4899'
   },
@@ -192,6 +203,7 @@ export const CATEGORIES: Category[] = [
     id: 'futuro',
     slug: 'futuro',
     name: 'Futuro',
+    seoTitle: 'Futuro: Energia, Espaço e Biotecnologia',
     description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes',
     color: '#10b981'
   },
@@ -199,6 +211,7 @@ export const CATEGORIES: Category[] = [
     id: 'games',
     slug: 'games',
     name: 'Games',
+    seoTitle: 'Games: Notícias e Tecnologia dos Jogos',
     description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
     color: '#ef4444'
   },
@@ -206,6 +219,7 @@ export const CATEGORIES: Category[] = [
     id: 'filmes-series',
     slug: 'filmes-series',
     name: 'Filmes e Séries',
+    seoTitle: 'Filmes e Séries: Streamings e Tecnologia no Cinema',
     description: 'Ficção científica, tecnologia no cinema e análise de produções',
     color: '#f97316'
   },
@@ -213,6 +227,7 @@ export const CATEGORIES: Category[] = [
     id: 'quadrinhos',
     slug: 'quadrinhos',
     name: 'Quadrinhos',
+    seoTitle: 'Quadrinhos: Marvel, DC e Comics',
     description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
     color: '#6366f1'
   },
@@ -220,6 +235,7 @@ export const CATEGORIES: Category[] = [
     id: 'curiosidades',
     slug: 'curiosidades',
     name: 'Curiosidades',
+    seoTitle: 'Curiosidades: Bichos, Natureza e Estranhos Fenômenos',
     description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns',
     color: '#14b8a6'
   }
