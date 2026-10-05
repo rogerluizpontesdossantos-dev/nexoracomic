@@ -11066,4 +11066,622 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     ],
     relatedArticles: ['telescopio-espacial-james-webb'],
   },
+  {
+    id: '198',
+    slug: 'runescape-reignited-lancamento-runefest-2026',
+    title: 'RuneScape Reignited Chega em Dezembro e Jagex Anuncia Quarto MMO',
+    excerpt: 'O RuneFest 2026 levou mais de 6 mil pessoas a Birmingham: um quarto MMORPG sem nome, RuneScape Reignited em 2 de dezembro, a saga Menaphos e uma adaptação animada de Gielinor.',
+    content: `
+      <h2>O que foi anunciado no RuneFest 2026</h2>
+      <p>A Jagex realizou o RuneFest 2026 em Birmingham, no NEC, nos dias 3 e 4 de outubro, e apresentou o conjunto de anúncios mais ambicioso da história do evento. O ponto de partida factual é simples: um quarto MMORPG da franquia está em desenvolvimento inicial, ainda sem nome, voltado a uma nova geração de jogadores; e <strong>RuneScape Reignited</strong>, a remasterização do jogo original, chega em <strong>2 de dezembro de 2026</strong>.</p>
+      <p>Segundo o comunicado oficial da Jagex, o novo projeto está ainda em estágios iniciais de desenvolvimento e será construído em <strong>Unreal Engine</strong>. Não há data de lançamento, título nem plataformas definidos para esse quarto MMORPG: a empresa confirmou apenas que o trabalho começou.</p>
+
+      <h2>RuneScape Reignited: 25 anos de desenvolvimento</h2>
+      <p>Reignited é a peça mais concreta do anúncio: um lançamento confirmado para 2 de dezembro, apresentado como a experiência definitiva do RuneScape original, ao lado do maior roadmap já previsto para o jogo. A Jagex descreve o projeto como "25 anos em desenvolvimento" e propõe convidar jogadores antigos e novos a retornarem juntos ao mundo de Gielinor.</p>
+
+      <h3>Old School RuneScape e a porta de Menaphos</h3>
+      <p>O Old School RuneScape recebeu o roadmap mais denso de sua história. O destaque é a abertura das <em>Golden Gates to Menaphos</em>, uma região que os jogadores esperam há <strong>20 anos</strong>, acompanhada de conteúdo solicitado pela comunidade. A empresa reforçou que o Old School segue com o modelo de MMO conduzido pela comunidade.</p>
+
+      <h3>Dragonwilds: Blood Crystal Saga</h3>
+      <p>Para <strong>RuneScape: Dragonwilds</strong>, o anúncio foi a <em>Blood Crystal Saga</em>, somada a planos de atualização para 2027. O jogo, lançado em 2026, está disponível em PC (Steam e Epic Games Store, além do Jagex Launcher) e também em Nintendo Switch 2, PlayStation 5 e Xbox Series X|S.</p>
+
+      <h2>RuneScape fora das plataformas de jogo</h2>
+      <p>Pela primeira vez, a Jagex anunciou que trabalha em uma adaptação animada da franquia, em parceria com <strong>Charlie White</strong>, conhecido como MoistCr1TiKaL, e com a produtora de Los Angeles <strong>Lyrical Media</strong>. O objetivo declarado é levar o mundo, os personagens e as histórias de Gielinor a formatos e públicos além dos jogos.</p>
+      <p>Os <em>Golden Gnome Awards</em> voltaram com <strong>44 prêmios</strong> reconhecendo criadores de conteúdo, colaboradores da comunidade e cosplayers. A marca de streetwear Scape Ink lançou uma coleção em parceria com o Old School RuneScape, vendida exclusivamente na loja oficial da franquia.</p>
+
+      <h2>O tamanho da base</h2>
+      <p>Para dimensionar o que a empresa administra: a franquia já somou mais de <strong>300 milhões de contas de jogadores</strong> no mundo todo e chega a 25 anos em 2026. A Jagex afirma estar acelerando a estratégia de expansão para além dos jogos, com redução de mecanismos de monetização como parte desse movimento.</p>
+
+      <h2>O que ainda não se sabe</h2>
+      <p>Vale separar fato de expectativa. São fatos: o quarto MMORPG existe e está no início do desenvolvimento, Reignited sai em 2 de dezembro, Menaphos está chegando no Old School e a adaptação animada está em produção com os parceiros citados. Não são fatos: o nome do novo MMO, sua data, suas plataformas, o preço do Reignited e o formato da série animada. Nada disso foi divulgado.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['RuneScape', 'Jagex', 'MMORPG', 'RuneFest 2026', 'Unreal Engine'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Safe_In_The_Stronghold_%28121676859%29.jpeg/960px-Safe_In_The_Stronghold_%28121676859%29.jpeg',
+    imageAlt: 'Ilustração de uma fortaleza medieval em um cenário de fantasia',
+    imageLicense: 'CC BY 3.0',
+    imageArtist: 'Brian Shepard',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Safe_In_The_Stronghold_(121676859).jpeg',
+    sources: [
+      {
+        title: 'RUNEFEST 2026: Jagex unveils fourth MMO in the RuneScape Franchise, Plus RuneScape Reignited, Old School Menaphos and more',
+        url: 'https://www.gamespress.com/RUNEFEST-2026-Jagex-unveils-fourth-MMO-in-the-RuneScape-Franchise-Plus',
+        publisher: 'Games Press / Jagex',
+        type: 'official',
+      },
+      {
+        title: 'RuneScape: Dragonwilds — anúncios e novidades oficiais',
+        url: 'https://dragonwilds.runescape.com/',
+        publisher: 'Jagex',
+        type: 'official',
+      },
+      {
+        title: 'Jagex - The RuneScape Company (site institucional)',
+        url: 'https://www.jagex.com/',
+        publisher: 'Jagex',
+        type: 'company',
+      },
+    ],
+  },
+  {
+    id: '199',
+    slug: 'aion-2-lancamento-global-steam',
+    title: 'AION 2 Lança Globalmente e de Graça na Steam e no PURPLE',
+    excerpt: 'O MMORPG de mundo aberto da NC chegou à versão global em 30 de setembro e está aberto de graça no PC, com servidores na América do Norte, América do Sul, Europa e Japão.',
+    content: `
+      <h2>O lançamento, em uma frase</h2>
+      <p>A NC (antiga NCSOFT) anunciou em <strong>5 de outubro de 2026</strong> que <strong>AION 2</strong>, seu MMORPG de mundo aberto, está disponível <strong>gratuitamente</strong> para o público global no PC, tanto na <strong>Steam</strong> quanto na plataforma própria <strong>PURPLE</strong>. O jogo é específico para PC.</p>
+
+      <h2>Early Access e o topo de vendas</h2>
+      <p>O lançamento ocorreu em duas etapas. No <strong>30 de setembro</strong>, o AION 2 entrou em Early Access, abrindo a campanha <em>War For Atreia</em>. Segundo a NC, o jogo alcançou a <strong>primeira posição na tabela geral de mais vendidos da Steam em mais de 10 regiões</strong> logo na entrada. Em 5 de outubro veio a abertura para o público global.</p>
+      <p>Antes disso, houve preparação: em março de 2026 a NC começou a ouvir jogadores ocidentais diretamente, publicou vídeos narrados pela equipe de desenvolvimento, ajustou preços para se aproximar das expectativas do mercado ocidental e apresentou um roadmap de revelações. O jogo foi exibido no Summer Games Fest Play Days, em junho, e na Gamescom, em agosto. Um teste de escala aberto aconteceu em meados de setembro.</p>
+
+      <h2>Idiomas, servidores e classificação</h2>
+      <p>O AION 2 foi criado especificamente para PC, com servidores localizados na <strong>América do Norte, América do Sul, Europa e Ásia (Japão)</strong>. O jogo está localizado em inglês, alemão, francês, espanhol, <strong>português</strong>, japonês, coreano e russo. A classificação é <strong>ESRB T</strong> (Teen) e <strong>PEGI 16+</strong>.</p>
+
+      <h2>O que o jogo oferece</h2>
+      <ul>
+        <li><strong>Mundo 36 vezes maior</strong> que o original, construído sobre Unreal Engine 5 com modificações para personalização e multijogador</li>
+        <li><strong>Voo e movimento livres</strong> como eixo central da experiência, com combate aéreo</li>
+        <li><strong>Combate acelerado</strong> que combina precisão, tempo e posicionamento ao estilo de targeting tradicional</li>
+        <li><strong>Conteúdo PvE</strong> que vai de masmorras solo e para cinco jogadores a raids de dez jogadores</li>
+        <li><strong>PvP</strong> com arenas 1x1 e 4x4, batalhas RvR entre servidores e o retorno do Abyss por facções do AION original</li>
+        <li><strong>Oito classes</strong> e mais de 200 opções de personalização de personagem</li>
+      </ul>
+      <p>A história se passa <strong>200 anos após o conflito original</strong>. Depois da destruição da Torre da Eternidade, as facções tradicionais Elyos e Asmodians enfrentam um universo fragmentado e a facção Balaur, agora fortalecida.</p>
+
+      <h2>Contexto</h2>
+      <p>O AION original chegou aos PCs há <strong>17 anos</strong>, o que dá ao segundo uma expectativa considerável. A NC optou por publicar este título globalmente no PC e de graça, num momento em que vários MMORPG cobram mensalidade: a estratégia é de acesso amplo para construir base antes de qualquer monetização. Como a NC America é a divisão responsável pela operação e publicação na América do Norte, América do Sul, Europa e Oceania, trata-se de um lançamento com controle editorial ocidental completo.</p>
+      <p>O AION 2 está disponível para download gratuito na Steam e no PURPLE.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['AION 2', 'NCSoft', 'MMORPG', 'Steam', 'Unreal Engine 5'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/1823_Blechen_Ideale_Gebirgslandschaft_anagoria.JPG/960px-1823_Blechen_Ideale_Gebirgslandschaft_anagoria.JPG',
+    imageAlt: 'Paisagem montanhosa de fantasia em tinta, com grandes formações rochosas e nuvens',
+    imageLicense: 'Public domain',
+    imageArtist: 'Carl Blechen',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:1823_Blechen_Ideale_Gebirgslandschaft_anagoria.JPG',
+    sources: [
+      {
+        title: 'NC\u2019S EPIC MMORPG AION 2 LAUNCHES ON STEAM AND PURPLE TO A GLOBAL AUDIENCE',
+        url: 'https://www.gamespress.com/NCS-EPIC-MMORPG-AION-2-LAUNCHES-ON-STEAM-AND-PURPLE-TO-A-GLOBAL-AUDIEN',
+        publisher: 'Games Press / NC America',
+        type: 'official',
+      },
+      {
+        title: 'AION 2 - canal oficial do jogo no YouTube',
+        url: 'https://www.youtube.com/@Aion2Official',
+        publisher: 'NC',
+        type: 'official',
+      },
+    ],
+  },
+  {
+    id: '200',
+    slug: 'zelda-master-collection-cartas-panini',
+    title: 'The Legend of Zelda: Master Collection, a Primeira Coleção de Cartas da Nintendo',
+    excerpt: 'A Nintendo e a Panini anunciaram um set de cartas colecionáveis com arte de todos os jogos principais da franquia, celebrando os 40 anos da serie. Data e preco ainda nao foram definidos.',
+    content: `
+      <h2>O anúncio</h2>
+      <p>A Nintendo anunciou <strong>The Legend of Zelda: Master Collection</strong>, sua primeira coleção de cartas colecionáveis da franquia, produzida pela <strong>Panini</strong>, empresa italiana conhecida por cartões esportivos e pelinhas de Copa do Mundo. O anúncio oficial aconteceu durante o <strong>Zelda 40th Anniversary Direct</strong>, em setembro, e foi confirmado publicamente em 5 de outubro de 2026.</p>
+      <p>A coleção é descrita como uma retrospectiva <strong>centrada na arte</strong> que celebra a história da série. O conjunto vai reunir <strong>arte de todos os jogos principais</strong> dos 40 anos da franquia.</p>
+
+      <h2>O que já se sabe sobre o conteúdo</h2>
+      <p>As primeiras amostras apresentadas mostram representações de <strong>Link de Tears of the Kingdom</strong> (2023), <strong>Princesa Zelda de Skyward Sword</strong> (2011) e uma cena de <strong>Ocarina of Time</strong> (1998). A arte da caixa apresenta Link de vários jogos da série sobre fundo branco e dourado, com gravuras em cinza claro do mapa de Hyrule.</p>
+      <p>Também está previsto um <strong>álbum de coleção</strong> com design preto, elástico e marcação em dourado com foil do Zelda. O álbum fará parte da parceria, mas sem preço ou formato detalhados.</p>
+
+      <h2>O que ainda não foi anunciado</h2>
+      <p>Até o momento, a Nintendo <strong>não confirmou</strong> data de lançamento, preço, número total de cartas nem onde o set será vendido. Com base em produtos anteriores da Panini, estima-se que as caixas venham com <strong>entre 12 e 24 pacotes</strong>, cada booster com <strong>6 cartas</strong> — mas isso é inferência, não anúncio oficial.</p>
+
+      <h2>Por que esse momento</h2>
+      <p>O anúncio se encaixa numa estratégia de comemoração dos 40 anos da série, que começou em <strong>1986</strong> com o primeiro The Legend of Zelda. Desde então a franquia cresceu para <strong>21 títulos principais</strong> e aproximadamente <strong>46 jogos</strong> no total, incluindo remakes e spin-offs.</p>
+      <p>A Nintendo já vinha comemorando o aniversário com um <strong>remake moderno de Ocarina of Time</strong> e uma <strong>edição limitada de console Nintendo Switch 2</strong> com tema Zelda. Entre esses lançamentos já existem action figures e sets de LEGO anunciados. A entrada no mercado de cartas colecionáveis era o passo seguinte esperado, e o que surpreendeu foi o escopo: um retrospecto da arte de toda a história, não apenas dos títulos mais recentes.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['The Legend of Zelda', 'Nintendo', 'Panini', 'cartas colecionáveis', '40 anos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/BoTW_HyruleMapaUbicaciones.jpg/960px-BoTW_HyruleMapaUbicaciones.jpg',
+    imageAlt: 'Mapa de Hyrule de The Legend of Zelda: Breath of the Wild, com regiões e marcadores',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'PatoAnidae02',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:BoTW_HyruleMapaUbicaciones.jpg',
+    sources: [
+      {
+        title: 'The Legend of Zelda: Master Collection Officially Announced',
+        url: 'https://www.polygon.com/legend-of-zelda-master-collection-panini-trading-cards/',
+        publisher: 'Polygon',
+        type: 'news',
+      },
+      {
+        title: 'The Legend of Zelda - portal oficial da Nintendo',
+        url: 'https://www.nintendo.com/us/legend-of-zelda/',
+        publisher: 'Nintendo',
+        type: 'official',
+      },
+    ],
+  },
+  {
+    id: '201',
+    slug: 'ace-combat-8-wings-of-theve-lancamento',
+    title: 'Ace Combat 8: Wings of theve Chega em PC, PS5 e Xbox Series',
+    excerpt: 'A Bandai Namco lançou o primeiro título principal da série de simulação de voo em sete anos, com Unreal Engine 5, cross-play e a maior experiência multiplayer já feita na franquia.',
+    content: `
+      <h2>O lançamento</h2>
+      <p>A <strong>Bandai Namco Entertainment Asia</strong> anunciou em <strong>5 de outubro de 2026</strong> o lançamento mundial de <strong>ACE COMBAT 8: WINGS OF THEVE</strong>, o primeiro título da linha principal da série de <em>shooting</em> de voo em <strong>sete anos</strong>. Desenvolvido pela <strong>Bandai Namco Aces Inc.</strong>, o jogo está disponível agora em <strong>Edição Padrão</strong> e <strong>Edição Deluxe</strong> para <strong>PlayStation 5, Xbox Series X|S e PC via Steam</strong>.</p>
+
+      <h2>O que a Bandai Namco promete</h2>
+      <p>Segundo o comunicado oficial, o título usa <strong>Unreal Engine 5</strong> junto com tecnologia proprietária da Bandai Namco para entregar uma experiência de voo ultrarrealista. A empresa destaca:</p>
+      <ul>
+        <li><strong>Voo e combate aéreo</strong> como eixo da experiência</li>
+        <li>Uma <strong>ampla variedade de caças de combate</strong> inspirados em aeronaves reais</li>
+        <li><strong>Nuvens realísticas</strong> e terreno renderizado com alto nível de detalhe</li>
+        <li><strong>Condições meteorológicas</strong> que afetam diretamente o gameplay</li>
+        <li><strong>Cenas cinematográficas em primeira pessoa</strong>, colocando o jogador dentro da ação</li>
+      </ul>
+
+      <h2>A maior experiência multiplayer da série</h2>
+      <p>O jogo entrega o <strong>maior modo online já feito na franquia</strong>, com <strong>cross-play</strong> entre plataformas e entre regiões. O modo online tem sistema de progressão próprio, recompensas, treinamento, fliperama e atividades de jukebox. Há missões solo e eventos PvP.</p>
+      <p>Um <strong>Premium Ace Pass</strong> para o ACE COMBAT ONLINE está disponível à parte e vem incluído com o <strong>Premium Ace Pass Plus Voucher</strong> da Edição Deluxe, que libera o passe por uma temporada após o lançamento. A versão Plus concede desbloqueio imediato de 30 níveis do passe.</p>
+
+      <h2>Sobre o nome</h2>
+      <p>"Theve" é um termo de origem norueguesa usado historicamente para conflito ou batalha. O subtítulo traduz exatamente isso: a proposta é levar a tensão do combate aéreo para patamares novos.</p>
+
+      <h2>Evento de lançamento</h2>
+      <p>Para celebrar o lançamento, a Bandai Namco Entertainment Asia promove o <strong>ACE COMBAT 8: WINGS OF THEVE Official Launch Event</strong> no <strong>Orchard Central, em Singapura, de 7 a 11 de outubro de 2026</strong>. O evento é aberto ao público, gratuito, e terá demonstrações do jogo, o Hanging Bar Challenge, aparições de convidados especiais e brindes exclusivos.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['Ace Combat 8', 'Bandai Namco', 'simulador de voo', 'Unreal Engine 5', 'cross-play'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/F-15EX_Eagle_II.jpg/960px-F-15EX_Eagle_II.jpg',
+    imageAlt: 'Caça F-15EX Eagle II em voo, visto de baixo contra o céu',
+    imageLicense: 'Public domain',
+    imageArtist: 'Ethan Wagner',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:F-15EX_Eagle_II.jpg',
+    sources: [
+      {
+        title: 'ACE COMBAT 8: WINGS OF THEVE Takes Flight',
+        url: 'https://www.enduins.com/news/ace-combat-8-wings-of-theve-takes-flight-today',
+        publisher: 'Enduins / Bandai Namco Entertainment Asia',
+        type: 'official',
+      },
+      {
+        title: 'Bandai Namco Entertainment America - site oficial',
+        url: 'https://www.bandainamcoent.com/',
+        publisher: 'Bandai Namco',
+        type: 'company',
+      },
+    ],
+  },
+  {
+    id: '202',
+    slug: 'world-war-z-atualizacao-waves-of-lead',
+    title: 'World War Z Recebe a Atualizacao Waves of Lead, com Novos Modificadores',
+    excerpt: 'A Saber Interactive lancou gratuitamente a atualizacao Waves of Lead para PC, PlayStation e Xbox: cinco mutadores, seis perks de armas pesadas e uma nova espingeta de cano duplo.',
+    content: `
+      <h2>O que foi lancado</h2>
+      <p>A <strong>Saber Interactive</strong> lancou em <strong>5 de outubro de 2026</strong> a atualizacao <strong>"Waves of Lead"</strong> para <strong>World War Z</strong>, seu shooter de zumbis cooperativo. A atualizacao e <strong>gratuita para todos os jogadores</strong> de PlayStation 5, PlayStation 4, Xbox Series X|S, Xbox One, Steam e Epic Games Store.</p>
+
+      <h2>Os seis novos perks de armas pesadas</h2>
+      <p>O destaque do update sao seis perks, um para cada arma pesada, desbloqueaveis e usaveis em combate:</p>
+      <ul>
+        <li><strong>Last Exhaust:</strong> quando o combustivel da motosserra SchreiTech Forest Warrior acaba, ganha efeito de camuflagem por tres segundos</li>
+        <li><strong>Pillbox:</strong> nao pode ser agarrado enquanto mira com a metralhadora MAG5</li>
+        <li><strong>Cluster Bombs:</strong> substituem granadas por bombas de fragmentacao na MGL Hailstorm, com raio reduzido em 50% e cargas explosivas que detonam um segundo apos o impacto principal</li>
+        <li><strong>Dragon Breath Shells:</strong> a espingoda de assalto pesada Taiga-12 passa a disparar rounds incendiarios, com capacidade de municao reduzida em 30%</li>
+        <li><strong>Two-layer Bullet:</strong> balas da rifle de payload BF25 perfuram o primeiro Zeke e explodem ao atingir o seguinte; municao reduzida em 30%</li>
+        <li><strong>White Phosphorus:</strong> lancadores de foguetes MRL202 Commando passam a usar fosforo branco, atingindo uma area ampla sem deixar poca de fogo</li>
+      </ul>
+
+      <h2>Os cinco novos mutadores</h2>
+      <p>Os mutadores alteram regras fundamentais da partida:</p>
+      <ul>
+        <li><strong>Paranoid\u2019s Reserves</strong> (permanente): caixas de equipamentos podem estar armadas</li>
+        <li><strong>All-In:</strong> a vida maxima de sobreviventes e zumbis se iguala a um, e o tempo de retorno ao combate cai pela metade</li>
+        <li><strong>Let Them Dance:</strong> zumbis tomam mais dano de tiros nas pernas e menos no restante do corpo</li>
+        <li><strong>Sharp Shards:</strong> explosoes de dispositivos e armas pesadas causam sangramento</li>
+        <li><strong>Leaky Backpack:</strong> você perde munição lentamente enquanto é agarrado</li>
+      </ul>
+
+      <h2>Novos itens e o modo Extinction</h2>
+      <p>A atualizacao tambem traz <strong>tres molduras personalizadas</strong> desbloqueaveis, uma nova arma corpo a corpo (<strong>Gas Pipe Wrench</strong>) e a espingeta <strong>Bullpup de cano duplo</strong>. A dificuldade <strong>Extinction Mode</strong> chega ao episodio de DLC crossover de <strong>World War Z x The Walking Dead</strong>: donos do DLC enfrentam os icônicos caminhantes em locais como a Prisao, a Zona Segura de Alexandria e o Hospital Grady Memorial.</p>
+
+      <h2>DLC pago</h2>
+      <p>A parte, chega o <strong>Valhalla Raider Weapon Skin Pack</strong> por <strong>US$ 4,99</strong>, com skins de aco runico para a pistola Geist 17, o fuzil de assalto ARK-103, a espingeta bullpup BSG-12, a LMG Paladin e a espingoda pesada Taiga-12.</p>
+
+      <h2>Sobre o jogo base</h2>
+      <p>O World War Z usa o <strong>Swarm Engine</strong> dinâmico da Saber e permite jogar solo com companheiros controlados por IA ou em co-op para até quatro jogadores, com <strong>cross-play completo</strong> entre PC e consoles. As cidades do jogo incluem Nova York, Moscou, Jerusalém, Tóquio, Marselha, Roma/Vaticano e a Península de Kamchatka, além de episódios de campanha em Las Vegas, Arizona e o mundo de The Walking Dead.</p>
+    `,
+    category: {
+      id: 'games',
+      slug: 'games',
+      name: 'Games',
+      description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria',
+      color: '#ef4444'
+    },
+    tags: ['World War Z', 'Saber Interactive', 'zumbis', 'co-op', 'atualização'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Groupofzombiesjoelf.jpg/960px-Groupofzombiesjoelf.jpg',
+    imageAlt: 'Grupo de pessoas caracterizadas como zumbis em um cenario de terror',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Joel Friesen',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Groupofzombiesjoelf.jpg',
+    sources: [
+      {
+        title: 'LOCK AND LOAD! WORLD WAR Z\u2019S "WAVES OF LEAD" UPDATE IS NOW AVAILABLE ON PC, PLAYSTATION & XBOX',
+        url: 'https://www.gamespress.com/LOCK-AND-LOAD-WORLD-WAR-Z-S-WAVES-OF-LEAD-UPDATE-IS-NOW-AVAILABLE-ON-P',
+        publisher: 'Games Press / Saber Interactive',
+        type: 'official',
+      },
+      {
+        title: 'World War Z - site oficial do jogo',
+        url: 'https://wwzgame.com/',
+        publisher: 'Saber Interactive',
+        type: 'official',
+      },
+    ],
+  },
+  {
+    id: '203',
+    slug: 'huawei-qualcomm-acordo-patentes',
+    title: 'Huawei e Qualcomm Fecham Acordo de Patentes em 5G, Computacao e IA',
+    excerpt: 'As duas empresas assinaram um acordo de licenciamento cruzado que cobre 5G, computação, inteligência artificial e redes. A Huawei afirma que o valor contratual acumulado de seus acordos já passou de US$ 6,9 bilhões.',
+    content: `
+      <h2>O acordo</h2>
+      <p>A <strong>Huawei</strong> fechou um acordo de licenciamento de patentes com a <strong>Qualcomm</strong> que cobre <strong>5G, computação, inteligência artificial e redes</strong>. O anúncio foi feito em <strong>5 de outubro de 2026</strong>.</p>
+      <p>Segundo a Huawei citada na notícia, o <strong>valor contratual total acumulado</strong> de seus acordos de licenciamento de patentes <strong>superou a marca de US$ 6,9 bilhões</strong> após a assinatura. Esse número se refere ao acumulado histórico de contratos da empresa com terceiros, e não ao valor isolado do acordo com a Qualcomm, que não foi divulgado.</p>
+
+      <h2>Por que isso importa</h2>
+      <p>Um acordo de <em>licenciamento cruzado</em> significa que as duas empresas podem usar tecnologia patenteada uma da outra. Na prática, isso reduz litígios e permite que produtos de ambas avancem sem depender de acordo comercial caso a caso.</p>
+      <p>O contexto relevante é que a Huawei está sujeita a restrições de exportação dos Estados Unidos que limitam seu acesso a tecnologia de chips avançados. Ao mesmo tempo, mantém presença forte em infraestrutura de redes. Acordos de patentes como este fazem parte da estratégia da empresa de manter sua posição no mercado global de telecomunicações apesar das restrições.</p>
+      <p>Para a Qualcomm, o acordo amplia o alcance de seu portfólio de patentes para além dos dispositivos móveis, alcançando áreas como computação e IA.</p>
+
+      <h2>O que não foi dito</h2>
+      <p>O comunicado não detalhou quais patentes específicas são cobertas, o prazo do acordo, valores individuais ou exclusividade. Esse tipo de acordo costuma ter cláusulas de confidencialidade, e esses pontos tendem a não ser publicados.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['Huawei', 'Qualcomm', 'patentes', '5G', 'licenciamento'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 5,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Qualcomm_headquarters.jpg/960px-Qualcomm_headquarters.jpg',
+    imageAlt: 'Sede corporativa da Qualcomm em San Diego, Califórnia',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'Coolcaesar',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Qualcomm_headquarters.jpg',
+    sources: [
+      {
+        title: 'Huawei e Qualcomm fecham acordo de patentes que abrange 5G, computacao e IA',
+        url: 'https://valor.globo.com/empresas/noticia/2026/10/05/huawei-e-qualcomm-fecham-acordo-de-patentes-que-abrange-5g-computao-e-ia.ghtml',
+        publisher: 'Valor Economico / Dow Jones',
+        type: 'news',
+      },
+    ],
+  },
+  {
+    id: '204',
+    slug: 'rapidus-17-empresas-projeto-chips',
+    title: 'Rapidus Vai Ajudar 17 Empresas a Projetar Chips em Parceria',
+    excerpt: 'A fabricante japonesa de chips sob contrato vai apoiar 17 empresas, entre elas o grupo Toshiba, a desenvolverem chips com marcas próprias, ampliando sua base potencial de clientes.',
+    content: `
+      <h2>O anúncio</h2>
+      <p>A <strong>Rapidus</strong>, fabricante japonesa de chips sob contrato que opera o novo setor de semicondutores avançados do país, vai firmar parceria com <strong>17 empresas</strong> envolvidas no projeto de semicondutores avançados. A notícia foi publicada pelo <strong>Nikkei Asia</strong> em <strong>5 de outubro de 2026</strong>.</p>
+      <p>Segundo a notícia, a Rapidus usará a colaboração para ampliar sua base potencial de clientes, ajudando empresas a desenvolverem chips <strong>com as próprias marcas</strong>. Entre as empresas apoiadas está o <strong>grupo Toshiba</strong>.</p>
+
+      <h2>Por que isso é relevante</h2>
+      <p>Fabricantes sob contrato, conhecidos como <em>foundries</em>, produzem chips para outras empresas em vez de vender produtos próprios com marca. A proposta da Rapidus é essencialmente tornar a fundição acessível a quem precisa projetar chips mas não tem fábrica própria.</p>
+      <p>Isso muda a dinâmica do setor. Uma empresa que constrói seu próprio chip precisa investir em projeto, máscaras de produção e volumes grandes para justificar o investimento. Ao oferecer suporte a 17 empresas, a Rapidus tenta transformar seu novo parque em um <em>ecossistema</em>, e não apenas em uma fábrica.</p>
+
+      <h2>O contexto japonês</h2>
+      <p>A iniciativa faz parte do movimento de reforço da indústria de semicondutores do Japão, que por anos perdeu participação relevante para fábricas da Coreia do Sul e de Taiwan. O governo japonês tem apoiado o projeto da Rapidus com investimentos públicos significativos, com o objetivo de reconquistar presença em fabricação de chips avançados.</p>
+      <p>A âncora de mercado apontada pela notícia é justamente a <strong>Toshiba</strong>, historicamente forte em armazenamento de memória. Apoiar um grande cliente de chips próprios nos primeiros passos do projeto ajuda a dar volume e previsibilidade a uma fábrica que ainda está em fase de ramp-up.</p>
+
+      <h2>Leitura realista</h2>
+      <p>O anúncio descreve uma estratégia, não um resultado. Apoiar 17 empresas a projetarem chips não significa que 17 chips serão produzidos em escala: muitos projetos podem não passar da fase de design. Ainda assim, é um passo concreto para a construção de uma base de clientes, que é justamente o desafio mais comum de uma nova fábrica de semicondutores.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['Rapidus', 'Toshiba', 'semicondutores', 'Japão', 'chips'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 5,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Wafer_20110212.jpg/960px-Wafer_20110212.jpg',
+    imageAlt: 'Wafer de silício com padrões de circuitos integrados microgravados',
+    imageLicense: 'CC BY-SA 2.0',
+    imageArtist: 'Sangitiana Fararano',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Wafer_20110212.jpg',
+    sources: [
+      {
+        title: 'Rapidus ajudará 17 empresas a projetar chips para clientes',
+        url: 'https://valor.globo.com/empresas/noticia/2026/10/05/rapidus-ajudara-17-empresas-a-projetar-chips-para-clientes.ghtml',
+        publisher: 'Valor Econômico / Nikkei Asia',
+        type: 'news',
+      },
+    ],
+  },
+  {
+    id: '205',
+    slug: 'apple-intel-producao-chips-eua',
+    title: 'Apple Move Parte da Producao de Chips para a Fabrica da Intel nos EUA',
+    excerpt: 'A Apple vai transferir parte da produção de seus processadores para fábricas da Intel nos Estados Unidos, em um movimento que busca reduzir a dependência de cadeias de suprimento baseadas em Taiwan.',
+    content: `
+      <h2>O que foi anunciado</h2>
+      <p>O presidente <strong>Donald Trump</strong> afirmou que a Apple vai mover <strong>parte da produção de seus processadores</strong> para <strong>instalações da Intel nos Estados Unidos</strong>. A declaração marca uma mudança relevante na geografia da fabricação de semicondutores, em um momento em que Washington busca reduzir a dependência de cadeias de suprimento baseadas em Taiwan.</p>
+      <p>A notícia foi publicada em <strong>5 de outubro de 2026</strong> e trata a mudança no contexto mais amplo da política industrial dos Estados Unidos.</p>
+
+      <h2>Por que a dependência de Taiwan importa</h2>
+      <p>A concentração da fabricação avançada em Taiwan é o ponto mais delicado da indústria global de chips. Como discutimos em <a href="/tecnologia/por-que-taiwan-importa-tanto-para-os-chips">por que Taiwan domina a produção de chips</a>, poucos países fora de Taiwan conseguem fabricar em processo avançado, e a construção dessa capacidade leva anos.</p>
+      <p>Por isso, mesmo um movimento parcial de produção tem valor estratégico. Desviar parte do volume para fábricas norte-americanas reduz a exposição a um único ponto de falha geopolítico.</p>
+
+      <h2>Os limites do que se sabe</h2>
+      <p>É importante separar o que foi afirmado do que ainda não foi detalhado. O que se sabe: a Apple vai transferir parte da produção de processadores para instalações da Intel nos EUA. O que <strong>não foi divulgado</strong>: o volume específico, quais modelos de processador estão envolvidos, o prazo da transferência e os termos financeiros do acordo.</p>
+      <p>Vale notar também que a própria palavra "parte" é o núcleo do anúncio. Não se trata de a Apple abandonar Taiwan ou a TSMC, mas de diversificar parcialmente a base de fabricação.</p>
+
+      <h2>Leitura realista</h2>
+      <p>Fábricas de semicondutores levam anos para ser construídas e vários anos para atingir volumes elevados. Uma transferência de produção desse tipo é normalmente gradual e escalonada por anos. O anúncio indica direção, não uma conclusão: como em toda notícia que depende de capacidade industrial, o que foi declarado hoje precisará ser confirmado na prática ao longo dos próximos anos.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['Apple', 'Intel', 'semicondutores', 'Taiwan', 'chips', 'geopolítica'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 5,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_HQ_exterior_2.JPG/960px-Intel_HQ_exterior_2.JPG',
+    imageAlt: 'Fachada da sede da Intel em Santa Clara, California',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'BrokenSphere',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Intel_HQ_exterior_2.JPG',
+    sources: [
+      {
+        title: 'Apple and Intel Reach US Semiconductor Manufacturing Deal Aimed at Reducing Reliance on Taiwan',
+        url: 'https://cnnbc.com/apple-and-intel-reach-us-semiconductor-manufacturing-deal-aimed-at-reducing-reliance-on-taiwan',
+        publisher: 'CNNBC',
+        type: 'news',
+      },
+    ],
+  },
+  {
+    id: '206',
+    slug: 'gemini-4-argon-google',
+    title: 'Google Anuncia o Gemini 4 Argon, com 1 Milhão de Tokens de Contexto',
+    excerpt: 'O novo modelo frontier do Google DeepMind tem limite de 1 milhão de tokens, foco em tarefas profissionais longas e correções autônomas de segurança, e chega em breve para desenvolvedores e assinantes do Google AI Ultra.',
+    content: `
+      <h2>O que foi anunciado</h2>
+      <p>O Google DeepMind anunciou em <strong>30 de setembro de 2026</strong> o <strong>Gemini 4 Argon</strong>, descrito pela empresa como "a próxima era da inteligência frontier". Segundo o anúncio, o modelo entrega desempenho de fronteira em fluxos de trabalho complexos, com foco em <strong>engenharia de software</strong>, <strong>trabalho de conhecimento corporativo</strong> (como jurídico e financeiro) e <strong>defesa em cibersegurança</strong>.</p>
+      <p>O destaque técnico é o <strong>limite de 1 milhão de tokens</strong>, apresentado como líder de indústria para resolver problemas de múltiplos passos em documentos e fluxos de trabalho longos.</p>
+
+      <h2>De que ele é capaz</h2>
+      <p>Segundo a empresa, o Argon se destaca em:</p>
+      <ul>
+        <li><strong>Codificação</strong> em fluxos de trabalho reais de engenharia de software</li>
+        <li><strong>Pesquisa financeira</strong> e <strong>redação jurídica</strong> em trabalho de conhecimento corporativo</li>
+        <li><strong>Correção autônoma de vulnerabilidades</strong> de cibersegurança: o modelo pode identificar e corrigir falhas de segurança sem intervenção humana</li>
+        <li><strong>Escrita criativa</strong></li>
+      </ul>
+
+      <h2>Preços e disponibilidade</h2>
+      <p>O Gemini 4 Argon <strong>será lançado em breve</strong>. A disponibilidade começa pelos <strong>clientes de API pagos</strong> e pelos <strong>assinantes do Google AI Ultra</strong>, antes de chegar a mais desenvolvedores, empresas e consumidores em geral.</p>
+      <p>Sobre preços, o anúncio informa que após o período introdutório serão aplicados <strong>US$ 4 por 1 milhão de tokens de entrada</strong> e <strong>US$ 20 por 1 milhão de tokens de saída</strong>.</p>
+
+      <h2>Segurança e alinhamento</h2>
+      <p>O Google dedica parte do anúncio à segurança do modelo, com duas medidas declaradas:</p>
+      <ul>
+        <li><strong>Robustez a prompt injection</strong>: o Argon lidera o benchmark de <em>Indirect Prompt Injection</em> do Gray Swan</li>
+        <li><strong>Monitoramento de desalinhamento</strong>: a empresa implantou mitigações que observam a cadeia de raciocínio e as ações do modelo, interrompendo a execução quando necessário</li>
+      </ul>
+      <p>A empresa também afirma estar reforçando seus ambientes isolados antes de treinos e avaliações de alto risco, como parte do seu roadmap de controle de agentes.</p>
+
+      <h2>O que ainda não se sabe</h2>
+      <p>Como todo lançamento em fase de acesso limitado, vários pontos continuam em aberto: a data exata de disponibilidade ampla, os resultados completos em benchmarks externos e como o modelo se sairá em tarefas de longa duração fora do ambiente controlado do Google. Como já observamos em <a href="/inteligencia-artificial/hardware-para-ia-local-como-rodar-modelos-em-casa">o hardware que roda modelos em casa</a>, o dimensionamento real de um modelo com esse contexto só aparece quando ele sai do ambiente de teste.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA',
+      color: '#ec4899'
+    },
+    tags: ['Gemini 4 Argon', 'Google DeepMind', 'IA generativa', 'tokens', 'cibersegurança'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Googleplex-SignIn.jpg/960px-Googleplex-SignIn.jpg',
+    imageAlt: 'Placa de identificacao do Googleplex, sede do Google em Mountain View, California',
+    imageLicense: 'Public domain',
+    imageArtist: 'Erik Möller',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Googleplex-SignIn.jpg',
+    sources: [
+      {
+        title: 'Gemini 4 Argon: our next era of frontier intelligence',
+        url: 'https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/',
+        publisher: 'Google Blog / Google DeepMind',
+        type: 'official',
+      },
+    ],
+  },
+  {
+    id: '207',
+    slug: 'exportacoes-petroleo-golfo-persico-estreito-de-ormuz',
+    title: 'Exportações de Petróleo do Golfo Voltam ao Nível Pré-Guerra com Ormuz Bloqueado',
+    excerpt: 'Em setembro, as exportações de crude do Golfo Pérsico, sem contar o Irã, voltaram a superar a média anterior à guerra, apesar dos ataques a navios no Estreito de Ormuz.',
+    content: `
+      <h2>O que aconteceu</h2>
+      <p>As exportações de petróleo do Oriente Médio, excluindo o Irã, voltaram a ficar acima dos níveis anteriores à guerra em fins de setembro, mesmo com a continuidade dos ataques a navios no Estreito de Ormuz. O dado vem da Kpler, empresa de inteligência de mercado, e foi reportado pela <strong>Deutsche Welle</strong> e pela <strong>Euronews</strong> no início de outubro de 2026.</p>
+      <p>Segundo a Kpler, as exportações superaram a média pré-guerra de cerca de <strong>18 milhões de barris por dia</strong> em quatro dias da última semana de setembro, atingindo entre <strong>19,5 e 22,5 milhões de barris por dia</strong>.</p>
+
+      <h2>A queda e a recuperação</h2>
+      <p>Para dimensionar o movimento, vale o contraste. Quando o Estreito de Ormuz fechou após o início da guerra com o Irã, a média móvel de sete dias do crude não-iraiano saindo da região caiu <strong>72% em 10 dias</strong>, de acordo com a Kpler.</p>
+      <p>Antes do conflito, cerca de <strong>20% do fornecimento mundial diário de petróleo e LNG</strong> passava pelo estreito. Como registrou a Euronews, o preço do Brent para entrega em dezembro negociava em <strong>US$ 102,25 por barril</strong> na segunda-feira de referência, com o West Texas Intermediate em <strong>US$ 90,50</strong>, contra cerca de <strong>US$ 72</strong> antes da guerra.</p>
+
+      <h2>Como o Golfo contornou o estreito</h2>
+      <p>A recuperação se apoiou em rotas alternativas e transferências navio a navio. Em setembro, cerca de <strong>40% do crude deixou o Golfo sem cruzar Ormuz</strong>, contra apenas <strong>17% antes da guerra</strong>. Segundo a Kpler, mais de <strong>70% do crude trocou de petroleiro ao largo no Golfo de Omã</strong> em agosto, quando praticamente não havia trocas nessa área antes do conflito.</p>
+      <ul>
+        <li><strong>Arábia Saudita</strong> reabriu o pipeline Leste-Oeste, que conecta seus principais campos ao terminal de Yanbu, no Mar Vermelho, contornando Ormuz. O gasoduto parou em <strong>11 de setembro</strong> após ataques lançados do Irã e voltou a operar em <strong>22 de setembro</strong>, disse a analista da Kpler Amena Bakr.</li>
+        <li><strong>Emirados Árabes Unidos</strong> usaram o pipeline que liga os campos de Abu Dhabi a <strong>Fujairah</strong>, terminal no Golfo de Omã, fora do estreito.</li>
+      </ul>
+
+      <h2>O que continua instável</h2>
+      <p>Apesar da recuperação dos volumes, as condições seguem longe do normal. Os ataques a navios no entorno de Ormuz continuaram: pelo menos <strong>sete incidentes</strong> foram relatados nas semanas recentes. Em <strong>1 de outubro</strong>, o petroleiro <strong>Kazimah III</strong> foi atingido por um projétil de origem desconhecida, segundo a empresa de inteligência marítima Marisks; toda a tripulação foi resgatada sem feridos.</p>
+      <p>Do lado do Irã, as exportações seguem bem abaixo da média pré-guerra, principalmente por causa das políticas dos Estados Unidos, incluindo um bloqueio portuário norte-americano que restringe boa parte das exportações iranianas. O Irã continua afirmando controlar a via navegável, e navios que viajam sem sua autorização correm risco de ataque, segundo a Euronews.</p>
+
+      <h2>Contexto de mercado</h2>
+      <p>A recuperação ocorre enquanto os sete principais membros da OPEP+, que inclui a Rússia, concordaram em <strong>manter inalteradas as metas de produção para novembro</strong>, em linha com as expectativas. Esses sete países produziram cerca de <strong>25 milhões de barris de crude por dia em agosto</strong>, alta de <strong>630 mil barris por dia</strong> em relação a julho, segundo o relatório de setembro da OPEP.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['geopolítica', 'Ormuz', 'petróleo', 'Irã', 'Kpler', 'OPEP+'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 8,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Oil_tanker_approaching_FPSO.jpg/960px-Oil_tanker_approaching_FPSO.jpg',
+    imageAlt: 'Petroleiro aproximando-se de uma unidade flutuante de produção e armazenamento de petróleo',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Jon Olav Eikenes',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Oil_tanker_approaching_FPSO.jpg',
+    sources: [
+      {
+        title: 'Middle East oil exports recover to pre-Iran war levels',
+        url: 'https://www.dw.com/en/middle-east-oil-exports-recover-to-pre-iran-war-levels-despite-hormuz-attacks/a-79542680',
+        publisher: 'Deutsche Welle (AFP / Reuters)',
+        type: 'news',
+      },
+      {
+        title: 'Middle East oil exports return to pre-war levels, excluding Iran',
+        url: 'https://www.euronews.com/2026/10/05/middle-east-oil-exports-return-to-pre-war-levels-excluding-iran',
+        publisher: 'Euronews',
+        type: 'news',
+      },
+      {
+        title: 'OPEC Monthly Oil Market Report (setembro de 2026)',
+        url: 'https://www.opec.org/opec_web/en/publications/338.htm',
+        publisher: 'OPEC',
+        type: 'official',
+      },
+    ],
+  },
+  {
+    id: '208',
+    slug: 'ameba-de-fogo-sobrevive-70-graus',
+    title: 'Ameba de Fogo Sobrevive a 70 °C e Amplia o Limite Conhecido da Vida',
+    excerpt: 'A espécie Incendiamoeba cascadensis, encontrada numa fonte geotérmica na Califórnia, continuou se dividindo a 63 °C e estabelece um novo limite para a vida em ambientes extremos.',
+    content: `
+      <h2>O organismo</h2>
+      <p>Uma nova espécie de ameba, chamada <strong>Incendiamoeba cascadensis</strong>, foi encontrada numa fonte geotérmica no <strong>Parque Nacional Vulcânico Lassen</strong>, na Califórnia. O organismo continua se dividindo a <strong>63 °C</strong> e quebra o recorde de temperatura já registrado para um ser vivo.</p>
+      <p>O estudo é assinado por <strong>Beryl Rappaport</strong> como autora principal, que coletou as amostras no parque. O apelido de "ameba de fogo" vem justamente da capacidade de sobreviver em condições que destruiriam quase qualquer outro organismo.</p>
+
+      <h2>Por que o calor destrói as células</h2>
+      <p>Para entender a proeza, vale saber o que o calor faz com a vida. O calor intenso pode danificar <strong>proteínas</strong>, outras moléculas importantes para o funcionamento das células, e também as <strong>membranas</strong> que mantêm os seres eucariontes vivos.</p>
+
+      <h2>Como ela resiste</h2>
+      <p>Os pesquisadores analisaram o material genético da ameba para entender como ela continua ativa em temperaturas tão elevadas. A equipe identificou vários <strong>genes ligados à proteção do DNA e à percepção das condições do ambiente</strong>. Foi observado aumento na atividade de determinados genes quando a temperatura subia, entre eles genes envolvidos na <strong>manutenção das proteínas</strong>.</p>
+      <blockquote>Conseguimos descobrir muitas estratégias que podem ajudar a I. cascadensis a sobreviver a altas temperaturas, e algumas dessas estratégias podem ser usadas por organismos que gostam de calor de todos os grupos de seres vivos.</blockquote>
+      <p>A citação é de Beryl Rappaport, pesquisadora.</p>
+      <p>Os pesquisadores também compararam o material genético da nova espécie com dados de estudos de outras partes do mundo e encontraram <strong>trechos semelhantes de DNA</strong> em amostras de regiões geotérmicas da <strong>Nova Zelândia</strong> e do <strong>Parque Nacional Yellowstone</strong>, nos Estados Unidos. O resultado indica que outras amebas capazes de suportar temperaturas elevadas podem existir em diferentes regiões do planeta.</p>
+
+      <h2>O que significa "limite para a vida"</h2>
+      <p>A busca por organismos capazes de viver em condições extremas costuma se concentrar em bactérias e arqueias. Por terem menos estruturas celulares, elas aguentam temperaturas, acidez ou radiação que destruiriam organisms mais complexos. Os seres que vivem em temperaturas muito altas são chamados de <strong>termófilos</strong>.</p>
+      <p>Para ser considerado um organismo verdadeiramente adaptado ao calor, ele precisa se reproduzir, mover-se, alimentar-se e sobreviver acima de <strong>45 °C</strong>. Os pesquisadores estudam organisms <strong>extremófilos</strong> justamente para compreender os limites da vida como a conhecemos na Terra.</p>
+      <p>Como observa <strong>Alison Olcott</strong>, cientista do programa de Exobiologia da NASA, estudar extremófilos ajuda a orientar a busca por vida em outros lugares do universo, à medida que ampliamos o conjunto de condições em que acreditamos que a vida poderia existir.</p>
+    `,
+    category: {
+      id: 'curiosidades',
+      slug: 'curiosidades',
+      name: 'Curiosidades',
+      description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns',
+      color: '#14b8a6'
+    },
+    tags: ['ameba', 'Incendiamoeba cascadensis', 'termófilos', 'extremófilos', 'vida em temperaturas altas'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-05',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Amoeba.microscope.JPG/960px-Amoeba.microscope.JPG',
+    imageAlt: 'Ameba observada ao microscópio óptico, com formações internas visíveis',
+    imageLicense: 'Public domain',
+    imageArtist: 'GreenBlueRed',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Amoeba.microscope.JPG',
+    sources: [
+      {
+        title: "'Ameba de fogo' quebra recorde ao sobreviver a calor de 70 °C",
+        url: 'https://ultimosegundo.ig.com.br/ciencia/2026-10-02/ameba-de-fogo-quebra-recorde-ao-sobreviver-a-calor-de-70-c.html',
+        publisher: 'Último Segundo (iG), com declarações de Beryl Rappaport e Alison Olcott (NASA Exobiologia)',
+        type: 'scientific',
+      },
+    ],
+  },
 ];

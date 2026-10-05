@@ -10,9 +10,233 @@
     <description>NexoraComic é uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek. Artigos sobre astronomia, física, IA, games, filmes e curiosidades científicas.</description>
     <language>pt-BR</language>
     <copyright>Copyright 2024-2026 NexoraComic. Todos os direitos reservados.</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link rel="self" href="https://nexoracomic.vercel.app/rss.xml" type="application/rss+xml" />
 
+    <item>
+      <title>RuneScape Reignited Chega em Dezembro e Jagex Anuncia Quarto MMO</title>
+      <link>https://nexoracomic.vercel.app/games/runescape-reignited-lancamento-runefest-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/runescape-reignited-lancamento-runefest-2026</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>O RuneFest 2026 levou mais de 6 mil pessoas a Birmingham: um quarto MMORPG sem nome, RuneScape Reignited em 2 de dezembro, a saga Menaphos e uma adaptação animada de Gielinor.</description>
+      <content:encoded>O RuneFest 2026 levou mais de 6 mil pessoas a Birmingham: um quarto MMORPG sem nome, RuneScape Reignited em 2 de dezembro, a saga Menaphos e uma adaptação animada de Gielinor.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Safe_In_The_Stronghold_%28121676859%29.jpeg/960px-Safe_In_The_Stronghold_%28121676859%29.jpeg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Safe_In_The_Stronghold_%28121676859%29.jpeg/960px-Safe_In_The_Stronghold_%28121676859%29.jpeg" medium="image">
+        <media:title type="html">Ilustração de uma fortaleza medieval em um cenário de fantasia</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>AION 2 Lança Globalmente e de Graça na Steam e no PURPLE</title>
+      <link>https://nexoracomic.vercel.app/games/aion-2-lancamento-global-steam</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/aion-2-lancamento-global-steam</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>O MMORPG de mundo aberto da NC chegou à versão global em 30 de setembro e está aberto de graça no PC, com servidores na América do Norte, América do Sul, Europa e Japão.</description>
+      <content:encoded>O MMORPG de mundo aberto da NC chegou à versão global em 30 de setembro e está aberto de graça no PC, com servidores na América do Norte, América do Sul, Europa e Japão.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/1823_Blechen_Ideale_Gebirgslandschaft_anagoria.JPG/960px-1823_Blechen_Ideale_Gebirgslandschaft_anagoria.JPG" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/1823_Blechen_Ideale_Gebirgslandschaft_anagoria.JPG/960px-1823_Blechen_Ideale_Gebirgslandschaft_anagoria.JPG" medium="image">
+        <media:title type="html">Paisagem montanhosa de fantasia em tinta, com grandes formações rochosas e nuvens</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>The Legend of Zelda: Master Collection, a Primeira Coleção de Cartas da Nintendo</title>
+      <link>https://nexoracomic.vercel.app/games/zelda-master-collection-cartas-panini</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/zelda-master-collection-cartas-panini</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A Nintendo e a Panini anunciaram um set de cartas colecionáveis com arte de todos os jogos principais da franquia, celebrando os 40 anos da serie. Data e preco ainda nao foram definidos.</description>
+      <content:encoded>A Nintendo e a Panini anunciaram um set de cartas colecionáveis com arte de todos os jogos principais da franquia, celebrando os 40 anos da serie. Data e preco ainda nao foram definidos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/BoTW_HyruleMapaUbicaciones.jpg/960px-BoTW_HyruleMapaUbicaciones.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/BoTW_HyruleMapaUbicaciones.jpg/960px-BoTW_HyruleMapaUbicaciones.jpg" medium="image">
+        <media:title type="html">Mapa de Hyrule de The Legend of Zelda: Breath of the Wild, com regiões e marcadores</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Ace Combat 8: Wings of theve Chega em PC, PS5 e Xbox Series</title>
+      <link>https://nexoracomic.vercel.app/games/ace-combat-8-wings-of-theve-lancamento</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/ace-combat-8-wings-of-theve-lancamento</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A Bandai Namco lançou o primeiro título principal da série de simulação de voo em sete anos, com Unreal Engine 5, cross-play e a maior experiência multiplayer já feita na franquia.</description>
+      <content:encoded>A Bandai Namco lançou o primeiro título principal da série de simulação de voo em sete anos, com Unreal Engine 5, cross-play e a maior experiência multiplayer já feita na franquia.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/F-15EX_Eagle_II.jpg/960px-F-15EX_Eagle_II.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/F-15EX_Eagle_II.jpg/960px-F-15EX_Eagle_II.jpg" medium="image">
+        <media:title type="html">Caça F-15EX Eagle II em voo, visto de baixo contra o céu</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>World War Z Recebe a Atualizacao Waves of Lead, com Novos Modificadores</title>
+      <link>https://nexoracomic.vercel.app/games/world-war-z-atualizacao-waves-of-lead</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/world-war-z-atualizacao-waves-of-lead</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A Saber Interactive lancou gratuitamente a atualizacao Waves of Lead para PC, PlayStation e Xbox: cinco mutadores, seis perks de armas pesadas e uma nova espingeta de cano duplo.</description>
+      <content:encoded>A Saber Interactive lancou gratuitamente a atualizacao Waves of Lead para PC, PlayStation e Xbox: cinco mutadores, seis perks de armas pesadas e uma nova espingeta de cano duplo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Groupofzombiesjoelf.jpg/960px-Groupofzombiesjoelf.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Groupofzombiesjoelf.jpg/960px-Groupofzombiesjoelf.jpg" medium="image">
+        <media:title type="html">Grupo de pessoas caracterizadas como zumbis em um cenario de terror</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Huawei e Qualcomm Fecham Acordo de Patentes em 5G, Computacao e IA</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/huawei-qualcomm-acordo-patentes</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/huawei-qualcomm-acordo-patentes</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>As duas empresas assinaram um acordo de licenciamento cruzado que cobre 5G, computação, inteligência artificial e redes. A Huawei afirma que o valor contratual acumulado de seus acordos já passou de US$ 6,9 bilhões.</description>
+      <content:encoded>As duas empresas assinaram um acordo de licenciamento cruzado que cobre 5G, computação, inteligência artificial e redes. A Huawei afirma que o valor contratual acumulado de seus acordos já passou de US$ 6,9 bilhões.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Qualcomm_headquarters.jpg/960px-Qualcomm_headquarters.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Qualcomm_headquarters.jpg/960px-Qualcomm_headquarters.jpg" medium="image">
+        <media:title type="html">Sede corporativa da Qualcomm em San Diego, Califórnia</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Rapidus Vai Ajudar 17 Empresas a Projetar Chips em Parceria</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/rapidus-17-empresas-projeto-chips</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/rapidus-17-empresas-projeto-chips</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>A fabricante japonesa de chips sob contrato vai apoiar 17 empresas, entre elas o grupo Toshiba, a desenvolverem chips com marcas próprias, ampliando sua base potencial de clientes.</description>
+      <content:encoded>A fabricante japonesa de chips sob contrato vai apoiar 17 empresas, entre elas o grupo Toshiba, a desenvolverem chips com marcas próprias, ampliando sua base potencial de clientes.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Wafer_20110212.jpg/960px-Wafer_20110212.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Wafer_20110212.jpg/960px-Wafer_20110212.jpg" medium="image">
+        <media:title type="html">Wafer de silício com padrões de circuitos integrados microgravados</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Apple Move Parte da Producao de Chips para a Fabrica da Intel nos EUA</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/apple-intel-producao-chips-eua</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/apple-intel-producao-chips-eua</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>A Apple vai transferir parte da produção de seus processadores para fábricas da Intel nos Estados Unidos, em um movimento que busca reduzir a dependência de cadeias de suprimento baseadas em Taiwan.</description>
+      <content:encoded>A Apple vai transferir parte da produção de seus processadores para fábricas da Intel nos Estados Unidos, em um movimento que busca reduzir a dependência de cadeias de suprimento baseadas em Taiwan.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_HQ_exterior_2.JPG/960px-Intel_HQ_exterior_2.JPG" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_HQ_exterior_2.JPG/960px-Intel_HQ_exterior_2.JPG" medium="image">
+        <media:title type="html">Fachada da sede da Intel em Santa Clara, California</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Google Anuncia o Gemini 4 Argon, com 1 Milhão de Tokens de Contexto</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/gemini-4-argon-google</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/gemini-4-argon-google</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>O novo modelo frontier do Google DeepMind tem limite de 1 milhão de tokens, foco em tarefas profissionais longas e correções autônomas de segurança, e chega em breve para desenvolvedores e assinantes do Google AI Ultra.</description>
+      <content:encoded>O novo modelo frontier do Google DeepMind tem limite de 1 milhão de tokens, foco em tarefas profissionais longas e correções autônomas de segurança, e chega em breve para desenvolvedores e assinantes do Google AI Ultra.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Googleplex-SignIn.jpg/960px-Googleplex-SignIn.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Googleplex-SignIn.jpg/960px-Googleplex-SignIn.jpg" medium="image">
+        <media:title type="html">Placa de identificacao do Googleplex, sede do Google em Mountain View, California</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Exportações de Petróleo do Golfo Voltam ao Nível Pré-Guerra com Ormuz Bloqueado</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/exportacoes-petroleo-golfo-persico-estreito-de-ormuz</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/exportacoes-petroleo-golfo-persico-estreito-de-ormuz</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Em setembro, as exportações de crude do Golfo Pérsico, sem contar o Irã, voltaram a superar a média anterior à guerra, apesar dos ataques a navios no Estreito de Ormuz.</description>
+      <content:encoded>Em setembro, as exportações de crude do Golfo Pérsico, sem contar o Irã, voltaram a superar a média anterior à guerra, apesar dos ataques a navios no Estreito de Ormuz.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Oil_tanker_approaching_FPSO.jpg/960px-Oil_tanker_approaching_FPSO.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Oil_tanker_approaching_FPSO.jpg/960px-Oil_tanker_approaching_FPSO.jpg" medium="image">
+        <media:title type="html">Petroleiro aproximando-se de uma unidade flutuante de produção e armazenamento de petróleo</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Ameba de Fogo Sobrevive a 70 °C e Amplia o Limite Conhecido da Vida</title>
+      <link>https://nexoracomic.vercel.app/curiosidades/ameba-de-fogo-sobrevive-70-graus</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/ameba-de-fogo-sobrevive-70-graus</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/curiosidades">Curiosidades</category>
+      <description>A espécie Incendiamoeba cascadensis, encontrada numa fonte geotérmica na Califórnia, continuou se dividindo a 63 °C e estabelece um novo limite para a vida em ambientes extremos.</description>
+      <content:encoded>A espécie Incendiamoeba cascadensis, encontrada numa fonte geotérmica na Califórnia, continuou se dividindo a 63 °C e estabelece um novo limite para a vida em ambientes extremos.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Amoeba.microscope.JPG/960px-Amoeba.microscope.JPG" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Amoeba.microscope.JPG/960px-Amoeba.microscope.JPG" medium="image">
+        <media:title type="html">Ameba observada ao microscópio óptico, com formações internas visíveis</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Possível Vida em Marte: O Que o Perseverance Encontrou — e o Que Falta</title>
+      <link>https://nexoracomic.vercel.app/espaco/perseverance-possivel-vida-marte-biossignatura</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/perseverance-possivel-vida-marte-biossignatura</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>O rover encontrou minerais e matéria orgânica que podem ter origem biológica em Marte. Isso não é prova de vida, e a diferença entre as duas coisas é o ponto central desta explicação.</description>
+      <content:encoded>O rover encontrou minerais e matéria orgânica que podem ter origem biológica em Marte. Isso não é prova de vida, e a diferença entre as duas coisas é o ponto central desta explicação.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/1-PIA26368-Perseverance_Finds_a_Rock_with_Leopard_Spots.png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/1-PIA26368-Perseverance_Finds_a_Rock_with_Leopard_Spots.png?width=960" medium="image">
+        <media:title type="html">Close da rocha Cheyava Falls fotografada pelo rover Perseverance em Marte, com manchas escuras e claras distribuídas na superfície</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>GTA VI: Data, Plataformas e o Que a Rockstar Confirmou de Fato</title>
+      <link>https://nexoracomic.vercel.app/games/gta-vi-data-plataformas-o-que-a-rockstar-confirmou</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/gta-vi-data-plataformas-o-que-a-rockstar-confirmou</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>O lançamento de GTA VI está confirmado para 19 de novembro de 2026, apenas em console. O que a Rockstar realmente disse, o que ficou de fora e onde estão os rumors.</description>
+      <content:encoded>O lançamento de GTA VI está confirmado para 19 de novembro de 2026, apenas em console. O que a Rockstar realmente disse, o que ficou de fora e onde estão os rumors.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Theft%20Auto%20VI%20trailer%201%20date.png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Theft%20Auto%20VI%20trailer%201%20date.png?width=960" medium="image">
+        <media:title type="html">Arte oficial de Grand Theft Auto VI com a data de lançamento do trailer 1</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>GTA VI vs GTA V: O Que Realmente Pode Mudar, e o Que Ainda É Especulação</title>
+      <link>https://nexoracomic.vercel.app/games/gta-vi-vs-gta-v-o-que-realmente-pode-mudar</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/gta-vi-vs-gta-v-o-que-realmente-pode-mudar</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>A diferença real entre os dois não está no tamanho do mapa, mas em 13 anos de consoles, duas transições de geração e um modelo de negócio que mudou. O resto ainda é rumor.</description>
+      <content:encoded>A diferença real entre os dois não está no tamanho do mapa, mas em 13 anos de consoles, duas transições de geração e um modelo de negócio que mudou. O resto ainda é rumor.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Theft%20Auto%20logo%20series%20(with%20gradient).png?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Theft%20Auto%20logo%20series%20(with%20gradient).png?width=960" medium="image">
+        <media:title type="html">Logotipo da série Grand Theft Auto</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Por que Taiwan Domina a Produção de Chips</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/por-que-taiwan-importa-tanto-para-os-chips</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/por-que-taiwan-importa-tanto-para-os-chips</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Uma única empresa responde por mais de sete em cada dez dólares de fabricação de chips contratados no mundo. Entender o que está em jogo nessa concentração.</description>
+      <content:encoded>Uma única empresa responde por mais de sete em cada dez dólares de fabricação de chips contratados no mundo. Entender o que está em jogo nessa concentração.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Wafer%20-%202.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Wafer%20-%202.jpg?width=960" medium="image">
+        <media:title type="html">Lâmina de silício fotônica usada na fabricação de microchips</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como Saber se um Asteroide Vai Atingir a Terra</title>
+      <link>https://nexoracomic.vercel.app/espaco/como-saber-se-um-asteroide-vai-atingir-a-terra</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/como-saber-se-um-asteroide-vai-atingir-a-terra</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>A ciência já desviou um asteroide de propósito e mediu o quanto. Mas a pergunta mais difícil continua sem resposta: como prever o comportamento de um corpo que nunca vemos de perto.</description>
+      <content:encoded>A ciência já desviou um asteroide de propósito e mediu o quanto. Mas a pergunta mais difícil continua sem resposta: como prever o comportamento de um corpo que nunca vemos de perto.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Footprint%20of%20DART%20spacecraft%20over%20the%20spot%20where%20it%20impacted%20asteroid%20Dimorphos.jpg?width=960" />
+      <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Footprint%20of%20DART%20spacecraft%20over%20the%20spot%20where%20it%20impacted%20asteroid%20Dimorphos.jpg?width=960" medium="image">
+        <media:title type="html">Pegada da espaçonave DART sobre o ponto onde impactou o asteroide Dimorphos</media:title>
+      </media:content>
+    </item>
     <item>
       <title>GPT-6.1 Sol: o modelo barato que a OpenAI lançou um dia depois de adiar o Astra</title>
       <link>https://nexoracomic.vercel.app/inteligencia-artificial/gpt-6-1-sol-devday-openai-modelo-codigo</link>
@@ -700,7 +924,7 @@
       </media:content>
     </item>
     <item>
-      <title>Hubble e Webb encontram pistas sobre o passado dos objetos mais distantes do Sistema Solar</title>
+      <title>Hubble e Webb Estudam Objetos Transnetunianos Recém-Descobertos</title>
       <link>https://nexoracomic.vercel.app/espaco/hubble-webb-objetos-transnetunianos-passado-sistema-solar</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/hubble-webb-objetos-transnetunianos-passado-sistema-solar</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
@@ -728,7 +952,7 @@
       </media:content>
     </item>
     <item>
-      <title>AlphaGenome Atlas: a IA que mapeou os efeitos de 9 bilhoes de possiveis alteracoes no DNA</title>
+      <title>AlphaGenome Atlas: A IA que Lê Bilhões de Mutações</title>
       <link>https://nexoracomic.vercel.app/inteligencia-artificial/alphagenome-atlas-ia-9-bilhoes-variantes-dna</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/alphagenome-atlas-ia-9-bilhoes-variantes-dna</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
@@ -770,7 +994,7 @@
       </media:content>
     </item>
     <item>
-      <title>Os lapis de edicao genetica: como o base editing ajuda a estudar o desenvolvimento humano</title>
+      <title>Edição de Bases: A Ferramenta que Troca uma Letra do DNA</title>
       <link>https://nexoracomic.vercel.app/ciencia/base-editing-lapis-edicao-genetica-desenvolvimento-humano</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/base-editing-lapis-edicao-genetica-desenvolvimento-humano</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
@@ -812,7 +1036,7 @@
       </media:content>
     </item>
     <item>
-      <title>Mewgenics: o RPG de gatos com genetica, estrategia e roguelike que chegou ao Xbox</title>
+      <title>Mewgenics: O RPG de Gatos com Genética, Estratégia e Roguelike</title>
       <link>https://nexoracomic.vercel.app/games/mewgenics-rpg-gatos-genetica-xbox</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/games/mewgenics-rpg-gatos-genetica-xbox</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
@@ -826,7 +1050,7 @@
       </media:content>
     </item>
     <item>
-      <title>The Mandalorian e Grogu: os bastidores dos efeitos e criaturas do novo filme de Star Wars</title>
+      <title>Rotta the Hutt: Do Debut em Ahsoka a Protagonista em Star Wars</title>
       <link>https://nexoracomic.vercel.app/filmes-series/mandalorian-grogu-bastidores-efeitos-rotta-hutt</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/mandalorian-grogu-bastidores-efeitos-rotta-hutt</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
@@ -840,7 +1064,7 @@
       </media:content>
     </item>
     <item>
-      <title>O que chegou a Netflix em setembro de 2026: filmes e series em destaque</title>
+      <title>O que chegou a Netflix em setembro de 2026: filmes e séries em destaque</title>
       <link>https://nexoracomic.vercel.app/filmes-series/netflix-setembro-2026-filmes-series-destaques</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/netflix-setembro-2026-filmes-series-destaques</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
@@ -854,7 +1078,7 @@
       </media:content>
     </item>
     <item>
-      <title>DC/Marvel: por que o novo crossover entre os dois universos e tao importante</title>
+      <title>DC x Marvel: Por Que o Novo Crossover é Importante</title>
       <link>https://nexoracomic.vercel.app/quadrinhos/dc-marvel-crossover-cosmic-kiss-importancia</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/dc-marvel-crossover-cosmic-kiss-importancia</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
@@ -924,7 +1148,7 @@
       </media:content>
     </item>
     <item>
-      <title>Fusao nuclear: por que o ITER esta avancando e o que falta para energia comercial</title>
+      <title>Fusão Nuclear: Por que o ITER Avança e o que Falta</title>
       <link>https://nexoracomic.vercel.app/futuro/fusao-nuclear-iter-avanco-energia-comercial</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/fusao-nuclear-iter-avanco-energia-comercial</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
@@ -966,9 +1190,9 @@
       </media:content>
     </item>
     <item>
-      <title>Edge Computing: Como o Processamento de Dados na Borda da Rede Está Mudando a Tecnologia</title>
-      <link>https://nexoracomic.vercel.app/tecnologia/edge-computinge-processamento-de-dados</link>
-      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/edge-computinge-processamento-de-dados</guid>
+      <title>Edge Computing: Dados Processados na Borda da Rede</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/edge-computing-processamento-de-dados</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/edge-computing-processamento-de-dados</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
       <description>A RFC 9556 do IETF explica o que a computação na borda tenta resolver: sensibilidade a tempo, volume de dados, custo de conectividade, serviços intermitentes, privacidade e segurança. E explica também por que a nuvem continua sendo necessária.</description>
@@ -980,7 +1204,7 @@
       </media:content>
     </item>
     <item>
-      <title>TPU: Os Chips Especializados do Google que Aceleram o Treinamento de Inteligência Artificial</title>
+      <title>TPU: O Chip do Google que Acelera o Treino de IA</title>
       <link>https://nexoracomic.vercel.app/tecnologia/tpu-tensor-processing-unit-google-ia</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/tpu-tensor-processing-unit-google-ia</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
@@ -1064,7 +1288,7 @@
       </media:content>
     </item>
     <item>
-      <title>Energia Solar Espacial: A Ideia de Captar Luz do Sol no Espaço e Transmiti-la para a Terra</title>
+      <title>Energia Solar Espacial: Luz do Sol na Órbita</title>
       <link>https://nexoracomic.vercel.app/futuro/energia-solar-espacial-paineis-orbita</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/energia-solar-espacial-paineis-orbita</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
@@ -1106,7 +1330,7 @@
       </media:content>
     </item>
     <item>
-      <title>Preservação Digital de Filmes: Como a Tecnologia Está Salvando Clássicos da Deterioração</title>
+      <title>Preservação Digital: Como a Tecnologia Salva Filmes</title>
       <link>https://nexoracomic.vercel.app/filmes-series/preservacao-digital-filmes-antigos-restauracao</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/preservacao-digital-filmes-antigos-restauracao</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
@@ -1134,7 +1358,7 @@
       </media:content>
     </item>
     <item>
-      <title>Webcomics e Quadrinhos Digitais: Como as Plataformas Online Estão Reinventando a Forma de Publicar HQs</title>
+      <title>Webcomics: A Nova Forma de Publicar Quadrinhos</title>
       <link>https://nexoracomic.vercel.app/quadrinhos/webcomics-quadrinhos-digitais-revolucao</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/webcomics-quadrinhos-digitais-revolucao</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
@@ -1148,7 +1372,7 @@
       </media:content>
     </item>
     <item>
-      <title>Representação e Diversidade nos Quadrinhos: Como a Indústria Está Evoluindo para Incluir Todos os Leitores</title>
+      <title>Representação e Diversidade na Mídia Visual: O Que os Dados Mostram</title>
       <link>https://nexoracomic.vercel.app/quadrinhos/representacao-diversidade-quadrinhos-evolucao</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/representacao-diversidade-quadrinhos-evolucao</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
@@ -1162,7 +1386,7 @@
       </media:content>
     </item>
     <item>
-      <title>Ilusões de Óptica e o Cérebro: Como Nossa Mente é Enganada por Imagens que Não São o Que Parecem</title>
+      <title>Ilusões de Óptica: Por Que o Cérebro Engana a Visão</title>
       <link>https://nexoracomic.vercel.app/curiosidades/ilusoes-opticas-cerebro-enganado</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/ilusoes-opticas-cerebro-enganado</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
@@ -1176,7 +1400,7 @@
       </media:content>
     </item>
     <item>
-      <title>Animais que Usam Ferramentas: A Inteligência Surpreendente de Espécies Além dos Humanos</title>
+      <title>Animais que Usam Ferramentas: Entender o Que Conta</title>
       <link>https://nexoracomic.vercel.app/curiosidades/animais-que-usam-ferramentas-inteligencia</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/curiosidades/animais-que-usam-ferramentas-inteligencia</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
@@ -1218,9 +1442,9 @@
       </media:content>
     </item>
     <item>
-      <title>NVIDIA Compra o Hugging Face por US$ 12,9 Bilhões: o Que a Aquisição Significa para a IA</title>
-      <link>https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-compra-hugging-face-129-bilhoes-ia</link>
-      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-compra-hugging-face-129-bilhoes-ia</guid>
+      <title>NVIDIA Compra o Hugging Face: O Que Muda para a IA</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-compra-hugging-face-ia</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-compra-hugging-face-ia</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
       <description>A NVIDIA confirmou a compra do Hugging Face, a maior plataforma open-source de modelos de IA, por US$ 12,93 bilhões. Entenda o que isso muda no tabuleiro da inteligência artificial.</description>
@@ -1288,7 +1512,7 @@
       </media:content>
     </item>
     <item>
-      <title>Artificial: o Filme de Luca Guadagnino sobre a Era da IA Chega ao Festival de Nova York</title>
+      <title>Artificial: O Filme de Guadagnino sobre a Era da IA Chega a Nova York</title>
       <link>https://nexoracomic.vercel.app/filmes-series/artificial-luca-guadagnino-filme-sam-altman-nyff</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/artificial-luca-guadagnino-filme-sam-altman-nyff</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
@@ -1330,20 +1554,6 @@
       </media:content>
     </item>
     <item>
-      <title>Star Wars: Starfighter: Ryan Gosling é Kade Auberon — o Que a Revelação Diz Sobre o Filme</title>
-      <link>https://nexoracomic.vercel.app/filmes-series/star-wars-starfighter-kade-auberon-ryan-gosling</link>
-      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/star-wars-starfighter-kade-auberon-ryan-gosling</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
-      <description>A Lucasfilm confirmou o nome do personagem de Ryan Gosling em Star Wars: Starfighter. Um herói inédito, um período inédito: entenda a aposta do novo filme da saga.</description>
-      <content:encoded>A Lucasfilm confirmou o nome do personagem de Ryan Gosling em Star Wars: Starfighter. Um herói inédito, um período inédito: entenda a aposta do novo filme da saga.</content:encoded>
-      <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Orion_Spacecraft_Outfitted_Interior_2021_%28no_labels%29.jpg/960px-Orion_Spacecraft_Outfitted_Interior_2021_%28no_labels%29.jpg" />
-      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Orion_Spacecraft_Outfitted_Interior_2021_%28no_labels%29.jpg/960px-Orion_Spacecraft_Outfitted_Interior_2021_%28no_labels%29.jpg" medium="image">
-        <media:title type="html">Interior de uma cápsula espacial em preparo para missões tripuladas</media:title>
-      </media:content>
-    </item>
-    <item>
       <title>Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Nação do Fogo</title>
       <link>https://nexoracomic.vercel.app/filmes-series/avatar-the-last-airbender-temporada-3-fire-nation-2027</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/avatar-the-last-airbender-temporada-3-fire-nation-2027</guid>
@@ -1358,7 +1568,7 @@
       </media:content>
     </item>
     <item>
-      <title>Rockstar defende abastecimento em GTA 6 e diz que mecânica será rápida demais para incomodar</title>
+      <title>Rockstar Diz que o Abastecimento de GTA 6 Não Incomodará</title>
       <link>https://nexoracomic.vercel.app/games/rockstar-defende-abastecimento-em-gta-6</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/games/rockstar-defende-abastecimento-em-gta-6</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
@@ -1386,7 +1596,7 @@
       </media:content>
     </item>
     <item>
-      <title>RTX 5090 Dispara de Preço: Por Que as Placas de Vídeo Topo de Linha Ficaram Tão Caras?</title>
+      <title>RTX 5090: De US$ 1.999 a Mais de US$ 5.000 por Causa da IA</title>
       <link>https://nexoracomic.vercel.app/games/rtx-5090-por-que-esta-tao-cara</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/games/rtx-5090-por-que-esta-tao-cara</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
@@ -1554,20 +1764,6 @@
       </media:content>
     </item>
     <item>
-      <title>O Futuro do Streaming em 2026: Consolidação e Novos Modelos</title>
-      <link>https://nexoracomic.vercel.app/filmes-series/futuro-do-streaming-2026-consolidacao</link>
-      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/futuro-do-streaming-2026-consolidacao</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
-      <description>O mercado de streaming passou por uma onda de fusões e mudanças. Entenda como as plataformas estão se reorganizando e o que isso significa para os assinantes.</description>
-      <content:encoded>O mercado de streaming passou por uma onda de fusões e mudanças. Entenda como as plataformas estão se reorganizando e o que isso significa para os assinantes.</content:encoded>
-      <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Green_screen_live_streaming_production_at_Mediehuset_K%C3%B8benhavn.jpg/960px-Green_screen_live_streaming_production_at_Mediehuset_K%C3%B8benhavn.jpg" />
-      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Green_screen_live_streaming_production_at_Mediehuset_K%C3%B8benhavn.jpg/960px-Green_screen_live_streaming_production_at_Mediehuset_K%C3%B8benhavn.jpg" medium="image">
-        <media:title type="html">Estúdio de transmissão ao vivo com tela verde e equipamento de captação</media:title>
-      </media:content>
-    </item>
-    <item>
       <title>IA no Cinema: Como a Inteligência Artificial Transforma os Bastidores</title>
       <link>https://nexoracomic.vercel.app/filmes-series/ia-no-cinema-transformando-os-bastidores</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/ia-no-cinema-transformando-os-bastidores</guid>
@@ -1579,20 +1775,6 @@
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Camera_set_-_Army_wives.JPG/960px-Camera_set_-_Army_wives.JPG" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Camera_set_-_Army_wives.JPG/960px-Camera_set_-_Army_wives.JPG" medium="image">
         <media:title type="html">Equipe de cinema operando câmeras durante as filmagens de uma cena</media:title>
-      </media:content>
-    </item>
-    <item>
-      <title>HQs Digitais: O Streaming de Quadrinhos Chega à Maturidade</title>
-      <link>https://nexoracomic.vercel.app/quadrinhos/hqs-digitais-streaming-de-quadrinhos</link>
-      <guid isPermaLink="false">https://nexoracomic.vercel.app/quadrinhos/hqs-digitais-streaming-de-quadrinhos</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <category domain="https://nexoracomic.vercel.app/quadrinhos">Quadrinhos</category>
-      <description>Da leitura em tablets a novas formas de narrativa, o mundo dos quadrinhos digitais se expande. Entenda as tendências que definem o futuro dos gibis.</description>
-      <content:encoded>Da leitura em tablets a novas formas de narrativa, o mundo dos quadrinhos digitais se expande. Entenda as tendências que definem o futuro dos gibis.</content:encoded>
-      <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Entourage_Edge_B%26H_Photo_jeh.jpg/960px-Entourage_Edge_B%26H_Photo_jeh.jpg" />
-      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Entourage_Edge_B%26H_Photo_jeh.jpg/960px-Entourage_Edge_B%26H_Photo_jeh.jpg" medium="image">
-        <media:title type="html">Leitor de livros eletrônicos com tela usada para leitura de histórias em quadrinhos</media:title>
       </media:content>
     </item>
     <item>
@@ -1835,8 +2017,8 @@
     </item>
     <item>
       <title>NVIDIA Investe Bilhões na MediaTek para Acelerar a Próxima Geração de IA</title>
-      <link>https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-inviste-bilhoes-mediatek</link>
-      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-inviste-bilhoes-mediatek</guid>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-investe-bilhoes-mediatek</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/nvidia-investe-bilhoes-mediatek</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
       <description>NVIDIA anunciou um investimento de US$ 3,5 bilhão na MediaTek, expandindo parceria para chips de IA personalizados para data centers, PCs e carros. Entenda o impacto dessa aliança.</description>
@@ -1929,20 +2111,6 @@
       <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ahsoka_Tano_costume.jpg/960px-Ahsoka_Tano_costume.jpg" />
       <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ahsoka_Tano_costume.jpg/960px-Ahsoka_Tano_costume.jpg" medium="image">
         <media:title type="html">Cosplayer de Ahsoka Tano com o visual da personagem</media:title>
-      </media:content>
-    </item>
-    <item>
-      <title>Netflix em Setembro de 2026: os Destaques Geek do Mês no Streaming</title>
-      <link>https://nexoracomic.vercel.app/filmes-series/netflix-setembro-2026-destaques-geek</link>
-      <guid isPermaLink="false">https://nexoracomic.vercel.app/filmes-series/netflix-setembro-2026-destaques-geek</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <category domain="https://nexoracomic.vercel.app/filmes-series">Filmes e Séries</category>
-      <description>A grade de lançamentos da Netflix para setembro de 2026 reúne adaptações, animes e séries de fantasia. Veja o que observar no catálogo do streaming neste mês.</description>
-      <content:encoded>A grade de lançamentos da Netflix para setembro de 2026 reúne adaptações, animes e séries de fantasia. Veja o que observar no catálogo do streaming neste mês.</content:encoded>
-      <dc:creator>Equipe NexoraComic</dc:creator>
-      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Child_enjoys_movie_night_at_home_with_popcorn_and_a_gaming_console_in_a_cozy_living_room_setting.jpg/960px-Child_enjoys_movie_night_at_home_with_popcorn_and_a_gaming_console_in_a_cozy_living_room_setting.jpg" />
-      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Child_enjoys_movie_night_at_home_with_popcorn_and_a_gaming_console_in_a_cozy_living_room_setting.jpg/960px-Child_enjoys_movie_night_at_home_with_popcorn_and_a_gaming_console_in_a_cozy_living_room_setting.jpg" medium="image">
-        <media:title type="html">Criança aproveitando uma noite de cinema em casa</media:title>
       </media:content>
     </item>
     <item>
@@ -2268,7 +2436,7 @@
       </media:content>
     </item>
     <item>
-      <title>Transporte Autônomo: Como Carros Dirigem Sozinhas — e Por Que Ainda Não Se Vê em Todo Lugar</title>
+      <title>Transporte Autônomo: Por Que Ainda Não Chega</title>
       <link>https://nexoracomic.vercel.app/futuro/transporte-autonomo</link>
       <guid isPermaLink="false">https://nexoracomic.vercel.app/futuro/transporte-autonomo</guid>
       <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
