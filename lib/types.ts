@@ -117,6 +117,20 @@ export interface AffiliateProduct {
   amazonUrl?: string;
   /** URL de busca/categoria da loja, previamente validada. */
   searchUrl?: string;
+  /**
+   * URL de produto digital em outra loja de afiliados (ex.: Hotmart).
+   *
+   * Usada para CURSOS, EBOOKS e PRODUTOS DIGITAIS, que complementam o
+   * artigo; a Amazon continua sendo usada para produto físico. Ela nunca
+   * substitui uma URL Amazon já existente — apenas entra na ordem de
+   * resolução quando `amazonUrl` e `searchUrl` não existem.
+   */
+  url?: string;
+  /**
+   * Nome da loja, usado apenas no texto do botão ("Ver na Hotmart").
+   * Ausente -> o botão mantém o texto padrão "Ver na Amazon".
+   */
+  store?: string;
   /** Por que este produto é relevante para o leitor. Obrigatório. */
   reason: string;
 }

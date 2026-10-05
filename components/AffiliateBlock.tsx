@@ -14,7 +14,14 @@ interface AffiliateBlockProps {
 /**
  * Resolve o href de um produto.
  *
- * Ordem de preferência: `amazonUrl` -> `searchUrl`.
+ * Ordem de preferência: `amazonUrl` -> `searchUrl` -> `url`.
+ *
+ * A ordem é deliberada: a Amazon vem PRIMEIRO de propósito. Assim, um
+ * produto que já tem URL Amazon continue apontando para a Amazon mesmo
+ * depois de a Hotmart entrar no projeto. `url` só é alcançado quando o
+ * produto não tem nenhum link Amazon — que é o caso dos produtos
+ * digitais (cursos/ebooks), onde a Amazon não se aplica.
+ *
  * Cada candidata passa por `validateAffiliateUrl`. Se nenhuma for válida,
  * retorna null e o produto é exibido SEM link — nunca com href vazio,
  * nunca com URL deduzida a partir de `label` ou `category`.
@@ -26,7 +33,22 @@ function resolveHref(produto: AffiliateProduct): string | null {
   const viaBusca = validateAffiliateUrl(produto.searchUrl);
   if (viaBusca.ok) return viaBusca.href;
 
+  const viaLoja = validateAffiliateUrl(produto.url);
+  if (viaLoja.ok) return viaLoja.href;
+
   return null;
+}
+
+/**
+ * Texto do botão.
+ *
+ * Só existe porque o bloco passou a exibir produtos de mais de uma loja.
+ * Sem `store`, o texto é exatamente o de antes ("Ver na Amazon"), para
+ * que nenhum produto Amazon existente mude de aparência.
+ */
+export function affiliateCtaLabel(produto: AffiliateProduct): string {
+  const loja = produto.store?.trim();
+  return loja ? `Ver na ${loja}` : 'Ver na Amazon';
 }
 
 /**
@@ -104,7 +126,7 @@ export default function AffiliateBlock({ affiliate, className = '' }: AffiliateB
                   {...AFFILIATE_LINK_PROPS}
                   className="inline-block mt-2 py-2 text-sm font-medium text-accent hover:text-accent/80 transition-colors underline decoration-dotted underline-offset-2"
                 >
-                  Ver na Amazon
+                  {affiliateCtaLabel(produto)}
                   <span className="sr-only">: {produto.label}</span>
                 </a>
               ) : (

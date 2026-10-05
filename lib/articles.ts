@@ -153,7 +153,23 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         url: 'https://hai.stanford.edu/ai-index',
         type: 'university'
       }
-    ]
+    ],
+    // HOTMART — produto digital (curso). O artigo explica o que é IA
+    // generativa; o curso é o caminho de aprofundamento em Python/ML para o
+    // leitor que quer sair da teoria. Link real obtido na conta de afiliado
+    // da Hotmart (produto 2668372), NÃO montado manualmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Clube de Assinaturas da Universidade dos Dados',
+          category: 'curso-ciencia-de-dados',
+          url: 'https://go.hotmart.com/T107891511P',
+          store: 'Hotmart',
+          reason:
+            'O artigo mostra como um modelo generativo é treinado e por que a rede neural profunda é a base disso. Para quem quer sair da leitura e TREINAR o próprio modelo, a trilha de Python, SQL e Machine Learning desta plataforma é a continuação prática do assunto.',
+        },
+      ],
+    },
   },
   {
     id: '3',
@@ -529,28 +545,29 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'ficcao-cientifica-x-ciencia-real',
     title: 'Ficção Científica x Ciência Real: O que o Cinema Acerta e o que Exagera',
     excerpt: 'Dos buracos de minhoca aos robôs conscientes, a ficção científica inspira a ciência — mas nem tudo é como nos filmes. Compare as ideias.',
-    content: `
-      <h2>Ficção Científica Como Inspiração</h2>
-      <p>A ficção científica popularizou submarinos, satélites e tablets muito antes da tecnologia real. O gênero não apenas entretém: ele inspira cientistas e engenheiros a transformar ideias ousadas em realidade.</p>
+    content: `<h2>O que a ficção científica realmente faz</h2>
+      <p>Ficção científica não é apenas uma história ambientada no futuro. É um gênero com uma função específica dentro da cultura: permite discutir ideias perigosas sem precisar defender a ideia.</p>
+      <p>É por isso que o gênero existe. Um ensaio sobre inteligência artificial consciente teria de argumentar a favor ou contra, e seria lido como posição. Um filme sobre uma civilização que resolve o problema cria o mesmo debate e permite que cada espectador saia com a conclusão que quiser. A ficção é um argumento com o conflito embutido.</p>
+<h2>Três relações possíveis entre a ficção e a ciência</h2>
+      <p>Quando uma história usa uma ideia científica, ela pode estar fazendo uma de três coisas. Distinguir as três é o que separa o leitor atento do leitor ingênuo.</p>
+      <p><strong>Antecipação.</strong> A ideia ainda não existe, mas o problema é real. É o caso mais famoso: linhas de transmissão de dados, máquinas que pensam, viagem além da órbita. Aqui a ficção não acerta o futuro, ela nomeia a pergunta cedo. O valor não está na previsão, e sim em fazer o público perceber que a pergunta existe.</p>
+      <p><strong>Analogia.</strong> A ideia é deslocada de propósito, para servir a uma ideia sobre outra coisa. Uma nave que é uma nave de guerra serve para falar sobre poder; uma cidade flutuante serve para falar sobre colapso social. Nesse caso, a imprecisão física não é defeito, é recurso, e cobrá-la é ler a história errado.</p>
+      <p><strong>Erro.</strong> A história afirma que algo é possível quando não é. É o caso mais comum em super-heróis e em ficção de aventura tecnológica. A física voa porque facilita o roteiro; a luminária voa porque exigiria explicar propulsão.</p>
+<h2>Por que o cinema erra mais do que os quadrinhos</h2>
+      <p>Vale observar um dado estrutural: itens de fantasia e super-heróis aparecem muito mais no cinema do que nos quadrinhos, e o cinema tem mais recursos para resolver problemas visuais. Ainda assim, é no cinema que os erros físicos costumam ser mais comuns.</p>
+      <p>A razão é que o cinema precisa resolver o problema em uma hora e meia, e o quadrinho tem tempo. Um quadrinho pode gastar três páginas explicando por que a teia funciona. Um filme tem uma cena e um efeito sonoro. A física detalhada não cabe no formato, então o que sobra é a licença visual.</p>
+      <p>Isso não é crítica ao cinema. É uma consequência do formato. E significa que o mesmo personagem tem graus diferentes de exatidão dependendo de onde aparece: um desenho animado de 1960 pode ser mais fiel à física do que um filme de orçamento milionário.</p>
 
-      <h2>Buracos de Minhoca no Cinema</h2>
-      <p>Filmes como Interestelar popularizaram os buracos de minhoca como atalhos espaciais. A física real, descrita pela relatividade geral, permite a existência teórica desses atalhos, mas ainda não há evidência observacional ou tecnologia capaz de criá-los.</p>
-
-      <h3>O Buraco Negro Real</h3>
-      <p>A primeira imagem real de um <a href="/espaco/como-buracos-negros-funcionam">buraco negro</a>, registrada em 2019 pelo Event Horizon Telescope, confirmou que a simulação feita para o cinema estava surpreendentemente próxima do comportamento previsto pela física.</p>
-
-      <h2>Robôs e Inteligência Artificial</h2>
-      <p>O cinema costuma retratar IA com consciência e emoções humanas. Na prática, os sistemas de IA atuais são ferramentas de padrões, sem consciência real. Ainda assim, a ficção levanta questões éticas importantes sobre autonomia e vieses que a pesquisa leva a sério.</p>
-
-      <h2>Viagem no Tempo</h2>
-      <p>A viagem no tempo é um pilar do gênero. Cientificamente, a relatividade mostra que o tempo passa de forma diferente em contextos distintos, mas não há método conhecido para viajar livremente ao passado ou ao futuro de forma controlada.</p>
-
-      <h3>Dilatação do Tempo</h3>
-      <p>Relógios em movimento ou sob gravidade mais forte realmente marcam o tempo de forma diferente. Esse efeito, previsto por Einstein, é real e precisa ser considerado até em sistemas de GPS, não apenas nas narrativas de ficção.</p>
+      <h2>O caso dos quadrinhos</h2>
+      <p>Quadrinhos e superpoderes têm uma relação ambígua com a ciência, e vale ser justo sobre isso.</p>
+      <p>De um lado, o gênero usa a ciência como motor de imagem: mutação, radiação, tecnologia avançada. É a linguagem disponível para explicar por que alguém é diferente. De outro, a licença narrativa é enorme: um personagem pode ganhar qualquer poder na página em que o autor quiser, sem precisar justificar.</p>
+      <p>Para quem quer ler quadrinhos e sair com mais ciência, e não menos, o critério é simples: separar o que o quadrinho afirma do que a ciência sustenta. Um texto sobre <a href="/quadrinhos/ciencia-nos-quadrinhos-superpoderes">ciência nos quadrinhos</a> faz esse trabalho com o poder, e um outro sobre <a href="/quadrinhos/superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos">a física de cada poder</a> detalha a conta.</p>
 
       <h2>Conclusão</h2>
-      <p>Mais do que prever o futuro, a ficção científica questiona as hipóteses atuais e estimula o pensamento criativo. Ao separar o que é ciência do que é liberdade narrativa, entendemos melhor tanto a realidade quanto a arte que a imagina.</p>
-    `,
+      <p>Ficção científica é um gênero de argumento, não de previsão. Quando ela acerta o futuro, o motivo costuma ser menos o acerto e mais o fato de ter nomeado a pergunta certa antes de todo mundo. Quando ela erra, isso não significa que o gênero falhou: significa que o formato escolheu o efeito sobre a exatidão, como quase sempre escolhe.</p>
+      <p>O leitor que aprende a distinguir antecipação, analogia e erro sai da mesma sala de cinema com uma ferramenta que nenhum dos três tipos de história pretendia dar. Essa é a razão de vale a pena prestar atenção.</p>
+      <p>Só a primeira categoria é sobre ciência em si. As outras duas usam a ciência como linguagem. Reconhecer qual delas está em jogo é o que permite ler um filme sem sair com informações erradas sobre o mundo.</p>
+      <p>Essa função explica por que o gênero floresceu mesmo quando a tecnologia real estava atrasada em relação à ficção. As ideias viajavam primeiro através das histórias, e a realidade foi alcançada depois.</p>`,
     category: {
       id: 'filmes-series',
       slug: 'filmes-series',
@@ -561,7 +578,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['ficção científica', 'filmes', 'ciência', 'cinema', 'ciência real'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2024-01-17',
-    readingTime: 6,
+    readingTime: 4,
     featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/F%C4%B1rat%20G%C3%BCm%C3%BC%C5%9Ftekin%20on%20a%20film%20set.jpg?width=960',
     imageLicense: 'CC BY-SA 4.0',
     imageArtist: 'Fırat Gümüştekin',
@@ -585,33 +602,43 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'ciencia-nos-quadrinhos-superpoderes',
     title: 'Ciência nos Quadrinhos: Os Poderes dos Heróis Sob a Ótica da Física',
     excerpt: 'De super-heróis a mutantes, os quadrinhos misturam ficção científica e física real. Entenda onde os superpoderes exageram e onde se apoiam na ciência.',
-    content: `
-      <h2>Quadrinhos como Laboratório de Ideias</h2>
-      <p>Os quadrinhos de super-heróis sempre usaram a ciência como base para explicar os poderes. Radiação, mutações genéticas e tecnologia avançada são temas recorrentes que, embora dramatizados, dialogam com teorias científicas reais.</p>
-
-      <h2>Radiação e Superpoderes</h2>
-      <p>Muitos heróis devem seus poderes à radiação. Na prática, a radiação ionizante é perigosa e não concede superpoderes. No entanto, a história dos quadrinhos ajuda a popularizar a ideia de que fenômenos físicos podem transformar a matéria — algo que a ciência de fato estuda em contextos limitados e controlados.</p>
-
-      <h2>Mutações Genéticas</h2>
-      <p>A noção de "mutantes" inspirada na genética tem raízes reais: mutações acontecem o tempo todo no DNA. A <a href="/ciencia/edicao-genetica-crispr">edição genética moderna</a>, que permite modificar genes de forma precisa, aproxima parte da fantasia da realidade, embora ainda longe de gerar poderes extraordinários.</p>
-
-      <h3>Biotecnologia e Influência</h3>
-      <p>Técnicas como a edição de genes abrem portas para tratamentos de doenças hereditárias. Os quadrinhos, ao especular sobre mutações, ajudam o público a desenvolver curiosidade e debate sobre esses avanços.</p>
-
-      <h2>Física dos Superpoderes</h2>
+    content: `<h2>Por que superpoderes são uma boa pergunta científica</h2>
+      <p>Existe uma diferença entre um quadrinho que menciona genes e um que usa a genética como problema narrativo. A primeira apenas decora. A segunda faz uma pergunta: o que aconteceria se alguém pudesse reescrever o próprio corpo?</p>
+      <p>É essa a função dos superpoderes nos quadrinhos. Eles não são um erro a ser corrigido, são uma ferramenta de extrapolação. O personagem pergunta algo que a ciência responde de forma lenta: o que acontece quando uma variável muda?</p>
+<h2>Mutação: o que a ciência realmente permite</h2>
+      <p>Mutação é um termo carregado de medo fora da biologia. Dentro dela, é apenas alteração de sequência de DNA. As <a href="https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works">técnicas de edição genética</a> já permitem modificar genes com precisão em laboratório, e a área de <a href="https://www.nature.com/subjects/biotechnology">biotecnologia</a> evoluiu o suficiente para que esse processo seja rotineiro em pesquisa.</p>
+      <p>O que isso muda na leitura de um super-herói mutante? Três coisas, e vale ser preciso sobre cada uma.</p>
       <ul>
-        <li><strong>Voo e gravidade:</strong> flutuar exigiria vencer a gravidade com energia imensa</li>
-        <li><strong>Superforça:</strong> mover objetos colossais envolveria restrições de resistência de materiais</li>
-        <li><strong>Velocidade extrema:</strong> correr próximo da velocidade da luz implicaria dilatação do tempo</li>
-        <li><strong>Campo de força:</strong> hipóteses teóricas de barreiras de energia ainda são especulativas</li>
+        <li><strong>O ponto de partida é real.</strong> Mutações acontecem. Genes mudam, e essas mudanças são o material bruto da evolução. O que não é rotineiro é escolher deliberadamente qual gene mudar e para que.</li>
+        <li><strong>O número de possibilidades é pequeno.</strong> A edição genética altera sequências existentes. Ela não inventa capacidades que nenhum gene humano codifica. Não existe gene para voar ou para lançar teias.</li>
+        <li><strong>A complexidade é o problema.</strong> Mesmo que um único gene alterado produzisse um efeito mensurável, um organismo real precisaria coordenar esse efeito com visão, equilíbrio, sistema nervoso e resistência do esqueleto. Quadrinhos pulam essa etapa porque ela não gera história.</li>
+      </ul>
+      <p>A consequência é interessante: o mutante de quadrinhos não é impossível por ser mutante, mas por ser seletivo. A natureza não combina capacidades funcionais por encomenda, e sim por acidente.</p>
+<h2>Radiação: o erro mais instrutivo</h2>
+      <p>Quando um herói ganha poderes por radiação ou por substância estranha, o texto está oficialmente errado, e de um jeito útil.</p>
+      <p>Radiação ionizante é um perigo real e bem documentado. Ela causa danos no DNA, e esses danos aumentam o risco de câncer. Não transforma ninguém em super-herói. Em doses altas, causa doença aguda e morte.</p>
+      <p>Vale notar a ironia: o vilão de radiação mais famoso da ficção, Venom, é um alienígena que precisa de um líquido radioativo para sobreviver. O erro científico vem dobrado, e funciona como metáfora.</p>
+      <p>Existe, porém, um detalhe real em alguns casos. Mutações induzidas por radiação de fato ocorrem em laboratório, em bactérias e em células humanas em cultura. A ciência sabe provocar mutações de forma dirigida. O que ela não faz é converter essas mudanças em poderes coerentes.</p>
+<h2>A física por trás dos poderes mais comuns</h2>
+      <p>Vale separar os poderes que a física trata com elegância daqueles que ela apenas descreve como impossíveis.</p>
+      <ul>
+        <li><strong>Voo sem asas.</strong> É mais próximo da realidade do que parece, porque o princípio é o mesmo de um avião. O <a href="https://www.grc.nasa.gov/www/k-12/airplane/index.html">guia de aeronáutica da NASA</a> explica que o ar que passa por cima de uma superfície curva se move mais rápido que o de baixo, criando diferença de pressão que sustenta o peso. Um personagem que plana e muda o ângulo do corpo pode gerar a mesma diferença de pressão. Por isso a ficção costuma representá-lo sem asas, e isso não é um erro.</li>
+        <li><strong>Superforça.</strong> Aqui a física vira contabilidade. Quanto maior a força aplicada, maior a tensão no tendão e no osso. Um personagem que ergue um carro precisa de uma estrutura capaz de resistir à reação, e nenhum esqueleto humano tem. Aumentar a força sem aumentar a resistência apenas quebra o próprio corpo.</li>
+        <li><strong>Velocidade extrema.</strong> Perto da velocidade da luz, a relatividade passa a importar de forma mensurável. A dilatação do tempo não é detalhe de ficção, é resultado experimental. O problema do super-herói rápido não é a velocidade, é o custo.</li>
+        <li><strong>Campo de força e invisibilidade.</strong> Estes são os mais distantes. Não existe tecnologia conhecida que gere uma barreira de energia nem que curve a luz ao redor de um objeto tridimensional. São hipóteses, não protótipos.</li>
       </ul>
 
-      <h2>Justiça com Ciência</h2>
-      <p>Alguns autores consultam físicos para deixar as explicações plausíveis. Essa colaboração mostra como a ficção científica pode inspirar o interesse pela ciência, transformando leitores curiosos em futuros pesquisadores.</p>
+<h2>O que quadrinhos ensinam bem, e ensinam mal</h2>
+      <p>Vale ser justo com o gênero antes de criticá-lo. Quadrinhos fazem duas coisas bem.</p>
+      <p>A primeira é tornar visível um conceito abstrato. Uma pessoa sem formação em biologia entende "mutação" de forma concreta quando vê um personagem que mudou. A ficção não substitui o ensino, mas cria a pergunta que faz o ensino valer a pena.</p>
+      <p>A segunda é mostrar que a ciência é feita de tentativas. Heróis que experimentam, que falham, que descobrem limites. Esse é o método real, com toda a sua imperfeição, e a ficção costuma representá-lo melhor do que a propaganda institucional.</p>
+      <p>O que quadrinhos ensinam mal é mais específico: eles sugerem que um avanço isolado produz um super-herói, quando a realidade é que avanços produzem ferramentas, e ferramentas exigem método e tempo. É a distância entre uma descoberta científica e o produto de engenharia, e essa distância é justamente onde a ficção economiza.</p>
 
       <h2>Conclusão</h2>
-      <p>Os quadrinhos não precisam ser cientificamente exatos para encantar. Eles brilham ao usar a ciência como ponto de partida, incentivando perguntas e imaginação — a mesma combinação que já levou a grandes descobertas reais.</p>
-    `,
+      <p>O valor de um quadrinho com superpoderes não está na verossimilhança, e sim na pergunta que ele faz. Mutação é real, radiação é real, o voo é fisicamente possível. O que não é real é a seleção: escolher a mutação que dá exatamente o poder que a história precisa, e que funcione em conjunto com um corpo humano.</p>
+      <p>Essa é a fronteira útil entre ficção e ciência, e saber onde ela fica deixa a leitura melhor, não pior. Um leitor que entende por que o Homem-Aranha não voa como um avião entende melhor por que ele precisa escalar uma parede.</p>
+      <p>Para quem quer ir além da superfície, vale cruzar este texto com <a href="/quadrinhos/superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos">a análise da física de cada poder</a>, que trata os mecanismos um a um.</p>
+      `,
     category: {
       id: 'quadrinhos',
       slug: 'quadrinhos',
@@ -622,7 +649,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['quadrinhos', 'super-heróis', 'ciência', 'física', 'genética'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2024-01-17',
-    readingTime: 5,
+    readingTime: 6,
     featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Freak%20Point%20(Lalone%2C%202024)%2003.jpg?width=960',
     imageLicense: 'CC BY-SA 4.0',
     imageArtist: 'Daniel Capilla',
@@ -1567,7 +1594,24 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         url: 'https://www.nature.com/subjects/machine-learning',
         type: 'journal'
       }
-    ]
+    ],
+    // HOTMART — produto digital (curso). O artigo explica aprendizado
+    // supervisionado / não supervisionado / por reforço, overfitting e
+    // métricas; o curso é o caminho para praticar esses conceitos em
+    // código Python. Link real obtido na conta de afiliado da Hotmart
+    // (produto 1228268), NÃO montado manualmente.
+    affiliate: {
+      products: [
+        {
+          label: 'Python para Data Science e Analytics',
+          category: 'curso-python-data-science',
+          url: 'https://go.hotmart.com/F107891497S',
+          store: 'Hotmart',
+          reason:
+            'O artigo descreve o fluxo real de treinamento de um modelo — prever, medir o erro, ajustar pesos — e avisa que só um baseline simples evita resultados enganosos. Este curso aplica exatamente esse método na prática, com Python, Pandas e projetos de análise de dados.',
+        },
+      ],
+    },
   },
   {
     id: '24',
@@ -1742,6 +1786,13 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
       <h2>Tendência 6: Interatividade e Novos Formatos</h2>
       <p>Episódios com decisões do espectador, formatos verticais para celular e conteúdos curtos de minutos refletem mudanças de consumo. A fronteira entre plataforma de séries e rede social está cada vez mais tênue.</p>
+
+      <h2>Tendência 7: Publicidade e a Nova Economia do Streaming</h2>
+      <p>As seis tendências acima descrevem o que muda para quem assina. A sétima descreve o que muda para quem vende, e é a que explica por que as outras estão acontecendo agora.</p>
+      <p>Produzir conteúdo exclusivo custa bilhões, e a rentabilidade das plataformas sofreu pressão nos últimos anos. Diante disso, surgiram duas respostas: unir catálogos e operações para cortar custo e ganhar escala, e oferecer planos financiados por publicidade. As duas se reforçam.</p>
+      <p>A agregação de catálogos que aparece na tendência 2 não é só uma resposta ao excesso de assinaturas. É uma resposta ao custo de conteúdo. Quando duas plataformas se fundem, metade do que cada uma pagava para produzir exclusive deixa de ser competitive, e o catálogo conjunto aumenta sem que o gasto aumente na mesma proporção. É aritmética de escala aplicada a um mercado saturado.</p>
+      <p>A publicidade entra como segunda válvula. Um plano com anúncios permite cobrar menos do assinante sem reduzir o custo de operação, o que widen a base de quem paga. O efeito é duplo: amplia a base e, ao mesmo tempo, desvaloriza o plano pago completo, porque o conteúdo deixa de ser o motivo de assinar. É a razão pela qual a publicidade aparece simultaneamente na lista de preços e na lista de grievances.</p>
+      <p>Vale reter a diferença entre o que é registro e o que é expectativa. O avanço dos planos com anúncios e a redução do número de plataformas são fatos observados. Alianças novas entre estúdios e operadoras de telefonia, ou a chegada de janelas exclusivas para eventos, são movimentos em curso sem confirmação oficial, e devem ser tratados como expectativa.</p>
 
       <h2>Conclusão</h2>
       <p>O streaming que venceu a TV a cabo agora enfrenta sua própria encruzilhada: custo de conteúdo alto, mercado saturado e consumidores mais exigentes. As plataformas que sobreviverão serão as que equilibrarem preço justo, catálogo enxuto e experiência que respeite o tempo — e o dinheiro — do assinante. Enquanto isso, os <a href="/filmes-series/como-funciona-o-cgi">efeitos digitais</a> e a produção continuam evoluindo atrás das câmeras.</p>
@@ -2859,28 +2910,53 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     title: 'IA na Medicina: O Avanço da Detecção Precoce de Doenças',
     excerpt: 'Modelos de inteligência artificial vêm ajudando a identificar doenças em estágios iniciais. Entenda os avanços, os limites e as preocupações éticas dessa revolução na saúde.',
     content: `
-      <h2>Um Novo Aliado no Consultório</h2>
-      <p>A inteligência artificial deixou de ser promessa para se tornar ferramenta cotidiana em hospitais e clínicas. Em 2026, <strong>modelos de visão computacional e de linguagem</strong> são usados para analisar exames de imagem, apoiar diagnósticos e até sugerir planos de tratamento — sempre com a supervisão de profissionais de saúde.</p>
+      <h2>O que a IA faz de facto num hospital</h2>
+      <p>A inteligência artificial não "diagnostica" no sentido de decidir por um médico. O que ela faz, na prática, é varrer grandes quantidades de dados e apontar o que merece uma segunda olhadela. O resultado é normalmente um <strong>software que processa um exame — uma radiografia, uma tomografia, um exame de retina — e devolve uma marcação, uma probabilidade ou uma lista de achados suspeitos.</strong></p>
+      <p>É por isso que a IA é mais útil em tarefas repetitivas e bem delimitadas do que em raciocínio aberto. Numa imagem de tórax há centenas de milhares de pixels; um radiologista experiente vê o essencial em segundos, mas um sistema de visão computacional compara aquela imagem com milhares de outras e assinala desvios que passam despercebidos no meio de um dia inteiro de leitura.</p>
 
-      <h2>Onde a IA Tem Ajudado Mais</h2>
+      <h2>Que dados são analisados</h2>
+      <p>A maior parte da evidência vem de <strong>imagens médicas</strong>: raio-X, tomografia, ressonância, mamografia, além de retinianas e lâminas de histopatologia. É por isso que a radiologia é a área mais óbvia da IA médica — é onde existe mais arquivo digital, mais pedidos de exame e mais trabalho padronizado.</p>
+      <p>Mas não é a única fonte. Há sistemas que analisam <strong>traçados de eletrocardiograma</strong>, <strong>sinais auditivos</strong> (a triagem de pacientes com sepse aguda é uma das áreas com mais evidência publicada), dados de <strong>monitorização contínua</strong> como pressão e ritmo cardíaco, e ainda <strong>texto clínico</strong>: notas, laudos e resultados de exames, em que modelos de linguagem procuram sinais que não estão no exame em si.</p>
+
+      <h2>O que "detecção precoce" significa aqui</h2>
+      <p>A frase merece cuidado, porque esconde coisas diferentes. Em pelo menos três situações a IA está a mudar a prática:</p>
+      <p><strong>Triagem.</strong> O sistema reorganiza a fila: entre exames que aguardam leitura, os suspeitos ficam em cima. O benefício aqui não é acerto diagnóstico melhor — é tempo. Um pneumotórax que passa três horas à espera de ser lido é um pneumotórax que chega ao hospital três horas depois. Foi esta a aplicação com resultados mais consistentes até agora.</p>
+      <p><strong>Segunda opinião.</strong> O modelo revê o exame e assinala casos duvidosos para o radiologista olhar com mais atenção. Aqui o ganho é de sensibilidade: reduzir casos que passam despercebidos.</p>
+      <p><strong>Rastreio populacional.</strong> Aqui a promessa é maior, e a evidência é mais fraca. Um sistema que analisa mamografias em milhares de mulheres, em vez de um rastreio presencial, pode em princípio encontrar tumores menores. Mas "em princípio" é exactamente a palavra: muitos destes modelos ainda não foram comparados com o rastreio real em ensaios que medissem desfechos em pacientes.</p>
+
+      <h2>Falso positivo e falso negativo</h2>
+      <p>Estes dois termos explicam quase toda a controvérsia, e vale defini-los sem ambiguidade.</p>
+      <p><strong>Falso positivo</strong> é o sistema assinalar uma doença que não existe. Uma pessoa saudável é enviada para mais exames, uma biópsia desnecessária, semanas de ansiedade. O custo é real: cada exame pedido a mais pode levar a um procedimento invasivo.</p>
+      <p><strong>Falso negativo</strong> é o sistema não assinalar uma doença que existe. A pessoa sai com um resultado "normal" e a doença progride sem ninguém saber. É o erro que assusta mais, e é também o mais difícil de medir, porque para o contar é preciso saber o que aconteceu a quem o sistema não assinalou — o que significa seguir os pacientes durante anos.</p>
+      <p>Um sistema não é "melhor" por ter mais acertos. Depende do que se está a tentar detectar e do custo de errar em cada sentido. Numa triagem de emergência, um falso positivo é um exame a mais: barato. Um falso negativo pode custar a vida. Numa triagem de cancro da mama, o cálculo é diferente, e por isso os sistemas são configurados de maneira diferente conforme a doença e o serviço.</p>
+
+      <h2>Como um modelo é validado</h2>
+      <p>Um modelo de IA médica passa por etapas que o leitor confundiria com o resultado final, mas que não são o mesmo:</p>
       <ul>
-        <li><strong>Radiologia:</strong> detecção de tumores e fraturas em raios-X, tomografias e ressonâncias</li>
-        <li><strong>Oftalmologia:</strong> triagem de doenças como retinopatia diabética por análise de retina</li>
-        <li><strong>Dermatologia:</strong> análise de lesões de pele para alertar sobre possíveis melanomas</li>
-        <li><strong>Oncologia:</strong> apoio na priorização de casos urgentes em exames de rastreio</li>
+        <li><strong>Dados de treino:</strong> os exemplos com resposta conhecida que ensinam o modelo</li>
+        <li><strong>Validação:</strong> um conjunto separado, nunca visto durante o treino, para medir desempenho fora da amostra</li>
+        <li><strong>Aprovação regulatória:</strong> nos Estados Unidos, a FDA exige que o dispositivo cumpra requisitos de segurança e eficácia antes de ser comercializado</li>
+        <li><strong>Uso clínico real:</strong> um ensaio em que o sistema é testado em pacientes reais, com a decisão do médico a ficar em aberto</li>
       </ul>
+      <p>A distinção importa porque <strong>quase tudo o que se lê em notícias sobre IA médica vem da segunda ou da terceira etapa</strong>, não da quarta. Um número obtido numa validação pode ser excelente e não dizer quase nada sobre o que acontece quando o sistema é instalado numa sala de emergência real, com casos diferentes dos do conjunto de treino.</p>
 
-      <h2>Como Funciona por Trás dos Panos</h2>
-      <p>A maioria dos sistemas é treinada com <strong>grandes conjuntos de imagens e históricos clínicos anonimizados</strong>. Ao aprender padrões sutis, o modelo sinaliza achados que podem passar despercebidos ao olho humano — funcionando mais como um <em>segundo par de olhos</em> do que como um substituto do médico.</p>
+      <h2>O que já é real e o que ainda é pesquisa</h2>
+      <p>Há uma distância enorme entre "o sistema foi aprovado" e "o sistema melhora a vida do paciente". A FDA mantém uma lista pública dos dispositivos médicos que utilizam IA e que estão autorizados para o mercado norte-americano. Mesmo sem fixar números, essa lista diz algo útil: a adoção está <strong>concentrada na radiologia</strong>, com cardiovascular e neurologia muito atrás, e com áreas como dermatologia e patologia quase ausentes do topo da lista.</p>
+      <p>Este desequilíbrio é revelador. A IA médica não está espalhada por toda a medicina de forma igual: está profundamente concentrada naquilo que é <strong>imagem digital</strong>. Dermatologia e patologia, que aparecem tanto em manchetes quanto em relatórios, têm uma presença muito menor. A razão é estrutural — para validar um dispositivo é preciso um resultado verificável, e uma imagem tem resposta certa.</p>
+      <p>Fica então claro o que ainda é pesquisa: a maioria dos modelos de rastreio populacional, os que prometem detecção precoce em escala, e praticamente tudo o que envolve modelos de linguagem a decidir algo em vez de resumir texto.</p>
 
-      <h2>Limitações e Preocupações Éticas</h2>
-      <p>Os avanços vêm acompanhados de alertas. Modelos treinados com dados viesados podem <strong>reproduzir desigualdades</strong>, como diagnosticar melhor pacientes de determinados grupos populacionais. Há também o risco de <strong>falsos positivos</strong>, que geram ansiedade e custos desnecessários, e dúvidas sobre responsabilidade legal em caso de erro.</p>
+      <h2>Limitações e desigualdades</h2>
+      <p>O problema mais discutido não é técnico, é social. Se um modelo foi treinado sobretudo com imagens de um hospital de um país ocidental, ele pode errar mais — e errar de forma sistemática — em peles mais escuras, com outros tipos de scanner e em outros formatos de imagem. Um modelo pode ter sensibilidade excelente na média da população e ainda assim falhar sistematicamente num subgrupo.</p>
+      <p>Há ainda a <strong>deriva</strong>: um modelo treinado em 2020 com imagens de um scanner específico degrada-se quando o hospital troca de equipamento. Por isso a FDA exige planos de controlo de alterações para dispositivos que aprendem de forma contínua — não é um detalhe, é uma exigência estrutural.</p>
+      <p>E há uma questão de fundo, que os estudos de implementação mostram repetidamente: <strong>a tecnologia não funciona sozinha</strong>. Um modelo que assinala precisa de alguém autorizado a agir sobre o alerta, de tempo para o fazer, e de um protocolo que não deixe o alerta cair. Parte do benefício esperado não se materializa por falhas na organização do serviço, não no algoritmo.</p>
 
-      <h2>O Papel da Regulação</h2>
-      <p>Agências reguladoras começaram a criar fluxos específicos de aprovação para dispositivos baseados em IA. A meta é garantir que as ferramentas sejam <strong>seguras, transparentes e monitoradas</strong> após entrarem em uso — um debate ainda em evolução em escala global.</p>
+      <h2>Então a IA substitui o médico?</h2>
+      <p>A pergunta é inevitável, e a resposta honesta é que não há evidência disso. Nenhum ensaio clínico demonstrou que um sistema de IA substitua um profissional de saúde na detecção precoce, e as aprovações regulatórias são feitas para <strong>uso assistido</strong>, não autónomo. O desenho dos estudos é significativo: quase todos comparam a IA com o médico, ou a IA mais o médico com o médico sozinho — e o resultado que se repete é que a combinação costuma ganhar.</p>
+      <p>Onde a promessa é real, é discreta: reduzir o tempo entre o exame e a resposta, e reduzir o número de achados que passam despercebidos. É um segundo par de olhos durante um dia inteiro de leitura, não um médico virtual a substituir outro.</p>
 
-      <h2>Conclusão</h2>
-      <p>A IA na medicina não substitui o julgamento clínico humano, mas expande suas capacidades. O caminho mais promissor é o da colaboração: tecnologia para agilizar e ampliar o alcance, médicos para interpretar, decidir e cuidar. O desafio é garantir que essa parceria seja justa e segura para todos os pacientes.</p>
+      <h2>Fontes e Referências</h2>
+      <p>A <strong>FDA</strong> mantém uma lista de dispositivos médicos que utilizam inteligência artificial e que estão autorizados para o mercado dos Estados Unidos. A distribuição por especialidade dessa lista mostra a mesma concentração descrita acima: a radiologia ocupa a maior parte, o que confirma que a maior parte da evidência publicada está na imagem médica. Vale a pena sublinhar uma ressalva expressa pela própria agência: a lista <em>não é exaustiva</em>. Foi montada a partir da deteção de termos relacionados com IA nas descrições das autorizações de marketing, e não a partir de um censo completo de dispositivos. Por isso os números que circulam sobre esta lista — incluindo os que aqui podiam constar — devem ser lidos como uma fotografia de uma data, e não como um total definitivo. Este artigo optou deliberadamente por não os reproduzir.</p>
+      <p>A mesma agência publica ainda os princípios de <em>Good Machine Learning Practice</em> para o desenvolvimento de dispositivos com aprendizado de máquina, que descrevem o que se espera em termos de documentação, validação e transparência. São princípios de boas práticas, não um atestado de eficácia: ler a lista da FDA e ler um ensaio clínico são coisas diferentes.</p>
     `,
     category: {
       id: 'inteligencia-artificial',
@@ -2908,6 +2984,16 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         title: 'WHO - Ethics and governance of artificial intelligence for health',
         url: 'https://www.who.int/publications/i/item/9789240029200',
         type: 'agency'
+      },
+      {
+        title: 'FDA - List of Artificial Intelligence-Enabled Medical Devices',
+        url: 'https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices',
+        type: 'government'
+      },
+      {
+        title: 'FDA - Good Machine Learning Practice for Medical Device Development: Guiding Principles',
+        url: 'https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles',
+        type: 'government'
       }
     ]
   },
@@ -3324,63 +3410,6 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '51',
-    slug: 'futuro-do-streaming-2026-consolidacao',
-    title: 'O Futuro do Streaming em 2026: Consolidação e Novos Modelos',
-    excerpt: 'O mercado de streaming passou por uma onda de fusões e mudanças. Entenda como as plataformas estão se reorganizando e o que isso significa para os assinantes.',
-    content: `
-      <h2>De Várias Assinaturas a Menos Plataformas</h2>
-      <p>Depois de anos de expansão, o mercado de streaming viveu uma fase de <strong>consolidação</strong>. O número de plataformas se reduziu e grandes grupos passaram a agrupar catálogos, em um movimento que promete mudar a forma como consumimos filmes e séries.</p>
-
-      <h2>O Que Motiva a Consolidação</h2>
-      <p>A competição ficou cara: produzir conteúdo exclusivo exige investimentos bilionários, e a rentabilidade das plataformas sofreu pressão. Unir catálogos e fundir operações ajuda as empresas a <strong>cortar custos e ganhar escala</strong>, além de reduzir a rotatividade de assinantes.</p>
-
-      <h2>Consequências Práticas para o Público</h2>
-      <ul>
-        <li><strong>Menos contas:</strong> o assinante passa a acessar mais conteúdo em uma única assinatura</li>
-        <li><strong>Mudança de catálogos:</strong> séries de uma plataforma podem migrar ou ser removidas</li>
-        <li><strong>Preços e planos:</strong> novas opções com e sem publicidade podem se multiplicar</li>
-      </ul>
-
-      <h2>O Papel da Publicidade</h2>
-      <p>Os planos com anúncios se tornaram a principal porta de entrada em várias plataformas. A publicidade permite <strong>preços menores para o assinante</strong> e cria uma nova fonte de receita — mas também levanta debates sobre a experiência de assistir conteúdo.</p>
-
-      <h2>Novos Modelos no Horizonte</h2>
-      <p>Além da fusão de operações, surgem iniciativas experimentais, como <strong>janelas exclusivas para eventos e lançamentos em streaming</strong>. Há também <strong>especulação</strong> sobre novas alianças entre estúdios e operadoras de telefonia, embora nada tenha sido oficialmente confirmado.</p>
-
-      <h2>Conclusão</h2>
-      <p>A consolidação do streaming reflete um mercado que amadureceu após anos de crescimento explosivo. Para o público, o resultado é mais praticidade e menos escolha dispersa — mas o equilíbrio entre preço, catálogo e publicidade continuará definindo a experiência de cada assinante.</p>
-    `,
-    category: {
-      id: 'filmes-series',
-      slug: 'filmes-series',
-      name: 'Filmes e Séries',
-      description: 'Ficção científica, tecnologia no cinema e análise de produções',
-      color: '#f97316'
-    },
-    tags: ['streaming', 'filmes', 'séries', 'consolidação', 'indústria'],
-    author: { id: '1', name: 'Equipe NexoraComic' },
-    publishedAt: '2026-09-02',
-    readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Green_screen_live_streaming_production_at_Mediehuset_K%C3%B8benhavn.jpg/960px-Green_screen_live_streaming_production_at_Mediehuset_K%C3%B8benhavn.jpg',
-    imageAlt: 'Estúdio de transmissão ao vivo com tela verde e equipamento de captação',
-    imageLicense: 'CC BY 3.0',
-    imageArtist: 'Rehak',
-    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Green_screen_live_streaming_production_at_Mediehuset_K%C3%B8benhavn.jpg',
-    sources: [
-      {
-        title: 'Variety - Streaming business and industry news',
-        url: 'https://variety.com/v/tv/streaming/',
-        type: 'publication'
-      },
-      {
-        title: 'Hollywood Reporter - Streaming business news',
-        url: 'https://www.hollywoodreporter.com/c/tv/streaming/',
-        type: 'publication'
-      }
-    ]
-  },
-  {
     id: '52',
     slug: 'ia-no-cinema-transformando-os-bastidores',
     title: 'IA no Cinema: Como a Inteligência Artificial Transforma os Bastidores',
@@ -3439,92 +3468,44 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '53',
-    slug: 'hqs-digitais-streaming-de-quadrinhos',
-    title: 'HQs Digitais: O Streaming de Quadrinhos Chega à Maturidade',
-    excerpt: 'Da leitura em tablets a novas formas de narrativa, o mundo dos quadrinhos digitais se expande. Entenda as tendências que definem o futuro dos gibis.',
-    content: `
-      <h2>Quadrinhos Além do Papel</h2>
-      <p>O mercado de quadrinhos vive uma nova era. Embora o papel continue tendo seus fãs, as <strong>HQs digitais</strong> conquistaram espaço com leitura em tablets, celulares e plataformas de assinatura — mudando a forma como os leitores consomem e como os criadores distribuem suas obras.</p>
-
-      <h2>O Que Está em Alta</h2>
-      <ul>
-        <li><strong>Streaming de HQs:</strong> plataformas de assinatura com acesso a grandes acervos</li>
-        <li><strong>Webcomics:</strong> histórias publicadas diretamente na internet, atualizadas em capítulos</li>
-        <li><strong>Formatos interativos:</strong> narrativas com som, movimento e escolhas do leitor</li>
-        <li><strong>Distribuição global:</strong> obras que alcançam leitores de vários países sem barreiras de logística</li>
-      </ul>
-
-      <h2>Como a Leitura Digital Funciona</h2>
-      <p>Plataformas de leitura adaptam a página ao formato do dispositivo, permitindo zoom e navegação fluida. Algumas versões exploram o "scrolling vertical" — inspirado em leitura de redes sociais —, que se tornou popular entre novos leitores e atrai quem não lia quadrinhos antes.</p>
-
-      <h2>Oportunidades para Novos Criadores</h2>
-      <p>A distribuição digital <strong>reduz barreiras de entrada</strong>. Autores independentes conseguem publicar sem depender de editoras, alcançar comunidades de nicho e transformar seguidores em público pagante. Isso amplia a diversidade de vozes no gênero.</p>
-
-      <h2>Desafios e Ceticismo</h2>
-      <p>O modelo ainda enfrenta questionamentos: a <strong>cobrança por capítulos</strong> pode fragmentar a leitura, e a pirataria continua sendo um problema. Há também a preocupação de que formatos interativos e verticais descaracterizem a essência da arte sequencial, embora muitos artistas vejam nisso uma evolução criativa.</p>
-
-      <h2>Conclusão</h2>
-      <p>As HQs digitais não eliminam o papel, mas ampliam as possibilidades de narrativa, alcance e experimentação. Para leitores e criadores, a era digital abre um universo novo — onde a imaginação dos quadrinhos encontra novas telas e novas linguagens.</p>
-    `,
-    category: {
-      id: 'quadrinhos',
-      slug: 'quadrinhos',
-      name: 'Quadrinhos',
-      description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações',
-      color: '#6366f1'
-    },
-    tags: ['HQs digitais', 'quadrinhos', 'webcomics', 'streaming', 'arte sequencial'],
-    author: { id: '1', name: 'Equipe NexoraComic' },
-    publishedAt: '2026-09-02',
-    readingTime: 7,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Entourage_Edge_B%26H_Photo_jeh.jpg/960px-Entourage_Edge_B%26H_Photo_jeh.jpg',
-    imageAlt: 'Leitor de livros eletrônicos com tela usada para leitura de histórias em quadrinhos',
-    imageLicense: 'CC0',
-    imageArtist: 'Jim.henderson',
-    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Entourage_Edge_B%26H_Photo_jeh.jpg',
-    sources: [
-      {
-        title: 'ComiXology - Official Site',
-        url: 'https://www.comixology.com',
-        type: 'company'
-      },
-      {
-        title: 'DC Universe Infinite',
-        url: 'https://www.dc.com/uni',
-        type: 'company'
-      }
-    ]
-  },
-  {
     id: '54',
     slug: 'superpoderes-e-ciencia-real-a-fisica-dos-quadrinhos',
     title: 'Superpoderes e Ciência Real: A Física Por Trás dos Quadrinhos',
     excerpt: 'Voar, ficar invisível e ter força sobre-humana parecem ficção pura. Mas a ciência real ajuda a explicar quais superpoderes seriam possíveis e quais são impossíveis.',
-    content: `
-      <h2>Onde a Ficção Encontra a Ciência</h2>
-      <p>Quadrinhos de super-heróis brincam com as fronteiras da física. Alguns poderes, embora pareçam absurdos, têm raízes em conceitos científicos reais. Outros, porém, esbarram em limitações físicas que a ficção simplesmente ignora.</p>
+    content: `<h2>O que este texto faz, e o que ele não faz</h2>
+      <p>Existe uma diferença entre dizer que um poder é "baseado em ciência" e dizer que ele é fisicamente possível. A primeira frase descreve a intenção do autor. A segunda descreve a realidade.</p>
+      <p>Este texto faz o exercício inverso: pega os poderes mais comuns dos quadrinhos e testa cada um contra a física, sem pressa e sem limpar o veredito antes de ver a conta. O objetivo não é desconstruir o gênero, e sim entender por que alguns poderes funcionam melhor na ficção do que outros.</p>
+      <p>A régua usada é simples. Para cada poder, três perguntas: existe princípio físico conhecido que produza o efeito? É tecnicamente alcançável com o material disponível? E o custo físico é compatível com o que a personagem faz?</p>
+<h2>Voo sem asas: o caso mais legítimo</h2>
+      <p>Se um poder de super-herói poderia ser real, seria o voo. E a razão está num detalhe de engenharia aeronáutica que costuma passar despercebido: aviões voam por causa da forma, não por causa da envergadura.</p>
+      <p>O <a href="https://www.grc.nasa.gov/www/k-12/airplane/index.html">guia de aeronáutica da NASA Glenn Research Center</a> explica o mecanismo de forma direta. Quando o ar passa por uma superfície curva, ele se acelera. O ar mais rápido tem menor pressão. O ar mais lento, abaixo da asa, tem maior pressão. A diferença entre os dois lados empurra a superfície para cima, e é isso que sustenta o peso.</p>
+      <p>Repare no que isso implica. Não são asas que voam, é geometria. Um personagem que muda o ângulo dos braços e do tronco está, essencialmente, construindo uma superfície curva e controlando o ângulo de ataque. Não há nada aqui que a engenharia real não reconheça.</p>
+<h2>Superforça: a conta não fecha</h2>
+      <p>Superforça é o poder que mais aparece na ficção e o que mais falha quando a física é levada a sério. O problema não é mover o objeto. É o que acontece no corpo de quem faz isso.</p>
+      <p>Toda força gera uma reação de mesmo módulo e sentido oposto, pela Terceira Lei de Newton. Um herói que ergue um caminhão aplica uma força ascendente e, simultaneamente, uma força descendente sobre os próprios pés. Essa força precisa ser absorvida pelo esqueleto e pelos tendões.</p>
+      <p>O tecido humano tem limite. Músculo cede acima de certas cargas, tendão rompe, vértebra comprime e a articulação pode simplesmente ceder. Um personagem que levanta objetos pesados ao longo de um dia de trabalho sofreria lesões cumulativas.</p>
+      <p>É por isso que os heróis mais convincentes nesse ponto não têm força bruta. Batman, por exemplo, é apresentado pela <a href="https://www.dc.com/characters/batman">DC como um personagem sem nenhuma habilidade meta-humana</a>. Ele luta com uma combinação de treinamento, tecnologia e estratégia. A força dele é real, dentro do limite humano.</p>
+<h2>Velocidade, visão e os limites da relatividade</h2>
+      <p>Um herói que corre em velocidade supersônica cria um problema que a ficção nunca resolve: o que acontece com o tempo dele?</p>
+      <p>A relatividade restritiva não é teoria distante. A dilatação do tempo foi medida experimentalmente com relógios movendo-se em alta velocidade. O efeito é real e previsível: quanto mais perto da velocidade da luz, mais lento passa o tempo para quem se move em relação a um observador.</p>
+      <p>Isso cria dois dilemas práticos. O primeiro é o tempo de reação: um personagem em altíssima velocidade recebe a informação do mundo com atraso, o que tornaria sua percepção mais lenta, não mais rápida. O segundo é a comunicação: conviver com pessoas em velocidade normal haveria uma defasagem constante, e as relações pessoais se desfariam.</p>
+      <p>A visão de calor é mais tolerável. Termovisão é aplicação militar e industrial real, usando luz infravermelha emitida por corpos quentes. O que não existe é enxergar através de paredes ou ler pensamentos. Mas a versão básica do superpoder, enxergar o calor das coisas, é fisicamente fundada.</p>
 
-      <h2>Poderes que Têm Ciência por Trás</h2>
+      <h2>Os poderes sem base física</h2>
+      <p>Três poderes comuns resistem a qualquer explicação física conhecida.</p>
       <ul>
-        <li><strong>Força e resistência:</strong> músculos geram força por contração; limites reais dependem da biologia e da energia disponível</li>
-        <li><strong>Invisibilidade:</strong> materiais e metamateriais já conseguem desviar a luz em escalas pequenas</li>
-        <li><strong>Velocidade:</strong> a resistência do ar e as curvas de força tornariam movimento extremamente rápido um desafio físico</li>
-        <li><strong>Campo de força:</strong> conceitos como blindagem por plasma são estudados, mas estão longe de virar realidade</li>
+        <li><strong>Campo de força.</strong> Existe a possibilidade teórica de plasmonas e efeitos de plasma em condições extremas, mas nada que se pareça com uma barreira curva e estável, quanto mais invisível. É hipótese, não tecnologia.</li>
+        <li><strong>Teleporteação.</strong> Não viola a física apenas por ser instantânea, mas porque o transporte de informação não pode ocorrer mais rápido que a luz. Qualquer "salto" que carregasse matéria e informação além disso exigiria romper a estrutura causal do espaço-tempo.</li>
+        <li><strong>Invisibilidade.</strong> Não existe tecnologia conhecida que curve a luz ao redor de um objeto tridimensional. Câmeras que enxergam através de paredes usam infravermelho ou ondas de rádio, não invisibilidade.</li>
       </ul>
-
-      <h2>O Problema da Energia</h2>
-      <p>Poderes exigem energia. Um corpo humano precisa de <strong>milhares de calorias</strong> para sustentar esforço extremo, e gerar raios ou voar consumiria energia equivalente a usinas inteiras. Essa é uma das maiores barreiras científicas para reproduzir superpoderes.</p>
-
-      <h2>O Que a Física Torna Improvável</h2>
-      <p>Alguns poderes desafiam princípios fundamentais. Além de limites de velocidade impostos pela física, a <strong>teletransporte e a viagem no tempo</strong> colidem com a estrutura da causalidade. Para a ciência atual, eles permanecem mais poesia do que possibilidade.</p>
-
-      <h2>O Valor Educativo dos Quadrinhos</h2>
-      <p>Apesar das impossibilidades, os quadrinhos cumprem um papel valioso: <strong>despertar interesse por ciência</strong>. Discussões sobre física de super-heróis viram porta de entrada para entender relatividade, energia e biologia — transformando ficção em curiosidade real.</p>
-
-      <h2>Conclusão</h2>
-      <p>Os superpoderes são um espelho da imaginação humana e, ao mesmo tempo, um exercício de ciência. Mesmo que nenhum de nós desenvolva poderes, pensar sobre eles nos ensina a respeitar as incríveis — e rigorosas — leis da natureza que governam o mundo real.</p>
-    `,
+      <p>Estes três são os poderes que a ficção mais usa, e são exatamente os que a física menos sustenta. Isso não é um defeito moral da ficção. É uma consequência estrutural de que a ficção precisa de poder e a física precisa de prova.</p>
+      <p>Por que então a ficção costuma mostrar o Homem-Aranha ou o Superman usando a mão, e não com asas? A resposta é narrativa, não científica. O poder que resolve tudo é visualmente repetitivo e psicologicamente menos interessante do que o poder que cria problema novo a cada cena. Um herói que voa tem de ir a algum lugar; um herói que escala uma parede tem de decidir se vale a pena.</p>
+<h2>Conclusão: o que a física aprova, e por que isso importa</h2>
+      <p>O resultado do exercício é mais interessante do que a lista de impossibilidades. Voo sem asas é fisicamente legítimo. Visão de calor é aplicação real. Superforça é impossível se a resistência dos tecidos for levada em conta. E três poderes centrais da ficção moderna, campo de força, teleporte e invisibilidade, não têm base experimental alguma.</p>
+      <p>Há uma correlação que vale notar: quanto mais um poder é útil à narrativa, menos ele é sustentado pela física. Superforça resolve encontros. Invisibilidade resolve problemas. Campo de força resolve qualquer coisa. A ficção se move em direção ao poder que resolve, e a física empurra para o lado oposto.</p>
+      <p>Isso explica por que o Batman funciona. Ele não tem nenhum dos poderes irrealizáveis. Sua vantagem é técnica, estratégica e mental, não superhumana. A DC o descreve como um homem que treinou corpo e mente até perto da perfeição física e compensa com tecnologia a falta de poder. É o único super-herói cuja restrição é a mesma que a de qualquer outra pessoa.</p>
+      <p>Entender essa distância muda o que a ficção faz por nós. Não é escapismo. É um laboratório de possibilidades, com as regras explícitas.</p>
+      <p>Para uma visão mais ampla de como a ciência aparece nos quadrinhos, o texto sobre <a href="/quadrinhos/ciencia-nos-quadrinhos-superpoderes">ciência nos quadrinhos</a> trata do lado narrativo. Este trata da conta.</p>`,
     category: {
       id: 'quadrinhos',
       slug: 'quadrinhos',
@@ -3535,7 +3516,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['super-heróis', 'quadrinhos', 'física', 'ciência', 'superpoderes'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
-    readingTime: 8,
+    readingTime: 5,
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Plasma-lamp.jpg/960px-Plasma-lamp.jpg',
     imageAlt: 'Lâmpada de plasma com filamentos luminosos em descarga no interior',
     imageLicense: 'CC BY-SA 3.0',
@@ -3672,28 +3653,59 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     title: 'Computação Vestível: O Futuro dos Gadgets que Usamos no Corpo',
     excerpt: 'Relógios, óculos e até roupas inteligentes estão evoluindo. Entenda como a computação vestível pode transformar saúde, produtividade e o nosso dia a dia.',
     content: `
-      <h2>Tecnologia Que Veste</h2>
-      <p>Os relógios inteligentes abriram caminho para uma era em que a tecnologia vai muito além dos bolsos. A <strong>computação vestível</strong> — de pulseiras e óculos a roupas com sensores — promete integrar dados, saúde e comunicação diretamente ao corpo humano.</p>
+      <h2>O que é computação vestível</h2>
+      <p>Computação vestível é qualquer dispositivo eletrónico que se usa no corpo — no pulso, no dedo, na orelha, na roupa — e que coleta dados em vez de apenas exibir informação. A ideia é antiga; o que mudou foi a densidade de sensores que cabe num aparelho do tamanho de uma moeda e o facto de esses sensores já não exigirem um fio até um equipamento maior.</p>
+      <p>A distinção importante desde o início é esta: um dispositivo vestível faz <strong>medições</strong> e produz <strong>estimativas</strong>. Quase nada do que aparece no ecrã é uma medição direta. Um passo contado é uma contagem sobre um sinal de aceleração; uma taxa de queimadas é um número inventado por um modelo a partir de aceleração, peso e batimentos. Saber qual é qual separa um dado útil de um número convincente.</p>
 
-      <h2>O Que Já Está no Mercado</h2>
+      <h2>O sensor que mede a luz que volta</h2>
+      <p>O sensor mais comum num relógio inteligente é o <strong>PPG</strong>, ou fotopletismografia. O funcionamento é simples de descrever: um LED ilumina a pele e um fotodiodo mede a luz que volta. A cada batimento cardíaco o coração bombeia sangue para a periferia; o sangue absorve mais luz do que o tecido em repouso, e o fotodiodo regista essa variação. Cada ciclo cardíaco aparece como um pico no sinal.</p>
+      <p>Isto é a distinção que quase nunca é dita ao consumidor, e é a mais importante de todo o artigo: <strong>o PPG não mede o coração. Mede a variação de volume de sangue na microvasculatura da pele.</strong> A frequência cardíaca é inferida a partir daí, contando picos por minuto. Um eletrocardiograma mede a diferença de potencial elétrico entre elétrodos na pele; o PPG mede luz. São sinais físicos diferentes, com origens diferentes, e por isso um relógio não substitui um eletrocardiograma.</p>
+      <p>O mesmo sinal serve para mais coisas. Como o fluxo sanguíneo para a pele é modulado por vários sistemas fisiológicos, o PPG também é usado para estimar respiração e volume sanguíneo. Mas aqui entra a palavra <em>estimar</em>, e vale explicar porquê.</p>
+
+<h2>Acelerómetro e giroscópio: como se conta passos</h2>
+      <p>O <strong>acelerómetro</strong> mede aceleração em três eixos, dezenas ou centenas de vezes por segundo. O <strong>giroscópio</strong> mede velocidade angular, ou seja, com que rapidez o aparelho gira em torno de cada eixo. Os dois juntos formam o chamado acelerómetro de seis graus de liberdade.</p>
+      <p>Contar passos é o exemplo mais simples: a caminhada produz um padrão de aceleração reconhecível, com um pico por passo. O giroscópio entra porque o acelerómetro, sozinho, não distingue um passo dado para a frente de um passo dado para cima — os dois produzem um pico idêntico. O giroscópio fornece a orientação do aparelho e resolve a ambiguidade.</p>
+      <p>Este exemplo já ilustra o padrão de todo o dispositivo: <strong>o sensor produz um sinal; o algoritmo produz o número</strong>. Distância percorrida, ritmo, gasto calórico e duração do sono saem todos de um acelerómetro ou giroscópio por meio de um modelo, não por medição direta.</p>
+
+      <h2>O que estraga uma medição no corpo</h2>
+      <p>A diferença entre um sensor no laboratório e o mesmo sensor no pulso é a diferença entre uma superfície controlada e um ser humano a lavar a loiça. Os fatores de erro mais conhecidos:</p>
       <ul>
-        <li><strong>Relógios e pulseiras:</strong> monitoramento de batimentos, sono e atividades</li>
-        <li><strong>Óculos inteligentes:</strong> notificações e realidade aumentada nas lentes</li>
-        <li><strong>Roupas com sensores:</strong> tecidos que medem sinais vitais e movimento</li>
-        <li><strong>Auriculares com IA:</strong> assistentes que respondem sem o uso das mãos</li>
+        <li><strong>Movimento.</strong> É o maior deles. A aceleração do pulso interfere diretamente com o sinal de luz, e por isso os dispositivos combinam o PPG com o acelerómetro para tentar limpar o ruído — mas nem sempre à perfeição.</li>
+        <li><strong>Posição e ajuste.</strong> Uma pulseira frouxa desloca-se e muda a pressão de contacto; uma muito apertada comprime os vasos e altera a leitura. O sensor mede a pele e o que está por baixo dela na posição em que está — não num vaso neutro.</li>
+        <li><strong>Sangue, suor, pelos e tatuagens.</strong> Todos alteram a quantidade de luz que chega ao fotodiodo.</li>
+<h2>Aplicações reais</h2>
+      <p>Aplicações reais existem e são sérias, mesmo sem chegar a tratamento: <strong>notificação de batimentos irregulares</strong> para quem usa o dispositivo de forma contínua; <strong>monitorização de quedas</strong>, que dispara alerta e localização de emergência, relevante para pessoas idosas que vivem sozinhas; <strong>acompanhamento de doença crónica</strong>, incluindo perfis de glicose nos dispositivos de prescrição que existem para esse fim; <strong>registo de sintomas</strong>, que ajuda a relacionar o que a pessoa sente com o que o sensor mediu nesse momento; e <strong>pesquisa</strong>, com sensores de uso contínuo a recolher dados que um exame pontual não capta.</p>
+      <p>Repare no padrão: quase todas são de <strong>monitorização e alerta</strong>, não de diagnóstico. É uma distinção importante, e tem permanecido estável ao longo dos anos.</p>
+
+      <h2>Porque uma estimativa não é um diagnóstico</h2>
+      <p>Um dispositivo de consumo é abrangido por requisitos muito mais leves do que um equipamento médico. Quando um sistema médico é autorizado, um regulador avalia não só se funciona, mas se foi estudado na população em que vai ser usado. Um wearable não passa por essa avaliação. Disto resultam consequências práticas, descritas na literatura:</p>
+      <ul>
+        <li>Um sinal de batimentos irregulares pode ser real, ou pode ser artefacto de movimento. Sem confirmação, a pessoa não sabe em que situação está.</li>
+        <li>Alertas falsos geram ansiedade e exames desnecessários; alertas perdidos criam uma falsa sensação de segurança.</li>
+        <li>O desgaste do sensor de luz reduz a qualidade da leitura com o tempo, sem que nada indique que o aparelho deixou de funcionar.</li>
+        <li>Uma mudança de algoritmo numa atualização invalida a comparação com leituras antigas.</li>
       </ul>
+      <p>A leitura honesta é esta: o vestível é um bom instrumento de <em>auto-observação</em> e um <em>rastreio</em> razoável. Levar os dados a um médico aumenta o que se sabe sobre si. Tomar decisões de tratamento a partir deles, sem validação, é outro assunto — e é uma distinção que o próprio setor tem mantido, nem sempre com a clareza que o consumidor merecia.</p>
 
-      <h2>Revolução na Saúde</h2>
-      <p>O maior impacto vem da área da saúde. Dispositivos vestíveis podem <strong>detectar arritmias, alertar sobre quedas e acompanhar doenças crônicas</strong> em tempo real. Médicos passam a contar com dados contínuos, e não apenas com medições feitas em consultório.</p>
+      <h2>O que fica de fora</h2>
+      <p>Por falta de evidência verificável nesta edição, ficam de fora os números concretos de erro de leitura para modelos específicos, as comparações de precisão entre fabricantes, e as previsões sobre lentes de contacto inteligentes e implantes experimentais. Preferimos explicar como funciona a medição a repetir marketing.</p>
+        <li><strong>Temperatura.</strong> Os vasos periféricos dilatam e contraem com o frio e o calor, o que muda o sinal sem que o coração tenha mudado.</li>
+        <li><strong>Tonalidade da pele.</strong> A leitura de luz depende da cor da pele, e essa dependência afeta a deteção de ritmo — motivo pelo qual os ensaios de validação medem o desempenho por subgrupo, e não apenas a média.</li>
+      </ul>
+      <p>Isto não é um defeito escondido: é a razão pela qual um dispositivo de consumo nunca deve ser a única fonte de uma decisão clínica.</p>
 
-      <h2>Desafios e Preocupações</h2>
-      <p>A adoção em massa levanta questões importantes. O <strong>uso de dados de saúde</strong> exige cuidados com privacidade, e a precisão dos sensores ainda varia bastante. Há também o risco de dependência tecnológica e de alertas que geram mais ansiedade do que benefício.</p>
+      <h2>Onde o processamento acontece</h2>
+      <p>Nem tudo é calculado no aparelho. A divisão é uma escolha de arquitetura, e afeta diretamente a bateria e a privacidade.</p>
+      <p><strong>No próprio dispositivo</strong> ficam as operações de baixo consumo e volume elevado: amostrar o acelerómetro, contar passos, detetar que houve uma queda, limpar o ruído do sinal óptico antes de o transmitir. Um acelerador dedicado consegue contar passos com consumo muito baixo porque a tarefa é simples e repetitiva.</p>
+      <p><strong>No telemóvel ou na nuvem</strong> ficam os modelos grandes: correlacionar semanas de sono com tendências de recuperação, cruzar batimentos com o histórico de exercício, gerar relatórios. O que sai do relógio não é um instante isolado de dados — é contexto de saúde do utilizador.</p>
+      <p>Essa divisão explica duas coisas que qualquer utilizador nota. A <strong>bateria</strong>: um relógio que processa tudo localmente aguenta vários dias; transferir e processar do outro lado consome mais. E a <strong>privacidade</strong>: um sinal de batimentos é dado de saúde, e a distância entre o pulso e o servidor é a distância entre o dado e a vida da pessoa.</p>
 
-      <h2>O Que Vem por Aí</h2>
-      <p>Especialistas projetam dispositivos ainda mais discretos e integrados — de lentes de contato inteligentes a implantes experimentais. Embora algumas dessas ideias sejam <strong>especulações de laboratório</strong>, a tendência de computação cada vez mais pessoal parece irreversível.</p>
-
-      <h2>Conclusão</h2>
-      <p>A computação vestível promete tornar a tecnologia mais próxima, útil e invisível. Seus benefícios para a saúde são reais, mas exigem equilíbrio entre inovação, privacidade e qualidade de vida. O futuro dos gadgets não está apenas nas mãos — está também em nós.</p>
+      <h2>Laboratório e vida real</h2>
+      <p>As medições em condições de laboratório são feitas com o sujeito imóvel, o sensor na posição certa e o contacto perfeito. A vida real não é assim: o aparelho roda no pulso, desliza com o suor, aperta com o movimento e fica sobre uma manga.</p>
+      <p>É por isso que o desempenho reportado num teste controlado raramente se traduz diretamente num dia comum. Um estudo de validação típico coloca sujeitos em repouso ou em exercício padronizado e compara com um equipamento de referência; o resultado descreve <strong>aquelas condições</strong>. Fora delas, o vestível continua a funcionar, mas com mais variabilidade. Isto é limitação conhecida da tecnologia, não defeito de um fabricante específico.</p>
+      <h2>Frequência cardíaca não é tensão arterial</h2>
+      <p>São as duas medidas que as pessoas confundem, e a diferença não é um detalhe técnico. A frequência cardíaca mede <em>quantas vezes</em> o coração bate por minuto. A tensão arterial mede <em>a força com que o sangue empurra</em> as paredes das artérias quando o coração contrai e relaxa — são dois números, em escalas diferentes, sobre fenómenos diferentes.</p>
+      <p>Nenhum sensor de uso comum no pulso mede a tensão arterial diretamente. A tensão só é obtida por um algoritmo que aproveita sinais indiretos: o tempo entre picos, a forma da onda, a relação entre a onda de pulso e o pulso cardíaco. Esses sinais são <strong>associados</strong> à tensão arterial, não são a tensão arterial. A consequência prática: a tensão estimada num relógio é muito menos fiável do que a frequência cardíaca medida pelo mesmo aparelho, e as normas de medição clínica continuam a exigir o aparelho de braçadeira validado.</p>
     `,
     category: {
       id: 'futuro',
@@ -3705,7 +3717,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['wearable', 'computação vestível', 'saúde', 'futuro', 'tecnologia'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-02',
-    readingTime: 7,
+    readingTime: 8,
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Child%27s_phone_watch_%28smartwatch%29_in_China_%28boy%29.jpg/960px-Child%27s_phone_watch_%28smartwatch%29_in_China_%28boy%29.jpg',
     imageAlt: 'Criança usando relógio inteligente no pulso em via pública',
     imageLicense: 'CC0',
@@ -3721,6 +3733,21 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         title: 'Wearable Technologies - The future of on-body computing',
         url: 'https://www.wearable-technologies.com/future-on-body',
         type: 'publication'
+      },
+      {
+        title: 'Wikipedia - Photoplethysmogram',
+        url: 'https://en.wikipedia.org/wiki/Photoplethysmogram',
+        type: 'scientific'
+      },
+      {
+        title: 'Kim & Baek (2023) - Photoplethysmography in Wearable Devices: A Comprehensive Review',
+        url: 'https://doi.org/10.3390/electronics12132923',
+        type: 'journal'
+      },
+      {
+        title: 'Wikipedia - Fitness tracker',
+        url: 'https://en.wikipedia.org/wiki/Fitness_tracker',
+        type: 'scientific'
       }
     ]
   },
@@ -3845,28 +3872,28 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'spider-man-historia-futuro-nos-quadrinhos-da-marvel',
     title: 'Spider-Man: Novas Histórias e o Futuro do Herói nos Quadrinhos da Marvel',
     excerpt: 'O Homem-Aranha vive um momento marcante entre páginas e telas. Conheça as novidades das HQs e como o herói segue relevante.',
-    content: `
-      <h2>O Herói de Muitas Gerações</h2>
-      <p>Poucos personagens dos quadrinhos são tão reconhecidos quanto o <strong>Homem-Aranha</strong>. Criado por Stan Lee e Steve Ditko em 1962, o herói equilibra os dilemas de Peter Parker com as responsabilidades de quem salva Nova York. Em 2026, ele segue no centro das atenções da Marvel.</p>
+    content: `<h2>Como o personagem nasceu</h2>
+      <p>O Homem-Aranha não nasceu como protagonista. Nasceu como uma história curta para uma revista que estava quase fechando.</p>
+      <p>A revista <a href="https://en.wikipedia.org/wiki/Amazing_Fantasy">Amazing Fantasy</a> publicava sua última edição antes de ser descontinuada, e a edição 15, de agosto de 1962, foi dedicada ao personagem. A história foi escrita por Stan Lee e desenhada por Steve Ditko, com um roteiro original de Jack Kirby. O registro editorial documenta esse número, essa data e esses nomes.</p>
+<h2>Por que o personagem funciona</h2>
+      <p>Existe uma razão estrutural para o Homem-Aranha ter durado mais de sessenta anos enquanto muitos contemporâneos desapareceram. Não é o poder. É a relação entre o poder e a vida que ele não escolheu.</p>
+      <p>Peter Parker é um estudante, tem contas, tem um tio, tem um emprego. A competência extraordinária não vem com prestígio. Vem com um segredo que ele não pode contar, uma namorada que sofre com a identidade e um chefe que o considera um mau funcionário. Cada uma dessasponsabilidades é uma sombra sobre o poder.</p>
+      <p>Isso cria uma assimetria que a maioria dos super-heróis não tem: o personagem não pode simplesmente usar a competência. Ele pode, mas sabe o que custa. É a diferença entre um herói que age e um herói que hesita, e a hesitação é o que produz história.</p>
+<h2>Cânone, adaptação e o problema da continuidade</h2>
+      <p>Vale explicar um termo que aparece em toda conversa sobre super-heróis: cânone. Em quadrinhos, cânone é o conjunto de histórias que a editora considera oficiais. Qualquer coisa fora dele é não-canônica, o que não significa falsa, e sim sem autoridade editorial.</p>
+      <p>No caso do Homem-Aranha, a situação é complexa porque o personagem passou por décadas de histórias paralelas e de reinícios. Séries como <em>Ultimate Spider-Man</em>, <em>Spider-Verse</em> e <em>Spider-Man 2099</em> não são erros nem alternativas: são versões com premissas próprias, reconhecidas como linhas distintas dentro do universo da editora.</p>
+      <p>Os filmes ficam do outro lado dessa linha. Adaptar um personagem exige escolher: qual origem, qual vilão, qual maturidade emocional. O filme escolhe. O resultado não é o cânone, e a qualidade do filme não depende de ele ser o cânone.</p>
+      <p>Esse é um erro comum de leitura. Tratar o filme como o cânone leva o leitor a achar que o personagem sempre foi assim, quando a verdade é que ele mudou ao longo de décadas, justamente porque cada geração de autores enxergava algo diferente nele. O cânone registra essas mudanças; o filme congela uma delas.</p>
 
-      <h2>A Vida de Peter Parker nos Quadrinhos</h2>
-      <p>Nas páginas dos quadrinhos, Peter Parker continua lidando com os desafios que sempre definiram o personagem: a vida pessoal, a rotina no trabalho e as batalhas contra vilões clássicos e ameaças inéditas. A editora mantém o herói em várias revistas simultâneas, explorando diferentes lados da sua história.</p>
-
-      <h2>Uma Nova Geração de Escaladores</h2>
-      <p>Além de Peter, o universo do Homem-Aranha ganhou força com outros heróis, como Miles Morales, que conquistou legiões de fãs e protagonizou eventos importantes. A presença de vários personagens aranha permite à Marvel contar histórias de tons variados, do drama urbano à aventura mais leve.</p>
-
-      <h2>O Sucesso no Cinema</h2>
-      <p>Fora das páginas, o herói brilhou nas telonas com <strong>Spider-Man: Brand New Day</strong>, estrelado por Tom Holland. Dirigido por Destin Daniel Cretton, o filme se tornou um dos maiores sucessos de 2026 e atraiu novos leitores para os quadrinhos, em um movimento que costuma impulsionar vendas e renovar o interesse pelo personagem.</p>
-
-      <h2>As Vilões em Destaque</h2>
-      <p>O universo do herói também é marcado por uma das maiores galerias de vilões dos quadrinhos, do Duende Verde ao Doutor Octopus. Nos últimos anos, novas pessoas também ganharam espaço, com tramas que exploram as fraquezas e as ambições por trás de cada ameaça.</p>
-
-      <h2>O Futuro do Herói</h2>
-      <p>Para os próximos anos, a Marvel deve seguir equilibrando a tradição com a inovação. A expectativa é de que Peter Parker continue sendo o coração da franquia, enquanto o universo aranha se expande e se conecta com cada vez mais personagens.</p>
+      <h2>Por que o personagem continua relevante</h2>
+      <p>A resposta curta é que o Homem-Aranha não é um super-herói, é uma situação. Ele tem uma competência extraordinária e uma vida comum que precisa continuar. Qualquer leitor se reconhece na segunda parte, e a primeira parte é o que torna a segunda suportável.</p>
+      <p>Isso é raro. A maioria dos personagens de quadrinhos desaparece porque o cenário em que nasceram envelhece. O Homem-Aranha sobrevive porque o cenário não é o de um mundo de super-heróis: é o de um rapaz que trabalha, estuda e não pode contar o que faz. Enquanto esse cenário existir, o personagem funciona.</p>
 
       <h2>Conclusão</h2>
-      <p>O Homem-Aranha segue como um dos pilares da Marvel, tanto nos quadrinhos quanto no cinema. As novidades de 2026 mostram um herói em constante reinvenção — e com fôlego de sobra para conquistar novas gerações.</p>
-    `,
+      <p>O Homem-Aranha nasceu em 1962, na última edição de uma revista que estava mudando de formato, como uma história curta. Mais de sessenta anos depois, continua no centro da cultura popular. A razão não é a teia, e sim a relação entre um poder extraordinário e uma vida que ele não pediu e não pode largar.</p>
+      <p>Para entender o que faz um personagem funcionar ao longo de décadas, e não apenas em uma história, o melhor caminho é comparar com quem não conseguiu. Batman sobrevive pela razão oposta: <a href="/quadrinhos/batman-novas-historias-desafios-cavaleiro-das-trevas">encontrar um limite estrutural</a> que o impediu de ser um deus.</p>
+      <p>E há um segundo elemento, que é a culpa. A regra de que um poder enorme vem com a obrigação moral de não usá-lo para ganho pessoal é o que separa o Homem-Aranha de um personagem genérico. O poder sem responsabilidade é a norma da ficção; a responsabilidade como parte do poder é a exceção, e é a exceção que constrói o personagem.</p>
+      <p>Vale notar o contexto: essa era a última edição de uma revista antológica que estava mudando de formato para o formato de super-herói. O personagem nasceu, portanto, em um momento de mudança editorial, e não de estabilidade. Isso importa porque explica uma decisão de design que sobreviveu a mais de seis décadas: o Homem-Aranha foi criado como alguém comum que ganhava uma competência excepcional, e não como um deus disfarçado.</p>`,
     category: {
       id: 'quadrinhos',
       slug: 'quadrinhos',
@@ -3877,7 +3904,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['Spider-Man', 'Homem-Aranha', 'quadrinhos', 'Marvel', 'super-heróis'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-01',
-    readingTime: 7,
+    readingTime: 4,
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg/960px-Asia_Comic_Expo_2023_-_Spider-Man_cosplay_1.jpg',
     imageAlt: 'Cosplayer vestido de Homem-Aranha em feira de quadrinhos',
     imageLicense: 'CC BY-SA 4.0',
@@ -4069,28 +4096,32 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'batman-novas-historias-desafios-cavaleiro-das-trevas',
     title: 'Batman: Novas Histórias e Desafios Para o Cavaleiro das Trevas',
     excerpt: 'O Batman segue explorando novos dilemas entre quadrinhos, cinema e séries. Veja os desafios do Cavaleiro das Trevas na nova fase.',
-    content: `
-      <h2>O Herói de Gotham em Nova Fase</h2>
-      <p>Poucos personagens dos quadrinhos despertam tanta paixão quanto o <strong>Batman</strong>. Em 2026, o Cavaleiro das Trevas segue protagonizando novas histórias que renovam seu mito, sem perder a essência sombria que o tornou tão marcante.</p>
+    content: `<h2>Um herói sem poder nenhum</h2>
+      <p>Entre os personagens mais conhecidos da cultura popular, poucos têm uma característica tão incomum quanto o Batman: ele não tem superpoderes. Não os tem, e a própria editora assume isso abertamente.</p>
+      <p>A <a href="https://www.dc.com/characters/batman">página oficial do Batman na DC</a> é explícita: o personagem não possui habilidades meta-humanas. O que ele tem é o resultado de treinamento físico e mental obsessivo, combinado com uma fortuna herdada, tecnologia e capacidade de trabalho que beira o obsessivo. Segundo a própria DC, Bruce Wayne se treinou até perto da perfeição física, é um mestre de praticamente todas as formas de arte marcial e um gênio de nível forense.</p>
+      <p>Isso muda o que o personagem representa. Batman não é um homem que superou a humanidade. É um homem que compensa a vantagem que a maioria das pessoas tem sobre o crime e o caos: os recursos. Dinheiro, acesso, conhecimento e tempo. O que a DC chama de arsenal tecnológico é, na prática, a razão pela qual ele sobrevive.</p>
 
-      <h2>Gotham e Seus Mistérios</h2>
-      <p>Gotham City continua sendo a grande personagem das histórias do Batman. Entre corrupção, crimes e uma galeria de vilões memoráveis, a cidade oferece um terreno fértil para tramas que unem investigação, ação e drama psicológico.</p>
+      <h2>A origem, e o que ela significa</h2>
+      <p>A história de origem é uma das mais conhecidas e mais bem definidas da cultura popular. Segundo a DC, Thomas e Martha Wayne foram assassinados diante do filho ainda criança, depois de um assalto a um cinema. Bruce, órfão e criado por Alfred Pennyworth, converte o luto em obsessão: jurou fazer guerra a todos os criminais pelo resto da vida, para que aquela noite não se repetisse com nenhuma outra família.</p>
+      <p>O detalhe que costuma passar despercebido é a motivação. Batman não quer vingança. Ele não persegue o assassino dos pais. Ele quer impedir a ocorrência. Isso o coloca em uma categoria narrativa diferente da de um herói com poderes, porque o trabalho dele nunca termina: por mais que a cidade melhore, a condição humana que o criou continua ali.</p>
+<h2>Como a DC tem reescrito o Batman</h2>
+      <p>Um detalhe que quase ninguém comenta: o Batman não é o mesmo personagem há oitenta anos. A DC mantém o personagem há mais de oito décadas, e o método tem sido reescrever sua origem e sua história sempre que a linguagem cultural muda.</p>
+      <p>Segundo a própria página da DC, a história editorial do personagem passa por grandes momentos. Houve um <em>Batman R.I.P.</em> e um evento de <em>Final Crisis</em> em que o personagem chegou a ser dado como morto. Depois veio <em>The Return of Bruce Wayne</em>, que o trouxe de volta. Em 2011, a minissérie <em>Flashpoint</em> reiniciou a continuidade até o primeiro ano de Bruce Wayne como vigilante.</p>
+      <p>Depois do <em>Flashpoint</em>, o novo enredo de origem foi revelado em <em>Zero Year</em>, em 2013. Nessa versão, o Riddler havia tomado Gotham, e um Bruce Wayne mais jovem teve de sobreviver à cidade enquanto construía o traje, a tecnologia e a identidade que viriam a ser o Batman. A primeira aventura nessa linha levou o leitor a uma facção antiga chamada a Corte das Corujas, que exercia influência sobre a cidade havia séculos.</p>
+      <p>Esse ciclo de reescrita responde a um problema real dos quadrinhos: um personagem de 1939 não pode sobreviver para sempre com a mesma biografia. As mentalidades da época, a Guerra Fria, a forma como a cidade era vista: tudo isso muda. A solução da editora é reescrever o passado do personagem, não o personagem em si.</p>
+      <h2>Os vilões como espelho do método</h2>
+      <p>Se Batman não tem superpoderes, o que ele usa contra inimigos que os têm? A resposta da DC é preparo, tecnologia e informação, e essa combinação moldou a galeria de vilões do personagem.</p>
+      <p>É um critério útil para entender cada inimigo: ele representa uma falha específica na estratégia de Batman. Um vilão que vence o personagem invariavelmente vence aquilo que Batman não consegue cobrir com equipamento. É por isso que a narrativa funciona como uma série de buracos na armadura de um homem que passou a vida inteira fechando buracos.</p>
+      <p>Esse é o motivo pelo qual Batman resiste há mais de oito décadas sem depender de upgrades sobrenaturais. Ele não fica mais forte. Ele fica mais bem informado, o que é uma forma mais realista de evolução.</p>
 
-      <h2>Novas HQs em Destaque</h2>
-      <p>Nas bancas, o Batman é um dos títulos mais presentes da DC. Novas sagas exploram tanto a versão mais clássica do herói quanto releituras ousadas, incluindo formações alternativas e parcerias com outros personagens. A proposta é manter o morcego relevante para diferentes tipos de leitores.</p>
-
-      <h2>Das Páginas às Telas</h2>
-      <p>O personagem também domina o audiovisual. Seja em animações, séries ou filmes, o Batman continua sendo um dos heróis mais adaptados da história. A DC tem apostado em abordagens variadas, que vão do tom mais realista a aventuras que celebram o lado mais fantástico do universo de Gotham.</p>
-
-      <h2>Os Desafios do Herói Sem Poderes</h2>
-      <p>Diferente de muitos outros heróis, o Batman não possui superpoderes. Sua força vem da disciplina, do intelecto e da preparação. É justamente esse limite humano que torna suas histórias tão envolventes: cada vitória é conquistada à base de esforço e escolhas difíceis.</p>
-
-      <h2>Além de Bruce Wayne</h2>
-      <p>O universo do Batman vai muito além de Bruce Wayne. Os Robins, a Batgirl e a Bat-Família formam uma rede de personagens que amplia as tramas e dá ao herói uma dimensão mais humana, pautada em laços e lealdade.</p>
+      <h2>Cânone, adaptação e as duas histórias</h2>
+      <p>Vale separar o que vem dos quadrinhos do que vem do cinema, porque não são a mesma coisa e raramente convergem por completo.</p>
+      <p>O que este texto descreve vem da página oficial da DC, ou seja, do cânone do personagem publicado pela editora. Os filmes exploram outras escolhas: versões mais jovens, mais ingênuas ou mais violentas, com elencos e situações que nem sempre derivam das páginas.</p>
+      <p>Essa distinção importa porque o Batman é o personagem com maior divergência entre quadrinhos e cinema de toda a história dos quadrinhos. Os dois caminhos são legítimos e ninguém errou. Mas quem quiser entender a origem do personagem, e não uma interpretação filmográfica específica, precisa saber qual das duas linhas está lendo.</p>
 
       <h2>Conclusão</h2>
-      <p>O Cavaleiro das Trevas segue firme como um dos maiores ícones da cultura pop. Com novas histórias, novos desafios e um universo sempre em expansão, Batman continua provando por que atravessa gerações como o herói mais humano de todos.</p>
-    `,
+      <p>O Batman é interessante justamente por ser o herói mais velho da cultura popular e o menos sobrenatural. Ele não voa, não supera a humanidade, não brilha. Ele treina, compra equipamento e não desiste. A DC o define sem habilidades meta-humanas, e essa restrição é a origem de quase toda a profundidade do personagem.</p>
+      <p>Num mundo em que superpoderes são a norma da ficção, um personagem que só tem recursos humanos continua sendo, oitenta anos depois, o mais realista de todos. Talvez seja essa a razão de ainda importarmos com ele: não porque voa, mas porque não voa, e continua lutando.</p>`,
     category: {
       id: 'quadrinhos',
       slug: 'quadrinhos',
@@ -4101,7 +4132,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['Batman', 'Cavaleiro das Trevas', 'DC Comics', 'Gotham', 'quadrinhos'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-08-29',
-    readingTime: 8,
+    readingTime: 5,
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cosplay_of_Batman_66_at_NYCC_2023.jpg/960px-Cosplay_of_Batman_66_at_NYCC_2023.jpg',
     imageAlt: 'Cosplayer de Batman 66 em convenção de quadrinhos',
     imageLicense: 'Public domain',
@@ -4947,7 +4978,13 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'star-wars-starfighter-novo-filme-ryan-gosling',
     title: 'Star Wars: Starfighter: O Novo Filme da Saga Terá Ryan Gosling como Protagonista',
     excerpt: 'A Lucasfilm confirmou Star Wars: Starfighter, novo filme da franquia estrelado por Ryan Gosling. Entenda o que se sabe da produção que já aparece no material oficial.',
-    content: `<h2>Uma Nova Historia na Galaxia</h2><p>A <strong>Lucasfilm</strong> confirmou <strong>Star Wars: Starfighter</strong>, novo filme da saga com <strong>Ryan Gosling</strong> no papel principal. A producao apresenta uma aventura inedita, fora dos caminhos ja trilhados pelos episodios principais, e ja aparece entre os destaques do <a href="/filmes-series/disney-plus-novidades-marvel-star-wars-2026">calendario de novidades da Disney para Star Wars</a>.</p><p>A sinopse oficial descreve um <strong>cavaleiro cínico</strong> que, ao ser confrontado com um passado misterioso, e arremessado em uma aventura perigosa pela galaxia que o coloca em choque direto com o destino. No centro da historia esta <strong>Kade Auberon</strong>, o personagem interpretado por Gosling.</p><h2>Ficha tecnica</h2><ul><li><strong>Estreia:</strong> 28 de maio de 2027</li><li><strong>Direcao:</strong> Shawn Levy</li><li><strong>Producao:</strong> Shawn Levy e Kathleen Kennedy</li><li><strong>Roteiro:</strong> Jonathan Tropper</li><li><strong>Produtores-executivos:</strong> Ryan Gosling, Mary McLaglen, Josh McLaglen, Dave Filoni e Dan Levine</li></ul><h2>Elenco</h2><p>Além de Gosling, o anuncio oficial lista <strong>Matt Smith</strong>, <strong>Mia Goth</strong>, <strong>Aaron Pierre</strong>, <strong>Jamael Westman</strong>, <strong>Daniel Ings</strong>, <strong>Flynn Gray</strong> e <strong>Amy Adams</strong>. O conjunto reúne nomes conhecidos por dramas de autor e grandes producoes de acao comercial, uma escolha que sugere a ambicao de mesclar escala de blockbuster com personagem.</p><h2>Ryan Gosling no Universo Star Wars</h2><p>A escolha de Gosling reforca a aposta da Lucasfilm em grandes nomes de Hollywood para conduzir a nova era da franquia. O ator, conhecido por papeis marcantes em dramas e blockbusters, chega para protagonizar uma historia que deve equilibrar acao espacial e profundidade emocional — receita que tem dado certo em <a href="/filmes-series/the-mandalorian-e-grogu-futuro-de-star-wars">The Mandalorian e Grogu</a>.</p><h2>A Nova Era de Star Wars nos Cinemas</h2><p>Depois de anos com o foco no streaming, a franquia retoma o protagonismo nos cinemas. Entre <em>Ahsoka</em> na televisao, filmes em producao e novos jogos, o <strong>Starfighter</strong> simboliza a estrategia de expandir a galaxia em todas as direcoes — do grande ecra as plataformas interativas.</p><p>O proprio site oficial destaca que <strong>Star Wars (1977)</strong> e <strong>Star Wars: Starfighter</strong> estrearao juntos em <strong>IMAX 70mm</strong> em 2027, reforcando o carater de evento cinematográfico da producao. A producao do filme comeca no mesmo ano em que a noticia foi divulgada, e a Lucasfilm ja anunciou que as filmagens comecariam no outono.</p><h2>Conclusao</h2><p>Com Ryan Gosling a frente e um conceito novo, Star Wars: Starfighter promete ser um dos eventos de cinema dos proximos anos. Para os fans, e mais um sinal de que a galaxia esta em plena expansao.</p>`,
+    content: `<h2>Uma Nova História na Galaxia</h2><p>A <strong>Lucasfilm</strong> confirmou <strong>Star Wars: Starfighter</strong>, novo filme da saga com <strong>Ryan Gosling</strong> no papel principal. A produção apresenta uma aventura inédita, fora dos caminhos já trilhados pelos episódios principais, e ja aparece entre os destaques do <a href="/filmes-series/disney-plus-novidades-marvel-star-wars-2026">calendário de novidades da Disney para Star Wars</a>.</p><p>A sinopse oficial descreve um <strong>cavaleiro cínico</strong> que, ao ser confrontado com um passado misterioso, e arremessado em uma aventura perigosa pela galaxia que o coloca em choque direto com o destino. No centro da história está <strong>Kade Auberon</strong>, o personagem interpretado por Gosling.</p><h2>Ficha técnica</h2><ul><li><strong>Estreia:</strong> 28 de maio de 2027</li><li><strong>Direção:</strong> Shawn Levy</li><li><strong>Produção:</strong> Shawn Levy e Kathleen Kennedy</li><li><strong>Roteiro:</strong> Jonathan Tropper</li><li><strong>Produtores executivos:</strong> Ryan Gosling, Mary McLaglen, Josh McLaglen, Dave Filoni e Dan Levine</li></ul><h2>Elenco</h2><p>Além de Gosling, o anuncio oficial lista <strong>Matt Smith</strong>, <strong>Mia Goth</strong>, <strong>Aaron Pierre</strong>, <strong>Jamael Westman</strong>, <strong>Daniel Ings</strong>, <strong>Flynn Gray</strong> e <strong>Amy Adams</strong>. O conjunto reúne nomes conhecidos por dramas de autor e grandes produções de ação comercial, uma escolha que sugere a ambicao de mesclar escala de blockbuster com personagem.</p><h2>Ryan Gosling no Universo Star Wars</h2><p>A escolha de Gosling reforça a aposta da Lucasfilm em grandes nomes de Hollywood para conduzir a nova era da franquia. O ator, conhecido por papeis marcantes em dramas e blockbusters, chega para protagonizar uma historia que deve equilibrar acao espacial e profundidade emocional — receita que tem dado certo em <a href="/filmes-series/the-mandalorian-e-grogu-futuro-de-star-wars">The Mandalorian e Grogu</a>.</p><h2>A Nova Era de Star Wars nos Cinemas</h2><p>Depois de anos com o foco no streaming, a franquia retoma o protagonismo nos cinemas. Entre <em>Ahsoka</em> na televisao, filmes em producao e novos jogos, o <strong>Starfighter</strong> simboliza a estrategia de expandir a galaxia em todas as direcoes — do grande ecrã às plataformas interativas.</p><p>O proprio site oficial destaca que <strong>Star Wars (1977)</strong> e <strong>Star Wars: Starfighter</strong> estrearão juntos em <strong>IMAX 70mm</strong> em 2027, reforcando o carater de evento cinematográfico da producao. A producao do filme comeca no mesmo ano em que a noticia foi divulgada, e a Lucasfilm ja anunciou que as filmagens comecariam no outono.</p><h2>Kade Auberon e a aposta da Lucasfilm</h2>
+      <p>Vale separar com cuidado o que está confirmado do que é leitura editorial. <strong>Confirmado:</strong> Ryan Gosling vive Kade Auberon; a revelação do nome veio do StarWars.com; Kade Auberon não apareceu antes em filmes, séries ou quadrinhos da saga; a direção é de Shawn Levy. <strong>Leitura editorial:</strong> a escolha por um protagonista inédito diz alguma coisa sobre a fase atual da franquia.</p>
+      <p>A ficha técnica acima responde o que o filme é. O nome do personagem responde o que a franchise está tentando fazer. Um nome que não pertence a nenhum canto conhecido da cronologia é uma escolha deliberada num momento em que a saga atravessa décadas de personagens que o público já carrega de memória.</p>
+      <p>Há uma vantagem prática nisso. Um personagem original não exige que o espectador saiba a cronologia, os antepassados ou os detalhes de trinta anos de romances de origem. Quem chega pelo ator tem uma porta de entrada que o fã veterano não precisava. Em uma fase em que a mesma janela recebe <em>Ahsoka</em> na televisão e novos jogos em outras mídias, essa é uma forma de ampliar a base sem depender apenas dos nomes que já a tornaram famosa.</p>
+      <p>Há um risco do lado oposto, e ele é honesto. Um nome original transfere para o filme a responsabilidade de criar o interesse. Kade Auberon não tem história acumulada que o público possa antecipar. Se o personagem não ganhar forma nas telas, a.originalidade vira Generic. Esse é o teste que Starfighter tem pela frente.</p>
+
+      <h2>Conclusão</h2><p>Com Ryan Gosling à frente e um conceito novo, Star Wars: Starfighter promete ser um dos eventos de cinema dos próximos anos. Para os fãs, e mais um sinal de que a galáxia está em plena expansão.</p>`,
     category: {
       id: 'filmes-series',
       slug: 'filmes-series',
@@ -5094,68 +5131,6 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '83',
-    slug: 'netflix-setembro-2026-destaques-geek',
-    title: 'Netflix em Setembro de 2026: os Destaques Geek do Mês no Streaming',
-    excerpt: 'A grade de lançamentos da Netflix para setembro de 2026 reúne adaptações, animes e séries de fantasia. Veja o que observar no catálogo do streaming neste mês.',
-    content: `
-      <h2>O Mês da Netflix</h2>
-      <p>Setembro chegou e, com ele, uma nova leva de lançamentos na <strong>Netflix</strong>. O catálogo de 2026 segue a estratégia de combinar produções originais de grande orçamento com adaptações de sucessos da cultura pop — um movimento que o <a href="/filmes-series/netflix-novidades-geek-catalogo-2026">catálogo geek da plataforma já vinha consolidando ao longo do ano</a>.</p>
-
-      <h2>Destaques do Catálogo</h2>
-      <ul>
-        <li>Novas temporadas de séries de fantasia de grande apelo</li>
-        <li>Adaptações de best-sellers com Florence Pugh em destaque</li>
-        <li>Animes e produções asiáticas em expansão constante</li>
-        <li>Documentários sobre casos reais que dominam as listas de mais assistidos</li>
-      </ul>
-
-      <h2>Fantasia e Adaptações em Alta</h2>
-      <p>O mês mantém o ritmo de adaptações literárias. <em>East of Eden</em>, com <strong>Florence Pugh</strong>, baseada no clássico de John Steinbeck, é uma das apostas da plataforma, ao lado de títulos de terror e suspense que dominam o top 10. É a continuação natural do <a href="/filmes-series/futuro-do-streaming-2026-consolidacao">processo de consolidação do streaming em 2026</a>.</p>
-
-      <h3>O Que Observar no Mês</h3>
-      <ul>
-        <li>As escolhas da plataforma entre franquias consolidadas e apostas autorais</li>
-        <li>O desempenho de produções internacionais no top 10 global</li>
-        <li>Como as adaptações de best-sellers se comportam junto ao público</li>
-      </ul>
-
-      <h2>O Calendário Geek do Ano</h2>
-      <p>Com a Netflix priorizando cada vez mais eventos semanais, setembro é um bom termômetro para o resto do ano. Entre temporadas finais — como a de <a href="/filmes-series/the-witcher-temporada-final-netflix">The Witcher</a> — e novas apostas, o streaming segue como a casa da ficção científica e da fantasia.</p>
-
-      <h2>Conclusão</h2>
-      <p>Setembro de 2026 reforça a Netflix como plataforma central para o público geek. Com adaptações de peso, animes e temporadas aguardadas, o mês promete manter o serviço no centro das conversas.</p>
-    `,
-    category: {
-      id: 'filmes-series',
-      slug: 'filmes-series',
-      name: 'Filmes e Séries',
-      description: 'Ficção científica, tecnologia no cinema e análise de produções',
-      color: '#f97316'
-    },
-    tags: ['Netflix', 'streaming', 'lançamentos', 'séries', 'setembro 2026'],
-    author: { id: '1', name: 'Equipe NexoraComic' },
-    publishedAt: '2026-09-01',
-    readingTime: 6,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Child_enjoys_movie_night_at_home_with_popcorn_and_a_gaming_console_in_a_cozy_living_room_setting.jpg/960px-Child_enjoys_movie_night_at_home_with_popcorn_and_a_gaming_console_in_a_cozy_living_room_setting.jpg',
-    imageAlt: 'Criança aproveitando uma noite de cinema em casa',
-    imageLicense: 'CC BY 2.0',
-    imageArtist: 'Shixart1985',
-    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Child_enjoys_movie_night_at_home_with_popcorn_and_a_gaming_console_in_a_cozy_living_room_setting.jpg',
-    sources: [
-      {
-        title: 'Netflix Tudum - Go Behind the Streams',
-        url: 'https://www.netflix.com/tudum',
-        type: 'company'
-      },
-      {
-        title: 'The Verge - Streaming',
-        url: 'https://www.theverge.com/streaming',
-        type: 'publication'
-      }
-    ]
-  },
-  {
     id: '84',
     slug: 'coyote-vs-acme-filme-do-looney-tunes',
     title: 'Coyote vs. Acme: a História do Filme que Foi Engavetado e Renasceu',
@@ -5235,7 +5210,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Não é o primeiro encontro entre universos. A Marvel já publicou crossovers experimentais, e a história dos quadrinhos está cheia de encontros entre marcas. Mas um crossover em escala entre <strong>Star Wars</strong> e <strong>Marvel</strong>, com repercussão mainstream, tem outro peso: é um evento de catálogo, colecionável e conversa.</p>
 
       <h2>Impacto no Mercado de Quadrinhos</h2>
-      <p>Eventos assim movimentam lojas e plataformas digitais — importante num momento em que o <a href="/quadrinhos/hqs-digitais-streaming-de-quadrinhos">mercado de HQs digitais cresce e se diversifica</a>. Para os leitores, é uma chance de ver dinâmicas impossíveis: jedi e heróis compartilhando páginas, mitologias dialogando.</p>
+      <p>Eventos assim movimentam lojas e plataformas digitais — importante num momento em que o <a href="/quadrinhos/webcomics-quadrinhos-digitais-revolucao">mercado de HQs digitais cresce e se diversifica</a>. Para os leitores, é uma chance de ver dinâmicas impossíveis: jedi e heróis compartilhando páginas, mitologias dialogando.</p>
 
       <h2>Conclusão</h2>
       <p>Star Wars × Marvel é o tipo de evento que só o mundo atual dos quadrinhos permite. Com o selo da Disney unindo as propriedades, o crossover tem potencial de se tornar um dos lançamentos mais comentados do ano nas prateleiras — e nas pilhas de leitura dos fãs.</p>
@@ -5669,28 +5644,60 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     title: 'IA e Hollywood: a Disputa Silenciosa entre Gigantes da Tecnologia e os Estúdios',
     excerpt: 'Entre processos contra geradores de música e a corrida do Google por parcerias com estúdios, a relação entre IA e Hollywood define o futuro do entretenimento.',
     content: `
-      <h2>Dois Lados da Mesma Moeda</h2>
-      <p>A relação entre <strong>inteligência artificial</strong> e <strong>Hollywood</strong> nunca foi tão tensa — nem tão próxima. De um lado, estúdios e artistas processam empresas de IA; do outro, gigantes da tecnologia disputam parcerias com os mesmos estúdios. A análise publicada pelo The Verge em setembro de 2026 resumiu o momento: <strong>o Google precisa de Hollywood mais do que os estúdios precisam de IA</strong>.</p>
+      <h2>O que é o Suno</h2>
+      <p>O <strong>Suno</strong> é uma empresa norte-americana que constrói sistemas de geração de música por inteligência artificial. A pessoa escreve uma descrição em texto, normalmente incluindo género e instrumentação, e o sistema devolve uma faixa de áudio completa, com vocais cantados, arranjo e produção. Não é uma biblioteca de samples que monta uma música a partir de peças existentes: é um modelo que produz áudio novo de uma só vez.</p>
+      <p>É útil ter em mente o que isto <strong>não</strong> é: não é um instrumento que um músico toca. Não há partitura, e nem sequer afinação ajustável nota a nota. É uma caixa-preta que recebe texto e devolve som. Esse detalhe explica boa parte da controvérsia: a facilidade de uso é a razão de a indústria reagir, e é também a razão pela qual a questão jurídica é tão espinhosa.</p>
 
-      <h2>O Google e a Corrida pelo Conteúdo</h2>
-      <p>Para treinar e posicionar suas ferramentas generativas de vídeo e música, empresas como o Google dependem de direitos, marcas e talentos. Por isso, a companhia busca acordos com estúdios e detentores de catálogo — enquanto os estúdios, conscientes do próprio valor, negociam de posição de força. O resultado é um tabuleiro em que o <a href="/inteligencia-artificial/inteligencia-artificial-generativa">avanço da IA generativa</a> depende tanto de engenharia quanto de licenciamento.</p>
+      <h2>Gerar não é treinar</h2>
+      <p>Sem revelar a arquitetura, que a empresa não publica, o funcionamento descrito pela própria Suno é simples: o sistema <strong>gera</strong> música. Isso é diferente de <strong>treinar</strong> música.</p>
+      <p>Treinar é usar uma enorme quantidade de material existente para ajustar os parâmetros internos do modelo, de forma a que aprenda relações entre sons, ritmos, letras e estruturas. Isso é feito uma vez, pela empresa, antes de o serviço estar disponível. Gerar é o que o utilizador faz a seguir: pede uma faixa. As duas coisas nunca acontecem ao mesmo tempo, nem para a mesma pessoa.</p>
+      <p>Esta distinção é a chave de todo o artigo e merece ficar explícita: <strong>você não treina o modelo. Você usa um modelo que já foi treinado, por terceiros, com material que ninguém escolheu ver.</strong></p>
 
-      <h2>Suno sob Fogo Cruzado</h2>
-      <p>No front musical, a <strong>Suno</strong> — gerador de músicas por IA — segue alvo de ações judiciais movidas por gravadoras e artistas, que questionam o uso de obras protegidas no treinamento dos modelos e a imitação de vozes e estilos. O caso virou símbolo do dilema jurídico da era generativa: onde termina a inspiração e começa a cópia? A discussão dialoga diretamente com os debates sobre <a href="/inteligencia-artificial/etica-e-vieses-ia-os-desafios-da-inteligencia-artificial">ética e vieses da inteligência artificial</a>.</p>
+      <h2>Onde entra o material protegido</h2>
+      <p>É aqui que a questão se torna jurídica. Um modelo deste tipo precisa de ser treinado com gravações e letras existentes. Essas gravações estão protegidas por direitos de autorais, e quem as detém são as editoras, as <em>gravadoras</em>.</p>
+      <p>Há ainda uma camada adicional: a <strong>impressão digital de voz</strong>. Um sistema capaz de cantar não aprende apenas a melodia, aprende timbres e vozes específicas. A identidade vocal de um artista é, ela própria, um ativo protegido, e é a razão pela qual as alegações passaram a invocar não apenas direito de autorais, mas também direitos de imagem e de publicidade.</p>
 
-      <h3>Os Pontos Central da Disputa</h3>
+      <h2>Fatos confirmados</h2>
+<h2>Alegações, não fatos provados</h2>
+      <p>Tudo o que se segue vem de petições e de peças das partes, não de decisões sobre o mérito:</p>
       <ul>
-        <li>Direitos autorais sobre dados de treinamento de modelos generativos</li>
-        <li>Imitação de voz e estilo de artistas reais</li>
-        <li>Licenciamento de catálogos de estúdios e gravadoras para IA</li>
-        <li>Regulação do uso de IA em produções audiovisuais</li>
+        <li>As gravadoras alegam que os modelos foram treinados com gravações copiadas de plataformas de <em>streaming</em>, incluindo a extração de faixas do YouTube por ferramentas de download.</li>
+        <li>Em agosto de 2026, o juiz Saylor permitiu à UMG <strong>acrescentar uma alegação</strong> de burla de medidas tecnológicas de proteção, e <strong>recusou</strong> a adição de 61.026 gravações ao caso original.</li>
+        <li>Essas são decisões <strong>sobre o que pode ser alegado</strong>. Uma alegação admitida não é um facto provado, e muito menos uma condenação.</li>
       </ul>
 
-      <h2>Hollywood no Comando das Negociações</h2>
-      <p>Depois das greves que já estabeleceram regras mínimas para IA em roteiros e atuações, os estúdios sabem que o conteúdo é o ativo mais valioso da equação. O cinema já experimenta a tecnologia nos bastidores — como mostra a <a href="/filmes-series/ia-no-cinema-transformando-os-bastidores">atuação da IA na transformação dos bastidores do cinema</a> —, mas quem define os termos do jogo são os detentores dos direitos.</p>
+      <h2>A posição da Suno</h2>
+      <p>A posição da empresa tem sido a de que a sua geração constitui uso transformador e justo, e de que a ferramenta é usada de forma distinta da cópia directa. Em <strong>9 de setembro de 2026</strong>, a Suno anunciou <strong>v6</strong>, descrito como desenvolvido <strong>em parceria com a Warner Music Group, a BMG e a Believe</strong>, empresas que meses antes estavam do lado oposto da mesa em processos semelhantes. O anúncio referiu também salvaguardas para filtrar ficheiros de áudio e letras não autorizados.</p>
+      <p>Esta é a posição da empresa, declarada por ela. É um argumento e um movimento comercial, não um reconhecimento de culpa nem uma condenação.</p>
 
-      <h2>Conclusão</h2>
-      <p>A disputa entre IA e Hollywood não é tecnológica: é negocial. Quem controla histórias, vozes e imagens controla o combustível da próxima geração de ferramentas criativas. E, por enquanto, os portões do conteúdo continuam nas mãos dos estúdios.</p>
+      <h2>O que já foi decidido</h2>
+      <p>Vale a pena ser preciso aqui, porque é aqui que os artigos de imprensa costumam ser vagos. <strong>Nenhum tribunal se pronunciou até agora sobre se o treino ou a geração da Suno violam direitos de autorais.</strong> O que existe são decisões processuais: admitir ou recusar peças, manter o processo ativo, e o arquivamento de uma ação de um parceiro comercial com acordo de licenciamento anunciado.</p>
+      <p>Portanto, quando se lê que a IA musical "está a ser processada", é verdadeiro que <em>existem processos</em>. Não é verdadeiro, no sentido jurídico, que <em>já se tenha condenado a empresa</em>. E o facto de existir processo não torna nada ilegal por si só: um processo é precisamente o mecanismo que ainda não decidiu.</p>
+      <ul>
+        <li>Em <strong>24 de junho de 2024</strong>, a Universal Music Group, a Sony Music e a Warner Music Entertainment ajuizaram processo no Tribunal Federal do Distrito de Massachusetts, em Boston, contra a Suno e, em processo paralelo no Tribunal Federal do Distrito de Nova Iorque, contra a Udio.</li>
+        <li>As ações alegam <strong>violação direta de direitos de autorais</strong>: uso de gravações sonoras e letras protegidas como material de treino sem autorização, e geração de obras que reproduzem material protegido.</li>
+        <li>Em 2026, os processos <strong>continuam em curso</strong>. Nada decidiu o mérito do caso.</li>
+        <li>Em <strong>18 de setembro de 2026</strong>, a UMG apresentou uma <strong>segunda ação</strong> no Massachusetts, desta vez com um conjunto muito maior de gravações, 60.202, segundo registos públicos de processos.</li>
+      </ul>
+
+<h2>Por que isto interessa a Hollywood</h2>
+      <p>A discussão musical é a ponta mais visível, mas o problema é estrutural e vale para todo o audiovisual. Um estúdio detém <strong>catálogo</strong> — obras, vozes, interpretações — e esse catálogo é o que treina e o que autentica. Se modelos generativos produzem material a partir desse catálogo sem compensar os detentores, o problema não é apenas o resultado: é o <strong>incentivo</strong>.</p>
+      <p>É aqui que a regulação do trabalho entrou. As greves de <strong>2023</strong>, que incluíram a SAG-AFTRA contra a AMPTP e terminaram com acordo ratificado em dezembro do mesmo ano, foram em grande parte motivadas por uma questão concreta: a proposta dos estúdios de que um ator fosse digitalizado e a sua imagem, interpretação e imagem digital pertencessem à produção pelo pagamento de um único dia. A preocupação dos artistas foi, em síntese, que a tecnologia estava a ser preparada para <strong>substituir trabalho sem renegociar a compensação</strong>. É a mesma estrutura da disputa musical, transportada para o ecrã.</p>
+      <p>Duas conclusões decorrem daí. Primeira: a pergunta relevante para estúdios e artistas não é se a IA é boa ou má, mas <strong>quem é dono do resultado e como é pago</strong>. Segunda: vários dos litígios estão a ser resolvidos por <strong>licenciamento privado</strong>, não por tribunais.</p>
+
+      <h2>O que muda para artistas, compositores e estúdios</h2>
+      <p>Para <strong>compositores e artistas</strong>, a mudança já é concreta em dois pontos. Primeiro, o valor de catálogo deixou de ser apenas histórico: passa a ser <strong>insumo de treino</strong>. Uma obra que rende quando é gravada passa a ter um valor adicional quando é usada para ensinar uma máquina, e os termos dessa receita são os que estão a ser negociados. Segundo, a identificação de autoria fica mais frágil: quando um sistema gera uma faixa a partir de um prompt, o registo de quem fez o quê é mais difícil de manter do que numa sessão com compositor identificado.</p>
+      <p>Para <strong>estúdios</strong>, o cálculo é de risco, não só de oportunidade. O conteúdo gerado pode aumentar a produção com orçamento limitado, mas o risco jurídico sobre a <em>procedência do material de treino</em> é exatamente o que está em disputa nos tribunais. Um estúdio que treina ou licencia um modelo com o próprio catálogo está a fazer uma escolha de política de risco, não uma escolha puramente técnica.</p>
+
+      <h2>O que continua juridicamente incerto</h2>
+      <p>Não há respostas fechadas para nenhuma destas perguntas:</p>
+      <ul>
+        <li><strong>Treinar é copiar?</strong> Usar uma obra protegida para ajustar um modelo configura reprodução depende do que se entende por reprodução e do caso concreto, não de uma regra geral.</li>
+        <li><strong>O que conta como transformação?</strong> Uma faixa gerada que soa estruturalmente diferente da obra original pode ainda assim ser contestada, e o inverso também.</li>
+        <li><strong>Quem responde pela saída?</strong> Se uma faixa gerada reproduz de forma reconhecível uma obra protegida, a responsabilidade recai sobre a plataforma, sobre quem a pediu, ou sobre quem a publicou? Não há resposta fechada.</li>
+        <li><strong>Atribuição e remuneração.</strong> Se houver licença, como é calculada a remuneração, por reproduções? Os primeiros acordos são experimentais e não formam ainda um padrão.</li>
+      </ul>
+      <p>A forma mais honesta de fechar este assunto é dizer o que ele não é: não é uma questão com resposta judicial. É um litígio em curso, com decisões processuais recentes, sem decisão de mérito, e com uma forte componente negociadora. Quem apresentar esta matéria como um veredicto judicial estará a inventar.</p>
     `,
     category: {
       id: 'inteligencia-artificial',
@@ -5718,6 +5725,31 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         title: 'The Verge - AI',
         url: 'https://www.theverge.com/ai-artificial-intelligence',
         type: 'publication'
+      },
+      {
+        title: 'AI Lawsuit Tracker - UMG et al. v. Suno (D. Mass. 1:24-cv-11611)',
+        url: 'https://ailawsuittracker.com/cases/umg-recordings-inc-v-suno-inc-1-24-cv-11611/',
+        type: 'documentation'
+      },
+      {
+        title: 'AI Lawsuit Tracker - UMG Recordings v. Udio (S.D.N.Y. 1:24-cv-04777)',
+        url: 'https://ailawsuittracker.com/cases/umg-recordings-v-udio-uncharted-labs-1-24-cv-04777/',
+        type: 'documentation'
+      },
+      {
+        title: 'Suno - Introducing v6 (anúncio oficial, 9 de setembro de 2026)',
+        url: 'https://suno.com/blog/introducing-v6',
+        type: 'company'
+      },
+      {
+        title: 'Suno - Introducing v4.5 (anúncio oficial, 1 de maio de 2025)',
+        url: 'https://suno.com/blog/introducing-v4-5',
+        type: 'company'
+      },
+      {
+        title: 'Wikipedia - 2023 SAG-AFTRA strike',
+        url: 'https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike',
+        type: 'scientific'
       }
     ]
   },
@@ -6224,61 +6256,6 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     ]
   },
   {
-    id: '103',
-    slug: 'star-wars-starfighter-kade-auberon-ryan-gosling',
-    title: 'Star Wars: Starfighter: Ryan Gosling é Kade Auberon — o Que a Revelação Diz Sobre o Filme',
-    excerpt: 'A Lucasfilm confirmou o nome do personagem de Ryan Gosling em Star Wars: Starfighter. Um herói inédito, um período inédito: entenda a aposta do novo filme da saga.',
-    content: `
-      <h2>O Nome Atrás do Piloto</h2>
-      <p>Quem é o personagem de <strong>Ryan Gosling</strong> em <strong>Star Wars: Starfighter</strong>? A pergunta ganhou resposta oficial em meados de agosto de 2026, quando o <strong>StarWars.com</strong> revelou que o ator vive <strong>Kade Auberon</strong> — um nome que não pertence a nenhum canto conhecido do cânone, e é justamente esse o ponto. Anunciado na Star Wars Celebration de 2025 com Gosling protagonista e Shawn Levy na direção, o filme segue como um dos projetos mais aguardados da nova fase da Lucasfilm no cinema.</p>
-
-      <h2>Um Personagem 100% Original</h2>
-      <p>Starfighter aposta em um protagonista que não carrega o peso de décadas de histórias: Kade Auberon não apareceu em filmes, séries ou quadrinhos anteriores. A escolha segue a estratégia declarada do projeto de contar uma história nova, em um período ainda não explorado pela cronologia — o oposto da abordagem de produções que revisitam eras consagradas. Para a Lucasfilm, é uma forma de atrair o público de Gosling sem exigir um currículo de fã veterano; para o público geek, é o charme do desconhecido, na esteira do que a fase atual vem fazendo com <a href="/filmes-series/the-mandalorian-e-grogu-futuro-de-star-wars">expansões que vão além da saga Skywalker</a>.</p>
-
-      <h3>O Que Está Confirmado</h3>
-      <ul>
-        <li><strong>Ryan Gosling</strong> vive Kade Auberon, personagem original, em Star Wars: Starfighter</li>
-        <li>Revelação oficial feita pelo StarWars.com em agosto de 2026</li>
-        <li><strong>Shawn Levy</strong> assina a direção do longa</li>
-        <li>História nova, situada em um período não explorado pela franquia</li>
-      </ul>
-
-      <h2>O Movimento de Tabuleiro da Lucasfilm</h2>
-      <p>A revelação chega em um momento movimentado: 2026 viu <strong>The Mandalorian and Grogu</strong> levar a saga de volta aos cinemas e depois ao Disney+, enquanto <a href="/filmes-series/ahsoka-temporada-2-teaser-e-data-de-estreia">Ahsoka se prepara para a segunda temporada</a> e <a href="/games/star-wars-zero-company-jogo-estrategia">novos jogos expandem o universo</a> em outras mídias. Starfighter, com sua estrela de Hollywood e um personagem inédito, é a peça de longo prazo — a aposta de que a galáxia pode crescer sem depender apenas dos nomes que já a tornaram famosa.</p>
-
-      <h2>Conclusão</h2>
-      <p>De Kade Auberon sabemos, por enquanto, só o nome — e é exatamente aí que mora a estratégia. Ao dar rosto novo a uma saga milenar, Star Wars: Starfighter se posiciona como o teste definitivo de que a Força ainda tem histórias inéditas a contar. O pano foi erguido; falta ver a nave decolar.</p>
-    `,
-    category: {
-      id: 'filmes-series',
-      slug: 'filmes-series',
-      name: 'Filmes e Séries',
-      description: 'Ficção científica, tecnologia no cinema e análise de produções',
-      color: '#f97316'
-    },
-    tags: ['Star Wars', 'Starfighter', 'Ryan Gosling', 'Lucasfilm', 'cinema'],
-    author: { id: '1', name: 'Equipe NexoraComic' },
-    publishedAt: '2026-09-03',
-    readingTime: 5,
-    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Orion_Spacecraft_Outfitted_Interior_2021_%28no_labels%29.jpg/960px-Orion_Spacecraft_Outfitted_Interior_2021_%28no_labels%29.jpg',
-    imageAlt: 'Interior de uma cápsula espacial em preparo para missões tripuladas',
-    imageLicense: 'Public domain',
-    imageArtist: 'Jessica Meir',
-    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Orion_Spacecraft_Outfitted_Interior_2021_(no_labels).jpg',
-    sources: [
-      {
-        title: 'StarWars.com - Ryan Gosling is Kade Auberon in Star Wars: Starfighter',
-        url: 'https://www.starwars.com/news',
-        type: 'company'
-      },
-      {
-        title: 'Space.com - Space Movies & Shows',
-        url: 'https://www.space.com/news',
-        type: 'publication'
-      }
-    ]
-  },
-  {
     id: '104',
     slug: 'avatar-the-last-airbender-temporada-3-fire-nation-2027',
     title: 'Avatar: The Last Airbender Temporada 3 Chega em 2027: a Saga Entra na Nação do Fogo',
@@ -6299,7 +6276,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       </ul>
 
       <h2>Por Que a Temporada 3 é o Teste Definitivo</h2>
-      <p>Adaptar a Nação do Fogo significa lidar com os episódios mais icônicos da animação — a invasão do Dia do Eclipse, os mestres de firebending, a luta final e o dilema moral de Aang sobre tirar uma vida. É a temporada em que o programa precisa provar que sua releitura mais lenta e dramática funciona quando a história chega ao clímax. A aposta da Netflix em encerrar a série com propósito — em vez de prolongar temporadas — acompanha a estratégia da plataforma de <a href="/filmes-series/netflix-setembro-2026-destaques-geek">calibrar o catálogo com eventos claros de calendário</a>.</p>
+      <p>Adaptar a Nação do Fogo significa lidar com os episódios mais icônicos da animação — a invasão do Dia do Eclipse, os mestres de firebending, a luta final e o dilema moral de Aang sobre tirar uma vida. É a temporada em que o programa precisa provar que sua releitura mais lenta e dramática funciona quando a história chega ao clímax. A aposta da Netflix em encerrar a série com propósito — em vez de prolongar temporadas — acompanha a estratégia da plataforma de <a href="/filmes-series/netflix-setembro-2026-filmes-series-destaques">calibrar o catálogo com eventos claros de calendário</a>.</p>
 
       <h2>Conclusão</h2>
       <p>Em 2027, Aang enfrenta Ozai — e a Netflix enfrenta a expectativa de duas gerações de fãs ao mesmo tempo. Se a adaptação acertar o pouso do Cometa de Sozin, a série entra para a curta lista de remakes live-action que honram o original. Tudo indica que o elemento final vai arder bonito.</p>
@@ -7043,7 +7020,14 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 <h2>A cultura de consumo rápido e o que ela significa</h2>
 <p>O título do artigo da RUSQ inclui um segundo conceito, snack culture, e ele descreve o modo de consumo que a plataforma induz. A leitura por rolagem em tela pequena gera sessões curtas e frequentes, em vez de blocos longos de leitura. Isso não é detalhe de interface: é o modo pelo qual o formato entrega o que promete.</p>
 <p>Há aqui uma tensão que vale registrar, e a própria literatura de quadrinhos a coloca. A leitura de rolagem contínua, com capítulos distribuídos, é uma das marcas do formato, e ao mesmo tempo há uma literatura crescente que registra o declínio da leitura longa. Os autores da RUSQ citam esse debate ao comparar a experiência do webtoon com a leitura baseada em livro. A consequência é que o formato resolve um problema de acesso e, ao fazer isso, incorpora uma tensão entre profundidade e constância de leitura.</p>
-`,
+
+      <h2>O que muda para quem cria</h2>
+      <p>A discussão acima descreve o meio em termos de formato e de infraestrutura. Falta o lado de quem escreve, e é nele que a migração digital produziu a maior diferença prática.</p>
+      <p>A barreira de entrada para publicar caiu de forma mensurável. Um autor independente chega ao público sem depender de uma editora, de uma impressora ou de um ponto de distribuição física. Onde antes existia uma fila de aprovação, agora existe uma conta e um upload. Isso tem duas consequências que a literatura de quadrinhos raramente nomeia juntas.</p>
+      <p>A primeira é geométrica: o alcance deixa de ser nacional. Um autor que escreve em português ou em coreano pode, com o mesmo custo de distribuição, alcançar leitores nos Estados Unidos e no Brasil. A segunda é de público: nichos que nunca teriam sustentado uma edição impressa passaram a ter escala, porque a plataforma permite segmentar.</p>
+      <p>Vale notar que a plataforma faz isso cobrando algo. O modelo que abre as portas é o mesmo que concentra a audiência: quem controla os algoritmos, a infraestrutura de pagamento e o acesso ao leitor decide quem é visto. A abertura para o autor e a dependência estrutural dele são o mesmo fato, visto de dois lados.</p>
+      <p>Há também o risco oposto. A cobrança por capítulo, quando cada episódio é vendido separadamente, interrompe a leitura no meio do arco e transforma a fragmentação de escolha de formato em obstáculo. A pirataria, que acompanha qualquer formato com valor comercial, encontra na leitura curta em rolagem um alvo fácil de capturar e repostar. E existe a objeção estética de quem conhece o meio: a página de quadrinhos tem uma geometria que o vertical dissolve.</p>
+      <p>Nenhuma dessas observações invalida o que veio antes. Elas apenas indicam que a plataforma não substitui a editora: ela transfere parte das funções dela, em troca de parte do controle.</p>`,
     category: { id: 'quadrinhos', slug: 'quadrinhos', name: 'Quadrinhos', description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações', color: '#6366f1' },
     tags: ['webcomics', 'webtoons', 'quadrinhos digitais', 'Webtoon', 'Tapas', 'artistas independentes'],
     author: { id: '1', name: 'Equipe NexoraComic' },
@@ -7644,9 +7628,9 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '135',
     slug: 'netflix-setembro-2026-filmes-series-destaques',
-    title: 'O que chegou a Netflix em setembro de 2026: filmes e series em destaque',
+    title: 'O que chegou a Netflix em setembro de 2026: filmes e séries em destaque',
     excerpt: 'Setembro de 2026 na Netflix misturou A Different World, duas edições de Physical 100 e Lizzie Borden. O catálogo do mês está disponível por data, e a Tudum explica o que chega sem avaliar o que vale a pena.',
-    content: `<h2>O que realmente entrou na Netflix em setembro de 2026</h2><p>A Tudum, o editorial da própria Netflix, publica mês a mês a lista completa de lançamentos. O grande título do período é A Different World, continuação da sitcom dos anos 1990, com Maleah Joi Moon como Deborah Wayne, filha de Dwayne Wayne, vivido por Kadeem Hardison, e de Whitley Gilbert, de Jasmine Guy. A personagem estuda na Hillman College e quer construir uma identidade própria fora da sombra dos pais, e o conselho de orientação vem na voz de Debbie Allen, que retorna como Dr. Langhorne. A frase de abertura da Tudum é a de relaxar, relacionar e soltar. O catálogo do mês ainda traz Wonka’s The Golden Ticket, competição de realidade com doze ingressos dourados e vinte e quatro candidatos, e Call My Agent! The Movie, longa derivado da série francesa.</p><h2>O dia 1 concentra três lançamentos</h2><p>O dia 1 de setembro concentra três estreia. Jared Freid: The Family Plan é um especial de humor rápido, em que o comediante trata de família, viagens e de um vídeo dos pais que é pessoal demais demais. Untold Raygun: Breaking Badly traz Rachael Gunn, a breakdancer australiana que passou de acadêmica a meme global e depois à fama que o incidente na Paralimpíada trouxe. No mesmo dia chega 17 Again, com Matthew Perry no papel de Mike, um homem perto da crise de meia-idade que acorda e recebe a chance de recomeçar. O dia 1 mostra bem oequilibrium do mês: produção própria ao lado de aquisição de catálogo.</p><h2>A semana de 11 a 17: competição, Itália e Lizzie Borden</h2><p>Na semana de 11 a 17 de setembro, o destaque é Physical 100: Italy, primeira edição europeia do concurso sul-coreano, com cem atletas italianos na arena de Lingotto. A mesma semana traz Physical 100: Mexico, no dia 16, o que torna o mês um caso raro de duas edições do mesmo formato em semanas consecutivas. Completam a lista a estreia de Monster: The Lizzie Borden Story, o antológico de terror com Ella Beatty no papel de Lizzie Borden, além de The AI Doc: Or How I Became an Apocaloptimist, documentário sobre o impacto da inteligência artificial, e o especial de stand-up Jo Koy: Blue in the Face, gravado em Stockton, Califórnia. A semana inclui ainda Go Team!, comédia espanhola de ambiente corporativo, e The Doll, adaptação do romance polonês de Bolesław Prus.</p><h2>O fim do mês é catálogo, não produção original</h2><p>A semana de 25 de setembro a 1º de outubro muda de ênfase. UNABOMBER, com Jacob Tremblay como Ted Kaczynski e participação de Russell Crowe e Shailene Woodley, e East of Eden, nova adaptação de John Steinbeck com Florence Pugh como Cathy Ames, Christopher Abbott como Adam e Mike Faist como Charles, são versões de material existente. No mesmo período entram ainda The Final Problem, o especial animado de duas partes LEGO ONE PIECE, The Arena, com 38 lutadores amadores em busca de um contrato profissional, e o documentário The Widower. Tudo isso indica um padrão: o começo do mês concentra produção própria, e o fim concentra catálogo.</p><p>Nem tudo é estreia. A segunda temporada de The Gentlemen chega no dia 3, e Stranger Things: Tales From ’85, a série animada, entra na sua segunda temporada no dia 17. Gabby’s Dollhouse volta na temporada 14, com a irmã de Gabby, Doozie, interpretada por Celestina Harris. A continuidade fica evidente no desenho do mês: a Netflix combina títulos novos com a volta de séries já conhecidas, e em setembro as duas operações aparecem lado a lado.</p><p>Um catálogo também se mede pelo que deixa de estar. A Tudum avisa que Dawson’s Creek, Nurse Jackie e os filmes de Os Jogos da Fome têm data de saída em outubro. Isso muda a equação de quem pretendia maratonar qualquer coisa em setembro. A mesma página oferece uma lista específica de filmes e séries que deixam o serviço no mês seguinte, o que evita a decepção de perder uma série no meio de uma temporada. É um detalhe operacional, mas é justamente esse tipo de informação que a maioria dos artigos de lançamento esquece.</p><h2>Documentários e um reality sobre chocolate</h2><p>Setembro também tem peso em não ficção. Além de The AI Doc, que acompanha um pai futuro tentando entender o impacto da inteligência artificial sobre a vida do filho, há Chronicling, de Matt Tyrnauer, com vinte e cinco anos do festival de Tribeca, e Survivors, em que um número de sobreviventes de assassinos em série contam as próprias histórias.</p><p>Do lado dos formatos de competição, Wonka’s The Golden Ticket leva vinte e quatro candidatos a doze ingressos dourados, com um único vencedor. A página do mês também lista Best of the Best, com Maitreyi Ramakrishnan e Priyanga Kedia num grupo de dança universitário, e Why Did I Get Married Again?, o terceiro filme de Tyler Perry na plataforma.</p><p>Vale um cuidado de leitura. A Tudum é comunicação de catálogo, e não crítica. A página de setembro é construída para apresentar e explicar por que a personagem estuda naquela faculdade e quem volta, mas não avalia nada disso. A mesma estrutura vale para a página semanal: ela informa o que chega, em que dia e uma sinopse de uma frase. Nada ali é recomendação. Quem quiser decidir o que assistir precisa cruzar essas datas com críticas e com a própria disponibilidade de tempo, porque um catálogo informa o que existe, e não o que vale a pena. A Netflix também organiza essas páginas por data e por gênero, o que torna a lista útil como calendário.</p>`,
+    content: `<h2>O que realmente entrou na Netflix em setembro de 2026</h2><p>A Tudum, o editorial da própria Netflix, publica mês a mês a lista completa de lançamentos. O grande título do período é A Different World, continuação da sitcom dos anos 1990, com Maleah Joi Moon como Deborah Wayne, filha de Dwayne Wayne, vivido por Kadeem Hardison, e de Whitley Gilbert, de Jasmine Guy. A personagem estuda na Hillman College e quer construir uma identidade própria fora da sombra dos pais, e o conselho de orientação vem na voz de Debbie Allen, que retorna como Dr. Langhorne. A frase de abertura da Tudum é a de relaxar, relacionar e soltar. O catálogo do mês ainda traz Wonka’s The Golden Ticket, competição de realidade com doze ingressos dourados e vinte e quatro candidatos, e Call My Agent! The Movie, longa derivado da série francesa.</p><h2>O dia 1 concentra três lançamentos</h2><p>O dia 1 de setembro concentra três estreia. Jared Freid: The Family Plan é um especial de humor rápido, em que o comediante trata de família, viagens e de um vídeo dos pais que é pessoal demais demais. Untold Raygun: Breaking Badly traz Rachael Gunn, a breakdancer australiana que passou de acadêmica a meme global e depois à fama que o incidente na Paralimpíada trouxe. No mesmo dia chega 17 Again, com Matthew Perry no papel de Mike, um homem perto da crise de meia-idade que acorda e recebe a chance de recomeçar. O dia 1 mostra bem o equilíbrio do mês: produção própria ao lado de aquisição de catálogo.</p><h2>A semana de 11 a 17: competição, Itália e Lizzie Borden</h2><p>Na semana de 11 a 17 de setembro, o destaque é Physical 100: Italy, primeira edição europeia do concurso sul-coreano, com cem atletas italianos na arena de Lingotto. A mesma semana traz Physical 100: Mexico, no dia 16, o que torna o mês um caso raro de duas edições do mesmo formato em semanas consecutivas. Completam a lista a estreia de Monster: The Lizzie Borden Story, o antológico de terror com Ella Beatty no papel de Lizzie Borden, além de The AI Doc: Or How I Became an Apocaloptimist, documentário sobre o impacto da inteligência artificial, e o especial de stand-up Jo Koy: Blue in the Face, gravado em Stockton, Califórnia. A semana inclui ainda Go Team!, comédia espanhola de ambiente corporativo, e The Doll, adaptação do romance polonês de Bolesław Prus.</p><h2>O fim do mês é catálogo, não produção original</h2><p>A semana de 25 de setembro a 1º de outubro muda de ênfase. UNABOMBER, com Jacob Tremblay como Ted Kaczynski e participação de Russell Crowe e Shailene Woodley, e East of Eden, nova adaptação de John Steinbeck com Florence Pugh como Cathy Ames, Christopher Abbott como Adam e Mike Faist como Charles, são versões de material existente. No mesmo período entram ainda The Final Problem, o especial animado de duas partes LEGO ONE PIECE, The Arena, com 38 lutadores amadores em busca de um contrato profissional, e o documentário The Widower. Tudo isso indica um padrão: o começo do mês concentra produção própria, e o fim concentra catálogo.</p><p>Nem tudo é estreia. A segunda temporada de The Gentlemen chega no dia 3, e Stranger Things: Tales From ’85, a série animada, entra na sua segunda temporada no dia 17. Gabby’s Dollhouse volta na temporada 14, com a irmã de Gabby, Doozie, interpretada por Celestina Harris. A continuidade fica evidente no desenho do mês: a Netflix combina títulos novos com a volta de séries já conhecidas, e em setembro as duas operações aparecem lado a lado.</p><p>Um catálogo também se mede pelo que deixa de estar. A Tudum avisa que Dawson’s Creek, Nurse Jackie e os filmes de Os Jogos da Fome têm data de saída em outubro. Isso muda a equação de quem pretendia maratonar qualquer coisa em setembro. A mesma página oferece uma lista específica de filmes e séries que deixam o serviço no mês seguinte, o que evita a decepção de perder uma série no meio de uma temporada. É um detalhe operacional, mas é justamente esse tipo de informação que a maioria dos artigos de lançamento esquece.</p><h2>Documentários e um reality sobre chocolate</h2><p>Setembro também tem peso em não ficção. Além de The AI Doc, que acompanha um pai futuro tentando entender o impacto da inteligência artificial sobre a vida do filho, há Chronicling, de Matt Tyrnauer, com vinte e cinco anos do festival de Tribeca, e Survivors, em que um número de sobreviventes de assassinos em série contam as próprias histórias.</p><p>Do lado dos formatos de competição, Wonka’s The Golden Ticket leva vinte e quatro candidatos a doze ingressos dourados, com um único vencedor. A página do mês também lista Best of the Best, com Maitreyi Ramakrishnan e Priyanga Kedia num grupo de dança universitário, e Why Did I Get Married Again?, o terceiro filme de Tyler Perry na plataforma.</p><p>Vale um cuidado de leitura. A Tudum é comunicação de catálogo, e não crítica. A página de setembro é construída para apresentar e explicar por que a personagem estuda naquela faculdade e quem volta, mas não avalia nada disso. A mesma estrutura vale para a página semanal: ela informa o que chega, em que dia e uma sinopse de uma frase. Nada ali é recomendação. Quem quiser decidir o que assistir precisa cruzar essas datas com críticas e com a própria disponibilidade de tempo, porque um catálogo informa o que existe, e não o que vale a pena. A Netflix também organiza essas páginas por data e por gênero, o que torna a lista útil como calendário. E ele é útil como calendário justamente porque atravessa a <a href="/filmes-series/netflix-novidades-geek-catalogo-2026">estratégia geek da plataforma</a>: as adaptações de setembro são o que a casa vem construindo ao longo de todo o ano.</p>`,
     category: { id: 'filmes-series', slug: 'filmes-series', name: 'Filmes e Séries', description: 'Ficção científica, tecnologia no cinema e análise de produções', color: '#f97316' },
     tags: ['Netflix', 'streaming', 'estreias', 'ficcao cientifica', 'series'],
     author: { id: '1', name: 'Equipe NexoraComic' },
@@ -7732,19 +7716,40 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'tempestade-poeira-mali-vista-do-espaco',
     title: 'A tempestade de poeira que cobriu parte do Mali vista do espaco',
     excerpt: 'Satelites da NASA flagraram uma parede de poeira sobre o Mali. Como o MODIS detecta poeira e por que essas imagens importam.',
-    content: `<h2>O Fenomeno</h2><p>Tempestades de poeira no Saara deslocam milhoes de toneladas de particulas pelo Sahel. Em 2026, o <strong>NASA Earth Observatory</strong> registrou uma pluma densa sobre o <strong>Mali</strong>, visivel como um veu amarelado em imagens de satelite.</p><h2>O Que a Imagem Mostra</h2><p>A imagem foi captada pelo sensor <strong>MODIS</strong>, a bordo do satelite <strong>Terra</strong>, em <strong>5 de setembro de 2026</strong>. A pluma se estendia por partes do Mali e de paises vizinhos. Segundo a cientista atmosferica <strong>Tianle Yuan</strong>, do <strong>Goddard Space Flight Center</strong> da NASA, tempestades assim costumam estar associadas a <strong>haboobs</strong>: tempestades de poeira powerfuls impulsionadas por ventos convectivos fortes.</p><p>Nos dias seguintes, uma visao mais ampla em satelite mostrou os aerosseis da regiao se deslocando para oeste e vertendo sobre o Oceano Atlantico. Uma travessia completa do Atlantico, no entanto, e improvavel. Travessias desse tipo sao mais frequentes entre o fim da primavera e o verao, quando a <strong>Camada de Ar Saariana</strong> — uma massa de ar seca e empoeirada — consegue transportar poeira por milhares de quilometros para oeste da Africa, em grande altitude.</p><h2>Como Satelites Detectam Poeira</h2><p>O sensor <strong>MODIS</strong> mede a luz refletida em varias bandas do espectro. Poeira, fumaca e nuvens tem assinaturas diferentes, o que permite separar cada camada e distinguir o que e o que nao e.</p><h2>Efeitos da Poeira</h2><ul><li>Reduz a visibilidade e afeta voos e estradas.</li><li>Agrava problemas respiratorios.</li><li>Transporta nutrientes como fosforo pelo Atlantico.</li><li>Interfere na formacao de nuvens e furacoes.</li></ul><h2>O Que o El Nino Pode Mudar</h2><p>Um <strong>El Nino</strong> em desenvolvimento pode remodelar esses padroes, mas a influencia atua nos dois sentidos, como explicou Yuan. Condicoes mais secas deixam mais sedimento solto a disposicao dos ventes, pronto para ser levantado; porem, condicoes mais secas tambem significam menos atividade convectiva e, portanto, menos haboobs para levantar grandes plumas. Nas palavras da cientista, "a conexao pode ser real, mas e dificil de estabelecer para eventos individuais".</p><h2>Por Que Imagens de Satelite Importam</h2><p>Elas alimentam modelos de qualidade do ar, alertas precoces e pesquisa climatica, sem alarmismo: poeira saariana e um processo natural com impactos que precisam ser monitorados.</p>`,
+    content: `<h2>O que aconteceu no Mali</h2><p>A imagem publicada pelo <strong>NASA Earth Observatory</strong> mostra uma pluma de poeira densa sobre o <strong>Mali</strong>, num véu amarelado que se estendia por regiões do país e de vizinhos. Foi captada pelo sensor <strong>MODIS</strong>, a bordo do satélite <strong>Terra</strong>, em <strong>5 de setembro de 2026</strong>. Nos dias seguintes, uma visão mais ampla mostrou os aerossóis da região a deslocar-se para oeste e a verter-se sobre o Oceano Atlântico.</p><p>O que torna este caso interessante não é ser raro — tempestades de poeira no Saara são recorrentes — mas ser um bom exemplo de <strong>como se vê da órbita o que no solo é invisível</strong>. No chão, dentro da pluma, não há nada a ver: é ar carregado de partículas. Daqui de cima, a pluma passa a ter contorno, extensão e trajectory.</p>
+
+<h2>O que a imagem mostra, e o que não mostra</h2><p>A primeira coisa a fixar é que uma imagem de satélite mostra <strong>a presença e a forma de uma camada de aerossóis vista de cima</strong>. Ela não mostra a velocidade do vento que a levantou, nem o peso de poeira em suspensão, nem a visibilidade ao nível do solo, nem o que as pessoas sentiram. É uma fotografia de uma fração da atmosfera num instante.</p><p>Isto condiciona tudo o resto. Quando se lê que uma tempestade "deslocou milhões de toneladas de partículas", isso vem de modelos e de medições de superfície, não de contar grãos na imagem. A imagem documenta a existência e a geografia do fenómeno; as quantidades vêm de outras fontes.</p>
+
+<h2>Haboob: o motor da tempestade</h2><p>Segundo a cientista atmosférica <strong>Tianle Yuan</strong>, do <strong>Goddard Space Flight Center</strong> da NASA, tempestades deste tipo estão muitas vezes associadas a <strong>haboobs</strong>: tempestades de poeira powerfuls impulsionadas por ventos convectivos fortes.</p><p>É aqui que está o mecanismo. Um haboob nasce de uma <strong>tempestade de trovoada</strong> comum, do mesmo tipo que cobre rotineiramente o Sahel na época das chuvas. A diferença está na frente de ar frio que avança à frente da célula e <strong>arrasta o ar junto ao solo</strong>. Perto do solo, o vento é estreito e rasante; é esse vento que levanta a poeira em vez de a empurrar. A frente que avança é, literalmente, uma parede de ar carregada de poeira, e é ela que dá o nome ao fenómeno.</p>
+
+<h2>Como um satélite identifica uma nuvem de poeira</h2><p>O <strong>MODIS</strong> mede a luz que chega de diferentes comprimentos de onda, em <strong>36 bandas espectrais</strong>, e vê toda a superfície da Terra a cada 1 ou 2 dias. A poeira tem uma assinatura que permite identificá-la, e essa identificação assenta em três pistas:</p><ul><li><strong>Cor.</strong> As partículas de poeira espalham a luz de forma diferente das nuvens, o que dá aquele tom amarelado ou acinzentado característico.</li><li><strong>Temperatura.</strong> Nuvens são muito frias porque refletem a luz solar em altitude alta; a poeira, junto ao solo ou a meia atmosfera, tem temperatura mais próxima da da superfície. A diferença de temperatura de brilho separa as duas.</li><li><strong>Tamanho das partículas.</strong> Poeira e fumo dispersam a luz de maneira sutilmente diferente, o que permite distinguir que tipo de aerossol está ali.</li></ul><p>É por isso que a mesma imagem mostra, lado a lado, a pluma amarelada sobre o Mali, nuvens brancas e, às vezes, fumo de incêndio com uma tonalidade diferente. Não é impressão visual: são assinaturas físicas distintas.</p>
+
+<h2>Ver do solo contra ver da órbita</h2><p>No solo, quem está dentro da pluma vê <strong>redução da visibilidade</strong> e, se for poeira respirável, sente efeitos na saúde. Não tem como saber se a nuvem que está a ver vai atingir o oceano, nem para que lado se desloca, nem há escala para perceber se o que se vê é uma pluma local ou continental.</p><p>Da órbita, o satélite oferece justamente o que falta ao observador local: <strong>contexto</strong>. Mostra a extensão da pluma, mostra a poeira sobre o oceano, permite acompanhar o deslocamento dia a dia e comparar com eventos anteriores. É isso que transforma um fenómeno local num fenómeno com seguimento. O que o satélite não dá é a experiência de quem está lá em baixo.</p>
+
+<h2>Por que a poeira viaja milhares de quilómetros</h2><p>O que decide se uma pluma fica no Sahel ou atravessa o oceano não é o vento junto ao solo: é a <strong>altura a que as partículas são injetadas na atmosfera</strong>.</p><p>Quando um haboob levanta poeira, grande parte do material é empurrada para uma camada de ar alta e estável, muito acima da superfície, onde os ventos correm de este para oeste. É essa estrutura — a <strong>Camada de Ar Saariana</strong>, uma massa de ar seca e empoeirada — que faz a poeira atravessar o oceano. Segundo a NASA, <strong>as travessias completas do Atlântico são mais frequentes entre o fim da primavera e o verão</strong>, quando a Camada de Ar Saariana consegue transportar poeira milhares de milhas para oeste da África. Fora dessa janela, a pluma como a observada no Mali tende a dispersar-se antes de alcançar o oceano: a própria agência indica que <strong>uma travessia completa, neste caso, é improvável</strong>.</p><p>O tamanho das partículas também conta. As mais pesadas sedimentam perto da origem; as finas viajam mais. O que fica em suspensão alto é justamente a fração que atravessa o oceano e, mais tarde, <strong>deposita-se na Amazónia</strong>, levando os nutrientes que a floresta não consegue obter do solo local.</p>
+
+<h2>Este fenómeno é comum, excepcional, ou as duas coisas?</h2><p>A resposta honesta é que <strong>depende do que se esteja a olhar</strong>. A existência de poeira sobre o Sahel no fim da estação seca é comum e sazonal. Um <strong>haboob</strong> especificamente, com essa parede de vento frontal, é menos frequente: é o fator que transforma poeira difusa numa pluma densa e com frente avançada. E a combinação completa — formação de haboob <em>mais</em> condições de transporte de longo alcance — é um evento que exige um contexto meteorológico favorável e, por isso, é excecional.</p>
+
+<h2>O que os dados de satélite mostram e o que não determinam</h2><p>Vale a pena fechar com uma lista honesta do que uma órbita resolve e do que deixa por resolver.</p><p><strong>Mostram:</strong> que existe uma pluma, onde está, que forma tem, para onde se desloca, e se há poeira a chegar ao oceano. Alimentam modelos de qualidade do ar, pesquisa e alertas precoces.</p><p><strong>Não determinam sozinhos:</strong> a quantidade total de poeira em suspensão, a velocidade exacta do vento que a levantou, o impacto respiratório imediato nas pessoas daquele dia, nem a relação entre poeira e furacões atlânticos — essa necesita mais do que uma imagem.</p><p>E há um limite técnico honesto. Os algoritmos de deteção de aerossóis são mais fiáveis sobre superfícies escuras do que sobre o <strong>deserto claro</strong>, que reflete muita luz e dificulta a separação entre o que brilha no solo e o que está no ar. Quando uma leitura de aerossóis vem de uma região como o Saara, convém ler o valor com essa reserva.</p>
+
+<h2>O que o El Niño pode mudar, e o que continua incerto</h2><p>Um <strong>El Niño</strong> em desenvolvimento pode remodelar estes padrões, mas Yuan faz uma ressalva que vale mais do que a previsão: a influência <strong>atua nos dois sentidos</strong>. Condições mais secas deixam mais sedimento solto à disposição dos ventos, porém, condições mais secas também significam menos atividade convectiva e, portanto, menos haboobs para levantar plumas grandes. A relação existe, mas é bidirecional. Nas palavras da cientista, "a conexão pode ser real, mas é difícil de estabelecer para eventos individuais".</p><p>Ou seja: um único evento como o do Mali não permite dizer se o El Niño o causou. É uma hipótese com base física, não um resultado demonstrado para este caso.</p>
+
+<h2>Fontes e referências</h2><p>Os factos do evento — data, sensor, satélite e as declarações de Tianle Yuan — vêm do <strong>NASA Earth Observatory</strong>, que publicou a imagem e o texto que a acompanha. A explicação do funcionamento do MODIS e o número de bandas espectrais vêm do <strong>MODIS Web</strong>, do Goddard Space Flight Center. A base algorítmica da deteção de aerossóis vem do <em>Algorithm Theoretical Basis Document</em> do produto MOD04_L2, do mesmo centro. Quando este artigo diz que algo não pode ser determinado por satélite, é porque a fonte primária não o afirma.</p>`,
     category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
     tags: ['NASA', 'poeira', 'Mali', 'satelites', 'MODIS'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-11',
-    readingTime: 5,
+    readingTime: 7,
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Dust_storm_off_West_Africa_%28MODIS_2015-01-05%29.jpg/960px-Dust_storm_off_West_Africa_%28MODIS_2015-01-05%29.jpg',
     imageAlt: 'Tempestade de poeira sobre o Mali vista por satelite',
     imageLicense: 'Public domain',
     imageArtist: 'Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC',
     imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Dust_storm_off_West_Africa_(MODIS_2015-01-05).jpg',
     sources: [
-      { title: 'NASA Earth Observatory - poeira no Mali', url: 'https://earthobservatory.nasa.gov/images/153000/dust-storm-sweeps-over-mali', type: 'agency' },
+      { title: 'NASA Earth Observatory - Dust Storm Sweeps Over Mali', url: 'https://science.nasa.gov/earth/earth-observatory/dust-storm-sweeps-over-mali/', type: 'agency' },
+      { title: 'NASA GSFC - MODIS Web (About): 36 bandas espectrais, Terra e Aqua', url: 'https://modis.gsfc.nasa.gov/about/', type: 'agency' },
+      { title: 'NASA - Algorithm Theoretical Basis Document do produto MOD04_L2 (aerossóis)', url: 'https://modis-images.gsfc.nasa.gov/MOD04_L2/atbd.html', type: 'documentation' },
+      { title: 'Wikimedia Commons - Dust storm off West Africa (MODIS)', url: 'https://commons.wikimedia.org/wiki/File:Dust_storm_off_West_Africa_(MODIS_2015-01-05).jpg', type: 'other' }
     ]
   },
   {
@@ -8803,29 +8808,15 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'prime-assembly-edicao-genetica-crispr',
     title: 'Prime Assembly: Nova Técnica de Edição Genética Mais Poderosa que CRISPR',
     excerpt: 'Publicada na Nature em setembro de 2026, a técnica prime assembly permite integrar fragmentos de DNA de porte médio e grande em pontos específicos do genoma, funcionando também em células que não se dividem.',
-    content: `      <h2>O problema das edições grandes</h2>
-      <p>A edição genética terapêutica tem um problema que as ferramentas mais conhecidas não resolveram por completo. Ferramentas como o prime editing permitem trocas de base, pequenas inserções e deleções com precisão, mas a instalação de modificações genômicas de porte médio a grande continua desafiadora. A maioria dos métodos atuais depende de entrega de DNA não direcionada, de editores curtos que precisam ser individualizados para cada paciente, ou de quebras de fita dupla no DNA — eventos que podem ser tóxicos e causar estresse celular.</p>
-      <p>É contra esse cenário que um artigo da Nature, publicado em 16 de setembro de 2026, propõe uma alternativa. O método se chama prime assembly, foi desenvolvido pela equipe de Daniel Bauer, diretor do Programa de Terapia Gênica do Boston Children's Hospital, e teve como primeiro autor Sébastien Lévesque, ligado também ao Dana-Farber Cancer Institute, ao Broad Institute e à Université Laval, no Canadá. Antes da publicação em revista, o trabalho circulou como preprint no bioRxiv, em junho de 2025.</p>
+    content: `<h2>Prime editing: escrever sem partir as duas fitas</h2><p>A ideia central do prime editing, publicado na <strong>Nature</strong> em 2019 pelo grupo de David Liu, é simples de descrever: <strong>em vez de partir o DNA e esperar que a célula o repare, o sistema escreve diretamente a sequência nova no sítio certo</strong>, usando uma pequena peça de RNA que transporta a instrução.</p><p>Para perceber o truque, é preciso conhecer as duas peças do sistema:</p><ul><li><strong>Uma enzima com duas capacidades.</strong> O <strong>Cas9</strong> continua a ser usado para localizar o sítio — é a sua especialidade. Mas em vez da versão normalmente cortadora, usa-se uma versão <strong>atenuada</strong>, que reconhece o sítio mas não parte. A ela está ligada uma <strong>transcriptase reversa</strong>, uma enzima que consegue fabricar DNA usando RNA como molde.</li><li><strong>O RNA guia, chamado pegRNA.</strong> Este RNA faz duas coisas ao mesmo tempo: <strong>indica</strong> qual o sítio do genoma a alvo, e <strong>contém a sequência da alteração</strong> que se quer fazer nesse sítio. É o que faz a técnica ser programável: para editar outro sítio, muda-se a parte do RNA que diz onde, e para fazer outra alteração, muda-se a parte que diz o quê.</li></ul><p>Uma imagem mental ajuda. O DNA tem duas fitas, como uma escada de dois degraus. O sistema <strong>abre um degrau</strong> — uma só fita, não a escada toda. A transcriptase reversa, guided pelo pegRNA, escreve então a sequência nova em cima dessa fita. Quando o degrau volta a fechar, a alteração fica. Não houve quebra dupla, não foi preciso um molde de DNA externo, e a célula não teve de atravessar o stress de uma reparação de emergência.</p><p>Isto explica por que o prime editing é mais contido do que o CRISPR clássico: como não depende da reparação dirigida por homologia, <strong>também funciona em células que não se dividem</strong>. E, no artigo original, os autores relataram mais de 175 edições em células humanas, incluindo os 12 tipos de mutação pontual, sem recorrer a quebras de dupla fita nem a ADN doador.</p>
 
-      <h2>Como a técnica funciona</h2>
-      <p>O prime assembly se apoia na síntese de flaps duplos direcionada por CRISPR. Em termos práticos, o método "escreve" novas sequências de DNA em locais específicos do genoma usando flaps, que funcionam como amarras para se prender a fragmentos de DNA com extremidades correspondentes. O DNA assim montado pode ter o tamanho de um gene ou maior, e torna-se uma edição permanente.</p>
-      <p>Segundo os autores, a novidade é que a integração é programável por RNA, funciona com fragmentos de fita simples ou dupla e — o ponto mais relevante — atua de forma igualmente ativa em células em divisão e em células que não se dividem. Isso contrasta com a reparação dirigida por homologia, que depende de mecanismos ativos sobretudo em células que se dividem. Boa parte das células terapêuticamente relevantes no corpo humano é justamente não-divisionária, o que torna essa diferença decisiva.</p>
+<h2>De caminhos curtos a sequências longas: o prime assembly</h2><p>O prime editing é poderoso, mas tem um alcance limitado em tamanho: escreve alterações curtas. Instalar um <strong>gene inteiro</strong>, ou reescrever um trecho grande do genoma, continua fora do seu alcance. É esse o problema que o artigo da <strong>Nature</strong> de setembro de 2026, liderado por Daniel Bauer, vem enfrentar.</p><p>A ideia do <strong>prime assembly</strong> é reaproveitar o motor do prime editing, mas usá-lo para <strong>montar segmentos de DNA maiores</strong>. O truque está nos <strong>flaps duplos</strong> — pequenos pedaços de DNA, como as pontas de dois envelopes, que são gerados por RNA e depois <strong>casa com as extremidades do fragmento novo</strong>. É essa correspondência de extremidades que faz o fragmento ser integrado no sítio certo do genoma.</p>
 
-      <h3>As três demonstrações</h3>
-      <p>A equipe aplicou o método a três tipos de operação:</p>
-      <ul>
-        <li><strong>Recodificação de exons:</strong> reescrever exons em loci terapêuticamente relevantes</li>
-        <li><strong>Integração de transgenes:</strong> inserir genes exógenos em posições programadas</li>
-        <li><strong>Rearranjos em escala de megabase:</strong> reorganizar trechos muito grandes do genoma</li>
-      </ul>
-      <p>Todas essas operações foram realizadas em células humanas primárias, incluindo loci terapêuticamente relevantes. O prime assembly, portanto, expande o alcance da engenharia genômica: permite a integração direcionada de sequências de porte médio a grande sem depender de doadores de DNA de fita dupla, sem quebras de fita dupla induzidas por nucleases e sem exigir progressão do ciclo celular.</p>
+<h2>O que a técnica já demonstrou em laboratório</h2><p>Os autores aplicaram o prime assembly a três operações, todas em células humanas, incluindo em locais relevantes para doenças:</p><ul><li><strong>Recodificação de exons</strong> — reescrever exons, os segmentos de um gene que chegam a ser traduzidos em proteína.</li><li><strong>Integração de transgenes</strong> — inserir genes estranhos ao organismo em posições programadas.</li><li><strong>Rearranjos em escala de megabase</strong> — reorganizar trechos muito longos do genoma.</li></ul><p>Isto expande o que a engenharia genómica consegue instalar num sítio. Mas é fundamental manter as proporções e <strong>não confundir "funciona em células" com "trata uma doença"</strong>. O artigo demonstra viabilidade em laboratório. Não demonstra nada em animais, e muito menos em pessoas. Entre uma célula num dish e um paciente há anos de trabalho — entrega às células certas, eficiência suficiente, prova de segurança, ensaios clínicos, e um caminho regulatório que ainda não começou para esta técnica.</p>
 
-      <h2>O que os autores dizem e o que ainda falta</h2>
-      <p>Daniel Bauer explica que, ao usar prime editing para escrever um flap por fita do genoma, o método controla exatamente onde a substituição de DNA começa e termina. Como está baseado em prime editing, ele é, na avaliação dele, muito menos provável de causar efeitos fora do alvo do que outros métodos de edição. O prime assembly também não depende de quebras de fita dupla nem de doadores de fita dupla, ambos potencialmente tóxicos, e não está limitado a células em divisão.</p>
-      <p>Bauer descreve o próximo passo da equipe: melhorar a entrega dos componentes do prime assembly a células humanas relevantes para doenças in vivo, como células-tronco hematopoiéticas usadas em terapia de distúrbios do sangue. Também está em exploração o uso da técnica para entregar cargas genéticas como terapia mutação-agnóstica, capaz de restaurar o controle gênico em doenças hereditárias graves com necessidade clínica não atendida.</p>
-      <p>Vale manter as proporções: o artigo demonstra viabilidade em células, e não em animais nem em pacientes. A utilidade terapêutica, como o próprio Bauer reconhece ao falar em esperar impacto na clínica, ainda é uma expectativa da equipe, e não um resultado.</p>
+<h2>O que ainda falta para virar tratamento</h2><p>Vale listar o que continua em aberto, porque é aqui que as notícias exageram com mais frequência:</p><ul><li><strong>Não é uma terapia aprovada.</strong> O prime assembly é um método em investigação. A data de publicação na Nature é 2026; nenhum ensaio clínico o testou em pacientes.</li><li><strong>A eficiência é variável.</strong> Tal como acontece com todas as técnicas desta família, o sucesso depende muito do tipo celular e da localização no genoma. Os autores reconhecem-no ao apontar como próximo passo melhorar a entrega dos componentes a células humanas relevantes para doenças, como as células-tronco hematopoiéticas usadas em distúrbios do sangue.</li><li><strong>A entrega é o gargalo.</strong> O método funcionar é uma coisa; fazer chegar as peças ao núcleo da célula certa, no número certo, sem efeitos secundários, é outra — e é o passo que os próprios autores tratam como o desafio seguinte.</li><li><strong>Comparações entre métodos exigem cuidado.</strong> O autor principal considera o método muito menos provável de gerar efeitos fora do alvo do que outras técnicas de edição, por depender do prime editing. É uma avaliação do próprio grupo de pesquisa, não uma conclusão independente e definitiva.</li></ul>
 
-    `,
+`,
     category: {
       id: 'ciencia',
       slug: 'ciencia',
@@ -8836,7 +8827,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['edição genética', 'CRISPR', 'prime assembly', 'biotecnologia', 'terapia gênica'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-27',
-    readingTime: 7,
+    readingTime: 6,
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg/960px-CRISPR-Cas9_Editing_of_the_Genome_%2826453307604%29.jpg',
     imageAlt: 'Ilustração do mecanismo de edição genética CRISPR-Cas9',
     imageLicense: 'CC BY 2.0',
@@ -8852,6 +8843,11 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         title: 'Genetic Engineering & Biotechnology News - Prime Assembly Expands Genome Editing with Precise, Large-Scale DNA Integration',
         url: 'https://www.genengnews.com/topics/genome-editing/prime-assembly-expands-genome-editing-with-precise-large-scale-dna-integration/',
         type: 'journal'
+      },
+      {
+        title: 'Anzalone et al. (2019) - Search-and-replace genome editing without double-strand breaks or donor DNA (Nature)',
+        url: 'https://www.nature.com/articles/s41586-019-1711-4',
+        type: 'scientific'
       }
     ]
   },
@@ -10552,5 +10548,522 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       },
     ],
   },
-];
+{
+    id: '193',
+    slug: 'perseverance-possivel-vida-marte-biossignatura',
+    title: 'Possível Vida em Marte: O Que o Perseverance Encontrou e o Que Isso Realmente Significa',
+    excerpt: 'O rover encontrou minerais e matéria orgânica que podem ter origem biológica em Marte. Isso não é prova de vida, e a diferença entre as duas coisas é o ponto central desta explicação.',
+    content: `<h2>O que aconteceu, em uma frase</h2>
+      <p>Em 10 de setembro de 2025, a NASA anunciou que uma amostra de rocha coletada pelo rover Perseverance na cratera Jezero contém o que a agência chama de <strong>potencial biossignatura</strong>: substâncias e estruturas que podem ter origem biológica, mas que ainda não permitem concluir se houve ou não vida ali. A análise foi publicada na revista <em>Nature</em>, com Joel Hurowitz, da Universidade de Stony Brook, como autor principal.</p>
+      <p>É o tipo de resultado que costuma ser resumido em uma manchete curta demais. Este texto existe para fechar essa distância: o que foi observado, por que chama atenção, o que mais poderia ter produzido o mesmo resultado e o que ainda falta para responder à pergunta que todo mundo quer responder.</p>
+      <p><strong>Antes de qualquer coisa, uma definição.</strong> Segundo a NASA, potencial biossignatura é "uma substância ou estrutura que pode ter origem biológica, mas que exige mais dados ou estudo adicional antes de se chegar a uma conclusão sobre a ausência ou presença de vida". Repare no peso da palavra <em>potencial</em>. Ela não é um detalhe de redação: ela é o conteúdo científico do anúncio.</p>
 
+      <h2>O que o Perseverance encontrou, exatamente</h2>
+      <p>A história começa em 21 de julho de 2024, quando o rover examina uma rocha parcialmente enterrida no leito de um rio seco, dentro da formação chamada <strong>Bright Angel</strong>. A rocha recebeu o apelido de <strong>Cheyava Falls</strong>. O nome é decorativo, como quase todos os apelidos da missão; a ciência está no que os instrumentos fizeram depois.</p>
+      <p>Dois instrumentos entraram em ação. O <strong>PIXL</strong> (Planetary Instrument for X-ray Lithochemistry) produz mapas elementares e minerais da superfície com raios X. O <strong>SHERLOC</strong> (Scanning Habitable Environments with Raman &amp; Luminescence for Organics &amp; Chemicals) usa espectroscopia Raman e fluorescência para procurar moléculas orgânicas. Os dois encontraram manchas escuras e claras, de poucos milímetros, organizadas em fronteiras de reação, os pontos onde reações químicas e físicas ocorreram. A equipe as apelidou de <strong>"leopard spots"</strong>.</p>
+      <p>Essas manchas carregam a assinatura de dois minerais ricos em ferro: <strong>vivianita</strong> (fosfato de ferro hidratado), visível em roxo e rosa no mapa mineral, e <strong>greigita</strong> (sulfeto de ferro), visível em amarelo e verde. A vivianita aparece nas manchas pretas menores, chamadas de "sementes de papoula", e nas bordas escuras das manchas maiores. A greigita aparece no interior delas.</p>
+      <p>Em imagens de maior resolução, os instrumentos revelaram um padrão mineral bem definido, que Hurowitz descreveu como uma possível "impressão digital" de atividade microbial. O Perseverance perfurou a rocha e coletou um cilindro chamado <strong>Sapphire Canyon</strong>, o 27º núcleo de rocha coletado desde a chegada em Jezero, em fevereiro de 2021. As amostras ficam seladas em tubos depositados sobre a superfície marciana, esperando uma missão que as traga de volta.</p>
+<h2>O que é uma biossignatura, e o que não é</h2>
+      <p>É aqui que boa parte da cobertura de imprensa escorrega, e vale a pena ser preciso. Estes termos descrevem níveis distintos de certeza, não sinônimos:</p>
+      <ul>
+        <li><strong>Matéria orgânica:</strong> carbono ligado a hidrogênio, com ou sem outros elementos. Existe na Terra vinda de meteoros e de reações químicas sem vida envolvida. Não é evidência de vida.</li>
+        <li><strong>Molécula "interessante":</strong> uma molécula que pode ou não ter origem biológica. O termo é honesto porque não afirma nada, mas também não informa nada.</li>
+        <li><strong>Alteração mineral:</strong> um mineral que mudou de forma por reação com o ambiente. É comum e, sozinho, não diz nada sobre organismos.</li>
+        <li><strong>Potencial biossignatura:</strong> uma associação de substâncias e alterações com características que, na Terra, aparecem tipicamente ligadas à atividade biológica, mas que ainda podem ter explicação não biológica.</li>
+        <li><strong>Evidência de vida:</strong> aquilo que só se pode afirmar quando as explicações alternativas foram eliminadas, ou quando múltiplas linhas independentes convergem na mesma direção.</li>
+      </ul>
+      <p>Hurowitz descreveu a diferença com clareza: "só porque vimos todas essas assinaturas químicas convincentes nos dados não significava que tínhamos uma potencial biossignatura. Precisávamos analisar o que aqueles dados poderiam significar". A distância entre as duas frases é a distância entre ler um dado e fazer uma interpretação científica.</p>
+
+      <h2>Por que a evidência chamou atenção</h2>
+      <p>O mecanismo científico que torna o achado interessante é específico, e vale explicar em vez de usar adjetivos.</p>
+      <p>Segundo a NASA, as rochas sedimentares da formação Bright Angel são compostas por <strong>argila e silte</strong>, materiais que na Terra preservam bem restos de vida microbiana passada porque as partículas finas selam a matéria orgânica contra oxidação e lixiviação. Essas rochas também são ricas em <strong>carbono orgânico, enxofre, ferro oxidado e fósforo</strong>.</p>
+      <p>É essa combinação que interessa, não os minerais isoladamente. Micro-organismos que vivem em sedimentos sem oxigênio fazem exatamente isso: usam a matéria orgânica como fonte de energia, quebram moléculas reduzindo o ferro ou o enxofre, e o resultado são minerais de ferro reduzido, como <strong>vivianita</strong> e <strong>greigita</strong>, depositados exatamente onde a reação aconteceu. Um micróbio produzindo energia para crescer deixa, em escala lenta, uma marca química. Na Terra, achados de vivianita em sedimentos, em turfeiras e ao redor de matéria orgânica em decomposição são comuns, e certas formas de vida microbiana terrestre também produzem greigita.</p>
+      <p>Há um segundo motivo, mais amplo, para o interesse. O achado envolve algumas das rochas sedimentares mais jovens que a missão já estudou. A hipótese de trabalho predominante antes era que sinais de vida passada ficariam confinados a formações mais antigas. Se as rochas mais jovens também puderem preservá-los, isso amplia a janela na qual Marte teria sido habitável, por mais tempo ou mais tarde do que se pensava.</p>
+<h2>Mas isso poderia ter acontecido sem vida?</h2>
+      <p>Sim. E esta é a parte que separa uma explicação útil de uma manchete. A NASA é explícita: os mesmos minerais podem ser gerados abioticamente, ou seja, sem a presença de vida. O comunicado lista três condições conhecidas para produzir esses minerais sem biologia: temperaturas altas e sustentadas, condições ácidas e a ação catalítica de compostos orgânicos.</p>
+      <p>O que a análise de 2025 mudou não foi eliminar essa possibilidade, mas reduzir o peso dela. As rochas de Bright Angel não mostram evidência de terem passado por temperaturas altas ou por condições ácidas. Resta um caminho em aberto: se os compostos orgânicos presentes seriam capazes de catalisar a reação em temperaturas baixas. Não se sabe, e é exatamente aí que a questão continua aberta.</p>
+      <p>A literatura também continua produzindo explicações não biológicas para formações de vivianite. Um estudo publicado em 2026 na revista <em>Water Research</em> mostra que a fotorreatividade da matéria orgânica dissolvida é capaz, em laboratório, de gerar vivianite abiótica em interfaces entre sedimento e água. Isso não se aplica automaticamente a Jezero, cujas condições são muito diferentes. Mas ilustra o ponto central desta seção: a presença de vivianita junto com carbono não é, sozinha, um critério que identifique vida. Isso reflete o método. Katie Stack Morgan, cientista do projeto Perseverance no JPL, foi explícita: "embora as explicações abióticas para o que vemos em Bright Angel sejam menos prováveis dados os achados do artigo, não podemos descartá-las".</p>
+
+      <h2>Como seria possível provar ou fortalecer a hipótese?</h2>
+      <p>Existem caminhos, e nenhum deles é garantido.</p>
+      <p><strong>Análise laboratorial na Terra.</strong> A amostra Sapphire Canyon está selada. Em laboratório, com instrumentos muito mais sensíveis que os do rover, seria possível caracterizar a distribuição espacial das moléculas orgânicas, quantificar as relações entre isótopos de carbono e de enxofre e testar se alguma assinatura isotópica é compatível com metabolismo microbiológico. Isótopos são especialmente úteis porque autenticam a origem: não descrevem apenas o que há na amostra, mas a história química que ela acumulou.</p>
+      <p><strong>Mais linhas independentes de evidência.</strong> Se uma segunda observação independente, feita em outra rocha ou por outro instrumento, corroborar a assinatura, a confiança sobe. Uma assinatura isolada quase nunca decide; um conjunto delas é muito mais difícil de refutar. Novas medições no próprio local ajudam a testar hipóteses específicas, mas não substituem um laboratório terrestre, que pode usar instrumentos que um rover não transporta.</p>
+      <p>E há um obstáculo relevante. As amostras foram coletadas para serem trazidas à Terra como parte do programa conjunto de retorno de amostras da NASA e da ESA. Esse programa passou por cortes orçamentários e não foi contemplado no caminho previsto no ciclo de appropriations dos Estados Unidos de 2026. A página oficial da missão ainda descreve o conjunto como um plano em avaliação, enquanto a decisão orçamentária mais recente apontou para o encerramento do programa. Qualquer promessa de "em breve teremos a resposta em laboratório" é, hoje, uma afirmação sem base.</p>
+<h2>O que o Perseverance consegue fazer, e o que não consegue</h2>
+      <p>Vale entender por que um rover não resolve a questão sozinho.</p>
+      <ul>
+        <li><strong>Detecção não é identificação.</strong> Os instrumentos do rover confirmam a presença de uma substância e produzem mapas da sua distribuição. Eles não determinam a estrutura molecular completa de todas as espécies presentes, nem suas abundâncias com a precisão de um laboratório.</li>
+        <li><strong>Amostragem é estatística.</strong> O rover analisou dezenas de alvos em uma região de poucos quilômetros. Uma biossignatura pode existir em um metro quadrado e não existir nos mil metros seguintes.</li>
+        <li><strong>Há limitações técnicas reais e documentadas.</strong> No artigo de 2025, os autores relatam que uma falha no mecanismo de foco do SHERLOC obrigou as medições em Bright Angel a serem posicionadas apenas pelo braço robótico, com desvio de cerca de 1,8 milímetro em Cheyava Falls. Os autores afirmam que isso não compromete a interpretação: os testes de deslocamento de foco reduzem um possível pico Raman ao nível de ruído do instrumento, e não a um sinal espúrio.</li>
+        <li><strong>O contexto geoquímico pesa tanto quanto o dado.</strong> Para distinguir uma biossignatura de um falso positivo, é preciso entender a história térmica e química do sedimento, não apenas a composição pontual de um afloramento.</li>
+      </ul>
+
+      <h2>Por que Jezero importa</h2>
+      <p>Porque a escolha da cratera não foi arbitrária. A NASA descreve Jezero como um lugar cuja história registra a natureza intermitente do passado úmido de Marte: há mais de 3,5 bilhões de anos, canais fluviais transbordaram a parede da cratera e formaram um lago. Há evidência de que a água carregou argilas da região para dentro dele. Micróbios poderiam ter vivido ali durante um ou mais desses períodos úmidos, e seus restos, se existiram, podem estar preservados nos sedimentos do fundo ou da margem.</p>
+      <p>Esse é o raciocínio central da astrobiologia: procurar vida passada onde as condições eram possíveis e onde a preservação é provável. Jezero reúne as duas coisas. <a href="/espaco/exoplanetas-a-busca-por-mundos-habitaveis">É a mesma lógica aplicada a exoplanetas</a>, onde se procuram sinais de atividade biológica na atmosfera de mundos que orbitam estrelas ativas. Muda o instrumento e a distância, não o princípio.</p>
+
+      <h2>O que seria uma evidência realmente forte de vida?</h2>
+      <p>Ciência não decide sobre vida extraterrestre com uma única medição. A comunidade usa ferramentas explícitas para tornar a confiança auditável. A NASA cita duas: os <strong>Standards of Evidence</strong> e a escala <strong>CoLD</strong> (Confidence of Life Detection), esta com sete marcos que descrevem a progressão de confiança de que um conjunto de observações constitui evidência de vida. O objetivo é evitar que o campo confie em uma única assinatura, justamente o erro que as manchetes preferem.</p>
+      <p>Vale olhar como isso funciona na prática. Em junho de 2026, um artigo de comentário em <em>Nature Astronomy</em> registrou uma pesquisa com a comunidade de astrobiologia e comparou a confiança declarada em dois casos de 2025: o exoplaneta K2-18 b e a rocha Cheyava Falls. O resultado publicado é que os astrobiólogos se mostram notavelmente mais persuadidos pela evidência marciana do que pela do exoplaneta. Isso não encerra a discussão: mostra como o campo se posiciona quando é convidado a avaliar em vez de anunciar, e que o caso de Jezero é considerado o mais robusto dos dois.</p>
+<h2>O que sabemos, o que suspeitamos e o que ainda não sabemos</h2>
+      <h3>Confirmado</h3>
+      <ul>
+        <li>Em 21 de julho de 2024, o Perseverance analisou a rocha Cheyava Falls, na formação Bright Angel, no leito de um antigo rio.</li>
+        <li>Os instrumentos PIXL e SHERLOC detectaram manchas, chamadas de "leopard spots", com assinatura de vivianita e greigita.</li>
+        <li>As rochas sedimentares de Bright Angel são compostas por argila e silte e contêm carbono orgânico, enxofre, ferro oxidado e fósforo.</li>
+        <li>Uma amostra foi coletada e selada: o núcleo Sapphire Canyon.</li>
+        <li>A NASA e os autores do artigo publicado na <em>Nature</em> em 10 de setembro de 2025 classificam o conjunto como potencial biossignatura, não como vida.</li>
+      </ul>
+      <h3>Interpretação e hipótese</h3>
+      <ul>
+        <li>A associação de vivianita e greigita com matéria orgânica em sedimentos de argila é compatível com atividade metabólica microbiana pasada, do tipo que se observa em ambientes terrestres sem oxigênio.</li>
+        <li>As rochas de Bright Angel não apresentam evidência das condições que facilitariam as explicações abióticas mais comuns, temperaturas altas e acidez, o que torna essas explicações menos prováveis sem eliminá-las.</li>
+        <li>Se as manchas forem de origem biológica, a janela de habitabilidade de Marte seria maior do que se supunha, incluindo períodos mais recentes.</li>
+      </ul>
+      <h3>Ainda não sabemos</h3>
+      <ul>
+        <li>Se as manchas foram formadas por micróbios ou por processos geoquímicos sem vida envolvida.</li>
+        <li>Se os compostos orgânicos presentes seriam capazes de catalisar a reação em temperaturas baixas, como exige a explicação não biológica que resta em aberto.</li>
+        <li>Qual é a distribuição, a concentração e a estrutura completa das moléculas orgânicas presentes na amostra.</li>
+        <li>Se há sinais de vida também nas rochas mais antigas de Jezero, e se eles apenas são mais difíceis de detectar.</li>
+        <li>Quando, ou se, as amostras seladas chegarão a um laboratório terrestre.</li>
+      </ul>
+
+      <h2>Então encontramos vida em Marte?</h2>
+      <p>Não. Não é o que a evidência sustenta, e a diferença não é retórica.</p>
+      <p>O que o Perseverance fez foi encontrar, em uma amostra convenientemente lacrada, uma combinação de substâncias cuja formação na Terra costuma, mas não necessariamente, envolver metabolismo microbiano. É um resultado real, publicado em uma revista revisada por pares, e é o mais perto que a humanidade já chegou da possibilidade de encontrar vida em outro lugar do Sistema Solar. Não é uma detecção.</p>
+      <p>A distância entre os dois estados é preenchida por trabalho que ainda não terminou: eliminar as explicações não biológicas remanescentes, obter medidas mais precisas e, no passo decisivo, analisar a amostra com instrumentos que um rover não pode carregar. Até que isso aconteça, a formulação honesta é a que a NASA usou: potencial biossignatura. Nem menos, nem mais.</p>
+category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['vida fora da Terra', 'Perseverance', 'Marte', 'biossignatura', 'Jezero', 'astrobiologia', 'busca por vida'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-04',
+    readingTime: 11,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1-PIA26368-Perseverance_Finds_a_Rock_with_Leopard_Spots.png?width=960',
+    imageAlt: 'Close da rocha Cheyava Falls fotografada pelo rover Perseverance em Marte, com manchas escuras e claras distribuídas na superfície',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA/JPL-Caltech/MSSS',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:1-PIA26368-Perseverance_Finds_a_Rock_with_Leopard_Spots.png',
+    sources: [
+      {
+        title: 'NASA Says Mars Rover Discovered Potential Biosignature Last Year (comunicado 25-061)',
+        url: 'https://www.nasa.gov/news-release/nasa-says-mars-rover-discovered-potential-biosignature-last-year/',
+        publisher: 'NASA',
+        type: 'official',
+      },
+      {
+        title: 'Hurowitz et al. (2025). Redox-driven mineral and organic associations in Jezero Crater, Mars. Nature 645, 332–340',
+        url: 'https://www.nature.com/articles/s41586-025-09413-0',
+        publisher: 'Nature',
+        type: 'journal',
+      },
+      {
+        title: "Perseverance's PIXL Finds Vivianite, Greigite in 'Cheyava Falls' Sample (PIA26640)",
+        url: 'https://science.nasa.gov/photojournal/perseverances-pixl-finds-vivianite-greigite-in-cheyava-falls-sample/',
+        publisher: 'NASA/JPL-Caltech',
+        type: 'official',
+      },
+      {
+        title: 'Mars Sample Return — página oficial da missão (contexto de Jezero e situação do programa)',
+        url: 'https://science.nasa.gov/mission/mars-sample-return/',
+        publisher: 'NASA',
+        type: 'official',
+      },
+      {
+        title: 'Vickers et al. (2026). Comparing astrobiologists’ confidence in extraterrestrial life claims for K2-18 b and Cheyava Falls. Nature Astronomy 10, 774–776',
+        url: 'https://www.nature.com/articles/s41550-026-02876-9',
+        publisher: 'Nature Astronomy',
+        type: 'journal',
+      },
+      {
+        title: 'Yang et al. (2026). Photoreactivity of dissolved organic matter drives abiotic vivianite formation at sediment–water interfaces. Water Research',
+        url: 'https://doi.org/10.1016/j.watres.2026.126472',
+        publisher: 'Water Research',
+        type: 'journal',
+      },
+      {
+        title: 'A biosignature on Mars? Unpacking Perseverance’s Cheyava Falls find (entrevista com Joel Hurowitz)',
+        url: 'https://www.planetary.org/articles/a-biosignature-on-mars-unpacking-perseverances-cheyava-falls-find',
+        publisher: 'The Planetary Society',
+        type: 'publication',
+      },
+    ],
+  }`,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['vida fora da Terra', 'Perseverance', 'Marte', 'biossignatura', 'Jezero', 'astrobiologia', 'busca por vida'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-04',
+    readingTime: 11,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/1-PIA26368-Perseverance_Finds_a_Rock_with_Leopard_Spots.png?width=960',
+    imageAlt: 'Close da rocha Cheyava Falls fotografada pelo rover Perseverance em Marte, com manchas escuras e claras distribuídas na superfície',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA/JPL-Caltech/MSSS',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:1-PIA26368-Perseverance_Finds_a_Rock_with_Leopard_Spots.png',
+    sources: [
+      {
+        title: 'NASA Says Mars Rover Discovered Potential Biosignature Last Year (comunicado 25-061)',
+        url: 'https://www.nasa.gov/news-release/nasa-says-mars-rover-discovered-potential-biosignature-last-year/',
+        publisher: 'NASA',
+        type: 'official',
+      },
+      {
+        title: 'Hurowitz et al. (2025). Redox-driven mineral and organic associations in Jezero Crater, Mars. Nature 645, 332–340',
+        url: 'https://www.nature.com/articles/s41586-025-09413-0',
+        publisher: 'Nature',
+        type: 'journal',
+      },
+      {
+        title: "Perseverance's PIXL Finds Vivianite, Greigite in 'Cheyava Falls' Sample (PIA26640)",
+        url: 'https://science.nasa.gov/photojournal/perseverances-pixl-finds-vivianite-greigite-in-cheyava-falls-sample/',
+        publisher: 'NASA/JPL-Caltech',
+        type: 'official',
+      },
+      {
+        title: 'Mars Sample Return — página oficial da missão (contexto de Jezero e situação do programa)',
+        url: 'https://science.nasa.gov/mission/mars-sample-return/',
+        publisher: 'NASA',
+        type: 'official',
+      },
+      {
+        title: 'Vickers et al. (2026). Comparing astrobiologists’ confidence in extraterrestrial life claims for K2-18 b and Cheyava Falls. Nature Astronomy 10, 774–776',
+        url: 'https://www.nature.com/articles/s41550-026-02876-9',
+        publisher: 'Nature Astronomy',
+        type: 'journal',
+      },
+      {
+        title: 'Yang et al. (2026). Photoreactivity of dissolved organic matter drives abiotic vivianite formation at sediment–water interfaces. Water Research',
+        url: 'https://doi.org/10.1016/j.watres.2026.126472',
+        publisher: 'Water Research',
+        type: 'journal',
+      },
+      {
+        title: 'A biosignature on Mars? Unpacking Perseverance’s Cheyava Falls find (entrevista com Joel Hurowitz)',
+        url: 'https://www.planetary.org/articles/a-biosignature-on-mars-unpacking-perseverances-cheyava-falls-find',
+        publisher: 'The Planetary Society',
+        type: 'publication',
+      },
+    ],
+  },
+  {
+    id: '194',
+    slug: 'gta-vi-data-plataformas-o-que-a-rockstar-confirmou',
+    title: 'GTA VI: Data, Plataformas e o Que a Rockstar Confirmou de Fato',
+    excerpt: 'O lançamento de GTA VI está confirmado para 19 de novembro de 2026, apenas em console. O que a Rockstar realmente disse, o que ficou de fora e onde estão os rumors.',
+    content: `<h2>O que está confirmado, em uma frase</h2>
+      <p>O <strong>Grand Theft Auto VI</strong> chega em <strong>19 de novembro de 2026</strong>, para <strong>PlayStation 5</strong> e <strong>Xbox Series X|S</strong>. É isso que a página oficial do jogo e a Rockstar Games afirmam. Não há versão para PC anunciada, e não há um segundo lançamento confirmado depois do dia 19 de novembro.</p>
+      <p>Esse é o ponto de partida correto para qualquer discussão sobre o jogo, porque quase tudo o que circula nas redes sobre GTA VI não está nesse nível de certeza. Este artigo separa o que a Rockstar disse do que foi estimativa de terceiros e do que é apenas palpite.</p>
+
+      <h2>A data e onde jogar</h2>
+      <p>A página oficial do GTA VI lista a data de 19 de novembro de 2026 e apenas duas plataformas: PlayStation 5 e Xbox Series X|S. A mesma página marca o jogo como "joga melhor no PlayStation 5", uma expressão que não é só marketing: indica que a versão de PS5 foi desenhada para aproveitar recursos específicos do console.</p>
+      <p>A Sony confirmou os mesmos números em seu blog oficial, publicado em 24 de junho de 2026, e descreveu os recursos que o jogo utiliza: o retorno háptico do controle DualSense, os gatilhos adaptativos, o alto-falante integrado no controle, o áudio posicional do Tempest 3D AudioTech e o SSD de altíssima velocidade, que permite tempos de carregamento quase instantâneos no mundo aberto de Leonida.</p>
+      <p>A Take-Two Interactive, controladora da Rockstar, reafirmou o lançamento no comunicado de resultados do primeiro trimestre fiscal de 2027, publicado em 7 de agosto de 2026. O CEO Strauss Zelnick declarou que o trimestre refletia "a expectativa em torno do lançamento de 19 de novembro do Grand Theft Auto VI" e reiterou a projeção de reservas líquidas de 8,0 a 8,2 bilhões de dólares para o ano fiscal de 2027. É a aposta financeira mais concreta que a empresa faz sobre o desempenho do jogo.</p>
+<h2>Por que não há PC, e o que a Take-Two já disse</h2>
+      <p>A ausência de PC na lista oficial não é um acidente de comunicação, e o presidente da Take-Two já foi questionado diretamente sobre isso. Em entrevista à IGN, Strauss Zelnick respondeu que a falta de anúncio não é algo "fixo em pedra", porque "a única coisa que acontece depois da falta de anúncio é um anúncio". A resposta reconhece o padrão histórico da Rockstar: lançar primeiro em console e, com o tempo, levar o jogo para outras plataformas.</p>
+      <p>Foi o que aconteceu com títulos anteriores da franquia, que chegaram ao PC anos depois do lançamento em console. A consequência prática é direta: o leitor não deve tratar "não tem PC" como "nunca vai ter PC", nem a ausência de anúncio como promessa de data. Não existe data oficial para PC, e a estimativa de "algum momento em 2027 ou depois" que circula em fóruns e vídeos é especulação, não informação.</p>
+
+      <h2>Edições e o que vem com a pré-venda</h2>
+      <p>A página oficial descreve uma <strong>Ultimate Edition</strong> com uma coleção exclusiva de itens distribuídos ao longo da história de Jason e Lucia. O blog da PlayStation acrescenta que a edição inclui veículos, armas, roupas e ações premium. Quem comprar qualquer edição na PlayStation Store até 20 de novembro recebe o <strong>Vintage Vice City Pack</strong>, com itens inspirados no passado neon de Vice City, e um mês grátis de <strong>GTA+</strong>. As pré-vendas abriram na PlayStation Store em 25 de junho, à meia-noite no horário local.</p>
+
+      <h2>A história, o lugar e os protagonistas</h2>
+      <p>A sinopse oficial descreve Jason e Lucia, dois personagens que sempre souberam que as cartas estavam embaralhadas contra eles. Quando um golpe fácil dá errado, encontram-se do lado mais sombrio do lugar mais ensolarado da América, no meio de uma conspiração criminosa que se estende pelo estado de Leonida. A página descreve o cenário como a maior e mais expansiva evolução da série, e identifica Jason Duval e Lucia Caminos como os dois protagonistas.</p>
+      <p>O álbum do jogo também foi anunciado: <strong>Grand Theft Auto VI: The Album</strong>, com 34 faixas originais de artistas de vários gêneros.</p>
+
+      <h2>Os dois adiamentos anteriores, e por que isso importa</h2>
+      <p>Novembro é o terceiro cronograma. O jogo havia sido anunciado para o outono de 2025, foi adiado para maio de 2026 e depois para novembro de 2026. Nos dois casos, Rockstar e Take-Two citaram a necessidade de mais polimento. Esse histórico define o padrão de evidência: quando a empresa diz que precisa de mais tempo, a informação útil é a data que foi abandonada, não a previsão otimista sobre a próxima.</p>
+<h2>O que é rumor, o que é vazamento e o que é fato</h2>
+      <p>Muito do que circulou sobre GTA VI nos últimos anos veio de vazamentos e de rumores de insiders, não de comunicados oficiais. A distinção prática é esta:</p>
+      <ul>
+        <li><strong>Confirmado:</strong> data de 19 de novembro de 2026, plataformas PS5 e Xbox Series X|S, os protagonistas Jason e Lucia, o estado de Leonida, Vice City, as edições e as pré-vendas. Tudo isso está na página oficial da Rockstar ou nos comunicados da PlayStation e da Take-Two.</li>
+        <li><strong>Declaração de uma parte:</strong> "joga melhor no PlayStation 5" é uma afirmação da Sony e da Rockstar sobre o próprio produto, não um fato independente verificado.</li>
+        <li><strong>Vazamento:</strong> qualquer data para PC, tamanho do mapa, lista de veículos, duração do jogo ou detalhes de multiplayer que apareça antes do lançamento vem de fonte não oficial e pode estar errado.</li>
+        <li><strong>Especulação:</strong> previsões sobre vendas, desempenho ou conteúdo de DLC são interpretações, não dados.</li>
+      </ul>
+      <p>A distinção importa porque boa parte do conteúdo sobre GTA VI disponível hoje é do terceiro e do quarto tipo. Um artigo que trata rumor como fato não acrescenta nada além do que a manchete já disse.</p>
+
+      <h2>Resumindo o que sabemos hoje</h2>
+      <p>Em 19 de novembro de 2026, GTA VI chega a PS5 e Xbox Series X|S, com pré-vendas abertas, uma Ultimate Edition, um pacote de pré-venda e um mês de GTA+ para quem comprar na PlayStation Store. A página oficial e os comunicados das três empresas não dizem mais do que isso sobre o lançamento. Qualquer coisa além disso, neste momento, é rumor ou vazamento, e vale separar os dois com o mesmo cuidado que separa fato de hipótese.</p>
+    `,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['GTA VI', 'GTA', 'Rockstar', 'Take-Two', 'Vice City', 'PlayStation 5', 'Xbox Series X', 'lançamento'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-04',
+    readingTime: 9,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Theft%20Auto%20VI%20trailer%201%20date.png?width=960',
+    imageAlt: 'Arte oficial de Grand Theft Auto VI com a data de lançamento do trailer 1',
+    imageLicense: 'Public domain',
+    imageArtist: 'Rockstar Games',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Grand_Theft_Auto_VI_trailer_1_date.png',
+    sources: [
+      {
+        title: 'Rockstar Games — Grand Theft Auto VI (página oficial do jogo)',
+        url: 'https://www.rockstargames.com/VI',
+        publisher: 'Rockstar Games',
+        type: 'company',
+      },
+      {
+        title: 'Grand Theft Auto VI plays best on PS5 November 19 (PlayStation.Blog, 24/06/2026)',
+        url: 'https://blog.playstation.com/2026/06/24/grand-theft-auto-vi-plays-best-on-ps5-november-19/',
+        publisher: 'Sony Interactive Entertainment',
+        type: 'company',
+      },
+      {
+        title: 'Take-Two Interactive Reports Results for Fiscal First Quarter 2027 (comunicado à SEC, 07/08/2026)',
+        url: 'https://www.sec.gov/Archives/edgar/data/946581/000162828026054580/ttwo1q27earningsrelease.htm',
+        publisher: 'Take-Two Interactive / SEC EDGAR',
+        type: 'official',
+      },
+      {
+        title: 'Rockstar Updates Main GTA 6 Website With New Release Date and — Sorry PC Gamers — It’s Still Down for PS5 and Xbox Series X and S Only (IGN, 07/11/2025)',
+        url: 'https://me.ign.com/en/grand-theft-auto-vi/237789/news/rockstar-updates-main-gta-6-website-with-new-release-date-and-sorry-pc-gamers-its-still-down-for-ps5',
+        publisher: 'IGN',
+        type: 'publication',
+      },
+    ],
+  },
+  {
+    id: '195',
+    slug: 'gta-vi-vs-gta-v-o-que-realmente-pode-mudar',
+    title: 'GTA VI vs GTA V: O Que Realmente Pode Mudar, e o Que Ainda É Especulação',
+    excerpt: 'A diferença real entre os dois não está no tamanho do mapa, mas em 13 anos de consoles, duas transições de geração e um modelo de negócio que mudou. O resto ainda é rumor.',
+    content: `<h2>A pergunta que este artigo responde</h2>
+      <p>Comparar GTA VI com GTA V é fácil de fazer e difícil de fazer bem. A dificuldade está em separar três coisas que costumam vir misturadas: o que mudou de fato nos treze anos entre os dois lançamentos, o que a Take-Two confirmou por escrito sobre o novo jogo, e o que a internet deduz a partir de vazamentos e de hábitos anteriores da empresa.</p>
+      <p>Este artigo trabalha nessa separação. A tese é simples: a maior mudança entre GTA V e GTA VI não é gráfica nem é de tamanho de mapa. É estrutural, e vem de treze anos em que a série foi produzida e distribuída enquanto consoles inteiros nasceram e morreram.</p>
+
+      <h2>O ponto de partida: o que os números oficiais mostram</h2>
+      <p>Antes de comparar, vale fixar a escala. No relatório anual de 22 de maio de 2026, a Take-Two afirma que a franquia Grand Theft Auto já vendeu <strong>mais de 465 milhões de unidades</strong> no mundo. O texto é específico sobre a sua última instalação: GTA V, lançado em 2013, vendeu <strong>mais de 225 milhões de unidades</strong>, e esse número inclui o acesso ao GTA Online.</p>
+      <p>Dois números importam aqui. O primeiro é que a Take-Two usa "sell-in" (unidades fornecidas a distribuidores e varejistas), não vendas ao consumidor final. É a métrica padrão da empresa, mas é importante saber o que ela significa antes de citá-la. O segundo é que o mesmo documento que declara 225 milhões de GTA V é o que afirma que GTA VI está planejado para 19 de novembro de 2026, no ano fiscal de 2027. É a mesma fonte, e por isso os dois números estão no mesmo nível de confiabilidade.</p>
+
+      <h2>A diferença de geração: 13 anos não é um número, é uma arquitetura</h2>
+      <p>Esta é a mudança mais concreta e menos comentada. GTA V foi construído para a sétima geração de consoles. GTA VI chega à oitava. Em treze anos, a quantidade de memória e a largura de banda de banda disponível passaram por mudanças que afetam diretamente o que é possível em um mundo aberto.</p>
+      <p>Esse efeito não é retórico. A Sony resume em uma frase concreta o que significa na prática, ao descrever o que o jogo utiliza: o SSD de altíssima velocidade do PS5, que permite tempos de carregamento quase instantâneos no mundo de Leonida. Carregamento rápido não é conveniência. Em um mundo aberto contínuo, é o que permite que a distância percorrida a pé ou de carro seja vivível, porque sem streaming de altura o jogador permanece no mesmo lugar até que a próxima área seja carregada.</p>
+      <p>É a mesma razão pela qual <a href="/games/geracao-procedural-mundo-aberto-games">geração procedural e mundos abertos dependem de armazenamento</a>: a arquitetura do mundo é inseparável da capacidade de carregá-la.</p>
+      <p>A leitura honesta é esta: a diferença entre um jogo de mundo aberto de 2013 e um de 2026 não está em polígonos, está em quanto do mundo pode existir sem ser lido da mídia a cada movimento.</p>
+
+      <h2>As plataformas: uma assimetria que vale registrar</h2>
+      <p>GTA V chegou em setembro de 2013 no PS3 e no Xbox 360, plataformas que já estavam no fim da vida quando o jogo saiu. GTA VI chega em novembro de 2026 em PS5 e Xbox Series X|S, plataformas da geração atual, e não em PC.</p>
+      <p>Isso importa menos pelo hardware em si e mais pelo que revela sobre a estratégia. A Sony publica em seu blog oficial que GTA VI "joga melhor no PlayStation 5", descrevendo recursos específicos do console: retorno háptico, gatilhos adaptativos, alto-falante no controle e áudio posicional. A página da Rockstar usa a mesma linguagem.</p>
+      <p>É uma declaração de uma parte interessada, e vale marcar como tal. Rockstar e Sony estão descrevendo o próprio produto, não um fato independente verificado. Ainda assim, o fato observável é real: a página oficial do GTA VI não cita o Xbox como plataforma preferida, e sim o PS5. Essa assimetria é o tipo de detalhe que diferencia um artigo de explicação de uma transcrição de comunicado.</p>
+
+      <h2>O modelo de negócio: o que realmente mudou</h2>
+      <p>Se existe uma mudança que pode ser medida em números sem depender de rumor, é esta. A Take-Two dedica uma seção inteira do relatório anual ao conceito de <strong>"recurrent consumer spending"</strong> — gastos recorrentes do consumidor — gerados por engajamento contínuo: moeda virtual, conteúdo adicional, compras dentro do jogo e publicidade dentro do jogo.</p>
+      <p>No primeiro trimestre fiscal de 2027, encerrado em 30 de junho de 2026, esse tipo de gasto representou <strong>84% das reservas líquidas</strong> da Take-Two, de 1,39 bilhão de dólares. Isso é uma empresa em que a maior parte da receita não vem de vender o jogo uma vez, mas de vender coisas dentro do jogo por anos.</p>
+      <p>Essa é a moldura que permite entender por que a pré-venda de GTA VI oferece um mês grátis de GTA+ e um pacote de itens. Não é apenas promoção. É a porta de entrada para o modelo em que o jogo é o começo de uma relação comercial, e não o fim dela.</p>
+<h2>A estrutura narrativa: de três-marginais para dois protagonistas</h2>
+      <p>GTA V contava a história de três personagens marginais, cada um com um motivo para existir no mundo aberto: Michael, Franklin e Trevor. A sinopse oficial de GTA VI descreve Jason e Lucia, dois protagonistas, e a página usa a expressão "a maior e mais expansiva evolução da série" para o cenário de Leonida.</p>
+      <p>Essa mudança de estrutura é um fato documentado. O que ela significa para o jogo é interpretação. É razoável supor que dois protagonistas em vez de três distribuam o tempo de jogo de forma diferente e reduzam certos tipos de tensão narrativa. É igualmente razoável dizer o contrário. Nenhuma das duas leituras está na página oficial.</p>
+
+      <h2>O que está confirmado, o que é inferência e o que é especulação</h2>
+      <p>Esta é a parte que evita que o leitor confie no tipo errado de informação. A comparação se divide em três níveis de certeza:</p>
+      <ul>
+        <li><strong>Confirmado por documento:</strong> os 465 milhões de unidades da franquia e os 225 milhões de GTA V (relatório anual da Take-Two, 22/05/2026); o gasto recorrente representar 84% das reservas líquidas no trimestre encerrado em 30/06/2026 (comunicado de resultados, 07/08/2026); a data de 19/11/2026 e as plataformas PS5 e Xbox Series X|S (página oficial da Rockstar); a utilização declarada de recursos do PS5 pelo blog da Sony; os dois protagonistas e o estado de Leonida (página oficial).</li>
+        <li><strong>Inferência razoável, não confirmada:</strong> que o ganho de armazenamento e SSD permita um mundo aberto contínuo e maior sem tornar a navegação inviável; que o modelo de gastos recorrentes torne a oferta da pré-venda parte da estratégia de retenção. Isso decorre de fatos conhecidos, mas nenhuma empresa declarou.</li>
+        <li><strong>Especulação, sem base oficial:</strong> tamanho do mapa, quantidade de distritos, lista de veículos, duração da campanha, existência de multiplayer no lançamento, tamanho total do projeto e qualquer data para PC. Nada disso aparece em fonte oficial verificável.</li>
+      </ul>
+      <p>A distinção é mais importante do que parece. A maior parte das comparações "GTA VI vs GTA V" disponíveis hoje está inteiramente na terceira categoria, e apresenta estimativa como se fosse comparação. Uma comparação honesta começa pelo que os documentos mostram e termina com o que ainda não se sabe.</p>
+
+      <h2>O que realmente mudou, em resumo</h2>
+      <p>Se a pergunta é o que muda de forma mensurável entre GTA V e GTA VI, a resposta não é "o mapa ficou maior". É esta: treze anos separam um jogo construído para a sétima geração de consoles de um jogo lançado na oitava, e uma empresa cuja receita passou a depender majoritariamente de gastos dentro do jogo. O resto — mapa, duração, veículos, multiplayer — permanece, até o lançamento, no terreno da especulação.</p>
+      <p>Esse enquadramento não diminuiu o interesse pelo jogo. Apenas separa o que é fato do que é expectativa, e isso serve ao leitor melhor do que mais uma previsão sobre o tamanho do mapa.</p>
+`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['GTA VI', 'GTA V', 'Rockstar', 'Take-Two', 'mundo aberto', 'análise', 'indústria de games'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-04',
+    readingTime: 9,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Theft%20Auto%20logo%20series%20(with%20gradient).png?width=960',
+    imageAlt: 'Logotipo da série Grand Theft Auto',
+    imageLicense: 'Public domain',
+    imageArtist: 'Rockstar Games',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Grand_Theft_Auto_logo_series_(with_gradient).png',
+    sources: [
+      {
+        title: 'Take-Two Interactive Software, Inc. — Formulário 10-K do exercício encerrado em 31/03/2026 (SEC EDGAR, 22/05/2026)',
+        url: 'https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/ttwo-20260331.htm',
+        publisher: 'Take-Two Interactive / SEC EDGAR',
+        type: 'official',
+      },
+      {
+        title: 'Take-Two Interactive Software, Inc. Reports Results for Fiscal First Quarter 2027 (comunicado, 07/08/2026)',
+        url: 'https://www.sec.gov/Archives/edgar/data/946581/000162828026054580/ttwo1q27earningsrelease.htm',
+        publisher: 'Take-Two Interactive / SEC EDGAR',
+        type: 'official',
+      },
+      {
+        title: 'Rockstar Games — Grand Theft Auto VI (página oficial do jogo)',
+        url: 'https://www.rockstargames.com/VI',
+        publisher: 'Rockstar Games',
+        type: 'company',
+      },
+      {
+        title: 'Grand Theft Auto VI plays best on PS5 November 19 (PlayStation.Blog, 24/06/2026)',
+        url: 'https://blog.playstation.com/2026/06/24/grand-theft-auto-vi-plays-best-on-ps5-november-19/',
+        publisher: 'Sony Interactive Entertainment',
+        type: 'company',
+      },
+    ],
+  },
+  {
+    id: '196',
+    slug: 'por-que-taiwan-importa-tanto-para-os-chips',
+    title: 'Por que Taiwan Importa Tanto para os Chips: A Fábrica que o Mundo Não Consegue Substituir',
+    excerpt: 'Uma única empresa responde por mais de sete em cada dez dólares de fabricação de chips contratados no mundo. Entender o que está em jogo nessa concentração.',
+    content: `<h2>O número que resume o problema</h2>
+      <p>No segundo trimestre de 2026, a TSMC — Taiwan Semiconductor Manufacturing Company — teve receita de fundição próxima de <strong>40,2 bilhões de dólares</strong> e participação de <strong>72,5% do mercado mundial</strong> de fabricação de chips por contrato, segundo a TrendForce. É a maior fatia já registrada pela empresa.</p>
+      <p>A segunda colocada, a Samsung Foundry, ficou com 5,9%. A terceira, a SMIC, com 5,4%. Ou seja: a TSMC sozinha fabricou mais chips contratados do que as outras nove empresas juntas, em valor de receita.</p>
+      <p>Esse é o ponto de partida. A pergunta que interessa não é se Taiwan é importante, mas <em>por que é difícil substituir</em>. A resposta está em como a fabricação de semicondutores avançados é feita, e é mais técnica do que geopolítica.</p>
+
+      <h2>O que "foundry" significa, e por que é diferente de projetar um chip</h2>
+      <p>Existe uma separação estrutural na indústria que precisa ficar clara antes de qualquer discussão sobre dependência.</p>
+      <p>Projetar um chip é trabalho de engenharia de software e arquitetura: uma equipe define o transistor, o contorno, o circuito. É trabalho intelectual caro de replicar se você tem um time de engenheiros.</p>
+<h2>O nó está nos processos avançados, não no volume total</h2>
+      <p>Um erro comum é tratar fabricação de chips como uma categoria única. Não é. A dependência se concentra especificamente nos nós mais avançados.</p>
+      <p>O relatório da TrendForce para o segundo trimestre de 2026 registra que a demanda manteve as linhas de <strong>5 e 4 nanômetros e de 3 nanômetros da TSMC totalmente ocupadas</strong>, atendendo à demanda de servidores de inteligência artificial, e que o processo de <strong>2 nanômetros contribuiu com receita pela primeira vez</strong>. A receita da empresa cresceu 12,1% em relação ao trimestre anterior, acima da média de 11,5% das dez maiores fabricantes.</p>
+      <p>Para colocar em perspectiva: um chip de 3 nanômetros é o que roda modelos de IA de grande porte. Um smartphone comum usa nós de 4 a 7 nanômetros, mais maduros e com mais fornecedores disponíveis. A concentração em Taiwan é, portanto, mais forte justamente onde a substituição é mais difícil, porque quanto mais fino o nó, menos fabricantes conseguem produzi-lo.</p>
+
+      <h2>Por que a concentração se formou e por que persiste</h2>
+      <p>Há três razões estruturais, e elas se reforçam.</p>
+      <p><strong>Custo e escala.</strong> Uma fábrica de 3 nanômetros custa dezenas de bilhões de dólares. Construir uma exige capital privado ou público que poucos países conseguem mobilize, além de um ecossistema de fornecedores de equipamentos, materiais químicos, tratamento de resíduos e engenharia que só se forma com décadas de operação contínua.</p>
+      <p><strong>Especialização assumida como estratégia nacional.</strong> O governo taiwanês tratou a fabricação como prioridade nacional, com subsídios, formação de quadros e políticas que mantiveram a indústria Despite a pressão política. O resultado é um cluster que concentra não apenas fábricas, mas braços de engenharia, fornecedores de materiais e conhecimento institucional.</p>
+      <p><strong>Um chão de fábrica único.</strong> Um computador portátil com processador de Taiwan, tela da Coreia e memória dos Estados Unidos ou Japão depende de uma rede de fornecedores que cruza fronteiras seis ou sete vezes antes de chegar ao consumidor. Essa é a mesma interdependência que sustenta o movimento global de realocação de produção.</p>
+      <p>Fabricar o chip é trabalho de física e de engenharia química em escala extrema. O desenho é convertido em camadas de litografia sobre uma lâmina de silício de 300 milímetros, e o processo leva meses, com centenas de etapas, em salas limpas onde temperatura, umidade e pureza dos gases são controladas com precisão extrema. Cada etapa seguinte multiplica a anterior em complexidade.</p>
+      <p>É por isso que a concentração é tão alta. Não é que a TSMC seja apenas mais eficiente que os concorrentes. É que ela é uma das poucas organizações no planeta que montou a cadeia completa de processos avançados, e a curva de aprendizado dessa cadeia é tão íngreme que aparecer do zero leva anos.</p>
+<h2>O que os governos estão tentando fazer</h2>
+      <p>A resposta dos Estados Unidos ao risco de concentração é o <strong>CHIPS and Science Act</strong>, sancionado em 2022. Segundo o próprio NIST, do Departamento de Comércio, a lei disponibilizou <strong>50 bilhões de dólares</strong> para fortalecer pesquisa, desenvolvimento e fabricação de semicondutores no país. A divisão é explícita: <strong>11 bilhões</strong> no escritório de pesquisa e desenvolvimento, que investe em ecossistema doméstico de P&D, e <strong>39 bilhões</strong> no escritório de programas, que oferece incentivos para investimento em instalações e equipamentos nos Estados Unidos.</p>
+      <p>Vale registrar o que esse número significa em perspectiva. Os 40,2 bilhões de dólares de receita trimestral da TSMC equivalem a cerca de 80% de todo o valor do CHIPS Act. Isso não significa que a lei é inútil. Significa que o problema é grande o suficiente para exigir anos de investimento contínuo, e não um único programa.</p>
+      <p>A implementação segue em curso em 2026: o Departamento de Comércio anunciou em agosto a formalização de prêmios de P&D para a Quantinuum, a Rigetti e a D-Wave, e em setembro um prêmio final de até 1 bilhão de dólares para a Anderon, nova subsidiária da IBM.</p>
+
+      <h2>O que já mudou na geografia da produção</h2>
+      <p>Mesmo com a concentração, o mapa está mudando, e os dados do segundo trimestre de 2026 mostram isso.</p>
+      <p>A <strong>SMIC</strong>, a maior fabricante da China continental, viu sua receita crescer 20% em relação ao trimestre anterior, para mais de 3 bilhões de dólares, elevando sua participação de 5,1% para 5,4%. A TrendForce atribui o avanço a compras antecipadas na cadeia de consumo, ao envio de chips periféricos de IA e de rede para servidores, e a aumentos de preços em memórias.</p>
+      <p>Esse é um dado ambíguo, e a ambiguidade é informativa. A expansão da SMIC foi impulsionada por compras de consumidores finais e por componentes periféricos de IA, não por um salto equivalente em processos mais avançados. Isso ajuda a explicar por que restrições de exportação existem e por que elas são tema permanente de disputa. Questões sobre o alcance e a eficácia dessas restrições envolvem declarações de governos, que devem ser lidas como registro de posição, não como fato independente.</p>
+      <p>A Samsung Foundry também merece nota: sua participação caiu de 6,5% para 5,9%, mesmo com alta na receita absoluta, porque os concorrentes cresceram mais rápido. Crescimento absoluto e ganho de participação são coisas diferentes, e a distinção importa em um mercado oligopolístico.</p>
+<h2>O que sabemos, o que é interpretação e o que é previsão</h2>
+      <p>Como em qualquer assunto que envolve países e economia, vale explicitar o nível de cada afirmação.</p>
+      <ul>
+        <li><strong>Dados confirmados:</strong> participação de 72,5% da TSMC, receita de 40,2 bilhões de dólares no segundo trimestre de 2026, Samsung com 5,9%, SMIC com 5,4%, e os 50 bilhões de dólares do CHIPS Act divididos entre 11 e 39 bilhões. Todos vêm de fontes primárias: TrendForce e NIST.</li>
+        <li><strong>Interpretação analítica:</strong> a afirmação de que a concentração nos nós mais avançados cria uma vulnerabilidade maior do que o número agregado de 72,5% sugere. É uma leitura razoável dos dados, mas ninguém a declara oficialmente como conclusão.</li>
+        <li><strong>Declaração de uma parte:</strong> qualquer afirmação de governo ou de empresa sobre o impacto de restrições de exportação é registro de posição, não fato independente. Este artigo não as usa como argumento.</li>
+        <li><strong>Previsão, não fato:</strong> quando a TSMC perderá participação, se a diversificação terá sucesso em cinco ou dez anos, e qual será o equilíbrio entre Taiwan, Estados Unidos, Europa e China. Nenhum desses números existe ainda.</li>
+      </ul>
+
+      <h2>Conclusão: a concentração é um problema técnico, não apenas político</h2>
+      <p>A concentração da fabricação de semicondutores avançados em Taiwan não é uma decisão política isolada nem um acidente. É o resultado de curvas de aprendizado cumulativas, custos bilionários e um ecossistema de fornecedores que se retroalimenta há quatro décadas.</p>
+      <p>Entender isso muda a natureza do debate. A pergunta útil não é se o mundo deve diversificar a produção, que é uma conclusão antecipada. É por que diversificar é difícil, quanto custa e quanto tempo leva. Responder a isso exige aceitar que a dependência atual é uma posição estável no curto prazo, e que mudá-la é um problema de engenharia e de capital com horizontes de anos, não de notícia.</p>
+`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['semicondutores', 'Taiwan', 'TSMC', 'chips', 'geopolítica', 'cadeia de suprimentos', 'CHIPS Act'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-04',
+    readingTime: 10,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wafer%20-%202.jpg?width=960',
+    imageAlt: 'Lâmina de silício fotônica usada na fabricação de microchips',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Windell Oskay',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Wafer_-_2.jpg',
+    sources: [
+      {
+        title: 'Global Foundry Revenue Approaches US$53.49 Billion in 2Q26 as SMIC Narrows Market Share Gap with Samsung, Says TrendForce (09/09/2026)',
+        url: 'https://www.trendforce.com/presscenter/news/20260909-13225.html',
+        publisher: 'TrendForce',
+        type: 'publication',
+      },
+      {
+        title: 'CHIPS for America — página institucional do NIST (Departamento de Comércio dos EUA)',
+        url: 'https://www.nist.gov/chips',
+        publisher: 'NIST / U.S. Department of Commerce',
+        type: 'official',
+      },
+      {
+        title: "TSMC's market share hits record 72.5% in Q2 (Focus Taiwan / CNA, 09/09/2026)",
+        url: 'https://focustaiwan.tw/business/202609090025',
+        publisher: 'Focus Taiwan (Central News Agency)',
+        type: 'news',
+      },
+      {
+        title: "TSMC's market share edges higher (Taipei Times, 10/09/2026)",
+        url: 'https://www.taipeitimes.com/News/biz/archives/2026/09/10/2003863979',
+        publisher: 'Taipei Times',
+        type: 'news',
+      },
+    ],
+  },
+  {
+    id: '197',
+    slug: 'como-saber-se-um-asteroide-vai-atingir-a-terra',
+    title: 'Como Saber se um Asteroide Vai Atingir a Terra: O Que a NASA Faz e o Que Ela Ainda Não Sabe',
+    excerpt: 'A ciência já desviou um asteroide de propósito e mediu o quanto. Mas a pergunta mais difícil continua sem resposta: como prever o comportamento de um corpo que nunca vemos de perto.',
+    content: `<h2>A pergunta que a astronomia ainda não responde</h2>
+      <p>Em 2025, um asteroide chamado <strong>2024 YR4</strong> ficou brevemente entre os objetos mais discutidos do planeta. Quando foi descoberto, as estimativas de chance de impacto com a Terra em 22 de dezembro de 2032 eram pequenas, porém não desprezíveis. Depois que o <a href="/espaco/telescopio-espacial-james-webb">telescópio James Webb</a> observou o objeto em duas datas, a NASA anunciou que não havia risco significativo para a Terra em 2032 nem depois.</p>
+      <p>O caso é instrutivo justamente pelo que mudou: não por um asteroide ter sido desviado, mas pelo tempo de observação ter reduzido o intervalo de incerteza. Isso explica por que a área se chama <em>defesa planetária</em> e por que ela depende tanto de telescópios quanto de naves espaciais.</p>
+
+      <h2>O que já foi feito: um impacto deliberado</h2>
+      <p>Em 26 de setembro de 2022, a missão <strong>DART</strong> da NASA colidiu intencionalmente com <strong>Dimorphos</strong>, uma pequena lua de asteroids do sistema binário Didymos. Foi a primeira vez que a humanidade moveu deliberadamente um objeto celeste. A espaçonave foi desenhada, construída e operada pelo Johns Hopkins Applied Physics Laboratory para o Escritório de Coordenação de Defesa Planetária da NASA.</p>
+      <p>O resultado não foi apenas uma cratera. O que a equipe conseguiu medir foi o quanto de momento a colisão transferiu para o asteroide, e esse número é o heart da questão.</p>
+      <p>Segundo a análise publicada pela NASA, o momento transferido quando a DART atingiu Dimorphos foi cerca de <strong>3,6 vezes maior</strong> do que seria se o asteroide tivesse simplesmente absorvido a espaçonave e não tivesse ejetado material algum. Isso significa que os detritos lançados pela própria colisão saíram mais rápido do que o impactor. O material ejetado, e não a nave, foi o principal agente da mudança.</p>
+      <p>Andy Cheng, líder da equipe de investigação da DART, foi explícito sobre a importância disso: "a transferência de momento é uma das coisas mais importantes que podemos medir, porque é a informação de que precisaríamos para desenvolver uma missão de impacto capaz de afastar um asteroide ameaçador". Entender como uma colisão altera o momento de um asteroide é central para desenhar uma estratégia de mitigação.</p>
+
+      <h2>Por que ejetar material aumenta o efeito</h2>
+      <p>Esse detalhe merece explicação, porque ele determina se uma futura missão precisaria de uma espaçonave enorme ou de uma pequena.</p>
+      <p>Quando um objeto colide com velocidade, parte da energia cinética não fica contida no impacto: ela é convertida em material ejetado. Esse material sai a alta velocidade. Pela conservação do momento, um corpo que lança massa para trás ganha o momento correspondente na direção oposta. É o mesmo princípio de um foguete.</p>
+      <p>Se o asteroide fosse um corpo sólido e respondesse de forma previsível, o momento transferido seria simplesmente o da espaçonava. Em um corpo como Dimorphos, que se revelou ser um amontoado de material solto, o material ejetado carrega momento adicional, e o efeito é cerca de 3,6 vezes maior. Isso torna a estratégia de mitigação mais barata: uma espaçonave menor pode atingir um desvio maior.</p>
+<h2>Por que prever é mais difícil do que desviar</h2>
+      <p>Um detalhe da frase "mudar a órbita de um asteroide" merece atenção: um asteroide não é um ponto. É um corpo que gira, que tem forma irregular, que pode ser uma pilha de fragmentos soltos girando a menos de uma rotação por hora. Perturbar sua órbita exige entender sua estrutura interna, e essa é exatamente a informação que falta para os objetos que ainda não foram visitados.</p>
+      <p>Quando a DART atingiu Dimorphos, ninguém sabia com antecedência que ele seria tão frágil. Se tivesse sido um corpo metálico compacto, o fator de transferência de momento teria sido próximo de 1, e a espaçonava teria sido muito maior para atingir o mesmo desvio. O fato de o objeto ter se comportado de forma diferente do ideal é o que torna a extrapolação para asteroides não visitados um exercício delicado.</p>
+      <p>É por isso que o <strong>Hera</strong>, a missão de acompanhamento da ESA, importa tanto quanto a própria DART. Sem ela, o fator beta permanece medido em um único corpo, com uma única geometria. Não é uma medida universal.</p>
+      <p>O estudo também ajudou a entender Dimorphos. Observações de ocultação estelar, registradas por astrônomos voluntários ao redor do mundo entre outubro de 2022 e março de 2025, permitiram calcular a mudança na órbita. Os dados indicaram que Dimorphos é um pouco menos denso do que se pensava, o que apoia a teoria de que ele se formou a partir de detritos rochosos ejetados por um Didymos que girava rapidamente. Em linguagem técnica, é um asteroide do tipo "pilha de entulho".</p>
+
+      <h2>Como o tamanho de um asteroide é estimado</h2>
+      <p>Vale explicar por que as estimativas de tamanho mudam tanto ao longo das semanas. Um asteroide distante é um ponto de luz. A única maneira de saber o tamanho, telescopicamente, é observar quanto tempo ele leva para atravessar uma estrela de referência. Isso se chama ocultação estelar, e é a mesma técnica usada para medir o diâmetro de exoplanetas e anões marrons.</p>
+      <p>Quando o Webb observou 2024 YR4 em 18 e 26 de fevereiro de 2025, as imagens no infravermelho indicaram um corpo do tamanho de um prédio de cerca de 15 andares. É essa medida que alimenta o cálculo da probabilidade de impacto: um corpo menor é menos provável de causar dano na Terra, e um corpo maior muda completamente o cenário. Como a iluminação e a distância são imperfeitas, cada nova observação desloca levemente a estimativa — e é por isso que a chance de risco aparece e desaparece ao longo de semanas, até que a órbita fica bem restringida.</p>
+
+      <h2>O que ainda não sabemos</h2>
+      <p>A área tem limites bem definidos, e vale listá-los.</p>
+      <ul>
+        <li><strong>A estrutura interna da maioria dos asteroides.</strong> Conhecemos a de Dimorphos porque a colisão revelou. Para os demais, o que sabemos é inferido de curvas de luz e de dados de radar.</li>
+        <li><strong>Se existem asteroides pequenos demais para serem detectados com antecedência suficiente.</strong> Objetos de poucos metros produzem pouca luz e podem ser descobertos com anos de aviso, ou com meses.</li>
+        <li><strong>Qualquer data de impacto catalogada com precisão.</strong> A NASA trabalha com faixas de probabilidade, não com previsões. Dizer que um asteroide vai atingir a Terra em uma data específica é uma simplificação que a própria agência evita.</li>
+      </ul>
+      <p>Esses limites não são falhas do sistema. São a consequência honesta de que prever exige tempo de observação, e tempo é o recurso mais escasso quando se trata de objetos distantes.</p>
+
+      <h2>Conclusão</h2>
+      <p>A defesa planetária já deixou de ser teoria. A NASA desviou um asteroide de propósito e mediu, com precisão, o quanto de momento a colisão transferiu, descobrindo que o material ejetado fez mais trabalho do que a própria nave. Esse número muda o cálculo de custo de qualquer missão futura.</p>
+      <p>O que ainda não existe é uma previsão perfeita, e provavelmente nunca existirá. O que existe é um sistema que reduz a incerteza com o tempo: o lançamento de telescópios como o Webb, a coleta de dados de ocultação estelar feita por astrônomos voluntários ao redor do mundo, e as naves que visitam e estudam os corpos de perto. É um sistema imperfeito e indispensável, e entender como ele funciona é mais útil do que qualquer manchete sobre um asteroide que talvez nem bata na Terra.</p>
+`,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['asteroides', 'defesa planetária', 'DART', '2024 YR4', 'NASA', 'JWST', 'Hera'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-04',
+    readingTime: 10,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Footprint%20of%20DART%20spacecraft%20over%20the%20spot%20where%20it%20impacted%20asteroid%20Dimorphos.jpg?width=960',
+    imageAlt: 'Pegada da espaçonave DART sobre o ponto onde impactou o asteroide Dimorphos',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA/Johns Hopkins APL',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Footprint_of_DART_spacecraft_over_the_spot_where_it_impacted_asteroid_Dimorphos.jpg',
+    sources: [
+      {
+        title: 'Early Results from NASA’s DART Mission — transferência de momento 3,6 vezes maior (NASA, 11/07/2023)',
+        url: 'https://www.nasa.gov/solar-system/early-results-from-nasas-dart-mission/',
+        publisher: 'NASA',
+        type: 'official',
+      },
+      {
+        title: 'NASA’s DART Mission Changed Orbit of Asteroid Didymos Around Sun — ocultações estelares e densidade de Dimorphos (NASA, 03/03/2026)',
+        url: 'https://www.nasa.gov/missions/dart/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/',
+        publisher: 'NASA',
+        type: 'official',
+      },
+      {
+        title: 'Asteroid 2024 YR4 — página de acompanhamento da NASA (atualizada em 05/03/2026)',
+        url: 'https://science.nasa.gov/solar-system/asteroids/2024-yr4/',
+        publisher: 'NASA Science',
+        type: 'official',
+      },
+      {
+        title: 'Asteroids — visão geral da exploração de asteroides pela NASA',
+        url: 'https://science.nasa.gov/solar-system/asteroids/',
+        publisher: 'NASA Science',
+        type: 'official',
+      },
+    ],
+    relatedArticles: ['telescopio-espacial-james-webb'],
+  },
+];

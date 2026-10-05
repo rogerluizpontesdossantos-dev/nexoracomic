@@ -18,6 +18,7 @@ interface ProdutoRelacionado {
   label: string;
   reason: string;
   href: string;
+  loja: string;
   imagem?: string;
   imagemAlt?: string;
   artigo: {
@@ -43,13 +44,22 @@ function coletarProdutos(): ProdutoRelacionado[] {
     if (!produtos || produtos.length === 0) continue;
 
     for (const produto of produtos) {
-      const validacao = validateAffiliateUrl(produto.amazonUrl);
+      // Mesma ordem do AffiliateBlock: Amazon primeiro, `url` (Hotmart)
+      // apenas quando não existe nenhum link Amazon. Assim nenhum produto
+      // Amazon já publicado muda de destino nesta página.
+      const validacao =
+        validateAffiliateUrl(produto.amazonUrl).ok
+          ? validateAffiliateUrl(produto.amazonUrl)
+          : validateAffiliateUrl(produto.searchUrl).ok
+            ? validateAffiliateUrl(produto.searchUrl)
+            : validateAffiliateUrl(produto.url);
       if (!validacao.ok) continue;
 
       saida.push({
         label: produto.label,
         reason: produto.reason,
         href: validacao.href,
+        loja: produto.store?.trim() || 'Amazon',
         // A imagem do produto é a própria capa do artigo de origem. Não há
         // fotografia licenciada do produto, e inventar uma URL quebraria a
         // política de imagens do site.
@@ -140,7 +150,7 @@ export default function ProdutosPage() {
                       {...AFFILIATE_LINK_PROPS}
                       className="mt-4 inline-block text-sm font-medium text-accent hover:text-accent/80 transition-colors py-2 underline decoration-dotted underline-offset-2"
                     >
-                      Ver na Amazon
+                      Ver na {produto.loja}
                       <span className="sr-only">: {produto.label}</span>
                     </a>
                   </div>
