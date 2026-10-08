@@ -486,7 +486,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'A IA dos jogos evoluiu de simples padrões de movimento para sistemas que reagem ao comportamento do jogador. Veja como ela funciona.',
     content: `
       <h2>O Que é a IA em um Jogo?</h2>
-      <p>Diferente da <a href="/inteligencia-artificial/inteligencia-artificial-generativa">IA generativa</a> usada em chat e criação de conteúdo, a IA de jogos é projetada para controlar personagens não jogáveis (NPCs) de forma que pareçam inteligentes: perseguir, se esconder, cooperar e reagir às ações do jogador.</p>
+      <p>Diferente da <a href="/inteligencia-artificial/inteligencia-artificial-generativa">IA generativa</a> usada em chat e criação de conteúdo, a IA de jogos é projetada para controlar personagens Se o tema te interessa além dos jogos, veja <a href="/inteligencia-artificial/hardware-para-ia-local-como-rodar-modelos-em-casa">o que é preciso para rodar modelos de IA na sua própria máquina</a>. não jogáveis (NPCs) de forma que pareçam inteligentes: perseguir, se esconder, cooperar e reagir às ações do jogador.</p>
 
       <h2>Os Primeiros Algoritmos</h2>
       <p>Nos primeiros jogos de fliperama, como os clássicos de 1972, a "IA" era um conjunto de padrões fixos. O inimigo seguia trajetórias predeterminadas, criando dificuldade por previsibilidade e velocidade. Não havia tomada de decisão real.</p>
@@ -1617,7 +1617,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     id: '24',
     slug: 'etica-e-vieses-da-ia',
     title: 'Ética e Vieses da IA: Quando o Algoritmo Herda Nossos Preconceitos',
-    excerpt: 'Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa.',
+    excerpt: 'Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa. Para entender a base técnica por trás desses sistemas, o nosso <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">guia de aprendizado de máquina explicado</a> mostra como um modelo é treinado na prática..',
     content: `
       <h2>IA Neutra? Não Existe</h2>
       <p>Modelos de IA aprendem com dados criados por humanos — e dados humanos carregam desigualdades históricas. Quando um sistema de seleção de currículos treina com contratações do passado, ele pode aprender padrões discriminatórios e repeti-los em escala, com a aparência de neutralidade técnica. O viés não está na matemática, mas no material de estudo.</p>
@@ -1905,7 +1905,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'E se o "console" fosse um datacenter a milhares de quilômetros? Entenda como funciona o gaming na nuvem, seus ganhos e seus limites.',
     content: `
       <h2>O Que é Cloud Gaming?</h2>
-      <p>No cloud gaming, o jogo roda em um servidor potente em um datacenter, e não no seu aparelho. O servidor processa os gráficos, comprime a imagem em vídeo e transmite pela internet — como uma Netflix interativa. Seus botões viajam no sentido contrário, e cada aperto precisa chegar ao servidor em milésimos de segundo.</p>
+      <p>No cloud gaming, o jogo roda em um servidor potente em um datacenter, e não no seu aparelho. O servidor processa os gráficos, comprime a imagem em vídeo e transmite pela internet — como uma Netflix interativa. Se preferir rodar os jogos na sua própria máquina, veja <a href="/games/como-escolher-placa-de-video-para-pc-gamer">como escolher a placa de vídeo certa</a>. Seus botões viajam no sentido contrário, e cada aperto precisa chegar ao servidor em milésimos de segundo.</p>
 
       <h2>Como Funciona a Corrente Técnica</h2>
       <ul>
@@ -1919,7 +1919,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Cada milissegundo conta. Do clique ao pixel na tela, o sinal percorre entrada, rede, servidor, renderização, codificação, rede de volta e decodificação — tudo precisa somar menos de ~60-80 ms para uma experiência confortável, e o dobro disso já incomoda em jogos rápidos. Por isso a localização dos datacenters e a qualidade da sua conexão pesam mais que a velocidade bruta de download.</p>
 
       <h3>Wi-Fi Faz Diferença</h3>
-      <p>Grande parte dos problemas de jogabilidade vem da rede doméstica: congestionamento no Wi-Fi, roteadores antigos e outros dispositivos baixando arquivos. Cabo de rede e uma conexão estável de pelo menos 15-25 Mbps resolvem a maioria dos casos.</p>
+      <p>Grande parte dos problemas de jogabilidade vem da rede doméstica — congestionamento no Wi-Fi, roteadores antigos e outros dispositivos baixando arquivos. Se a sua conexão cai ou oscila, veja <a href="/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva">como escolher um roteador que resolva de verdade</a>. Cabo de rede e uma conexão estável de pelo menos 15-25 Mbps resolvem a maioria dos casos.</p>
 
       <h2>O Que Você Ganha</h2>
       <ul>
@@ -2395,26 +2395,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'publication'
       }
     ],
-    // TASK 6AS - piloto de afiliados. Cada ASIN abaixo foi confirmado
-    // abrindo a página de produto na Amazon. Nenhum ASIN foi gerado ou deduzido.
-    affiliate: {
-      products: [
-        {
-          label: 'ASUS TUF Gaming GeForce RTX 5080 OC 16GB GDDR7',
-          category: 'placa-de-video-rtx-50',
-          amazonUrl: 'https://link.amazon/B03VQefAh',
-          reason:
-            'Uma opção da linha RTX 50 relacionada ao cenário de alta de preços das GPUs de ponta discutido no artigo.',
-        },
-        {
-          label: 'PNY GeForce RTX 5060 8GB Dual Fan',
-          category: 'placa-de-video-rtx-50',
-          amazonUrl: 'https://link.amazon/B0bVOOrGS',
-          reason:
-            'Uma opção mais acessível da geração RTX 50 para leitores que querem conhecer alternativas dentro da mesma família de GPUs.',
-        },
-      ]
-    }
+    // TASK 2/4 - bloco movido para o guia de compra (id 185). Noticia sobre
+    // precos da RTX 5090 mantem-se editorial puro (sem `affiliate`).
   },
     {
     id: '36',
@@ -2501,7 +2483,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'Samsung, ASUS e LG lançam monitores OLED com 4K a 240Hz, 500Hz e até 1100Hz. Entenda como a nova geração de painéis está redefinindo a experiência de jogo.',
     content: `
       <h2>A Revolução OLED Chegou aos Gamers</h2>
-      <p>Entre agosto e setembro de 2026, a indústria de monitores gamer vive sua <strong>maior renovação em anos</strong>. Em eventos como a gamescom 2026 e o IMID 2026, Samsung, ASUS e LG revelaram painéis OLED e QD-OLED que desafiam os limites teóricos de taxa de atualização, tempo de resposta e qualidade de imagem.</p>
+      <p>Entre agosto e setembro de 2026, a indústria de monitores gamer vive sua <strong>maior renovação em anos</strong>. Em eventos como a gamescom 2026 e o IMID 2026, Samsung, ASUS e LG revelaram painéis OLED e QD-OLED que desafiam os limites teóricos de taxa de atualização — o mesmo critério que define um bom <a href="/games/monitores-oled-gamers-nova-geracao">monitor gamer OLED de nova geração</a>, tempo de resposta e qualidade de imagem.</p>
       <h2>O Que os Novos Monitores Oferecem?</h2>
       <p>A novidade mais impactante é a <strong>linha Samsung Odyssey G8</strong>, que inclui dois modelos:</p>
       <ul>
@@ -2556,26 +2538,11 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'publication'
       },
     ],
-    // TASK 6AS - piloto de afiliados. Cada ASIN abaixo foi confirmado
-    // abrindo a página de produto na Amazon. Nenhum ASIN foi gerado ou deduzido.
-    affiliate: {
-      products: [
-        {
-          label: 'ASUS ROG Swift PG32UCDMR 32" 4K QD-OLED 240Hz',
-          category: 'monitor-gaming-oled-4k',
-          amazonUrl: 'https://link.amazon/B08L0AJ8m',
-          reason:
-            'Monitor gamer com painel QD-OLED, resolução 4K e alta taxa de atualização, características diretamente relacionadas ao tema do artigo.',
-        },
-        {
-          label: 'Samsung Odyssey OLED G9 49" DQHD 240Hz',
-          category: 'monitor-gaming-oled-ultrawide',
-          amazonUrl: 'https://link.amazon/B09fC7nJw',
-          reason:
-            'Monitor ultrawide OLED de 49 polegadas com alta taxa de atualização, relacionado às tecnologias de tela discutidas no artigo.',
-        },
-      ]
-    }
+    // TASK 2/4 - bloco removido deste artigo-noticia (lancamentos/precos
+    // premium, conteudo editorial puro). Os 2 links validados (B08L0AJ8m e
+    // B09fC7nJw) foram preservados fora do codigo e ficam PENDENTES de
+    // reincorporacao quando existir um guia de compra de monitores com
+    // link novo gerado oficialmente (SiteStripe indisponivel nesta sessao).
   },
     {
     id: '38',
@@ -3138,7 +3105,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Na prática, especialistas esperam que o 6G amplie modelos de trabalho remoto, saúde digital, educação imersiva e cidades conectadas. A promessa é de um mundo em que a rede é <strong>invisível e onipresente</strong> — mas os tijolos dessa construção ainda estão sendo assentados.</p>
 
       <h2>Conclusão</h2>
-      <p>O 5G avançado já é realidade e está sendo adotado em rede; o 6G, por sua vez, é mais um plano do que um produto final. Acompanhar essa evolução exige paciência e ceticismo saudável diante de projeções apressadas. A conectividade do futuro será extraordinária — mas chegará, como sempre, um passo de cada vez.</p>
+      <p>O 5G avançado já é realidade e está sendo adotado em rede; o 6G, por sua vez, é mais um plano do que um produto final. Acompanhar essa evolução exige paciência e ceticismo saudável diante de projeções apressadas. A conectividade do futuro será extraordinária — mas chegará, como sempre, um passo de cada vez. E dentro de casa, o gargalo raramente é a rede móvel: veja <a href="/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva">como escolher um roteador que resolve o Wi-Fi lento</a>.</p>
     `,
     category: {
       id: 'tecnologia',
@@ -6815,7 +6782,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'A geração procedural não é o oposto do design: o projetista escreve a regra e o algoritmo aplica. O ponto difícil é validar, porque uma saída pode obedecer às regras e ainda assim ser impossível de jogar.',
     content: `
 <h2>O que a literatura define como geração procedural</h2>
-<p>Uma revisão publicada no arXiv em 2024, aceita na conferência AIIDE de 2024, define Procedural Content Generation, ou PCG, como a criação automática de conteúdo de jogo por meio de algoritmos. A mesma revisão registra que a prática tem longa história tanto na indústria quanto na academia, e que a geração procedural pode aumentar o engajamento do jogador e facilitar o trabalho dos projetistas.</p>
+<p>Uma revisão publicada no arXiv em 2024, aceita na conferência AIIDE de 2024, define Procedural Content Generation, ou PC — e se você joga no computador, o nosso <a href="/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo">guia de como escolher controle para PC pelo estilo de jogo</a> ajuda a decidir entre gamepad, teclado ou volante.G, como a criação automática de conteúdo de jogo por meio de algoritmos. A mesma revisão registra que a prática tem longa história tanto na indústria quanto na academia, e que a geração procedural pode aumentar o engajamento do jogador e facilitar o trabalho dos projetistas.</p>
 <p>A segunda fonte, uma revisão de 2023 sobre geração de conteúdo baseada em busca, enquadra o mesmo problema por outro lado. O texto parte da observação de que a demanda por jogos cresce de forma constante e isso exige a produção, cara, de grandes quantidades de conteúdo. A resposta da comunidade acadêmica foi a criação semi-automatizada de conteúdo por algoritmos de busca, que a revisão batiza de Search-Based Procedural Content Generation.</p>
 <h2>O que realmente muda em relação ao desenho manual</h2>
 <p>A distinção que importa não é o tamanho do mundo, e sim quem toma a decisão de placement. Em um nível feito à mão, um projetista decide posição de cada elemento, e a obra é aquela decisão específica. Em um nível gerado, o projetista escreve a regra, e o algoritmo aplica essa regra a muitas posições possíveis. O resultado é uma saída que ninguém desenhou individualmente, mas que obedece a uma intenção que o projetista definiu.</p>
@@ -9559,18 +9526,6 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'documentation',
       },
     ],
-    // TASK 6BC - link fornecido pelo proprietario, usado literalmente.
-    affiliate: {
-      products: [
-        {
-          label: 'Memória RAM para PC',
-          category: 'memoria',
-          amazonUrl: 'https://link.amazon/B0ietfWP4',
-          reason:
-            'Uma opção relacionada à memória RAM e aos critérios de capacidade discutidos para PCs gamers.'
-        },
-      ]
-    }
   },
   {
     id: '180',
@@ -9615,7 +9570,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Iluminação por teclado, macros complicadas e software de personalização mudam a aparência, não a resposta. Priorize nesta ordem: <strong>tamanho adequado à sua mesa, depois switch compatível com o seu estilo, depois construção sólida, depois hot-swap, e só então o restante</strong>.</p>
 
       <h2>Conclusão</h2>
-      <p>Não existe teclado mecânico "melhor" em abstrato — existe o que combina com a sua mão, o seu tempo de sessão e os seus jogos. Comece definindo o tamanho pelo espaço da sua mesa e o switch pelo tipo de retorno que você não se importa de ouvir. O resto é detalhe. Uma escolha bem feita aparece como <em>menos cansaço depois de duas horas de partida</em>, e é por isso que vale a pesquisa antes da compra.</p>
+      <p>Não existe teclado mecânico "melhor" em abstrato — existe o que combina com a sua mão, o seu tempo de sessão e os seus jogos. Comece definindo o tamanho pelo espaço da sua mesa e o switch pelo tipo de retorno que você não se importa de ouvir. O resto é detalhe. Uma escolha bem feita aparece como <em>menos cansaço depois de duas horas de partida</em>, e é por isso que vale a pesquisa antes da compra. Para fechar o setup: veja <a href="/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo">como escolher o controle</a> e <a href="/games/headset-gamer-como-escolher-audio-para-jogos">como escolher o headset</a> — os três periféricos decidem juntos o conforto da sessão.</p>
     `,
     category: {
       id: 'games',
@@ -9653,7 +9608,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
           category: 'periferico',
           amazonUrl: 'https://link.amazon/B0as421Ea',
           reason:
-            'Uma opção relacionada a teclados mecânicos e às características discutidas neste guia.'
+            'Para aplicar os critérios deste guia — tamanho adequado à mesa, switch compatível com seu estilo e construção com hot-swap e keycaps resistentes — confira esta opção de teclado mecânico gamer e veja se ela atende à sua prioridade antes de decidir.'
         },
       ]
     }
@@ -9785,7 +9740,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       </ul>
 
       <h2>Conclusão</h2>
-      <p>O controle certo é o que combina com o seu gênero favorito e com a sua mesa. Comece definindo para quais jogos ele se destina, escolha o tipo de conexão de acordo com a tolerância a latência e preste atenção no formato do direcional. Marca, iluminação e construção são detalhes — a experiência de uso vem do ajuste ao jogo.</p>
+      <p>O controle certo é o que combina com o seu gênero favorito e com a sua mesa. Comece definindo para quais jogos ele se destina, escolha o tipo de conexão de acordo com a tolerância a latência e preste atenção no formato do direcional. Marca, iluminação e construção são detalhes — a experiência de uso vem do ajuste ao jogo. Para o áudio da sessão: veja <a href="/games/headset-gamer-como-escolher-audio-para-jogos">como escolher o headset</a> e <a href="/games/teclado-mecanico-para-games-como-escolher">como escolher o teclado</a>.</p>
     `,
     category: {
       id: 'games',
@@ -9823,7 +9778,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
           category: 'periferico',
           amazonUrl: 'https://link.amazon/A0aWIwbzw',
           reason:
-            'Uma opção relacionada a controles para PC e aos diferentes estilos de jogo abordados neste guia.'
+            'Para aplicar os critérios deste guia — gênero de jogo, tipo de conexão e formato do direcional — confira esta opção de controle para PC e veja se ela combina com os jogos que você mais joga antes de decidir.'
         },
       ]
     }
@@ -9906,11 +9861,11 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     affiliate: {
       products: [
         {
-          label: 'Roteador Wi-Fi',
+          label: 'Roteador Mesh Wi-Fi 6 (ex.: linha Halo AX1500)',
           category: 'rede',
           amazonUrl: 'https://link.amazon/B0gn5Jhob',
           reason:
-            'Uma opção relacionada a roteadores e às tecnologias de conexão Wi-Fi discutidas neste artigo.'
+            'Para aplicar o diagnóstico deste guia — cobertura versus capacidade, bandas simultâneas e padrão Wi-Fi 6 — confira esta opção de roteador mesh e veja se ela resolve o seu caso (sinal longe ou muitos dispositivos) antes de decidir.'
         },
       ]
     }
@@ -9996,7 +9951,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     id: '185',
     slug: 'como-escolher-placa-de-video-para-pc-gamer',
     title: 'Como Escolher Placa de Vídeo para PC Gamer: O Guia que Poupa Dinheiro Errado',
-    excerpt: 'VRAM, resolução, ray tracing e upscaling de IA. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.',
+    excerpt: 'VRAM, resolução, ray tracing e upscaling de IA — técnica que também aparece no nosso <a href="/games/como-escolher-placa-de-video-para-pc-gamer">guia de placas de vídeo</a>. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.',
     content: `
       <p>Comprar placa de vídeo é, para a maioria das pessoas, a decisão mais cara e mais confusa do PC. As especificações técnicas existem de propósito, mas a movimentação do mercado faz com que comparar números nem sempre produza a escolha certa.</p>
 
@@ -10005,7 +9960,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <ul>
         <li><strong>Resolução-alvo:</strong> jogar em 1080p, 1440p ou 4K muda a exigência da placa de forma drástica. A mesma placa que roda 144 Hz em 1080p pode ter dificuldade em 4K.</li>
         <li><strong>Memória de vídeo:</strong> é o limite de resolução, texturas e ray tracing que a placa suporta. Abaixo de 6 GB, jogos atuais começam a mostrar.</li>
-        <li><strong>Ray tracing:</strong> renderiza iluminação e reflexos reais. É bonito e pesado; ter ou não é decisão de hardware, não de preferência.</li>
+        <li><strong>Ray tracing:</strong> renderiza iluminação e reflexos reais. É bonito e pesado; ter ou não é decisão de hardware — e entender <a href="/games/como-escolher-placa-de-video-para-pc-gamer">como escolher a placa de vídeo certa</a> evita pagar caro por recursos que você não usa., não de preferência.</li>
         <li><strong>Upscaling de IA:</strong> reduz a resolução interna e reconstrói a imagem. É o que permite usar uma placa de geração anterior em títulos novos com desempenho razoável.</li>
       </ul>
       <p>Perceba que desempenho bruto é apenas um dos fatores. Uma placa da geração anterior com upscaling de IA bem implementado pode entregar uma melhor experiência do que uma placa cara com recursos que você não usa.</p>
@@ -10041,6 +9996,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
       <h2>Conclusão</h2>
       <p>A placa de vídeo certa é aquela que entrega taxa de quadros estável na sua resolução, com memória suficiente para os títulos que você joga. Fora isso, o resto é especificação que o mercado usa para justificar preço. Defina resolução e memória de vídeo primeiro; depois compare desempenho. Nessa ordem, a escolha deixa de ser confusa e vira racional.</p>
+      <p>Para continuar: veja <a href="/inteligencia-artificial/hardware-para-ia-local-como-rodar-modelos-em-casa">o que você precisa para rodar modelos de IA no seu PC</a> (a memória de vídeo decide quais modelos cabem) e <a href="/games/monitores-oled-gamers-nova-geracao">como o monitor acompanha a placa</a> — placa sem tela à altura desperdiça desempenho.</p>
     `,
     category: {
       id: 'games',
@@ -10070,11 +10026,27 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'official',
       },
     ],
-    // TASK 6BC - produto removido em 2026-09-30: o destino real do link
-    // (B07l7aAl3) e um hub USB-C, incompativel com o label "Placa de video".
-    // A URL nao foi substituida: o produto fica fora ate que o proprietario
-    // forneca o link correto. Sem `affiliate`, o AffiliateBlock nao renderiza
-    // e /produtos nao lista nada deste artigo.
+    // TASK 2/4 - guia de compra: bloco GPU realocado do artigo-noticia
+    // rtx-5090 (id 35). URLs reaproveitadas literalmente (SiteStripe
+    // indisponivel nesta sessao: nenhum link novo foi gerado).
+    affiliate: {
+      products: [
+        {
+          label: 'Placa de vídeo GeForce RTX 5080 16GB GDDR7 (linha ASUS)',
+          category: 'placa-de-video-rtx-50',
+          amazonUrl: 'https://link.amazon/B03VQefAh',
+          reason:
+            'Uma opção da linha RTX 50 com 16 GB de memória de vídeo, adequada para 4K e para inferência local de modelos maiores.',
+        },
+        {
+          label: 'Placa de vídeo GeForce RTX 5060 8GB Dual Fan (linha PNY)',
+          category: 'placa-de-video-rtx-50',
+          amazonUrl: 'https://link.amazon/B0bVOOrGS',
+          reason:
+            'Uma opção mais acessível da geração RTX 50 para 1080p/1440p, com upscaling de IA compensando a memória menor.',
+        },
+      ]
+    }
   },
   {
     id: '186',
@@ -10091,7 +10063,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         <li><strong>Na CPU (RAM):</strong> quando não há GPU dedicada, ou quando o modelo não cabe na memória de vídeo. Funciona, mas é ordens de grandeza mais lento.</li>
         <li><strong>Híbrido (CPU e GPU):</strong> camadas do modelo são divididas entre os dois. Útil quando a memória de vídeo não comporta o modelo inteiro, com custo de velocidade pela comunicação entre dispositivos.</li>
       </ul>
-      <p>Compreender essa divisão é o que permite escolher hardware com critério, em vez de descobrir o limite depois.</p>
+      <p>Compreender essa divisão é o que permite escolher hardware com critério, em vez de descobrir o limite depois. Se o ponto de partida é jogos, veja <a href="/games/como-escolher-placa-de-video-para-pc-gamer">como escolher a placa de vídeo</a> e <a href="/games/quanto-de-ram-um-pc-gamer-precisa">quanta RAM a máquina precisa</a> — os mesmos critérios decidem quais modelos de IA cabem no seu PC.</p>
 
       <h2>Memória de Vídeo: o Requisito que Domina</h2>
       <p>Existe uma regra prática que sintetiza quase tudo: <strong>o modelo precisa caber na memória de vídeo, com folga</strong>.</p>
@@ -10165,11 +10137,11 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     affiliate: {
       products: [
         {
-          label: 'Hardware para IA local',
+          label: 'Mini PC com NPU para IA local (ex.: Ryzen 7 + 16GB + SSD 1TB)',
           category: 'hardware-ia',
           amazonUrl: 'https://link.amazon/B0f60YPD5',
           reason:
-            'Uma opção relacionada ao hardware necessário para executar modelos de IA localmente.'
+            'Para aplicar os critérios deste guia — memória de vídeo suficiente para o modelo caber com folga e RAM adequada para inferência local — confira esta opção de mini PC e veja se ela atende ao tamanho de modelo que você pretende rodar antes de decidir.'
         },
       ]
     }
@@ -10255,11 +10227,11 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     affiliate: {
       products: [
         {
-          label: 'Microfone para criadores',
+          label: 'Microfone dinâmico USB/XLR para podcast e vídeo (ex.: linha GX1)',
           category: 'audio-criacao',
           amazonUrl: 'https://link.amazon/B0aNDqLpf',
           reason:
-            'Uma opção relacionada a microfones e aos critérios de áudio discutidos para criadores de conteúdo.'
+            'Para aplicar os critérios deste guia — ambiente sem tratamento acústico, escolha entre dinâmico e condensador e conexão USB ou XLR — confira esta opção de microfone dinâmico USB/XLR e veja se ela atende ao seu cenário de gravação antes de decidir.'
         },
       ]
     }
@@ -10780,7 +10752,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <p>A distinção importa porque boa parte do conteúdo sobre GTA VI disponível hoje é do terceiro e do quarto tipo. Um artigo que trata rumor como fato não acrescenta nada além do que a manchete já disse.</p>
 
       <h2>Resumindo o que sabemos hoje</h2>
-      <p>Em 19 de novembro de 2026, GTA VI chega a PS5 e Xbox Series X|S, com pré-vendas abertas, uma Ultimate Edition, um pacote de pré-venda e um mês de GTA+ para quem comprar na PlayStation Store. A página oficial e os comunicados das três empresas não dizem mais do que isso sobre o lançamento. Qualquer coisa além disso, neste momento, é rumor ou vazamento, e vale separar os dois com o mesmo cuidado que separa fato de hipótese.</p>
+      <p>Em 19 de novembro de 2026, GTA VI chega a PS5 e Xbox Series X|S, com pré-vendas abertas, uma Ultimate Edition, um pacote de pré-venda e um mês de GTA+ para quem comprar na PlayStation Store. A página oficial e os comunicados das três empresas não dizem mais do que isso sobre o lançamento. Qualquer coisa além disso, neste momento, é rumor ou vazamento, e vale separar os dois com o mesmo cuidado que separa fato de hipótese. E quando chegar a hora de jogar no PC ou no console: veja <a href="/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo">como escolher o controle pelo seu estilo de jogo</a>.</p>
     `,
     category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
     tags: ['GTA VI', 'GTA', 'Rockstar', 'Take-Two', 'Vice City', 'PlayStation 5', 'Xbox Series X', 'lançamento'],
@@ -11683,5 +11655,727 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
         type: 'scientific',
       },
     ],
+  },
+  {
+    id: '209',
+    slug: 'melhores-livros-para-aprender-programacao-guia-completo',
+    title: 'Melhores Livros para Aprender Programação: Guia Completo para Iniciantes e Avançados',
+    excerpt: 'Descubra os livros essenciais de programação que podem acelerar sua jornada como desenvolvedor, desde fundamentos até arquitetura de software.',
+    content: `
+      <h2>Por que livros ainda importam na era dos vídeos e tutoriais</h2>
+      <p>Com a abundância de cursos em vídeo, tutoriais online e bootcamps, pode parecer que livros de programação são relíquias. Mas a realidade é diferente: livros oferecem profundidade, estrutura e referência rápida que vídeos muitas vezes não conseguem igualar. Um bom livro não apenas ensina código — ele ensina a pensar como programador.</p>
+
+      <h2>O fundamento: clássicos que nunca envelhecem</h2>
+      <p>Alguns livros transcendem linguagens e frameworks específicos. Eles ensinam princípios que continuam válidos décadas depois de publicados. Entre os mais influentes está "O Programador Pragmático", que desde 1999 tem guiado desenvolvedores na jornada da técnica ao craftmanship.</p>
+
+      <h3>Como um livro pragmático muda sua abordagem</h3>
+      <p>Programar não é apenas escrever código que funciona. É sobre escrever código que outros possam entender, manter e evoluir. A pragmática em programação envolve escolher ferramentas adequadas, entender o domínio do problema, antecipar mudanças e comunicar-se efetivamente com colegas e usuários.</p>
+
+      <h2>Livros por estágio da carreira</h2>
+
+      <h3>Iniciantes absolutos</h3>
+      <p>Para quem está começando do zero, livros que ensinam lógica de programação antes de mergulhar em sintaxe específica são essenciais. Aprender a decompor problemas, identificar padrões e testar hipóteses mentalmente é mais importante do que memorizar comandos de uma linguagem específica.</p>
+
+      <h3>Programadores juniores</h3>
+      <p>Neste estágio, o foco deve expandir para boas práticas, design patterns e entendimento de como sistemas interagem. Livros sobre arquitetura, teste automatizado e refatoramento começam a fazer mais sentido do que apenas sintaxe básica.</p>
+
+      <h3>Desenvolvedores intermediários</h3>
+      <p>Aqui entra a especialização. Livros sobre performance, segurança, concorrência e frameworks específicos tornam-se valiosos. Mas é importante não ignorar fundamentos — muitos problemas complexos têm raiz em mal-entendidos básicos.</p>
+
+      <h3>Seniors e arquitetos</h3>
+      <p>Neste nível, livros tendem a ser sobre liderança técnica, gestão de equipes, arquitetura em escala e decisões de design que afetam anos de desenvolvimento futuro. A leitura volta a ser mais sobre contexto e menos sobre código direto.</p>
+
+      <h2>Como escolher o livro certo para você</h2>
+      <p>O primeiro passo é identificar onde você está e onde quer chegar. Um livro avançado sobre arquitetura de sistemas distribuídos provavelmente não é o melhor ponto de partida para quem ainda luta com laços e condicionais. Por outro lado, um livro de introdução ao Python pode ser redundante para quem já trabalha profissionalmente com a linguagem há anos.</p>
+
+      <h2>O papel da prática ao lado da leitura</h2>
+      <p>Ler sobre programação sem programar é como ler sobre natação sem entrar na piscina. A regra geral é: para cada conceito lido, implemente algo que o utilize. Se o livro fala sobre recursão, escreva uma função recursiva. Se discute testes, escreva testes para um código existente. A teoria precisa encontrar ancoragem na prática.</p>
+
+      <h2>Livros como referência contínua</h2>
+      <p>Um grande erro é ver livros como recursos lineares que se leem do início ao fim uma única vez. Muitos livros técnicos funcionam melhor como referências: você lê o capítulo relevante quando enfrenta um problema específico, revisita seções fundamentais periodicamente e mantém o livro ao alcance quando precisa esclarecer um conceito.</p>
+
+      <h2>A evolução dos livros de programação</h2>
+      <p>Formatos mudaram — existem e-books, versões interativas, e até livros que acompanham repositórios no GitHub. Mas o essencial permanece: autoridade do autor, clareza na explicação, exemplos relevantes e profundidade suficiente para valer o investimento de tempo.</p>
+    `,
+    category: {
+      id: 'tecnologia',
+      slug: 'tecnologia',
+      name: 'Tecnologia',
+      description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura',
+      color: '#06b6d4'
+    },
+    tags: ['programação', 'livros', 'desenvolvimento de software', 'aprendizado', 'carreira em TI'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-06',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Open_book_nae_02.svg/960px-Open_book_nae_02.svg.png',
+    imageAlt: 'Livro aberto com páginas brancas, ilustração simples e limpa',
+    imageLicense: 'CC0',
+    imageArtist: 'Nemo',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Open_book_nae_02.svg',
+    sources: [
+      {
+        title: 'O Programador Pragmático - Informações sobre o livro',
+        url: 'https://www.amazon.com.br/Programador-Pragm%C3%A1tico-2ed-jornada-maestria/dp/8582606877',
+        publisher: 'Amazon.com.br',
+        type: 'company',
+      },
+      {
+        title: 'ACM Digital Library - Classics in Programming',
+        url: 'https://dl.acm.org/',
+        publisher: 'ACM',
+        type: 'university',
+      },
+    ],
+    // TASK 3 - Amazon Afiliados. Link de afiliado REAL gerado através da SiteStripe
+    // da conta autenticada dizzritimia-20, NÃO montado manualmente. O artigo
+    // discute a importância de livros de programação; O Programador Pragmático é
+    // apresentado como um clássico do campo.
+    affiliate: {
+      products: [
+        {
+          label: 'O Programador Pragmático 2ed.: sua jornada até a maestria',
+          category: 'livro-programacao',
+          amazonUrl: 'https://www.amazon.com.br/Programador-Pragm%C3%A1tico-2ed-jornada-maestria/dp/8582606877?&linkCode=ll2&tag=dizzritimia-20&linkId=9c302b45a23c35ce482f0ec251f174c1&ref_=as_li_ss_tl',
+          reason: 'Clássico da literatura de programação que ensina não apenas código, mas como pensar e agir como um profissional de software. O artigo menciona especificamente este livro como referência fundamental para desenvolvedores em todos os níveis.',
+        },
+      ],
+    },
+  },
+  {
+    id: '210',
+    slug: 'como-a-inteligencia-artificial-vai-mudar-nossa-vida-nas-proximas-decasadas',
+    title: 'Como a Inteligência Artificial Vai Mudar Nossa Vida nas Próximas Décadas',
+    excerpt: 'A inteligência artificial está se transformando rapidamente de uma promessa tecnológica em uma força que redefine como trabalhamos, aprendemos e interagimos. Entenda o que esperar até 2041.',
+    content: `
+      <h2>O salto atual da IA</h2>
+      <p>Os últimos anos testemunharam avanços que pareciam distantes décadas atrás. Modelos de linguagem que escrevem código, geram imagens e respondem perguntas complexas passaram de laboratórios de pesquisa para ferramentas cotidianas. Mas o que está por vir pode transformar ainda mais profundamente a sociedade.</p>
+
+      <h2>Trabalho: automação além do óbvio</h2>
+      <p>A discussão sobre IA e trabalho muitas vezes se concentra em "robots taking jobs". A realidade é mais sutil. A IA não vai apenas substituir tarefas — ela vai redefinir carreiras inteiras. Profissões que envolvem reconhecimento de padrões, análise de dados e síntese de informação serão impactadas primeiro. Mas novas ocupações surgirão: treinadores de IA, auditores de algoritmos, especialistas em ética de automação.</p>
+
+      <h3>A importância da adaptação contínua</h3>
+      <p>O ciclo de aprendizado tradicional — estudar por 20 anos, trabalhar por 40 — está se rompendo. A evolução da IA significa que habilidades aprendidas hoje podem ser obsoletas em poucos anos. A capacidade de reaprender continuamente se torna mais valiosa do que qualquer conjunto específico de conhecimentos técnicos.</p>
+
+      <h2>Saúde: diagnóstico e tratamento personalizados</h2>
+      <p>A IA já está melhorando a precisão diagnóstica em áreas como radiologia e patologia. O próximo passo é a medicina de precisão: sistemas que combinam genética, histórico médico e dados de estilo de vida para recomendar tratamentos personalizados. IA também está acelerando a descoberta de medicamentos, processando milhões de compostos em semanas em vez de anos.</p>
+
+      <h2>Educação: tutors personalizados para todos</h2>
+      <p>Imagine um sistema de ensino que adapta o conteúdo ao ritmo de cada estudante, identificando gaps de conhecimento e oferecendo explicações personalizadas. Isso não é ficção — já está em desenvolvimento. A IA pode democratizar o acesso a educação de qualidade, oferecendo personalização que seria impossível em uma sala de aula tradicional.</p>
+
+      <h2>Cidades e infraestrutura inteligentes</h2>
+      <p>Sistemas de IA já gerenciam tráfego em algumas metrópoles, ajustando semáforos em tempo real baseados em fluxo de veículos. O futuro trará cidades que otimizam consumo de energia, gerenciam resíduos de forma mais eficiente e antecipam problemas de infraestrutura antes que eles se tornem críticos.</p>
+
+      <h2>Desafios éticos e sociais</h2>
+      <p>Nem todas as mudanças serão positivas. Privacidade, vieses algorítmicos, desigualdade de acesso e concentração de poder corporativo são preocupações reais. A sociedade precisa desenvolver frameworks regulatórios que permitam inovação enquanto protegem direitos individuais e valores democráticos.</p>
+
+      <h2>O que significa "human" em um mundo de IA</h2>
+      <p>À medida que máquinas se tornam capazes de tarefas que considerávamos exclusivamente humanas — criatividade, empatia, tomada de decisão complexa — a definição do que nos torna humanos pode precisar ser reavaliada. A valorização de aspectos intrinsecamente humanos — conexão interpessoal, propósito, experiência subjetiva — pode se tornar ainda mais importante.</p>
+
+      <h2>Preparando-se para o futuro</h2>
+      <p>O preparo para um mundo dominado por IA não é apenas aprender a usar ferramentas de IA. É desenvolver habilidades que máquinas não replicam facilmente: pensamento crítico, criatividade genuína, colaboração, liderança e entendimento de contexto. A IA será uma ferramenta poderosa, mas a direção que ela toma depende de decisões humanas.</p>
+    `,
+    category: {
+      id: 'inteligencia-artificial',
+      slug: 'inteligencia-artificial',
+      name: 'Inteligência Artificial',
+      description: 'Machine learning, redes neurais, automação e o futuro da IA',
+      color: '#8b5cf6'
+    },
+    tags: ['inteligência artificial', 'futuro', 'tecnologia', 'sociedade', 'ética'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-06',
+    readingTime: 8,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Robot_sculpture_at_Hotel_Metropol_Brussels.jpg/960px-Robot_sculpture_at_Hotel_Metropol_Brussels.jpg',
+    imageAlt: 'Escultura de robô em estilo futurista em ambiente urbano',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'Daniel Stockman',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Robot_sculpture_at_Hotel_Metropol_Brussels.jpg',
+    sources: [
+      {
+        title: '2041: Como a inteligência artificial vai mudar sua vida nas próximas décadas',
+        url: 'https://www.amazon.com.br/2041-intelig%C3%AAncia-artificial-pr%C3%B3ximas-d%C3%A9cadas/dp/6559870537',
+        publisher: 'Amazon.com.br',
+        type: 'company',
+      },
+      {
+        title: 'Stanford HAI - AI Index Report',
+        url: 'https://hai.stanford.edu/ai-index',
+        publisher: 'Stanford University',
+        type: 'university',
+      },
+    ],
+    // TASK 3 - Amazon Afiliados. Link de afiliado REAL gerado através da SiteStripe
+    // da conta autenticada dizzritimia-20, NÃO montado manualmente. O artigo
+    // discute o impacto da IA na sociedade nas próximas décadas; o livro "2041"
+    // é recomendado como leitura complementar sobre o tema.
+    affiliate: {
+      products: [
+        {
+          label: '2041: Como a inteligência artificial vai mudar sua vida nas próximas décadas',
+          category: 'livro-inteligencia-artificial',
+          amazonUrl: 'https://link.amazon/B03RKKDYM',
+          reason: 'Livro que explora especificamente o impacto da IA na sociedade até 2041, oferecendo uma visão estruturada das transformações que o artigo discute de forma geral. Excelente leitura complementar para quem quer aprofundar o tema.',
+        },
+      ],
+    },
+  },
+  {
+    id: '211',
+    slug: 'suporte-para-notebook-barato-ergonomia-gastando-pouco',
+    title: 'Suporte para Notebook Barato: Ergonomia Gastando Pouco',
+    excerpt: 'Dor no pescoço depois de horas no notebook? Entenda o que um suporte barato resolve de verdade e quando vale investir.',
+    content: `
+      <p>Usar o notebook por horas com a tela baixa cobra um preço: pescoço curvado, ombros tensos e costas reclamando no fim do dia. Um suporte para notebook é um dos upgrades mais baratos para melhorar a postura — mas nem todo modelo barato entrega o mesmo.</p>
+      <h2>O que realmente importa num suporte</h2>
+      <p>Três pontos decidem: <strong>elevação da tela</strong> (topo da tela perto da altura dos olhos), <strong>estabilidade</strong> (sem balançar ao digitar) e <strong>ventilação</strong> (base elevada melhora a circulação de ar).</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>Tamanho compatível:</strong> este modelo atende notebooks de até 15.6".</li>
+        <li><strong>Ajuste de ângulo:</strong> mais ângulos, mais chance de achar posição confortável.</li>
+        <li><strong>Material:</strong> alumínio costuma ser mais firme e dissipar calor melhor que plástico fino.</li>
+        <li><strong>Portabilidade:</strong> modelo dobrável faz sentido para quem alterna casa, faculdade e coworking.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>O erro mais comum é continuar digitando no teclado do notebook elevado — isso troca a dor do pescoço pela dor no punho. Combine com teclado e mouse externos. Outro erro é ignorar a estabilidade: suporte que balança vira enfeite.</p>
+      <h2>Quando faz sentido</h2>
+      <p>O <strong>Suporte para Notebook em Alumínio Ajustável Dobrável AlphaDomus (até 15.6")</strong> faz sentido para quem quer solução simples e portátil: eleva a tela, dobra para a mochila e o alumínio ajuda na firmeza.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Se o notebook tem 17" ou você precisa de ajuste de altura (não só de ângulo), procure suporte de coluna ou monitor externo. Calor extremo em renders longos pede limpeza e ventilação dedicada — o suporte ajuda, mas não resolve sozinho.</p>
+      <p>Na dúvida entre faixas de preço, compare com o <a href="/tecnologia/suporte-premium-vs-basico-o-que-realmente-importa">comparativo entre suporte premium e básico</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Suporte barato não é tudo igual: estabilidade, ângulo e tamanho compatível separam o útil do descartável. Para notebook de até 15.6" e rotina móvel, um modelo de alumínio dobrável é um ponto de partida sensato.</p>
+    `,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computacao, ciberseguranca, robotica e tecnologia futura', color: '#06b6d4' },
+    tags: ['notebook', 'ergonomia', 'suporte para notebook', 'home office', 'setup barato'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 5,
+    sources: [
+      { title: 'Suporte para Notebook Aluminio Ajustavel Dobravel AlphaDomus - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B0CMN1XJWY', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Ergonomia - Wikipedia', url: 'https://pt.wikipedia.org/wiki/Ergonomia', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Suporte para Notebook Aluminio Ajustavel Dobravel AlphaDomus (ate 15.6")',
+          category: 'suporte-notebook',
+          amazonUrl: 'https://www.amazon.com.br/dp/B0CMN1XJWY?&linkCode=sl2&tag=dizzritimia-20&linkId=46c25ec9d862c8eccf37f89daa439a0f&ref_=as_li_ss_tl',
+          reason: 'Suporte de alumínio dobrável para notebooks de até 15.6": resolve a elevação da tela para quem estuda ou trabalha em casa e na faculdade, sem ocupar espaço fixo na mesa.',
+        },
+      ],
+    },
+  },
+  {
+    id: '212',
+    slug: 'suporte-premium-vs-basico-o-que-realmente-importa',
+    title: 'Suporte Premium vs Básico: O Que Realmente Importa?',
+    excerpt: 'Preço maior significa suporte melhor? Compare rigidez, ângulos e portabilidade antes de decidir.',
+    content: `
+      <p>Na hora de comprar um suporte para notebook ou tablet, a diferença de preço entre o básico e o "premium" confunde. O mais caro sustenta melhor e dura mais — ou você paga só por acabamento e marca?</p>
+      <h2>O que diferencia básico de premium</h2>
+      <p>Quatro fatores separam as faixas: <strong>rigidez estrutural</strong>, <strong>faixa de ajuste</strong>, <strong>dobradiças e travas</strong> e <strong>extras</strong> como estojo e antiderrapantes. Um básico bem projetado pode superar um premium mal projetado — preço sozinho não decide.</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>Ângulos de uso:</strong> 6 ou mais ângulos atendem leitura, videoaulas e digitação com teclado externo.</li>
+        <li><strong>Uso com tablet:</strong> a dobradiça precisa aguentar toques na tela sem tombar.</li>
+        <li><strong>Peso x firmeza:</strong> alumínio fino viaja bem, mas exige travas decentes.</li>
+        <li><strong>Transporte:</strong> estojo evita arranhões e aumenta a vida útil.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>Presumir que "premium" aguenta qualquer peso é o erro clássico — suportes portáteis têm limite. Outro erro é ignorar mesa e cadeira: sem esse conjunto, nenhum ângulo salva a postura.</p>
+      <h2>Quando faz sentido</h2>
+      <p>O <strong>Suporte em Alumínio para Notebook/Tablet com 6 ângulos e estojo</strong> ocupa um meio-termo útil: múltiplos ângulos, uso com notebook e tablet, e estojo para transporte. Para quem alterna leitura, aulas e digitação com teclado externo, essa versatilidade é o ponto forte.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Se você precisa de ajuste de altura contínuo (erguer 15–20 cm, não só inclinar), considere suporte de coluna ou monitor externo. Para mesas instáveis, prefira bases mais pesadas e largas.</p>
+      <p>Veja também o guia de <a href="/tecnologia/suporte-para-notebook-barato-ergonomia-gastando-pouco">suporte para notebook barato</a> para comparar com a opção dobrável simples.</p>
+      <h2>Conclusão</h2>
+      <p>Entre básico e premium, o que importa é o ajuste à rotina: ângulos úteis, estabilidade real e portabilidade. Um intermediário com 6 ângulos e estojo atende bem a maioria dos usos móveis.</p>
+    `,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['notebook', 'tablet', 'suporte para notebook', 'ergonomia', 'comparativo'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 5,
+    sources: [
+      { title: 'Suporte Notebook/Tablet Alumínio 6 Ângulos com Estojo - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B0F1C2GCK4', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Ergonomia - Wikipédia', url: 'https://pt.wikipedia.org/wiki/Ergonomia', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Suporte Notebook/Tablet Alumínio 6 Ângulos com Estojo',
+          category: 'suporte-notebook',
+          amazonUrl: 'https://www.amazon.com.br/dp/B0F1C2GCK4?&linkCode=sl2&tag=dizzritimia-20&linkId=e29554a7b968f2149203037e3164c6d5&ref_=as_li_ss_tl',
+          reason: 'Para quem alterna entre notebook e tablet em aulas e leitura: os 6 ângulos ajudam a achar a posição de cada uso, e o estojo protege o suporte na mochila.',
+        },
+      ],
+    },
+  },
+  {
+    id: '213',
+    slug: 'mouse-pad-gamer-barato-vale-a-pena',
+    title: 'Mouse Pad Gamer Barato: Vale a Pena?',
+    excerpt: 'Um mouse pad barato melhora a mira ou é só estética? Entenda tamanho, superfície e costura antes de comprar.',
+    content: `
+      <p>Mouse pad gamer barato promete precisão e conforto, mas será que um modelo simples entrega? A resposta curta: para a maioria dos jogadores casuais e estudantes, sim — desde que o tamanho e a superfície estejam certos.</p>
+      <h2>O que realmente importa</h2>
+      <p>Três fatores decidem: <strong>tamanho útil</strong> (espaço para o mouse sem sair da borda), <strong>superfície speed ou control</strong> (deslize rápido x controle) e <strong>base antiderrapante</strong> (o pad não pode se mover na mesa).</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>Tamanho:</strong> modelos grandes acomodam mouse + teclado compacto e evitam reposicionamento constante.</li>
+        <li><strong>Bordas costuradas:</strong> reduzem desfiamento e aumentam a durabilidade.</li>
+        <li><strong>Espessura:</strong> 3–4 mm equilibra conforto e estabilidade.</li>
+        <li><strong>Limpeza:</strong> tecido escuro disfarça uso; evite estampas que distraiam em jogos competitivos.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>Comprar pad pequeno demais para sensibilidade baixa é o erro nº 1 — o mouse sai da área no meio da partida. Outro erro é esperar que o pad corrija um sensor ruim ou mesa irregular: ele melhora o deslize, não faz milagre.</p>
+      <h2>Quando faz sentido</h2>
+      <p>O <strong>Mouse Pad Gamer Speed MPG-103 Grande Preto Fortrek</strong> faz sentido para quem quer área generosa com superfície speed: deslize solto para FPS e MOBA, base emborrachada e acabamento simples que combina com qualquer setup.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Se você joga com sensibilidade muito baixa ou usa teclado full-size + mouse largo, considere um modelo estendido (70 cm+). Para quem prioriza controle em jogos táticos, uma superfície control pode ser melhor que speed.</p>
+      <p>Combine com a leitura de <a href="/games/teclado-mecanico-para-games-como-escolher">como escolher o teclado para games</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Mouse pad barato vale a pena quando o tamanho e a base estão certos. Para uso geral e jogos casuais a competitivos intermediários, um modelo grande speed é um upgrade de conforto com ótimo custo-benefício.</p>
+    `,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['mouse pad', 'periférico', 'setup gamer', 'fortrek'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 5,
+    sources: [
+      { title: 'Mouse Pad Gamer Speed MPG-103 Grande Preto Fortrek - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B0BLXHT5Q9', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Mouse Pad Gamer Speed MPG-103 Grande Preto Fortrek',
+          category: 'mouse-pad',
+          amazonUrl: 'https://www.amazon.com.br/dp/B0BLXHT5Q9?th=1&linkCode=sl2&tag=dizzritimia-20&linkId=0acdfc07609abc29c6a3bf6b8470317f&ref_=as_li_ss_tl',
+          reason: 'Superfície speed e área grande para quem joga de FPS e MOBA com sensibilidade média; se você prefere controle tático ou tem mesa pequena, um modelo menor serve melhor.',
+        },
+      ],
+    },
+  },
+  {
+    id: '214',
+    slug: 'mousepad-estendido-como-escolher',
+    title: 'Mousepad Estendido: Como Escolher',
+    excerpt: 'Mousepad estendido organiza a mesa e melhora o jogo. Veja largura ideal, espessura e estampa sem erro.',
+    content: `
+      <p>Mousepad estendido (aquele tapete que vai sob teclado e mouse) virou padrão em setups gamer e de home office. Ele protege a mesa, uniformiza o deslize e organiza visualmente o espaço — mas o tamanho errado vira desperdício.</p>
+      <h2>O que realmente importa</h2>
+      <p><strong>Largura real da mesa</strong> vem primeiro: meça antes de comprar. Depois, <strong>espessura</strong> (2–4 mm é o equilíbrio) e <strong>estampa</strong> (mapas e artes claras podem distrair em jogo competitivo, mas alegram o setup).</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>Dimensões:</strong> 70x35 cm atende teclado TKL + mouse com folga; confira a profundidade da sua mesa.</li>
+        <li><strong>Base:</strong> borracha antiderrapante evita que o tapete "ande" na mesa.</li>
+        <li><strong>Bordas:</strong> costura reforçada previne desfiamento com o punho apoiado.</li>
+        <li><strong>Superfície:</strong> tecido liso favorece deslize; texturizado favorece controle.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>Comprar sem medir a mesa e descobrir que o pad dobra na borda ou cobre a gaveta. Outro erro é escolher estampa muito clara para quem come na mesa — manchas aparecem rápido.</p>
+      <h2>Quando faz sentido</h2>
+      <p>O <strong>Mouse Pad Gamer Extra Grande 700x350 Exbom MP7035C Mapa Mundi</strong> faz sentido para quem quer cobrir teclado e mouse com uma peça só, com estampa de mapa-múndi que funciona bem em setups de estudo e trabalho — geografia na mesa, literalmente.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Mesas pequenas (menos de 60 cm de largura útil) pedem modelos médios. Jogadores de FPS com sensibilidade baixa podem preferir superfície speed lisa em cor neutra.</p>
+      <p>Veja também <a href="/games/mouse-pad-gamer-barato-vale-a-pena">se mouse pad gamer barato vale a pena</a> e <a href="/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo">como escolher o controle pelo estilo de jogo</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Mousepad estendido é um dos upgrades de menor custo com maior impacto visual e de conforto. Meça a mesa, prefira bordas costuradas e escolha a estampa pelo seu uso real.</p>
+    `,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['mousepad', 'setup gamer', 'periférico', 'exbom'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 5,
+    sources: [
+      { title: 'Mouse Pad Gamer Extra Grande 700x350 Exbom MP7035C Mapa Mundi - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B07YPT3S6Z', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Mouse Pad Gamer Extra Grande 700x350 Exbom MP7035C Mapa Mundi',
+          category: 'mouse-pad',
+          amazonUrl: 'https://www.amazon.com.br/dp/B07YPT3S6Z?&linkCode=sl2&tag=dizzritimia-20&linkId=d5f783f620443b416ba84bf84f0bb5f6&ref_=as_li_ss_tl',
+          reason: 'Cobre teclado e mouse com uma peça só, com estampa de mapa-múndi para setup de estudo; faz sentido em mesa larga — em mesa estreita, um mousepad médio resolve melhor.',
+        },
+      ],
+    },
+  },
+  {
+    id: '215',
+    slug: 'mousepad-70x35-custo-beneficio-para-iniciantes',
+    title: 'Mousepad 70x35 Custo-Benefício para Iniciantes',
+    excerpt: 'Primeiro mousepad grande? Veja por que o formato 70x35 é o ponto de partida ideal e o que conferir antes de comprar.',
+    content: `
+      <p>Para quem está montando o primeiro setup, o mousepad 70x35 é o formato mais recomendado: cabe teclado e mouse, sobra área de manobra e o preço costuma ser acessível. Mas "grande" sozinho não garante acerto.</p>
+      <h2>Por que 70x35 funciona para iniciantes</h2>
+      <p>Esse tamanho cobre um teclado ABNT2 ou TKL mais o mouse com folga, sem dominar mesas médias. É o equilíbrio entre espaço e praticidade — menor que isso limita o mouse; maior que isso exige mesa larga.</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>Superfície speed:</strong> ideal para quem está descobrindo sensibilidade e joga de tudo um pouco.</li>
+        <li><strong>Costura nas bordas:</strong> item obrigatório para durar com uso diário.</li>
+        <li><strong>Base firme:</strong> o pad deve ficar parado mesmo em movimentos bruscos.</li>
+        <li><strong>Tema:</strong> estampas gamer escondem melhor o desgaste que cores lisas claras.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>O iniciante costuma comprar pad fino demais que enruga, ou gigante demais para a mesa. Outro erro é lavar na máquina sem cuidado — água fria e secagem à sombra preservam a borracha.</p>
+      <h2>Quando faz sentido</h2>
+      <p>O <strong>Mouse Pad Gamer Grande 70x35 Speed Exbom Guerreiro</strong> é um ponto de partida direto: formato padrão, superfície speed para deslize solto e temática gamer que combina com o primeiro setup sem complicação.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Se sua mesa tem menos de 70 cm livres, desça para um modelo médio. E se você já sabe que prefere controle e precisão tática, busque uma superfície control em vez de speed.</p>
+      <p>Compare com <a href="/games/mousepad-estendido-como-escolher">como escolher mousepad estendido</a> e <a href="/games/mouse-pad-gamer-barato-vale-a-pena">se mouse pad barato vale a pena</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Para iniciantes, o 70x35 speed com bordas costuradas é a escolha mais segura: barato, versátil e fácil de acertar. Evolua para superfícies específicas quando seu estilo de jogo estiver definido.</p>
+    `,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['mousepad', 'setup gamer', 'iniciantes', 'custo-benefício'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 5,
+    sources: [
+      { title: 'Mouse Pad Gamer Grande 70x35 Speed Exbom Guerreiro - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B07ZC5XXZ8', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Mouse Pad Gamer Grande 70x35 Speed Exbom Guerreiro',
+          category: 'mouse-pad',
+          amazonUrl: 'https://www.amazon.com.br/dp/B07ZC5XXZ8?&linkCode=sl2&tag=dizzritimia-20&linkId=0836622315b21b62f67bfc6c3a1930fb&ref_=as_li_ss_tl',
+          reason: 'Para o primeiro setup: formato 70x35 com folga para teclado ABNT2 e mouse em superfície speed; se sua mesa tem menos de 70 cm livres, um modelo médio resolve melhor.',
+        },
+      ],
+    },
+  },
+  {
+    id: '216',
+    slug: 'setup-gamer-barato-3-upgrades-que-fazem-diferenca',
+    title: 'Setup Gamer Barato: 3 Upgrades que Fazem Diferença',
+    excerpt: 'Sem trocar PC: três upgrades baratos que melhoram conforto, precisão e organização do seu setup.',
+    content: `
+      <p>Melhorar o setup sem trocar placa de vídeo ou processador é possível — e mais barato do que parece. Três upgrades de baixo custo mudam a experiência diária: superfície do mouse, áudio e organização.</p>
+      <h2>1. Superfície do mouse</h2>
+      <p>Um mousepad de tamanho médio organiza o espaço e dá consistência ao deslize. O formato 40x30 é ideal para mesas menores: cabe o mouse com folga sem brigar com o teclado pelo espaço.</p>
+      <h2>2. Áudio que informa</h2>
+      <p>Headset ou fones com palco sonoro claro ajudam a localizar passos e recargas. Antes de comprar, defina se você prioriza competitivo (direcionalidade) ou imersão (graves e conforto).</p>
+      <h2>3. Organização e ergonomia</h2>
+      <p>Suporte para notebook ou organizador de cabos reduz bagunça e melhora postura. Pequenos ajustes — monitor na altura dos olhos, punho apoiado — valem mais que RGB.</p>
+      <h2>Erros comuns</h2>
+      <p>Gastar tudo em um único periférico caro e manter o resto precário. Outro erro é comprar por estética sem medir mesa e sem testar sensibilidade: upgrade bom é o que se usa todo dia.</p>
+      <h2>Quando faz sentido</h2>
+      <p>O <strong>Mousepad Gamer Merak MPMM Medium 400x300 ELG</strong> se encaixa como o upgrade nº 1 para mesas compactas: tamanho médio prático, superfície pensada para jogo e acabamento que segura o pad no lugar.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Mesas largas com teclado full-size pedem modelos estendidos. E se o gargalo real é desempenho (travamentos, FPS baixo), priorize memória e armazenamento antes de periféricos.</p>
+      <p>Guias úteis: <a href="/games/mouse-pad-gamer-barato-vale-a-pena">mouse pad barato vale a pena?</a>, <a href="/games/mousepad-estendido-como-escolher">como escolher mousepad estendido</a> e <a href="/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo">controle para PC pelo estilo de jogo</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Setup barato bom é setup equilibrado: superfície adequada, áudio claro e mesa organizada. Comece pelo mousepad certo para o seu espaço e evolua por prioridade de uso.</p>
+    `,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['setup gamer', 'setup barato', 'mousepad', 'upgrade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 5,
+    sources: [
+      { title: 'Mousepad Gamer Merak MPMM Medium 400x300 ELG - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B0D9HTK2MK', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Mousepad Gamer Merak MPMM Medium 400x300 ELG',
+          category: 'mouse-pad',
+          amazonUrl: 'https://www.amazon.com.br/dp/B0D9HTK2MK?th=1&linkCode=sl2&tag=dizzritimia-20&linkId=618a09733a7a59a7492466e3f3f7f5fa&ref_=as_li_ss_tl',
+          reason: 'Tamanho médio 40x30 para mesas compactas — o primeiro dos três upgrades do guia; com teclado full-size e mesa larga, um estendido faz mais sentido.',
+        },
+      ],
+    },
+  },
+  {
+    id: '217',
+    slug: 'aprenda-python-3-do-jeito-certo-por-onde-comecar',
+    title: 'Aprenda Python 3 do Jeito Certo: Por Onde Começar',
+    excerpt: 'Quer aprender Python sem se perder em tutoriais soltos? Veja um caminho estruturado com prática guiada.',
+    content: `
+      <p>Python é a porta de entrada mais popular para programação — mas a abundância de tutoriais soltos confunde iniciantes. Falta sequência, faltam exercícios com correção e falta base para ler código alheio. Um livro com método resolve exatamente isso.</p>
+      <h2>Por que um método importa</h2>
+      <p>Aprender sintaxe avulsa cria a ilusão de progresso: você copia, funciona, mas não reconstrói sozinho. Um método com progressão — instalar, rodar, ler erros, depurar, repetir — forma autonomia.</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>Exercícios práticos:</strong> prefira livros com dezenas de exercícios curtos e verificáveis.</li>
+        <li><strong>Erros como aula:</strong> bons materiais ensinam a ler tracebacks em vez de temê-los.</li>
+        <li><strong>Python 3 atual:</strong> confira edição compatível com a versão que você vai instalar.</li>
+        <li><strong>Ritmo:</strong> capítulos curtos sustentam o hábito diário melhor que maratonas.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>Pular exercícios "fáceis" e travar nos médios; trocar de recurso a cada semana; estudar sem projeto — sem aplicar, a sintaxe evapora. Outro erro é decorar sem digitar: digite todo exemplo.</p>
+      <h2>Quando faz sentido</h2>
+      <p><strong>Aprenda Python 3 do jeito certo, de Zed Shaw</strong>, faz sentido para quem quer disciplina prática: a proposta é aprender fazendo, com repetição guiada e atenção a detalhes que tutoriais apressados ignoram. Bom para iniciantes absolutos que aceitam um ritmo metódico.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Se você já programa em outra linguagem, um guia de transição ou a documentação oficial pode ser mais rápido. E se seu objetivo é área específica (dados, web, automação), combine o livro-base com um material focado depois da fundação.</p>
+      <p>Para o panorama geral, veja <a href="/tecnologia/melhores-livros-para-aprender-programacao-guia-completo">melhores livros para aprender programação</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Python se aprende com teclado, não só com olho: escolha um método com exercícios, pratique todo dia e use o livro como trilha — não como enfeite de estante.</p>
+    `,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['python', 'programação', 'livros', 'iniciantes'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 6,
+    sources: [
+      { title: 'Aprenda Python 3 do jeito certo - Zed Shaw - Amazon.com.br', url: 'https://www.amazon.com.br/dp/8550804738', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Python Docs - Tutorial oficial', url: 'https://docs.python.org/3/tutorial/', publisher: 'Python Software Foundation', type: 'documentation' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Aprenda Python 3 do jeito certo — Zed Shaw',
+          category: 'livro-programacao',
+          amazonUrl: 'https://www.amazon.com.br/dp/8550804738?&linkCode=sl2&tag=dizzritimia-20&linkId=6b0e8950bdb4d5ce476793fd6367a557&ref_=as_li_ss_tl',
+          reason: 'Livro com exercícios e repetição guiada para quem quer aprender Python 3 com método em vez de tutoriais soltos; se você já programa, a documentação oficial pode ser mais rápida.',
+        },
+      ],
+    },
+  },
+  {
+    id: '218',
+    slug: 'python-para-iniciantes-por-onde-comecar-gastando-pouco',
+    title: 'Python para Iniciantes: Por Onde Começar Gastando Pouco',
+    excerpt: 'Primeira linguagem? Veja como começar em Python com material acessível e progressão sem atalhos furados.',
+    content: `
+      <p>Começar programação com Python é uma escolha sensata: sintaxe legível, comunidade enorme e aplicação em automação, dados e web. O desafio não é a linguagem — é a ordem do aprendizado.</p>
+      <h2>O caminho mais econômico</h2>
+      <p>Documentação oficial + um livro-base em português + projetos pequenos. Essa trinca custa pouco e evita a armadilha dos 40 cursos inacabados. O segredo é terminar um recurso antes de abrir o próximo.</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>Português claro:</strong> para iniciantes absolutos, material nacional reduz a barreira inicial.</li>
+        <li><strong>Exemplos executáveis:</strong> todo capítulo deve terminar com algo rodando na sua máquina.</li>
+        <li><strong>Fundamentos:</strong> variáveis, condições, laços, funções e listas antes de frameworks.</li>
+        <li><strong>Projetos:</strong> calculadora, agenda, raspagem simples — portfólio nasce aqui.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>Decorar sintaxe sem entender lógica; copiar código sem digitar; pular para Django/IA antes da base. Outro erro é não aprender a ler erros: o traceback é o professor mais paciente que existe.</p>
+      <h2>Quando faz sentido</h2>
+      <p>A <strong>Introdução à Programação com Python (4ª ed.), de Nilo Menezes</strong>, faz sentido para quem quer base sólida em português: abordagem progressiva, do zero aos conceitos essenciais, com foco em fazer o leitor programar de verdade.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Se você já domina lógica em outra linguagem, parta para um material de transição. E se o foco é imediato em dados ou web, complemente a base com um curso da área após os fundamentos.</p>
+      <p>Veja também <a href="/tecnologia/aprenda-python-3-do-jeito-certo-por-onde-comecar">Aprenda Python 3 do jeito certo</a> e <a href="/tecnologia/melhores-livros-para-aprender-programacao-guia-completo">melhores livros de programação</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Gastar pouco para começar é possível: um bom livro-base, prática diária e projetos pequenos formam a fundação que sustenta qualquer especialização futura.</p>
+    `,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['python', 'programação', 'livros', 'iniciantes', 'custo-benefício'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 6,
+    sources: [
+      { title: 'Introdução à Programação com Python 4ª ed. - Nilo Menezes - Amazon.com.br', url: 'https://www.amazon.com.br/dp/8575228862', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Python Docs - Tutorial oficial', url: 'https://docs.python.org/3/tutorial/', publisher: 'Python Software Foundation', type: 'documentation' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Introdução à Programação com Python 4ª ed. — Nilo Menezes',
+          category: 'livro-programacao',
+          amazonUrl: 'https://www.amazon.com.br/dp/8575228862?&linkCode=sl2&tag=dizzritimia-20&linkId=90525bba13ed1e35b5da819ab410435b&ref_=as_li_ss_tl',
+          reason: 'Base em português do zero aos fundamentos, para quem quer aprender programação sem depender de curso pago; quem já domina lógica pode partir para material intermediário.',
+        },
+      ],
+    },
+  },
+  {
+    id: '219',
+    slug: 'algoritmos-para-iniciantes-o-que-aprender-primeiro',
+    title: 'Algoritmos para Iniciantes: O Que Aprender Primeiro',
+    excerpt: 'Antes de frameworks: entenda quais conceitos de algoritmos realmente importam no começo.',
+    content: `
+      <p>Algoritmos assustam iniciantes pelo nome — mas a ideia é simples: uma sequência de passos para resolver um problema. Antes de decorar ordenação exótica, o iniciante precisa dominar o raciocínio: entrada, processamento, saída.</p>
+      <h2>O que aprender primeiro</h2>
+      <ul>
+        <li><strong>Lógica:</strong> condições, laços e funções — 80% dos programas vivem disso.</li>
+        <li><strong>Estruturas básicas:</strong> listas, pilhas, filas e dicionários na prática.</li>
+        <li><strong>Complexidade intuitiva:</strong> perceber quando um laço dentro de outro vai ficar lento.</li>
+        <li><strong>Depuração:</strong> testar com papel e caneta, passo a passo.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>Tentar decorar dezenas de algoritmos sem implementar nenhum; pular para grafos antes de dominar laços; estudar teoria sem codar. Algoritmo se aprende implementando e medindo.</p>
+      <h2>Quando faz sentido</h2>
+      <p><strong>Algoritmos — Programação Para Iniciantes, de Gilvan Vilarim</strong>, faz sentido para quem quer uma introdução nacional e didática: foco em construir o raciocínio algorítmico antes das estruturas avançadas, sem jargão desnecessário.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Se você já programa e quer preparação para entrevistas, parta para materiais de estruturas de dados intermediários. Este livro é porta de entrada — não manual de competição.</p>
+      <p>Combine com <a href="/tecnologia/melhores-livros-para-aprender-programacao-guia-completo">melhores livros de programação</a> e <a href="/tecnologia/python-para-iniciantes-por-onde-comecar-gastando-pouco">Python para iniciantes</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Algoritmos não são bicho-papão: são hábito de decompor problemas. Comece pela lógica executável, implemente o básico e evolua com calma para estruturas e análise de desempenho.</p>
+    `,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['algoritmos', 'programação', 'livros', 'lógica', 'iniciantes'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 6,
+    sources: [
+      { title: 'Algoritmos - Programação Para Iniciantes - Gilvan Vilarim - Amazon.com.br', url: 'https://www.amazon.com.br/dp/8539908352', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Khan Academy - Algoritmos', url: 'https://pt.khanacademy.org/computing/computer-science/algorithms', publisher: 'Khan Academy', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Algoritmos — Programação Para Iniciantes — Gilvan Vilarim',
+          category: 'livro-programacao',
+          amazonUrl: 'https://www.amazon.com.br/dp/8539908352?&linkCode=sl2&tag=dizzritimia-20&linkId=6049e5186b3c60253f73678e5aad76a3&ref_=as_li_ss_tl',
+          reason: 'Introdução nacional focada em raciocínio algorítmico antes da sintaxe — bom para quem está começando; para entrevistas e estruturas avançadas, busque um material intermediário.',
+        },
+      ],
+    },
+  },
+  {
+    id: '220',
+    slug: 'mouse-barato-bom-para-jogar-e-estudar',
+    title: 'Mouse Barato Bom para Jogar e Estudar',
+    excerpt: 'Um mouse barato pode servir para jogo e estudo? Veja sensor, formato e DPI sem cair em marketing.',
+    content: `
+      <p>Mouse é o periférico mais subestimado: passamos horas com a mão nele, mas muitos setups mantêm o mouse genérico do kit. Um mouse gamer de entrada pode melhorar precisão e conforto sem custar uma fortuna.</p>
+      <h2>O que realmente importa</h2>
+      <p><strong>Sensor consistente</strong> (sem aceleração estranha), <strong>formato confortável</strong> para sua pegada (palm, claw ou fingertip) e <strong>peso equilibrado</strong>. DPI alto no anúncio impressiona, mas estabilidade do rastreio importa mais.</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>Sensor:</strong> rastreio firme em mousepad de tecido, sem pulos.</li>
+        <li><strong>Botões:</strong> cliques com resposta clara; botões laterais ajudam em jogos e navegação.</li>
+        <li><strong>Cabo e pés:</strong> cabo flexível e pés de PTFE fazem diferença no deslize.</li>
+        <li><strong>Software:</strong> ajuste de DPI por perfil evita trocar configuração toda hora.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>Comprar pelo DPI máximo anunciado; ignorar o tamanho da mão; usar em mesa direta sem mousepad. Outro erro é esperar que o mouse corrija mira — treino e sensibilidade adequada mandam mais.</p>
+      <h2>Quando faz sentido</h2>
+      <p>O <strong>Mouse Gamer Logitech G203 LIGHTSYNC RGB 8000 DPI</strong> faz sentido como entrada versátil: sensor com faixa ampla de DPI, formato compacto que atende várias pegadas, iluminação personalizável e ecossistema de software maduro para perfis de jogo e estudo.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Mãos muito grandes podem preferir modelos maiores; jogadores de MMO podem querer mais botões laterais. E se o foco é silêncio em escritório, um mouse office silencioso atende melhor que um gamer com clique alto.</p>
+      <p>Combine com <a href="/games/mouse-pad-gamer-barato-vale-a-pena">mouse pad gamer barato</a> e <a href="/games/teclado-mecanico-para-games-como-escolher">teclado mecânico para games</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Mouse barato bom existe quando sensor, formato e construção estão certos. Para jogar e estudar no mesmo equipamento, um gamer de entrada equilibrado é um upgrade de uso diário.</p>
+    `,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['mouse', 'mouse gamer', 'periférico', 'logitech', 'setup barato'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 5,
+    sources: [
+      { title: 'Mouse Gamer Logitech G203 LIGHTSYNC RGB 8000 DPI - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B087CT8PWY', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'Mouse Gamer Logitech G203 LIGHTSYNC RGB 8000 DPI',
+          category: 'mouse-gamer',
+          amazonUrl: 'https://www.amazon.com.br/dp/B087CT8PWY?th=1&linkCode=sl2&tag=dizzritimia-20&linkId=72dbd752006358121a24ea171f5753f0&ref_=as_li_ss_tl',
+          reason: 'Mouse gamer de entrada com até 8000 DPI e perfis de ajuste — serve tanto para sessões de jogo quanto para estudo; para MMO ou mãos muito grandes, avalie outro formato.',
+        },
+      ],
+    },
+  },
+  {
+    id: '221',
+    slug: 'cabo-hdmi-barato-como-escolher-sem-cair-em-golpe',
+    title: 'Cabo HDMI Barato: Como Escolher sem Cair em Golpe',
+    excerpt: 'Cabo HDMI caro é melhor? Entenda versões, 4K e quando o barato resolve sem perda de qualidade.',
+    content: `
+      <p>Cabo HDMI é um dos itens com mais mito no setup: vendedores empurram modelos caros prometendo "imagem melhor", mas sinal digital não funciona assim — ou chega íntegro ou falha visivelmente. O barato certo resolve na maioria dos casos.</p>
+      <h2>O que realmente importa</h2>
+      <p><strong>Versão do HDMI</strong> (2.0 atende 4K a 60 Hz com HDR na maioria dos usos), <strong>comprimento</strong> (cabos curtos têm menos chance de falha) e <strong>construção</strong> (conectores firmes e blindagem decente).</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>Resolução e taxa:</strong> para 4K/60 Hz com HDR, HDMI 2.0 é suficiente; 8K ou 4K/120 Hz pedem 2.1.</li>
+        <li><strong>Comprimento:</strong> 1 metro é ideal para PC-monitor e TV próxima; evite sobra enrolada.</li>
+        <li><strong>Conectores:</strong> contatos banhados a ouro resistem melhor à oxidação — sem mágica na imagem.</li>
+        <li><strong>Certificação:</strong> desconfie de promessas vagas; especificação clara vale mais que embalagem premium.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>Pagar caro achando que a imagem vai "ficar mais nítida"; comprar cabo longo demais e culpar a TV por falhas; ignorar a entrada correta (algumas TVs só têm 4K/60 em portas específicas).</p>
+      <h2>Quando faz sentido</h2>
+      <p>O <strong>PIX Cabo HDMI 2.0 4K HDR 1M Gold</strong> faz sentido para o uso mais comum: ligar PC, console ou TV Box a monitor/TV 4K com HDR, em distância curta, com conectores reforçados. Simples, direto e sem custo de "cabos premium".</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Para PS5/Xbox em 4K/120 Hz ou 8K, busque cabo Ultra High Speed (HDMI 2.1) — e confira se o <a href="/games/monitores-oled-gamers-nova-geracao">monitor ou TV</a> realmente aceita essa taxa. Para atravessar parede ou passar de 5 metros, considere cabos ativos ou fibra óptica HDMI. No PC, o gargalo pode estar na saída da <a href="/games/como-escolher-placa-de-video-para-pc-gamer">placa de vídeo</a>, não no cabo.</p>
+      <h2>Conclusão</h2>
+      <p>Em HDMI, especificação correta + comprimento certo vencem preço alto. Para 4K HDR em curta distância, um cabo 2.0 bem construído é tudo que a maioria precisa.</p>
+    `,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['hdmi', 'cabo hdmi', '4k', 'monitor', 'setup barato'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 5,
+    sources: [
+      { title: 'PIX Cabo HDMI 2.0 4K HDR 1M Gold - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B076BYMKH9', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'HDMI - Wikipedia', url: 'https://en.wikipedia.org/wiki/HDMI', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'PIX Cabo HDMI 2.0 4K HDR 1M Gold',
+          category: 'cabo-hdmi',
+          amazonUrl: 'https://www.amazon.com.br/dp/B076BYMKH9?th=1&linkCode=sl2&tag=dizzritimia-20&linkId=aaa87135d31e7458ca846007d7ace317&ref_=as_li_ss_tl',
+          reason: 'Cabo de 1 metro com HDMI 2.0 para o caso mais comum: 4K com HDR em curta distância. Para 4K/120 Hz ou trechos longos, este não é o indicado.',
+        },
+      ],
+    },
+  },
+  {
+    id: '222',
+    slug: 'hub-usb-barato-como-expandir-as-portas-gastando-pouco',
+    title: 'Hub USB Barato: Como Expandir as Portas Gastando Pouco',
+    excerpt: 'Faltando USB no notebook? Veja como escolher um hub 3.0 sem erro de velocidade e compatibilidade.',
+    content: `
+      <p>Notebooks finos sacrificam portas USB — e é aí que um hub barato salva: mouse, teclado, HD externo e pendrive convivendo sem revezamento. Mas hub ruim derruba velocidade e desconecta do nada.</p>
+      <h2>O que realmente importa</h2>
+      <p><strong>Versão USB real</strong> (3.0/3.2 Gen 1 entrega até 5 Gbps teóricos), <strong>número de portas com uso simultâneo</strong> e <strong>alimentação</strong> (HDs externos podem exigir mais energia que a porta fornece).</p>
+      <h2>Critérios de escolha</h2>
+      <ul>
+        <li><strong>USB 3.0 de verdade:</strong> confira conectores azuis e especificação de 5 Gbps; fuja de anúncio vago.</li>
+        <li><strong>4 portas:</strong> atende mouse + teclado + armazenamento + sobra para pendrive.</li>
+        <li><strong>Cabo integrado x destacável:</strong> integrado é prático; destacável facilita troca se quebrar.</li>
+        <li><strong>Compatibilidade:</strong> funciona em Windows, macOS e Linux via driver padrão — sem instalador estranho.</li>
+      </ul>
+      <h2>Erros comuns</h2>
+      <p>Ligar dois HDs famintos num hub sem alimentação e culpar o hub; usar cabo extensor longo que derruba a velocidade; esperar carregar notebook pela porta de dados.</p>
+      <h2>Quando faz sentido</h2>
+      <p>O <strong>TP-Link UH400 Hub USB 3.0 com 4 portas (5 Gbps)</strong> faz sentido como expansor direto: quatro portas USB 3.0 para periféricos e armazenamento, de marca estabelecida em redes e acessórios, sem fonte externa para o uso cotidiano.</p>
+      <h2>Quando procurar outra opção</h2>
+      <p>Se você usa múltiplos HDs externos simultâneos ou precisa de leitor SD, Ethernet e HDMI juntos, considere um hub com alimentação externa ou um dock USB-C. Para MacBooks só com USB-C, um adaptador/hub USB-C é obrigatório.</p>
+      <p>Veja também <a href="/tecnologia/suporte-para-notebook-barato-ergonomia-gastando-pouco">suporte para notebook barato</a> para completar o setup móvel.</p>
+      <h2>Conclusão</h2>
+      <p>Hub USB barato bom é o que entrega a velocidade prometida com estabilidade: 4 portas 3.0 atendem a maioria dos notebooks. Escale para dock alimentado só quando o uso exigir.</p>
+    `,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['hub usb', 'usb 3.0', 'notebook', 'periférico', 'tp-link'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 5,
+    sources: [
+      { title: 'TP-Link UH400 Hub USB 3.0 4 portas 5Gbps - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B00V4BGD00', publisher: 'Amazon.com.br', type: 'company' },
+      { title: 'USB - Wikipedia', url: 'https://en.wikipedia.org/wiki/USB', type: 'other' },
+    ],
+    // TASK 6 - link de afiliado REAL via SiteStripe (dizzritimia-20). Usado literalmente, sem alteracao.
+    affiliate: {
+      products: [
+        {
+          label: 'TP-Link UH400 Hub USB 3.0 4 portas 5Gbps',
+          category: 'hub-usb',
+          amazonUrl: 'https://www.amazon.com.br/dp/B00V4BGD00?th=1&linkCode=sl2&tag=dizzritimia-20&linkId=7670aa267c4ba69afb903ee3384ed2a0&ref_=as_li_ss_tl',
+          reason: 'Quatro portas USB 3.0 de até 5 Gbps para periféricos e pendrive — resolve a falta de portas do dia a dia; para vários HDs externos simultâneos, um hub com alimentação externa é melhor.',
+        },
+      ],
+    },
   },
 ];

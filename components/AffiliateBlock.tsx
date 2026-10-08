@@ -8,6 +8,8 @@ const MAX_PRODUCTS = 3;
 interface AffiliateBlockProps {
   /** Dados do artigo. Ausente ou sem produtos -> nada é renderizado. */
   affiliate?: AffiliateBlockData;
+  /** Slug da categoria do artigo — usado apenas para medição (data-attribute). */
+  category?: string;
   className?: string;
 }
 
@@ -62,7 +64,7 @@ export function affiliateCtaLabel(produto: AffiliateProduct): string {
  * Garantias: sem pop-up, sem urgência, sem link inventado, sem mais de
  * 3 itens, `reason` sempre visível.
  */
-export default function AffiliateBlock({ affiliate, className = '' }: AffiliateBlockProps) {
+export default function AffiliateBlock({ affiliate, category, className = '' }: AffiliateBlockProps) {
   const produtos = affiliate?.products;
 
   // Sem produtos: não renderiza absolutamente nada (nem wrapper, nem título).
@@ -77,6 +79,7 @@ export default function AffiliateBlock({ affiliate, className = '' }: AffiliateB
       className={`mt-10 pt-8 border-t border-border ${className}`}
       aria-labelledby="affiliate-block-heading"
       data-affiliate-block="true"
+      data-affiliate-category={category}
     >
       <h2
         id="affiliate-block-heading"
@@ -124,6 +127,9 @@ export default function AffiliateBlock({ affiliate, className = '' }: AffiliateB
                 <a
                   href={href}
                   {...AFFILIATE_LINK_PROPS}
+                  data-affiliate-position={String(index)}
+                  data-affiliate-product={produto.label}
+                  data-affiliate-program={produto.store?.trim() || 'Amazon'}
                   className="inline-block mt-2 py-2 text-sm font-medium text-accent hover:text-accent/80 transition-colors underline decoration-dotted underline-offset-2"
                 >
                   {affiliateCtaLabel(produto)}

@@ -10,6 +10,7 @@ import { Article, SITE_NAME, SITE_URL } from '@/lib/types';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 import AdSlot from '@/components/AdSlot';
 import AffiliateBlock from '@/components/AffiliateBlock';
+import { AffiliateClickTracker } from '@/components/AffiliateClickTracker';
 
 interface ArticlePageProps {
   params: Promise<{
@@ -268,7 +269,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           {/* Bloco de afiliados (TASK 6AQ). Condicional: hoje `article.affiliate`
               é undefined nos 176 artigos, então este componente retorna null
               e nada é renderizado. */}
-          <AffiliateBlock affiliate={article.affiliate} />
+          <AffiliateBlock affiliate={article.affiliate} category={article.category.slug} />
+          <AffiliateClickTracker slug={`${article.category.slug}/${article.slug}`} category={article.category.slug} />
 
           {/* Ad placeholder — disabled until AdSense approval (AdSlot renders null) */}
           <AdSlot slot="article-bottom" size="rectangle" className="mt-12" />

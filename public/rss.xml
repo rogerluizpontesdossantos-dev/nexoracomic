@@ -10,9 +10,157 @@
     <description>NexoraComic é uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek. Artigos sobre astronomia, física, IA, games, filmes e curiosidades científicas.</description>
     <language>pt-BR</language>
     <copyright>Copyright 2024-2026 NexoraComic. Todos os direitos reservados.</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link rel="self" href="https://nexoracomic.vercel.app/rss.xml" type="application/rss+xml" />
 
+    <item>
+      <title>Suporte para Notebook Barato: Ergonomia Gastando Pouco</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/suporte-para-notebook-barato-ergonomia-gastando-pouco</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/suporte-para-notebook-barato-ergonomia-gastando-pouco</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Dor no pescoço depois de horas no notebook? Entenda o que um suporte barato resolve de verdade e quando vale investir.</description>
+      <content:encoded>Dor no pescoço depois de horas no notebook? Entenda o que um suporte barato resolve de verdade e quando vale investir.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Suporte Premium vs Básico: O Que Realmente Importa?</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/suporte-premium-vs-basico-o-que-realmente-importa</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/suporte-premium-vs-basico-o-que-realmente-importa</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Preço maior significa suporte melhor? Compare rigidez, ângulos e portabilidade antes de decidir.</description>
+      <content:encoded>Preço maior significa suporte melhor? Compare rigidez, ângulos e portabilidade antes de decidir.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Mouse Pad Gamer Barato: Vale a Pena?</title>
+      <link>https://nexoracomic.vercel.app/games/mouse-pad-gamer-barato-vale-a-pena</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/mouse-pad-gamer-barato-vale-a-pena</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Um mouse pad barato melhora a mira ou é só estética? Entenda tamanho, superfície e costura antes de comprar.</description>
+      <content:encoded>Um mouse pad barato melhora a mira ou é só estética? Entenda tamanho, superfície e costura antes de comprar.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Mousepad Estendido: Como Escolher</title>
+      <link>https://nexoracomic.vercel.app/games/mousepad-estendido-como-escolher</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/mousepad-estendido-como-escolher</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Mousepad estendido organiza a mesa e melhora o jogo. Veja largura ideal, espessura e estampa sem erro.</description>
+      <content:encoded>Mousepad estendido organiza a mesa e melhora o jogo. Veja largura ideal, espessura e estampa sem erro.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Mousepad 70x35 Custo-Benefício para Iniciantes</title>
+      <link>https://nexoracomic.vercel.app/games/mousepad-70x35-custo-beneficio-para-iniciantes</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/mousepad-70x35-custo-beneficio-para-iniciantes</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Primeiro mousepad grande? Veja por que o formato 70x35 é o ponto de partida ideal e o que conferir antes de comprar.</description>
+      <content:encoded>Primeiro mousepad grande? Veja por que o formato 70x35 é o ponto de partida ideal e o que conferir antes de comprar.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Setup Gamer Barato: 3 Upgrades que Fazem Diferença</title>
+      <link>https://nexoracomic.vercel.app/games/setup-gamer-barato-3-upgrades-que-fazem-diferenca</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/setup-gamer-barato-3-upgrades-que-fazem-diferenca</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Sem trocar PC: três upgrades baratos que melhoram conforto, precisão e organização do seu setup.</description>
+      <content:encoded>Sem trocar PC: três upgrades baratos que melhoram conforto, precisão e organização do seu setup.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Aprenda Python 3 do Jeito Certo: Por Onde Começar</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/aprenda-python-3-do-jeito-certo-por-onde-comecar</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/aprenda-python-3-do-jeito-certo-por-onde-comecar</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Quer aprender Python sem se perder em tutoriais soltos? Veja um caminho estruturado com prática guiada.</description>
+      <content:encoded>Quer aprender Python sem se perder em tutoriais soltos? Veja um caminho estruturado com prática guiada.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Python para Iniciantes: Por Onde Começar Gastando Pouco</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/python-para-iniciantes-por-onde-comecar-gastando-pouco</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/python-para-iniciantes-por-onde-comecar-gastando-pouco</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Primeira linguagem? Veja como começar em Python com material acessível e progressão sem atalhos furados.</description>
+      <content:encoded>Primeira linguagem? Veja como começar em Python com material acessível e progressão sem atalhos furados.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Algoritmos para Iniciantes: O Que Aprender Primeiro</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/algoritmos-para-iniciantes-o-que-aprender-primeiro</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/algoritmos-para-iniciantes-o-que-aprender-primeiro</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Antes de frameworks: entenda quais conceitos de algoritmos realmente importam no começo.</description>
+      <content:encoded>Antes de frameworks: entenda quais conceitos de algoritmos realmente importam no começo.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Mouse Barato Bom para Jogar e Estudar</title>
+      <link>https://nexoracomic.vercel.app/games/mouse-barato-bom-para-jogar-e-estudar</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/games/mouse-barato-bom-para-jogar-e-estudar</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/games">Games</category>
+      <description>Um mouse barato pode servir para jogo e estudo? Veja sensor, formato e DPI sem cair em marketing.</description>
+      <content:encoded>Um mouse barato pode servir para jogo e estudo? Veja sensor, formato e DPI sem cair em marketing.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Cabo HDMI Barato: Como Escolher sem Cair em Golpe</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/cabo-hdmi-barato-como-escolher-sem-cair-em-golpe</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/cabo-hdmi-barato-como-escolher-sem-cair-em-golpe</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Cabo HDMI caro é melhor? Entenda versões, 4K e quando o barato resolve sem perda de qualidade.</description>
+      <content:encoded>Cabo HDMI caro é melhor? Entenda versões, 4K e quando o barato resolve sem perda de qualidade.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Hub USB Barato: Como Expandir as Portas Gastando Pouco</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/hub-usb-barato-como-expandir-as-portas-gastando-pouco</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/hub-usb-barato-como-expandir-as-portas-gastando-pouco</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Faltando USB no notebook? Veja como escolher um hub 3.0 sem erro de velocidade e compatibilidade.</description>
+      <content:encoded>Faltando USB no notebook? Veja como escolher um hub 3.0 sem erro de velocidade e compatibilidade.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Melhores Livros para Aprender Programação: Guia Completo para Iniciantes e Avançados</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/melhores-livros-para-aprender-programacao-guia-completo</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/melhores-livros-para-aprender-programacao-guia-completo</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Descubra os livros essenciais de programação que podem acelerar sua jornada como desenvolvedor, desde fundamentos até arquitetura de software.</description>
+      <content:encoded>Descubra os livros essenciais de programação que podem acelerar sua jornada como desenvolvedor, desde fundamentos até arquitetura de software.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Open_book_nae_02.svg/960px-Open_book_nae_02.svg.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Open_book_nae_02.svg/960px-Open_book_nae_02.svg.png" medium="image">
+        <media:title type="html">Livro aberto com páginas brancas, ilustração simples e limpa</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como a Inteligência Artificial Vai Mudar Nossa Vida nas Próximas Décadas</title>
+      <link>https://nexoracomic.vercel.app/inteligencia-artificial/como-a-inteligencia-artificial-vai-mudar-nossa-vida-nas-proximas-decasadas</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/como-a-inteligencia-artificial-vai-mudar-nossa-vida-nas-proximas-decasadas</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
+      <description>A inteligência artificial está se transformando rapidamente de uma promessa tecnológica em uma força que redefine como trabalhamos, aprendemos e interagimos. Entenda o que esperar até 2041.</description>
+      <content:encoded>A inteligência artificial está se transformando rapidamente de uma promessa tecnológica em uma força que redefine como trabalhamos, aprendemos e interagimos. Entenda o que esperar até 2041.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Robot_sculpture_at_Hotel_Metropol_Brussels.jpg/960px-Robot_sculpture_at_Hotel_Metropol_Brussels.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Robot_sculpture_at_Hotel_Metropol_Brussels.jpg/960px-Robot_sculpture_at_Hotel_Metropol_Brussels.jpg" medium="image">
+        <media:title type="html">Escultura de robô em estilo futurista em ambiente urbano</media:title>
+      </media:content>
+    </item>
     <item>
       <title>RuneScape Reignited Chega em Dezembro e Jagex Anuncia Quarto MMO</title>
       <link>https://nexoracomic.vercel.app/games/runescape-reignited-lancamento-runefest-2026</link>
@@ -355,8 +503,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/games/como-escolher-placa-de-video-para-pc-gamer</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/games">Games</category>
-      <description>VRAM, resolução, ray tracing e upscaling de IA. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.</description>
-      <content:encoded>VRAM, resolução, ray tracing e upscaling de IA. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.</content:encoded>
+      <description>VRAM, resolução, ray tracing e upscaling de IA — técnica que também aparece no nosso &lt;a href=&quot;/games/como-escolher-placa-de-video-para-pc-gamer&quot;&gt;guia de placas de vídeo&lt;/a&gt;. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.</description>
+      <content:encoded>VRAM, resolução, ray tracing e upscaling de IA — técnica que também aparece no nosso &lt;a href=&quot;/games/como-escolher-placa-de-video-para-pc-gamer&quot;&gt;guia de placas de vídeo&lt;/a&gt;. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Sapphire-Radeon-HD-5570-Video-Card.jpg?width=960" />
       <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Sapphire-Radeon-HD-5570-Video-Card.jpg?width=960" medium="image">
@@ -2525,8 +2673,8 @@
       <guid isPermaLink="false">https://nexoracomic.vercel.app/inteligencia-artificial/etica-e-vieses-da-ia</guid>
       <pubDate>Sun, 28 Jan 2024 00:00:00 GMT</pubDate>
       <category domain="https://nexoracomic.vercel.app/inteligencia-artificial">Inteligência Artificial</category>
-      <description>Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa.</description>
-      <content:encoded>Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa.</content:encoded>
+      <description>Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa. Para entender a base técnica por trás desses sistemas, o nosso &lt;a href=&quot;/inteligencia-artificial/aprendizado-de-maquina-explicado&quot;&gt;guia de aprendizado de máquina explicado&lt;/a&gt; mostra como um modelo é treinado na prática..</description>
+      <content:encoded>Sistemas de IA podem discriminar sem querer. Entenda de onde vêm os vieses, quais casos marcaram a história e como tornar a IA mais justa. Para entender a base técnica por trás desses sistemas, o nosso &lt;a href=&quot;/inteligencia-artificial/aprendizado-de-maquina-explicado&quot;&gt;guia de aprendizado de máquina explicado&lt;/a&gt; mostra como um modelo é treinado na prática..</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
       <media:thumbnail url="https://commons.wikimedia.org/wiki/Special:FilePath/Timnit%20Gebru%20crop.jpg?width=960" />
       <media:content url="https://commons.wikimedia.org/wiki/Special:FilePath/Timnit%20Gebru%20crop.jpg?width=960" medium="image">

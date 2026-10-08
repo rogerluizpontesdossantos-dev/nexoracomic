@@ -51,44 +51,56 @@ export default function CookieConsent() {
   const scriptsLoaded = useRef(false);
 
   /**
-   * Carrega os scripts de terceiros SOMENTE após consentimento.
+   * Carrega os scripts de terceiros SOMENTE após consentimento ACEITO.
    * Analytics (Google Analytics) mantém o comportamento existente.
    * O AdSense é carregado apenas se a publicidade estiver habilitada
    * (NEXT_PUBLIC_ENABLE_ADS=true) — caso contrário, nenhum script é
    * requisitado.
+   *
+   * O GA4 só é carregado quando NEXT_PUBLIC_GA_ID tem formato válido
+   * (G-XXXXXXXXXX). Sem ID, nenhum script é injetado e nenhum erro é
+   * gerado. O evento `nexora:consent` é disparado pelo `persist`, não
+   * aqui — evita despacho duplicado (este componente também escuta o
+   * evento via useSyncExternalStore).
    */
-  const loadScripts = (value: Consent) => {
+  const loadScripts = () => {
     // AdSense — somente se os anúncios estiverem habilitados.
     if (isAdsEnabled()) {
-      const adSenseScript = document.createElement('script');
-      adSenseScript.async = true;
-      adSenseScript.src = ADSENSE_SCRIPT_SRC;
-      adSenseScript.crossOrigin = 'anonymous';
-      adSenseScript.dataset.adsense = 'true';
-      document.head.appendChild(adSenseScript);
+      if (!document.querySelector('script[data-adsense="true"]')) {
+        const adSenseScript = document.createElement('script');
+        adSenseScript.async = true;
+        adSenseScript.src = ADSENSE_SCRIPT_SRC;
+        adSenseScript.crossOrigin = 'anonymous';
+        adSenseScript.dataset.adsense = 'true';
+        document.head.appendChild(adSenseScript);
+      }
     }
 
-    // Analytics script (if NEXT_PUBLIC_GA_ID is set)
+    // Analytics script (somente com GA ID válido e consentimento aceito).
     const gaId = process.env.NEXT_PUBLIC_GA_ID;
-    if (gaId) {
-      const analyticsScript = document.createElement('script');
-      analyticsScript.async = true;
-      analyticsScript.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
-      document.head.appendChild(analyticsScript);
+    if (gaId && /^G-[A-Z0-9]{6,}$/.test(gaId)) {
+      if (!document.querySelector('script[data-ga="true"]')) {
+        const analyticsScript = document.createElement('script');
+        analyticsScript.async = true;
+        analyticsScript.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaId)}`;
+        analyticsScript.dataset.ga = 'true';
+        document.head.appendChild(analyticsScript);
 
-      const gtagScript = document.createElement('script');
-      gtagScript.innerHTML = `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '${gaId}');
-      `;
-      document.head.appendChild(gtagScript);
+        const gtagScript = document.createElement('script');
+        gtagScript.dataset.ga = 'true';
+        gtagScript.text = [
+          'window.dataLayer = window.dataLayer || [];',
+          'function gtag(){dataLayer.push(arguments);}',
+          "gtag('js', new Date());",
+          `gtag('config', '${gaId}');`,
+        ].join('\n');
+        document.head.appendChild(gtagScript);
+      }
     }
 
-    // Notifica os AdSlots (montados no servidor) de que há consentimento,
-    // para que só então renderizem o <ins> do AdSense.
-    window.dispatchEvent(new CustomEvent('nexora:consent', { detail: value }));
+    // Carregamento concluído aqui; o evento `nexora:consent` já foi
+    // disparado por `persist` — não despachar de novo (evita listeners
+    // duplos e re-renders extras).
   };
 
   // Carrega os scripts de terceiros no máximo uma vez e SOMENTE após
@@ -96,7 +108,7 @@ export default function CookieConsent() {
   useEffect(() => {
     if (consent !== 'accepted' || scriptsLoaded.current) return;
     scriptsLoaded.current = true;
-    loadScripts(consent);
+    loadScripts();
   }, [consent]);
 
   // Sem consentimento salvo o banner aparece; com consentimento salvo ele
