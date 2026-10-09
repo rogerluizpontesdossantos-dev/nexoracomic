@@ -13275,5 +13275,304 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       { title: 'Apple Security Research - iMessage with PQ3 (2024)', url: 'https://security.apple.com/blog/imessage-pq3/', type: 'official' },
       { title: 'Cloudflare - Defending against future threats: Cloudflare goes post-quantum', url: 'https://blog.cloudflare.com/post-quantum-for-all/', type: 'official' },
     ]
+  },
+  {
+    id: '243',
+    slug: 'genetica-longevidade-tartaruga-jonathan',
+    title: 'A Genética da Tartaruga Jonathan: Como um Animal de 194 Anos Desafia o Envelhecimento',
+    excerpt: 'Um estudo na Science Advances mapeou o genoma e o epigenoma de Jonathan, a tartaruga gigante de Aldabra mais velha do mundo. O que os cientistas encontraram pode iluminar a busca pela longevidade humana.',
+    content: `
+      <h2>Quem É Jonathan</h2>
+      <p>Jonathan é uma tartaruga gigante de Aldabra (Aldabrachelys gigantea) que vive na ilha de Santa Helena, território ultramarino britânico no Atlântico Sul. Estima-se que tenha 194 anos — o que a torna o animal terrestre mais velho do mundo em vida. Acredita-se que tenha nascido por volta de 1832, contemporâneo de Charles Darwin e da rainha Vitória. Jonathan chegou a Santa Helena em 1882, vindo das Seychelles, já adulto, como presente ao governador da ilha, e passou a maior parte da vida nos jardins da Plantation House.</p>
+      <h2>O Que o Estudo Descobriu</h2>
+      <p>Publicado em outubro de 2026 na revista <em>Science Advances</em>, o estudo "Epigenetic insights into extreme longevity in the world's oldest terrestrial animal, Jonathan" identificou 287 variantes genéticas únicas nessa tartaruga que reduzem os efeitos usuais do envelhecimento. Essas variantes atuam em processos-chave do corpo: reparo de danos no DNA, redução da inflamação, regulação da insulina e supressão do câncer.</p>
+      <h2>O Papel do Epigenoma</h2>
+      <p>A grande surpresa veio do epigenoma — os "interruptores" que ligam e desligam os genes. Os pesquisadores compararam o epigenoma de Jonathan com o de tartarugas mais jovens da mesma espécie e notaram algo notável: os interruptores que controlam os genes de reparo de DNA e metabolismo de Jonathan continuavam muito parecidos com os de seus parentes jovens. Em geral, o epigenoma muda com o tempo, e essa mudança é uma das razões pelas quais corpos idosos começam a falhar. Em Jonathan, essa instabilidade epigenética praticamente não aconteceu.</p>
+      <p>"Encontramos os reguladores genéticos envolvidos na produção de energia e no reparo de DNA incrivelmente estáveis em Jonathan ao longo de quase dois séculos", resumiu Justin Gerlach, um dos autores do estudo. Foi a primeira vez que o epigenoma de uma tartaruga gigante foi analisado.</p>
+      <h2>Por Que Isso Importa</h2>
+      <p>Stephen Clark, fundador da Kallel e autor sênior do estudo, afirmou que o genoma de Jonathan oferece "um projeto de resiliência celular" e que o objetivo é traduzir essas descobertas evolutivas em tratamentos práticos e acessíveis. Segundo ele, o envelhecimento é o maior fator de risco para quase todas as doenças crônicas que enfrentamos.</p>
+      <p>A pesquisa foi financiada pelo Voland Fund e baseou-se em uma amostra de células da bochecha de Jonathan — um procedimento simples e não invasivo. Tartarugas gigantes como as de Galápagos e Seychelles estão entre os últimos sobreviventes de animais que antes dominavam a ecologia de muitas ilhas, o que torna seu genoma uma janela única para a biologia do envelhecimento lento.</p>
+      <h2>Conclusão</h2>
+      <p>Jonathan não é só uma celebridade — é um caso de estudo científico. O trabalho publicado na <em>Science Advances</em> mostra que longevidade extrema deixa marcas genéticas e epigenéticas mensuráveis, e que a estabilidade do reparo de DNA ao longo da vida pode ser a chave. Ainda há um longo caminho entre uma tartaruga e a clínica humana, mas o genoma de Jonathan já virou um roteiro para a pesquisa em longevidade.</p>
+`,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['longevidade', 'tartaruga', 'genética', 'epigenoma', 'envelhecimento', 'Science Advances'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Aldabra_Giant_Tortoise_Geochelone_gigantea_edit1.jpg',
+    imageLicense: 'GFDL 1.2',
+    imageArtist: 'Muhammad Mahdi Karim',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Aldabra_Giant_Tortoise_Geochelone_gigantea_edit1.jpg',
+    imageAlt: 'Tartaruga gigante de Aldabra pastando em área gramada; a espécie da tartaruga Jonathan.',
+    sources: [
+      { title: 'Cambridge Research News — Genetic analysis of the world\'s oldest land animal reveals secret of living 194 years', url: 'https://www.cam.ac.uk/research/news/genetic-analysis-of-the-worlds-oldest-land-animal-reveals-secret-of-living-194-years', type: 'university' },
+      { title: 'Vaisvil, B. et al. — Epigenetic insights into extreme longevity in the world\'s oldest terrestrial animal, Jonathan (Science Advances, 2026), DOI 10.1126/sciadv.adw8887', url: 'https://www.science.org/doi/10.1126/sciadv.adw8887', type: 'journal' },
+    ]
+  },
+  {
+    id: '244',
+    slug: 'baterias-estado-solido-carros-eletricos',
+    title: 'Baterias de Estado Sólido: A Tecnologia Que Promete Mudar os Carros Elétricos',
+    excerpt: 'A Honda apresentou uma linha de demonstração para baterias de estado sólido no Japão. Entenda o que são, por que importam e em que ponto está a corrida para produzi-las em massa.',
+    content: `
+      <h2>O Problema das Baterias Atuais</h2>
+      <p>Os carros elétricos de hoje dependem quase todos de baterias de íon-lítio com eletrólito líquido. Essas baterias funcionam bem, mas têm limites: são volumosas, exigem sistemas de refrigeração pesados e, em casos raros, o eletrólito inflamável representa risco de incêndio. As baterias de estado sólido trocam o eletrólito líquido por um material sólido — a promessa de uma mudança de paradigma.</p>
+      <h2>O Que São Baterias de Estado Sólido</h2>
+      <p>Numa bateria de estado sólido, o eletrólito líquido ou em gel é substituído por um eletrólito sólido. Segundo a Honda, a alta densidade de energia e a excelente resistência ao calor dessas baterias fazem delas a "próxima geração" capaz de resolver problemas que travam a popularização dos elétricos: autonomia, preço e tempo de recarga. Como o sólido é mais estável termicamente, é possível simplificar o sistema de refrigeração — reduzindo peso e custo.</p>
+      <h2>O Passo Concreto da Honda</h2>
+      <p>Em 21 de novembro de 2024, a Honda revelou uma linha de produção de demonstração para baterias de estado sólido, construída nas instalações da Honda R&D em Sakura, província de Tochigi, no Japão. A linha tem cerca de 27.400 metros quadrados e reproduz os processos necessários para a produção em massa, incluindo pesagem e mistura dos materiais dos eletrodos, revestimento e prensagem da montagem dos eletrodos, formação das células e montagem do módulo. O investimento foi de aproximadamente 43 bilhões de ienes.</p>
+      <p>A Honda planejava iniciar a produção de baterias nessa linha de demonstração em janeiro de 2025, para verificar as tecnologias e os custos de produção em massa enquanto desenvolvia as especificações das células. O objetivo declarado é aplicar as baterias de estado sólido a modelos eletrificados a serem lançados na segunda metade da década de 2020.</p>
+      <h2>O Desafio Técnico e a Escala</h2>
+      <p>Keiji Otsu, presidente da Honda R&D, chamou a tecnologia de "game changer" e disse que as baterias substituirão os motores como fator-chave da eletrificação. Mas ele foi claro sobre a etapa: ainda é uma linha de <em>demonstração</em>, não produção em massa. A Honda usa uma técnica de prensagem contínua para aumentar o contato entre eletrólito e eletrodos e reduzir o tempo de produção por célula, e planeja aplicar as baterias não só a carros, mas também a motocicletas e aeronaves, buscando economia de escala.</p>
+      <h2>Conclusão</h2>
+      <p>As baterias de estado sólido estão entre as tecnologias mais aguardadas do setor automotivo, mas ainda não chegaram ao carro do consumidor. O passo da Honda — uma linha de demonstração em escala real — mostra que a indústria saiu do laboratório, embora a produção em massa permaneça como meta para a segunda metade dos anos 2020. O sucesso dependerá de resolver o custo e a confiabilidade de fabricação em larga escala.</p>
+`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['baterias de estado sólido', 'carros elétricos', 'Honda', 'íon-lítio', 'energia', 'mobilidade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/5/56/18650_and_21700_lithium_ion_battery_cell.jpg',
+    imageLicense: 'CC0',
+    imageArtist: 'Sevenethics',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:18650_and_21700_lithium_ion_battery_cell.jpg',
+    imageAlt: 'Células de bateria de íon-lítio 18650 e 21700 lado a lado, exemplos de baterias recarregáveis.',
+    sources: [
+      { title: 'Honda — Honda Unveils Demonstration Production Line for All-Solid-State Batteries (21/11/2024)', url: 'https://global.honda/en/newsroom/news/2024/c241121eng.html', type: 'company' },
+    ]
+  },
+  {
+    id: '245',
+    slug: 'missoes-volta-venus-veritas-davinci',
+    title: 'De Volta a Vênus: As Missões VERITAS e DAVINCI Querem Revelar o "Gêmeo" da Terra',
+    excerpt: 'Depois de décadas de foco em Marte, a NASA prepara duas missões para estudar Vênus de perto. O objetivo é entender por que um planeta tão parecido com a Terra se tornou um inferno escaldante.',
+    content: `
+      <h2>O Mistério de Vênus</h2>
+      <p>Vênus tem estrutura e tamanho semelhantes aos da Terra, mas sua atmosfera espessa prende o calor em um efeito estufa descontrolado, tornando-o o planeta mais quente do Sistema Solar. A pergunta que move as novas missões é direta: Vênus já foi úmido e habitável, como a Terra, e o que deu errado? A resposta ajuda a definir o que torna um planeta habitável — e a reconhecer sinais de alerta em exoplanetas distantes.</p>
+      <h2>Um Retorno Depois de Marte</h2>
+      <p>A exploração robótica da NASA se concentrou fortemente em Marte nas últimas décadas, enquanto Vênus ficou relativamente negligenciado desde o fim da era das missões Magellan, que mapearam o planeta por radar nos anos 1990. Segundo a própria NASA, VERITAS e DAVINCI serão as primeiras espaçonaves americanas desde essa época a explorar o vizinho da Terra.</p>
+      <h2>VERITAS: Mapeando a Superfície em 3D</h2>
+      <p>A missão VERITAS (Venus Emissivity, Radio Science, InSAR, Topography and Spectroscopy) é um orbitador movido a energia solar com muitas semelhanças com a nave MAVEN, que orbita Marte desde 2014. Ao chegar a Vênus, usará aerofrenagem para reduzir a velocidade e ajustar a órbita, estabilizando-se em uma órbita quase polar a 250 milhas (400 quilômetros) de altitude. A missão é liderada pela investigadora principal Suzanne Smrekar e gerida pelo JPL da NASA, com contribuições importantes das agências espaciais da Itália, Alemanha e França.</p>
+      <p>Entre as "primeiras vezes" que a NASA atribui à missão estão: criar as primeiras imagens topográficas e de radar globais de alta resolução de Vênus; mapear regiões onde processos geológicos estão ativamente mudando a superfície; produzir o primeiro mapa quase global da composição das rochas; e fazer a primeira determinação da composição do núcleo do planeta — e de se ele é sólido ou líquido.</p>
+      <h2>DAVINCI: Despencando na Atmosfera</h2>
+      <p>DAVINCI (Deep Atmosphere Venus Investigation of Noble gases, Chemistry, and Imaging) tem uma abordagem ousada. A espaçonave, com sete instrumentos, fará uma série de sobrevoos para rastrear o movimento das nuvens e mapear a composição da superfície. Dois anos após o início da missão, ela soltará uma sonda que amostrará a química da atmosfera e medirá temperatura, pressão e ventos durante a descida. Ao chegar abaixo das nuvens, a sonda fará medições e capturará imagens de alta resolução de uma região montanhosa chamada Alpha Regio, que pode estar entre as superfícies mais antigas de Vênus — dando aos cientistas acesso remoto a rochas de bilhões de anos.</p>
+      <h2>Conclusão</h2>
+      <p>VERITAS e DAVINCI representam um retrato mais completo de Vênus em uma geração. Uma missão mapeia o planeta de cima; a outra despenca por sua atmosfera até perto do solo. Juntas, devem ajudar a responder por que um mundo que talvez já teve água se tornou o mais hostil do nosso sistema.</p>
+`,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['Vênus', 'VERITAS', 'DAVINCI', 'NASA', 'exploração espacial', 'astrobiologia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Venus_globe.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA/JPL',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Venus_globe.jpg',
+    imageAlt: 'Imagem global da superfície de Vênus obtida por radar, centrada em 180 graus de longitude leste.',
+    sources: [
+      { title: 'NASA — VERITAS mission page', url: 'https://science.nasa.gov/mission/veritas/', type: 'agency' },
+      { title: 'NASA — DAVINCI mission page', url: 'https://science.nasa.gov/mission/davinci/', type: 'agency' },
+    ]
+  },
+  {
+    id: '246',
+    slug: 'ai-act-regras-modelos-uso-geral-2026',
+    title: 'AI Act em Vigor: As Regras para Modelos de IA de Uso Geral Já Valem na Europa',
+    excerpt: 'Desde 2 de agosto de 2026, a União Europeia começou a aplicar as regras de transparência do AI Act aos modelos de IA de uso geral. Entenda o que mudou para quem desenvolve e usa esses sistemas.',
+    content: `
+      <h2>O Primeiro Marco Legal Mundial para IA</h2>
+      <p>O AI Act — Regulamento (UE) 2024/1689 — é o primeiro marco legal abrangente sobre inteligência artificial do mundo. Seu objetivo é promover uma "IA confiável" na Europa, com regras baseadas no nível de risco de cada sistema. Em vez de proibir a tecnologia, a lei classifica os usos em categorias e impõe obrigações proporcionais a cada uma.</p>
+      <h2>Quatro Níveis de Risco</h2>
+      <p>A lei define quatro níveis de risco para os sistemas de IA. Usos de <strong>risco inaceitável</strong> são proibidos — nove práticas, entre elas a manipulação e o engano nocivos por IA, a exploração de vulnerabilidades, a pontuação social (social scoring) e a raspagem não direcionada de imagens da internet ou de CFTV para criar ou ampliar bancos de dados de reconhecimento facial. Essas proibições entraram em vigor em fevereiro de 2025.</p>
+      <p>Depois vêm os sistemas de <strong>alto risco</strong>, os de <strong>risco limitado</strong> (sujeitos a obrigações de transparência) e os de <strong>risco mínimo</strong>, que respondem pela maior parte das aplicações do dia a dia.</p>
+      <h2>O que São Modelos de Uso Geral (GPAI)</h2>
+      <p>Modelos de IA de uso geral (GPAI, na sigla em inglês) são sistemas treinados com grandes volumes de dados e capazes de realizar uma ampla gama de tarefas — a base de assistentes e geradores de conteúdo. Por estarem no centro do ecossistema de IA, receberam um regime próprio de transparência.</p>
+      <h2>O Passo de 2 de Agosto de 2026</h2>
+      <p>Em 31 de julho de 2026, a Comissão Europeia anunciou que começaria a aplicar as regras do AI Act e as novas exigências de transparência em <strong>2 de agosto</strong>. A partir dessa data, passaram a valer obrigações específicas para provedores de modelos de uso geral, ligadas à transparência: documentação técnica, política de direitos autorais e um resumo dos dados de treinamento. A ideia é dar mais clareza sobre como esses modelos foram construídos e sobre que conteúdos se baseiam.</p>
+      <h2>Quem Fiscaliza e Quais as Penas</h2>
+      <p>A aplicação do AI Act é compartilhada entre o AI Office da Comissão Europeia e as autoridades nacionais de cada país-membro. O descumprimento pode resultar em multas significativas, previstas na própria regulamentação, além de medidas corretivas. A Comissão também mantém um AI Act Service Desk e uma ferramenta de denúncias para apoiar a implementação em toda a UE.</p>
+      <h2>Conclusão</h2>
+      <p>A entrada em vigor das regras para modelos de uso geral em 2 de agosto de 2026 marca o momento em que a regulação europeia de IA deixou o papel para valer na prática. Para desenvolvedores, significa novas obrigações de transparência; para usuários e empresas, um cenário com mais clareza sobre a origem dos sistemas que consomem. Ainda há fases de transição pela frente, mas o AI Act já é uma realidade operacional.</p>
+`,
+    category: { id: 'inteligencia-artificial', slug: 'inteligencia-artificial', name: 'Inteligência Artificial', description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA', color: '#ec4899' },
+    tags: ['AI Act', 'União Europeia', 'regulação de IA', 'GPAI', 'transparência', 'IA Office'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Ank Kumar',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:European_Commission_headquarters,_The_Berlaymont_Building,_Brussels,_Belgium_(_Ank_Kumar,_Infosys_Limited_).jpg',
+    imageAlt: 'Edifício Berlaymont, sede da Comissão Europeia em Bruxelas, Bélgica.',
+    sources: [
+      { title: 'European Commission — AI Act (Regulatory framework for AI)', url: 'https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai', type: 'government' },
+      { title: 'European Commission Press Release (31/07/2026) — Commission starts enforcing AI Act rules and new transparency requirements on 2 August', url: 'https://ec.europa.eu/commission/presscorner/detail/en/ip_26_3299', type: 'government' },
+    ]
+  },
+  {
+    id: '247',
+    slug: 'preservacao-games-classicos-risco',
+    title: '87% dos Games Clássicos Estão em Risco: A Corrida Para Preservar a História dos Videogames',
+    excerpt: 'Um levantamento da Video Game History Foundation com a Entertainment Software Association mostrou que a grande maioria dos jogos antigos está indisponível comercialmente. Entenda o problema e o que está sendo feito.',
+    content: `
+      <h2>Um Alerta Sobre a Memória dos Jogos</h2>
+      <p>Imagine se quase todo o cinema mudo tivesse desaparecido. Foi mais ou menos isso que um estudo da Video Game History Foundation (VGHF), em parceria com a Software Preservation Network, constatou sobre os videogames. Publicado em julho de 2023, o levantamento concluiu que cerca de 87% dos jogos clássicos — aqueles lançados antes de 2010 — estão indisponíveis comercialmente. Ou seja: apenas 13% dessa produção ainda pode ser comprada de forma legal. O trabalho foi justamente uma resposta ao argumento de que a indústria já preserva seu próprio acervo, mostrando que ele não preserva.</p>
+      <h2>Como o Levantamento Chegou ao Número</h2>
+      <p>A VGHF partiu de uma lista de referência de jogos para as principais plataformas clássicas dos Estados Unidos e verificou um a um quais continuam disponíveis para venda. O resultado é que a esmagadora maioria saiu de catálogo, teve lojas digitais fechadas ou depende de servidores que já não existem. Para o jogador comum, isso significa depender de pirataria, garimpar mercados de usados ou visitar um arquivo físico para ter acesso a uma fatia enorme da história do meio.</p>
+      <h2>Por Que os Jogos Desaparecem</h2>
+      <p>Diferente de um livro ou de um filme, um jogo é uma obra frágil. Ele depende de direitos autorais complexos (música, personagens, tecnologia de terceiros), de hardwares e sistemas operacionais antigos e, cada vez mais, de servidores online que a produtora pode desligar a qualquer momento. Quando uma loja digital fecha ou uma licença expira, o jogo pode simplesmente deixar de existir do ponto de vista comercial — mesmo que ainda houvesse interesse do público.</p>
+      <h2>O Que Está Sendo Feito</h2>
+      <p>Diante do cenário, esforços de preservação ganharam força. A própria VGHF atua na catalogação e no resgate de jogos em risco, enquanto arquivos, museus e bibliotecas passaram a tratar games como patrimônio cultural. A pesquisa da fundação também serviu de base para debates sobre a responsabilidade das empresas na manutenção do acesso ao que publicam. Em 2024, segundo acompanhamento da imprensa especializada, o campo deu passos adiante, mas ainda tem um longo caminho até garantir que esses jogos permaneçam jogáveis.</p>
+      <h2>Conclusão</h2>
+      <p>O número de 87% é um retrato duro: sem ação deliberada, a maior parte da história dos videogames se tornará inacessível. Preservar jogos é preservar cultura — e o estudo da VGHF com a Software Preservation Network transformou esse princípio em dado concreto, pressionando a indústria e a sociedade a tratarem o arquivamento de games como prioridade, não como curiosidade de museu.</p>
+`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['preservação', 'videogames clássicos', 'Video Game History Foundation', 'ESA', 'história dos games'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Console_per_videogiochi_-_Museo_scienza_tecnologia_Milano_12398_06.jpg',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Sony Computer Entertainment Incorporated (construtor/ produtor), Sony Design Center (designer)',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Console_per_videogiochi_-_Museo_scienza_tecnologia_Milano_12398_06.jpg',
+    imageAlt: 'Console de videogame exposto no museu de ciência e tecnologia de Milão, exemplo de hardware clássico preservado.',
+    sources: [
+      { title: 'Video Game History Foundation — 87% Missing: the Disappearance of Classic Video Games', url: 'https://gamehistory.org/87percent/', type: 'other' },
+      { title: 'Eurogamer — Video Game History Foundation estimates 87 percent of classic games now unavailable', url: 'https://www.eurogamer.net/video-game-history-foundation-estimates-87-percent-of-classic-games-now-unavailable', type: 'news' },
+      { title: 'The Verge — Almost 90 percent of classic games are \'critically endangered,\' say archivists', url: 'https://www.theverge.com/2023/7/14/23792586/classic-game-preservation-video-game-history-foundation-esa', type: 'news' },
+    ]
+  },
+  {
+    id: '248',
+    slug: 'retorno-efeitos-praticos-animatronica-cinema',
+    title: 'O Retorno dos Efeitos Práticos: Por que o Cinema Aposta de Novo em Bonecos e Animatrônicos',
+    excerpt: 'O filme A Lenda de Ochi, da A24, construiu suas criaturas com bonecos físicos e animatrônica. Diretores e técnicos explicam por que o tangível ainda encanta plateias — e convive com o CGI.',
+    content: `
+      <h2>Uma Criatura que Existia de Verdade</h2>
+      <p>No filme <em>A Lenda de Ochi</em> (<em>The Legend of Ochi</em>), lançado pela A24 nos cinemas em 18 de abril de 2025, a heroína Yuri (Helena Zengel) precisa devolver um filhote de Ochi à sua mãe. Os Ochi são criaturas imaginárias — primatas de pelo laranja que se comunicam por assobios distintos, quase uma canção. Mas, no set, eles eram reais: fantoches e animatrônicos construídos em escala e operados por equipes de bonequeiros, algo raro no cinema de estúdio atual.</p>
+      <h2>A Aposta do Diretor</h2>
+      <p><em>A Lenda de Ochi</em> é a estreia na direção de longas de Isaiah Saxon, um artista que dedicou a carreira à chamada "mágica visual prática". Em vez de criar tudo em computador, ele quis que atores e equipe reagissem a algo tangível. "Entendemos as limitações da animatrônica e dos efeitos práticos, mas nosso trabalho é manter as pessoas adivinhando", afirmou John Nolan, veterano técnico de bonecos e animatrônica que trabalhou no projeto. Quando há um objeto físico no set, a luz incide sobre ele de um jeito que o olho percebe — mesmo que não saiba explicar.</p>
+      <h2>CGI Também Tem Lugar</h2>
+      <p>A escolha, porém, não é um rejeição ao digital. No próprio filme, os planos mais amplos em que as criaturas saltam ou correm — sobretudo nas sequências iniciais — foram feitos inteiramente em animação computadorizada. Saxon critica o uso excessivo e a "preguiça" que se espalhou pela indústria, quando "se filma todo mundo contra uma tela azul e se resolve depois". Para ele, prático e digital podem e devem coexistir.</p>
+      <h2>Por que Nosso Cérebro Aceita o Boneco</h2>
+      <p>Há um efeito curioso descrito pelos próprios artistas: o espectador vê o bonequeiro acima do fantoche e, ainda assim, o cérebro "ignora" a pessoa e passa a aceitar a criatura como viva. Essa suspensão de descrença é mais fácil quando existe matéria, peso e movimento reais — algo que uma tela verde pura não oferece da mesma forma.</p>
+      <h2>Uma Tendência, Não uma Regra</h2>
+      <p>O caso de <em>A Lenda de Ochi</em> ilustra um movimento mais amplo de valorização dos efeitos práticos, movido tanto por escolhas estéticas quanto por reações contra o exagero do CGI. Não se trata de abandonar a computação gráfica — que continua indispensável — mas de recuperar o tato, a fisicalidade e o improviso no set. O resultado é um tipo de magia que, segundo seus criadores, o público sente antes de identificar.</p>
+`,
+    category: { id: 'filmes-series', slug: 'filmes-series', name: 'Filmes e Séries', description: 'Ficção científica, tecnologia no cinema e análise de produções', color: '#f97316' },
+    tags: ['efeitos práticos', 'animatrônica', 'A24', 'A Lenda de Ochi', 'CGI', 'bonecos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Lincoln_Audio-Animatronic_%2842346731335%29.jpg',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'HarshLight from San Jose, CA, USA',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Lincoln_Audio-Animatronic_(42346731335).jpg',
+    imageAlt: 'Audio-Animatronic de Abraham Lincoln, figura robótica animatrônica em exposição, exemplo de efeitos práticos mecânicos.',
+    sources: [
+      { title: 'Los Angeles Times — \'The Legend of Ochi\' uses puppetry to bring a fantasy creature to life (15/04/2025)', url: 'https://www.latimes.com/entertainment-arts/movies/story/2025-04-15/legend-of-ochi-puppetry-animatronics-creature-a24-isaiah-saxon-john-nolan', type: 'news' },
+      { title: 'A24 — The Legend of Ochi (página oficial do filme)', url: 'https://a24films.com/films/the-legend-of-ochi', type: 'company' },
+    ]
+  },
+  {
+    id: '249',
+    slug: 'industria-webtoons-coreana-expansao-global',
+    title: 'A Indústria de Webtoons: Como as Histórias em Quadrinhos Verticais da Coreia Conquistaram o Mundo',
+    excerpt: 'A receita do setor de webtoon na Coreia do Sul superou 2 trilhões de won pelo segundo ano seguido. Entenda o formato vertical, a expansão global e os desafios à frente.',
+    content: `
+      <h2>O Que São Webtoons</h2>
+      <p>Webtoons são quadrinhos digitais criados para serem lidos no celular, com rolagem vertical e painéis coloridos otimizados para a tela pequena. Diferente do mangá ou das HQs ocidentais tradicionais, o formato nasceu pensado para o smartphone — e é justamente isso que ajudou a popularizá-lo junto ao público jovem, dentro e fora da Ásia.</p>
+      <h2>Um Mercado de Trilhões de Won</h2>
+      <p>Segundo dados oficiais divulgados em dezembro de 2025 pelo Ministério da Cultura, Esportes e Turismo da Coreia do Sul e pela Korea Creative Content Agency, a indústria sul-coreana de webtoon faturou cerca de <strong>2,286 trilhões de won</strong> (cerca de US$ 1,4 bilhão) em 2024 — alta de 4,4% sobre os 2,189 trilhões do ano anterior. É o segundo ano consecutivo acima da casa dos 2 trilhões.</p>
+      <p>O crescimento foi constante desde que o governo passou a compilar estatísticas do setor, em 2018. Em 2017, a receita era de apenas 379,9 bilhões de won. O setor ultrapassou a marca de 1 trilhão em 2020 e chegou aos 2 trilhões pela primeira vez em 2023.</p>
+      <h2>Exportação e Alcance Global</h2>
+      <p>O mercado doméstico é grande, mas a expansão externa é o motor da indústria. O Japão segue como principal destino das exportações sul-coreanas de webtoon, com 49,5% do total, seguido pela América do Norte (21,0%), regiões de língua chinesa (13,0%), Sudeste Asiático (9,5%) e Europa (6,2%). Os direitos de transmissão online respondem por 84% das exportações — reflexo de como as plataformas de leitura digital dominaram a distribuição.</p>
+      <h2>Da Coreia Para as Telas</h2>
+      <p>Parte do apelo dos webtoons vem de seu potencial de adaptação. Muitas histórias publicadas nas plataformas foram transformadas em séries de televisão e filmes, o que cria um ciclo de valor entre a obra original e as adaptações. Esse fluxo ajuda a financiar novos títulos e a projetar a cultura coreana de histórias em quadrinhos no exterior.</p>
+      <h2>Desafios e Perspectivas</h2>
+      <p>O crescimento, porém, não elimina as tensões do setor. A concorrência entre plataformas, a remuneração dos autores e o uso de ferramentas de inteligência artificial na criação e na tradução automática são temas em discussão. Ainda assim, os números oficiais mostram uma indústria consolidada, com bilhões de dólares em receita e presença global crescente — e que transformou a forma como milhões de pessoas leem histórias em quadrinhos.</p>
+`,
+    category: { id: 'quadrinhos', slug: 'quadrinhos', name: 'Quadrinhos', description: 'Comics, super-heróis, ciência nos quadrinhos e adaptações', color: '#6366f1' },
+    tags: ['webtoon', 'quadrinhos digitais', 'Coreia do Sul', 'mangá', 'adaptações', 'mercado'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Korea_Manhwa_Museum_20251122_3.jpg',
+    imageLicense: 'CC BY 4.0',
+    imageArtist: 'Motoko C. K.',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Korea_Manhwa_Museum_20251122_3.jpg',
+    imageAlt: 'Interior do Museu de Manhwa da Coreia, com exposição de quadrinhos coreanos.',
+    sources: [
+      { title: 'Yonhap News Agency — Webtoon industry revenue tops 2 tln won for 2nd straight year (29/12/2025)', url: 'https://en.yna.co.kr/view/AEN20251229008800315', type: 'news' },
+      { title: 'Korea Creative Content Agency (KOCCA) — portal oficial de conteúdo coreano (dados do relatório)', url: 'https://www.kocca.kr/en/main.do', type: 'government' },
+    ]
+  },
+  {
+    id: '250',
+    slug: 'murmuracoes-estorninhos-ciencia-bando',
+    title: 'Murmurações: A Ciência Por Trás dos Balés Aéreos dos Estorninhos',
+    excerpt: 'Milhares de estorninhos voam em formação hipnótica ao anoitecer. Pesquisas recentes mostram que esse espetáculo é, antes de tudo, uma estratégia de defesa contra predadores.',
+    content: `
+      <h2>O Espetáculo do Anoitecer</h2>
+      <p>Ao cair da tarde, entre o outono e o inverno, bandos de estorninhos (Sturnus vulgaris) se reúnem no céu e desenham formas que lembram ondas, redemoinhos e fumaça em movimento. Essas formações, chamadas de murmurações (murmurations), podem reunir dezenas de milhares de aves e acontecem sobretudo pouco antes de os pássaros se recolherem para dormir. O efeito é ao mesmo tempo bonito e intrigante: como tantos animais se movem juntos sem colidir?</p>
+      <h2>Duas Explicações em Disputa</h2>
+      <p>Por muito tempo, os cientistas discutiram por que as murmurações existem. Havia duas grandes hipóteses. A primeira, a do "mais seguros juntos", dizia que voar em bando reduz o risco de ataque por meio do efeito de diluição (cada ave tem menos chance de ser a escolhida), do efeito de detecção (mais olhos para avistar o perigo) e da confusão do predador (um alvo que muda de direção sem parar é difícil de perseguir). A segunda, a do "mais quentes juntos", sugeria que as exibições serviam para recrutar mais aves e formar bandos maiores e, portanto, mais quentes para passar a noite.</p>
+      <h2>O Que os Dados Mostraram</h2>
+      <p>Para testar essas ideias, uma equipe da Universidade de Gloucestershire, no Reino Unido, conduziu um estudo com cientistas cidadãos, publicado na revista <em>PLOS One</em> em junho de 2017. Voluntários registraram tamanho, duração, habitat e temperatura de centenas de murmurações. A conclusão, segundo os autores, é que o comportamento coletivo observado funciona <strong>principalmente como adaptação antipredador</strong>, e não como forma de atrair mais indivíduos para se aquecer no abrigo.</p>
+      <h2>Como um Bando Se Coordena</h2>
+      <p>Trabalhos complementares sobre o movimento dos bandos indicam que cada pássaro não segue um líder central, mas reage aos vizinhos mais próximos, mantendo uma distância que preserva o padrão do grupo. Quando um falcão ataca, a informação da mudança de direção parece se propagar pelo bando quase instantaneamente — um efeito conhecido como correlação livre de escala, descrito em estudos de física do voo coletivo. É essa regra simples, repetida por milhares de aves, que gera a complexidade vista no céu.</p>
+      <h2>Por que Isso Nos Fascina</h2>
+      <p>A murmuração é um dos exemplos mais visíveis de comportamento coletivo na natureza. Ela ajuda a entender desde cardumes de peixes e revoadas de insetos até o tráfego de pedestres. E, no caso dos estorninhos, serve como lembrete de que uma imagem deslumbrante pode ter uma função evolutiva prática: sobreviver mais uma noite.</p>
+`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['murmuração', 'estorninhos', 'comportamento coletivo', 'PLOS One', 'ornitologia', 'antipredador'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/9/93/A_starling_murmuration_-_geograph.org.uk_-_6389346.jpg',
+    imageLicense: 'CC BY-SA 2.0',
+    imageArtist: 'Walter Baxter',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:A_starling_murmuration_-_geograph.org.uk_-_6389346.jpg',
+    imageAlt: 'Nuvem densa de estorninhos em murmuração contra o céu, formando padrões fluidos no ar.',
+    sources: [
+      { title: 'Goodenough, A. E. et al. — Birds of a feather flock together: Insights into starling murmuration behaviour revealed using citizen science (PLOS One, 2017), DOI 10.1371/journal.pone.0179277', url: 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0179277', type: 'journal' },
+      { title: 'PMC — Birds of a feather flock together: Insights into starling murmuration behaviour (texto completo aberto)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5476259/', type: 'journal' },
+    ]
+  },
+  {
+    id: '251',
+    slug: 'robos-humanoides-fabricas-bmw-figure',
+    title: 'Robôs Humanoides em Fábricas: A BMW Coloca o Figure 03 na Linha de Produção',
+    excerpt: 'Depois de um piloto de 11 meses com o Figure 02, a BMW passou a usar o novo Figure 03 na planta de Spartanburg. Os humanoides estão saindo do laboratório para tarefas reais de fábrica.',
+    content: `
+      <h2>Do Laboratório Para a Fábrica</h2>
+      <p>Durante anos, robôs humanoides pareceram presos a vídeos de demonstração. Isso começou a mudar de forma concreta quando a BMW Group decidiu testar o robô Figure, da empresa californiana Figure AI, em sua fábrica. "A Plant Spartanburg é o berço da robótica humanoide nas atividades do dia a dia da manufatura da BMW", declarou Ulrich Wieland, vice-presidente de controle de produção e logística da BMW Manufacturing.</p>
+      <h2>O Piloto com o Figure 02</h2>
+      <p>Antes de avançar, a montadora rodou um piloto na planta de Spartanburg, na Carolina do Sul, usando o modelo anterior, o Figure 02. O robô apoiou a produção de mais de 30.000 unidades do BMW X3. Na chamada body shop (oficina de carroceria), o Figure 02 inseria peças de chapa metálica no processo de solda — uma tarefa que exige velocidade e precisão e que é fisicamente desgastante para humanos. O piloto durou cerca de 11 meses.</p>
+      <p>"Nossa implantação de 11 meses do Figure 02 provou que os humanoides não são mais experimentos de laboratório — eles podem ser um ativo valioso para estabelecer uma força de trabalho de manufatura flexível e confiável", afirmou Brett Adcock, fundador e CEO da Figure AI.</p>
+      <h2>O Que o Figure 03 Faz de Novo</h2>
+      <p>Anunciado em junho de 2026, o próximo passo é a implantação do <strong>Figure 03</strong>, que traz novos recursos: mãos aprimoradas com sensores táteis e câmeras na palma para aumentar a precisão e a destreza, componentes macios pensados para mais segurança, carregamento sem fio para maior disponibilidade e funções de áudio para comunicação por fala.</p>
+      <p>Na nova aplicação, o robô assume uma tarefa de sequenciamento logístico: as peças chegam em contêineres maiores, não classificadas, e o Figure 03 as recolhe e as organiza em um carrinho de sequenciamento. Depois, um transporte automatizado leva as peças ao ponto de montagem, onde são entregues aos funcionários "just in sequence" (na sequência exata). É um processo muito comum na logística automotiva, o que abre caminho para escalar o uso.</p>
+      <h2>Não É Só a Figure</h2>
+      <p>A BMW também testa outros humanoides. Na planta de Leipzig, na Alemanha, a montadora avalia o AEON, um robô humanoide com rodas da Hexagon, com o objetivo de integrar humanoides à produção de carros e explorar aplicações futuras na fabricação de baterias e componentes. O esforço da indústria, portanto, é mais amplo: descobrir onde esses robôs realmente agregam valor.</p>
+      <h2>O Que Esperar</h2>
+      <p>Os humanoides ainda não vão substituir operários em massa, e as próprias empresas tratam cada implantação como aprendizado. Mas o salto de demonstrações de laboratório para tarefas repetidas em linhas reais — apoiando dezenas de milhares de veículos — marca uma virada. A questão agora é se a tecnologia consegue escalar com segurança e custo competitivo, algo que só o tempo na fábrica poderá responder.</p>
+`,
+    category: { id: 'futuro', slug: 'futuro', name: 'Futuro', description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes', color: '#10b981' },
+    tags: ['robôs humanoides', 'BMW', 'Figure AI', 'automação', 'indústria', 'logística'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Atlas_frontview_2013.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'DARPA',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Atlas_frontview_2013.jpg',
+    imageAlt: 'Robô humanoide Atlas visto de frente, exemplo clássico de robô bípede de pesquisa.',
+    sources: [
+      { title: 'The Robot Report — BMW Group deploys Figure 03 humanoid after tests with previous version (29/06/2026)', url: 'https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/', type: 'news' },
+      { title: 'Figure AI — página de notícias e anúncios oficiais (Figure 03)', url: 'https://www.figure.ai/news', type: 'company' },
+      { title: 'BMW Group PressClub — comunicados sobre robótica humanoide', url: 'https://www.press.bmwgroup.com/global', type: 'company' },
+    ]
   }
 ];
