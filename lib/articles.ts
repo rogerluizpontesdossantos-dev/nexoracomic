@@ -12880,4 +12880,400 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       { title: 'High dynamic range - Wikipedia', url: 'https://en.wikipedia.org/wiki/High_dynamic_range', type: 'other' },
     ],
   },
+
+  {
+    id: '234',
+    slug: 'viagens-humanas-a-marte-2030',
+    title: 'Viagens Humanas a Marte: O que a NASA e a SpaceX Prometem Para 2030',
+    excerpt: 'Um panorama claro das missões planeadas, dos cronogramas e dos desafios técnicos e físicos que definem a corrida para o Planeta Vermelho.',
+    content: `
+
+    <h2>O Mapa do Desenho</h2>
+    <p>A corrida para Marte já não é só história de ficção científica. A NASA, a SpaceX e uma coalizão de agências espaciais internacionais anunciaram cronogramas concretos para a década de 2030, com viagens diretas, estação lunar e, em último termo, bases persistentes no Planeta Vermelho. Mas a distância não é a única barreira: a radiação, a gravidade parcial, a logística de vida e o retorno foram os ganchos que definem o que é tecnicamente viável hoje.</p>
+
+    <h2>A NASA e a Artemis: o Portão para Marte</h2>
+    <p>O programa Artemis da NASA estabeleceu um cronograma de duas décadas para retornar a laços humanos à Lua, com uma porta de embarque crítica para Marte. O objetivo não é sustentar uma estação fixa na Lua, mas sim testar a vida de longa duração, os sistemas de trânsito de regolito, o habitação de pressão e a navegação em gravidade fraca antes de se chegar aos destinos mais distantes.</p>
+
+    <h2>SpaceX e a Falcon Heavy e a Starship</h2>
+    <p>A Starship da SpaceX foi projetada para carregar enormes cargas e colocar uma estrutura reutilizável de alto volume em órbita baixa da Terra, a Lua e, eventualmente, Marte. O objetivo é transformar a viagem em uma operação de rotina, algo com que o setor ainda não tem precedente. A logística envolve separar a frotas de lançamento, a capacidade de retorno espacial da Terra e a infraestrutura de apoio no destino.</p>
+
+    <h2>Os Desafios Práticos</h2>
+    <ul>
+      <li><strong>Vida no espaço de longo prazo:</strong> uso de sistemas de suporte, mitigação de radiação, reposição de suprimentos.</li>
+      <li><strong>Voo espacial:</strong> a viagem ainda é longa e o sistema de suporte precisa durar meses sem falhar.</li>
+      <li><strong>Recuperação:</strong> a capacidade de voltar do destino, descartar a parte que não for útil e reutilizar o que puder.</li>
+    </ul>
+
+    <h2>A Visão Bidirecional para 2030</h2>
+    <p>A meta de 2030 é razoável: estacionar um tripulante na Lua, testar a logística de lançamento e reutilização, e ter a infraestrutura o suficiente para iniciar uma viagem direta a Marte em uma janela de lançamento de 26 meses, com um plano de devolução passageira. O que define o sucesso não é apenas a data, mas a robustez dos sistemas que suportam a viagem.</p>
+  
+    `,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['Marte', 'NASA', 'SpaceX', 'Artemis', 'Starship', 'exploração espacial'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/PIA23302-FirstHumansOnMars-ArtistConcept.jpg/1280px-PIA23302-FirstHumansOnMars-ArtistConcept.jpg',
+    imageAlt: 'Vista artística de uma futura base humana no Planeta Vermelho, com a superfície marciana ao fundo.',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:PIA23302-FirstHumansOnMars-ArtistConcept.jpg',
+    sources: [
+      { title: 'NASA - Artemis Program', url: 'https://www.nasa.gov/artemis', type: 'government' },
+      { title: 'SpaceX - Starship', url: 'https://www.spacex.com/starship', type: 'company' },
+    ]
+  },
+
+  {
+    id: '235',
+    slug: 'jwst-redefinindo-nascimento-estrelas',
+    title: 'Como o Telescópio James Webb Está Redefinindo o Nascimento das Estrelas',
+    excerpt: 'Os primeiros dados do telescópio mostram que a formação de estrelas começou mais cedo do que se pensava, com objetos fracos e jovens que só agora a tecnologia de ponta consegue capturar.',
+    content: `
+
+      <h2>O Instrumeto que enxerga o Início</h2>
+      <p>O James Webb Space Telescope (JWST) transformou a astrofísica ao observar a luz do universo no infravermelho, permitindo ver objetos que eram invisíveis para telescópios anteriores. A capacidade de detectar luas frias, nuvens protetais e galáxias primordiais está redefinindo a cronologia do universo.</p>
+
+      <h2>O que os Dados Mostram</h2>
+      <p>Dados recentes indicam que a formação de estrelas começou mais cedo do que se pensava, com aglomerados que ainda não tinham nascido — e, em alguns casos, já com acúmulo de metálicos nas atmosferas, o que sugere que a produção de elementos pesados começou muito antes.</p>
+
+      <h2>Nuvens Protetais e Nascimentos</h2>
+      <p>Nas regiões de nascimento de estrelas, o JWST captou detalhes de nuvens protetais e estruturas jovens, permitindo rastrear, quase campo a campo, como o hidrogênio se condensa e começa a queimar. Isso é crucial para entender como as primeiras estrelas envolveram o universo.</p>
+
+      <h2>O que Isso Muda para a Teoria</h2>
+      <p>O modelo antigo de formação estelar, baseado em estrelas que evoluíram e da origem de elementos, precisa ser revisado para contemplar uma estrutura mais dinâmica. O JWST mostra que o universo produziu estrelas em uma escala maior e mais rápida do que previam os modelos.</p>
+
+      <h2>Por que Isso Importa Agora</h2>
+      <p>Estudar o nascimento das estrelas é o mesmo que estudar o processo físico que produziu os elementos, a estrutura das galáxias e, indiretamente, as condições que tornaram possível a vida. O JWST não está somente mirando no fundo do universo: está olhando como a própria matéria se organizou.</p>
+    
+    `,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['James Webb', 'astronomia', 'estrelas', 'infravermelho', 'astrofísica'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-08',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/1280px-Webb%27s_First_Deep_Field.jpg',
+    imageAlt: 'Primeira imagem de fundo do telescópio James Webb, mostrando milhões de estrelas e galáxias distantes.',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA, ESA, CSA, and STScI',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Webb%27s_First_Deep_Field.jpg',
+    sources: [
+      { title: 'NASA - James Webb Space Telescope', url: 'https://www.nasa.gov/webb', type: 'government' },
+      { title: 'ESA - Webb Science', url: 'https://www.esa.int/Science_Exploration/Space_Science/Webb', type: 'agency' },
+    ]
+  },
+
+  {
+    id: '236',
+    slug: 'gateway-estacao-lunar-orbita-lua',
+    title: 'Gateway: A Estação Lunar Que Vai Servir de Base Para Astronautas na Órbita da Lua',
+    excerpt: 'A pequena estação internacional na órbita da Lua que vai apoiar pousos do programa Artemis e testar a vida no espaço profundo antes de Marte.',
+    content: `
+
+      <h2>O Que É a Gateway</h2>
+      <p>A Gateway é a pequena estação espacial internacional que a NASA e seus parceiros planejam montar na órbita da Lua. Diferente da Estação Espacial Internacional, ela não terá tripulação permanente: foi pensada como um ponto de apoio para as missões Artemis, onde astronautas fazem escala, transferem mantimentos e preparam a descida à superfície lunar.</p>
+
+      <h2>Os Primeiros Módulos: PPE e HALO</h2>
+      <p>Os dois primeiros elementos são o Power and Propulsion Element (PPE), que fornece energia solar e propulsão elétrica, e o Habitation and Logistics Outpost (HALO), com espaço para a tripulação viver e trabalhar por curtos períodos. Os dois serão lançados juntos e acoplados antes de seguir para a órbita lunar, em um voo contratado junto à SpaceX.</p>
+
+      <h2>Uma Obra Internacional</h2>
+      <p>A estação é um esforço conjunto: a ESA fornece módulos de habitação e comunicação, o Japão contribui com logística e sistemas de suporte, o Canadá entra com braços robóticos e os Emirados Árabes Unidos com uma eclusa de ar. Cada parceiro entrega uma peça que se conecta ao núcleo americano.</p>
+
+      <h2>Por Que Uma Órbita Tão Diferente</h2>
+      <p>A Gateway vai operar numa órbita alongada que passa perto da Lua e se afasta dela a cada ciclo. Essa trajetória economiza combustível, mantém a estação em contato quase constante com a Terra e permite acesso a várias regiões da superfície lunar, incluindo o polo sul, onde pode haver água congelada.</p>
+
+      <h2>O Que Vem Depois</h2>
+      <p>Com o núcleo em órbita, os próximos passos são acoplar módulos maiores de habitação, sistemas de reabastecimento e o veículo de pouso que leva astronautas à superfície. Se o cronograma se mantiver, a Gateway entra em operação na segunda metade da década de 2020 e se torna o trampolim das missões tripuladas rumo a Marte na década de 2030.</p>
+    
+    `,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['Gateway', 'NASA', 'Lua', 'Artemis', 'estação espacial', 'espaço profundo'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/2024_Lunar_Gateway_concept_art%2C_March_2020.jpg/1280px-2024_Lunar_Gateway_concept_art%2C_March_2020.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'National Aeronautics and Space Administration',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:2024_Lunar_Gateway_concept_art,_March_2020.jpg',
+    imageAlt: 'Arte conceitual da estação lunar Gateway com os módulos de propulsão e habitação e uma nave de carga.',
+    sources: [
+      { title: 'NASA - About Gateway', url: 'https://www.nasa.gov/reference/gateway-about/', type: 'government' },
+      { title: 'NASA - Gateway (mission page)', url: 'https://www.nasa.gov/mission/gateway/', type: 'government' },
+      { title: 'NASA - Contract to Launch Initial Elements for Lunar Outpost', url: 'https://www.nasa.gov/news-release/nasa-awards-contract-to-launch-initial-elements-for-lunar-outpost/', type: 'government' },
+    ]
+  },
+
+  {
+    id: '237',
+    slug: 'cometa-interestelar-3i-atlas-visitante',
+    title: '3I/ATLAS: O Visitante Interestelar Que Atravessa o Sistema Solar em 2025',
+    excerpt: 'Descoberto em julho de 2025, o terceiro objeto interestelar já visto cruza o Sistema Solar em trajetória sem volta e mobiliza Hubble, Webb e sondas em Marte.',
+    content: `
+
+      <h2>O Terceiro Visitante de Outro Sistema</h2>
+      <p>O cometa 3I/ATLAS é apenas o terceiro objeto interestelar já detectado atravessando o Sistema Solar, depois do 1I/Oumuamua e do 2I/Borisov. Ele foi identificado em 1 de julho de 2025 pelo telescópio de pesquisa ATLAS, no Chile, já em uma trajetória hiperbólica que prova sua origem fora do nosso sistema: ele veio do espaço entre as estrelas e vai embora sem voltar.</p>
+
+      <h2>O Que o Hubble Revelou</h2>
+      <p>Em 21 de julho de 2025, o Telescópio Espacial Hubble fotografou o cometa a cerca de 365 milhões de quilômetros da Terra. A imagem mostra um casulo de poeira em forma de lágrima saindo do núcleo sólido e gelado, com as estrelas de fundo borradas porque o telescópio acompanhava o movimento rápido do visitante. As estimativas indicam um núcleo de até 5,6 quilômetros de diâmetro, podendo ser bem menor, com cerca de 440 metros.</p>
+
+      <h2>Uma Caravana de Telescópios</h2>
+      <p>Além do Hubble, o 3I/ATLAS foi observado pelo James Webb, pelo TESS, pelo Swift e por sondas como a Perseverance em Marte, a Mars Reconnaissance Orbiter, a Europa Clipper, a Lucy e a Psyche. Cada instrumento mede uma faixa diferente da luz ou da composição, montando o retrato mais completo já feito de um objeto vindo de outro sistema planetário.</p>
+
+      <h2>Por Que Ele Importa</h2>
+      <p>Cometas interestelares são amostras grátis de outros sistemas: o gelo, a poeira e os gases do 3I/ATLAS guardam a química do lugar onde ele nasceu. Comparar esse material com o dos cometas do nosso sistema ajuda a responder se os ingredientes da vida são comuns ou raros na galáxia.</p>
+
+      <h2>O Que Vem a Seguir</h2>
+      <p>O cometa segue em direção ao periélio, o ponto mais próximo do Sol, e depois se afasta para sempre. Para a defesa planetária e para a astronomia, cada passagem dessas é um treino: detectar cedo, acompanhar com vários telescópios e extrair o máximo de ciência antes que o visitante desapareça na escuridão entre as estrelas.</p>
+    
+    `,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['3I/ATLAS', 'cometa interestelar', 'NASA', 'Hubble', 'Sistema Solar', 'ATLAS'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/3I-ATLAS_Hubble_heic2509a.jpg/1280px-3I-ATLAS_Hubble_heic2509a.jpg',
+    imageLicense: 'CC BY 4.0',
+    imageArtist: 'NASA, ESA, D. Jewitt (UCLA); Image Processing: J. DePasquale (STScI)',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:3I-ATLAS_Hubble_heic2509a.jpg',
+    imageAlt: 'Imagem do Telescópio Hubble mostra o cometa interestelar 3I/ATLAS como um casulo azulado de poeira com estrelas de fundo borradas.',
+    sources: [
+      { title: 'NASA Science - Comet 3I/ATLAS', url: 'https://science.nasa.gov/solar-system/comets/3i-atlas/', type: 'government' },
+      { title: 'ESA/Hubble - Comet 3I/ATLAS (heic2509a)', url: 'https://esahubble.org/images/heic2509a/', type: 'scientific' },
+    ]
+  },
+
+  {
+    id: '238',
+    slug: 'artemis-2-primeiro-voo-tripulado-lua',
+    title: 'Artemis II: O Primeiro Voo Tripulado Rumo à Lua em Mais de 50 Anos',
+    excerpt: 'Quatro astronautas, dez dias e uma volta à Lua sem pouso: o ensaio geral que valida foguete, nave e tripulação antes do retorno à superfície lunar.',
+    content: `
+
+      <h2>A Missão Que Retoma o Caminho</h2>
+      <p>A Artemis II é o primeiro voo tripulado do programa Artemis e a primeira missão com astronautas a deixar a órbita da Terra rumo à Lua em mais de meio século. Sem pousar, a tripulação vai contornar a Lua e voltar: um ensaio geral dos foguetes, da nave Orion e dos sistemas de suporte à vida antes das missões que vão pousar na superfície.</p>
+
+      <h2>Quem Vai a Bordo</h2>
+      <p>Quatro astronautas formam a tripulação: Reid Wiseman, Victor Glover e Christina Koch, da NASA, e Jeremy Hansen, da Agência Espacial Canadense. Glover será o primeiro astronauta negro em uma missão lunar, Koch a primeira mulher, e Hansen o primeiro canadense a voar tão longe da Terra.</p>
+
+      <h2>O Roteiro de Dez Dias</h2>
+      <p>O foguete SLS coloca a Orion em órbita, e a nave segue por conta própria numa trajetória de ida e volta de cerca de dez dias, passando pelo lado oculto da Lua. No caminho, a tripulação testa navegação, comunicação em espaço profundo, manobras manuais e os sistemas que mantêm ar, água e temperatura estáveis.</p>
+
+      <h2>Por Que Não Pousar Desta Vez</h2>
+      <p>Voar sem pousar é uma decisão de engenharia: cada sistema precisa provar que funciona com gente a bordo antes de tentar a descida. O escudo térmico da Orion, o maior já construído, enfrenta na volta uma reentrada a mais de 2.700 graus, e os dados desse teste valem mais do que qualquer simulação.</p>
+
+      <h2>O Que Vem Depois</h2>
+      <p>Com a Artemis II validada, o próximo passo é a Artemis III, que prevê o pouso de dois astronautas perto do polo sul lunar, onde pode haver água congelada. A estação Gateway, em construção na órbita da Lua, servirá de base para essas idas e vindas — e de trampolim para as futuras missões tripuladas a Marte.</p>
+    
+    `,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['Artemis II', 'NASA', 'Lua', 'Orion', 'SLS', 'voo tripulado'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Artemis_II_crew_%281286153850870%29.png/1280px-Artemis_II_crew_%281286153850870%29.png',
+    imageLicense: 'Public domain',
+    imageArtist: 'Uploaded by Patricia Moore',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Artemis_II_crew_(1286153850870).png',
+    imageAlt: 'Retrato oficial dos quatro astronautas da tripulação da missão Artemis II.',
+    sources: [
+      { title: 'NASA - Artemis II (mission page)', url: 'https://www.nasa.gov/mission/artemis-ii/', type: 'government' },
+      { title: 'NASA - About Gateway (lunar outpost)', url: 'https://www.nasa.gov/reference/gateway-about/', type: 'government' },
+    ]
+  },
+
+  {
+    id: '239',
+    slug: 'hera-esa-investigacao-dart-dimorphos',
+    title: 'Hera: A Missão Europeia Que Vai Investigar a Cicatriz Deixada Pela DART em Dimorphos',
+    excerpt: 'Lançada em 2024, a sonda europeia chega a Dimorphos no fim de 2026 para medir a cratera da DART e transformar o desvio de asteroides em técnica comprovada.',
+    content: `
+
+      <h2>O Experimento Que a Humanidade Precisa Entender</h2>
+      <p>Em 26 de setembro de 2022, a sonda DART, da NASA, colidiu de propósito com Dimorphos, a pequena lua do asteroide Didymos, e mudou a órbita do corpo de forma mensurável: foi a primeira vez que a humanidade desviou um objeto do Sistema Solar. Mas o impacto deixou perguntas abertas — qual a massa real de Dimorphos, como ficou a cratera, quanta energia foi transferida — e é para respondê-las que a missão Hera, da ESA, está a caminho.</p>
+
+      <h2>A Viagem Até o Sistema Duplo</h2>
+      <p>A Hera foi lançada em 7 de outubro de 2024 e deve chegar ao sistema Didymos no fim de 2026. Didymos tem cerca de 780 metros de diâmetro e sua lua Dimorphos, cerca de 150 metros — o menor asteroide que a humanidade já visitou de perto. A sonda, do tamanho de uma van, vai manobrar com autonomia de navegação para mapear os dois corpos em detalhe.</p>
+
+      <h2>A Investigação da Cena do Impacto</h2>
+      <p>Com câmeras de alta resolução, laser e rádio, a Hera vai medir a massa de Dimorphos, a nova órbita após o impacto e a forma exata da cratera deixada pela DART. Esses números definem a eficiência da transferência de momento — a medida que diz quanta energia do impacto realmente virou desvio — e transformam o teste numérico em técnica repetível de defesa planetária.</p>
+
+      <h2>Os Drones Que Vão Pousar</h2>
+      <p>A Hera leva dois CubeSats, Milani e Juventas, os primeiros da ESA a operar além da órbita da Terra. Eles voam como drones, mais perto e com mais risco que a nave-mãe: um analisa a composição mineral, o outro faz a primeira sondagem por radar dentro de um asteroide. No fim, ambos pousam em Dimorphos e enviam dados do toque na superfície.</p>
+
+      <h2>Por Que Isso Importa Para a Terra</h2>
+      <p>Objetos de 20 a 40 metros já causaram estragos — como em Tunguska, em 1908, e em Chelyabinsk, em 2013. A chance de um grande impacto é baixa, mas as consequências seriam graves. Com a Hera, a defesa planetária deixa de ser um experimento único e vira um manual: detectar, desviar com impacto cinético e comprovar o resultado de perto.</p>
+    
+    `,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['Hera', 'ESA', 'DART', 'Dimorphos', 'defesa planetária', 'asteroides'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Hera_in_orbit.jpg/1280px-Hera_in_orbit.jpg',
+    imageLicense: 'CC BY-SA 3.0 IGO',
+    imageArtist: 'ESA – Science Office',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Hera_in_orbit.jpg',
+    imageAlt: 'Concepção artística da sonda Hera, da ESA, em órbita próxima ao sistema binário de asteroides Didymos.',
+    sources: [
+      { title: 'ESA - Hera mission overview', url: 'https://www.esa.int/Space_Safety/Hera/Hera_mission_overview', type: 'agency' },
+      { title: 'NASA - Double Asteroid Redirection Test (DART)', url: 'https://science.nasa.gov/mission/dart/', type: 'government' },
+    ]
+},
+  {
+    id: '240',
+    slug: 'parker-solar-probe-tocando-sol',
+    title: 'Parker Solar Probe: A Sonda Que Está Tocando o Sol',
+    excerpt: 'A 6 milhões de quilômetros da superfície solar e a 690 mil km/h, a sonda da NASA atravessa a coroa do Sol para explicar o vento solar e o clima espacial.',
+    content: `
+      <h2>A Missão Mais Rápida da História</h2>
+      <p>Lançada em 2018, a Parker Solar Probe, da NASA, é o objeto mais rápido já construído pela humanidade e a primeira sonda a entrar na atmosfera do Sol. Em dezembro de 2024, ela passou a pouco mais de 6 milhões de quilômetros da superfície solar — dezenas de vezes mais perto que Mercúrio — a quase 690 mil quilômetros por hora, e sobreviveu para contar a história.</p>
+
+      <h2>Por Que Tocar o Sol</h2>
+      <p>A sonda leva o nome de Eugene Parker, o físico que previu o vento solar nos anos 1950. Três perguntas guiam a missão há mais de 60 anos: por que a coroa solar é milhões de graus mais quente que a superfície do Sol, como o vento solar acelera e de onde vêm as partículas de alta energia. Vivemos dentro da atmosfera do Sol, e essas respostas afetam diretamente a Terra.</p>
+
+      <h2>Como Ela Sobrevive</h2>
+      <p>Um escudo térmico de carbono protege os instrumentos do calor extremo, enquanto quatro conjuntos de instrumentos medem campos magnéticos, plasma, partículas energéticas e fotografam o vento solar por dentro. A cada órbita, assistências gravitacionais de Vênus aproximam a sonda um pouco mais do Sol.</p>
+
+      <h2>O Que Ela Já Descobriu</h2>
+      <p>Dentro da coroa, a sonda encontrou inversões magnéticas repentinas, poeira vaporizada e fluxos de plasma que ajudam a explicar o aquecimento da coroa e a aceleração do vento solar. Cada passagem rende dados inéditos sobre a região onde nascem as tempestades solares.</p>
+
+      <h2>Por Que Isso Importa Aqui na Terra</h2>
+      <p>O clima espacial muda órbitas de satélites, encurta sua vida útil e interfere em eletrônicos, GPS e redes elétricas. Entender o Sol de perto é o caminho para prever tempestades solares — e proteger a infraestrutura da qual a vida moderna depende.</p>
+    `,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['Parker Solar Probe', 'NASA', 'Sol', 'vento solar', 'clima espacial', 'coroa solar'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Parker_Solar_Probe.jpg/1280px-Parker_Solar_Probe.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA/Johns Hopkins APL/Steve Gribben',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Parker_Solar_Probe.jpg',
+    imageAlt: 'Concepção artística da sonda Parker Solar Probe se aproximando do Sol.',
+    sources: [
+      { title: 'NASA - Parker Solar Probe (mission page)', url: 'https://science.nasa.gov/mission/parker-solar-probe/', type: 'government' },
+      { title: 'NASA - Parker Solar Probe Makes 28th Close Pass of Sun', url: 'https://blogs.nasa.gov/parkersolarprobe/2025/09/24/parker-solar-probe-makes-28th-close-pass-of-sun/', type: 'government' }
+    ]
+  },
+
+  {
+    id: '241',
+    slug: 'interfaces-cerebro-computador-bci-2026',
+    title: 'Interfaces Cérebro-Computador: O Estado Atual das BCIs em 2026',
+    excerpt: 'De ensaios clínicos da Neuralink a dispositivos não invasivos, as interfaces cérebro-computador saem do laboratório para a vida real. Entenda o que já funciona, os limites atuais e o que vem a seguir.',
+    content: `
+
+      <h2>O Que São Interfaces Cérebro-Computador</h2>
+      <p>Uma interface cérebro-computador (BCI, do inglês <em>brain-computer interface</em>) é um sistema que traduz a atividade elétrica do cérebro em comandos para dispositivos externos, sem passar pelos nervos periféricos ou músculos. O conceito é antigo, mas apenas na última década a convergência entre neurociência, microeletrônica e aprendizado de máquina tornou aplicações práticas viáveis.</p>
+
+      <h2>As Duas Grandes Abordagens: Invasivas e Não Invasivas</h2>
+      <p>BCIs invasivas usam microeletrodos implantados no córtex cerebral (ou sobre ele, no caso da eletrocorticografia). Oferecem alta resolução espacial e temporal, mas exigem cirurgia neurocirúrgica. BCIs não invasivas usam eletroencefalografia (EEG) ou, mais recentemente, fNIRS (espectroscopia de infravermelho próximo funcional). São mais seguras, mas captam sinais mais ruidosos e de menor resolução.</p>
+
+      <h3>O Marco Neuralink de 2024</h3>
+      <p>Em janeiro de 2024, a Neuralink realizou o primeiro implante do dispositivo <strong>N1</strong> em um participante humano do estudo PRIME (Precise Robotically IMplanted Brain-Computer InterfacE), um estudo de viabilidade inicial registrado nos Estados Unidos. O implante, conectado a eletrodos-fio inseridos por um robô cirúrgico, transmite sinais neurais sem fios. No primeiro semestre de 2024, a empresa mostrou o participante controlando um cursor de computador apenas com a intenção de movimento. Segundo o registro no ClinicalTrials.gov, o PRIME avalia segurança e funcionalidade do dispositivo em participantes com tetraplegia ou tetraparesia e segue recrutando.</p>
+
+      <h3>Outros Participantes no Campo Invasivo</h3>
+      <p>A Neuralink não está sozinha. A <strong>Blackrock Neurotech</strong> fornece o <em>array Utah</em>, microeletrodo amplamente utilizado em estudos acadêmicos de BCI invasiva em humanos. A <strong>Synchron</strong> adotou uma rota diferente: seu <em>Stentrode</em> — um stent com eletrodos — fica dentro de um vaso sanguíneo do cérebro e é implantado sem cirurgia aberta do crânio. A Synchron recebeu o <em>Breakthrough Device Designation</em> da FDA em 2020 e, desde 2022, conduz o ensaio COMMAND, estudo de viabilidade inicial com participantes com tetraparesia grave cujo objetivo primário é avaliar a segurança do dispositivo.</p>
+
+      <h2>BCIs Não Invasivas: Progresso no EEG e no fNIRS</h2>
+      <p>No lado não invasivo, decodificadores baseados em aprendizado de máquina elevaram a precisão dos sinais extraídos de sistemas de EEG de alta densidade. Paradigmas como <em>SSVEP</em> (potenciais evocados visualmente em estado estável) e <em>imagens de movimento</em> (<em>motor imagery</em>) permitem seleção de letras e controle de dispositivos sem cirurgia e são explorados em estudos de reabilitação e de controle de cadeiras de rodas.</p>
+
+      <h3>fNIRS: O Meio Termo Promissor</h3>
+      <p>A espectroscopia de infravermelho próximo funcional (fNIRS) mede mudanças na oxigenação sanguínea cortical — um proxy da atividade neural — com melhor resolução espacial que o EEG e sem cirurgia. Dispositivos portáteis permitem estudos em ambientes naturais, e pesquisas recentes combinam fNIRS com EEG (<em>hybrid BCI</em>) para aumentar a robustez da detecção da intenção.</p>
+
+      <h2>Aplicações Clínicas Reais</h2>
+      <p>O foco principal continua sendo <strong>restaurar comunicação e mobilidade</strong> para pessoas com paralisia severa (ELA, lesão medular alta, AVC no tronco cerebral). Sistemas de <em>speech neuroprosthesis</em> — que decodificam a intenção de fala diretamente do córtex motor da fala — atingiram 62 palavras por minuto e 23,8% de taxa de erro com um vocabulário de 125 mil palavras no estudo publicado na <em>Nature</em> em 2023. No estudo publicado no <em>New England Journal of Medicine</em> em 2024, um participante com ELA conversou de forma autodirigida a cerca de 32 palavras por minuto, com 97,5% de precisão sustentada por 8,4 meses após a cirurgia. Para comparação, a fala natural corre a cerca de 160 palavras por minuto, segundo o estudo de 2023.</p>
+
+      <h3>Reabilitação Motora</h3>
+      <p>BCIs também são usadas para induzir <em>neuroplasticidade</em> após AVC: o paciente imagina mover a mão afetada, a BCI detecta a intenção e aciona um exoesqueleto robótico ou estimulação elétrica funcional (FES), criando um laço sensoriomotor que pode fortalecer vias corticais residuais. Ensaios clínicos avaliam a eficácia dessa abordagem a longo prazo.</p>
+
+      <h2>Limitações e Desafios Abertos</h2>
+      <ul>
+        <li><strong>Estabilidade a longo prazo:</strong> eletrodos invasivos sofrem com resposta imune (gliose) que degrada o sinal ao longo dos meses; novos materiais e designs flexíveis buscam mitigar esse problema.</li>
+        <li><strong>Largura de banda:</strong> mesmo os melhores sistemas transmitem informação a um ritmo muito inferior ao da conversação natural.</li>
+        <li><strong>Generalização:</strong> decodificadores treinados em um dia muitas vezes perdem desempenho no dia seguinte sem recalibração; aprendizado contínuo e adaptação de domínio são áreas ativas de pesquisa.</li>
+        <li><strong>Regulação e ética:</strong> privacidade dos dados neurais, consentimento em populações vulneráveis e o risco de <em>neuroenhancement</em> não terapêutico são temas de debates entre reguladores e especialistas sobre regras para o uso desses dispositivos.</li>
+      </ul>
+
+      <h2>O Que Esperar nos Próximos Anos</h2>
+      <p>Três frentes avançam em paralelo: (1) expansão dos ensaios clínicos invasivos, com métricas de qualidade de vida além da precisão técnica; (2) BCIs não invasivas de nível de consumidor para controle de AR/VR e <em>wellness</em> — já existem headsets EEG comerciais para meditação e foco, mas sem validação clínica; (3) BCIs híbridas combinando modalidades (EEG+fNIRS, ECoG+EEG) para equilibrar resolução, segurança e usabilidade.</p>
+
+      <h2>Conclusão</h2>
+      <p>Em 2026, as interfaces cérebro-computador são uma classe emergente de tecnologia assistiva com evidências clínicas crescentes — ainda distantes de usos recreativos, mas avançando de demonstrações de laboratório para uso doméstico supervisionado. Os próximos anos definirão se as BCIs se tornam padrão de cuidado para paralisia severa ou permanecem nicho de pesquisa. Acompanhar os ensaios registrados no <a href="https://clinicaltrials.gov">ClinicalTrials.gov</a> (busca por "brain-computer interface") é a melhor forma de separar progresso real de promessa excessiva.</p>
+    
+    `,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['BCI', 'interface cérebro-computador', 'neurociência', 'Neuralink', 'tecnologia assistiva', 'neuroplasticidade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 9,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/EEG_Recording_Cap.jpg/1280px-EEG_Recording_Cap.jpg',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Chris Hope',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:EEG_Recording_Cap.jpg',
+    imageAlt: 'Capa de EEG com dezenas de eletrodos presos ao couro cabeludo de um voluntário durante gravação eletroencefalográfica em laboratório.',
+    sources: [
+      { title: 'ClinicalTrials.gov - Neuralink PRIME Study (NCT06429735)', url: 'https://clinicaltrials.gov/study/NCT06429735', type: 'government' },
+      { title: 'Nature - A high-performance speech neuroprosthesis (2023)', url: 'https://www.nature.com/articles/s41586-023-06377-x', type: 'journal' },
+      { title: 'NEJM - An Accurate and Rapidly Calibrating Speech Neuroprosthesis (2024)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMoa2314132', type: 'journal' },
+      { title: 'ClinicalTrials.gov - Synchron COMMAND Early Feasibility Study (NCT05035823)', url: 'https://clinicaltrials.gov/study/NCT05035823', type: 'government' },
+      { title: 'Blackrock Neurotech - Research Products (Utah Array)', url: 'https://blackrockneurotech.com/products/', type: 'official' },
+      { title: 'Neuralink - PRIME Study Progress Update (abril 2024)', url: 'https://neuralink.com/updates/prime-study-progress-update/', type: 'official' },
+      { title: 'Synchron - Technology (Stentrode)', url: 'https://synchron.com/technology', type: 'official' },
+      { title: 'Synchron - News: Stentrode Receives FDA Breakthrough Device Designation (2020)', url: 'https://synchron.com/news', type: 'official' },
+    ]
+  },
+
+  {
+    id: '242',
+    slug: 'criptografia-pos-quantica-padroes-nist',
+    title: 'Criptografia Pós-Quântica: Como Proteger os Dados Antes Que os Computadores Quânticos Cheguem',
+    excerpt: 'Os primeiros padrões de criptografia resistente a computadores quânticos saíram do papel em 2024. Entenda a ameaça, o que mudou e por que a migração já começou nos bastidores da internet.',
+    content: `
+
+      <h2>O Que É Criptografia Pós-Quântica</h2>
+      <p>Quase tudo o que fazemos online — mensagens, compras, senhas, acessos bancários — depende de criptografia de chave pública, como RSA e as curvas elípticas (ECC). A criptografia pós-quântica (PQC, do inglês <em>post-quantum cryptography</em>) é a nova geração de algoritmos de chave pública projetada para resistir a ataques de computadores quânticos. Um detalhe importante: esses algoritmos rodam nos computadores comuns de hoje — não precisam de um computador quântico para funcionar. Eles apenas evitam que um futuro computador quântico capaz os quebre, explicou a Apple em 2024.</p>
+
+      <h2>A Ameaça Que Ainda Não Existe — Mas Já Conta</h2>
+      <p>Nenhum computador quântico capaz de quebrar a criptografia atual existe hoje. Ainda assim, o NIST alerta que pesquisadores ao redor do mundo correm para construir computadores quânticos que poderiam quebrar a criptografia que sustenta a segurança e a privacidade digitais. O risco imediato é outro: o chamado <em>Harvest Now, Decrypt Later</em> — "colher agora, decodificar depois". Segundo a Apple, atacantes bem financiados já podem coletar grandes volumes de dados criptografados hoje e guardá-los para decodificá-los no futuro, quando tiverem um computador quântico capaz. Informações que precisam manter o sigilo por anos — documentos médicos, governamentais ou comerciais — já estão expostas a esse risco.</p>
+
+      <h2>Os Primeiros Padrões Oficiais</h2>
+      <p>Em 13 de agosto de 2024, o NIST publicou os primeiros três padrões finalizados de criptografia pós-quântica, prontos para uso imediato:</p>
+      <ul>
+        <li><strong>FIPS 203 (ML-KEM):</strong> baseado no algoritmo Kyber, é o padrão principal para troca de chaves — a etapa que estabelece um canal seguro entre duas partes. Oferece chaves pequenas e boa velocidade de operação.</li>
+        <li><strong>FIPS 204 (ML-DSA):</strong> baseado no Dilithium, é o padrão principal para assinaturas digitais, usadas para autenticar identidades e garantir que um documento não foi alterado.</li>
+        <li><strong>FIPS 205 (SLH-DSA):</strong> baseado no SPHINCS+, usa criptografia baseada em hash — uma abordagem matemática diferente — e serve de reserva caso o ML-DSA venha a ser comprometido.</li>
+      </ul>
+      <p>Os três são obrigatórios para sistemas federais dos Estados Unidos e vêm sendo adotados por organizações ao redor do mundo. Em março de 2025, o NIST selecionou o HQC como quinto algoritmo do projeto, para atuar como reserva na troca de chaves. E o certame segue vivo: em julho de 2026, segundo o próprio NIST, um algoritmo em avaliação chamado HAWK foi retirado após a descoberta de uma vulnerabilidade — sem afetar os padrões finalizados, que se apoiam em fundamentos matemáticos diferentes.</p>
+
+      <h2>Quem Já Está Migrando</h2>
+      <p>A migração já saiu do papel. Em fevereiro de 2024, a Apple apresentou o PQ3, um protocolo do iMessage com estabelecimento de chave pós-quântica e rotações periódicas que se recuperam mesmo se uma chave for comprometida — segundo a empresa, o protocolo de mensagens instantâneas em larga escala com as proteções mais fortes do mundo à época. A Cloudflare implantou acordos de troca de chaves pós-quânticos em seus servidores, cobrindo parte considerável do tráfego da internet, e grupos de padronização como a IETF estão incorporando algoritmos pós-quânticos no TLS, o protocolo por trás do HTTPS.</p>
+
+      <h2>Por Que a Migração Demora</h2>
+      <p>Trocar a criptografia de um sistema grande é trabalho de precisão, não um botão de atualização. O NIST orienta as organizações a fazerem um inventário: mapear onde algoritmos vulneráveis são usados e planejar a substituição. Produtos, serviços e protocolos precisam de atualizações; bibliotecas antigas, dispositivos embarcados e sistemas com ciclos de vida longos são os pontos mais difíceis. A boa notícia é que a troca, quando bem-feita, é invisível para o usuário final.</p>
+
+      <h2>O Que Isso Significa Para Você</h2>
+      <p>Para a maioria das pessoas, a migração será silenciosa: aplicativos e navegadores atualizados passam a usar os novos algoritmos sem qualquer configuração. O que vale é manter sistemas e aplicativos atualizados — e desconfiar de qualquer serviço que prometa "resistência quântica" sem explicar qual algoritmo ele usa. Enquanto a ameaça quântica amadurece em laboratórios, a regra prática já mudou: dado sensível deve ser protegido hoje com algoritmos que sobrevivam ao amanhã.</p>
+
+      <h2>Conclusão</h2>
+      <p>A criptografia pós-quântica deixou de ser pesquisa e virou padrão: os primeiros três padrões do NIST estão disponíveis desde 2024, empresas de tecnologia já os implantam em escala e a comunidade de segurança testa abertamente os candidatos — como mostrou a retirada do HAWK em 2026. A mensagem do NIST é direta: agora é o momento de migrar, antes que computadores quânticos coloquem a criptografia de hoje em risco.</p>
+    
+    `,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['criptografia pós-quântica', 'segurança digital', 'NIST', 'computação quântica', 'cibersegurança', 'padrões'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-09',
+    readingTime: 8,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/IQM_Quantum_Computer_Espoo_Finland.jpg/1280px-IQM_Quantum_Computer_Espoo_Finland.jpg',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Ragsxl',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:IQM_Quantum_Computer_Espoo_Finland.jpg',
+    imageAlt: 'Computador quântico supercondutor da IQM em exposição em Espoo, na Finlândia.',
+    sources: [
+      { title: 'NIST - NIST Releases First 3 Finalized Post-Quantum Encryption Standards (2024)', url: 'https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards', type: 'government' },
+      { title: 'NIST - Post-Quantum Cryptography (projeto)', url: 'https://www.nist.gov/pqc', type: 'government' },
+      { title: 'Apple Security Research - iMessage with PQ3 (2024)', url: 'https://security.apple.com/blog/imessage-pq3/', type: 'official' },
+      { title: 'Cloudflare - Defending against future threats: Cloudflare goes post-quantum', url: 'https://blog.cloudflare.com/post-quantum-for-all/', type: 'official' },
+    ]
+  }
 ];

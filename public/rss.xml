@@ -10,9 +10,107 @@
     <description>NexoraComic é uma publicação digital que conecta ciência, tecnologia, espaço, inteligência artificial e cultura geek. Artigos sobre astronomia, física, IA, games, filmes e curiosidades científicas.</description>
     <language>pt-BR</language>
     <copyright>Copyright 2024-2026 NexoraComic. Todos os direitos reservados.</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link rel="self" href="https://nexoracomic.vercel.app/rss.xml" type="application/rss+xml" />
 
+    <item>
+      <title>Gateway: A Estação Lunar Que Vai Servir de Base Para Astronautas na Órbita da Lua</title>
+      <link>https://nexoracomic.vercel.app/espaco/gateway-estacao-lunar-orbita-lua</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/gateway-estacao-lunar-orbita-lua</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>A pequena estação internacional na órbita da Lua que vai apoiar pousos do programa Artemis e testar a vida no espaço profundo antes de Marte.</description>
+      <content:encoded>A pequena estação internacional na órbita da Lua que vai apoiar pousos do programa Artemis e testar a vida no espaço profundo antes de Marte.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/2024_Lunar_Gateway_concept_art%2C_March_2020.jpg/1280px-2024_Lunar_Gateway_concept_art%2C_March_2020.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/2024_Lunar_Gateway_concept_art%2C_March_2020.jpg/1280px-2024_Lunar_Gateway_concept_art%2C_March_2020.jpg" medium="image">
+        <media:title type="html">Arte conceitual da estação lunar Gateway com os módulos de propulsão e habitação e uma nave de carga.</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>3I/ATLAS: O Visitante Interestelar Que Atravessa o Sistema Solar em 2025</title>
+      <link>https://nexoracomic.vercel.app/espaco/cometa-interestelar-3i-atlas-visitante</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/cometa-interestelar-3i-atlas-visitante</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Descoberto em julho de 2025, o terceiro objeto interestelar já visto cruza o Sistema Solar em trajetória sem volta e mobiliza Hubble, Webb e sondas em Marte.</description>
+      <content:encoded>Descoberto em julho de 2025, o terceiro objeto interestelar já visto cruza o Sistema Solar em trajetória sem volta e mobiliza Hubble, Webb e sondas em Marte.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/3I-ATLAS_Hubble_heic2509a.jpg/1280px-3I-ATLAS_Hubble_heic2509a.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/3I-ATLAS_Hubble_heic2509a.jpg/1280px-3I-ATLAS_Hubble_heic2509a.jpg" medium="image">
+        <media:title type="html">Imagem do Telescópio Hubble mostra o cometa interestelar 3I/ATLAS como um casulo azulado de poeira com estrelas de fundo borradas.</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Artemis II: O Primeiro Voo Tripulado Rumo à Lua em Mais de 50 Anos</title>
+      <link>https://nexoracomic.vercel.app/espaco/artemis-2-primeiro-voo-tripulado-lua</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/artemis-2-primeiro-voo-tripulado-lua</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Quatro astronautas, dez dias e uma volta à Lua sem pouso: o ensaio geral que valida foguete, nave e tripulação antes do retorno à superfície lunar.</description>
+      <content:encoded>Quatro astronautas, dez dias e uma volta à Lua sem pouso: o ensaio geral que valida foguete, nave e tripulação antes do retorno à superfície lunar.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Artemis_II_crew_%281286153850870%29.png/1280px-Artemis_II_crew_%281286153850870%29.png" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Artemis_II_crew_%281286153850870%29.png/1280px-Artemis_II_crew_%281286153850870%29.png" medium="image">
+        <media:title type="html">Retrato oficial dos quatro astronautas da tripulação da missão Artemis II.</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Hera: A Missão Europeia Que Vai Investigar a Cicatriz Deixada Pela DART em Dimorphos</title>
+      <link>https://nexoracomic.vercel.app/espaco/hera-esa-investigacao-dart-dimorphos</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/hera-esa-investigacao-dart-dimorphos</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Lançada em 2024, a sonda europeia chega a Dimorphos no fim de 2026 para medir a cratera da DART e transformar o desvio de asteroides em técnica comprovada.</description>
+      <content:encoded>Lançada em 2024, a sonda europeia chega a Dimorphos no fim de 2026 para medir a cratera da DART e transformar o desvio de asteroides em técnica comprovada.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Hera_in_orbit.jpg/1280px-Hera_in_orbit.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Hera_in_orbit.jpg/1280px-Hera_in_orbit.jpg" medium="image">
+        <media:title type="html">Concepção artística da sonda Hera, da ESA, em órbita próxima ao sistema binário de asteroides Didymos.</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Parker Solar Probe: A Sonda Que Está Tocando o Sol</title>
+      <link>https://nexoracomic.vercel.app/espaco/parker-solar-probe-tocando-sol</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/parker-solar-probe-tocando-sol</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>A 6 milhões de quilômetros da superfície solar e a 690 mil km/h, a sonda da NASA atravessa a coroa do Sol para explicar o vento solar e o clima espacial.</description>
+      <content:encoded>A 6 milhões de quilômetros da superfície solar e a 690 mil km/h, a sonda da NASA atravessa a coroa do Sol para explicar o vento solar e o clima espacial.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Parker_Solar_Probe.jpg/1280px-Parker_Solar_Probe.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Parker_Solar_Probe.jpg/1280px-Parker_Solar_Probe.jpg" medium="image">
+        <media:title type="html">Concepção artística da sonda Parker Solar Probe se aproximando do Sol.</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Interfaces Cérebro-Computador: O Estado Atual das BCIs em 2026</title>
+      <link>https://nexoracomic.vercel.app/ciencia/interfaces-cerebro-computador-bci-2026</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/interfaces-cerebro-computador-bci-2026</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>De ensaios clínicos da Neuralink a dispositivos não invasivos, as interfaces cérebro-computador saem do laboratório para a vida real. Entenda o que já funciona, os limites atuais e o que vem a seguir.</description>
+      <content:encoded>De ensaios clínicos da Neuralink a dispositivos não invasivos, as interfaces cérebro-computador saem do laboratório para a vida real. Entenda o que já funciona, os limites atuais e o que vem a seguir.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/EEG_Recording_Cap.jpg/1280px-EEG_Recording_Cap.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/EEG_Recording_Cap.jpg/1280px-EEG_Recording_Cap.jpg" medium="image">
+        <media:title type="html">Capa de EEG com dezenas de eletrodos presos ao couro cabeludo de um voluntário durante gravação eletroencefalográfica em laboratório.</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Criptografia Pós-Quântica: Como Proteger os Dados Antes Que os Computadores Quânticos Cheguem</title>
+      <link>https://nexoracomic.vercel.app/tecnologia/criptografia-pos-quantica-padroes-nist</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/tecnologia/criptografia-pos-quantica-padroes-nist</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/tecnologia">Tecnologia</category>
+      <description>Os primeiros padrões de criptografia resistente a computadores quânticos saíram do papel em 2024. Entenda a ameaça, o que mudou e por que a migração já começou nos bastidores da internet.</description>
+      <content:encoded>Os primeiros padrões de criptografia resistente a computadores quânticos saíram do papel em 2024. Entenda a ameaça, o que mudou e por que a migração já começou nos bastidores da internet.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/IQM_Quantum_Computer_Espoo_Finland.jpg/1280px-IQM_Quantum_Computer_Espoo_Finland.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/IQM_Quantum_Computer_Espoo_Finland.jpg/1280px-IQM_Quantum_Computer_Espoo_Finland.jpg" medium="image">
+        <media:title type="html">Computador quântico supercondutor da IQM em exposição em Espoo, na Finlândia.</media:title>
+      </media:content>
+    </item>
     <item>
       <title>Suporte para Notebook Barato: Ergonomia Gastando Pouco</title>
       <link>https://nexoracomic.vercel.app/tecnologia/suporte-para-notebook-barato-ergonomia-gastando-pouco</link>
@@ -242,6 +340,34 @@
       <description>HDR promete imagens mais brilhantes, com mais contraste e cores mais vivas. Entenda o que a sigla significa, como funciona e o que é preciso para aproveitá-lo.</description>
       <content:encoded>HDR promete imagens mais brilhantes, com mais contraste e cores mais vivas. Entenda o que a sigla significa, como funciona e o que é preciso para aproveitá-lo.</content:encoded>
       <dc:creator>Equipe NexoraComic</dc:creator>
+    </item>
+    <item>
+      <title>Viagens Humanas a Marte: O que a NASA e a SpaceX Prometem Para 2030</title>
+      <link>https://nexoracomic.vercel.app/espaco/viagens-humanas-a-marte-2030</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/espaco/viagens-humanas-a-marte-2030</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/espaco">Espaço</category>
+      <description>Um panorama claro das missões planeadas, dos cronogramas e dos desafios técnicos e físicos que definem a corrida para o Planeta Vermelho.</description>
+      <content:encoded>Um panorama claro das missões planeadas, dos cronogramas e dos desafios técnicos e físicos que definem a corrida para o Planeta Vermelho.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/PIA23302-FirstHumansOnMars-ArtistConcept.jpg/1280px-PIA23302-FirstHumansOnMars-ArtistConcept.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/PIA23302-FirstHumansOnMars-ArtistConcept.jpg/1280px-PIA23302-FirstHumansOnMars-ArtistConcept.jpg" medium="image">
+        <media:title type="html">Vista artística de uma futura base humana no Planeta Vermelho, com a superfície marciana ao fundo.</media:title>
+      </media:content>
+    </item>
+    <item>
+      <title>Como o Telescópio James Webb Está Redefinindo o Nascimento das Estrelas</title>
+      <link>https://nexoracomic.vercel.app/ciencia/jwst-redefinindo-nascimento-estrelas</link>
+      <guid isPermaLink="false">https://nexoracomic.vercel.app/ciencia/jwst-redefinindo-nascimento-estrelas</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <category domain="https://nexoracomic.vercel.app/ciencia">Ciência</category>
+      <description>Os primeiros dados do telescópio mostram que a formação de estrelas começou mais cedo do que se pensava, com objetos fracos e jovens que só agora a tecnologia de ponta consegue capturar.</description>
+      <content:encoded>Os primeiros dados do telescópio mostram que a formação de estrelas começou mais cedo do que se pensava, com objetos fracos e jovens que só agora a tecnologia de ponta consegue capturar.</content:encoded>
+      <dc:creator>Equipe NexoraComic</dc:creator>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/1280px-Webb%27s_First_Deep_Field.jpg" />
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/1280px-Webb%27s_First_Deep_Field.jpg" medium="image">
+        <media:title type="html">Primeira imagem de fundo do telescópio James Webb, mostrando milhões de estrelas e galáxias distantes.</media:title>
+      </media:content>
     </item>
     <item>
       <title>Melhores Livros para Aprender Programação: Guia Completo para Iniciantes e Avançados</title>
