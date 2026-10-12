@@ -9371,7 +9371,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '178',
     slug: 'ssd-nvme-vs-sata-como-escolher-armazenamento',
-    title: 'SSD NVMe vs SATA: Como Escolher o Armazenamento Certo para Seu PC',
+    title: 'Guia de Compra: SSD NVMe vs SATA - Qual Escolher para Seu PC',
     excerpt: 'A diferença entre um SSD NVMe e um SATA não está só na velocidade: está no barramento, no preço por gigabytes e no uso que cada um atende. Entenda qual escolher.',
     content: `
       <p>Troquei o disco de fábrica do meu notebook por um SSD e a diferença não foi de "velocidade": foi de comportamento. O sistema deixou de engasgar, os jogos pararam de carregar do zero toda vez, e a máquina parou de parecer lenta mesmo com a CPU ociosa. Esse é o tipo de ganho que importa quando se fala em armazenamento.</p>
@@ -9457,7 +9457,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '179',
     slug: 'quanto-de-ram-um-pc-gamer-precisa',
-    title: 'Quanto de Memória RAM um PC Gamer Precisa? Guia Prático por Uso',
+    title: 'Guia de Compra: Quanto de RAM um PC Gamer Precisa por Uso',
     excerpt: '8 GB, 16 GB ou 32 GB? A resposta depende menos do seu hardware e mais do que você faz. Veja como dimensionar memória sem gastar à toa.',
     content: `
       <p>Toda dúvida de upgrade começa na mesma pergunta: "isto é mesmo um gargalo ou estou só com medo de travar?". Na memória, essa pergunta tem resposta mais clara do que na placa de vídeo — e o erro mais comum é comprar mais do que o jogo utiliza, gastando dinheiro que faria mais diferença em outro lugar.</p>
@@ -10058,7 +10058,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
   {
     id: '186',
     slug: 'hardware-para-ia-local-como-rodar-modelos-em-casa',
-    title: 'Hardware para IA Local: O que Você Precisa para Rodar Modelos no Seu PC',
+    title: 'Guia de Hardware para IA Local: O que Precisa para Rodar Modelos no Seu PC',
     excerpt: 'GPU, memória de vídeo e RAM determinam quais modelos rodam bem na sua máquina. Entenda os requisitos reais da inferência local sem mito.',
     content: `
       <p>Rodar modelos de IA na sua própria máquina deixou de ser impossível há alguns anos. Mas a primeira tentativa de um iniciante costuma esbarrar em uma parede: o modelo não carrega, ou carrega e o sistema trava. A causa quase sempre é a mesma — a demanda de memória.</p>

@@ -120,13 +120,34 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
               {CATEGORIES.map((category) => (
-                <CategoryCard 
-                  key={category.id} 
-                  category={category} 
+                <CategoryCard
+                  key={category.id}
+                  category={category}
                   articleCount={articlesByCategory[category.slug]?.length || 0}
                 />
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Products Section */}
+        <section className="border-b border-border">
+          <div className="container mx-auto px-4 py-8 md:py-12">
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="section-title text-foreground flex items-center gap-3">
+                <span className="w-1.5 h-8 bg-gold rounded-full"></span>
+                Produtos Recomendados
+              </h2>
+              <Link
+                href="/produtos"
+                className="text-sm link-gold"
+              >
+                Ver todos os produtos →
+              </Link>
+            </div>
+            <p className="text-muted-foreground mb-4 max-w-2xl">
+              Produtos citados em nossos artigos, reunidos em um só lugar. Cada recomendação é editorial e explicada no contexto do artigo de origem.
+            </p>
           </div>
         </section>
 

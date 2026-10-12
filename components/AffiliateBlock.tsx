@@ -130,7 +130,7 @@ export default function AffiliateBlock({ affiliate, category, className = '' }: 
                   data-affiliate-position={String(index)}
                   data-affiliate-product={produto.label}
                   data-affiliate-program={produto.store?.trim() || 'Amazon'}
-                  className="inline-block mt-2 py-2 text-sm font-medium text-accent hover:text-accent/80 transition-colors underline decoration-dotted underline-offset-2"
+                  className="mt-3 inline-flex items-center justify-center gap-2 rounded-md border border-accent/40 bg-accent/10 px-4 py-2 text-sm font-medium text-accent hover:bg-accent/20 hover:border-accent/60 transition-colors"
                 >
                   {affiliateCtaLabel(produto)}
                   <span className="sr-only">: {produto.label}</span>

@@ -48,6 +48,12 @@ export default function Header() {
             >
               Mais
             </Link>
+            <Link
+              href="/produtos"
+              className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-card rounded-lg transition-colors"
+            >
+              Produtos
+            </Link>
           </div>
 
           {/* Search and Mobile Menu */}
@@ -151,6 +157,13 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Pesquisar
+              </Link>
+              <Link
+                href="/produtos"
+                className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-card rounded-lg transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Produtos
               </Link>
             </div>
           </div>

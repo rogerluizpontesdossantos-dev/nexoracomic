@@ -7,9 +7,9 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure';
 import { AffiliateClickTracker } from '@/components/AffiliateClickTracker';
 
 export const metadata = {
-  title: 'Produtos dos Artigos',
+  title: 'Produtos Recomendados nos Artigos',
   description:
-    'Produtos relacionados aos temas e artigos publicados no NexoraComic.',
+    'Produtos citados e recomendados nos artigos do NexoraComic, com o motivo de cada indicação. Seleção editorial; os links para as lojas são de afiliado.',
   alternates: {
     canonical: '/produtos',
   },
@@ -96,9 +96,11 @@ export default function ProdutosPage() {
               Produtos dos Artigos
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-              Produtos relacionados aos temas publicados no NexoraComic. Não
-              é uma loja: cada item abaixo aparece porque foi citado ou
-              explicado em um dos nossos artigos.
+              Produtos citados em nossos artigos, reunidos em um só lugar. A
+              seleção é editorial: cada item aparece abaixo porque foi explicado
+              em um artigo do NexoraComic — o motivo de cada recomendação está
+              no card. Não somos uma loja: os links levam diretamente às lojas,
+              e preço, estoque e condições são definidos por elas.
             </p>
           </header>
 
