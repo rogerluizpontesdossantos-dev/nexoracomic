@@ -25,16 +25,91 @@ const getArticle = (category: string, slug: string): Article | null => {
   ) || null;
 };
 
-// Related articles: same category first (excluding current), then newest
-// from other categories to complete the row. Uses only real content.
-const getRelatedArticles = (current: Article, limit = 3): Article[] => {
-  const sameCategory = DEMONSTRATION_ARTICLES.filter(
-    (a) => a.category.slug === current.category.slug && a.id !== current.id
-  );
-  const others = DEMONSTRATION_ARTICLES.filter(
-    (a) => a.category.slug !== current.category.slug && a.id !== current.id
-  );
-  return [...sameCategory, ...others].slice(0, limit);
+// Related articles.
+//
+// Ordenação anterior: "mesma categoria, ordem de cadastro" — na prática
+// aleatória, e incapaz de ligar duas categorias que falam do mesmo assunto
+// (ex.: um guia de hardware de IA em `inteligencia-artificial` nunca
+// apontava para o guia de placa de vídeo em `games`).
+//
+// Agora a ordem é por relevância real: tags em comum (peso 3), tokens de
+// título/excerto em comum (peso 1, limitado) e mesma categoria (peso 2) como
+// desempate, seguido de data mais recente. `relatedArticles`, quando
+// preenchido no artigo, tem prioridade absoluta — é curadoria explícita.
+const RELATED_LIMIT = 3;
+
+/** Minúsculas sem acentos, para comparar tags e títulos sem ruído. */
+function normalizeText(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+/** Palavras que não identificam assunto nenhum — ignoradas na comparação. */
+const STOP_WORDS = new Set([
+  'como', 'para', 'que', 'com', 'sem', 'sobre', 'mais', 'menos', 'muito',
+  'pouco', 'seu', 'sua', 'isso', 'esse', 'essa', 'este', 'esta', 'aqui',
+  'guia', 'completo', 'geral', 'passo', 'veja', 'saiba', 'entenda',
+]);
+
+function tokenize(text: string): string[] {
+  return normalizeText(text)
+    .split(/[^a-z0-9]+/)
+    .filter((word) => word.length >= 5 && !STOP_WORDS.has(word));
+}
+
+/**
+ * Pontua a afinidade editorial entre dois artigos.
+ *
+ * Usa apenas dados que já existem no artigo (tags, título, excerto, categoria).
+ * Nada é inferido de tráfego, clique ou receita — não há esses dados aqui.
+ */
+function relevanceScore(current: Article, candidate: Article): number {
+  const currentTags = new Set((current.tags ?? []).map(normalizeText));
+  const sharedTags = (candidate.tags ?? []).filter((tag) =>
+    currentTags.has(normalizeText(tag))
+  ).length;
+
+  const currentTokens = new Set([
+    ...tokenize(current.title),
+    ...tokenize(current.excerpt),
+  ]);
+  const sharedTokens = tokenize(candidate.title).filter((token) =>
+    currentTokens.has(token)
+  ).length;
+
+  const sameCategory =
+    candidate.category.slug === current.category.slug ? 2 : 0;
+
+  return sharedTags * 3 + Math.min(sharedTokens, 3) + sameCategory;
+}
+
+const getRelatedArticles = (current: Article, limit = RELATED_LIMIT): Article[] => {
+  const curatedSlugs = current.relatedArticles ?? [];
+  const curated: Article[] = [];
+  for (const slug of curatedSlugs) {
+    const found = DEMONSTRATION_ARTICLES.find((article) => article.slug === slug);
+    if (found && found.id !== current.id && !curated.some((a) => a.id === found.id)) {
+      curated.push(found);
+    }
+  }
+
+  const rest = DEMONSTRATION_ARTICLES.filter(
+    (article) => article.id !== current.id && !curated.some((a) => a.id === article.id)
+  ).sort((a, b) => {
+    const diff = relevanceScore(current, b) - relevanceScore(current, a);
+    if (diff !== 0) return diff;
+    const sameCat =
+      Number(b.category.slug === current.category.slug) -
+      Number(a.category.slug === current.category.slug);
+    if (sameCat !== 0) return sameCat;
+    return (
+      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+    );
+  });
+
+  return [...curated, ...rest].slice(0, limit);
 };
 
 export async function generateStaticParams() {
