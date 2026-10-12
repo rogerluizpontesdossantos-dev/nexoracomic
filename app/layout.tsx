@@ -63,8 +63,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    // Add verification codes when available
-    // google: "your-google-verification-code",
+    google: "ZPrZaCkdUpgHVMUA2oiyqwv9hfMAjiohoji5bCkCMRo",
   },
   icons: {
     icon: "/favicon.svg",
