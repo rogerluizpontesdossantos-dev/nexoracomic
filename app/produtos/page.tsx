@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { DEMONSTRATION_ARTICLES } from '@/lib/articles';
 import { AFFILIATE_LINK_PROPS, validateAffiliateUrl } from '@/lib/affiliate';
 import AffiliateDisclosure from '@/components/AffiliateDisclosure';
+import { AffiliateClickTracker } from '@/components/AffiliateClickTracker';
 
 export const metadata = {
   title: 'Produtos dos Artigos',
@@ -26,6 +27,8 @@ interface ProdutoRelacionado {
     href: string;
     categoria: string;
   };
+  /** Caminho do artigo de origem (categoria/slug), para atribuir o clique. */
+  sourceArticle: string;
 }
 
 /**
@@ -70,6 +73,8 @@ function coletarProdutos(): ProdutoRelacionado[] {
           href: `/${artigo.category.slug}/${artigo.slug}`,
           categoria: artigo.category.name,
         },
+        // Atribuicao do clique: o produto vem de um artigo especifico.
+        sourceArticle: `${artigo.category.slug}/${artigo.slug}`,
       });
     }
   }
@@ -98,7 +103,12 @@ export default function ProdutosPage() {
           </header>
 
           <div className="mb-8 rounded-lg border border-border bg-card/30 p-4">
-            <AffiliateDisclosure className="" />
+            {/* Texto propio da pagina: aqui TODOS os links de produto sao de
+                afiliado (o fallback "alguns links" subestimaria a relacao). */}
+            <AffiliateDisclosure
+              className=""
+              text="Todos os links de produtos desta página são links de afiliado: se você comprar por eles, o NexoraComic recebe uma comissão, sem custo adicional para você."
+            />
           </div>
 
           {produtos.length === 0 ? (
@@ -133,26 +143,35 @@ export default function ProdutosPage() {
                       {produto.reason}
                     </p>
 
+                    {/* Ordem deliberada: o CTA comercial vem LOGO APÓS o motivo
+                        da indicacao, que e o argumento que sustenta o clique.
+                        Antes ele ficava abaixo do link interno do artigo, que
+                        roubava a atencao no ultimo instante. O link do artigo
+                        continua presente, so que em segundo plano. */}
+                    <a
+                      href={produto.href}
+                      {...AFFILIATE_LINK_PROPS}
+                      data-affiliate-product={produto.label}
+                      data-affiliate-position={String(index)}
+                      data-affiliate-program={produto.loja}
+                      data-affiliate-article={produto.sourceArticle}
+                      className="mt-4 inline-flex items-center justify-center gap-2 w-full rounded-md border border-accent/40 bg-accent/10 px-4 py-2.5 text-sm font-medium text-accent hover:bg-accent/20 hover:border-accent/60 transition-colors"
+                    >
+                      Ver na {produto.loja}
+                      <span className="sr-only">: {produto.label}</span>
+                    </a>
+
                     <div className="mt-4 pt-4 border-t border-border">
                       <p className="text-xs text-muted-foreground mb-1">
                         Relacionado ao artigo:
                       </p>
                       <Link
                         href={produto.artigo.href}
-                        className="text-sm text-primary hover:text-accent transition-colors hover:underline underline-offset-2"
+                        className="text-sm text-muted-foreground hover:text-primary transition-colors hover:underline underline-offset-2"
                       >
                         {produto.artigo.titulo} →
                       </Link>
                     </div>
-
-                    <a
-                      href={produto.href}
-                      {...AFFILIATE_LINK_PROPS}
-                      className="mt-4 inline-block text-sm font-medium text-accent hover:text-accent/80 transition-colors py-2 underline decoration-dotted underline-offset-2"
-                    >
-                      Ver na {produto.loja}
-                      <span className="sr-only">: {produto.label}</span>
-                    </a>
                   </div>
                 </li>
               ))}
@@ -163,6 +182,11 @@ export default function ProdutosPage() {
             Novas recomendações são adicionadas conforme novos artigos são
             publicados.
           </p>
+
+          {/* Medição de cliques: sem isto, os cliques nos links desta página
+              não entravam no evento `affiliate_click` do GA4 — só os dos
+              blocos dentro dos artigos eram medidos. */}
+          <AffiliateClickTracker slug="produtos" category="produtos" />
         </div>
       </main>
 

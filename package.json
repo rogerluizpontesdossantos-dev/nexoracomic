@@ -9,6 +9,8 @@
     "lint": "eslint",
     "validate:images": "node scripts/validate-images.mjs",
     "validate:editorial": "node scripts/validate-editorial.mjs",
+    "validate:affiliate": "node scripts/validate-affiliate-tracking.mjs",
+    "check:affiliate": "node scripts/check-affiliate-attribution.mjs",
     "radar": "node scripts/auto-run.mjs",
     "radar:dry": "node scripts/auto-dry-run.mjs",
     "publish": "node scripts/auto-run.mjs"

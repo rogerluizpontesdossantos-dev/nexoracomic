@@ -266,11 +266,28 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             )}
           </div>
 
-          {/* Bloco de afiliados (TASK 6AQ). Condicional: hoje `article.affiliate`
-              é undefined nos 176 artigos, então este componente retorna null
-              e nada é renderizado. */}
+          {/* Bloco de afiliados (TASK 6AQ). Condicional: `article.affiliate`
+              ausente ou sem produtos -> o componente retorna null e nada é
+              renderizado, o artigo fica idêntico ao de sempre. */}
           <AffiliateBlock affiliate={article.affiliate} category={article.category.slug} />
-          <AffiliateClickTracker slug={`${article.category.slug}/${article.slug}`} category={article.category.slug} />
+          {/* Hub comercial: só aparece onde existe bloco de afiliados, para o
+              leitor que quer comparar os produtos citados em outros artigos.
+              Sem este link, /produtos só era alcançável pelo rodapé. */}
+          {article.affiliate && article.affiliate.products.length > 0 && (
+            <p className="mt-6 text-sm text-muted-foreground">
+              <Link
+                href="/produtos"
+                className="text-accent hover:text-accent/80 transition-colors hover:underline underline-offset-2"
+              >
+                Ver todos os produtos citados em nossos artigos
+              </Link>
+            </p>
+          )}
+          {/* Medição: `slug` e `category` são passados separados, e o tracker
+              os recompõe — o artigo e /produtos precisam emitir o MESMO
+              `article_slug` no GA4, senão o mesmo artigo vira dois valores de
+              dimensão e nenhum produto fecharia por artigo. */}
+          <AffiliateClickTracker slug={article.slug} category={article.category.slug} />
 
           {/* Ad placeholder — disabled until AdSense approval (AdSlot renders null) */}
           <AdSlot slot="article-bottom" size="rectangle" className="mt-12" />

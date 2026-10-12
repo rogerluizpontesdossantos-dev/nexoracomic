@@ -184,7 +184,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>A cor vermelha de Marte é causada principalmente por óxido de ferro, mais conhecido como ferrugem. A superfície marciana é coberta por poeira e rochas ricas em minerais de ferro que, ao oxidarem, criam a tonalidade avermelhada.</p>
 
       <h2>Como o Ferro Chegou em Marte?</h2>
-      <p>Quando Marte se formou, há cerca de 4,5 bilhões de anos, ele tinha quantidades significativas de ferro em sua composição. Durante o período de formação do planeta, o ferro mais denso afundou para formar o núcleo, enquanto ferro menos denso permaneceu no manto e na crosta.</p>
+      <p>Quando <a href="/espaco/como-formou-o-sistema-solar">Marte se formou</a>, há cerca de 4,5 bilhões de anos, ele tinha quantidades significativas de ferro em sua composição. Durante o período de formação do planeta, o ferro mais denso afundou para formar o núcleo, enquanto ferro menos denso permaneceu no manto e na crosta.</p>
 
       <h2>O Processo de Oxidação</h2>
       <p>A oxidação do ferro em Marte ocorreu principalmente nos primeiros bilhões de anos de sua história, quando o planeta tinha água líquida em sua superfície. A reação entre o ferro e a água oxigenada criou os óxidos de ferro que vemos hoje.</p>
@@ -442,10 +442,10 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Cada pixel pode exigir vários raios para manter a imagem nítida e sem ruído. Como uma tela em resolução alta tem milhões de pixels, o esforço computacional cresce rapidamente. É por isso que o ray tracing histórico, usado em filmes, levava horas para renderizar um único quadro.</p>
 
       <h3>O Papel do Hardware Especializado</h3>
-      <p>Placas de vídeo modernas incluem núcleos dedicados a acelerar o cálculo de intersecção entre raios e geometria. Isso permitiu levar o ray tracing, antes usado apenas em <a href="/filmes-series/ficcao-cientifica-x-ciencia-real">efeitos especiais de cinema</a>, para o tempo real dos jogos.</p>
+      <p>Placas de vídeo modernas incluem núcleos dedicados a acelerar o cálculo de intersecção entre raios e geometria. Isso permitiu levar o ray tracing, antes usado apenas em <a href="/filmes-series/ficcao-cientifica-x-ciencia-real">efeitos especiais de cinema</a>, para o tempo real dos jogos. Se você está considerando uma atualização para aproveitar esse recurso, o <a href="/games/como-escolher-placa-de-video-para-pc-gamer">guia de escolha de placa de vídeo</a> mostra quais modelos entregam melhor desempenho em ray tracing por faixa de preço.</p>
 
       <h2>Ray Tracing versus Rasterização</h2>
-      <p>A rasterização, método tradicional, projeta polígonos e aplica "truques" visuais para simular luz. É eficiente, porém limitada. O ray tracing oferece iluminação fisicamente correta, mas com custo maior. Hoje, o mais comum é combinar as duas técnicas para equilibrar qualidade e desempenho.</p>
+      <p>A rasterização, método tradicional, projeta polígonos e aplica "truques" visuais para simular luz. É eficiente, porém limitada. O ray tracing oferece iluminação fisicamente correta, mas com custo maior. Hoje, o mais comum é combinar as duas técnicas para equilibrar qualidade e desempenho. Se você está montando um PC gamer e quer entender quais componentes realmente importam para esses gráficos, o <a href="/games/como-montar-um-pc-gamer">guia de montagem de PC gamer</a> mostra como balancear placa de vídeo, memória e outros componentes sem gastar à toa.</p>
 
       <h2>Conclusão</h2>
       <p>O ray tracing representa um salto na fidelidade visual dos games, aproximando os mundos virtuais da física real. Acompanhar essa evolução ajuda a entender o que torna cada vez mais difícil, para o olho humano, distinguir o que é jogo do que é realidade.</p>
@@ -529,8 +529,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     imageAlt: 'Controle de videogame em fundo colorido e vibrante',
     sources: [
       {
-        title: 'MIT Technology Review - The Future of Game AI',
-        url: 'https://www.technologyreview.com/',
+        title: 'MIT Technology Review — cobertura de IA (inclui aplicação em jogos)',
+        url: 'https://www.technologyreview.com/topic/artificial-intelligence/',
         type: 'publication'
       },
       {
@@ -591,8 +591,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'agency'
       },
       {
-        title: 'Event Horizon Telescope - Black Hole Image',
-        url: 'https://eventhorizontelescope.org/',
+        title: 'Event Horizon Telescope — Astronomers Capture First Image of a Black Hole (M87*, 10/04/2019)',
+        url: 'https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole',
         type: 'agency'
       }
     ]
@@ -720,13 +720,13 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     imageAlt: 'Laboratório científico com equipamentos e vidraria',
     sources: [
       {
-        title: 'Sleep Foundation',
-        url: 'https://www.sleepfoundation.org/',
+        title: 'Sleep Foundation — How Much Sleep Do Adults Need (necessidades de sono por idade)',
+        url: 'https://www.sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need',
         type: 'agency'
       },
       {
-        title: 'Harvard Health - Body and Health',
-        url: 'https://www.health.harvard.edu/',
+        title: 'Harvard Health — How much sleep do you actually need? (30/10/2023)',
+        url: 'https://www.health.harvard.edu/blog/how-much-sleep-do-you-actually-need-202310302986',
         type: 'university'
       }
     ]
@@ -773,8 +773,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     imageAlt: 'Cidade moderna com arquitetura contemporânea ao entardecer',
     sources: [
       {
-        title: 'IEEE - Smart Cities',
-        url: 'https://www.ieee.org/',
+        title: 'IEEE SA — IEEE Standards for Smart Cities (framework e projetos P1950.1/P2413.1/P2784)',
+        url: 'https://standards.ieee.org/programs/industry-connections/smart-cities/',
         type: 'publication'
       },
       {
@@ -870,7 +870,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <h2>Redes Wi-Fi e Dispositivos</h2>
       <ul>
         <li><strong>Evite redes abertas:</strong> use redes publicas com cuidado e prefira conexoes seguras</li>
-        <li><strong>Rede domestica:</strong> proteja o roteador com senha forte</li>
+        <li><strong>Rede domestica:</strong> proteja o <a href="/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva">roteador</a> com senha forte</li>
         <li><strong>Backup:</strong> faca copias regulares dos dados importantes</li>
         <li><strong>Educacao continua:</strong> mantenha-se informado sobre novos golpes</li>
       </ul>
@@ -899,8 +899,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'agency'
       },
       {
-        title: 'NCSC - Cyber Aware',
-        url: 'https://www.ncsc.gov.uk/',
+        title: 'NCSC (UK) — Top tips for staying secure online (2SV, senhas, backups)',
+        url: 'https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online',
         type: 'agency'
       }
     ]
@@ -914,7 +914,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>A inteligencia artificial chegou a medicina para apoiar profissionais em tarefas como diagnostico, planejamento de tratamento e monitoramento de pacientes. A promessa e tornar o atendimento mais rapido, preciso e acessivel.</p>
       <p>A <strong>Organizacao Mundial da Saude</strong> enquadra esse trabalho dentro de uma area mais ampla chamada <strong>saude digital</strong>. A OMS observa que as tecnologias digitais ja fazem parte da vida cotidiana e que a populacao mundial nunca esteve tao conectada, mas que a aplicacao delas para melhorar a saude das populacoes permanece, em grande parte, subaproveitada. Para a agencia, ha enorme escopo para solucoes de saude digital.</p>
       <h2>Diagnostico por Imagem</h2>
-      <p>Algoritmos de visao computacional analisam exames de imagem, como radiografias e ressonancias, para destacar possiveis alteracoes. Em tarefas como a deteccao de tumores, esses sistemas podem alcancar desempenho comparavel ao de especialistas, funcionando como um segundo par de olhos.</p>
+      <p>Algoritmos de visao computacional analisam exames de imagem, como radiografias e ressonancias, para destacar possiveis alteracoes. Em tarefas como a deteccao de tumores, esses sistemas podem alcancar desempenho comparavel ao de especialistas, funcionando como um segundo par de olhos. Para entender como esses modelos sao treinados na pratica, o <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">guia de aprendizado de maquina explicado</a> mostra o fluxo real de treinamento — prever, medir o erro e ajustar pesos — e avisa que um baseline simples evita resultados enganosos.</p>
       <h3>Checagens Personalizadas</h3>
       <p>Ao cruzar historicos medicos e dados geneticos, a IA ajuda a prever riscos e sugerir exames ou acompanhamentos personalizados para cada paciente.</p>
       <h2>Descoberta de Medicamentos</h2>
@@ -953,8 +953,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     imageAlt: 'Profissional de saúde analisando dados médicos em um dispositivo tecnológico',
     sources: [
       {
-        title: 'World Health Organization - AI in Health',
-        url: 'https://www.who.int/',
+        title: 'World Health Organization — Ethics and governance of AI for health: Guidance on large multi-modal models (2025)',
+        url: 'https://www.who.int/publications/i/item/9789240084759',
         type: 'agency'
       },
       {
@@ -977,7 +977,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>O nome vem de sequências repetitivas encontradas no DNA de bactérias. Na natureza, esse sistema ajuda as bactérias a reconhecer e destruir o DNA de vírus invasores. Cientistas adaptaram esse mecanismo como uma "tesoura molecular" controlável.</p>
 
       <h3>A Tesoura Molecular</h3>
-      <p>Com uma proteína guiada por uma sequência de RNA, a ferramenta encontra o trecho de DNA desejado e faz um corte. Depois, a célula pode corrigir o local, permitindo remover, inserir ou trocar genes.</p>
+      <p>Com uma proteína guiada por uma sequência de RNA, a ferramenta encontra o trecho de DNA desejado e faz um corte. Depois, a célula pode corrigir o local, permitindo remover, inserir ou <a href="/ciencia/base-editing-lapis-edicao-genetica-desenvolvimento-humano">trocar genes</a>.</p>
 
       <h2>Testes e Pesquisas em Saúde</h2>
       <p>O CRISPR abre possibilidades para tratar doenças genéticas diretamente na origem. Em laboratório, pesquisadores exploram aplicações como corrigir mutações causadoras de doenças hereditárias e desenvolver terapias celulares mais eficazes.</p>
@@ -1090,8 +1090,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'agency'
       },
       {
-        title: 'STScI - Webb Science',
-        url: 'https://www.stsci.edu/',
+        title: 'STScI — NASA\'s James Webb Space Telescope (ciência e operação do JWST)',
+        url: 'https://www.stsci.edu/jwst',
         type: 'university'
       }
     ]
@@ -1157,7 +1157,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'agency'
       },
       {
-        title: 'NASA Exoplanet Archive',
+        title: 'NASA Exoplanet Archive (IPAC/Caltech) — tabelas de planetas confirmados',
         url: 'https://exoplanetarchive.ipac.caltech.edu/',
         type: 'agency'
       },
@@ -1400,13 +1400,13 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       </ul>
 
       <h2>A Era da Busca Semântica</h2>
-      <p>Antigamente, buscadores casavam palavras literalmente. Hoje, modelos de linguagem entendem que "remédio para dor de cabeça" e "o que tomar para enxaqueca" têm a mesma intenção. Técnicas de <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">aprendizado de máquina</a> representam palavras e frases como vetores numéricos, permitindo comparar significados, não apenas letras.</p>
+      <p>Antigamente, buscadores casavam palavras literalmente. Hoje, modelos de linguagem entendem que "remédio para dor de cabeça" e "o que tomar para enxaqueca" têm a mesma intenção. Técnicas de <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">aprendizado de máquina</a> representam palavras e frases como vetores numéricos, permitindo comparar significados, não apenas letras. Muitos desses sistemas são implementados em Python, e se você quer entender a base da programação por trás deles, o <a href="/tecnologia/python-para-iniciantes-por-onde-comecar-gastando-pouco">guia de Python para iniciantes</a> mostra por onde começar gastando pouco.</p>
 
       <h3>RankBrain, BERT e Modelos de Linguagem</h3>
       <p>Há anos os buscadores usam redes neurais para interpretar consultas ambíguas e trechos de texto. Esses sistemas aprendem com bilhões de interações, refinando continuamente a compreensão de linguagem natural — inclusive perguntas faladas.</p>
 
       <h2>O Lado de Quem Publica: SEO</h2>
-      <p>Para quem cria conteúdo, otimizar para buscadores (SEO) significa tornar páginas fáceis de rastrear e claramente úteis: títulos descritivos, estrutura com subtítulos, carregamento rápido, <a href="/tecnologia/ciberseguranca-para-iniciantes">endereços seguros</a> e links internos coerentes. Um sitemap em XML, por exemplo, avisa ao buscador quais páginas existem — assim como o robots.txt define o que pode ou não ser rastreado.</p>
+      <p>Para quem cria conteúdo, otimizar para buscadores (SEO) significa tornar páginas fáceis de rastrear e claramente úteis: títulos descritivos, estrutura com subtítulos, carregamento rápido, <a href="/tecnologia/ciberseguranca-para-iniciantes">endereços seguros</a> e links internos coerentes. Um sitemap em XML, por exemplo, avisa ao buscador quais páginas existem — assim como o robots.txt define o que pode ou não ser rastreado. Se você está aprendendo programação e quer entender como algoritmos funcionam na prática, o <a href="/tecnologia/algoritmos-para-iniciantes-o-que-aprender-primeiro">guia de algoritmos para iniciantes</a> mostra quais conceitos são essenciais para começar.</p>
 
       <h2>Limitações e Vieses</h2>
       <ul>
@@ -1518,8 +1518,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'company'
       },
       {
-        title: 'IEEE - Virtual and Augmented Reality',
-        url: 'https://spectrum.ieee.org/',
+        title: 'IEEE Spectrum — Consumer Electronics (cobertura de realidade virtual/aumentada e gaming)',
+        url: 'https://spectrum.ieee.org/consumer-electronics',
         type: 'publication'
       }
     ]
@@ -1682,8 +1682,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'agency'
       },
       {
-        title: 'EU - AI Act',
-        url: 'https://artificialintelligenceact.eu/',
+        title: 'EU — AI Act (texto navegável por artigos, Regulamento UE 2024/1689)',
+        url: 'https://artificialintelligenceact.eu/article/1/',
         type: 'other'
       }
     ]
@@ -1853,7 +1853,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       </ul>
 
       <h2>Ray Tracing e o Salto Atual</h2>
-      <p>A chegada do <a href="/games/o-que-e-ray-tracing">ray tracing acelerado por hardware</a> em 2018 marcou a maior virada em duas décadas: sombras, reflexos e iluminação calculados por simulação física de raios de luz, não por truques. Com upscaling inteligente (DLSS e equivalentes), o custo do realismo caiu a ponto de caber em consoles domésticos.</p>
+      <p>A chegada do <a href="/games/o-que-e-ray-tracing">ray tracing acelerado por hardware</a> em 2018 marcou a maior virada em duas décadas: sombras, reflexos e iluminação calculados por simulação física de raios de luz, não por truques. Com upscaling inteligente (DLSS e equivalentes), o custo do realismo caiu a ponto de caber em consoles domésticos. Se você está atualizando seu PC para aproveitar esses gráficos, o <a href="/games/como-escolher-placa-de-video-para-pc-gamer">guia de escolha de placa de vídeo</a> mostra quais modelos suportam ray tracing por faixa de preço.</p>
 
       <h3>Nanite e geometria infinita</h3>
       <p>Avanços recentes de engines como a Unreal Engine 5 introduziram sistemas de geometria que transmitem bilhões de polígonos de forma inteligente, eliminando o gargalo clássico de contagem de triângulos e permitindo detalhes de escala cinematográfica direto no editor.</p>
@@ -1887,12 +1887,12 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'company'
       },
       {
-        title: 'Unity - Real-Time Development Platform',
-        url: 'https://unity.com/',
+        title: 'Unity — plataforma de desenvolvimento em tempo real (planos e produtos)',
+        url: 'https://unity.com/products',
         type: 'company'
       },
       {
-        title: 'NVIDIA - Developer Graphics',
+        title: 'NVIDIA Developer — gráficos, CUDA e ferramentas de rendering (DLSS/OptiX)',
         url: 'https://developer.nvidia.com/',
         type: 'company'
       }
@@ -1971,8 +1971,8 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'company'
       },
       {
-        title: 'IEEE - Cloud Gaming Latency Studies',
-        url: 'https://spectrum.ieee.org/',
+        title: 'IEEE Spectrum — Computing (estudos e cobertura de latência em cloud gaming)',
+        url: 'https://spectrum.ieee.org/computing/hardware',
         type: 'publication'
       }
     ]
@@ -2137,7 +2137,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <h2>Onde Já Está Disponível</h2>
       <p>DLSS 5 chegou ao primeiro jogo no início de setembro de 2026: NBA 2K27, que entrou em acesso antecipado com o recurso já integrado. A NVIDIA promete entre 15 e 20 títulos com suporte até o final do ano.</p>
       <h2>Limitações e Controvérsias</h2>
-      <p>A reação inicial à DLSS 5 foi divisiva. Muitos jogadores temem que a IA generativa "dilua" a identidade visual dos jogos. Testes em GPUs de entrada mostraram queda de desempenho em cenas complexas, sugerindo que o benefício estará mais presente em hardware dedicado a IA.</p>
+      <p>A reação inicial à DLSS 5 foi divisiva. Muitos jogadores temem que a <a href="/games/ia-generativa-no-design-de-games">IA generativa</a> "dilua" a identidade visual dos jogos. Testes em GPUs de entrada mostraram queda de desempenho em cenas complexas, sugerindo que o benefício estará mais presente em hardware dedicado a IA. Se você está planejando um upgrade para rodar DLSS 5, o <a href="/games/como-escolher-placa-de-video-para-pc-gamer">guia de escolha de placa de vídeo</a> mostra quais modelos têm Tensor Cores dedicados e quais faixas de preço oferecem melhor custo-benefício para jogos modernos.</p>
       <h2>Contexto do Mercado</h2>
       <p>A NVIDIA domina cerca de 80% do mercado de GPUs para desktops, mas enfrenta pressão da AMD. Enquanto isso, a própria AMD prepara sua resposta com tecnologia de upscaling própria no Radeon Software 2026.</p>
       <h2>Conclusão</h2>
@@ -2182,7 +2182,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'dlss-5-dividindo-os-jogadores',
     title: 'DLSS 5 Está Dividindo os Jogadores: Avanço Gráfico ou IA Demais nos Games?',
     excerpt: 'Quatro meses após o anúncio de DLSS 5, a comunidade gamer permanece dividida. Entenda os motivos do entusiasmo e da crítica ao Neural Rendering da NVIDIA.',
-    content: `<h2>O que o DLSS 5 realmente faz com a imagem do jogo</h2><p>O <strong>DLSS 5</strong> foi apresentado pela <strong>NVIDIA</strong> em março de 2026 e carrega como principal novidade o <strong>3D-Guided Neural Rendering</strong>. Segundo a descrição oficial, a técnica <strong>estende o pipeline gráfico</strong> em vez de substituí-lo: entra como uma etapa final de renderização neural que usa o quadro já produzido pelo motor do jogo como base inegociável. A geometria, as texturas e os buffers de iluminação definidos pelo artista delimitam o que não pode mudar; o modelo de IA fica responsável por acrescentar detalhe de iluminação e resposta de material.</p><p>Essa distinção técnica é o centro da controvérsia sobre o produto. A NVIDIA descreve o funcionamento como estritamente determinístico, com <strong>um quadro entrando e um quadro saindo</strong>, e garante <strong>consistência temporal</strong> entre quadros para evitar tremulação. O blog técnico da empresa define três pilares: o quadro do motor como fundação, um modelo que analisa objetos e semântica da cena, e controles granulares para o desenvolvedor calibrar o efeito.</p><h2>Os controles que a NVIDIA passou a revelar</h2><p>O ponto mais sensível da discussão é a margem de manobra dos estúdios. A documentação técnica descreve quatro conjuntos de controle, e vale listar o que existe de fato, sem interpretação: <strong>seleção de modelo</strong>, <strong>ajustes de intensidade de estrutura e de tom</strong>, <strong>máscaras semânticas de IA</strong> e <strong>máscaras em nível de motor</strong>. São esses dois últimos itens que permitem restringir o efeito a partes específicas da cena, em vez de aplicá-lo de forma uniforme ao quadro inteiro.</p><p>A NVIDIA resume a promessa em uma frase nos materiais oficiais: o quadro do motor define o que deve permanecer, enquanto o desenvolvedor dirige o que pode mudar. É um desenho de controle deliberado, pensado para responder à objeção de que a tecnologia sobrescreve a decisão do artista. A questão que os estúdios ainda respondem é se esses controles, na prática, dão conta de proteger a intenção artística.</p><h2>Requisitos de hardware e o ganho de desempenho</h2><p>Um dado que costuma passar despercebido é a evolução de hardware desde o anúncio. A NVIDIA afirma que o DLSS 5 passou a rodar em <strong>uma única placa de vídeo</strong>, partindo de um protótipo que usava duas <strong>GeForce RTX 5090</strong> em paralelo. A empresa fala em <strong>ganho de desempenho de 5 vezes em seis meses</strong>, atribuído a otimizações sistemáticas do pipeline e ao refinamento dos modelos neurais, e afirma que a tecnologia passou a estar disponível para <strong>todas as GPUs GeForce RTX 50 Series</strong>, incluindo as de notebook.</p><p>Na prática, o primeiro título a receber a tecnologia foi <strong>NBA 2K27</strong>, jogo desenvolvido pela Visual Concepts. Com o DLSS ligado, a NVIDIA cita <strong>370 FPS em 4K</strong> com ray tracing e ajustes Ultra em uma RTX 5090. Para ativar o recurso, é preciso instalar o driver GeForce Game Ready <strong>616.64 WHQL</strong> e ligar a opção DLSS Neural Rendering no menu de vídeo do jogo. A empresa também anuncia atualizações de modelo previstas para o outono, com promessa de desempenho acima da linha de base atual.</p><h2>Por que a conversa sobre arte e IA ficou intensa</h2><p>O enquadramento da crítica não é apenas estético. Quando a NVIDIA apresentou o recurso, parte da comunidade de desenvolvedores e jogadores questionou se um modelo de IA deveria poder <strong>reescrever personagens</strong> com padrões de beleza gerados automaticamente, argumento resumido pela <strong>PC Gamer</strong> em reportagem sobre o assunto. A crítica central não é que a técnica seja ruim, e sim que ela pode <strong>substituir o rosto desenhado por uma pessoa</strong> por um padrão computacional.</p><p>É importante registrar o que não está confirmado. Não encontrei, em fonte oficial nem em reportagem especializada que tenha conseguido verificar, base para os números que circulam neste texto: a alegação de <strong>84% de dislikes</strong> em vídeos da empresa, a queda de desempenho medida em uma RTX 5070 Ti de 71 para 35 FPS e a projeção de mais de 15 títulos em 2026. O texto original citava ainda dois nomes de benchmark que não aparecem em nenhuma fonte oficial ou reportagem que eu tenha conseguido verificar, e que por isso foram removidos.</p><h2>Onde isso se encaixa na disputa com a AMD</h2><p>O argumento de mercado é a razão de existir da tecnologia para a NVIDIA. A renderização neural é o diferencial da geração atual, e a empresa posiciona o DLSS 5 como parte de uma transição que, nas palavras oficiais, combina renderização artesanal com gráficos neurais. Isso coloca a companhia sob pressão específica: a tecnologia precisa entregar ganho de desempenho comprovável e preservar o controle criativo, porque qualquer falha em um dos dois eixos enfraquece a proposta inteira.</p><p>Para o usuário final, a consequência prática ainda é limitada pela lista de compatibilidade. A NVIDIA indica que mais títulos devem integrar o recurso nas semanas e meses seguintes, o que significa que a conversa sobre DLSS 5 ainda será dominada por um punhado de lançamentos, e não pelo conjunto da biblioteca. Enquanto a lista não crescer, o julgamento sobre a tecnologia tende a se formar a partir de poucos exemplos, com todo o peso de uma decisão de arquitetura gráfica.</p>`,
+    content: `<h2>O que o DLSS 5 realmente faz com a imagem do jogo</h2><p>O <strong><a href="/games/dlss-5-revolucao-dos-graficos">DLSS 5</a></strong> foi apresentado pela <strong>NVIDIA</strong> em março de 2026 e carrega como principal novidade o <strong>3D-Guided Neural Rendering</strong>. Segundo a descrição oficial, a técnica <strong>estende o pipeline gráfico</strong> em vez de substituí-lo: entra como uma etapa final de renderização neural que usa o quadro já produzido pelo motor do jogo como base inegociável. A geometria, as texturas e os buffers de iluminação definidos pelo artista delimitam o que não pode mudar; o modelo de IA fica responsável por acrescentar detalhe de iluminação e resposta de material.</p><p>Essa distinção técnica é o centro da controvérsia sobre o produto. A NVIDIA descreve o funcionamento como estritamente determinístico, com <strong>um quadro entrando e um quadro saindo</strong>, e garante <strong>consistência temporal</strong> entre quadros para evitar tremulação. O blog técnico da empresa define três pilares: o quadro do motor como fundação, um modelo que analisa objetos e semântica da cena, e controles granulares para o desenvolvedor calibrar o efeito.</p><h2>Os controles que a NVIDIA passou a revelar</h2><p>O ponto mais sensível da discussão é a margem de manobra dos estúdios. A documentação técnica descreve quatro conjuntos de controle, e vale listar o que existe de fato, sem interpretação: <strong>seleção de modelo</strong>, <strong>ajustes de intensidade de estrutura e de tom</strong>, <strong>máscaras semânticas de IA</strong> e <strong>máscaras em nível de motor</strong>. São esses dois últimos itens que permitem restringir o efeito a partes específicas da cena, em vez de aplicá-lo de forma uniforme ao quadro inteiro.</p><p>A NVIDIA resume a promessa em uma frase nos materiais oficiais: o quadro do motor define o que deve permanecer, enquanto o desenvolvedor dirige o que pode mudar. É um desenho de controle deliberado, pensado para responder à objeção de que a tecnologia sobrescreve a decisão do artista. A questão que os estúdios ainda respondem é se esses controles, na prática, dão conta de proteger a intenção artística.</p><h2>Requisitos de hardware e o ganho de desempenho</h2><p>Um dado que costuma passar despercebido é a evolução de hardware desde o anúncio. A NVIDIA afirma que o DLSS 5 passou a rodar em <strong>uma única placa de vídeo</strong>, partindo de um protótipo que usava duas <strong>GeForce RTX 5090</strong> em paralelo. A empresa fala em <strong>ganho de desempenho de 5 vezes em seis meses</strong>, atribuído a otimizações sistemáticas do pipeline e ao refinamento dos modelos neurais, e afirma que a tecnologia passou a estar disponível para <strong>todas as GPUs GeForce RTX 50 Series</strong>, incluindo as de notebook.</p><p>Na prática, o primeiro título a receber a tecnologia foi <strong>NBA 2K27</strong>, jogo desenvolvido pela Visual Concepts. Com o DLSS ligado, a NVIDIA cita <strong>370 FPS em 4K</strong> com ray tracing e ajustes Ultra em uma RTX 5090. Para ativar o recurso, é preciso instalar o driver GeForce Game Ready <strong>616.64 WHQL</strong> e ligar a opção DLSS Neural Rendering no menu de vídeo do jogo. A empresa também anuncia atualizações de modelo previstas para o outono, com promessa de desempenho acima da linha de base atual.</p><h2>Por que a conversa sobre arte e IA ficou intensa</h2><p>O enquadramento da crítica não é apenas estético. Quando a NVIDIA apresentou o recurso, parte da comunidade de desenvolvedores e jogadores questionou se um modelo de IA deveria poder <strong>reescrever personagens</strong> com padrões de beleza gerados automaticamente, argumento resumido pela <strong>PC Gamer</strong> em reportagem sobre o assunto. A crítica central não é que a técnica seja ruim, e sim que ela pode <strong>substituir o rosto desenhado por uma pessoa</strong> por um padrão computacional.</p><p>É importante registrar o que não está confirmado. Não encontrei, em fonte oficial nem em reportagem especializada que tenha conseguido verificar, base para os números que circulam neste texto: a alegação de <strong>84% de dislikes</strong> em vídeos da empresa, a queda de desempenho medida em uma RTX 5070 Ti de 71 para 35 FPS e a projeção de mais de 15 títulos em 2026. O texto original citava ainda dois nomes de benchmark que não aparecem em nenhuma fonte oficial ou reportagem que eu tenha conseguido verificar, e que por isso foram removidos.</p><h2>Onde isso se encaixa na disputa com a AMD</h2><p>O argumento de mercado é a razão de existir da tecnologia para a NVIDIA. A renderização neural é o diferencial da geração atual, e a empresa posiciona o DLSS 5 como parte de uma transição que, nas palavras oficiais, combina renderização artesanal com gráficos neurais. Isso coloca a companhia sob pressão específica: a tecnologia precisa entregar ganho de desempenho comprovável e preservar o controle criativo, porque qualquer falha em um dos dois eixos enfraquece a proposta inteira.</p><p>Para o usuário final, a consequência prática ainda é limitada pela lista de compatibilidade. A NVIDIA indica que mais títulos devem integrar o recurso nas semanas e meses seguintes, o que significa que a conversa sobre DLSS 5 ainda será dominada por um punhado de lançamentos, e não pelo conjunto da biblioteca. Enquanto a lista não crescer, o julgamento sobre a tecnologia tende a se formar a partir de poucos exemplos, com todo o peso de uma decisão de arquitetura gráfica.</p>`,
     category: {
       id: 'games',
       slug: 'games',
@@ -2222,7 +2222,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'anthropic-claude-5-fable-mythos',
     title: 'Claude 5 da Anthropic: Como Fable e Mythos Estão Redefinindo a IA',
     excerpt: 'A Anthropic lançou sua família Claude 5 com modelos Fable e Mythos, além do Opus 5. Entenda como cada modelo se diferencia e o que muda para desenvolvedores e usuários.',
-    content: `<h2>O que a Anthropic realmente lançou na família Claude 5</h2><p>Segundo a documentação oficial da empresa, a linha corrente não é o que muitos textos vêm repetindo. Os modelos ativos são <strong>Claude Fable 5.1</strong>, <strong>Claude Opus 5.5</strong>, <strong>Claude Sonnet 5.5</strong> e <strong>Claude Haiku 4.5</strong>. A <strong>Anthropic</strong> recomenda começar por <strong>Opus 5.5</strong> na maioria dos casos, usando <strong>Fable 5.1</strong> quando o raciocínio exigente ou o trabalho agêntico de horizonte longo pede mais.</p><p>Existe uma quinta linha, separada e com regras de acesso próprias: o <strong>Claude Mythos</strong>, chegado à versão <strong>5.1</strong> em <strong>1º de setembro de 2026</strong>. A Anthropic o descreve como o modelo mais capaz que já desenvolveu para <strong>cibersegurança e pesquisa biológica</strong>, e o acesso segue restrito a um pequeno grupo de organizações avaliadas, por meio dos programas de acesso confiável. A distinção é essencial: Mythos não é a versão científica do Claude aberta ao público em geral, é um modelo sob controle de acesso, com salvaguardas específicas.</p><h2>Fable 5.1 e Mythos 5.1: o mesmo modelo sob salvaguardas diferentes</h2><p>Este é o ponto mais interessante da estrutura, e a Anthropic é explícita: <strong>Fable 5.1 e Mythos 5.1 são o mesmo modelo subjacente</strong>. A diferença está nas salvaguardas. Como o Mythos 5.1 é altamente capaz em cibersegurança e biologia, a empresa o libera apenas para organizações verificadas. Já o Fable 5.1 existe para tornar essas mesmas capacidades mais amplamente disponíveis, com bloqueios precisos nas áreas de risco.</p><p>Segundo a empresa, essas salvaguardas fazem com que perguntas de biologia e química de uso dual sejam encaminhadas para os modelos Opus, e impedem testes de invasão, geração de exploits e varredura de vulnerabilidades baseadas em binários. A Anthropic afirma ainda que os filtros de biologia do Fable 5.1 intervêm <strong>85% menos vezes</strong> do que os apresentados no Fable 5 original, o que representa um ganho claro de usabilidade sem abrir mão do bloqueio. O <strong>Claude Security</strong> passa a rodar sobre o Mythos 5.1.</p><h2>Preço, contexto e o que cada modelo entrega</h2><p>Os preços oficiais, em dólares por milhão de tokens, são: <strong>Fable 5.1</strong> e <strong>Mythos 5.1</strong> a US$ 10 de entrada e US$ 50 de saída; <strong>Opus 5.5</strong> a US$ 4 e US$ 20; <strong>Sonnet 5.5</strong> a US$ 2 e US$ 10; <strong>Haiku 4.5</strong> a US$ 1 e US$ 5. A janela de contexto é de <strong>1 milhão de tokens</strong> para Fable 5.1, Opus 5.5 e Sonnet 5.5, e de <strong>200 mil</strong> para o Haiku 4.5.</p><p>A escolha recomendada se organiza por tarefa. O <strong>Opus 5.5</strong> é indicado para programação agêntica de longa duração e trabalho de conhecimento; o <strong>Sonnet 5.5</strong> é descrito como a melhor combinação de velocidade e inteligência; o <strong>Haiku 4.5</strong> é o mais rápido, com inteligência próxima à fronteira. Para desenvolvedores, os identificadores são <code>claude-opus-5-5</code>, <code>claude-sonnet-5-5</code>, <code>claude-fable-5-1</code> e <code>claude-haiku-4-5</code>.</p><h2>Opus 5.5: o lançamento de 22 de setembro</h2><p>Anunciado em <strong>22 de setembro de 2026</strong>, o <strong>Opus 5.5</strong> foi apresentado como o primeiro modelo da família 5.5. A Anthropic afirma que ele opera no nível do Fable 5.1 na maior parte do trabalho e custa <strong>40% menos</strong> que o Opus 5, com leitura de cache a US$ 0,20 por milhão, e que gera texto <strong>mais de 30% mais rápido</strong> que o Opus 5.</p><p>Nos testes citados pela empresa, um avaliador concluiu uma migração de código de <strong>680 mil linhas em menos de um dia</strong>, trabalho que teria levado semanas a uma equipe de engenharia. Em outro teste, o modelo conseguiu reduzir o tempo de carregamento em <strong>39 das 40 páginas</strong> de um aplicativo web, enquanto o Opus 5 produziu melhorias menores e ainda alterou o comportamento do aplicativo. A empresa também destaca que o Opus 5.5 foi avaliado antes do lançamento por entidades externas, entre elas <strong>Frontier Design</strong> e <strong>METR</strong>.</p><h2>Segurança e o que os números não dizem</h2><p>O Opus 5.5 é descrito como o modelo de melhor desempenho na auditoria comportamental automatizada da Anthropic, com menor propensão a ações difíceis de reverter e maior resistência a injeção de prompt. A empresa afirma que ele é comparável ao Mythos 5.1 em biologia e cibersegurança e, por isso, recebe salvaguardas equivalentes às do Fable 5.1. Em avaliação feita com a <strong>Dyno Therapeutics</strong>, alcançou melhorias em um teste de predição e design molecular de horizonte longo.</p><p>Vale registrar as ressalvas da própria empresa. A documentação informa que o tokenizer mais novo, usado a partir de Claude 4.7 e no Mythos Preview, gera cerca de <strong>30% mais tokens</strong> para o mesmo texto, o que altera os custos reais. A empresa também adverte que os números do Terminal-Bench-Science têm erro-padrão de 3,5 a 4,5 pontos por modelo, o que torna frágil qualquer comparação de poucos pontos. Por fim, o Mythos exige aceitação de uma política de retenção de dados de 30 dias por padrão, enquanto o Opus 5.5 permanece disponível com retenção zero.</p>`,
+    content: `<h2>O que a Anthropic realmente lançou na família Claude 5</h2><p>Segundo a documentação oficial da empresa, a linha corrente não é o que muitos textos vêm repetindo. Os modelos ativos são <strong>Claude Fable 5.1</strong>, <strong>Claude Opus 5.5</strong>, <strong>Claude Sonnet 5.5</strong> e <strong>Claude Haiku 4.5</strong>. A <strong>Anthropic</strong> recomenda começar por <strong>Opus 5.5</strong> na maioria dos casos, usando <strong>Fable 5.1</strong> quando o raciocínio exigente ou o <a href="/inteligencia-artificial/agentes-autonomos-ia-tomada-de-decisao">trabalho agêntico de horizonte longo</a> pede mais.</p><p>Existe uma quinta linha, separada e com regras de acesso próprias: o <strong>Claude Mythos</strong>, chegado à versão <strong>5.1</strong> em <strong>1º de setembro de 2026</strong>. A Anthropic o descreve como o modelo mais capaz que já desenvolveu para <strong>cibersegurança e pesquisa biológica</strong>, e o acesso segue restrito a um pequeno grupo de organizações avaliadas, por meio dos programas de acesso confiável. A distinção é essencial: Mythos não é a versão científica do Claude aberta ao público em geral, é um modelo sob controle de acesso, com salvaguardas específicas.</p><h2>Fable 5.1 e Mythos 5.1: o mesmo modelo sob salvaguardas diferentes</h2><p>Este é o ponto mais interessante da estrutura, e a Anthropic é explícita: <strong>Fable 5.1 e Mythos 5.1 são o mesmo modelo subjacente</strong>. A diferença está nas salvaguardas. Como o Mythos 5.1 é altamente capaz em cibersegurança e biologia, a empresa o libera apenas para organizações verificadas. Já o Fable 5.1 existe para tornar essas mesmas capacidades mais amplamente disponíveis, com bloqueios precisos nas áreas de risco.</p><p>Segundo a empresa, essas salvaguardas fazem com que perguntas de biologia e química de uso dual sejam encaminhadas para os modelos Opus, e impedem testes de invasão, geração de exploits e varredura de vulnerabilidades baseadas em binários. A Anthropic afirma ainda que os filtros de biologia do Fable 5.1 intervêm <strong>85% menos vezes</strong> do que os apresentados no Fable 5 original, o que representa um ganho claro de usabilidade sem abrir mão do bloqueio. O <strong>Claude Security</strong> passa a rodar sobre o Mythos 5.1.</p><h2>Preço, contexto e o que cada modelo entrega</h2><p>Os preços oficiais, em dólares por milhão de tokens, são: <strong>Fable 5.1</strong> e <strong>Mythos 5.1</strong> a US$ 10 de entrada e US$ 50 de saída; <strong>Opus 5.5</strong> a US$ 4 e US$ 20; <strong>Sonnet 5.5</strong> a US$ 2 e US$ 10; <strong>Haiku 4.5</strong> a US$ 1 e US$ 5. A janela de contexto é de <strong>1 milhão de tokens</strong> para Fable 5.1, Opus 5.5 e Sonnet 5.5, e de <strong>200 mil</strong> para o Haiku 4.5.</p><p>A escolha recomendada se organiza por tarefa. O <strong>Opus 5.5</strong> é indicado para programação agêntica de longa duração e trabalho de conhecimento; o <strong>Sonnet 5.5</strong> é descrito como a melhor combinação de velocidade e inteligência; o <strong>Haiku 4.5</strong> é o mais rápido, com inteligência próxima à fronteira. Para desenvolvedores, os identificadores são <code>claude-opus-5-5</code>, <code>claude-sonnet-5-5</code>, <code>claude-fable-5-1</code> e <code>claude-haiku-4-5</code>.</p><h2>Opus 5.5: o lançamento de 22 de setembro</h2><p>Anunciado em <strong>22 de setembro de 2026</strong>, o <strong>Opus 5.5</strong> foi apresentado como o primeiro modelo da família 5.5. A Anthropic afirma que ele opera no nível do Fable 5.1 na maior parte do trabalho e custa <strong>40% menos</strong> que o Opus 5, com leitura de cache a US$ 0,20 por milhão, e que gera texto <strong>mais de 30% mais rápido</strong> que o Opus 5.</p><p>Nos testes citados pela empresa, um avaliador concluiu uma migração de código de <strong>680 mil linhas em menos de um dia</strong>, trabalho que teria levado semanas a uma equipe de engenharia. Em outro teste, o modelo conseguiu reduzir o tempo de carregamento em <strong>39 das 40 páginas</strong> de um aplicativo web, enquanto o Opus 5 produziu melhorias menores e ainda alterou o comportamento do aplicativo. A empresa também destaca que o Opus 5.5 foi avaliado antes do lançamento por entidades externas, entre elas <strong>Frontier Design</strong> e <strong>METR</strong>.</p><h2>Segurança e o que os números não dizem</h2><p>O Opus 5.5 é descrito como o modelo de melhor desempenho na auditoria comportamental automatizada da Anthropic, com menor propensão a ações difíceis de reverter e maior resistência a injeção de prompt. A empresa afirma que ele é comparável ao Mythos 5.1 em biologia e cibersegurança e, por isso, recebe salvaguardas equivalentes às do Fable 5.1. Em avaliação feita com a <strong>Dyno Therapeutics</strong>, alcançou melhorias em um teste de predição e design molecular de horizonte longo.</p><p>Vale registrar as ressalvas da própria empresa. A documentação informa que o tokenizer mais novo, usado a partir de Claude 4.7 e no Mythos Preview, gera cerca de <strong>30% mais tokens</strong> para o mesmo texto, o que altera os custos reais. A empresa também adverte que os números do Terminal-Bench-Science têm erro-padrão de 3,5 a 4,5 pontos por modelo, o que torna frágil qualquer comparação de poucos pontos. Por fim, o Mythos exige aceitação de uma política de retenção de dados de 30 dias por padrão, enquanto o Opus 5.5 permanece disponível com retenção zero.</p>`,
     category: {
       id: 'inteligencia-artificial',
       slug: 'inteligencia-artificial',
@@ -2351,7 +2351,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Para jogadores, a crise significa que <strong>um upgrade de geração pode ficar 3x mais caro que o esperado</strong>. Para criadores de conteúdo, a espera por ofertas é cada vez maior. E para o mercado de PCs gamers como um todo, a alta dos preços empurra usuários para soluções mais antigas ou alternativas como consoles.</p>
 
       <h2>Limitações e Alternativas</h2>
-      <p>É importante notar que não toda a culpa é da NVIDIA. A alta também reflete a <strong>escassez global de semicondutores</strong> e a volatilidade dos preços de commodities como ouro e prata — usados nas soldas de chips. Para quem não pode pagar US$ 5.000, a AMD Radeon RX 9090 e a RTX 5080 (ainda que sobrelotadas) são alternativas mais acessíveis — mas também subiram de preço.</p>
+      <p>É importante notar que não toda a culpa é da NVIDIA. A alta também reflete a <strong>escassez global de semicondutores</strong> e a volatilidade dos preços de commodities como ouro e prata — usados nas soldas de chips. Para quem não pode pagar US$ 5.000, a AMD Radeon RX 9090 e a RTX 5080 (ainda que sobrelotadas) são alternativas mais acessíveis — mas também subiram de preço. Antes de decidir a troca, o caminho é dimensionar a necessidade: o guia de <a href="/games/como-escolher-placa-de-video-para-pc-gamer">como escolher placa de vídeo para PC gamer</a> parte da resolução e do monitor que você já tem.</p>
 
       <h2>Contexto do Mercado</h2>
       <p>Desde o início da “<em>AI boom</em>” em 2024, as GPUs para jogos viraram vítimas colaterais. Em 2025, placas RTX 4090 chegaram a US$ 3.200. Hoje, a tendência é de <strong>aumento de até 30% nos preços no continente asiático</strong>, segundo relatos da Coreia do Sul. O mercado global estima que os preços só voltarão a níveis normais se a demanda por IA para data centers estabilizar ou se a oferta de semicondutores recuperar.</p>
@@ -2431,7 +2431,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
       <h2>Limitações e Desafios</h2>
       <p>Não é tudo perfeito. Primeiro, <strong>a VRAM ainda é o maior limitador</strong>: modelos grandes não cabem em GPUs com 8 GB. Segundo, o compartilhamento de GPU entre jogos e IA pode causar <strong>quedas de taxa de quadros inesperadas</strong>. E terceiro, o calor e o consumo de energia aumentam — especialmente quando o modelo roda por horas.</p>
-      <p>Além disso, a maioria dos modelos de IA otimizados para inference exige <strong>Tensor Cores</strong> específicos — o que exclui muitas GPUs AMD Radeon de usar nessa vaga, limitando o potencial de expansão.</p>
+      <p>Além disso, a maioria dos modelos de IA otimizados para inference exige <strong>Tensor Cores</strong> específicos — o que exclui muitas GPUs AMD Radeon de usar nessa vaga, limitando o potencial de expansão. Quem quiser montar ou adaptar uma máquina para esse uso encontra o caminho em <a href="/inteligencia-artificial/hardware-para-ia-local-como-rodar-modelos-em-casa">como rodar modelos de IA localmente em casa</a>.</p>
 
       <h2>Contexto do Mercado</h2>
       <p>O movimento também chegou a voces de IA como Perplexity, que lançou o <em>Portable Computer</em> — um mini-PC com RTX 5090 Mobile que roda modelos de IA localmente com desempenho comparável a servidores de entry-level. Enquanto isso, analistas projetam que o mercado de "GPU sharing" atinja US$ 5 bilhões em 2027.</p>
@@ -2483,7 +2483,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'Samsung, ASUS e LG lançam monitores OLED com 4K a 240Hz, 500Hz e até 1100Hz. Entenda como a nova geração de painéis está redefinindo a experiência de jogo.',
     content: `
       <h2>A Revolução OLED Chegou aos Gamers</h2>
-      <p>Entre agosto e setembro de 2026, a indústria de monitores gamer vive sua <strong>maior renovação em anos</strong>. Em eventos como a gamescom 2026 e o IMID 2026, Samsung, ASUS e LG revelaram painéis OLED e QD-OLED que desafiam os limites teóricos de taxa de atualização — o mesmo critério que define um bom <a href="/games/monitores-oled-gamers-nova-geracao">monitor gamer OLED de nova geração</a>, tempo de resposta e qualidade de imagem.</p>
+      <p>Entre agosto e setembro de 2026, a indústria de monitores gamer vive sua <strong>maior renovação em anos</strong>. Em eventos como a gamescom 2026 e o IMID 2026, Samsung, ASUS e LG revelaram painéis OLED e QD-OLED que desafiam os limites teóricos de taxa de atualização. Se você está considerando conectar um desses monitores, o <a href="/tecnologia/cabo-hdmi-barato-como-escolher-sem-cair-em-golpe">guia de escolha de cabo HDMI</a> mostra como escolher um cabo que suporte essas taxas de atualização extremas sem cair em golpes ou pagar por especificações que você não vai usar.</p>
       <h2>O Que os Novos Monitores Oferecem?</h2>
       <p>A novidade mais impactante é a <strong>linha Samsung Odyssey G8</strong>, que inclui dois modelos:</p>
       <ul>
@@ -2631,7 +2631,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
       <h2>Por Que Isso Importa?</h2>
       <p>A linha entre humanos e IAs virtuais tem se apagado. Personagens como <em>Lil Miquela</em>, <em>Shudu</em> e centenas de clones digitais têm milhões de seguidores — muitos dos quais não sabem que se relacionam com uma criação algorítmica.</p>
-      <p>A nova política busca <strong>restaurar a confiança dos usuários</strong>, especialmente em um momento em que IAs podem ser usadas para desinformação, engenharia social ou até manipulação emocional em escala.</p>
+      <p>A nova política busca <strong>restaurar a confiança dos usuários</strong>, especialmente em um momento em que IAs podem ser usadas para <a href="/inteligencia-artificial/etica-e-vieses-ia-os-desafios-da-inteligencia-artificial">desinformação</a>, engenharia social ou até manipulação emocional em escala.</p>
 
       <h2>Como Funciona a Identificação?</h2>
       <p>O Instagram não revelou os mecanismos exatos de detecção de perfis de IA. Mas especialistas acreditam que a plataforma usa uma combinação de análise de padrões de postagem, metadados de imagens e <strong>assinaturas de geração de IA</strong> (como marcas d'água invisíveis) para identificar contas não-humanas. Perfis que não se rotulam voluntarymente podem ter o selo aplicado automaticamente.</p>
@@ -2769,7 +2769,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'O Telescópio Espacial Romano Nancy Grace, substituto do Hubble, está prestes a revolucionar nossa visão do cosmos. Entenda o que ele investigará quando for lançado.',
     content: `
       <h2>O Legado do Hubble Ganha um Sucessor</h2>
-      <p>Enquanto o <strong>Telescópio Espacial James Webb</strong> se consolidou como o grande instrumento da década para o infravermelho, a NASA prepara um novo olhar sobre o universo visível: o Telescópio Romano Nancy Grace, batizado em homenagem à primeira chefe de astronomia da NASA.</p>
+      <p>Enquanto o <strong><a href="/espaco/telescopio-espacial-james-webb">Telescópio Espacial James Webb</a></strong> se consolidou como o grande instrumento da década para o infravermelho, a NASA prepara um novo olhar sobre o universo visível: o Telescópio Romano Nancy Grace, batizado em homenagem à primeira chefe de astronomia da NASA.</p>
 
       <h2>O Que o Roman Vai Estudar?</h2>
       <p>Diferente do JWST, focado em galáxias extremamente distantes, o Roman terá um <strong>campo de visão centenas de vezes maior</strong>. Isso o torna ideal para dois objetivos centrais:</p>
@@ -2826,7 +2826,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <h2>Os Pilares do Programa</h2>
       <ul>
         <li><strong>Artemis III:</strong> primeira missão tripulada proposta para tocar a superfície lunar</li>
-        <li><strong>Gateway:</strong> estação orbital que servirá de porta de entrada para missões profundas</li>
+        <li><strong>Gateway:</strong> <a href="/espaco/gateway-estacao-lunar-orbita-lua">estação orbital</a> que servirá de porta de entrada para missões profundas</li>
         <li><strong>LSDA:</strong> sistema de pouso para espaço profundo ainda em validação para o pouso final</li>
       </ul>
 
@@ -3102,7 +3102,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Parte do que se materializa sobre o 6G ainda é <strong>especulação de laboratório</strong>. Estudos iniciais enfrentam obstáculos claros: altos custos de infraestrutura, consumo energético e questões de saúde e privacidade que ainda precisam ser estudadas. O padrão final deve ser definido apenas nos próximos anos, e os detalhes tecnológicos podem mudar.</p>
 
       <h2>Impacto no Cotidiano</h2>
-      <p>Na prática, especialistas esperam que o 6G amplie modelos de trabalho remoto, saúde digital, educação imersiva e cidades conectadas. A promessa é de um mundo em que a rede é <strong>invisível e onipresente</strong> — mas os tijolos dessa construção ainda estão sendo assentados.</p>
+      <p>Na prática, especialistas esperam que o 6G amplie modelos de trabalho remoto, saúde digital, educação imersiva e cidades conectadas. A promessa é de um mundo em que a rede é <strong>invisível e onipresente</strong> — mas os tijolos dessa construção ainda estão sendo assentados. Enquanto a rede móvel evolui, o gargalo em casa quase sempre é o roteador: o <a href="/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva">guia de escolha de roteador</a> mostra como identificar se o problema é a conexão do provedor ou o equipamento que você tem.</p>
 
       <h2>Conclusão</h2>
       <p>O 5G avançado já é realidade e está sendo adotado em rede; o 6G, por sua vez, é mais um plano do que um produto final. Acompanhar essa evolução exige paciência e ceticismo saudável diante de projeções apressadas. A conectividade do futuro será extraordinária — mas chegará, como sempre, um passo de cada vez. E dentro de casa, o gargalo raramente é a rede móvel: veja <a href="/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva">como escolher um roteador que resolve o Wi-Fi lento</a>.</p>
@@ -3143,7 +3143,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'O conjunto de microrganismos do intestino vai além da digestão e pode influenciar imunidade, humor e até saúde mental. Entenda a ciência por trás do microbioma.',
     content: `
       <h2>Um Universo de Microrganismos Dentro de Nós</h2>
-      <p>Trilões de bactérias, fungos e vírus vivem no nosso intestino — um conjunto que chamamos de <strong>microbioma</strong>. Longe de serem "vilões", boa parte desses microrganismos é essencial para a nossa saúde, ajudando na digestão e na produção de vitaminas.</p>
+      <p>Trilões de bactérias, fungos e vírus vivem no nosso intestino — um conjunto que chamamos de <strong><a href="/ciencia/microbioma-intestinal">microbioma</a></strong>. Longe de serem "vilões", boa parte desses microrganismos é essencial para a nossa saúde, ajudando na digestão e na produção de vitaminas.</p>
 
       <h2>O Que a Ciência Descobriu</h2>
       <p>Pesquisas recentes revelam que o microbioma se comunica com o resto do corpo de formas surpreendentes. Algumas descobertas vêm ganhando força:</p>
@@ -3207,7 +3207,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'Depois da descoberta do bóson de Higgs, o CERN planeja experimentos ainda mais ambiciosos. Entenda o que está em debate e o que pode mudar nossa visão da matéria.',
     content: `
       <h2>O LHC e a Era de Descobertas</h2>
-      <p>O Grande Colisor de Hádrons (LHC), do CERN, foi o palco da descoberta do <strong>bóson de Higgs</strong> e de dezenas de outras medições importantes da física. Em 2026, o acelerador passa por upgrades para explorar fenômenos raros e testar os limites do Modelo Padrão.</p>
+      <p>O <a href="/ciencia/particulas-subatomicas-cern">Grande Colisor de Hádrons (LHC)</a>, do CERN, foi o palco da descoberta do <strong>bóson de Higgs</strong> e de dezenas de outras medições importantes da física. Em 2026, o acelerador passa por upgrades para explorar fenômenos raros e testar os limites do Modelo Padrão.</p>
 
       <h2>O Que Está em Debate</h2>
       <p>Físicos se dividem sobre como investir no futuro. Entre as principais propostas:</p>
@@ -3265,7 +3265,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'Da arte procedural a NPCs que conversam, a IA generativa está redefinindo como os jogos são criados. Entenda as oportunidades e os receios dos estúdios.',
     content: `
       <h2>Uma Revolução Nos Bastidores dos Jogos</h2>
-      <p>A indústria de games é conhecida por agregar enormes equipes de arte, programação e design. Agora, a <strong>IA generativa</strong> promete acelerar parte desse processo — gerando texturas, cenários, diálogos e até companheiros de equipe controlados por IA.</p>
+      <p>A <a href="/games/como-os-jogos-sao-feitos">indústria de games</a> é conhecida por agregar enormes equipes de arte, programação e design. Agora, a <strong>IA generativa</strong> promete acelerar parte desse processo — gerando texturas, cenários, diálogos e até companheiros de equipe controlados por IA.</p>
 
       <h2>Onde a IA Está Sendo Usada</h2>
       <ul>
@@ -3276,7 +3276,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       </ul>
 
       <h2>Os Benefícios para Estúdios Independentes</h2>
-      <p>Para estúdios pequenos, a IA generativa pode reduzir custos e <strong>nivelar o campo de jogo</strong>, permitindo criar mundos ambiciosos sem orçamentos de gigantes. Isso tem o potencial de trazer mais diversidade criativa ao mercado.</p>
+      <p>Para estúdios pequenos, a IA generativa pode reduzir custos e <strong>nivelar o campo de jogo</strong>, permitindo criar mundos ambiciosos sem orçamentos de gigantes. Isso tem o potencial de trazer mais diversidade criativa ao mercado. Para jogadores que querem aproveitar esses novos títulos com o melhor conforto, o <a href="/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo">guia de escolha de controle para PC</a> mostra como encontrar o modelo adequado ao seu estilo de jogo sem gastar em recursos que você não vai usar.</p>
 
       <h2>Receios e Controvérsias</h2>
       <p>O entusiasmo vem acompanhado de tensões. Profissionais de arte e roteiro temem a desvalorização de seus ofícios, e há <strong>debates sobre direitos autorais</strong> quando modelos são treinados com obras existentes sem autorização. Estúdios e sindicatos discutem regras claras de uso e remuneração.</p>
@@ -3323,7 +3323,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'Depois de anos de promessas, o cloud gaming se expandiu. Entenda o estado atual da tecnologia, seus limites de latência e por que ela não substituiu os consoles.',
     content: `
       <h2>A Promessa de Jogar Sem Hardware Caro</h2>
-      <p>O <strong>cloud gaming</strong> sempre prometeu o mesmo: rodar jogos pesados sem precisar de um PC ou console potente, transmitindo o jogo pela internet. Em 2026, a tecnologia avançou bastante, mas a pergunta central continua sendo se ela já é boa o bastante para o grande público.</p>
+      <p>O <strong><a href="/games/cloud-gaming">cloud gaming</a></strong> sempre prometeu o mesmo: rodar jogos pesados sem precisar de um PC ou console potente, transmitindo o jogo pela internet. Em 2026, a tecnologia avançou bastante, mas a pergunta central continua sendo se ela já é boa o bastante para o grande público.</p>
 
       <h2>O Que Mudou nos Últimos Anos</h2>
       <ul>
@@ -3387,7 +3387,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
       <h2>Onde a IA Está Sendo Usada</h2>
       <ul>
-        <li><strong>Efeitos visuais:</strong> substituição de rostos, rejuvenescimento de atores e remoção de falhas em cenas</li>
+        <li><strong>Efeitos visuais:</strong> <a href="/filmes-series/deepfake-cinema-rostos-sinteticos-impacto">substituição de rostos</a>, rejuvenescimento de atores e remoção de falhas em cenas</li>
         <li><strong>Roteiros e tratamento de texto:</strong> apoio na geração de ideias e na estruturação de narrativas</li>
         <li><strong>Restauração:</strong> recuperação de filmes antigos com cores e resolução aprimoradas</li>
         <li><strong>Dublagem:</strong> sincronização de lábios e traduções mais naturais</li>
@@ -3725,7 +3725,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'A fusão nuclear é a promessa de energia praticamente infinita e limpa. Entenda os recentes avanços tecnológicos, os recordes de laboratório e o caminho ainda longo para a rede elétrica.',
     content: `
       <h2>A Energia das Estrelas na Terra</h2>
-      <p>Estrelas como o Sol produzem energia por <strong>fusão nuclear</strong> — a união de núcleos atômicos leves. Reproduzir esse processo de forma controlada na Terra é o sonho de décadas: gerar energia abundante, limpa e sem os resíduos de longo prazo da fissão tradicional.</p>
+      <p>Estrelas como o Sol produzem energia por <strong><a href="/futuro/energia-limpa-fusao-nuclear">fusão nuclear</a></strong> — a união de núcleos atômicos leves. Reproduzir esse processo de forma controlada na Terra é o sonho de décadas: gerar energia abundante, limpa e sem os resíduos de longo prazo da fissão tradicional.</p>
 
       <h2>Os Recentes Avanços</h2>
       <p>Nos últimos anos, experimentos em todo o mundo registraram <strong>ganhos importantes de calor e energia</strong>, aproximando-se do ponto de equilíbrio em que o processo gera mais energia do que consome. Embora as condições sejam distintas entre reatores experimentais, o progresso renovou o otimismo da área.</p>
@@ -3785,7 +3785,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>O universo dos heróis da Marvel nunca descansa. Em 2026, a editora e a Marvel Studios seguem ampliando suas histórias, conectando personagens, renovando sagas e levantando expectativas do público que acompanha cada fase desse universo de décadas.</p>
 
       <h2>O Fenômeno de Spider-Man no Cinema</h2>
-      <p>A maior chegada do ano nas telonas foi <strong>Spider-Man: Brand New Day</strong>, estrelado por Tom Holland e dirigido por Destin Daniel Cretton. Com Zendaya, Sadie Sink, Florence Pugh e Marisa Tomei no elenco, a aventura se tornou um dos maiores sucessos de bilheteria de 2026, levando Peter Parker a um ponto de virada decisivo em sua trajetória.</p>
+      <p>A maior chegada do ano nas telonas foi <strong><a href="/quadrinhos/spider-man-historia-futuro-nos-quadrinhos-da-marvel">Spider-Man: Brand New Day</a></strong>, estrelado por Tom Holland e dirigido por Destin Daniel Cretton. Com Zendaya, Sadie Sink, Florence Pugh e Marisa Tomei no elenco, a aventura se tornou um dos maiores sucessos de bilheteria de 2026, levando Peter Parker a um ponto de virada decisivo em sua trajetória.</p>
 
       <h2>Os Vingadores Voltam em Dezembro</h2>
       <p>Para o fim do ano, o aguardado <strong>Avengers: Doomsday</strong> chega aos cinemas em dezembro, sob a direção dos irmãos Russo. O filme reúne um elenco gigantesco, com nomes como Robert Downey Jr., Pedro Pascal, Anthony Mackie, Florence Pugh e Chris Hemsworth, e promete consolidar a nova direção do universo nas telas.</p>
@@ -3897,7 +3897,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'Com Doomsday chegando aos cinemas, os Vingadores iniciam uma nova era. Entenda o que está em jogo e o que esperar dos heróis.',
     content: `
       <h2>Uma Nova Era para os Heróis Mais Poderosos</h2>
-      <p>Os <strong>Vingadores</strong> sempre foram o coração do Universo Marvel nas telonas. Depois de anos de reviravoltas, o time se prepara para uma nova fase, que promete redefinir o equilíbrio de forças entre heróis, vilões e os rumos de uma narrativa cada vez maior.</p>
+      <p>Os <strong>Vingadores</strong> sempre foram o coração do <a href="/quadrinhos/marvel-novidades-universo-dos-herois-2026">Universo Marvel</a> nas telonas. Depois de anos de reviravoltas, o time se prepara para uma nova fase, que promete redefinir o equilíbrio de forças entre heróis, vilões e os rumos de uma narrativa cada vez maior.</p>
 
       <h2>Avengers: Doomsday no Cinema</h2>
       <p>O grande marco dessa nova era é <strong>Avengers: Doomsday</strong>, dirigido pelos irmãos Russo e programado para chegar aos cinemas em <strong>dezembro de 2026</strong>. A produção reúne um elenco impressionante, incluindo Robert Downey Jr., Pedro Pascal, Chris Hemsworth, Anthony Mackie e Chris Evans, em uma história que promete elevar risco e escala.</p>
@@ -3956,7 +3956,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>A <strong>DC Comics</strong> passa por uma das fases mais ambiciosas de sua história. Com uma nova direção criativa nos quadrinhos e um esforço coordenado para unificar cinema, séries e HQs, a editora busca recolocar seus maiores heróis em evidência.</p>
 
       <h2>O Novo Universo DC nas Telas</h2>
-      <p>No audiovisual, a DC Studios, liderada por James Gunn e Peter Safran, deu início ao chamado <strong>DCU (DC Universe)</strong>, um universo compartilhado que substitui a antiga fase do cinema. O marco foi o filme <strong>Superman</strong>, dirigido por Gunn, que reabilitou a imagem do Homem de Aço e preparou o terreno para os próximos lançamentos.</p>
+      <p>No audiovisual, a DC Studios, liderada por James Gunn e Peter Safran, deu início ao chamado <strong>DCU (DC Universe)</strong>, um universo compartilhado que substitui a antiga fase do cinema. O marco foi o <a href="/quadrinhos/superman-futuro-homem-de-aco-universo-dc">filme Superman</a>, dirigido por Gunn, que reabilitou a imagem do Homem de Aço e preparou o terreno para os próximos lançamentos.</p>
 
       <h2>Novos Títulos e Sagas nos Quadrinhos</h2>
       <p>Nas páginas, a editora aposta em uma programação renovada. Lançamentos como <strong>Batman</strong>, <strong>Superman</strong> em novos formatos, <strong>Teen Titans</strong> e <strong>Zatanna</strong> estão entre os destaques, com equipes criativas que misturam veteranos e novos autores. A proposta é unir o respeito à tradição com a ousadia de novas narrativas.</p>
@@ -4009,7 +4009,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'Após o novo filme do herói, Superman se reposiciona no centro do universo DC. Entenda os rumos do Homem de Aço.',
     content: `
       <h2>O Herói Que Recomeça</h2>
-      <p>O <strong>Superman</strong> sempre foi mais do que um herói: ele é um símbolo. Em 2025, o personagem ganhou um novo começo nos cinemas com um filme dirigido por James Gunn, que colocou o Homem de Aço no centro desse novo universo compartilhado da DC.</p>
+      <p>O <strong>Superman</strong> sempre foi mais do que um herói: ele é um símbolo. Em 2025, o personagem ganhou um novo começo nos cinemas com um filme dirigido por James Gunn, que colocou o Homem de Aço no centro desse novo <a href="/filmes-series/supergirl-woman-of-tomorrow-filme-do-novo-universo-dc">universo compartilhado da DC</a>.</p>
 
       <h2>O Novo Capítulo no Cinema</h2>
       <p>Interpretado por David Corenswet, o Superman do novo DCU trouxe uma abordagem que mistura a grandiosidade do herói com a simplicidade humana de Clark Kent. O filme foi recebido como o pontapé de uma nova era e definiu o tom para os próximos projetos da DC Studios.</p>
@@ -4230,7 +4230,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>A ficção científica, por sua vez, dialoga com o presente de forma poderosa. Seja explorando tecnologia, sociedades futuristas ou dilemas éticos, as séries do gênero convidam o espectador a questionar o próprio mundo enquanto se diverte.</p>
 
       <h2>A Mistura de Gêneros</h2>
-      <p>Uma tendência forte é a mistura de gêneros. Produções que unem fantasia com mistério, ou ficção científica com investigação, têm atraído novos públicos. A série <strong>Lanterns</strong>, por exemplo, combina elementos de ficção científica com uma trama de investigação, mostrando como as fronteiras entre gêneros estão cada vez mais fluidas.</p>
+      <p>Uma tendência forte é a mistura de gêneros. Produções que unem fantasia com mistério, ou ficção científica com investigação, têm atraído novos públicos. A série <strong><a href="/quadrinhos/dc-comics-nova-fase-dos-herois-2026">Lanterns</a></strong>, por exemplo, combina elementos de ficção científica com uma trama de investigação, mostrando como as fronteiras entre gêneros estão cada vez mais fluidas.</p>
 
       <h2>Animação e Formas Alternativas de Contar</h2>
       <p>Além do live-action, a animação e as minisséries ganham espaço. Formatos mais curtos ou mais ousados permitem explorar ideias experimentais e histórias que não caberiam em produções tradicionais.</p>
@@ -4289,7 +4289,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>As adaptações de jogos, livros e HQs seguem como aposta importante. A plataforma transforma franquias queridas em séries e filmes, levando personagens amados para novas audiências. Algumas dessas produções geram expectativa e debate antes mesmo da estreia.</p>
 
       <h2>O Peso das Novidades na Plataforma</h2>
-      <p>O catálogo geek da Netflix se renova constantemente. Cada mês traz novos títulos, o que mantém a plataforma relevante para quem vive acompanhando as novidades do setor.</p>
+      <p>O catálogo geek da Netflix se renova constantemente. Cada mês traz <a href="/filmes-series/netflix-setembro-2026-filmes-series-destaques">novos títulos</a>, o que mantém a plataforma relevante para quem vive acompanhando as novidades do setor.</p>
 
       <h2>O Futuro da Cultura Geek no Streaming</h2>
       <p>Com o crescimento do interesse global por esse tipo de conteúdo, a tendência é que a Netflix continue apostando cada vez mais em produção geek. A disputa por lançamentos e a qualidade das histórias devem seguir aquecidas.</p>
@@ -4392,7 +4392,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>As produções de ficção científica na plataforma variam do drama introspectivo à grande aventura espacial. O gênero permite explorar avanços tecnológicos, dilemas éticos e futuros possíveis, sempre com o propósito de instigar a imaginação do público.</p>
 
       <h2>Fantasia Para Todos os Gostos</h2>
-      <p>A fantasia, por sua vez, oferece um vasto leque de opções: de reinos medievais a mundos urbanos com toque de magia. A diversidade de abordagens mostra como o gênero consegue dialogar com diferentes públicos e plataformas de gosto.</p>
+      <p>A fantasia, por sua vez, oferece um vasto leque de opções: de <a href="/filmes-series/the-witcher-temporada-final-netflix">reinos medievais</a> a mundos urbanos com toque de magia. A diversidade de abordagens mostra como o gênero consegue dialogar com diferentes públicos e plataformas de gosto.</p>
 
       <h2>Anime: A Força da Animação</h2>
       <p>Um dos grandes trunfos da plataforma é o anime. Com títulos de ação, aventura e fantasia vindo de grandes estúdios japoneses, a Netflix se firmou como um destino central para quem acompanha animações de qualidade.</p>
@@ -4454,7 +4454,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Com o retorno dos Vingadores nas telonas, o streaming prepara o terreno para o público acompanhar as conexões entre as histórias. O conceito de multiverso amplia as possibilidades narrativas e abre espaço para encontros e surpresas que só uma franquia tão vasta conseguiria proporcionar.</p>
 
       <h2>O Peso de Grandes Franquias</h2>
-      <p>Mais do que conteúdo, Marvel e Star Wars representam a identidade do Disney+. Para a plataforma, essas franquias são sinônimo de fidelização e de um público que acompanha cada episódio e cada nova revelação.</p>
+      <p>Mais do que conteúdo, <a href="/filmes-series/disney-marvel-star-wars-novas-franquias-entretenimento-geek">Marvel e Star Wars representam a identidade do Disney+</a>. Para a plataforma, essas franquias são sinônimo de fidelização e de um público que acompanha cada episódio e cada nova revelação.</p>
 
       <h2>O Que Esperar dos Próximos Meses</h2>
       <p>Para 2026, a tendência é de um calendário intenso, com novas séries, novos filmes entrando no catálogo e histórias que continuam se cruzando. A aposta da Disney é manter essas duas marcas como o coração do streaming.</p>
@@ -4513,7 +4513,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Com o sucesso da dupla, a franquia reforça uma tendência: aproximar as histórias do streaming das grandes aventuras do cinema. Essa integração deve manter Star Wars no centro do debate sobre o futuro do entretenimento.</p>
 
       <h2>O Que Esperar dos Próximos Lançamentos</h2>
-      <p>A expectativa é que Star Wars continue expandindo seus universos, equilibrando novas histórias no streaming com grandes eventos no cinema. A galáxia, ao que parece, está longe de ficar sem aventuras.</p>
+      <p>A expectativa é que Star Wars continue expandindo seus universos, equilibrando novas histórias no streaming com <a href="/filmes-series/star-wars-starfighter-novo-filme-ryan-gosling">grandes eventos no cinema</a>. A galáxia, ao que parece, está longe de ficar sem aventuras.</p>
 
       <h2>Conclusão</h2>
       <p>The Mandalorian e Grogu provaram que o futuro de Star Wars passa pela renovação e pelo carinho aos personagens. Com um filme de sucesso e novas histórias no horizonte, a franquia segue brilhando em uma galáxia muito, muito distante.</p>
@@ -4613,7 +4613,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Poucos lançamentos de jogos geram tanta expectativa quanto um novo <strong>Grand Theft Auto</strong>. Em 2026, a espera finalmente termina: a Rockstar Games prepara a estreia de <strong>GTA VI</strong>, o jogo mais aguardado da indústria nos últimos anos.</p>
 
       <h2>Quando Chega e Onde Jogar</h2>
-      <p>O jogo está previsto para ser lançado em <strong>19 de novembro de 2026</strong> para <strong>PlayStation 5</strong> e <strong>Xbox Series X/S</strong>. Após dois adiamentos e uma longa produção, a nova aventura segue o sucesso de GTA V, lançado em 2013.</p>
+      <p>O jogo está previsto para ser lançado em <strong><a href="/games/gta-vi-data-plataformas-o-que-a-rockstar-confirmou">19 de novembro de 2026</a></strong> para <strong>PlayStation 5</strong> e <strong>Xbox Series X/S</strong>. Após dois adiamentos e uma longa produção, a nova aventura segue o sucesso de GTA V, lançado em 2013.</p>
 
       <h2>Uma História Inspirada em Bonnie e Clyde</h2>
       <p>Pela primeira vez na série principal, a história terá dois protagonistas centrais: <strong>Jason Duval</strong> e <strong>Lucia Caminos</strong>, um casal de criminosos cuja dinâmica lembra a de Bonnie e Clyde. A parceria entre os dois promete uma narrativa marcada por confiança, tensão e mal-entendidos.</p>
@@ -4669,7 +4669,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>A heroína ganhou o centro do palco no novo <strong>Universo DC</strong>. <strong>Supergirl</strong> chegou aos cinemas em 2026 com um filme próprio, consolidando a personagem como uma das principais da nova fase da franquia.</p>
 
       <h2>Data de Estreia</h2>
-      <p>O filme <strong>Supergirl: Woman of Tomorrow</strong> estreou em <strong>junho de 2026</strong>, tornando-se o segundo grande filme do recriado universo da DC Studios nas telonas, logo após o novo Superman.</p>
+      <p>O filme <strong><a href="/filmes-series/supergirl-hbo-max-data-streaming">Supergirl: Woman of Tomorrow</a></strong> estreou em <strong>junho de 2026</strong>, tornando-se o segundo grande filme do recriado universo da DC Studios nas telonas, logo após o novo Superman.</p>
 
       <h2>A Garota de Aço em Cena</h2>
       <p>No papel principal está <strong>Milly Alcock</strong>, que interpreta Kara Zor-El, a prima de Superman. A produção explora a jornada de uma jovem kryptoniana lidando com seu poder, seu passado e o peso de ser uma heroína em uma galáxia cheia de desafios.</p>
@@ -4787,7 +4787,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Além de Geralt, a história gira em torno de <strong>Ciri</strong>, vivida por Freya Allan, e <strong>Yennefer</strong>, interpretada por Anya Chalotra. A dinâmica entre os três é o coração da série, e a temporada final promete dar o desfecho para os arcos desses personagens.</p>
 
       <h2>O Fim da Série</h2>
-      <p>A decisão de encerrar a série após a temporada final marca o fim de uma era para a fantasia no streaming. A Netflix optou por dar um desfecho à história, ao mesmo tempo em que mantém o interesse por spin-offs e produtos ligados ao universo de The Witcher.</p>
+      <p>A decisão de encerrar a série após a temporada final marca o fim de uma era para a <a href="/filmes-series/avatar-the-last-airbender-temporada-3-fire-nation-2027">fantasia no streaming</a>. A Netflix optou por dar um desfecho à história, ao mesmo tempo em que mantém o interesse por spin-offs e produtos ligados ao universo de The Witcher.</p>
 
       <h2>Uma Fantasia Fiel ao Espírito Original</h2>
       <p>A série foi elogiada por sua atmosfera, monstros e mundo sombrio, ainda que tenha se desviado em vários pontos dos livros. A temporada final busca equilibrar ação, drama e os dilemas morais que sempre marcaram a franquia.</p>
@@ -6376,7 +6376,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'crispr-terapia-genica-doencas-tratamento',
     title: 'CRISPR e Terapia Gênica: Os Avanços Recentes no Tratamento de Doenças Genéticas',
     excerpt: 'A primeira terapia gênica aprovada com edição do genoma não corrige a mutação da doença falciforme: ela desliga o interruptor que desliga a hemoglobina fetal. Entenda o mecanismo, os números dos ensaios e os riscos registrados na bula.',
-    content: `<h2>O que é a doença falciforme e por que ela é genética</h2><p>A doença falciforme é um grupo de doenças hereditárias da hemoglobina, a proteína das hemácias que transporta oxigênio. O que a caracteriza é uma mutação no gene HBB, que altera a forma da molécula e faz o glóbulo vermelho assumir o aspecto de foice. Células em foice não se dobram com facilidade, bloqueiam o fluxo sanguíneo e limitam a chegada de oxigênio aos tecidos, o que provoca crises dolorosas e dano de órgão.</p><p>Nos Estados Unidos, o Instituto Nacional do Coração, Pulmão e Sangue estima mais de 100 mil pessoas afetadas, e cerca de 8 milhões no mundo. É mais comum entre pessoas de ascendência africana. Cerca de 1 em cada 365 bebês negros nasce com a doença, e 1 em cada 13 nasce com o traço, que corresponde a ter herdado o gene de apenas um dos pais e, em geral, não manifesta sintomas. A distinção importa porque o número de pessoas que carregam o gene é muito maior do que o número de pessoas que manifestam a doença.</p><h2>Como o Casgevy funciona: não corrige a mutação, desliga um interruptor</h2><p>A primeira terapia gênica aprovada com edição do genoma em humanos não corrige o gene defeituoso. O Casgevy, cujo nome científico é exagamglogene autotemcel, faz outra coisa. Ele altera um ponto regulator fora do gene HBB, dentro de um trecho enhancer chamado BCL11A. Esse trecho normalmente desliga a produção de hemoglobina fetal depois do nascimento. Ao bloquear esse interruptor molecular, as células da medula óssea do paciente voltam a produzir hemoglobina fetal, que não é afetada pela mutação e compensa a hemoglobina defeituosa. O procedimento é autólogo: as células-tronco do próprio paciente são retiradas, editadas em laboratório com o sistema CRISPR/Cas9, congeladas e reinfundidas. Segundo a bula aprovada, isso reduz a concentração de hemoglobina S dentro da célula, impede a falcização e, com isso, elimina as crises vaso-oclusivas.</p><h2>O que os ensaios mostram em números</h2><p>A segurança e a eficácia do Casgevy foram avaliadas em um ensaio de braço único, multicêntrico e ainda em andamento, com pacientes adultos e adolescentes que tinham pelo menos duas crises graves nos dois anos anteriores à triagem. O desfecho principal era permanecer sem crises graves por ao menos doze meses consecutivos ao longo de 24 meses de acompanhamento. Foram tratados 44 pacientes. Dos 31 que tinham tempo de seguimento suficiente para serem avaliáveis, 29, ou 93,5 por cento, atingiram esse resultado. Todos os pacientes tratados apresentaram enxerto bem-sucedido, sem falha nem rejeção. A bula também quantifica a resposta biológica: a hemoglobina fetal chegou a 43,9 por cento do total aos seis meses e se manteve nesse patamar, e a fração de células vermelhas que expressam hemoglobina fetal subiu de 70,1 por cento no terceiro mês para 94,0 por cento no sexto. Entre os efeitos adversos mais comuns estão plaquetas e glóbulos brancos baixos, aftas, náusea, dor musculoesquelética e abdominal, vômito, neutropenia febril, dor de cabeça e coceira.</p><p>O documento detalha também o que aconteceu no sangue. A hemoglobina fetal chegou a 43,9 por cento do total aos seis meses e se manteve nesse patamar, e a fração de células vermelhas que expressam hemoglobina fetal subiu de 70,1 por cento no terceiro mês para 94,0 por cento no sexto, permanecendo estável depois disso. Esse é o dado que sustenta a tese de que silenciar o interruptor funciona, e não apenas uma correlação com menos crises. Entre os efeitos adversos mais comuns estão plaquetas e glóbulos brancos baixos, aftas, náusea, dor musculoesquelética e abdominal, vômito, neutropenia febril, dor de cabeça e coceira.</p><h2>O que o rótulo obriga a dizer sobre risco</h2><p>Nenhuma terapia gênica é um procedimento simples, e a bula do Casgevy é explícita sobre isso. Antes da infusão, o paciente precisa passar por mobilização das células-tronco seguida de aférese, e o produto só existe porque a medula dele foi previamente destruída por quimioterapia de condicionamento. Em outras palavras, parte dos riscos vem da rotina que prepara o organismo, e não apenas da edição genética. O documento passou a incluir, em agosto de 2025, uma seção específica sobre risco de edição fora do alvo, o que mostra que o tema não é teórico. A bula também traz advertência sobre fertilidade. Tudo isso é coerente com o fato de que a aprovação inicial nos Estados Unidos, em dezembro de 2023, se deu com base em um ensaio sem grupo de comparação.</p><p>Um detalhe que costuma passar despercebido é que a indicação do Casgevy não parou nos 12 anos. A bula vigente, atualizada em 7 de julho de 2026, registra a aprovação para pacientes a partir de 2 anos de idade, tanto para a doença falciforme com crises vaso-oclusivas recorrentes quanto para a beta-talassemia dependente de transfusão. Isso muda o perfil da terapia, porque o tratamento deixa de ser algo reservado a adultos com histórico longo de crises. Ainda assim, permanece uma terapia de uso concentrado, e não um tratamento de rotina.</p><h2>A outra aprovação do mesmo dia, e o que ela ensina</h2><p>Em 8 de dezembro de 2023, a FDA aprovou duas terapias celulares no mesmo dia. Além do Casgevy, aprovado para a Vertex Pharmaceuticals, foi aprovado o Lyfgenia, da Bluebird Bio, que usa um vetor lentiviral e não edição do genoma. O ensaio do Lyfgenia mostra um contraste instrutivo: dos 32 pacientes avaliáveis, 28, ou 88 por cento, atingiram resolução completa das crises, número próximo ao do Casgevy. A diferença decisiva está no que veio depois da aprovação. O Lyfgenia recebeu advertência em caixa preta por casos de malignidade hematológica, com exigência de acompanhamento vitalício. O Casgevy não recebeu essa mesma advertência. Comparar os dois mostra que resultado em ensaio e segurança a longo prazo são coisas diferentes.</p><p>Vale encerrar separando o que já é prática clínica do que ainda é laboratório. O Casgevy é um tratamento aprovado, com resultados medidos em pessoas e registrado em bulas oficiais. Outras abordagens, como a edição genética feita diretamente no corpo do paciente, sem retirar e reimplantar células, seguem em fase experimental. A edição de células reprodutivas, que tornaria as alterações herdáveis, continua vedada na grande maioria dos países, e a edição de células somáticas, que afeta apenas o paciente, é bem mais aceita. A distância entre um tratamento aprovado para uma doença rara e um procedimento de rotina para milhões de pessoas continua sendo enorme, e depende de custo, de logística hospitalar e de tempo de acompanhamento, não apenas de mais ensaios.</p>`,
+    content: `<h2>O que é a doença falciforme e por que ela é genética</h2><p>A doença falciforme é um grupo de doenças hereditárias da hemoglobina, a proteína das hemácias que transporta oxigênio. O que a caracteriza é uma mutação no gene HBB, que altera a forma da molécula e faz o glóbulo vermelho assumir o aspecto de foice. Células em foice não se dobram com facilidade, bloqueiam o fluxo sanguíneo e limitam a chegada de oxigênio aos tecidos, o que provoca crises dolorosas e dano de órgão.</p><p>Nos Estados Unidos, o Instituto Nacional do Coração, Pulmão e Sangue estima mais de 100 mil pessoas afetadas, e cerca de 8 milhões no mundo. É mais comum entre pessoas de ascendência africana. Cerca de 1 em cada 365 bebês negros nasce com a doença, e 1 em cada 13 nasce com o traço, que corresponde a ter herdado o gene de apenas um dos pais e, em geral, não manifesta sintomas. A distinção importa porque o número de pessoas que carregam o gene é muito maior do que o número de pessoas que manifestam a doença.</p><h2>Como o Casgevy funciona: não corrige a mutação, desliga um interruptor</h2><p>A primeira terapia gênica aprovada com edição do genoma em humanos não corrige o gene defeituoso. O Casgevy, cujo nome científico é exagamglogene autotemcel, faz outra coisa. Ele altera um ponto regulator fora do gene HBB, dentro de um trecho enhancer chamado BCL11A. Esse trecho normalmente desliga a produção de hemoglobina fetal depois do nascimento. Ao bloquear esse interruptor molecular, as células da medula óssea do paciente voltam a produzir hemoglobina fetal, que não é afetada pela mutação e compensa a hemoglobina defeituosa. O procedimento é autólogo: as células-tronco do próprio paciente são retiradas, editadas em laboratório com o <a href="/ciencia/edicao-genetica-crispr">sistema CRISPR/Cas9</a>, congeladas e reinfundidas. Segundo a bula aprovada, isso reduz a concentração de hemoglobina S dentro da célula, impede a falcização e, com isso, elimina as crises vaso-oclusivas.</p><h2>O que os ensaios mostram em números</h2><p>A segurança e a eficácia do Casgevy foram avaliadas em um ensaio de braço único, multicêntrico e ainda em andamento, com pacientes adultos e adolescentes que tinham pelo menos duas crises graves nos dois anos anteriores à triagem. O desfecho principal era permanecer sem crises graves por ao menos doze meses consecutivos ao longo de 24 meses de acompanhamento. Foram tratados 44 pacientes. Dos 31 que tinham tempo de seguimento suficiente para serem avaliáveis, 29, ou 93,5 por cento, atingiram esse resultado. Todos os pacientes tratados apresentaram enxerto bem-sucedido, sem falha nem rejeção. A bula também quantifica a resposta biológica: a hemoglobina fetal chegou a 43,9 por cento do total aos seis meses e se manteve nesse patamar, e a fração de células vermelhas que expressam hemoglobina fetal subiu de 70,1 por cento no terceiro mês para 94,0 por cento no sexto. Entre os efeitos adversos mais comuns estão plaquetas e glóbulos brancos baixos, aftas, náusea, dor musculoesquelética e abdominal, vômito, neutropenia febril, dor de cabeça e coceira.</p><p>O documento detalha também o que aconteceu no sangue. A hemoglobina fetal chegou a 43,9 por cento do total aos seis meses e se manteve nesse patamar, e a fração de células vermelhas que expressam hemoglobina fetal subiu de 70,1 por cento no terceiro mês para 94,0 por cento no sexto, permanecendo estável depois disso. Esse é o dado que sustenta a tese de que silenciar o interruptor funciona, e não apenas uma correlação com menos crises. Entre os efeitos adversos mais comuns estão plaquetas e glóbulos brancos baixos, aftas, náusea, dor musculoesquelética e abdominal, vômito, neutropenia febril, dor de cabeça e coceira.</p><h2>O que o rótulo obriga a dizer sobre risco</h2><p>Nenhuma terapia gênica é um procedimento simples, e a bula do Casgevy é explícita sobre isso. Antes da infusão, o paciente precisa passar por mobilização das células-tronco seguida de aférese, e o produto só existe porque a medula dele foi previamente destruída por quimioterapia de condicionamento. Em outras palavras, parte dos riscos vem da rotina que prepara o organismo, e não apenas da edição genética. O documento passou a incluir, em agosto de 2025, uma seção específica sobre risco de edição fora do alvo, o que mostra que o tema não é teórico. A bula também traz advertência sobre fertilidade. Tudo isso é coerente com o fato de que a aprovação inicial nos Estados Unidos, em dezembro de 2023, se deu com base em um ensaio sem grupo de comparação.</p><p>Um detalhe que costuma passar despercebido é que a indicação do Casgevy não parou nos 12 anos. A bula vigente, atualizada em 7 de julho de 2026, registra a aprovação para pacientes a partir de 2 anos de idade, tanto para a doença falciforme com crises vaso-oclusivas recorrentes quanto para a beta-talassemia dependente de transfusão. Isso muda o perfil da terapia, porque o tratamento deixa de ser algo reservado a adultos com histórico longo de crises. Ainda assim, permanece uma terapia de uso concentrado, e não um tratamento de rotina.</p><h2>A outra aprovação do mesmo dia, e o que ela ensina</h2><p>Em 8 de dezembro de 2023, a FDA aprovou duas terapias celulares no mesmo dia. Além do Casgevy, aprovado para a Vertex Pharmaceuticals, foi aprovado o Lyfgenia, da Bluebird Bio, que usa um vetor lentiviral e não edição do genoma. O ensaio do Lyfgenia mostra um contraste instrutivo: dos 32 pacientes avaliáveis, 28, ou 88 por cento, atingiram resolução completa das crises, número próximo ao do Casgevy. A diferença decisiva está no que veio depois da aprovação. O Lyfgenia recebeu advertência em caixa preta por casos de malignidade hematológica, com exigência de acompanhamento vitalício. O Casgevy não recebeu essa mesma advertência. Comparar os dois mostra que resultado em ensaio e segurança a longo prazo são coisas diferentes.</p><p>Vale encerrar separando o que já é prática clínica do que ainda é laboratório. O Casgevy é um tratamento aprovado, com resultados medidos em pessoas e registrado em bulas oficiais. Outras abordagens, como a edição genética feita diretamente no corpo do paciente, sem retirar e reimplantar células, seguem em fase experimental. A edição de células reprodutivas, que tornaria as alterações herdáveis, continua vedada na grande maioria dos países, e a edição de células somáticas, que afeta apenas o paciente, é bem mais aceita. A distância entre um tratamento aprovado para uma doença rara e um procedimento de rotina para milhões de pessoas continua sendo enorme, e depende de custo, de logística hospitalar e de tempo de acompanhamento, não apenas de mais ensaios.</p>`,
     category: {
       id: 'ciencia',
       slug: 'ciencia',
@@ -6468,6 +6468,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 <h2>O que a documentação não afirma</h2>
 <p>Vale registrar o que as fontes não dizem, porque é onde as expectativas costumam se formar. A documentação de introdução não apresenta a TPU como melhor que a CPU ou a GPU em termos gerais. O que ela descreve é um componente com um conjunto estreito de operações aceleradas, e um compilador que reorganiza o programa para aproveitá-las.</p>
 <p>A própria documentação oferece uma regra prática de decisão que, em vez de hierarquizar, distribui responsabilidades. Quando um modelo tem formas dinâmicas, a recomendação é procurar outra solução. Quando o cálculo é denso e as dimensões são adequadas, é justamente o cenário em que o bloco de 128 por 128 descrito funciona. E há ainda a observação de que a eficiência depende dos dois lados do sistema: com poucos dados ou com computação esparsa, a limitação deixa de ser o poder de processamento e passa a ser a alimentação de dados.</p>
+<p>Nenhuma dessas afirmações decide, sozinha, onde rodar um modelo. Ela apenas diz que a escolha é do problema, não do hardware: para o cenário doméstico, em que a memória da placa é o limite, o outro lado da mesma moeda está em <a href="/inteligencia-artificial/hardware-para-ia-local-como-rodar-modelos-em-casa">como rodar modelos de IA localmente em casa</a>.</p>
 `,
     category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
     tags: ['TPU', 'Google', 'machine learning', 'GPU', 'acelerador de IA', 'hardware'],
@@ -6932,7 +6933,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 <p>Uma revisão mais recente, aceita pela ACM Computing Surveys, mantém essa estrutura e a detalha. Ela distingue quatro campos: face swapping, que é a troca de rosto; face reenactment, que é reanimar um rosto com o movimento de outra pessoa; talking face generation, que é gerar uma boca que fala; e facial attribute editing, que é editar atributos isolados do rosto. A distinção entre esses dois últimos impede de tratar toda manipulação de rosto como se fosse a mesma técnica.</p>
 <h2>O que impulsionou a evolução técnica</h2>
 <p>A revisão descreve o que motivou o avanço do campo: o acesso livre a grandes bases de dados públicos, somado ao rápido progresso das técnicas de aprendizado profundo, em particular as redes gerativas adversárias, levou à produção de conteúdo falso muito realista, com as implicações que isso tem para a sociedade. A emergência mais recente dos modelos de difusão, com capacidades de geração mais fortes, provocou uma nova onda de pesquisa, segundo a fonte.</p>
-<p>A revisão mais recente acrescenta um segundo motivo de interesse, e ele não é apenas maligno. O texto define deepfake como uma tecnologia dedicada a criar imagens e vídeos faciais altamente realistas em condições específicas, e aponta potencial de aplicação em áreas como entretenimento, produção cinematográfica e criação de personas digitais. A mesma revisão registra que a tecnologia de detecção evolui em paralelo, com o objetivo de conter usos indevidos como invasão de privacidade e ataques de phishing.</p>
+<p>A revisão mais recente acrescenta um segundo motivo de interesse, e ele não é apenas maligno. O texto define deepfake como uma tecnologia dedicada a criar imagens e vídeos faciais altamente realistas em condições específicas, e aponta potencial de aplicação em áreas como entretenimento, <a href="/filmes-series/motion-capture-atores-em-personagens-digitais">produção cinematográfica</a> e criação de personas digitais. A mesma revisão registra que a tecnologia de detecção evolui em paralelo, com o objetivo de conter usos indevidos como invasão de privacidade e ataques de phishing.</p>
 <h2>A corrida entre geração e detecção</h2>
 <p>A estrutura do campo é, essencialmente, uma corrida. A revisão de 2024 apresenta a detecção não como um problema resolvido, e sim como uma tecnologia que se desenvolve continuamente para acompanhar a geração. Isso explica por que um detector bem ajustado não se torna automaticamente obsoleto: cada avanço na geração cria um problema novo para quem tenta identificar a falsificação.</p>
 <p>A consequência prática dessa corrida é que a pergunta sobre deepfake não tem resposta estável. Uma técnica que hoje produz resultado convincente pode não produzir o mesmo resultado daqui a um ano, e um detector afinado para os vídeos de uma geração pode não se aplicar à seguinte. Qualquer afirmação sobre o estado da arte nesse campo tem prazo de validade curto, e é por isso que a revisão de 2024 se apresenta como uma fotografia datada, com versões sucessivas ao longo dos anos.</p>
@@ -6976,7 +6977,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 <p>Um artigo de 2021 da revista Convergências, assinado por pesquisadores de três universidades, começa pelo que a maioria das definições esquece. Quando se fala em quadrinhos, a resposta mental imediata são revistas impressas, em formato mensal menor, com preço mais baixo e publicação mais longa, ou então romances gráficos, com acabamento mais caro e distribuição limitada. O meio migrou do papel para o ambiente digital sem necessariamente levar junto o público que já tinha consolidado, e passou a alcançar um público novo.</p>
 <p>O dado que os autores usam para sustentar essa afirmação é concreto. Eles citam o sucesso de Lore Olympus, criada por Rachel Smythe e publicada na plataforma Webtoons, com mais de quinze milhões de leitores diários. E registram que esse volume de público não reduce o do quadrinho tradicional: o crescimento acontece em paralelo, e não em substituição. Esse detalhe é o mais importante de todo o artigo, porque desmonta a ideia de que a leitura em tela substituiria o meio impresso.</p>
 <h2>O formato vertical nasce de uma restrição técnica</h2>
-<p>A segunda fonte define o webtoon, e a definição não é estética. Um artigo de 2025 na RUSQ, revista da American Library Association, descreve o webtoon como uma plataforma de leitura de webcomic nascida na Coreia do Sul, especificamente desenhada para ser lida em celular e que exige participação ativa do usuário por meio de rolagem. O formato depende de o usuário conseguir ler e compreender texto, imagem e, ocasionalmente, entrada sonora como música ou ruídos dramáticos.</p>
+<p>A segunda fonte define o webtoon, e a definição não é estética. Um artigo de 2025 na RUSQ, revista da American Library Association, descreve o <a href="/quadrinhos/industria-webtoons-coreana-expansao-global">webtoon</a> como uma plataforma de leitura de webcomic nascida na Coreia do Sul, especificamente desenhada para ser lida em celular e que exige participação ativa do usuário por meio de rolagem. O formato depende de o usuário conseguir ler e compreender texto, imagem e, ocasionalmente, entrada sonora como música ou ruídos dramáticos.</p>
 <p>A segunda parte dessa definição é o que costuma ficar de fora. O webtoon não substituiu a página de quadrinhos; ele adicionou uma dimensão sonora ocasional, algo que o quadrinho impresso nunca teve. Isso muda o que significa narrar. Um efeito sonoro pode carregar informação que antes era transmitida apenas por desenho e balão, e essa é uma diferença estrutural, não uma variação de estilo.</p>
 <h2>Por que ler na tela pequena não é a mesma coisa</h2>
 <p>O artigo da Convergências é categórico nesse ponto: a migração para ambientes digitais tem resultados favoráveis em telas maiores, como tablets e computadores, mas não é tão satisfatória em telas pequenas. O problema não é a falta de conteúdo, e sim a incompatibilidade entre a página de quadrinhos e a geometria do celular.</p>
@@ -7199,7 +7200,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 <h2>Dois instrumentos para medir forma e distância</h2>
 <p>O VIS mede a forma das galáxias, e é aí que entra o truque central da missão. Como a gravidade desvia a trajetória da luz, a imagem de uma galáxia distante chega deformada de uma maneira que depende da massa à frente dela, mesmo que essa massa seja invisível. O VIS foi pensado para medir a forma de mais de um bilhão de galáxias, e a combinação disso com as distâncias dadas pelo NISP, que mede a luz em cada comprimento de onda, permitirá mapear a distribuição da matéria. Uma exposição cobre 0,5 grau quadrado, o equivalente a 2,5 luas cheias.</p>
 <h2>O que se sabe e o que não se sabe sobre o Universo escuro</h2>
-<p>Matéria escura e energia escura são nomes dados a duas coisas que os cientistas não conseguem observar diretamente, e que explicam efeitos bem medidos. A matéria escura não emite luz, mas sua gravidade afeta a distribuição e o movimento de estrelas e galáxias. A energia escura designa o componente responsável pela aceleração da expansão do Universo, descoberta nos anos 1990: até então se esperava que a expansão desacelerasse com o tempo, puxada pela gravidade de toda a matéria, e a observação mostrou o contrário.</p>
+<p><a href="/espaco/materia-escura-e-energia-escura">Matéria escura e energia escura</a> são nomes dados a duas coisas que os cientistas não conseguem observar diretamente, e que explicam efeitos bem medidos. A matéria escura não emite luz, mas sua gravidade afeta a distribuição e o movimento de estrelas e galáxias. A energia escura designa o componente responsável pela aceleração da expansão do Universo, descoberta nos anos 1990: até então se esperava que a expansão desacelerasse com o tempo, puxada pela gravidade de toda a matéria, e a observação mostrou o contrário.</p>
 <p>Mesmo com essas pistas, a natureza de nenhum dos dois é conhecida. Para a matéria escura, a hipótese predominante é a de partículas pesadas e lentas, chamadas frias. A alternativa é que parte dela seja feita de partículas leves que se movem perto da velocidade da luz, entre as quais os neutrinos. Medir quanto neutrino existe no Universo é um dos objetivos do levantamento, porque a quantidade encontrada diz quanto da massa que não vemos pode ser explicada por eles. Para a energia escura, a hipótese mais aceita é a constante cosmológica, de Einstein, de 1917: um campo de energia presente em todo o espaço, de modo que quanto maior o volume do Universo, maior a energia de vácuo. Existe uma alternativa, a Quintessência, em que essa aceleração viria de uma quinta força que evolui com a expansão. As duas hipóteses fazem previsões diferentes sobre como a aceleração muda ao longo do tempo, e nenhum experimento conseguiu até agora distinguir entre elas.</p>
 <h2>O mapa em construção</h2>
 <p>Em outubro de 2024, a ESA apresentou a primeira parte do mapa, um mosaico de 208 gigapixels formado por 260 observações feitas entre 25 de março e 8 de abril de 2024. Em duas semanas o telescópio cobriu 132 graus quadrados do céu do Sul, mais de 500 vezes a área da Lua cheia. Esse mosaico equivale a cerca de 1 por cento do levantamento completo e contém em torno de 100 milhões de fontes, das quais aproximadamente 14 milhões são galáxias aproveitáveis para estudar a influência oculta da matéria e da energia escuras.</p>
@@ -7257,7 +7258,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 <p>Além da órbita de Netuno existem objetos transnetunianos, corpos pequenos, fracos e gelados que giram em torno do Sol. A grande maioria tem um brilho cerca de 100 milhões de vezes menor que o dos objetos visíveis a olho nu, e alguns são tão pequenos que, mesmo com os telescópios espaciais Hubble e Webb, aparecem apenas como pontinhos de luz. Essa fraqueza é justamente o que os torna interessantes: por não terem se agregado, eles preservam um estágio inicial da formação planetária que já não existe em lugar nenhum mais próximo do Sol.</p>
 <p>Explica-se isso pelo processo de formação dos planetas. Um disco de poeira e pedrinhas girava em torno do Sol, e os grãos se uniram até formar blocos do tamanho de cidades, os planetesimais, que se agregam para dar origem a planetas. Depois de Netuno, essa segunda etapa nunca aconteceu, e o que restou foi uma população congelada de planetesimais. Medir cores, composição e tamanhos desses blocos minúsculos é, por isso, uma forma de olhar de perto para o material de que os planetas foram feitos.</p>
 <h2>Por que foi preciso combinar dois telescópios</h2>
-<p>Para chegar a corpos tão fracos, os pesquisadores usaram pela primeira vez o Hubble e o Webb de forma conjunta. A divisão de trabalho não é arbitrária e decorre do que cada observatório foi feito para medir. O Hubble foi otimizado para comprimentos de onda mais curtos, do ultravioleta e do visível, e se move na órbita baixa da Terra, a cerca de 560 quilômetros de altitude. O Webb foi construído para o infravermelho, de 0,6 a 28,5 micrômetros, e orbita o Sol a 1,5 milhão de quilômetros, no ponto L2, protegido por um anteparo solar de cinco camadas.</p>
+<p>Para chegar a corpos tão fracos, os pesquisadores usaram pela primeira vez o Hubble e o Webb de forma conjunta. A divisão de trabalho não é arbitrária e decorre do que cada observatório foi feito para medir. O Hubble foi otimizado para comprimentos de onda mais curtos, do ultravioleta e do visível, e se move na órbita baixa da Terra, a cerca de 560 quilômetros de altitude. O <a href="/espaco/telescopio-espacial-james-webb">Webb foi construído para o infravermelho</a>, de 0,6 a 28,5 micrômetros, e orbita o Sol a 1,5 milhão de quilômetros, no ponto L2, protegido por um anteparo solar de cinco camadas.</p>
 <p>As equipes apontaram os dois telescópios para a mesma região do céu ao mesmo tempo, com o Hubble medindo a luz visível dos objetos e o Webb a luz infravermelha. A cor de um corpo transnetuniano funciona como uma impressão digital da composição de sua superfície, e obtê-la exige comparar o espectro nas duas faixas. O Hubble trazia a sensibilidade no visível e o Webb a sensibilidade no infravermelho, e a NASA afirma que, juntos, os dois fornecem mais informação do que qualquer um deles conseguiria sozinho.</p>
 <p>O resultado prático foi alcançar corpos que os telescópios terrestres mais sensíveis não alcançam. O Webb descobriu 27 novos objetos transnetunianos, um deles tão fraco que equivale a estar na Terra e enxergar um pequeno grupo de vaga-lumes na Lua. O menor objeto observado tem cerca de 5 quilômetros de diâmetro, aproximadamente cinco vezes menor que o menor detectável com os telescópios terrestres mais sensíveis. A análise foi publicada em dois artigos complementares no Astronomical Journal.</p>
 <h2>Duas populações com histórias diferentes</h2>
@@ -7308,7 +7309,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'A OpenAI lançou o GPT-6 Astra em 3 de setembro de 2026, com foco em uso de computador e agentes. O relatório de segurança reconhece tanto o avanço em alinhamento quanto uma redução na capacidade de monitoramento do modelo.',
     content: `
 <h2>O que a OpenAI anunciou em 3 de setembro de 2026</h2>
-<p>A OpenAI apresentou o GPT-6 Astra como um modelo de nova geração, reunindo anos de pesquisa em pré-treinamento, aprendizado por reforço e alinhamento. A empresa o descreve como o mais capaz que já implantou amplamente, e afirma que ele estabelece o estado da arte em uso de computador, navegação, engenharia de software, cibersegurança, ciência e trabalho profissional. O anúncio também marca uma família: em 22 de setembro de 2026, a empresa disse estar ampliando a família GPT-6 com o GPT-6 Sol e o GPT-6 Luna, e o texto do lançamento usa o Sol repetidamente como comparação.</p>
+<p>A OpenAI apresentou o GPT-6 Astra como um modelo de nova geração, reunindo anos de pesquisa em pré-treinamento, aprendizado por reforço e alinhamento. A empresa o descreve como o mais capaz que já implantou amplamente, e afirma que ele estabelece o estado da arte em uso de computador, navegação, <a href="/inteligencia-artificial/gpt-6-1-sol-devday-openai-modelo-codigo">engenharia de software</a>, cibersegurança, ciência e trabalho profissional. O anúncio também marca uma família: em 22 de setembro de 2026, a empresa disse estar ampliando a família GPT-6 com o GPT-6 Sol e o GPT-6 Luna, e o texto do lançamento usa o Sol repetidamente como comparação.</p>
 <p>A distribuição começou por um conjunto limitado de organizações e se estendeu a todos os usuários dos planos Plus, Pro, Business e Enterprise do ChatGPT, além da API da OpenAI, da Microsoft Azure e da Amazon Bedrock. Para desenvolvedores, o identificador na API é gpt-6-astra, com preço padrão de 10 dólares por milhão de tokens de entrada e 50 dólares por milhão de tokens de saída.</p>
 <h2>O que os números mostram, e o que não mostram</h2>
 <p>O lançamento vem acompanhado de uma tabela extensa de resultados, e é preciso distinguir o que é afirmação da empresa do que é número verificável por terceiros. Nos benchmarks de uso de computador, o Astra marca 72,6 por cento no OSWorld 2.0, contra 65,7 por cento do GPT-5.6 Sol, e 92,7 por cento no ScreenSpot-Pro, contra 76,9 por cento. Em tarefas de agentes, marca 59,3 por cento no Agents' Last Exam, contra 53,6 por cento, e 41,4 por cento no AutomationBench, contra 18,1 por cento.</p>
@@ -7576,7 +7577,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'mandalorian-grogu-bastidores-efeitos-rotta-hutt',
     title: 'Rotta the Hutt: Do Debut em Ahsoka a Protagonista em Star Wars',
     excerpt: 'Rotta the Hutt saiu da mochila de Ahsoka em 2008 e virou protagonista em ação ao vivo. A Lucasfilm e a ILM contam como o personagem foi desenhado, modelado digitalmente e por que a cena do rabo é uma citação de 1997.',
-    content: `<h2>Quem é Rotta e de onde ele veio</h2><p>Rotta the Hutt é o filho de Jabba e o herdeiro do império hutt. O Databank oficial do Star Wars o descreve como uma espécie hutt, com 1,93 metro de altura, e o situa em Tatooine. O registro oficial também conta que o tio-avô dele, Ziro, por sua vez maquineou o sequestro do próprio Rotta como parte de um plano para desacreditar os Jedi e impedir uma aliança com os Hutts. O público conheceu o personagem muito antes do filme em ação ao vivo. Na estreia do longa animado The Clone Wars, no fim do verão de 2008, o filho de Jabba não passava de uma pequena massa verde dentro da mochila de Ahsoka Tano, com o apelido de Stinky. O próprio filme animado marcou também a estreia da personagem interpretada por Rosario Dawson. São quase duas décadas separando uma aparição minúscula e um papel de protagonista.</p><h2>A piada do rabo, repetida anos depois</h2><p>A página de bastidores da Lucasfilm abre o texto justamente com uma coincidência. Na Edição Especial de 1997 de Star Wars: A New Hope, o contrabandista Han Solo passa por trás de um Jabba feito em computação gráfica e pisa na cauda dele. Anos depois, o supervisor de animação da ILM Hal Hickel revela que a mesma coisa acontece no filme novo: durante a luta, Mando dá a volta por trás de Rotta, pisa na cauda para ganhar um pouco de altura e afasta o braço dele. A equipe afirma que a cena não foi inserida como referência, e a frase de Hickel é a de que a coincidência funciona como uma rima entre as duas obras. É um detalhe pequeno, mas diz algo sobre como a produção pensa a própria linhagem: um personagem de 1997 volta ao mesmo gesto, décadas depois, sem que ninguém precise explicar a piada.</p><h2>De onde veio o desenho de Rotta</h2><p>O processo começou longe da computação. O departamento de arte conceitual do diretor de produção Doug Chiang trabalhou em muitas iterações até resolver como seria uma versão adulta de Rotta, e potencialmente menos fedida. A arte conceitual do personagem é creditada a Richard Lim. Só depois o desenho chegou à Industrial Light & Magic, empresa responsável pelos efeitos do filme. A partir daí, a construção começou por uma iteração digital feita pelo modelador principal Masa Narita e sua equipe. A ordem importa para entender o processo: primeiro a forma, depois o volume, e só mais tarde a cena.</p><p>Masa Narita não começou do zero. Ele havia trabalhado antes nos Gêmeos Hutt para The Book of Boba Fett, e ele próprio diz que usou os dois como ponto de partida quando o trabalho de Rotta começou. O detalhe importa porque explica a economia do processo: criar um hutt convincente do zero exigiria resolver anatomia, proporções e pele desde o princípio. Partir de um par de Hutts já resolvido permite concentrar o trabalho no que faz Rotta ser ele, e não no gênero da criatura. Vale registrar com precisão o que a Lucasfilm documenta: trata-se de uma construção digital, feita na ILM.</p><h2>O calendário apertado entre dois projetos</h2><p>A mesma página de bastidores lembra que a segunda temporada de Ahsoka, a série de Rosario Dawson, chega no ano seguinte. Isso cria uma pressão real sobre a ILM, que precisava concluir o trabalho de um personagem novo, que já estava pronto no filme e que ao mesmo tempo ganhava um projeto próprio. Rotta deixa assim de ser um figurante animado de bolso e passa a ter orçamento, equipe e prazo de produção.</p><p>A distância entre as duas aparições é maior do que a escala do personagem sugere. Em 2008, Rotta era um detalhe de bolso dentro de uma história maior. No filme de 2026, ele é um dos personagens principais, o que significa que a equipe precisou resolver perguntas que antes não existiam: como ele se move em cena, como encara os atores, como reage à luz. Nada disso foi detalhado pela Lucasfilm. A documentação pública chega até o desenho e ao modelo digital, sem entrar na execução de cada cena. </p><h2>A distância entre as duas aparições, medida em anos</h2><p>A diferença de escala entre 2008 e 2026 é o dado mais simples de extrair e o mais revelador. Um personagem que ocupava a mochila de outra figura passou a ter cenas próprias, luz própria e orçamento próprio em menos de duas décadas. Ao mesmo tempo, a página de bastidores deixa claro que a ILM não partiu do zero: Narita reaproveitou o trabalho feito para os Gêmeos Hutt em outra produção. É esse o ponto que vale guardar sobre a produção, porque mostra que personagem novo em ação ao vivo pode se apoiar em personagem já resolvido em efeitos.</p><p>Vale entender o alcance dessa fonte. A página de bastidores da Lucasfilm é um texto de divulgação, não um relatório técnico de pipeline, e isso explica por que ela detalha desenho, modelagem e uma citação de supervisor, mas não descreve a execução de cada cena. O que o texto sustenta é uma cadeia curta e verificável: arte conceitual sob a responsabilidade de Doug Chiang, com desenho de Richard Lim, entregue à ILM, modelado digitalmente por Masa Narita, que reaproveitou trabalho anterior dos Gêmeos Hutt. Tudo o mais seria especulação.</p><p>Vale registrar o que não encontrei. As fontes oficiais que li descrevem o conceito, a modelagem digital na ILM e a citação do supervisor de animação, mas não detalham figurino, dublagem ou som de Rotta. Também não encontrei confirmação de que exista um boneco físico em escala para o personagem. O que está documentado, e é o que o texto acima sustenta, é uma construção digital feita pela Industrial Light & Magic. Qualquer afirmação sobre bonecos ou sobre som precisaria de outra fonte, e por isso não é feita aqui.</p>`,
+    content: `<h2>Quem é Rotta e de onde ele veio</h2><p>Rotta the Hutt é o filho de Jabba e o herdeiro do império hutt. O Databank oficial do Star Wars o descreve como uma espécie hutt, com 1,93 metro de altura, e o situa em Tatooine. O registro oficial também conta que o tio-avô dele, Ziro, por sua vez maquineou o sequestro do próprio Rotta como parte de um plano para desacreditar os Jedi e impedir uma aliança com os Hutts. O público conheceu o personagem muito antes do filme em ação ao vivo. Na estreia do longa animado The Clone Wars, no fim do verão de 2008, o filho de Jabba não passava de uma pequena massa verde dentro da mochila de Ahsoka Tano, com o apelido de Stinky. O próprio filme animado marcou também a estreia da personagem interpretada por Rosario Dawson. São quase duas décadas separando uma aparição minúscula e um papel de protagonista.</p><h2>A piada do rabo, repetida anos depois</h2><p>A página de bastidores da Lucasfilm abre o texto justamente com uma coincidência. Na Edição Especial de 1997 de Star Wars: A New Hope, o contrabandista Han Solo passa por trás de um Jabba feito em computação gráfica e pisa na cauda dele. Anos depois, o supervisor de animação da ILM Hal Hickel revela que a mesma coisa acontece no filme novo: durante a luta, Mando dá a volta por trás de Rotta, pisa na cauda para ganhar um pouco de altura e afasta o braço dele. A equipe afirma que a cena não foi inserida como referência, e a frase de Hickel é a de que a coincidência funciona como uma rima entre as duas obras. É um detalhe pequeno, mas diz algo sobre como a produção pensa a própria linhagem: um personagem de 1997 volta ao mesmo gesto, décadas depois, sem que ninguém precise explicar a piada.</p><h2>De onde veio o desenho de Rotta</h2><p>O processo começou longe da computação. O departamento de arte conceitual do diretor de produção Doug Chiang trabalhou em muitas iterações até resolver como seria uma versão adulta de Rotta, e potencialmente menos fedida. A arte conceitual do personagem é creditada a Richard Lim. Só depois o desenho chegou à Industrial Light & Magic, empresa responsável pelos efeitos do filme. A partir daí, a construção começou por uma iteração digital feita pelo modelador principal Masa Narita e sua equipe. A ordem importa para entender o processo: primeiro a forma, depois o volume, e só mais tarde a cena.</p><p>Masa Narita não começou do zero. Ele havia trabalhado antes nos Gêmeos Hutt para The Book of Boba Fett, e ele próprio diz que usou os dois como ponto de partida quando o trabalho de Rotta começou. O detalhe importa porque explica a economia do processo: criar um hutt convincente do zero exigiria resolver anatomia, proporções e pele desde o princípio. Partir de um par de Hutts já resolvido permite concentrar o trabalho no que faz Rotta ser ele, e não no gênero da criatura. Vale registrar com precisão o que a Lucasfilm documenta: trata-se de uma construção digital, feita na ILM.</p><h2>O calendário apertado entre dois projetos</h2><p>A mesma página de bastidores lembra que a segunda temporada de Ahsoka, a série de Rosario Dawson, chega no ano seguinte. Isso cria uma pressão real sobre a ILM, que precisava concluir o trabalho de um personagem novo, que já estava pronto no filme e que ao mesmo tempo ganhava um projeto próprio. Rotta deixa assim de ser um figurante animado de bolso e passa a ter orçamento, equipe e prazo de produção.</p><p>A distância entre as duas aparições é maior do que a escala do personagem sugere. Em 2008, Rotta era um detalhe de bolso dentro de uma história maior. No <a href="/filmes-series/the-mandalorian-e-grogu-futuro-de-star-wars">filme de 2026</a>, ele é um dos personagens principais, o que significa que a equipe precisou resolver perguntas que antes não existiam: como ele se move em cena, como encara os atores, como reage à luz. Nada disso foi detalhado pela Lucasfilm. A documentação pública chega até o desenho e ao modelo digital, sem entrar na execução de cada cena. </p><h2>A distância entre as duas aparições, medida em anos</h2><p>A diferença de escala entre 2008 e 2026 é o dado mais simples de extrair e o mais revelador. Um personagem que ocupava a mochila de outra figura passou a ter cenas próprias, luz própria e orçamento próprio em menos de duas décadas. Ao mesmo tempo, a página de bastidores deixa claro que a ILM não partiu do zero: Narita reaproveitou o trabalho feito para os Gêmeos Hutt em outra produção. É esse o ponto que vale guardar sobre a produção, porque mostra que personagem novo em ação ao vivo pode se apoiar em personagem já resolvido em efeitos.</p><p>Vale entender o alcance dessa fonte. A página de bastidores da Lucasfilm é um texto de divulgação, não um relatório técnico de pipeline, e isso explica por que ela detalha desenho, modelagem e uma citação de supervisor, mas não descreve a execução de cada cena. O que o texto sustenta é uma cadeia curta e verificável: arte conceitual sob a responsabilidade de Doug Chiang, com desenho de Richard Lim, entregue à ILM, modelado digitalmente por Masa Narita, que reaproveitou trabalho anterior dos Gêmeos Hutt. Tudo o mais seria especulação.</p><p>Vale registrar o que não encontrei. As fontes oficiais que li descrevem o conceito, a modelagem digital na ILM e a citação do supervisor de animação, mas não detalham figurino, dublagem ou som de Rotta. Também não encontrei confirmação de que exista um boneco físico em escala para o personagem. O que está documentado, e é o que o texto acima sustenta, é uma construção digital feita pela Industrial Light & Magic. Qualquer afirmação sobre bonecos ou sobre som precisaria de outra fonte, e por isso não é feita aqui.</p>`,
     category: { id: 'filmes-series', slug: 'filmes-series', name: 'Filmes e Séries', description: 'Ficção científica, tecnologia no cinema e análise de produções', color: '#f97316' },
     tags: ['Star Wars', 'Mandalorian', 'Grogu', 'ILM', 'efeitos'],
     author: { id: '1', name: 'Equipe NexoraComic' },
@@ -7724,7 +7725,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'nasa-ibm-ia-gelo-lua-bases-humanas',
     title: 'NASA + IBM: a IA que pode ajudar a encontrar gelo e mapear a Lua para futuras bases',
     excerpt: 'O NASA-IBM Lunar Foundation Model reúne dados de missões norte-americanas e japonesas em um único modelo aberto, voltado a mapear crateras, datar vulcanismo e prospectar gelo nos polos. O que ele entrega e o que ainda não entrega.',
-    content: `<h2>O que a NASA e a IBM lançaram em setembro de 2026</h2><p>Em 10 de setembro de 2026, a NASA e a IBM anunciaram em conjunto o NASA-IBM Lunar Foundation Model, descrito pela empresa como o modelo de mapeamento da Lua mais abrangente já aberto ao público. Não se trata de um aplicativo de navegação nem de um sistema de orientação para pouso. É um modelo de foundation, o tipo de arquitetura que, em visão computacional, é pré-treinada em grande volume de dados para depois ser adaptada a tarefas específicas. Segundo a IBM, é o primeiro modelo de inteligência artificial a integrar observações da Lua em múltiplas modalidades, sob diferentes ângulos de visão e escalas espaciais. A empresa afirma que ele pode ajudar a navegar por crateras em sombra, a investigar fluxos de lava antigos e a prospectar gelo em crateras polares, no contexto do programa Artemis e de futuras missões a Marte.</p><p>O lançamento lunar não é um caso isolado. A mesma parceria mantém outras duas famílias de modelos: os modelos Prithvi, pré-treinados em dados de observação da Terra e voltados ao monitoramento de desastres, ao mapeamento de enchentes, à previsão de safras e de furacões, e o modelo Surya, de heliofísica, treinado em imagens solares de alta resolução para prever eventos de clima espacial, como erupções solares capazes de afetar redes elétricas e operações de satélite. O modelo lunar foi construído pelo time de Impact AI do Marshall Space Flight Center, em Huntsville, em colaboração com a Divisão de Ciências Planetárias da Diretoria de Missões Científicas, com o Goddard Space Flight Center e com o Ames Research Center. O argumento da parceria não é substituir o pesquisador, mas reduzir o tempo gasto classificando imagens em escala.</p><h2>Por que mapear a Lua é antes de tudo um problema de dados</h2><p>A dificuldade que o modelo enfrenta não é a falta de imagens da Lua, e sim o excesso delas em formatos que não conversam. A missão GRAIL, por exemplo, mapeou o campo gravitacional lunar em uma escala de 20 quilômetros por pixel, adequada para visualizar a crosta e o interior. Já a sonda LRO desceu muito mais perto, buscando gelo em crateras polares escuras e fotografando pequenas pedras e bordas de cratera em resoluções de cerca de 1 metro por pixel. São medições do mesmo corpo celeste que, ainda assim, não podem ser comparadas diretamente.</p><p>Some-se a isso a iluminação. Um dia lunar tem duas semanas de sol seguidas de duas semanas de escuridão, e a Lua não tem atmosfera para dispersar a luz como a Terra. O resultado são bordas nítidas, contrastes fortes e sombras que escondem vales ao mesmo tempo em que revelam relevos. Para um observador humano, isso é desorientador. Para um algoritmo treinado em imagens da Terra, é outra distribuição, porque quase toda imagem de satélite terrestre é captada sob iluminação razoavelmente constante. É essa mudança de domínio, mais do que a falta de dados, que justifica um modelo específico.</p><h2>Como o modelo foi construído e o que ele recebeu</h2><p>A arquitetura escolhida foi uma adaptação do TerraMind, modelo de observação da Terra desenvolvido pela IBM em parceria com a Agência Espacial Europeia, adotado por aprender correlações entre modalidades, de modo a preencher valores ausentes ou ruidosos. O Lunar Foundation Model é um codificador e decodificador ViT-B, com 768 dimensões, 12 camadas e 12 cabeças de atenção. Ele foi treinado do zero em um conjunto chamado SomBench, com cerca de 2 milhões de conjuntos de ladrilhos lunares coregistrados, distribuídos em 963.609 conjuntos de alta cobertura e 1.000.113 de cobertura estreita, cobrindo 11 modalidades.</p><p>O pré-treinamento consumiu cerca de 1.100 horas de GPU em 16 aceleradores H100, ao longo de 150 mil passos. Duas decisões merecem nota. A primeira é que a geometria de aquisição da imagem virou entrada explícita do codificador, com os ângulos de iluminação e a pegada do ladrilho entrando como tokens. A justificativa é direta: a aparência da superfície lunar depende mais da geometria de iluminação do que da variação do terreno, então entregar esse dado ao modelo evita que ele deduza um valor já registrado para cada imagem. A segunda é que o treinamento misturou as duas resoluções nativas no mesmo lote, de modo que um conjunto de pesos serve às duas famílias de escala.</p><p>O material reúne produtos de missões norte-americanas e japonesas: a câmera LROC, o altímetro LOLA, os sensores de temperatura Diviner e de radar Mini-RF, a sonda Kaguya, também conhecida como SELENE, os dados de gravidade da GRAIL, o Lunar Prospector e produtos do Serviço Geológico dos Estados Unidos. Reunir isso em um conjunto co-registrado é o que permite ao modelo aprender correlações entre, por exemplo, uma assinatura no radar e um brilho na imagem óptica. O anúncio trouxe junto o modelo, os conjuntos de pré-treinamento e as coleções de referência, com um artigo técnico acompanhando o lançamento. A licença é Apache 2.0, e o modelo está integrado ao TerraTorch, de código aberto, para que terceiros possam ajustar o modelo.</p><h2>As três prioridades definidas pela NASA</h2><p>A agência priorizou três usos. O primeiro é mapear as crateras menores que pontilham a superfície lunar e que ainda não estão catalogadas. O segundo é investigar o vulcanismo lunar, o que ajuda a datar superfícies antigas. O terceiro é vasculhar crateras nos dois polos em busca de gelo, recurso que poderia fornecer água, oxigênio e combustível para futuras missões tripuladas. Convém notar o que isso é e o que não é. O modelo não é um instrumento de medição, e o próprio cartão do modelo na plataforma Hugging Face é explícito ao dizer que o alvo de prospecção de gelo é um modelo, e não uma medição. Detectar gelo do espaço é um indício; confirmar a existência exige observação na superfície.</p><h2>O que o próprio projeto declara que ainda não faz</h2><p>A documentação é notavelmente honesta sobre as restrições, e vale conhecê-las antes de tratar a ferramenta como resposta a perguntas que ela não responde. Os autores registram que os ablamentos ainda não foram isolados, ou seja, ainda não se separou quanto da performance vem da tokenização da geometria, quanto vem do treinamento em resolução mista e quanto vem do pré-treinamento lunar. O pré-treinamento em cobertura estreita é limitado por construção, restrito a 1.095 quadros com modelos tridimensionais estéreo de 3 metros coregistrados. Não há referencial geodésico, e os valores absolutos apresentam deriva. Somado a isso, um mapa melhor não resolve o que uma base lunar ainda exige: energia, proteção contra radiação, logística de pouso e confirmação de gelo em campo.</p>`,
+    content: `<h2>O que a NASA e a IBM lançaram em setembro de 2026</h2><p>Em 10 de setembro de 2026, a NASA e a IBM anunciaram em conjunto o NASA-IBM Lunar Foundation Model, descrito pela empresa como o modelo de mapeamento da Lua mais abrangente já aberto ao público. Não se trata de um aplicativo de navegação nem de um sistema de orientação para pouso. É um modelo de foundation, o tipo de arquitetura que, em visão computacional, é pré-treinada em grande volume de dados para depois ser adaptada a tarefas específicas. Segundo a IBM, é o primeiro modelo de inteligência artificial a integrar observações da Lua em múltiplas modalidades, sob diferentes ângulos de visão e escalas espaciais. A empresa afirma que ele pode ajudar a navegar por crateras em sombra, a investigar fluxos de lava antigos e a prospectar gelo em crateras polares, no contexto do <a href="/espaco/artemis-caminho-de-volta-a-lua">programa Artemis</a> e de futuras missões a Marte.</p><p>O lançamento lunar não é um caso isolado. A mesma parceria mantém outras duas famílias de modelos: os modelos Prithvi, pré-treinados em dados de observação da Terra e voltados ao monitoramento de desastres, ao mapeamento de enchentes, à previsão de safras e de furacões, e o modelo Surya, de heliofísica, treinado em imagens solares de alta resolução para prever eventos de clima espacial, como erupções solares capazes de afetar redes elétricas e operações de satélite. O modelo lunar foi construído pelo time de Impact AI do Marshall Space Flight Center, em Huntsville, em colaboração com a Divisão de Ciências Planetárias da Diretoria de Missões Científicas, com o Goddard Space Flight Center e com o Ames Research Center. O argumento da parceria não é substituir o pesquisador, mas reduzir o tempo gasto classificando imagens em escala.</p><h2>Por que mapear a Lua é antes de tudo um problema de dados</h2><p>A dificuldade que o modelo enfrenta não é a falta de imagens da Lua, e sim o excesso delas em formatos que não conversam. A missão GRAIL, por exemplo, mapeou o campo gravitacional lunar em uma escala de 20 quilômetros por pixel, adequada para visualizar a crosta e o interior. Já a sonda LRO desceu muito mais perto, buscando gelo em crateras polares escuras e fotografando pequenas pedras e bordas de cratera em resoluções de cerca de 1 metro por pixel. São medições do mesmo corpo celeste que, ainda assim, não podem ser comparadas diretamente.</p><p>Some-se a isso a iluminação. Um dia lunar tem duas semanas de sol seguidas de duas semanas de escuridão, e a Lua não tem atmosfera para dispersar a luz como a Terra. O resultado são bordas nítidas, contrastes fortes e sombras que escondem vales ao mesmo tempo em que revelam relevos. Para um observador humano, isso é desorientador. Para um algoritmo treinado em imagens da Terra, é outra distribuição, porque quase toda imagem de satélite terrestre é captada sob iluminação razoavelmente constante. É essa mudança de domínio, mais do que a falta de dados, que justifica um modelo específico.</p><h2>Como o modelo foi construído e o que ele recebeu</h2><p>A arquitetura escolhida foi uma adaptação do TerraMind, modelo de observação da Terra desenvolvido pela IBM em parceria com a Agência Espacial Europeia, adotado por aprender correlações entre modalidades, de modo a preencher valores ausentes ou ruidosos. O Lunar Foundation Model é um codificador e decodificador ViT-B, com 768 dimensões, 12 camadas e 12 cabeças de atenção. Ele foi treinado do zero em um conjunto chamado SomBench, com cerca de 2 milhões de conjuntos de ladrilhos lunares coregistrados, distribuídos em 963.609 conjuntos de alta cobertura e 1.000.113 de cobertura estreita, cobrindo 11 modalidades.</p><p>O pré-treinamento consumiu cerca de 1.100 horas de GPU em 16 aceleradores H100, ao longo de 150 mil passos. Duas decisões merecem nota. A primeira é que a geometria de aquisição da imagem virou entrada explícita do codificador, com os ângulos de iluminação e a pegada do ladrilho entrando como tokens. A justificativa é direta: a aparência da superfície lunar depende mais da geometria de iluminação do que da variação do terreno, então entregar esse dado ao modelo evita que ele deduza um valor já registrado para cada imagem. A segunda é que o treinamento misturou as duas resoluções nativas no mesmo lote, de modo que um conjunto de pesos serve às duas famílias de escala.</p><p>O material reúne produtos de missões norte-americanas e japonesas: a câmera LROC, o altímetro LOLA, os sensores de temperatura Diviner e de radar Mini-RF, a sonda Kaguya, também conhecida como SELENE, os dados de gravidade da GRAIL, o Lunar Prospector e produtos do Serviço Geológico dos Estados Unidos. Reunir isso em um conjunto co-registrado é o que permite ao modelo aprender correlações entre, por exemplo, uma assinatura no radar e um brilho na imagem óptica. O anúncio trouxe junto o modelo, os conjuntos de pré-treinamento e as coleções de referência, com um artigo técnico acompanhando o lançamento. A licença é Apache 2.0, e o modelo está integrado ao TerraTorch, de código aberto, para que terceiros possam ajustar o modelo.</p><h2>As três prioridades definidas pela NASA</h2><p>A agência priorizou três usos. O primeiro é mapear as crateras menores que pontilham a superfície lunar e que ainda não estão catalogadas. O segundo é investigar o vulcanismo lunar, o que ajuda a datar superfícies antigas. O terceiro é vasculhar crateras nos dois polos em busca de gelo, recurso que poderia fornecer água, oxigênio e combustível para futuras missões tripuladas. Convém notar o que isso é e o que não é. O modelo não é um instrumento de medição, e o próprio cartão do modelo na plataforma Hugging Face é explícito ao dizer que o alvo de prospecção de gelo é um modelo, e não uma medição. Detectar gelo do espaço é um indício; confirmar a existência exige observação na superfície.</p><h2>O que o próprio projeto declara que ainda não faz</h2><p>A documentação é notavelmente honesta sobre as restrições, e vale conhecê-las antes de tratar a ferramenta como resposta a perguntas que ela não responde. Os autores registram que os ablamentos ainda não foram isolados, ou seja, ainda não se separou quanto da performance vem da tokenização da geometria, quanto vem do treinamento em resolução mista e quanto vem do pré-treinamento lunar. O pré-treinamento em cobertura estreita é limitado por construção, restrito a 1.095 quadros com modelos tridimensionais estéreo de 3 metros coregistrados. Não há referencial geodésico, e os valores absolutos apresentam deriva. Somado a isso, um mapa melhor não resolve o que uma base lunar ainda exige: energia, proteção contra radiação, logística de pouso e confirmação de gelo em campo.</p>`,
     category: { id: 'futuro', slug: 'futuro', name: 'Futuro', description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes', color: '#10b981' },
     tags: ['NASA', 'IBM', 'Lua', 'IA', 'Artemis'],
     author: { id: '1', name: 'Equipe NexoraComic' },
@@ -7756,7 +7757,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 <p>A fonte registra ainda que o tokamak foi desenvolvido pela pesquisa soviética no fim dos anos 1960 e adotado no mundo todo como a configuração mais promissora de dispositivo de fusão magnética. Para alcançar a fusão, o plasma precisa atingir 150.000.000 graus Celsius, e os métodos auxiliares de aquecimento ajudam a levá-lo até a faixa de temperatura de fusão, entre 150 e 300 milhões de graus. Só quando as partículas ficam energizadas assim elas conseguem superar a repulsão eletromagnética natural na colisão e se fundir.</p>
 <h2>O objetivo numérico: 500 MW a partir de 50 MW</h2>
 <p>A página de números oficiais é explícita sobre a meta. Para 50 MW de potência injetada no tokamak pelos sistemas que aquecem o plasma, o ITER deve produzir 500 MW de potência de fusão por períodos de 400 a 600 segundos. Esse retorno de dez vezes é expresso por Q maior ou igual a 10, a razão entre a potência de aquecimento injetada e a potência térmica de saída.</p>
-<p>É essencial ler esse número como objetivo de projeto, e não como resultado já obtido. A mesma página informa que o recorde atual de ganho de potência de fusão em um tokamak é Q igual a 0,67, mantido pelo tokamak europeu JET, hoje aposentado, que produziu 16 MW de potência térmica de fusão para 24 MW de potência de aquecimento injetada nos anos 1990. Entre esse recorde e a meta do ITER existe um salto de mais de uma ordem de grandeza, e é exatamente esse salto que o experimento se propõe a testar.</p>
+<p>É essencial ler esse número como objetivo de projeto, e não como resultado já obtido. A mesma página informa que o <a href="/futuro/energia-de-fusao-avancos-rumo-a-energia-limpa">recorde atual de ganho de potência de fusão</a> em um tokamak é Q igual a 0,67, mantido pelo tokamak europeu JET, hoje aposentado, que produziu 16 MW de potência térmica de fusão para 24 MW de potência de aquecimento injetada nos anos 1990. Entre esse recorde e a meta do ITER existe um salto de mais de uma ordem de grandeza, e é exatamente esse salto que o experimento se propõe a testar.</p>
 <h2>Por que o ITER não é uma usina</h2>
 <p>A distinção mais importante para o leitor é essa. Uma usina de fusão, segundo a explicação da máquina, usaria o calor para produzir vapor e depois eletricidade por meio de turbinas e geradores, exatamente como uma usina convencional. Mas o ITER é descrito como uma máquina experimental. A energia da fusão é absorvida como calor nas paredes do vaso, e a máquina não foi projetada para gerar eletricidade.</p>
 <p>O segundo objetivo está ligado ao volume de plasma. O tokamak do ITER terá 830 metros cúbicos de plasma, e o maior volume em tokamaks operando hoje é de 100 metros cúbicos, no japonês JT-60SA. A fonte afirma que esse volume permite produzir, pela primeira vez, um plasma em que a maior parte do aquecimento necessária para sustentar a reação é produzida pelas partículas alfa geradas durante o próprio processo de fusão. A produção e o controle de um plasma assim aquecido por si mesmo é o objetivo da pesquisa de fusão magnética há mais de 50 anos.</p>
@@ -7823,7 +7824,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'roman-space-telescope-construction-complete',
     title: 'Telescópio Espacial Roman: NASA Conclui Construção do Seu Novo Olho no Cosmos',
     excerpt: 'O Nancy Grace Roman Space Telescope foi totalmente montado e está pronto para testes finais antes do lançamento em 2026-2027.',
-    content: `<h2>O telescópio que já está em órbita</h2><p>O <strong>Nancy Grace Roman Space Telescope</strong> não está mais em fase de montagem. Segundo as perguntas frequentes oficiais da <strong>NASA</strong>, o observatório foi lançado em <strong>30 de agosto de 2026, às 7h26 da manhã</strong> no horário de Nova York, a bordo de um foguete <strong>SpaceX Falcon Heavy</strong>, a partir do <strong>Complexo de Lançamento 39A</strong>, no Kennedy Space Center, na Flórida. Na época em que essas informações foram publicadas, a missão se encontrava em comissionamento, a fase de integração e testes que antecede o início das operações científicas.</p><p>O projeto nasceu com outro nome, <strong>WFIRST</strong>, e passou a carregar o nome de <strong>Nancy Grace Roman</strong>, primeira astrônoma chefe da NASA e responsável por abrir caminho para observatórios espaciais. A agência define a missão como orientada a responder a três questões centrais: <strong>energia escura</strong>, <strong>exoplanetas</strong> e <strong>astrofísica no infravermelho</strong>.</p><h2>Um campo de visão muito maior que o do Hubble</h2><p>O argumento central do observatório é a escala. A NASA afirma que o Roman terá um <strong>campo de visão pelo menos cem vezes maior que o do Hubble</strong> e que, ao longo de sua vida útil, pode medir a luz de <strong>um bilhão de galáxias</strong>. Um campo com essas dimensões equivale, em área, a cerca de cem vezes o tamanho aparente da Lua cheia, o que permite observar uma vasta região do céu na mesma exposição.</p><p>Essa característica muda a natureza da pesquisa possível. Levantamentos de grande área servem para encontrar <strong>exoplanetas</strong> pelo método da microlente, para mapear a distribuição de galáxias em distâncias enormes e para estudar a expansão do universo. O objetivo em torno da energia escura é exatamente esse: medir com precisão a curva de expansão do cosmos em múltiplas épocas e confrontá-la com a previsão de um universo dominado por matéria e energia escuras. Um dos motivos mais fortes para essa capacidade é a Cicatriz Cósmica, a região de matéria densa que deforma a luz de objetos distantes e impede a observação direta de boa parte do cosmos. A localização do Roman em L2, longe da interferência terrestre, permite observar em comprimentos de onda que a atmosfera absorve.</p><h2>Os dois instrumentos a bordo</h2><p>O observatório carrega dois instrumentos. O <strong>Wide Field Instrument</strong> é o grande instrumento de campo largo, usado nos levantamentos de céu amplo e nas observações no infravermelho. O <strong>Coronagraph Instrument</strong> é um coronógrafo, dispositivo que bloqueia a luz de uma estrela para permitir observar diretamente <strong>exoplanetas</strong> e <strong>discos de formação planetária</strong> ao redor delas.</p><p>Essa segunda capacidade é rara porque exige contraste extremo. Um planeta como a Terra tem cerca de um bilionésimo do brilho de sua estrela, o que torna a separação direta extremamente difícil. O coronógrafo do Roman foi desenhado para enfrentar esse desafio, complementando os métodos indiretos de detecção por passagem ou por trânsito, que dependem de alinhamento preciso entre o sistema e a estrela. Ao bloquear a luz estelar, o coronógrafo aproveita a geometria do sistema para revelar o que está ao redor, um método conhecido desde a época dos primeiros coronógrafos espaciais.</p><h2>Órbita, duração e uma promessa incomum de dados abertos</h2><p>O Roman não opera em órbita baixa em torno da Terra. Ele trabalha a partir de uma <strong>órbita quase-halo em torno do segundo ponto de Lagrange Sol-Terra</strong>, conhecido como L2, uma região de equilíbrio gravitacional que permite observar continuamente o mesmo trecho de céu. A distância final é de cerca de um milhão de milhas, aproximadamente 1,5 milhão de quilômetros da Terra.</p><p>A segunda característica notável é a política de dados. A NASA declara que <strong>não haverá período proprietário</strong>: os dados serão integralmente públicos e <strong>100% do tempo de observação</strong> será dirigido pela comunidade científica. Uma fração substancial do tempo fica reservada para observações adicionais, vinculadas a um programa de <strong>General Investigator</strong> no qual pesquisadores de todo o mundo podem propor pesquisas. A missão primária está planejada para <strong>cinco anos</strong>, com projeto de estender o mesmo período; o combustível é o único item consumível.</p><h2>Quem construiu e por que o nome importa</h2><p>O telescópio é gerenciado pelo <strong>Goddard Space Flight Center</strong>, em Greenbelt, Maryland, com participação do <strong>Jet Propulsion Laboratory</strong>, do <strong>Caltech/IPAC</strong>, do <strong>Space Telescope Science Institute</strong> e de uma equipe científica distribuída entre instituições. Os parceiros industriais principais são a <strong>Ball Aerospace</strong>, a <strong>L3Harris Technologies</strong> e a <strong>Teledyne Scientific &amp; Imaging</strong>.</p><p>A escolha do nome não é apenas simbólica. Nancy Roman dedicou décadas a insistir que telescópios fossem ferramenta pública, e a forma como a missão organiza seus dados é uma extensão direta dessa filosofia: sem exclusividade nem período de reserva, os arquivos do Roman devem ficar disponíveis para qualquer grupo com competência técnica. Em uma área onde o tempo de observação é o recurso mais escasso do mundo, essa é uma afirmação incomum sobre o que a ciência pública deveria significar.</p>`,
+    content: `<h2>O telescópio que já está em órbita</h2><p>O <strong>Nancy Grace Roman Space Telescope</strong> não está mais em fase de montagem. Segundo as perguntas frequentes oficiais da <strong>NASA</strong>, o observatório foi lançado em <strong>30 de agosto de 2026, às 7h26 da manhã</strong> no horário de Nova York, a bordo de um foguete <strong>SpaceX Falcon Heavy</strong>, a partir do <strong>Complexo de Lançamento 39A</strong>, no Kennedy Space Center, na Flórida. Na época em que essas informações foram publicadas, a missão se encontrava em comissionamento, a fase de integração e testes que antecede o início das operações científicas.</p><p>O projeto nasceu com outro nome, <strong>WFIRST</strong>, e passou a carregar o nome de <strong>Nancy Grace Roman</strong>, primeira astrônoma chefe da NASA e responsável por abrir caminho para observatórios espaciais. A agência define a missão como orientada a responder a três questões centrais: <strong>energia escura</strong>, <strong>exoplanetas</strong> e <strong>astrofísica no infravermelho</strong>.</p><h2>Um campo de visão muito maior que o do Hubble</h2><p>O argumento central do observatório é a escala. A NASA afirma que o Roman terá um <strong>campo de visão pelo menos cem vezes maior que o do Hubble</strong> e que, ao longo de sua vida útil, pode medir a luz de <strong>um bilhão de galáxias</strong>. Um campo com essas dimensões equivale, em área, a cerca de cem vezes o tamanho aparente da Lua cheia, o que permite observar uma vasta região do céu na mesma exposição.</p><p>Essa característica muda a natureza da pesquisa possível. Levantamentos de grande área servem para encontrar <strong>exoplanetas</strong> pelo método da microlente, para mapear a distribuição de galáxias em distâncias enormes e para estudar a expansão do universo. O objetivo em torno da energia escura é exatamente esse: medir com precisão a curva de expansão do cosmos em múltiplas épocas e confrontá-la com a previsão de um universo dominado por matéria e energia escuras. Um dos motivos mais fortes para essa capacidade é a Cicatriz Cósmica, a região de matéria densa que deforma a luz de objetos distantes e impede a observação direta de boa parte do cosmos. A localização do Roman em L2, longe da interferência terrestre, permite observar em comprimentos de onda que a atmosfera absorve.</p><h2>Os dois instrumentos a bordo</h2><p>O observatório carrega dois instrumentos. O <strong>Wide Field Instrument</strong> é o grande instrumento de campo largo, usado nos levantamentos de céu amplo e nas observações no infravermelho. O <strong>Coronagraph Instrument</strong> é um coronógrafo, dispositivo que bloqueia a luz de uma estrela para permitir observar diretamente <strong>exoplanetas</strong> e <strong>discos de formação planetária</strong> ao redor delas.</p><p>Essa segunda capacidade é rara porque exige contraste extremo. Um planeta como a Terra tem cerca de um bilionésimo do brilho de sua estrela, o que torna a separação direta extremamente difícil. O coronógrafo do Roman foi desenhado para enfrentar esse desafio, complementando os métodos indiretos de detecção por passagem ou por trânsito, que dependem de alinhamento preciso entre o sistema e a estrela. Ao bloquear a luz estelar, o coronógrafo aproveita a geometria do sistema para revelar o que está ao redor, um método conhecido desde a época dos primeiros coronógrafos espaciais.</p><h2>Órbita, duração e uma promessa incomum de dados abertos</h2><p>O Roman não opera em órbita baixa em torno da Terra. Ele trabalha a partir de uma <strong>órbita quase-halo em torno do segundo ponto de Lagrange Sol-Terra</strong>, conhecido como L2, uma região de equilíbrio gravitacional que permite observar continuamente o mesmo trecho de céu. A distância final é de cerca de um milhão de milhas, aproximadamente 1,5 milhão de quilômetros da Terra.</p><p>A segunda característica notável é a política de dados. A NASA declara que <strong>não haverá período proprietário</strong>: os dados serão integralmente públicos e chegarão ao solo por uma <a href="/espaco/telescopio-roman-estacoes-terrestres-confirmadas">rede de três estações terrestres</a> e <strong>100% do tempo de observação</strong> será dirigido pela comunidade científica. Uma fração substancial do tempo fica reservada para observações adicionais, vinculadas a um programa de <strong>General Investigator</strong> no qual pesquisadores de todo o mundo podem propor pesquisas. A missão primária está planejada para <strong>cinco anos</strong>, com projeto de estender o mesmo período; o combustível é o único item consumível.</p><h2>Quem construiu e por que o nome importa</h2><p>O telescópio é gerenciado pelo <strong>Goddard Space Flight Center</strong>, em Greenbelt, Maryland, com participação do <strong>Jet Propulsion Laboratory</strong>, do <strong>Caltech/IPAC</strong>, do <strong>Space Telescope Science Institute</strong> e de uma equipe científica distribuída entre instituições. Os parceiros industriais principais são a <strong>Ball Aerospace</strong>, a <strong>L3Harris Technologies</strong> e a <strong>Teledyne Scientific &amp; Imaging</strong>.</p><p>A escolha do nome não é apenas simbólica. Nancy Roman dedicou décadas a insistir que telescópios fossem ferramenta pública, e a forma como a missão organiza seus dados é uma extensão direta dessa filosofia: sem exclusividade nem período de reserva, os arquivos do Roman devem ficar disponíveis para qualquer grupo com competência técnica. Em uma área onde o tempo de observação é o recurso mais escasso do mundo, essa é uma afirmação incomum sobre o que a ciência pública deveria significar.</p>`,
     category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
     tags: ['NASA', 'Roman Space Telescope', 'astronomia', 'energia escura', 'exoplanetas'],
     author: { id: '1', name: 'Equipe NexoraComic' },
@@ -8135,7 +8136,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'Nanopartículas de zircona usadas como nanosscaffold interfacial elevam a célula tandem perovskita-silício a 34,0% de eficiência, com tensão de circuito aberto certificada de 2,014 V.',
     content: `
       <h2>Por que empilhar duas células</h2>
-<p>Uma célula solar de silício comum converte luz em eletricidade absorvendo fótons. Cada fóton acima da energia mínima gera um elétron, e o silício tem uma banda de passagem de energia de cerca de 1,1 eV, que define o limite dessa conversão. Fótons mais energetivos produzem um elétron, mas o excedente de energia se dissipa como calor. Essa perda é irreversível e é a principal razão pela qual nenhuma célula de silício puro se aproxima de 100% de eficiência.</p>
+<p>Uma <a href="/futuro/longi-recorde-eficiencia-celula-solar-silicio">célula solar de silício</a> comum converte luz em eletricidade absorvendo fótons. Cada fóton acima da energia mínima gera um elétron, e o silício tem uma banda de passagem de energia de cerca de 1,1 eV, que define o limite dessa conversão. Fótons mais energetivos produzem um elétron, mas o excedente de energia se dissipa como calor. Essa perda é irreversível e é a principal razão pela qual nenhuma célula de silício puro se aproxima de 100% de eficiência.</p>
 <p>A saída para essa limitação é divisória. Uma célula tandem empilha dois absorvedores com bandas de passagem diferentes: um material de banda larga no topo, que captura a fração de alta energia do espectro, e um de banda estreita embaixo, que aproveita o resto. Cada fóton é aproveitado em um estágio ou no outro, e as perdas por excesso de energia caem bastante.</p>
 <p>Os materiais usados no topo têm sido os perovskitas, cristais de estrutura simples que podem ser depositados como tinta sobre um substrato e, ao contrário do silício cristalino, não exigem equipamentos de fabricação caros em temperatura elevada. A combinação perovskita-silício é hoje a rota mais avançada da fotovoltaica.</p>
 
@@ -8425,7 +8426,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     title: 'Telescópio Espacial Roman: Estações Terrestres Confirmadas para Receber Dados',
     excerpt: 'A NASA concluiu os testes das três estações terrestres que vão receber os dados do Telescópio Espacial Nancy Grace Roman, um volume de cerca de 1,4 terabytes por dia a até 500 megabits por segundo.',
     content: `      <h2>Uma rede espalhada pelo planeta</h2>
-      <p>Um telescópio posicionado no ponto de Lagrange L2, a cerca de 1,5 milhão de quilômetros da Terra, não serve para muita coisa se os dados que ele produz não conseguirem chegar aos cientistas. É esse elo que a NASA deu por resolvido ao anunciar, em 25 de setembro de 2026, que todas as estações terrestres de apoio ao Telescópio Espacial Nancy Grace Roman estão prontas para receber o alto volume de dados da missão assim que as operações científicas começarem, no início de 2027.</p>
+      <p>Um telescópio posicionado no ponto de Lagrange L2, a cerca de 1,5 milhão de quilômetros da Terra, não serve para muita coisa se os dados que ele produz não conseguirem chegar aos cientistas. É esse elo que a NASA deu por resolvido ao anunciar, em 25 de setembro de 2026, que todas as estações terrestres de apoio ao <a href="/espaco/telescopio-especial-roman-nova-era-observacao">Telescópio Espacial Nancy Grace Roman</a> estão prontas para receber o alto volume de dados da missão assim que as operações científicas começarem, no início de 2027.</p>
       <p>Três estações, operadas por três agências, dividiram a tarefa: a Near Space Network da NASA, instalada no Complexo White Sands, em Novo México; uma estação da Agência Espacial Europeia (ESA) próxima de New Norcia, no oeste da Austrália; e a estação da Agência de Exploração Aeroespacial do Japão (JAXA) em Misasa, na cidade de Saku.</p>
 
       <h2>O volume de dados é o verdadeiro desafio</h2>
@@ -8781,7 +8782,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
 <h2>O que a técnica já demonstrou em laboratório</h2><p>Os autores aplicaram o prime assembly a três operações, todas em células humanas, incluindo em locais relevantes para doenças:</p><ul><li><strong>Recodificação de exons</strong> — reescrever exons, os segmentos de um gene que chegam a ser traduzidos em proteína.</li><li><strong>Integração de transgenes</strong> — inserir genes estranhos ao organismo em posições programadas.</li><li><strong>Rearranjos em escala de megabase</strong> — reorganizar trechos muito longos do genoma.</li></ul><p>Isto expande o que a engenharia genómica consegue instalar num sítio. Mas é fundamental manter as proporções e <strong>não confundir "funciona em células" com "trata uma doença"</strong>. O artigo demonstra viabilidade em laboratório. Não demonstra nada em animais, e muito menos em pessoas. Entre uma célula num dish e um paciente há anos de trabalho — entrega às células certas, eficiência suficiente, prova de segurança, ensaios clínicos, e um caminho regulatório que ainda não começou para esta técnica.</p>
 
-<h2>O que ainda falta para virar tratamento</h2><p>Vale listar o que continua em aberto, porque é aqui que as notícias exageram com mais frequência:</p><ul><li><strong>Não é uma terapia aprovada.</strong> O prime assembly é um método em investigação. A data de publicação na Nature é 2026; nenhum ensaio clínico o testou em pacientes.</li><li><strong>A eficiência é variável.</strong> Tal como acontece com todas as técnicas desta família, o sucesso depende muito do tipo celular e da localização no genoma. Os autores reconhecem-no ao apontar como próximo passo melhorar a entrega dos componentes a células humanas relevantes para doenças, como as células-tronco hematopoiéticas usadas em distúrbios do sangue.</li><li><strong>A entrega é o gargalo.</strong> O método funcionar é uma coisa; fazer chegar as peças ao núcleo da célula certa, no número certo, sem efeitos secundários, é outra — e é o passo que os próprios autores tratam como o desafio seguinte.</li><li><strong>Comparações entre métodos exigem cuidado.</strong> O autor principal considera o método muito menos provável de gerar efeitos fora do alvo do que outras técnicas de edição, por depender do prime editing. É uma avaliação do próprio grupo de pesquisa, não uma conclusão independente e definitiva.</li></ul>
+<h2>O que ainda falta para virar tratamento</h2><p>Vale listar o que continua em aberto, porque é aqui que as notícias exageram com mais frequência:</p><ul><li><strong>Não é uma terapia aprovada.</strong> O prime assembly é um método em investigação. A data de publicação na Nature é 2026; nenhum ensaio clínico o testou em pacientes.</li><li><strong>A eficiência é variável.</strong> Tal como acontece com todas as técnicas desta família, o sucesso depende muito do tipo celular e da localização no genoma. Os autores reconhecem-no ao apontar como próximo passo melhorar a entrega dos componentes a células humanas relevantes para doenças, como as <a href="/ciencia/crispr-terapia-genica-doencas-tratamento">células-tronco hematopoiéticas</a> usadas em distúrbios do sangue.</li><li><strong>A entrega é o gargalo.</strong> O método funcionar é uma coisa; fazer chegar as peças ao núcleo da célula certa, no número certo, sem efeitos secundários, é outra — e é o passo que os próprios autores tratam como o desafio seguinte.</li><li><strong>Comparações entre métodos exigem cuidado.</strong> O autor principal considera o método muito menos provável de gerar efeitos fora do alvo do que outras técnicas de edição, por depender do prime editing. É uma avaliação do próprio grupo de pesquisa, não uma conclusão independente e definitiva.</li></ul>
 
 `,
     category: {
@@ -9211,7 +9212,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     excerpt: 'O cloud gaming alcançou latências baixas o suficiente para competição, mas o esports exige repetibilidade e variância baixa, não apenas melhores casos.',
     content: `
       <h2>A Questão da Latência</h2>
-      <p>O cloud gaming passou anos lutando contra a mesma acusação: funciona bem até que o jogo exija precisão. Um RPG turn-based pode esconder um pouco de atraso, mas um counter-strafe perdido em um shooter tático, uma habilidade defensiva atrasada em um hero shooter, ou um punish frame-perfect em um fighting game expõe latência imediatamente.</p>
+      <p>O <a href="/games/cloud-gaming-2026-jogar-na-nuvem">cloud gaming</a> passou anos lutando contra a mesma acusação: funciona bem até que o jogo exija precisão. Um RPG turn-based pode esconder um pouco de atraso, mas um counter-strafe perdido em um shooter tático, uma habilidade defensiva atrasada em um hero shooter, ou um punish frame-perfect em um fighting game expõe latência imediatamente.</p>
 
       <h2>Avanços Recentes</h2>
       <p>A crítica antiga está se tornando mais difícil de repetir sem qualificação. O GeForce NOW agora suporta modos tão altos quanto 1080p a 360 fps e QHD a 240 fps em hardware suportado, enquanto a Microsoft também melhorou o Xbox Cloud Gaming.</p>
@@ -9286,7 +9287,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     slug: 'como-funciona-o-transformer-atencao-ia',
     title: 'Como Funciona o Transformer: A Arquitetura que Redefiniu a IA',
     excerpt: 'O Transformer abandonou o processamento sequencial e transformou a atenção no motor dos modelos de linguagem mais avançados do mundo.',
-    content: `<h2>O problema do processamento sequencial</h2><p>Até 2017, os modelos de linguagem mais capazes dependiam de redes neurais recorrentes, as chamadas RNNs, e de suas variantes de memória longa, as LSTM e GRU. A ideia era simples na teoria: o modelo lia a frase palavra por palavra, da esquerda para a direita, mantendo um resumo do que já tinha lido em um vetor de estado interno.</p><p>O problema é que esse resumo é atualizado de forma sequencial. Para computá-lo, a rede precisa terminar a palavra 1 antes de começar a palavra 2. Isso cria uma dependência que impede o paralelismo massivo que as GPUs modernas oferecem. Treinar esses modelos levava semanas ou meses, e o custo crescia de forma linear com o tamanho da sequência.</p><p>Além disso, a memória que resume a informação comprime o contexto. Em uma frase longa, o detalhe de que o modelo precisará muito depois pode ter sido diluído no caminho. É o chamado problema do longo alcance.</p><h2>A proposta do trabalho de 2017</h2><p>Em junho de 2017, oito pesquisadores do Google e da Universidade de Toronto publicaram um estudo intitulado "Attention Is All You Need", chefiado por Ashish Vaswani. A proposta era radical: descartar completamente a recorrência e construir o modelo apenas em torno de um mecanismo chamado atenção.</p><p>A intuição por trás da atenção é que, ao processar uma palavra, o modelo deveria poder olhar diretamente para todas as outras palavras da frase de uma vez, decidindo quais merecem mais peso. Em vez de carregar um resumo, o modelo consulta diretamente o contexto relevante. Isso elimina a dependência sequencial e permite processar todas as posições da frase ao mesmo tempo.</p><h2>O mecanismo de autoatenção</h2><p>Na sua forma mais simples, a atenção funciona com três conjuntos de vetores. Para cada palavra, o modelo calcula uma consulta, uma chave e um valor. A consulta de uma palavra é comparada com as chaves de todas as palavras presentes para produzir um conjunto de pesos, e esses pesos determinam quanto de cada valor entra na representação final daquela palavra.</p><p>O resultado é que cada palavra ganha uma representação contextualizada: a palavra "banco" na frase "sou cliente do banco há anos" recebe uma mistura diferente da que receberia em "comprei uma mesa de banco no jardim". O modelo não precisa adivinhar de qual dos dois se trata, ele consulta diretamente o contexto e deixa que os pesos decidam.</p><h2>Atenção em múltiplas cabeças</h2><p>Uma única operação de atenção poderia se concentrar em um único tipo de relação. O modelo resolve isso usando atenção de múltiplas cabeças: várias projeções distintas são calculadas em paralelo, cada uma aprendendo um padrão relacional diferente. Uma cabeça pode aprender a acompanhar pronomes, outra a associar sujeito e verbo, outra a detectar a relação entre lugares.</p><p>É comum ouvir a analogia de que a atenção funciona como um mecanismo de busca: cada palavra faz uma busca na frase e recupera a informação mais relevante. A imagem é útil, mas merece um cuidado. O modelo não faz uma busca textual, e sim uma comparação numérica entre vetores aprendidos durante o treinamento. A relação é matematicamente semelhante, mas conceitualmente diferente.</p>
+    content: `<h2>O problema do processamento sequencial</h2><p>Até 2017, os modelos de linguagem mais capazes dependiam de redes neurais recorrentes, as chamadas RNNs, e de suas variantes de memória longa, as LSTM e GRU. A ideia era simples na teoria: o modelo lia a frase palavra por palavra, da esquerda para a direita, mantendo um resumo do que já tinha lido em um vetor de estado interno.</p><p>O problema é que esse resumo é atualizado de forma sequencial. Para computá-lo, a rede precisa terminar a palavra 1 antes de começar a palavra 2. Isso cria uma dependência que impede o paralelismo massivo que as GPUs modernas oferecem. Treinar esses modelos levava semanas ou meses, e o custo crescia de forma linear com o tamanho da sequência.</p><p>Além disso, a memória que resume a informação comprime o contexto. Em uma frase longa, o detalhe de que o modelo precisará muito depois pode ter sido diluído no caminho. É o chamado problema do longo alcance.</p><h2>A proposta do trabalho de 2017</h2><p>Em junho de 2017, oito pesquisadores do Google e da Universidade de Toronto publicaram um estudo intitulado "Attention Is All You Need", chefiado por Ashish Vaswani. A proposta era radical: descartar completamente a recorrência e construir o modelo apenas em torno de um mecanismo chamado atenção.</p><p>A intuição por trás da atenção é que, ao processar uma palavra, o modelo deveria poder olhar diretamente para todas as outras palavras da frase de uma vez, decidindo quais merecem mais peso. Em vez de carregar um resumo, o modelo consulta diretamente o contexto relevante. Isso elimina a dependência sequencial e permite processar todas as posições da frase ao mesmo tempo.</p><h2>O mecanismo de autoatenção</h2><p>Na sua forma mais simples, a atenção funciona com três conjuntos de vetores. Para cada palavra, o modelo calcula uma consulta, uma chave e um valor. A consulta de uma palavra é comparada com as chaves de todas as palavras presentes para produzir um conjunto de pesos, e esses pesos determinam quanto de cada valor entra na representação final daquela palavra.</p><p>O resultado é que cada palavra ganha uma representação contextualizada: a palavra "banco" na frase "sou cliente do banco há anos" recebe uma mistura diferente da que receberia em "comprei uma mesa de banco no jardim". O modelo não precisa adivinhar de qual dos dois se trata, ele consulta diretamente o contexto e deixa que os pesos decidam.</p><h2>Atenção em múltiplas cabeças</h2><p>Uma única operação de atenção poderia se concentrar em um único tipo de relação. O modelo resolve isso usando atenção de múltiplas cabeças: várias projeções distintas são calculadas em paralelo, cada uma aprendendo um padrão relacional diferente. Uma cabeça pode aprender a acompanhar pronomes, outra a associar sujeito e verbo, outra a detectar a relação entre lugares.</p><p>É comum ouvir a analogia de que a atenção funciona como um mecanismo de busca: cada palavra faz uma busca na frase e recupera a informação mais relevante. A imagem é útil, mas merece um cuidado. O modelo não faz uma busca textual, e sim uma comparação numérica entre vetores aprendidos durante o treinamento. A relação é matematicamente semelhante, mas conceitualmente diferente.</p><p>Se a dúvida é de onde vêm esses vetores e como eles são ajustados durante o treinamento, o passo seguinte é <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">como o aprendizado de máquina funciona</a>.</p>
 <h2>Posições e a ausência de ordem</h2><p>Um efeito colateral de remover a recorrência é que o modelo perde a noção de ordem. Se processa todas as palavras simultaneamente, "o cachorro morde o homem" e "o homem morde o cachorro" se tornam indistinguíveis. Para resolver isso, o trabalho original propõe a codificação posicional: um vetor é somado à representação de cada palavra para codificar sua posição na sequência.</p><p>Esse detalhe é mais importante do que parece. A codificação posicional original usa funções senoidais, com frequências distintas em cada dimensão, o que permite ao modelo perceber tanto vizinhanças imediatas quanto relações distantes. Modelos posteriores experimentaram muitas alternativas para essa codificação, mas o princípio permanece: a ordem precisa ser injetada manualmente, porque a atenção, sozinha, é insensível a ela.</p><h2>Encoder, decoder e o que veio depois</h2><p>A arquitetura completa tem duas partes. O encoder processa a entrada e produz representações contextuais. O decoder usa essas representações para gerar a saída, palavra por palavra, mas de forma autoregressiva, ou seja, cada palavra gerada alimenta a geração da seguinte. O trabalho empilhava seis camadas de cada lado, e o número seis não tem significado especial, foi apenas conveniente para os experimentos.</p><p>Em 2018, o Google publicou o BERT, que usava apenas o encoder. A simplificação foi tão eficaz que a forma de buscar documentos mudou radicalmente. Em 2020, o OpenAI apresentou o GPT-3, que usava apenas o decoder, em escala de centenas de bilhões de parâmetros.</p><h2>Por que o Transformer venceu</h2><p>O trabalho original reportou 28,4 pontos BLEU na tradução inglês-alemão e 41,8 na tradução inglês-francês, ambos recordes na época. O BLEU é uma métrica que compara a tradução automática com traduções humanas de referência, e pontuações mais altas indicam maior semelhança.</p><p>Mas a comparação decisiva talvez nem seja a qualidade, e sim o tempo de treinamento. O melhor modelo do artigo treinou em apenas 3,5 dias usando oito GPUs, uma fração do custo dos modelos concorrentes. A arquitetura permite que o paralelismo massivo dos hardwares de GPU finalmente seja aproveitado, e essa é a razão principal pela qual a pesquisa em IA foi se concentrando cada vez mais em torno do Transformer até ele se tornar o padrão da área.</p><h2>O custo dessa escala</h2><p>É importante registrar que a transição não veio sem consequências. Modelos baseados em Transformer processam cada token contra todos os outros, o que faz o custo computacional crescer de forma quadrática com o comprimento da sequência. Textos muito longos continuam sendo um desafio estrutural para a arquitetura, e é uma das razões pelas quais arquiteturas alternativas têm sido pesquisadas.</p><p>Além disso, treinar modelos grandes exige quantidades grandes de dados, de energia e de poder computacional concentrado em poucas organizações. O Transformer democratizou o acesso à capacidade de processamento paralelo, mas não democratizou o acesso aos recursos necessários para aproveitá-lo em escala.</p><h2>Fontes e Referências</h2><p>O trabalho original "Attention Is All You Need", de Vaswani e colaboradores, publicado em 2017, descreve a arquitetura, os resultados e o custo de treinamento. A explicação visual de Jay Alammar sobre o Transformer detalha o fluxo de dados entre encoder, decoder e camadas de atenção, e é uma das referências mais utilizadas para o ensino do assunto. Os números de BLEU, o tempo de treinamento de 3,5 dias com oito GPUs e a composição do time de autores foram verificados diretamente no resumo e no corpo do trabalho original.</p>`,
     category: { id: 'inteligencia-artificial', slug: 'inteligencia-artificial', name: 'Inteligência Artificial', description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA', color: '#ec4899' },
     tags: ['transformer', 'atenção', 'aprendizado de máquina', 'redes neurais', 'LLM'],
@@ -9309,7 +9310,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     title: 'A Bateria de Íon-Lítio: a Tecnologia que o Nobel de 2019 Recompensou',
     excerpt: 'Três cientistas partiram de um problema da crise petrolífera e criaram a tecnologia que move celulares, notebooks e carros elétricos.',
     content: `<h2>Por que uma bateria virou um problema Nobel</h2><p>Em 9 de outubro de 2019, a Academia Real Sueca de Ciências anunciou que o Prêmio Nobel de Química iria para John B. Goodenough, da Universidade do Texas em Austin, M. Stanley Whittingham, da Universidade de Binghamton, e Akira Yoshino, da Asahi Kasei. A motivação oficial foi "pelo desenvolvimento da bateria de íon-lítio".</p><p>É importante entender que o prêmio não foi para inventar a bateria de íon-lítio em geral, mas para resolver um problema específico e persistente: como fazer uma bateria que armazene muita energia, seja recarregável e não exploda. A história dessa solução começa no contexto econômico dos anos 1970, e não na busca por uma tecnologia de consumo.</p><h2>A crise do petróleo e a primeira tentativa</h2><p>O alicerce da bateria de íon-lítio foi lançado durante a crise do petróleo da década de 1970. Naquele momento, o objetivo era obter energia sem depender de combustíveis fósseis, e Whittingham se dedicou ao estudo de materiais que pudessem substituir a gasolina em veículos elétricos. Começando por pesquisa em supercondutores, ele descobriu um material extremamente rico em energia e o utilizou para criar um catodo.</p><p>O material escolhido era o sulfeto de titânio. Em nível molecular, ele tem espaços que podem acomodar, ou intercalar, íons de lítio. O ânodo era feito parcialmente de lítio metálico, que tem uma forte tendência a liberar elétrons. O resultado era uma bateria com grande potencial, pouco acima de dois volts.</p><h2>O problema do lítio metálico</h2><p>O grande entrave era que o lítio metálico é extremamente reativo. A bateria de Whittingham funcionava, mas era instável: o lítio metálico reagia violentamente com o eletrólito e podia provocar, em pouco tempo, um incêndio. Do ponto de vista prático, não era viável.</p><p>É aqui que entra a contribuição de Goodenough. Ele previu que o catodo teria um potencial ainda maior se fosse feito com um óxido de metal em vez de um sulfeto de metal. Fazendo essa substituição e usando óxido de cobalto com íons de lítio intercalados, ele demonstrou em 1980 que era possível atingir até quatro volts. Esse avanço foi decisivo: o dobro da tensão da bateria anterior significa, para a mesma corrente, o dobro de energia armazenada.</p>
-<h2>A solução comercial de Akira Yoshino</h2><p>Goodenough tinha o catodo. Faltava um ânodo estável. Foi isso que Akira Yoshino, então pesquisador da Asahi Kasei, resolveu em 1985: em vez de usar lítio metálico reativo no ânodo, ele utilizou coque de petróleo, um material de carbono que, assim como o óxido de cobalto do catodo, também consegue intercalar íons de lítio.</p><p>Essa troca aparentemente simples resolveu o problema da reatividade. A bateria resultante era leve, resistente e podia ser recarregada centenas de vezes antes que seu desempenho se degradasse. Em 1991, a Sony comercializou a primeira bateria de íon-lítio do mercado, e ela passou a estar presente em praticamente todo dispositivo portátil.</p><h2>O mecanismo: por que ela funciona</h2><p>O princípio que torna a bateria de íon-lítio diferente das anteriores é que ela não depende de uma reação química que destrói os eletrodos. Em vez disso, ela funciona com íons de lítio que viajam de volta e forth entre o ânodo e o catodo, um movimento conhecido como intercalação.</p><p>Em termos simplificados: ao carregar, os íons de lítio saem do material do ânodo e se inserem no catodo, armazenando energia. Ao descarregar, eles retornam do catodo para o ânodo, liberando essa energia para o circuito. Os materiais dos dois eletrodos permanecem essencialmente intactos durante o processo, e é essa característica que explica a longa vida útil.</p><h2>Onde a tecnologia está hoje</h2><p>O impacto da bateria de íon-lítio é difícil de superestimar. Ela está presente em celulares, notebooks, ferramentas, próteses e veículos elétricos. Também se tornou essencial para o armazenamento de energia gerada por fontes renováveis, porque permite guardar a eletricidade de painéis solares e turbinas e usá-la quando a geração estiver baixa.</p><p>A linha do tempo mostra o progresso: de 1991, com a primeira célula comercial, até os veículos elétricos de longo alcance e as baterias de estado sólido, que buscam eliminar ainda mais o lítio metálico e usar eletrólitos sólidos no lugar dos líquidos. Cada geração tenta resolver o mesmo problema identificado por Whittingham, densidade de energia alta com segurança e durabilidade, com materiais progressivamente melhores.</p><h2>Fontes e Referências</h2><p>Todos os dados deste artigo foram verificados no anúncio oficial do Comitê Nobel de 9 de outubro de 2019, que descreve as contribuições específicas de cada laureado: o catodo de sulfeto de titânio de Whittingham, a previsão do óxido de metal de Goodenough com a demonstração de quatro volts em 1980, e o ânodo de coque de petróleo de Yoshino em 1985. A comparação com as baterias anteriores e o ciclo de intercalação seguem a explicação científica do próprio Comitê Nobel.</p>`,
+<h2>A solução comercial de Akira Yoshino</h2><p>Goodenough tinha o catodo. Faltava um ânodo estável. Foi isso que Akira Yoshino, então pesquisador da Asahi Kasei, resolveu em 1985: em vez de usar lítio metálico reativo no ânodo, ele utilizou coque de petróleo, um material de carbono que, assim como o óxido de cobalto do catodo, também consegue intercalar íons de lítio.</p><p>Essa troca aparentemente simples resolveu o problema da reatividade. A bateria resultante era leve, resistente e podia ser recarregada centenas de vezes antes que seu desempenho se degradasse. Em 1991, a Sony comercializou a primeira bateria de íon-lítio do mercado, e ela passou a estar presente em praticamente todo dispositivo portátil.</p><h2>O mecanismo: por que ela funciona</h2><p>O princípio que torna a bateria de íon-lítio diferente das anteriores é que ela não depende de uma reação química que destrói os eletrodos. Em vez disso, ela funciona com íons de lítio que viajam de volta e forth entre o ânodo e o catodo, um movimento conhecido como intercalação.</p><p>Em termos simplificados: ao carregar, os íons de lítio saem do material do ânodo e se inserem no catodo, armazenando energia. Ao descarregar, eles retornam do catodo para o ânodo, liberando essa energia para o circuito. Os materiais dos dois eletrodos permanecem essencialmente intactos durante o processo, e é essa característica que explica a longa vida útil.</p><h2>Onde a tecnologia está hoje</h2><p>O impacto da bateria de íon-lítio é difícil de superestimar. Ela está presente em celulares, notebooks, ferramentas, próteses e veículos elétricos. Também se tornou essencial para o armazenamento de energia gerada por fontes renováveis, porque permite guardar a eletricidade de painéis solares e turbinas e usá-la quando a geração estiver baixa.</p><p>A linha do tempo mostra o progresso: de 1991, com a primeira célula comercial, até os veículos elétricos de longo alcance e as <a href="/tecnologia/baterias-estado-solido-carros-eletricos">baterias de estado sólido</a>, que buscam eliminar ainda mais o lítio metálico e usar eletrólitos sólidos no lugar dos líquidos. Cada geração tenta resolver o mesmo problema identificado por Whittingham, densidade de energia alta com segurança e durabilidade, com materiais progressivamente melhores.</p><h2>Fontes e Referências</h2><p>Todos os dados deste artigo foram verificados no anúncio oficial do Comitê Nobel de 9 de outubro de 2019, que descreve as contribuições específicas de cada laureado: o catodo de sulfeto de titânio de Whittingham, a previsão do óxido de metal de Goodenough com a demonstração de quatro volts em 1980, e o ânodo de coque de petróleo de Yoshino em 1985. A comparação com as baterias anteriores e o ciclo de intercalação seguem a explicação científica do próprio Comitê Nobel.</p>`,
     category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
     tags: ['bateria', 'íon-lítio', 'Nobel', 'química', 'energia', 'eletrônica'],
     author: { id: '1', name: 'Equipe NexoraComic' },
@@ -9474,7 +9475,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
       <h2>DDR4 ou DDR5?</h2>
       <p>A escolha mais relevante hoje é a geração da memória, e ela não é uma preferência: é uma restrição da plataforma.</p>
-      <p><strong>DDR4</strong> ainda faz sentido em placas mais antigas, e kits geralmente saem mais baratos. <strong>DDR5</strong> traz mais largura de banda por módulo e melhores tempos em teoria, mas custa mais, exige uma <em>placa-mãe compatível</em> e consome um pouco mais de energia.</p>
+      <p><strong>DDR4</strong> ainda faz sentido em placas mais antigas, e kits geralmente saem mais baratos. <strong>DDR5</strong> traz mais largura de banda por módulo e melhores tempos em teoria, mas custa mais, exige uma <a href="/games/como-montar-um-pc-gamer"><em>placa-mãe compatível</em></a> e consome um pouco mais de energia. O <a href="/games/como-montar-um-pc-gamer">guia de montagem de PC gamer</a> mostra como esse detalhe afeta o orçamento total e quais componentes devem ser priorizados.</p>
       <p>Na prática, para jogos, a diferença de desempenho entre um kit DDR5 bem escolhido e um DDR4 equivalente é pequena e nem sempre mensurável. O ganho real aparece em operações que realmente usam largura de banda de memória. Priorize <strong>capacidade antes de frequência</strong> — 32 GB em DDR4 quase sempre rendem mais do que 16 GB em DDR5.</p>
 
       <h2>Quantidade de Módulos Importa</h2>
@@ -9488,7 +9489,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         <li>Se o uso fica abaixo de 70% e o jogo ainda engasga, a memória não é o problema.</li>
         <li>Se o uso toca 90% ou mais, ou o sistema aciona o arquivo de paginação, aí sim há falta.</li>
       </ul>
-      <p>Esse passo evita a situação mais comum: gastar em RAM porque "todo mundo está comprando", quando o gargalo real é a placa de vídeo ou a configuração de um driver.</p>
+      <p>Esse passo evita a situação mais comum: gastar em RAM porque "todo mundo está comprando", quando o gargalo real é a <a href="/games/como-escolher-placa-de-video-para-pc-gamer">placa de vídeo</a> ou a configuração de um driver.</p>
 
       <h2>Conclusão</h2>
       <p>Para a maioria das máquinas de jogo hoje, <strong>16 GB é o ponto de partida razoável e 32 GB é o conforto de quem faz outras coisas ao mesmo tempo</strong>. Confirme o consumo real antes de comprar, prefira dois módulos em vez de um, e lembre que a geração (DDR4 ou DDR5) é decidida pela sua placa-mãe, não pela moda. Memória mal dimensionada trava o sistema; memória superdimensionada só pesa no bolso.</p>
@@ -9526,6 +9527,10 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         type: 'documentation',
       },
     ],
+    // TASK 9 (pendente) - guia de compra de RAM sem bloco de afiliados: nenhum
+    // link oficial de memoria RAM da conta dizzritimia-20 disponivel localmente
+    // e SiteStripe inacessivel nesta sessao. Nenhum ASIN foi deduzido e nenhuma
+    // URL foi montada; o bloco entra quando o proprietario fornecer o link.
   },
   {
     id: '180',
@@ -9653,6 +9658,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         <li>A pressão da haste deve ser suficiente para firme, sem criar marca.</li>
         <li>Headset com fio é mais confiável; sem fio evita o problema do cabo preso.</li>
       </ul>
+      <p>Para completar o setup de periféricos, o <a href="/games/teclado-mecanico-para-games-como-escolher">guia de escolha de teclado mecânico</a> mostra como encontrar o modelo certo para seu estilo de jogo — o que faz diferença especialmente em jogos competitivos onde o tempo de resposta das teclas conta tanto quanto o áudio espacial.</p>
 
       <h2>Uma Nota sobre Áudio Externo</h2>
       <p>Muitos jogos de tiro têm um modo de áudio direcional com HRTF, que entrega boa localização apenas em fones estéreo comuns. Para quem joga competitivo, ele pode representar a mesma função de um surround pago, sem custo adicional. Testar essa opção antes de comprar evita uma despesa desnecessária.</p>
@@ -9811,7 +9817,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         <li><strong>Wi-Fi 6 (802.11ax):</strong> traz OFDMA, que permite atender vários dispositivos simultaneamente com menos conflito — essencial em casa com muitos celulares e dispositivos conectados.</li>
         <li><strong>Wi-Fi 7 (802.11be):</strong> multiplica a largura de canal e reduz a latência. Indicado para ambientes com Wi-Fi 6E ou 7 nos dispositivos.</li>
       </ul>
-      <p>Para uma casa com celular, notebook e televisão inteligente, <strong>Wi-Fi 6 já resolve a maioria dos casos</strong>. Wi-Fi 7 faz sentido se você tem muitos dispositivos de alta largura de banda ou quer se preparar para o futuro.</p>
+      <p>Para uma casa com celular, notebook e televisão inteligente, <strong>Wi-Fi 6 já resolve a maioria dos casos</strong>. Wi-Fi 7 faz sentido se você tem muitos dispositivos de alta largura de banda ou quer se preparar para o futuro. Se a dúvida é trocar de roteador agora ou esperar, o comparativo <a href="/tecnologia/wifi-6-vs-wifi-7-vale-a-pena-trocar-roteador">Wi-Fi 6 vs Wi-Fi 7</a> começa exatamente por esse diagnóstico.</p>
 
       <h2>Posicionamento: antes de comprar, ajuste</h2>
       <p>Um ajuste gratuito que resolve boa parte dos casos de "internet lenta":</p>
@@ -9894,7 +9900,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
 
       <h2>Hubs e Docks: Duas Coisas Diferentes</h2>
       <p>O termo "hub" é usado para coisas distintas:</p>
-      <p>O <strong>hub USB</strong> é simples: recebe uma porta e multiplica em várias portas USB, sem saída de vídeo nem carregamento. É a solução barata para adicionar pen drives e periféricos.</p>
+      <p>O <strong>hub USB</strong> é simples: recebe uma porta e multiplica em várias portas USB, sem saída de vídeo nem carregamento. É a solução barata para adicionar pen drives e periféricos — e acertar na escolha passa pelas mesmas regras de <a href="/tecnologia/hub-usb-barato-como-expandir-as-portas-gastando-pouco">como expandir as portas USB sem perder velocidade</a>.</p>
       <p>O <strong>dock</strong> é mais completo: normalmente inclui várias portas USB, uma ou mais saídas de vídeo (HDMI ou DisplayPort) e carregamento. É o que transforma um notebook em um setup de mesa com um cabo só.</p>
       <p>Para quem trabalha com dois monitores, teclado e mouse, o dock é o produto certo. Para quem só precisa de mais portas USB, o hub resolve e custa menos.</p>
 
@@ -9951,7 +9957,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     id: '185',
     slug: 'como-escolher-placa-de-video-para-pc-gamer',
     title: 'Como Escolher Placa de Vídeo para PC Gamer: O Guia que Poupa Dinheiro Errado',
-    excerpt: 'VRAM, resolução, ray tracing e upscaling de IA — técnica que também aparece no nosso <a href="/games/como-escolher-placa-de-video-para-pc-gamer">guia de placas de vídeo</a>. Os termos de GPU complicam mais do que ajudam. Entenda o que realmente decide o seu desempenho.',
+    excerpt: 'VRAM, resolução, ray tracing e upscaling de IA: os quatro fatores que realmente decidem o desempenho da placa de vídeo — e como escolher pelo que você joga.',
     content: `
       <p>Comprar placa de vídeo é, para a maioria das pessoas, a decisão mais cara e mais confusa do PC. As especificações técnicas existem de propósito, mas a movimentação do mercado faz com que comparar números nem sempre produza a escolha certa.</p>
 
@@ -10008,6 +10014,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['placa de vídeo', 'GPU', 'hardware', 'PC gamer', 'VRAM'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-28',
+    updatedAt: '2026-10-12',
     readingTime: 10,
     featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sapphire-Radeon-HD-5570-Video-Card.jpg?width=960',
     imageAlt: 'Placa de vídeo Sapphire Radeon HD 5570 instalada em um computador, usada como imagem ilustrativa de GPU',
@@ -10899,7 +10906,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <p>Fabricar o chip é trabalho de física e de engenharia química em escala extrema. O desenho é convertido em camadas de litografia sobre uma lâmina de silício de 300 milímetros, e o processo leva meses, com centenas de etapas, em salas limpas onde temperatura, umidade e pureza dos gases são controladas com precisão extrema. Cada etapa seguinte multiplica a anterior em complexidade.</p>
       <p>É por isso que a concentração é tão alta. Não é que a TSMC seja apenas mais eficiente que os concorrentes. É que ela é uma das poucas organizações no planeta que montou a cadeia completa de processos avançados, e a curva de aprendizado dessa cadeia é tão íngreme que aparecer do zero leva anos.</p>
 <h2>O que os governos estão tentando fazer</h2>
-      <p>A resposta dos Estados Unidos ao risco de concentração é o <strong>CHIPS and Science Act</strong>, sancionado em 2022. Segundo o próprio NIST, do Departamento de Comércio, a lei disponibilizou <strong>50 bilhões de dólares</strong> para fortalecer pesquisa, desenvolvimento e fabricação de semicondutores no país. A divisão é explícita: <strong>11 bilhões</strong> no escritório de pesquisa e desenvolvimento, que investe em ecossistema doméstico de P&D, e <strong>39 bilhões</strong> no escritório de programas, que oferece incentivos para investimento em instalações e equipamentos nos Estados Unidos.</p>
+      <p>A resposta dos Estados Unidos ao risco de concentração é o <strong><a href="/tecnologia/apple-intel-producao-chips-eua">CHIPS and Science Act</a></strong>, sancionado em 2022. Segundo o próprio NIST, do Departamento de Comércio, a lei disponibilizou <strong>50 bilhões de dólares</strong> para fortalecer pesquisa, desenvolvimento e fabricação de semicondutores no país. A divisão é explícita: <strong>11 bilhões</strong> no escritório de pesquisa e desenvolvimento, que investe em ecossistema doméstico de P&D, e <strong>39 bilhões</strong> no escritório de programas, que oferece incentivos para investimento em instalações e equipamentos nos Estados Unidos.</p>
       <p>Vale registrar o que esse número significa em perspectiva. Os 40,2 bilhões de dólares de receita trimestral da TSMC equivalem a cerca de 80% de todo o valor do CHIPS Act. Isso não significa que a lei é inútil. Significa que o problema é grande o suficiente para exigir anos de investimento contínuo, e não um único programa.</p>
       <p>A implementação segue em curso em 2026: o Departamento de Comércio anunciou em agosto a formalização de prêmios de P&D para a Quantinuum, a Rigetti e a D-Wave, e em setembro um prêmio final de até 1 bilhão de dólares para a Anderon, nova subsidiária da IBM.</p>
 
@@ -11406,7 +11413,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <p>Isso muda a dinâmica do setor. Uma empresa que constrói seu próprio chip precisa investir em projeto, máscaras de produção e volumes grandes para justificar o investimento. Ao oferecer suporte a 17 empresas, a Rapidus tenta transformar seu novo parque em um <em>ecossistema</em>, e não apenas em uma fábrica.</p>
 
       <h2>O contexto japonês</h2>
-      <p>A iniciativa faz parte do movimento de reforço da indústria de semicondutores do Japão, que por anos perdeu participação relevante para fábricas da Coreia do Sul e de Taiwan. O governo japonês tem apoiado o projeto da Rapidus com investimentos públicos significativos, com o objetivo de reconquistar presença em fabricação de chips avançados.</p>
+      <p>A iniciativa faz parte do movimento de reforço da indústria de semicondutores do Japão, que por anos perdeu participação relevante para <a href="/tecnologia/por-que-taiwan-importa-tanto-para-os-chips">fábricas da Coreia do Sul e de Taiwan</a>. O governo japonês tem apoiado o projeto da Rapidus com investimentos públicos significativos, com o objetivo de reconquistar presença em fabricação de chips avançados.</p>
       <p>A âncora de mercado apontada pela notícia é justamente a <strong>Toshiba</strong>, historicamente forte em armazenamento de memória. Apoiar um grande cliente de chips próprios nos primeiros passos do projeto ajuda a dar volume e previsibilidade a uma fábrica que ainda está em fase de ramp-up.</p>
 
       <h2>Leitura realista</h2>
@@ -11660,7 +11667,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     id: '209',
     slug: 'melhores-livros-para-aprender-programacao-guia-completo',
     title: 'Melhores Livros para Aprender Programação: Guia Completo para Iniciantes e Avançados',
-    excerpt: 'Descubra os livros essenciais de programação que podem acelerar sua jornada como desenvolvedor, desde fundamentos até arquitetura de software.',
+    excerpt: 'Quais livros de programação valem a pena? Seleção por estágio — do primeiro livro de lógica aos clássicos de arquitetura e liderança técnica.',
     content: `
       <h2>Por que livros ainda importam na era dos vídeos e tutoriais</h2>
       <p>Com a abundância de cursos em vídeo, tutoriais online e bootcamps, pode parecer que livros de programação são relíquias. Mas a realidade é diferente: livros oferecem profundidade, estrutura e referência rápida que vídeos muitas vezes não conseguem igualar. Um bom livro não apenas ensina código — ele ensina a pensar como programador.</p>
@@ -11674,7 +11681,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <h2>Livros por estágio da carreira</h2>
 
       <h3>Iniciantes absolutos</h3>
-      <p>Para quem está começando do zero, livros que ensinam lógica de programação antes de mergulhar em sintaxe específica são essenciais. Aprender a decompor problemas, identificar padrões e testar hipóteses mentalmente é mais importante do que memorizar comandos de uma linguagem específica.</p>
+      <p>Para quem está começando do zero, livros que ensinam <a href="/tecnologia/algoritmos-para-iniciantes-o-que-aprender-primeiro">lógica de programação</a> antes de mergulhar em sintaxe específica são essenciais. Aprender a decompor problemas, identificar padrões e testar hipóteses mentalmente é mais importante do que memorizar comandos de uma linguagem específica.</p>
 
       <h3>Programadores juniores</h3>
       <p>Neste estágio, o foco deve expandir para boas práticas, design patterns e entendimento de como sistemas interagem. Livros sobre arquitetura, teste automatizado e refatoramento começam a fazer mais sentido do que apenas sintaxe básica.</p>
@@ -11686,7 +11693,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <p>Neste nível, livros tendem a ser sobre liderança técnica, gestão de equipes, arquitetura em escala e decisões de design que afetam anos de desenvolvimento futuro. A leitura volta a ser mais sobre contexto e menos sobre código direto.</p>
 
       <h2>Como escolher o livro certo para você</h2>
-      <p>O primeiro passo é identificar onde você está e onde quer chegar. Um livro avançado sobre arquitetura de sistemas distribuídos provavelmente não é o melhor ponto de partida para quem ainda luta com laços e condicionais. Por outro lado, um livro de introdução ao Python pode ser redundante para quem já trabalha profissionalmente com a linguagem há anos.</p>
+      <p>O primeiro passo é identificar onde você está e onde quer chegar. Um livro avançado sobre arquitetura de sistemas distribuídos provavelmente não é o melhor ponto de partida para quem ainda luta com laços e condicionais. Por outro lado, um <a href="/tecnologia/aprenda-python-3-do-jeito-certo-por-onde-comecar">livro de introdução ao Python</a> pode ser redundante para quem já trabalha profissionalmente com a linguagem há anos.</p>
 
       <h2>O papel da prática ao lado da leitura</h2>
       <p>Ler sobre programação sem programar é como ler sobre natação sem entrar na piscina. A regra geral é: para cada conceito lido, implemente algo que o utilize. Se o livro fala sobre recursão, escreva uma função recursiva. Se discute testes, escreva testes para um código existente. A teoria precisa encontrar ancoragem na prática.</p>
@@ -11707,6 +11714,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     tags: ['programação', 'livros', 'desenvolvimento de software', 'aprendizado', 'carreira em TI'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-06',
+    updatedAt: '2026-10-12',
     readingTime: 7,
     featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Open_book_nae_02.svg/960px-Open_book_nae_02.svg.png',
     imageAlt: 'Livro aberto com páginas brancas, ilustração simples e limpa',
@@ -11749,7 +11757,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     excerpt: 'A inteligência artificial está se transformando rapidamente de uma promessa tecnológica em uma força que redefine como trabalhamos, aprendemos e interagimos. Entenda o que esperar até 2041.',
     content: `
       <h2>O salto atual da IA</h2>
-      <p>Os últimos anos testemunharam avanços que pareciam distantes décadas atrás. Modelos de linguagem que escrevem código, geram imagens e respondem perguntas complexas passaram de laboratórios de pesquisa para ferramentas cotidianas. Mas o que está por vir pode transformar ainda mais profundamente a sociedade.</p>
+      <p>Os últimos anos testemunharam avanços que pareciam distantes décadas atrás. Modelos de linguagem que escrevem código, <a href="/inteligencia-artificial/inteligencia-artificial-generativa">geram imagens</a> e respondem perguntas complexas passaram de laboratórios de pesquisa para ferramentas cotidianas. Mas o que está por vir pode transformar ainda mais profundamente a sociedade.</p>
 
       <h2>Trabalho: automação além do óbvio</h2>
       <p>A discussão sobre IA e trabalho muitas vezes se concentra em "robots taking jobs". A realidade é mais sutil. A IA não vai apenas substituir tarefas — ela vai redefinir carreiras inteiras. Profissões que envolvem reconhecimento de padrões, análise de dados e síntese de informação serão impactadas primeiro. Mas novas ocupações surgirão: treinadores de IA, auditores de algoritmos, especialistas em ética de automação.</p>
@@ -11758,7 +11766,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <p>O ciclo de aprendizado tradicional — estudar por 20 anos, trabalhar por 40 — está se rompendo. A evolução da IA significa que habilidades aprendidas hoje podem ser obsoletas em poucos anos. A capacidade de reaprender continuamente se torna mais valiosa do que qualquer conjunto específico de conhecimentos técnicos.</p>
 
       <h2>Saúde: diagnóstico e tratamento personalizados</h2>
-      <p>A IA já está melhorando a precisão diagnóstica em áreas como radiologia e patologia. O próximo passo é a medicina de precisão: sistemas que combinam genética, histórico médico e dados de estilo de vida para recomendar tratamentos personalizados. IA também está acelerando a descoberta de medicamentos, processando milhões de compostos em semanas em vez de anos.</p>
+      <p>A IA já está melhorando a precisão diagnóstica em áreas como radiologia e patologia. O próximo passo é a <a href="/inteligencia-artificial/inteligencia-artificial-na-medicina">medicina de precisão</a>: sistemas que combinam genética, histórico médico e dados de estilo de vida para recomendar tratamentos personalizados. IA também está acelerando a descoberta de medicamentos, processando milhões de compostos em semanas em vez de anos.</p>
 
       <h2>Educação: tutors personalizados para todos</h2>
       <p>Imagine um sistema de ensino que adapta o conteúdo ao ritmo de cada estudante, identificando gaps de conhecimento e oferecendo explicações personalizadas. Isso não é ficção — já está em desenvolvimento. A IA pode democratizar o acesso a educação de qualidade, oferecendo personalização que seria impossível em uma sala de aula tradicional.</p>
@@ -11851,6 +11859,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Desk_setup.jpg?width=960',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'SuperBlobMonster',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Desk_setup.jpg',
+    imageAlt: 'Mesa de trabalho com notebook, monitor e periféricos sem fio em home office.',
     sources: [
       { title: 'Suporte para Notebook Aluminio Ajustavel Dobravel AlphaDomus - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B0CMN1XJWY', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Ergonomia - Wikipedia', url: 'https://pt.wikipedia.org/wiki/Ergonomia', type: 'other' },
@@ -11898,6 +11911,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ThinkPad_T43.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Bitmaster Helsinki',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:ThinkPad_T43.jpg',
+    imageAlt: 'Notebook clássico sobre mesa, ilustrando suporte e ergonomia.',
     sources: [
       { title: 'Suporte Notebook/Tablet Alumínio 6 Ângulos com Estojo - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B0F1C2GCK4', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Ergonomia - Wikipédia', url: 'https://pt.wikipedia.org/wiki/Ergonomia', type: 'other' },
@@ -11945,6 +11963,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/CM_Storm_Inferno_Gaming_Mouse.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Intel Free Press',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:CM_Storm_Inferno_Gaming_Mouse.jpg',
+    imageAlt: 'Mouse gamer com fio sobre fundo claro, exemplo de mouse para jogos.',
     sources: [
       { title: 'Mouse Pad Gamer Speed MPG-103 Grande Preto Fortrek - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B0BLXHT5Q9', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
@@ -11992,6 +12015,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Closeup_of_keys.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'John Snyder',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Closeup_of_keys.jpg',
+    imageAlt: 'Close-up de teclas de teclado, com mousepad e mouse ao lado na mesa.',
     sources: [
       { title: 'Mouse Pad Gamer Extra Grande 700x350 Exbom MP7035C Mapa Mundi - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B07YPT3S6Z', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
@@ -12039,6 +12067,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Razer_Naga_2014_MMO_Gaming_Mouse_(14714867599).jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Intel Free Press',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Razer_Naga_2014_MMO_Gaming_Mouse_(14714867599).jpg',
+    imageAlt: 'Mouse gamer com múltiplos botões laterais para jogos MMO.',
     sources: [
       { title: 'Mouse Pad Gamer Grande 70x35 Speed Exbom Guerreiro - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B07ZC5XXZ8', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
@@ -12067,13 +12100,13 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <h2>2. Áudio que informa</h2>
       <p>Headset ou fones com palco sonoro claro ajudam a localizar passos e recargas. Antes de comprar, defina se você prioriza competitivo (direcionalidade) ou imersão (graves e conforto).</p>
       <h2>3. Organização e ergonomia</h2>
-      <p>Suporte para notebook ou organizador de cabos reduz bagunça e melhora postura. Pequenos ajustes — monitor na altura dos olhos, punho apoiado — valem mais que RGB.</p>
+      <p><a href="/tecnologia/suporte-para-notebook-barato-ergonomia-gastando-pouco">Suporte para notebook</a> ou organizador de cabos reduz bagunça e melhora postura. Pequenos ajustes — monitor na altura dos olhos, punho apoiado — valem mais que RGB.</p>
       <h2>Erros comuns</h2>
       <p>Gastar tudo em um único periférico caro e manter o resto precário. Outro erro é comprar por estética sem medir mesa e sem testar sensibilidade: upgrade bom é o que se usa todo dia.</p>
       <h2>Quando faz sentido</h2>
       <p>O <strong>Mousepad Gamer Merak MPMM Medium 400x300 ELG</strong> se encaixa como o upgrade nº 1 para mesas compactas: tamanho médio prático, superfície pensada para jogo e acabamento que segura o pad no lugar.</p>
       <h2>Quando procurar outra opção</h2>
-      <p>Mesas largas com teclado full-size pedem modelos estendidos. E se o gargalo real é desempenho (travamentos, FPS baixo), priorize memória e armazenamento antes de periféricos.</p>
+      <p>Mesas largas com teclado full-size pedem modelos estendidos — o formato <a href="/games/mousepad-70x35-custo-beneficio-para-iniciantes">70x35 custo-benefício para iniciantes</a> é o ponto de partida. E se o gargalo real é desempenho (travamentos, FPS baixo), priorize memória e armazenamento antes de periféricos.</p>
       <p>Guias úteis: <a href="/games/mouse-pad-gamer-barato-vale-a-pena">mouse pad barato vale a pena?</a>, <a href="/games/mousepad-estendido-como-escolher">como escolher mousepad estendido</a> e <a href="/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo">controle para PC pelo estilo de jogo</a>.</p>
       <h2>Conclusão</h2>
       <p>Setup barato bom é setup equilibrado: superfície adequada, áudio claro e mesa organizada. Comece pelo mousepad certo para o seu espaço e evolua por prioridade de uso.</p>
@@ -12082,7 +12115,13 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     tags: ['setup gamer', 'setup barato', 'mousepad', 'upgrade'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
+    updatedAt: '2026-10-12',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gaming_PC_setup_with_RGB_lighting.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'hadirde (via Wikimedia Commons)',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Gaming_PC_setup_with_RGB_lighting.jpg',
+    imageAlt: 'Setup gamer com torre RGB, monitor, teclado e mouse sobre a mesa.',
     sources: [
       { title: 'Mousepad Gamer Merak MPMM Medium 400x300 ELG - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B0D9HTK2MK', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
@@ -12130,6 +12169,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Screen-python-code-matplotlib-physics-simulation.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'MikeRun',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Screen-python-code-matplotlib-physics-simulation.jpg',
+    imageAlt: 'Editor com código Python e gráfico matplotlib lado a lado na tela.',
     sources: [
       { title: 'Aprenda Python 3 do jeito certo - Zed Shaw - Amazon.com.br', url: 'https://www.amazon.com.br/dp/8550804738', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Python Docs - Tutorial oficial', url: 'https://docs.python.org/3/tutorial/', publisher: 'Python Software Foundation', type: 'documentation' },
@@ -12177,6 +12221,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Screen-python-code-matplotlib-physics-simulation.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'MikeRun',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Screen-python-code-matplotlib-physics-simulation.jpg',
+    imageAlt: 'Código Python em editor de texto com janela de gráfico ao lado.',
     sources: [
       { title: 'Introdução à Programação com Python 4ª ed. - Nilo Menezes - Amazon.com.br', url: 'https://www.amazon.com.br/dp/8575228862', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Python Docs - Tutorial oficial', url: 'https://docs.python.org/3/tutorial/', publisher: 'Python Software Foundation', type: 'documentation' },
@@ -12222,6 +12271,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Keyboard_Closeup_02_(203533165).jpeg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'John Snyder (via Wikimedia Commons)',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Keyboard_Closeup_02_(203533165).jpeg',
+    imageAlt: 'Teclas de teclado em close-up, ilustrando lógica e algoritmos.',
     sources: [
       { title: 'Algoritmos - Programação Para Iniciantes - Gilvan Vilarim - Amazon.com.br', url: 'https://www.amazon.com.br/dp/8539908352', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Khan Academy - Algoritmos', url: 'https://pt.khanacademy.org/computing/computer-science/algorithms', publisher: 'Khan Academy', type: 'other' },
@@ -12269,6 +12323,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Atari_Joystick.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'misocrazy',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Atari_Joystick.jpg',
+    imageAlt: 'Console Atari 2600 com joysticks clássicos, da história dos controles.',
     sources: [
       { title: 'Mouse Gamer Logitech G203 LIGHTSYNC RGB 8000 DPI - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B087CT8PWY', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'Mouse (computing) - Wikipedia', url: 'https://en.wikipedia.org/wiki/Computer_mouse', type: 'other' },
@@ -12315,6 +12374,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/HDMI.jpg?width=960',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'Alexey Goral',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:HDMI.jpg',
+    imageAlt: 'Conector HDMI em close-up, padrão de vídeo e áudio digital.',
     sources: [
       { title: 'PIX Cabo HDMI 2.0 4K HDR 1M Gold - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B076BYMKH9', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'HDMI - Wikipedia', url: 'https://en.wikipedia.org/wiki/HDMI', type: 'other' },
@@ -12362,6 +12426,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/USB_hub.jpg?width=960',
+    imageLicense: 'CC BY-SA 2.5',
+    imageArtist: 'Ds13 (Wikimedia Commons)',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:USB_hub.jpg',
+    imageAlt: 'Hub USB compacto para expandir portas do computador.',
     sources: [
       { title: 'TP-Link UH400 Hub USB 3.0 4 portas 5Gbps - Amazon.com.br', url: 'https://www.amazon.com.br/dp/B00V4BGD00', publisher: 'Amazon.com.br', type: 'company' },
       { title: 'USB - Wikipedia', url: 'https://en.wikipedia.org/wiki/USB', type: 'other' },
@@ -12422,6 +12491,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Neutrophil.jpg?width=960',
+    imageLicense: 'Public domain',
+    imageArtist: 'Tommaso Leonardi',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Neutrophil.jpg',
+    imageAlt: 'Neutrófilo em esfregaço de sangue sob microscópio, célula de defesa.',
     sources: [
       { title: 'Sistema imunológico - Wikipédia', url: 'https://pt.wikipedia.org/wiki/Sistema_imunit%C3%A1rio', type: 'other' },
       { title: 'Immune System Overview - National Institute of Allergy and Infectious Diseases', url: 'https://www.niaid.nih.gov/research/immune-system-overview', publisher: 'NIAID', type: 'university' },
@@ -12467,6 +12541,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Submarine_cables.png?width=960',
+    imageLicense: 'Public domain',
+    imageArtist: 'Rarelibra',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Submarine_cables.png',
+    imageAlt: 'Mapa de cabos submarinos de comunicação entre continentes.',
     sources: [
       { title: 'Internet - Wikipédia', url: 'https://pt.wikipedia.org/wiki/Internet', type: 'other' },
       { title: 'How Does the Internet Work? - Internet Society', url: 'https://www.internetsociety.org/internet/basics/', publisher: 'Internet Society', type: 'other' },
@@ -12496,7 +12575,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <p>Em 1998, ao observar supernovas distantes, astrônomos descobriram que a expansão do universo não está desacelerando pela gravidade — está <strong>acelerando</strong>. Algo precisa estar empurrando o espaço para fora. Esse algo foi batizado de energia escura, e acredita-se que esteja ligada à energia do próprio vácuo do espaço.</p>
 
       <h2>Por Que Isso Importa?</h2>
-      <p>Matéria e energia escura definem o destino do cosmos. Se a energia escura continuar dominando, o universo vai se expandir para sempre, esfriando até um estado frio e disperso. Entender sua natureza é, portanto, entender o futuro de tudo — um tema que se conecta às grandes questões sobre <a href="/espaco/ondas-gravitacionais-detectando-espaco-tempo">a estrutura do espaço-tempo</a>.</p>
+      <p>Matéria e energia escura definem o destino do cosmos. Se a energia escura continuar dominando, o universo vai se expandir para sempre, esfriando até um estado frio e disperso. Entender sua natureza é, portanto, entender o futuro de tudo — um tema que se conecta às grandes questões sobre <a href="/ciencia/ondas-gravitacionais-detectando-espaco-tempo">a estrutura do espaço-tempo</a>.</p>
 
       <h2>Como os Cientistas as Estudam?</h2>
       <p>Sem detectá-las diretamente, os pesquisadores usam telescópios e sondas para mapear seus efeitos. Missões como o Euclid (ESA) e o Telescópio Espacial Romano (NASA) fazem levantamentos de grandes áreas do céu para medir com precisão a expansão cósmica e a distribuição da matéria.</p>
@@ -12510,6 +12589,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Hubble_maps_dark_matter_web_in_a_large_galaxy_cluster_(heic0802b).jpg?width=960',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA, ESA e colaboração STAGES',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Hubble_maps_dark_matter_web_in_a_large_galaxy_cluster_(heic0802b).jpg',
+    imageAlt: 'Mapa de matéria escura no superaglomerado Abell 901/902 pelo Hubble.',
     sources: [
       { title: 'Matéria escura - Wikipédia', url: 'https://pt.wikipedia.org/wiki/Mat%C3%A9ria_escura', type: 'other' },
       { title: 'Dark Matter and Dark Energy - NASA Science', url: 'https://science.nasa.gov/universe/dark-matter-and-dark-energy/', publisher: 'NASA', type: 'university' },
@@ -12549,13 +12633,18 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       </ul>
 
       <h2>Cuidados Importantes</h2>
-      <p>Bons prompts não eliminam os limites dos modelos. Respostas podem conter erros factuais, vieses ou informações desatualizadas. Sempre verifique dados sensíveis, especialmente em saúde, direito e finanças. Dominar essa habilidade é cada vez mais relevante à medida que a <a href="/inteligencia-artificial/como-a-inteligencia-artificial-vai-mudar-nossa-vida-nas-proximas-decasadas">IA se integra ao dia a dia</a>.</p>
+      <p>Bons prompts não eliminam os limites dos modelos. Respostas podem conter erros factuais, vieses ou informações desatualizadas. Sempre verifique dados sensíveis, especialmente em saúde, direito e finanças. Dominar essa habilidade é cada vez mais relevante à medida que a <a href="/inteligencia-artificial/como-a-inteligencia-artificial-vai-mudar-nossa-vida-nas-proximas-decasadas">IA se integra ao dia a dia</a>. Para quem quer entender como esses modelos funcionam por baixo dos panos, o <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">guia de aprendizado de máquina explicado</a> mostra o fluxo real de treinamento — prever, medir o erro e ajustar pesos — sem jargão desnecessário.</p>
     `,
     category: { id: 'inteligencia-artificial', slug: 'inteligencia-artificial', name: 'Inteligência Artificial', description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA', color: '#ec4899' },
     tags: ['prompt engineering', 'IA', 'chatgpt', 'produtividade', 'LLM'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Prompt.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Prompt.jpg',
+    imageAlt: 'Imagem ilustrativa sobre comandos e prompts para IA.',
     sources: [
       { title: 'Prompt engineering - Wikipedia', url: 'https://en.wikipedia.org/wiki/Prompt_engineering', type: 'other' },
       { title: 'Prompt engineering guide', url: 'https://www.promptingguide.ai/', type: 'other' },
@@ -12604,6 +12693,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Video_game_console.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Video_game_console.jpg',
+    imageAlt: 'Console de videogame moderno, exemplo da indústria de jogos.',
     sources: [
       { title: 'Video game development - Wikipedia', url: 'https://en.wikipedia.org/wiki/Video_game_development', type: 'other' },
     ],
@@ -12651,6 +12745,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/2010_Motion_Capture_Suit.jpg?width=960',
+    imageLicense: 'CC0 1.0',
+    imageArtist: 'Mbrickn',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:2010_Motion_Capture_Suit.jpg',
+    imageAlt: 'Traje de captura de movimento em exposição, com marcadores pelo corpo.',
     sources: [
       { title: 'Motion capture - Wikipedia', url: 'https://en.wikipedia.org/wiki/Motion_capture', type: 'other' },
     ],
@@ -12693,6 +12792,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Comics.jpg?width=960',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'Tony Rigo',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Comics.jpg',
+    imageAlt: 'Balões de quadrinhos em exposição, arte sequencial em close-up.',
     sources: [
       { title: 'História em quadrinhos - Wikipédia', url: 'https://pt.wikipedia.org/wiki/Hist%C3%B3ria_em_quadrinhos', type: 'other' },
     ],
@@ -12730,6 +12834,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sky_blue.jpg?width=960',
+    imageLicense: 'CC0 1.0',
+    imageArtist: '20tituch',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Sky_blue.jpg',
+    imageAlt: 'Céu azul com nuvens brancas em dia de sol.',
     sources: [
       { title: 'Espalhamento de Rayleigh - Wikipédia', url: 'https://pt.wikipedia.org/wiki/Espalhamento_de_Rayleigh', type: 'other' },
     ],
@@ -12775,6 +12884,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 7,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mars_Valles_Marineris.jpeg?width=960',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA / USGS (Viking 1)',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris.jpeg',
+    imageAlt: 'Mosaico de Marte com o cânion Valles Marineris ao centro.',
     sources: [
       { title: 'Colonization of Mars - Wikipedia', url: 'https://en.wikipedia.org/wiki/Colonization_of_Mars', type: 'other' },
       { title: 'Mars Exploration - NASA', url: 'https://science.nasa.gov/mars/', publisher: 'NASA', type: 'university' },
@@ -12825,9 +12939,45 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 7,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Computer_motherboard.jpg?width=960',
+    imageLicense: 'CC0 1.0',
+    imageArtist: 'Kurt Kaiser',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Computer_motherboard.jpg',
+    imageAlt: 'Placa-mãe com circuitos e componentes, base da montagem de PC.',
     sources: [
       { title: 'Personal computer - Wikipedia', url: 'https://en.wikipedia.org/wiki/Personal_computer', type: 'other' },
     ],
+    // TASK 9 - links de afiliado REAIS da conta dizzritimia-20, reaproveitados
+    // literalmente (mesmos produtos) dos artigos 185 (placa de video) e 178
+    // (SSD), que este guia cita no Passo 2. Nenhum link novo foi gerado: a
+    // SiteStripe nao estava acessivel nesta sessao.
+    affiliate: {
+      products: [
+        {
+          label: 'Placa de vídeo GeForce RTX 5080 16GB GDDR7 (linha ASUS)',
+          category: 'placa-de-video-rtx-50',
+          amazonUrl: 'https://link.amazon/B03VQefAh',
+          reason:
+            'A placa de vídeo é o componente mais crítico do build (Passo 2) e o que mais define o resultado: se o alvo do Passo 1 é 4K em jogos exigentes, é nela que a maior parte do orçamento deve ir.'
+        },
+        {
+          label: 'Placa de vídeo GeForce RTX 5060 8GB Dual Fan (linha PNY)',
+          category: 'placa-de-video-rtx-50',
+          amazonUrl: 'https://link.amazon/B0bVOOrGS',
+          reason:
+            'Para o build de 1080p focado em esports — o cenário mais barato citado no Passo 1 — uma opção de entrada da geração RTX 50 entrega o essencial e sobra orçamento para processador, fonte e armazenamento.'
+        },
+        {
+          label: 'SSD SATA 480 GB',
+          category: 'armazenamento',
+          amazonUrl: 'https://link.amazon/B03mAh2an',
+          // Produto real (ASIN B03mAh2an): WD Green SATA 480GB, M.2 2280, SATA III 6 Gb/s.
+
+          reason:
+            'Armazenamento de entrada do Passo 2: um SATA de 480 GB já tira a máquina do disco rígido no boot e no carregamento, e custa menos que um NVMe — deixando mais espaço no orçamento para a placa de vídeo, que importa mais no jogo.'
+        },
+      ]
+    }
   },
   {
     id: '233',
@@ -12876,6 +13026,11 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-10-08',
     readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/TV_set.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Star61',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:TV_set.jpg',
+    imageAlt: 'Televisor em ambiente doméstico, tela para conteúdo em HDR.',
     sources: [
       { title: 'High dynamic range - Wikipedia', url: 'https://en.wikipedia.org/wiki/High_dynamic_range', type: 'other' },
     ],
@@ -12892,7 +13047,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     <p>A corrida para Marte já não é só história de ficção científica. A NASA, a SpaceX e uma coalizão de agências espaciais internacionais anunciaram cronogramas concretos para a década de 2030, com viagens diretas, estação lunar e, em último termo, bases persistentes no Planeta Vermelho. Mas a distância não é a única barreira: a radiação, a gravidade parcial, a logística de vida e o retorno foram os ganchos que definem o que é tecnicamente viável hoje.</p>
 
     <h2>A NASA e a Artemis: o Portão para Marte</h2>
-    <p>O programa Artemis da NASA estabeleceu um cronograma de duas décadas para retornar a laços humanos à Lua, com uma porta de embarque crítica para Marte. O objetivo não é sustentar uma estação fixa na Lua, mas sim testar a vida de longa duração, os sistemas de trânsito de regolito, o habitação de pressão e a navegação em gravidade fraca antes de se chegar aos destinos mais distantes.</p>
+    <p>O <a href="/espaco/artemis-caminho-de-volta-a-lua">programa Artemis da NASA</a> estabeleceu um cronograma de duas décadas para retornar a laços humanos à Lua, com uma porta de embarque crítica para Marte. O objetivo não é sustentar uma estação fixa na Lua, mas sim testar a vida de longa duração, os sistemas de trânsito de regolito, o habitação de pressão e a navegação em gravidade fraca antes de se chegar aos destinos mais distantes.</p>
 
     <h2>SpaceX e a Falcon Heavy e a Starship</h2>
     <p>A Starship da SpaceX foi projetada para carregar enormes cargas e colocar uma estrutura reutilizável de alto volume em órbita baixa da Terra, a Lua e, eventualmente, Marte. O objetivo é transformar a viagem em uma operação de rotina, algo com que o setor ainda não tem precedente. A logística envolve separar a frotas de lançamento, a capacidade de retorno espacial da Terra e a infraestrutura de apoio no destino.</p>
@@ -12932,7 +13087,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     content: `
 
       <h2>O Instrumeto que enxerga o Início</h2>
-      <p>O James Webb Space Telescope (JWST) transformou a astrofísica ao observar a luz do universo no infravermelho, permitindo ver objetos que eram invisíveis para telescópios anteriores. A capacidade de detectar luas frias, nuvens protetais e galáxias primordiais está redefinindo a cronologia do universo.</p>
+      <p>O <a href="/espaco/telescopio-espacial-james-webb">James Webb Space Telescope (JWST)</a> transformou a astrofísica ao observar a luz do universo no infravermelho, permitindo ver objetos que eram invisíveis para telescópios anteriores. A capacidade de detectar luas frias, nuvens protetais e galáxias primordiais está redefinindo a cronologia do universo.</p>
 
       <h2>O que os Dados Mostram</h2>
       <p>Dados recentes indicam que a formação de estrelas começou mais cedo do que se pensava, com aglomerados que ainda não tinham nascido — e, em alguns casos, já com acúmulo de metálicos nas atmosferas, o que sugere que a produção de elementos pesados começou muito antes.</p>
@@ -12971,7 +13126,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     content: `
 
       <h2>O Que É a Gateway</h2>
-      <p>A Gateway é a pequena estação espacial internacional que a NASA e seus parceiros planejam montar na órbita da Lua. Diferente da Estação Espacial Internacional, ela não terá tripulação permanente: foi pensada como um ponto de apoio para as missões Artemis, onde astronautas fazem escala, transferem mantimentos e preparam a descida à superfície lunar.</p>
+      <p>A Gateway é a pequena estação espacial internacional que a NASA e seus parceiros planejam montar na órbita da Lua. Diferente da Estação Espacial Internacional, ela não terá tripulação permanente: foi pensada como um ponto de apoio para as <a href="/espaco/artemis-caminho-de-volta-a-lua">missões Artemis</a>, onde astronautas fazem escala, transferem mantimentos e preparam a descida à superfície lunar.</p>
 
       <h2>Os Primeiros Módulos: PPE e HALO</h2>
       <p>Os dois primeiros elementos são o Power and Propulsion Element (PPE), que fornece energia solar e propulsão elétrica, e o Habitation and Logistics Outpost (HALO), com espaço para a tripulação viver e trabalhar por curtos períodos. Os dois serão lançados juntos e acoplados antes de seguir para a órbita lunar, em um voo contratado junto à SpaceX.</p>
@@ -13062,7 +13217,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <p>Voar sem pousar é uma decisão de engenharia: cada sistema precisa provar que funciona com gente a bordo antes de tentar a descida. O escudo térmico da Orion, o maior já construído, enfrenta na volta uma reentrada a mais de 2.700 graus, e os dados desse teste valem mais do que qualquer simulação.</p>
 
       <h2>O Que Vem Depois</h2>
-      <p>Com a Artemis II validada, o próximo passo é a Artemis III, que prevê o pouso de dois astronautas perto do polo sul lunar, onde pode haver água congelada. A estação Gateway, em construção na órbita da Lua, servirá de base para essas idas e vindas — e de trampolim para as futuras missões tripuladas a Marte.</p>
+      <p>Com a Artemis II validada, o próximo passo é a Artemis III, que prevê o pouso de dois astronautas perto do polo sul lunar, onde pode haver água congelada. A <a href="/espaco/gateway-estacao-lunar-orbita-lua">estação Gateway</a>, em construção na órbita da Lua, servirá de base para essas idas e vindas — e de trampolim para as futuras missões tripuladas a Marte.</p>
     
     `,
     category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
@@ -13095,7 +13250,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <p>A Hera foi lançada em 7 de outubro de 2024 e deve chegar ao sistema Didymos no fim de 2026. Didymos tem cerca de 780 metros de diâmetro e sua lua Dimorphos, cerca de 150 metros — o menor asteroide que a humanidade já visitou de perto. A sonda, do tamanho de uma van, vai manobrar com autonomia de navegação para mapear os dois corpos em detalhe.</p>
 
       <h2>A Investigação da Cena do Impacto</h2>
-      <p>Com câmeras de alta resolução, laser e rádio, a Hera vai medir a massa de Dimorphos, a nova órbita após o impacto e a forma exata da cratera deixada pela DART. Esses números definem a eficiência da transferência de momento — a medida que diz quanta energia do impacto realmente virou desvio — e transformam o teste numérico em técnica repetível de defesa planetária.</p>
+      <p>Com câmeras de alta resolução, laser e rádio, a Hera vai medir a massa de Dimorphos, a nova órbita após o impacto e a forma exata da cratera deixada pela DART. Esses números definem a eficiência da transferência de momento — a medida que diz quanta energia do impacto realmente virou desvio — e transformam o teste numérico em <a href="/espaco/como-saber-se-um-asteroide-vai-atingir-a-terra">técnica repetível de defesa planetária</a>.</p>
 
       <h2>Os Drones Que Vão Pousar</h2>
       <p>A Hera leva dois CubeSats, Milani e Juventas, os primeiros da ESA a operar além da órbita da Terra. Eles voam como drones, mais perto e com mais risco que a nave-mãe: um analisa a composição mineral, o outro faz a primeira sondagem por radar dentro de um asteroide. No fim, ambos pousam em Dimorphos e enviam dados do toque na superfície.</p>
@@ -13351,7 +13506,7 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       <h2>O Mistério de Vênus</h2>
       <p>Vênus tem estrutura e tamanho semelhantes aos da Terra, mas sua atmosfera espessa prende o calor em um efeito estufa descontrolado, tornando-o o planeta mais quente do Sistema Solar. A pergunta que move as novas missões é direta: Vênus já foi úmido e habitável, como a Terra, e o que deu errado? A resposta ajuda a definir o que torna um planeta habitável — e a reconhecer sinais de alerta em exoplanetas distantes.</p>
       <h2>Um Retorno Depois de Marte</h2>
-      <p>A exploração robótica da NASA se concentrou fortemente em Marte nas últimas décadas, enquanto Vênus ficou relativamente negligenciado desde o fim da era das missões Magellan, que mapearam o planeta por radar nos anos 1990. Segundo a própria NASA, VERITAS e DAVINCI serão as primeiras espaçonaves americanas desde essa época a explorar o vizinho da Terra.</p>
+      <p>A exploração robótica da NASA se concentrou fortemente em <a href="/espaco/viagens-humanas-a-marte-2030">Marte</a> nas últimas décadas, enquanto Vênus ficou relativamente negligenciado desde o fim da era das missões Magellan, que mapearam o planeta por radar nos anos 1990. Segundo a própria NASA, VERITAS e DAVINCI serão as primeiras espaçonaves americanas desde essa época a explorar o vizinho da Terra.</p>
       <h2>VERITAS: Mapeando a Superfície em 3D</h2>
       <p>A missão VERITAS (Venus Emissivity, Radio Science, InSAR, Topography and Spectroscopy) é um orbitador movido a energia solar com muitas semelhanças com a nave MAVEN, que orbita Marte desde 2014. Ao chegar a Vênus, usará aerofrenagem para reduzir a velocidade e ajustar a órbita, estabilizando-se em uma órbita quase polar a 250 milhas (400 quilômetros) de altitude. A missão é liderada pela investigadora principal Suzanne Smrekar e gerida pelo JPL da NASA, com contribuições importantes das agências espaciais da Itália, Alemanha e França.</p>
       <p>Entre as "primeiras vezes" que a NASA atribui à missão estão: criar as primeiras imagens topográficas e de radar globais de alta resolução de Vênus; mapear regiões onde processos geológicos estão ativamente mudando a superfície; produzir o primeiro mapa quase global da composição das rochas; e fazer a primeira determinação da composição do núcleo do planeta — e de se ele é sólido ou líquido.</p>
@@ -13573,6 +13728,393 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
       { title: 'The Robot Report — BMW Group deploys Figure 03 humanoid after tests with previous version (29/06/2026)', url: 'https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/', type: 'news' },
       { title: 'Figure AI — página de notícias e anúncios oficiais (Figure 03)', url: 'https://www.figure.ai/news', type: 'company' },
       { title: 'BMW Group PressClub — comunicados sobre robótica humanoide', url: 'https://www.press.bmwgroup.com/global', type: 'company' },
+    ]
+  },
+  {
+    id: '252',
+    slug: 'tgo-2026-guia-como-assistir-cs2-valorant-lol',
+    title: 'TGO 2026: Guia de Como Assistir CS2, Valorant e LoL Sem Perder Nada',
+    excerpt: 'CS2, Valorant e LoL dominam o calendário de esports em 2026. Entenda os formatos, onde assistir de graça e como acompanhar sem se perder nas fases.',
+    content: `
+      <h2>Por Que 2026 É um Bom Ano Para Começar a Assistir</h2>
+      <p>Três jogos concentram a maior parte da audiência competitiva no PC: Counter-Strike 2 (CS2), Valorant e League of Legends (LoL). Cada um tem um circuito próprio, com ligas regionais que levam a torneios internacionais. A boa notícia é que quase tudo tem transmissão gratuita e oficial em português, no Twitch e no YouTube.</p>
+      <h2>CS2: Majors e o Circuito Aberto</h2>
+      <p>O CS2 organiza a temporada em torno dos Majors, os mundiais do jogo, além de ligas como a ESL Pro League e a BLAST Premier. O formato típico alterna fase de grupos e mata-mata em melhor de três mapas. Para quem está começando, o ideal é entrar direto nos playoffs de um Major: são os jogos com maior nível e melhor narração, e o regulamento aparece resumido na própria transmissão. A cobertura oficial inclui o <a href="https://www.hltv.org/events">calendário de eventos do HLTV</a>, e a Valve mantém as <a href="https://www.counter-strike.net/news">notícias oficiais do Counter-Strike</a>.</p>
+      <h2>Valorant: Franquias e Champions</h2>
+      <p>O Valorant usa ligas de franquias — VCT Americas, EMEA, Pacific e China — que classificam para o Masters e o Champions, o mundial do jogo. O formato de cada mapa é ataque contra defesa com 13 pontos para vencer, o que torna as partidas fáceis de entender mesmo sem conhecer todos os agentes. A Riot transmite tudo nos <a href="https://www.youtube.com/@valorantesports">canais oficiais do VCT</a>, com replays organizados por partida.</p>
+      <h2>LoL: Ligas Regionais e o Worlds</h2>
+      <p>League of Legends tem o ecossistema mais antigo: ligas regionais fortes alimentam o MSI no meio do ano e o Worlds no fim da temporada. O jogo dura em geral de 25 a 40 minutos, com draft de campeões antes de cada partida. O ponto de partida oficial é o <a href="https://lolesports.com/">portal LoL Esports</a>.</p>
+      <h2>Onde Assistir de Graça</h2>
+      <p>As três modalidades têm transmissões oficiais gratuitas no Twitch e no YouTube, com canais em português. Evite sites piratas que pedem cadastro ou instalam extensões: além do risco de segurança, eles costumam ter atraso maior e qualidade inferior.</p>
+      <h2>Dicas Para Não Se Perder</h2>
+      <p>Escolha um torneio em andamento e acompanhe do início ao fim em vez de pular entre ligas. Para aprofundar o vocabulário de cada jogo, o glossário de <a href="/games/cloud-gaming-esports-latencia-competitivo-2026">latência e jogo competitivo</a> ajuda a entender por que cada milissegundo importa. E se a dúvida for técnica, o guia de <a href="/games/quanto-de-ram-um-pc-gamer-precisa">quanta RAM um PC gamer precisa</a> mostra o que realmente pesa na hora de jogar.</p>
+      <h2>Conclusão</h2>
+      <p>Comece pelo mundial da modalidade que mais te atrai, assista aos playoffs com narração em português e use os replays oficiais para rever o que não entendeu.</p>
+`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['esports', 'CS2', 'Valorant', 'League of Legends', 'onde assistir'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/2/24/Evo_2017_Street_Fighter_V_grand_finals.jpg',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'NeoChaosX',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Evo_2017_Street_Fighter_V_grand_finals.jpg',
+    imageAlt: 'Palco da final de torneio de jogos de luta em arena de esports lotada.',
+    sources: [
+      { title: 'HLTV — calendário de eventos de CS2', url: 'https://www.hltv.org/events', type: 'documentation' },
+      { title: 'Valve — notícias oficiais do Counter-Strike', url: 'https://www.counter-strike.net/news', type: 'official' },
+      { title: 'Riot Games — canal oficial do VCT no YouTube', url: 'https://www.youtube.com/@valorantesports', type: 'official' },
+      { title: 'LoL Esports — cronograma oficial das regiões e torneios', url: 'https://lolesports.com/schedule', type: 'official' },
+    ]
+  },
+  {
+    id: '253',
+    slug: 'switch-2-modo-mao-vs-dock-guia-configuracoes',
+    title: 'Switch 2 no Modo Portátil ou na Dock? Guia de Configurações Para Cada Caso',
+    excerpt: 'O Switch 2 se comporta de forma diferente no modo portátil e na dock. Veja o que muda de verdade e como ajustar brilho, som e bateria para cada situação.',
+    content: `
+      <h2>O Que Realmente Muda Entre os Modos</h2>
+      <p>O Nintendo Switch 2 ajusta resolução e desempenho conforme o modo: na dock ligada à TV, o console tem mais energia e refrigeração disponíveis; no modo portátil, ele equilibra desempenho e consumo de bateria. A Nintendo documenta as especificações na <a href="https://www.nintendo.com/successor/pt-br/index.html">página oficial do Switch 2</a>.</p>
+      <h2>Modo Portátil: Bateria e Conforto</h2>
+      <p>Fora da dock, três ajustes fazem a maior diferença: brilho da tela, volume e modo avião. Reduzir o brilho para o nível confortável mínimo estende a sessão de forma perceptível. Ativar o modo avião quando o jogo não usa rede evita que o Wi-Fi consuma bateria à toa.</p>
+      <h2>Na Dock: TV e Som</h2>
+      <p>Na TV, confira se a entrada HDMI selecionada é a do console e se o modo de imagem da TV não está adicionando atraso (o modo Jogo costuma ser o correto). Para jogos que exigem reação rápida, a diferença entre jogar na TV e no portátil aparece mais no atraso da tela do que nos gráficos — o conceito é o mesmo explicado no guia de <a href="/games/cloud-gaming-esports-latencia-competitivo-2026">latência no jogo competitivo</a>. Se você precisa de um cabo HDMI novo ou mais longo, o <a href="/tecnologia/cabo-hdmi-barato-como-escolher-sem-cair-em-golpe">guia de escolha de cabo HDMI</a> mostra como evitar cabos baratos que não suportam as taxas de atualização que o Switch 2 exige.</p>
+      <h2>Rede: Quando o Cabo Faz Diferença</h2>
+      <p>A dock oficial tem porta para cabo de rede. Em partidas online, a conexão cabeada é mais estável que o Wi-Fi. O passo a passo de diagnóstico está no guia de <a href="/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva">Wi-Fi lento e escolha de roteador</a>.</p>
+      <h2>Armazenamento e Cartuchos</h2>
+      <p>Jogos digitais ocupam espaço interno ou cartão de expansão; cartuchos físicos liberam esse espaço, mas exigem troca manual. Vale conferir os lançamentos recentes do <a href="https://www.nintendo.com/pt-br/ofertas-e-novidades/nintendo-direct/">Nintendo Direct</a> antes de decidir a próxima compra.</p>
+      <h2>Conclusão</h2>
+      <p>Use a dock com cabo de rede e modo Jogo na TV para sessões sérias, e ajuste brilho e Wi-Fi no portátil para estender a bateria.</p>
+`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['Nintendo Switch 2', 'modo portátil', 'dock', 'configurações', 'guia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/8/88/Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'Evan-Amos',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg',
+    imageAlt: 'Console Nintendo Switch com controles Joy-Con acoplados em modo portátil.',
+    sources: [
+      { title: 'Nintendo — página oficial do Nintendo Switch 2', url: 'https://www.nintendo.com/successor/pt-br/index.html', type: 'official' },
+      { title: 'Nintendo — Nintendo Direct (novidades oficiais)', url: 'https://www.nintendo.com/pt-br/ofertas-e-novidades/nintendo-direct/', type: 'official' },
+    ],
+    // TASK 9 (pendente) - guia do Switch 2 sem bloco de afiliados: nenhum link
+    // oficial da conta dizzritimia-20 para console, dock ou cartao de expansao
+    // disponivel localmente e SiteStripe inacessivel nesta sessao. Nenhum ASIN
+    // foi deduzido; o bloco entra quando o proprietario fornecer o link.
+  },
+  {
+    id: '254',
+    slug: 'jogos-curtos-para-zerar-no-fim-de-semana-lista',
+    title: '8 Jogos Curtos Para Zerar em um Fim de Semana (4 a 10 Horas Cada)',
+    excerpt: 'Sem tempo para RPGs de 100 horas? Lista com jogos curtos e completos, de 4 a 10 horas, perfeitos para começar na sexta e terminar no domingo.',
+    content: `
+      <h2>Por Que Jogos Curtos Valem a Pena</h2>
+      <p>Nem todo jogo precisa de 100 horas. Títulos de 4 a 10 horas entregam história fechada, mecânicas enxutas e aquela sensação de dever cumprido no domingo à noite. A lista prioriza jogos com duração confirmada pela comunidade no <a href="https://howlongtobeat.com/">HowLongToBeat</a>.</p>
+      <h2>Os 8 Escolhidos</h2>
+      <p><strong>1. Portal (4-5h):</strong> o quebra-cabeça em primeira pessoa da Valve que virou aula de design.</p>
+      <p><strong>2. Journey (2-3h):</strong> aventura visual sobre travessia e cooperação silenciosa, sem uma linha de diálogo.</p>
+      <p><strong>3. Celeste (8-10h na história):</strong> plataforma preciso com história sensível sobre ansiedade e opções de acessibilidade exemplares — tema que o portal já cobriu em <a href="/games/acessibilidade-games-jogadores-deficiencia">acessibilidade nos games</a>.</p>
+      <p><strong>4. Inside (3-4h):</strong> plataforma cinematográfico e sombrio. Conta tudo sem dizer quase nada.</p>
+      <p><strong>5. Firewatch (4-5h):</strong> mistério em primeira pessoa numa torre de vigia florestal.</p>
+      <p><strong>6. What Remains of Edith Finch (2-3h):</strong> cada capítulo reinventa a jogabilidade.</p>
+      <p><strong>7. Titanfall 2 — campanha (5-6h):</strong> a melhor campanha de tiro da geração passada.</p>
+      <p><strong>8. A Short Hike (1-2h):</strong> exploração relaxante numa ilha, no seu ritmo.</p>
+      <h2>Como Escolher o Seu</h2>
+      <p>Quer história? Firewatch ou Edith Finch. Quer desafio? Celeste. Quer algo leve? A Short Hike ou Journey. Todos rodam em PCs modestos — se a dúvida for hardware, o guia de <a href="/games/como-montar-um-pc-gamer">como montar um PC gamer</a> mostra o essencial. E o processo de criação desses jogos aparece em <a href="/games/como-os-jogos-sao-feitos">como os jogos são feitos</a>.</p>
+      <h2>Conclusão</h2>
+      <p>Escolha um, jogue sem pressa e termine. Zerar um jogo curto no fim de semana rende mais satisfação do que abandonar mais um mundo aberto gigante na metade.</p>
+`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['jogos curtos', 'indie', 'fim de semana', 'lista', 'recomendação'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'Evan-Amos',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Game-Boy-FL.jpg',
+    imageAlt: 'Portátil clássico Game Boy, símbolo dos jogos curtos e diretos.',
+    sources: [
+      { title: 'HowLongToBeat — durações médias de jogos', url: 'https://howlongtobeat.com/', type: 'documentation' },
+    ]
+  },
+  {
+    id: '255',
+    slug: 'controles-alternativos-acessibilidade-jogar-sem-controle-tradicional',
+    title: 'Controles Alternativos: Como Jogar Sem um Controle Tradicional',
+    excerpt: 'Controles adaptáveis, remapeamento de botões e comandos de voz abriram os games para quem não usa o controle padrão. Veja as opções que existem hoje.',
+    content: `
+      <h2>Jogar Sem o Controle Padrão É Possível</h2>
+      <p>Milhões de pessoas jogam sem usar um controle convencional: por limitação motora, lesão temporária ou preferência. A indústria respondeu com hardware adaptável e recursos de software. O portal já tratou do panorama em <a href="/games/acessibilidade-games-jogadores-deficiencia">acessibilidade nos games</a>; aqui o foco é prático.</p>
+      <h2>Xbox Adaptive Controller</h2>
+      <p>O <a href="https://www.xbox.com/pt-BR/accessories/adaptive-controller">Xbox Adaptive Controller</a> é um hub com botões grandes programáveis e entradas para interruptores externos — cada jogador monta a configuração que o corpo permite. Funciona no Xbox e no PC.</p>
+      <h2>PlayStation Access e PC</h2>
+      <p>A Sony oferece o <a href="https://www.playstation.com/pt-br/accessories/access-controller/">controle Access para PS5</a>, com botões intercambiáveis e perfis personalizáveis. No PC, o Steam Input permite remapear qualquer controle em nível de sistema.</p>
+      <h2>Recursos de Software Que Ajudam Todo Mundo</h2>
+      <p>Remapeamento completo de botões, legendas ampliadas, câmera automática e dificuldade ajustável beneficiam qualquer jogador. A organização <a href="https://specialeffect.org.uk/">SpecialEffect</a> documenta casos reais e empresta equipamentos adaptados.</p>
+      <h2>Por Onde Começar</h2>
+      <p>Liste o que te impede hoje: alcançar botões, segurar o controle, reagir rápido? Teste primeiro o remapeamento dentro do próprio jogo — muitos títulos já resolvem sem hardware novo. Se você precisa de um controle com layout diferente por causa do estilo de jogo (FPS vs RPG vs corrida), o <a href="/games/controle-para-pc-como-escolher-pelo-estilo-de-jogo">guia de escolha de controle para PC</a> mostra como encontrar o modelo que se adapta ao seu estilo sem pagar por recursos que você não vai usar.</p>
+      <h2>Configurações Por Tipo de Necessidade</h2><p>Para quem usa apenas uma das mãos, o ideal é concentrar movimento e ações nos botões acessíveis de um lado, com o outro lado assumido por pedais ou interruptores. Para baixa força muscular, botões grandes e sensibilidade alta reduzem o esforço. Para limitações de visão, o foco vai para áudio direcional e indicadores sonoros — recursos que muitos jogos já oferecem nas opções de acessibilidade. Testar cada ajuste por alguns dias antes de comprar hardware novo evita gasto desnecessário.</p><h2>Conclusão</h2>
+      <p>Controle alternativo não é trapaça nem atalho: é a configuração certa para cada corpo.</p>
+`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['acessibilidade', 'controles adaptáveis', 'inclusão', 'hardware', 'guia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/8/82/NES-Console-Set.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'Evan-Amos',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:NES-Console-Set.jpg',
+    imageAlt: 'Console clássico com controle retangular simples, contraste com controles adaptáveis modernos.',
+    sources: [
+      { title: 'Xbox — Adaptive Controller (página oficial)', url: 'https://www.xbox.com/pt-BR/accessories/adaptive-controller', type: 'official' },
+      { title: 'PlayStation — controle Access (página oficial)', url: 'https://www.playstation.com/pt-br/accessories/access-controller/', type: 'official' },
+      { title: 'SpecialEffect — missão de inclusão e controle adaptativo de jogos', url: 'https://specialeffect.org.uk/what-we-do/', type: 'other' },
+    ]
+  },
+  {
+    id: '256',
+    slug: 'fps-caindo-como-descobrir-gargalo-pc-gamer',
+    title: 'FPS Caindo? Como Descobrir o Gargalo do Seu PC Gamer em 15 Minutos',
+    excerpt: 'Queda de FPS nem sempre é placa de vídeo fraca. Aprenda a monitorar CPU, GPU, RAM e temperatura para descobrir o gargalo em 15 minutos.',
+    content: `
+      <h2>O Erro Mais Comum: Culpar a Placa de Vídeo</h2>
+      <p>Quando o FPS cai, a maioria assume que precisa de GPU nova. Mas travamentos podem vir de CPU sobrecarregada, memória cheia, disco lento ou temperatura alta. Diagnosticar antes de comprar economiza dinheiro.</p>
+      <h2>Passo 1: Monitore Durante o Jogo</h2>
+      <p>Use o MSI Afterburner com RivaTuner, o overlay da Steam ou o monitor de desempenho do Windows (Win+G) para exibir: uso de GPU, uso de CPU por núcleo, uso de RAM e temperaturas. Jogue 10 minutos numa cena pesada e observe. O guia oficial de <a href="https://support.microsoft.com/pt-br/windows">suporte do Windows</a> documenta as ferramentas do sistema.</p>
+      <h2>Passo 2: Interprete os Números</h2>
+      <p><strong>GPU em 95-100% e CPU folgada:</strong> gargalo na placa de vídeo — reduza resolução ou sombras. <strong>CPU em 100% e GPU ociosa:</strong> gargalo no processador — reduza distância de visão e densidade de NPCs. <strong>RAM acima de 90%:</strong> o sistema usa disco como memória; o guia de <a href="/games/quanto-de-ram-um-pc-gamer-precisa">quanta RAM um PC gamer precisa</a> mostra quando expandir.</p>
+      <h2>Passo 3: Temperatura e Disco</h2>
+      <p>CPU ou GPU acima de 90°C ativam proteção térmica que derruba o desempenho — limpeza de poeira resolve na maioria dos casos. Engasgos ao carregar fases apontam para armazenamento: veja o comparativo de <a href="/tecnologia/ssd-nvme-vs-sata-como-escolher-armazenamento">SSD NVMe vs SATA</a>. Para panorama completo, veja <a href="/games/como-montar-um-pc-gamer">como montar um PC gamer</a> e <a href="/games/como-escolher-placa-de-video-para-pc-gamer">como escolher placa de vídeo</a>.</p>
+      <h2>Quando Vale Fazer Upgrade</h2>
+      <p>Só considere comprar peça nova depois do diagnóstico: upgrade no componente errado não resolve e custa caro. Se o diagnóstico apontar para a placa de vídeo como gargalo, o <a href="/games/como-escolher-placa-de-video-para-pc-gamer">guia de escolha de placa de vídeo</a> mostra como equilibrar faixa de preço com a resolução do seu monitor. Se for memória, o <a href="/games/quanto-de-ram-um-pc-gamer-precisa">guia de RAM para PC gamer</a> ajuda a dimensionar sem comprar além do necessário.</p>
+      <h2>Conclusão</h2>
+      <p>Monitore, identifique o componente no limite e ajuste configurações antes de gastar. Na maioria dos casos, o FPS volta sem comprar nada.</p>
+`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['FPS', 'gargalo', 'PC gamer', 'diagnóstico', 'upgrade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/6/69/IBM_PC_5150.jpg',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'Evan-Amos (via Wikimedia Commons)',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:IBM_PC_5150.jpg',
+    imageAlt: 'Computador pessoal clássico com monitor, ilustrando a evolução do hardware de PC.',
+    sources: [
+      { title: 'Microsoft — suporte oficial do Windows', url: 'https://support.microsoft.com/pt-br/windows', type: 'official' },
+    ]
+  },
+  {
+    id: '257',
+    slug: 'wifi-6-vs-wifi-7-vale-a-pena-trocar-roteador',
+    title: 'Wi-Fi 6 vs Wi-Fi 7: Vale a Pena Trocar de Roteador em 2026?',
+    excerpt: 'O Wi-Fi 7 promete mais velocidade e menos latência, mas nem toda casa precisa dele. Compare os padrões e descubra quando a troca faz sentido.',
+    content: `
+      <h2>O Que Cada Padrão Entrega</h2>
+      <p>O Wi-Fi 6 (802.11ax) melhorou a eficiência em casas com muitos aparelhos; o Wi-Fi 6E somou a faixa de 6 GHz; o Wi-Fi 7 (802.11be) amplia os canais e reduz a latência. Na prática, o salto do Wi-Fi 5 para o 6 foi o mais sentido; do 6 para o 7, o ganho aparece em cenários exigentes. Especificações oficiais no <a href="https://www.wi-fi.org/discover-wi-fi">Wi-Fi Alliance</a>.</p>
+      <h2>Quando o Wi-Fi 7 Faz Diferença Real</h2>
+      <p>Três cenários justificam a troca: jogos online competitivos, realidade virtual sem fio e casas com dezenas de dispositivos em streaming 4K. Fora isso, um bom Wi-Fi 6 bem posicionado atende com folga. Diagnóstico em <a href="/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva">Wi-Fi lento e escolha de roteador</a>.</p>
+      <h2>O Que Verificar Antes de Comprar</h2>
+      <p>Confira se seus aparelhos suportam Wi-Fi 7 — sem clientes compatíveis, o roteador novo opera no padrão antigo. Verifique também se sua internet contratada justifica o padrão maior. E atenção ao cabeamento: o guia de <a href="/tecnologia/usb-c-thunderbolt-hubs-como-funcionam">USB-C, Thunderbolt e hubs</a> mostra como gargalos aparecem nos detalhes.</p>
+      <h2>Alternativas Mais Baratas</h2>
+      <p>Reposicionar o roteador, trocar o canal congestionado e adicionar ponto de acesso cabeado ou mesh resolvem a maioria dos problemas sem trocar o padrão.</p>
+      <h2>Comparativo Direto: Velocidade, Latência e Capacidade</h2><p>O Wi-Fi 6 entrega velocidade teórica de até 9,6 Gbps; o Wi-Fi 7 chega a 46 Gbps no papel. Na vida real, ambos ficam limitados pelo link contratado e pelas paredes da casa. Onde o Wi-Fi 7 realmente se destaca é na operação multi-link (MLO), que usa duas bandas ao mesmo tempo para contornar interferência, e em canais de 320 MHz, que dobram a largura disponível. Para streaming 4K em dois aparelhos e home office, o Wi-Fi 6 resolve. Para casa com realidade virtual sem fio, dezenas de dispositivos IoT e jogos competitivos simultâneos, o Wi-Fi 7 mostra serviço.</p><h2>Conclusão</h2>
+      <p>Troque para Wi-Fi 7 se tem aparelhos compatíveis e cenário exigente. Para o resto, otimize o Wi-Fi 6 — o ganho é maior e o custo é zero.</p>
+`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['Wi-Fi 7', 'Wi-Fi 6', 'roteador', 'rede doméstica', 'guia de compra'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Internet_map_1024.jpg',
+    imageLicense: 'CC BY 2.5',
+    imageArtist: 'The Opte Project',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Internet_map_1024.jpg',
+    imageAlt: 'Mapa visual das conexões da internet, ilustrando a rede doméstica e global.',
+    sources: [
+      { title: 'Wi-Fi Alliance — descubra o Wi-Fi (padrões oficiais)', url: 'https://www.wi-fi.org/discover-wi-fi', type: 'official' },
+    ],
+    affiliate: {
+      products: [
+        {
+          label: 'Roteador Mesh Wi-Fi 6 (ex.: linha Halo AX1500)',
+          category: 'rede',
+          amazonUrl: 'https://link.amazon/B0gn5Jhob',
+          reason:
+            'Para aplicar o diagnóstico deste guia — cobertura versus capacidade, bandas simultâneas e padrão Wi-Fi 6 — confira esta opção de roteador mesh e veja se ela resolve o seu caso (sinal longe ou muitos dispositivos) antes de decidir.'
+        },
+      ]
+    }
+  },
+  {
+    id: '258',
+    slug: 'raspberry-pi-5-o-que-da-pra-fazer-mini-pc-barato',
+    title: 'Raspberry Pi: O Que Dá Para Fazer com um Mini PC Barato em 2026',
+    excerpt: 'Media center, servidor de arquivos, automação e programação: projetos reais que rodam bem no Raspberry Pi e o que ele não faz.',
+    content: `
+      <h2>O Que o Raspberry Pi É (e Não É)</h2>
+      <p>O Raspberry Pi é um computador completo do tamanho de um cartão, com CPU ARM e consumo de poucos watts. Roda desktop Linux e projetos dedicados com folga — mas não substitui um PC gamer. Documentação oficial em <a href="https://www.raspberrypi.com/documentation/">raspberrypi.com/documentation</a>.</p>
+      <h2>5 Projetos Que Valem a Pena</h2>
+      <p><strong>1. Media center:</strong> com Kodi ou Plex, vira central de filmes na TV.</p>
+      <p><strong>2. Servidor de arquivos:</strong> com HD externo, centraliza fotos e documentos da casa.</p>
+      <p><strong>3. Bloqueador de anúncios:</strong> o Pi-hole filtra propaganda para todos os aparelhos.</p>
+      <p><strong>4. Automação residencial:</strong> o Home Assistant integra lâmpadas, sensores e rotinas.</p>
+      <p><strong>5. Aprender programação:</strong> ambiente real e barato. Combina com <a href="/tecnologia/aprenda-python-3-do-jeito-certo-por-onde-comecar">Python do jeito certo</a> e <a href="/tecnologia/algoritmos-para-iniciantes-o-que-aprender-primeiro">algoritmos para iniciantes</a>.</p>
+      <h2>O Que Comprar Junto</h2>
+      <p>Fonte oficial, cartão microSD de qualidade (ou <a href="/tecnologia/ssd-nvme-vs-sata-como-escolher-armazenamento">SSD USB</a>) e case com ventilação. Teclado, mouse e monitor HDMI comuns funcionam. Se você precisa de um cabo HDMI novo ou mais longo, o <a href="/tecnologia/cabo-hdmi-barato-como-escolher-sem-cair-em-golpe">guia de escolha de cabo HDMI</a> mostra como evitar cabos baratos que não suportam a resolução que o monitor entrega.</p>
+      <h2>Limites Reais</h2>
+      <p>Não espere jogos modernos ou edição 4K. Projetos com dados sensíveis pedem os cuidados de <a href="/tecnologia/ciberseguranca-para-iniciantes">cibersegurança para iniciantes</a>. Contexto em <a href="/tecnologia/como-a-internet-funciona">como a internet funciona</a>.</p>
+      <h2>Passo a Passo do Primeiro Projeto</h2><p>Para o media center, grave o sistema no cartão com o Raspberry Pi Imager, conecte o Pi à TV por HDMI, ligue o HD externo e instale o Kodi pelo gerenciador de pacotes. Para o Pi-hole, a instalação é um único script oficial, e o painel web mostra em tempo real quantos anúncios foram bloqueados por aparelho. Para automação, instale o Home Assistant, conecte os primeiros dispositivos pelo aplicativo e crie uma rotina simples — acender a luz ao pôr do sol é o clássico primeiro teste. Cada projeto tem comunidade ativa com tutoriais em português.</p><h2>Conclusão</h2>
+      <p>Como media center, servidor doméstico ou laboratório de aprendizado, o Pi entrega muito por pouco.</p>
+`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['Raspberry Pi', 'mini PC', 'automação', 'media center', 'faça você mesmo'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    updatedAt: '2026-10-12',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Raspberry_Pi_4_Model_B_-_Top.jpg',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Laserlicht',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Raspberry_Pi_4_Model_B_-_Top.jpg',
+    imageAlt: 'Placa Raspberry Pi vista de cima, com processador e conexões à mostra.',
+    sources: [
+      { title: 'Raspberry Pi — documentação oficial', url: 'https://www.raspberrypi.com/documentation/', type: 'official' },
+    ]
+  },
+  {
+    id: '259',
+    slug: 'celular-esquentando-bateria-acabando-rapido-diagnostico',
+    title: 'Celular Esquentando e Bateria Acabando Rápido? Diagnóstico em 10 Minutos',
+    excerpt: 'Aquecimento e bateria fraca têm causas identificáveis: app gastão, sinal fraco, bateria degradada. Diagnóstico em 10 minutos.',
+    content: `
+      <h2>Quando se Preocupar de Verdade</h2>
+      <p>Calor moderado em jogos, GPS ou carregamento rápido é normal. Alerta é aquecer em repouso, desligar sozinho com carga ou inchar a tampa — neste caso pare de usar e procure assistência.</p>
+      <h2>Passo 1: Ache o App Gastão</h2>
+      <p>Abra os ajustes de bateria (Android e iOS mostram consumo por app em 24h). Um app desproporcional no topo é o suspeito. Limite a atividade em segundo plano dele e observe por um dia.</p>
+      <h2>Passo 2: Sinal Fraco Drena Bateria</h2>
+      <p>Com sinal fraco, o celular aumenta a potência do rádio — e esquenta. Ative Wi-Fi onde houver rede e modo avião sem cobertura. Conceitos em <a href="/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva">Wi-Fi lento</a>.</p>
+      <h2>Passo 3: Saúde da Bateria</h2>
+      <p>Capacidade máxima abaixo de 80% explica autonomia curta. Evite calor prolongado e prefira cargas parciais. A química é a mesma das baterias cuja origem contamos em <a href="/tecnologia/bateria-ion-litio-origem-premio-nobel">a história da bateria de íon-lítio</a>.</p>
+      <h2>Passo 4: Limpeza Sem App Milagroso</h2>
+      <p>Dispense apps de limpeza: o sistema gerencia memória sozinho. Atualize o sistema, remova apps abandonados e reinicie. Segurança geral em <a href="/tecnologia/ciberseguranca-para-iniciantes">cibersegurança para iniciantes</a>. Se o problema é falta de portas para carregar enquanto usa outros acessórios, o <a href="/tecnologia/hub-usb-barato-como-expandir-as-portas-gastando-pouco">guia de hub USB barato</a> mostra como expandir sem perder velocidade.</p>
+      <h2>Calibragem e Quando Trocar a Bateria</h2><p>Se o percentual pula de 30% para desligado, a bateria pode estar descalibrada ou degradada: faça um ciclo completo de carga com o aparelho em repouso e observe. Capacidade máxima persistentemente baixa com uso leve indica desgaste químico — normal após 2 a 3 anos de uso intenso. Na troca, prefira assistência autorizada ou técnica de confiança com bateria de procedência: baterias paralelas de origem duvidosa podem inchar e danificar o aparelho. Faça backup antes de qualquer serviço.</p><h2>Conclusão</h2>
+      <p>App gastão, sinal fraco ou bateria degradada: nessa ordem. A correção costuma ser gratuita.</p>
+`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['celular', 'bateria', 'aquecimento', 'diagnóstico', 'manutenção'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Atari_2600.jpg',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Milad Mosapoor',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Atari_2600.jpg',
+    imageAlt: 'Aparelho eletrônico clássico, ilustrando hardware, consumo e aquecimento.',
+    sources: [
+      { title: 'Apple — informações sobre bateria e desempenho do iPhone', url: 'https://www.apple.com/br/batteries/why-lithium-ion/', type: 'official' },
+      { title: 'Google — ajuda sobre bateria do Android', url: 'https://support.google.com/android/answer/7664692?hl=pt-BR', type: 'official' },
+    ]
+  },
+  {
+    id: '260',
+    slug: 'ia-no-celular-o-que-roda-no-aparelho-vs-nuvem',
+    title: 'IA no Celular: O Que Roda no Aparelho e o Que Vai Para a Nuvem',
+    excerpt: 'Resumo de notificações, tradução ao vivo e foto com IA: parte roda no chip, parte na nuvem. Entenda a diferença e o impacto na privacidade.',
+    content: `
+      <h2>Nem Toda IA do Celular É Igual</h2>
+      <p>Resumo de notificações, tradução ao vivo e foto com IA: parte roda no chip (no aparelho), parte em servidores (nuvem). A divisão importa por velocidade, funcionamento offline e privacidade.</p>
+      <h2>O Que Costuma Rodar no Aparelho</h2>
+      <p>Desbloqueio facial, ditado offline, correção de foto básica e organização da galeria rodam nos chips atuais com aceleradores de IA. A Apple documenta no <a href="https://www.apple.com/br/apple-intelligence/">Apple Intelligence</a>; o Google na página do <a href="https://blog.google/products/gemini/">Gemini</a>.</p>
+      <h2>O Que Vai Para a Nuvem</h2>
+      <p>Resumos complexos, geração de imagem e texto longos e assistentes com contexto amplo vão para servidores. O preço é a dependência de conexão e o envio de dados. Pano de fundo regulatório em <a href="/inteligencia-artificial/ai-act-regras-modelos-uso-geral-2026">AI Act e modelos de uso geral</a>.</p>
+      <h2>Como Decidir na Prática</h2>
+      <p>Prefira o modo local para dados sensíveis e aceite a nuvem quando precisar de qualidade máxima. Para dominar os assistentes, o guia de <a href="/inteligencia-artificial/como-escrever-bons-prompts-de-ia">bons prompts de IA</a> ensina a pedir melhor.</p>
+      <h2>Exemplos Concretos Por Tarefa</h2><p>Apagador mágico de objetos em fotos, legendas automáticas offline e desbloqueio facial rodam no aparelho. Já a geração de imagens a partir de texto, resumos longos de documentos e conversas com memória extensa sobem para a nuvem. A regra prática: se funciona no modo avião, é local; se exige internet, é nuvem. Verifique nas configurações de cada assistente quais recursos usam processamento online e desative o histórico de conversas se preferir não armazenar interações.</p><h2>Conclusão</h2>
+      <p>Sensível e simples fica no aparelho; complexo e pesado vai para a nuvem.</p>
+`,
+    category: { id: 'inteligencia-artificial', slug: 'inteligencia-artificial', name: 'Inteligência Artificial', description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA', color: '#ec4899' },
+    tags: ['IA no celular', 'NPU', 'privacidade', 'Apple Intelligence', 'Gemini'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/b/be/Deep_Blue.jpg',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'James the photographer',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg',
+    imageAlt: 'Supercomputador Deep Blue, marco histórico da inteligência artificial que antecedeu a IA nos celulares.',
+    sources: [
+      { title: 'Apple — Apple Intelligence (página oficial)', url: 'https://www.apple.com/br/apple-intelligence/', type: 'official' },
+      { title: 'Google — blog oficial do Gemini', url: 'https://blog.google/products/gemini/', type: 'official' },
+    ]
+  },
+  {
+    id: '261',
+    slug: 'sondas-voyager-1-2-onde-estao-2026',
+    title: 'Voyager 1 e 2: Onde Estão as Sondas Mais Distantes da Humanidade',
+    excerpt: 'Lançadas em 1977, as Voyagers seguem transmitindo do espaço interestelar. Onde estão, o que medem e até quando duram.',
+    content: `
+      <h2>As Viajantes Mais Longevas da História</h2>
+      <p>Voyager 1 e 2 foram lançadas em 1977 para um tour pelos planetas gigantes — e nunca mais pararam. Hoje estão no espaço interestelar, a mais de 15 bilhões de quilômetros da Terra. A NASA mantém a missão em <a href="https://science.nasa.gov/mission/voyager/">science.nasa.gov/mission/voyager</a>.</p>
+      <h2>Onde Estão Agora</h2>
+      <p>A Voyager 1 segue na direção de Ofiúco, a mais de 160 unidades astronômicas do Sol; a Voyager 2 vai para Pavo. Os sinais levam cerca de 23 horas para chegar. A posição em tempo real está no <a href="https://eyes.nasa.gov/apps/solar-system/">Eyes on the Solar System</a>.</p>
+      <h2>O Que Ainda Medem</h2>
+      <p>Com poucos instrumentos ligados, medem plasma interestelar, raios cósmicos e campo magnético além da heliosfera. Cada desligamento é planejado: os geradores perdem potência a cada ano.</p>
+      <h2>Até Quando Duram</h2>
+      <p>A expectativa é manter ao menos um instrumento ativo até o início da década de 2030. Depois seguirão silenciosas com o Disco de Ouro. Contexto em <a href="/espaco/materia-escura-e-energia-escura">matéria e energia escuras</a>.</p>
+      <h2>O Grand Tour e as Descobertas Pelo Caminho</h2><p>O plano original aproveitou um alinhamento raro dos planetas externos: a Voyager 1 visitou Júpiter e Saturno, revelando vulcões ativos em Io e a estrutura dos anéis de Saturno; a Voyager 2 foi além, a única sonda a visitar Urano e Netuno, descobrindo gêiseres em Tritão e medindo os ventos mais rápidos do Sistema Solar. Cada sobrevoo usou a gravidade dos planetas como impulso, técnica que definiu a navegação interplanetária moderna.</p><h2>Conclusão</h2>
+      <p>Duas sondas dos anos 1970 ainda fazem ciência inédita do outro lado da bolha solar.</p>
+`,
+    category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astronomia, NASA, planetas, estrelas e missões espaciais', color: '#f59e0b' },
+    tags: ['Voyager', 'NASA', 'espaço interestelar', 'sondas', 'exploração espacial'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Apollo_11_launch.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Apollo_11_launch.jpg',
+    imageAlt: 'Foguete Saturno V decolando com a Apollo 11, marco da exploração espacial que abriu caminho às sondas Voyager.',
+    sources: [
+      { title: 'NASA — missão Voyager (página oficial)', url: 'https://science.nasa.gov/mission/voyager/', type: 'official' },
+      { title: 'NASA Eyes — posição das sondas em tempo real', url: 'https://eyes.nasa.gov/apps/solar-system/', type: 'official' },
+    ]
+  },
+  {
+    id: '262',
+    slug: 'tardigrados-animais-quase-indestrutiveis-ciencia',
+    title: 'Tardígrados: Os Animais Quase Indestrutíveis (e o Que a Ciência Aprendeu)',
+    excerpt: 'Sobrevivem ao vácuo do espaço, à radiação e a décadas sem água. Conheça os tardígrados e as descobertas reais que renderam.',
+    content: `
+      <h2>Quem São os Tardígrados</h2>
+      <p>Tardígrados são micro-animais de menos de 1 milímetro, com oito patas — os ursos-d'água. Vivem em musgos, lagos e oceanos. A resistência extrema é documentada em revisões indexadas no <a href="https://www.ncbi.nlm.nih.gov/pmc/?term=tardigrade+cryptobiosis+review">NCBI/PMC</a>.</p>
+      <h2>O Estado de Barril</h2>
+      <p>Em condições ruins, entra em criptobiose: encolhe num barril, expulsa a água e suspende o metabolismo. Suporta vácuo, radiação e temperaturas extremas. Ao reidratar, retoma a vida — há retorno após décadas dessecado.</p>
+      <h2>Feitos Comprovados</h2>
+      <p>Em 2007, sobreviveram ao espaço aberto em órbita. Proteínas como a Dsup protegem o DNA — pesquisadas para vacinas e culturas resistentes. Não são imortais: no estado ativo, são vulneráveis; a fama vem do estado dessecado.</p>
+      <h2>O Que Eles Ensinam</h2>
+      <p>A criptobiose ajuda a entender os limites da vida, com implicações para buscar vida fora da Terra. Mesmo espírito de <a href="/curiosidades/ameba-de-fogo-sobrevive-70-graus">a ameba de 70 graus</a> e <a href="/espaco/materia-escura-e-energia-escura">os mistérios do universo</a>.</p>
+      <h2>Como os Cientistas os Estudam</h2><p>Pesquisadores desidratam tardígrados em laboratório, expõem os barris a radiação, vácuo e produtos químicos, depois reidratam e contam quantos retomam a atividade. O sequenciamento genético revelou proteínas exclusivas que protegem o DNA e formam géis dentro das células, substituindo a água. Experimentos com essas proteínas em células humanas cultivadas mostraram maior resistência à radiação — passo inicial, ainda distante de qualquer aplicação médica, mas promissor para biotecnologia.</p><h2>Mitos Que Precisam Cair</h2><p>Tardígrados não sobrevivem a tudo: calor extremo prolongado no estado ativo os mata, assim como muitos produtos químicos em contato direto. Também não são os únicos extremófilos — bactérias de fontes termais e arqueias suportam condições ainda mais severas. A fama vem da combinação rara de resistência em um animal com sistema nervoso e digestivo, não de invencibilidade absoluta.</p><h2>Conclusão</h2>
+      <p>Pequenos e quase indestrutíveis: cada truque dos tardígrados vira inspiração para a biotecnologia.</p>
+`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['tardígrados', 'extremófilos', 'biologia', 'curiosidades', 'ciência'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-11',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/ENIAC.jpg',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Laanderman',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:ENIAC.jpg',
+    imageAlt: 'Equipamento histórico de grande porte; artigo trata dos tardígrados, micro-animais extremófilos.',
+    sources: [
+      { title: 'NCBI/PMC — revisões científicas sobre tardígrados', url: 'https://www.ncbi.nlm.nih.gov/pmc/?term=tardigrade+cryptobiosis+review', type: 'scientific' },
     ]
   }
 ];
