@@ -9386,12 +9386,12 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Em uso geral — abrir o navegador com dezenas de abas, editar vídeo, usar máquina virtual — o salto é imediato e constante. Carregar modelos de IA também depende disso: o <a href="/inteligencia-artificial/hardware-para-ia-local-como-rodar-modelos-em-casa">armazenamento faz parte do hardware necessário para rodar modelos em casa</a>. O disco deixa de ser o gargalo.</p>
 
       <h2>NVMe Gen4 ou Gen5?</h2>
-      <p>As gerações seguem o padrão PCI Express. <strong>Gen3</strong> e <strong>Gen4</strong> são os mais-finding no consumidor: um SSD Gen4 funciona bem em uma máquina que só tem Gen3, apenas rodando mais devagar.</p>
+      <p>As gerações seguem o padrão PCI Express. <strong>Gen3</strong> e <strong>Gen4</strong> são as mais comuns no consumidor: um SSD Gen4 funciona bem em uma máquina que só tem Gen3, apenas rodando mais devagar.</p>
       <p><strong>Gen5</strong> entrega o dobro da largura de banda, mas traz dois alertas práticos: <em>calor</em> — muitos modelos exigem dissipador próprio para não sofrer limitação térmica — e <em>preço</em> por gigabytes ainda alto em relação ao Gen4. A PCIe 5.0 só faz sentido se a placa-mãe oferecer o barramento e se o uso for profissional, como edição de vídeo em alta resolução ou conjuntos de dados grandes.</p>
 
       <h2>Formato: M.2 ou 2,5 polegadas?</h2>
       <p>Não confunda formato com protocolo. <strong>M.2</strong> é o formato físico (uma lâmina pequena que encaixa direto na placa-mãe) e <strong>2,5 polegadas</strong> é o formato tradicional, do tamanho de um disco de 3,5 polegadas. Existem SSDs M.2 SATA e SSDs M.2 NVMe; a notação costuma vir explícita na embalagem ou na própria lista da placa-mãe.</p>
-      <p>Antes de comprar qualquer M.2, confira no manual da placa-mãe quantos slots existem e se suportam NVMe. Muitos modeloscompactos trazem apenas um slot, e ele pode ser somente SATA.</p>
+      <p>Antes de comprar qualquer M.2, confira no manual da placa-mãe quantos slots existem e se suportam NVMe. Muitos modelos compactos trazem apenas um slot, e ele pode ser somente SATA.</p>
 
       <h2>Como Escolher na Prática</h2>
       <ul>
@@ -9401,6 +9401,15 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         <li><strong>Orçamento apertado:</strong> um SATA de 1 TB continua sendo um ganho enorme em relação a disco rígido, e cabe em muitos notebooks antigos.</li>
       </ul>
       <p>Dois detalhes finais que costumam passar batido: <strong>habilite AHCI no setup</strong> se o sistema não reconhecer o NVMe, e confira se a <strong>capacidade real</strong> do sistema operacional aparece menor que a do disco — isso é normal em discos grandes em partições antigas.</p>
+
+      <h2>Velocidade Não é o Único Critério</h2>
+      <p>Escolhido o protocolo, quatro critérios decidem entre os modelos restantes — e nenhum deles é a velocidade máxima da embalagem:</p>
+      <ul>
+        <li><strong>Capacidade:</strong> 1 TB é o ponto de partida razoável para sistema operacional e jogos. Mídia bruta e projetos crescem rápido: dimensionar com folga desde o início evita comprar o mesmo disco de novo em um ano.</li>
+        <li><strong>Durabilidade:</strong> SSDs têm vida de escrita limitada — os fabricantes informam o total de terabytes que o disco é projetado para gravar. Maior capacidade costuma significar maior folga de escrita.</li>
+        <li><strong>Garantia:</strong> o prazo de garantia é um termômetro direto da confiança do fabricante no próprio produto. Diferença de garantia entre modelos de preço parecido é informação relevante.</li>
+        <li><strong>Custo por GB:</strong> dividir o preço pela capacidade mostra qual modelo entrega mais espaço pelo mesmo dinheiro — a comparação que realmente desempata quando velocidade e geração são parecidas.</li>
+      </ul>
 
       <h2>Conclusão</h2>
       <p>A pergunta "NVMe ou SATA?" tem resposta curta quando o orçamento permite: NVMe. A pergunta melhor é "quanto de armazenamento eu preciso e o que minha máquina suporta?". Definir isso evita comprar o disco mais rápido do que a placa é capaz de aproveitar — o que acontece com frequência em máquinas de meia-vida.</p>
@@ -9415,6 +9424,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['SSD', 'NVMe', 'armazenamento', 'hardware', 'PC'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-28',
+    updatedAt: '2026-10-12',
     readingTime: 9,
     featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20980%20PRO%20PCIe%204.0%20NVMe%20SSD%201TB-top%20PNr%C2%B00915.jpg?width=960',
     imageAlt: 'Placa de armazenamento SSD NVMe em formato M.2 vista de cima sobre fundo claro',
@@ -9828,9 +9838,28 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
         <li>Verifique se o cabo que chega do provedor é <strong>Categoria 5e ou superior</strong> — cabo antigo estrangula a velocidade do plano.</li>
       </ul>
 
-      <h2>Malha ou Roteador Único?</h2>
+      <h2>Roteador Único, Mesh ou Repetidor?</h2>
       <p>Se o problema é <em>cobertura</em> — cômodo longe sem sinal — a solução é <strong>sistema mesh</strong>: vários pontos distribuídos pela casa que se comunicam entre si sem fio. Se o problema é <em>capacidade</em> — todos os dispositivos competem por banda — um roteador mais novo já resolve.</p>
-      <p>Identificar qual dos dois é o seu caso evita comprar o equipamento errado.</p>
+      <p>Cada solução resolve um problema diferente e tem um limite claro:</p>
+      <table>
+        <thead>
+          <tr><th>Solução</th><th>Melhor para</th><th>Limitação</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Roteador único</td><td>Casa compacta, poucos dispositivos, uso concentrado perto do equipamento</td><td>Perde sinal conforme a distância e as paredes aumentam</td></tr>
+          <tr><td>Sistema mesh</td><td>Casas grandes, dois andares, cômodos distantes do ponto de entrada</td><td>Custo maior: são vários pontos coordenados, não um</td></tr>
+          <tr><td>Repetidor</td><td>Cobertura pontual para um cômodo específico, com orçamento apertado</td><td>Repete o sinal sem fio: reduz a banda útil e aumenta a latência — costuma piorar a experiência em vez de melhorar</td></tr>
+        </tbody>
+      </table>
+      <p>Identificar qual dos três é o seu caso evita comprar o equipamento errado.</p>
+
+      <h2>Quando o Equipamento Novo Não Resolve</h2>
+      <p>Trocar de roteador não corrige tudo. Antes de comprar, elimine três causas que se parecem com problema de Wi-Fi, mas não são:</p>
+      <ul>
+        <li><strong>O plano é lento mesmo por cabo:</strong> meça a velocidade com o computador conectado por cabo de rede. Se o resultado já está abaixo do contratado, o problema é do provedor — não do seu equipamento.</li>
+        <li><strong>O dispositivo é antigo:</strong> um celular ou notebook de vários anos atrás é limitado pelo próprio Wi-Fi que possui. Nenhum roteador novo acelera um dispositivo que não acompanha o padrão — a comparação entre gerações está em <a href="/tecnologia/wifi-6-vs-wifi-7-vale-a-pena-trocar-roteador">Wi-Fi 6 vs Wi-Fi 7</a>.</li>
+        <li><strong>Quedas sempre no mesmo horário:</strong> se a internet cai ou despenca em horários fixos (ex.: à noite), o sintoma aponta para congestionamento da rede do provedor, não para o roteador da sua casa.</li>
+      </ul>
 
       <h2>Conclusão</h2>
       <p>Internet lenta em casa raramente é problema de provedor: é problema de distribuição. Antes de trocar de plano, faça o diagnóstico básico — cabo, posicionamento e padrão do equipamento. Se o roteador tiver Wi-Fi 5 ou mais antigo, trocar por um modelo Wi-Fi 6 de banda dupla costuma ser a mudança com melhor relação entre custo e benefício. E se a casa for grande, o problema não é o roteador: é a cobertura.</p>
@@ -9845,6 +9874,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     tags: ['Wi-Fi', 'roteador', 'rede', 'tecnologia'],
     author: { id: '1', name: 'Equipe NexoraComic' },
     publishedAt: '2026-09-28',
+    updatedAt: '2026-10-12',
     readingTime: 10,
     featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20Wi-Fi%20ROUTER%20TUF%206500.jpg?width=960',
     imageAlt: 'Roteador Wi-Fi de mesa em formato de caixa preta com antenas',
@@ -9966,7 +9996,7 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <ul>
         <li><strong>Resolução-alvo:</strong> jogar em 1080p, 1440p ou 4K muda a exigência da placa de forma drástica. A mesma placa que roda 144 Hz em 1080p pode ter dificuldade em 4K.</li>
         <li><strong>Memória de vídeo:</strong> é o limite de resolução, texturas e ray tracing que a placa suporta. Abaixo de 6 GB, jogos atuais começam a mostrar.</li>
-        <li><strong>Ray tracing:</strong> renderiza iluminação e reflexos reais. É bonito e pesado; ter ou não é decisão de hardware — e entender <a href="/games/como-escolher-placa-de-video-para-pc-gamer">como escolher a placa de vídeo certa</a> evita pagar caro por recursos que você não usa., não de preferência.</li>
+        <li><strong>Ray tracing:</strong> renderiza iluminação e reflexos reais. É bonito e pesado; ter ou não é decisão de hardware — e entender <a href="/games/o-que-e-ray-tracing">o que o ray tracing realmente exige</a> evita pagar caro por recursos que você não usa.</li>
         <li><strong>Upscaling de IA:</strong> reduz a resolução interna e reconstrói a imagem. É o que permite usar uma placa de geração anterior em títulos novos com desempenho razoável.</li>
       </ul>
       <p>Perceba que desempenho bruto é apenas um dos fatores. Uma placa da geração anterior com upscaling de IA bem implementado pode entregar uma melhor experiência do que uma placa cara com recursos que você não usa.</p>
@@ -9992,12 +10022,22 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
       <p>Tecnologias como o DLSS, da NVIDIA, e o FSR, da AMD e de parceiros, renderizam o jogo em resolução menor e usam aprendizado de máquina para reconstruir a imagem. Em muitos títulos, isso entrega mais quadros do que uma placa mais cara, com perda visual pequena.</p>
       <p>Isso muda a lógica de comparação: em vez de escolher "a placa mais rápida do mercado", vale escolher "a placa que entrega desempenho suficiente com upscaling ativado". Em muitos casos, essa placa custa menos e entrega uma experiência melhor do que a alternativa cara com ray tracing desligado.</p>
 
-      <h2>Como Não Errar</h2>
+      <h2>Compatibilidade: o Que Verificar Antes de Clicar em Comprar</h2>
+      <p>Uma placa pode ser a ideal no papel e ainda assim não servir no seu computador. Três verificações físicas evitam a devolução:</p>
       <ul>
-        <li>Não compre pelo desempenho absoluto: compre pelo desempenho <em>na sua resolução</em>.</li>
-        <li>Verifique a memória de vídeo antes de qualquer comparação.</li>
-        <li>Confira se o sistema tem fonte de alimentação e cooler suficientes para a placa escolhida.</li>
-        <li>Considere a obsolescência: uma placa intermediária atual dura mais do que uma de topo de linha de geração passada.</li>
+        <li><strong>Fonte e conectores:</strong> cada placa exige uma alimentação específica (conectores PCIe de 6, 8 ou 12 vias). Confira a potência da sua fonte e os conectores disponíveis no manual — placa nova em fonte antiga é a incompatibilidade mais cara de se descobrir depois da compra.</li>
+        <li><strong>Gabinete:</strong> o comprimento da placa precisa caber no seu gabinete. Modelos com três ventoinhas frequentemente não cabem em gabinete compacto — meça antes.</li>
+        <li><strong>Processador:</strong> uma placa muito acima do processador é desperdício: o CPU limita a taxa de quadros antes da GPU. Se o seu processador é antigo, vale descobrir primeiro <a href="/games/fps-caindo-como-descobrir-gargalo-pc-gamer">onde está o gargalo do seu PC</a> — pode ser que o upgrade certo nem seja a placa.</li>
+      </ul>
+
+      <h2>Checklist Final Antes da Compra</h2>
+      <ul>
+        <li><strong>Resolução definida:</strong> a placa foi avaliada <em>na sua resolução</em>, não pelo desempenho absoluto em testes de terceiros.</li>
+        <li><strong>Memória de vídeo:</strong> a capacidade atende aos jogos que você joga hoje — e não apenas ao preço.</li>
+        <li><strong>Compatibilidade física:</strong> o comprimento cabe no gabinete e a fonte tem potência e conectores exigidos.</li>
+        <li><strong>Par de processador:</strong> o CPU não é um gargalo evidente para a faixa de quadros que você espera.</li>
+        <li><strong>Comparação entre gerações:</strong> você comparou modelos de gerações diferentes com upscaling ativado, em vez de comprar pela numeração do modelo.</li>
+        <li><strong>Obsolescência:</strong> uma placa intermediária atual costuma durar mais que uma de topo de linha de geração passada.</li>
       </ul>
 
       <h2>Conclusão</h2>

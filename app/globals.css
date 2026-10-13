@@ -189,6 +189,30 @@ html {
   padding: 0;
 }
 
+/* Tabelas comparativas dentro dos artigos */
+.prose table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid var(--border);
+  padding: 0.625rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+  color: #d4d4d8;
+}
+
+.prose thead th {
+  background: var(--secondary);
+  color: var(--foreground);
+  font-weight: 600;
+}
+
 /* Line clamp utilities */
 .line-clamp-2 {
   display: -webkit-box;
