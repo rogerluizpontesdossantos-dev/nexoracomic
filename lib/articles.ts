@@ -14156,5 +14156,323 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     sources: [
       { title: 'NCBI/PMC — revisões científicas sobre tardígrados', url: 'https://www.ncbi.nlm.nih.gov/pmc/?term=tardigrade+cryptobiosis+review', type: 'scientific' },
     ]
+  },
+
+  // TAREFA 62 — tres artigos evergreen preparados localmente:
+  //   jogos-travando-no-pc-ajustes | mini-pc-vs-desktop | curso-ia-vs-estudar-sozinho
+  {
+    id: '263',
+    slug: 'jogos-travando-no-pc-ajustes',
+    title: 'Jogos Travando no PC: 6 Ajustes Antes de Comprar Peças Novas',
+    excerpt: 'Queda de FPS, travamento e engasgamento raramente pedem placa de vídeo nova. Meça CPU, GPU, RAM e disco, aplique seis ajustes gratuitos e só compre upgrade quando os números apontarem gargalo.',
+    content: `
+      <p>Jogos travando no PC quase sempre gera a mesma reação: culpar a placa de vídeo e abrir a aba de compras. Antes de gastar dinheiro, vale usar o que o próprio Windows oferece de graça — medir o que está em 100% no momento do travamento. Em muitos casos o problema é configuração, programa em segundo plano, disco cheio ou driver desatualizado. Este artigo mostra como diagnosticar quedas de FPS e travamentos e apresenta seis ajustes práticos para aplicar antes de comprar peças novas.</p>
+
+      <h2>Meça Antes de Concluir: O Que o PC Já Conta</h2>
+      <p>Abra o Gerenciador de Tarefas com <strong>Ctrl + Shift + Esc</strong> e observe a aba <strong>Desempenho</strong> enquanto o jogo roda — jogar em janela sem borda ajuda a ver tudo sem trocar de tela. A mesma tela mostra CPU, Memória, Disco e GPU em tempo real, e a aba <strong>Processos</strong> revela o que está consumindo cada recurso. Para detalhe por arquivo e por rede, o Monitor de Recursos (<code>resmon</code>) é a versão mais completa do mesmo diagnóstico.</p>
+      <ul>
+        <li><strong>CPU:</strong> utilização perto de 100% com um ou dois núcleos saturados significa que o processamento está limitando os frames.</li>
+        <li><strong>Memória:</strong> uso constantemente alto, somado ao consumo do arquivo de paginação, indica que a RAM acabou.</li>
+        <li><strong>Disco:</strong> 100% de uso durante a partida, com travamentos de carregamento, aponta para armazenamento — o cenário clássico de HD mecânico.</li>
+        <li><strong>GPU:</strong> na aba GPU, a coluna <em>Renderizador 3D</em> perto de 100% com a CPU folgada indica limitação gráfica. Esses dados existem no Gerenciador de Tarefas desde o Windows 10 e dependem de driver de vídeo compatível com o modelo WDDM 2.0 ou superior — se a aba GPU não aparecer, atualize o driver.</li>
+      </ul>
+
+      <h3>Como Medir o FPS Sem Instalar Nada</h3>
+      <p>Pressione <strong>Win + G</strong> para abrir o Xbox Game Bar: o contador de FPS faz parte do painel de desempenho desde a atualização de outubro de 2019, e o painel também permite escolher quais recursos ficam visíveis. Anote o FPS em três momentos — cena leve, cena pesada e o instante do travamento — para ter uma linha de base antes de mudar qualquer coisa.</p>
+
+      <h3>Leitura Rápida dos Sinais</h3>
+      <ul>
+        <li><strong>GPU perto de 100% e CPU folgada:</strong> gargalo gráfico; a placa de vídeo é o limite real.</li>
+        <li><strong>CPU saturada e GPU ocupando boa parte do tempo abaixo do máximo:</strong> gargalo de processamento.</li>
+        <li><strong>Memória no limite:</strong> falta de RAM, não de placa de vídeo.</li>
+        <li><strong>Disco a 100%:</strong> armazenamento segurando o jogo, mesmo com CPU e GPU sobrando.</li>
+        <li><strong>FPS estáveis no início e em queda progressiva:</strong> suspeite de temperatura — é o assunto do ajuste 5.</li>
+      </ul>
+
+      <h2>Seis Ajustes Antes de Comprar Peças Novas</h2>
+
+      <h3>1. Atualize Windows, driver de vídeo e o próprio jogo</h3>
+      <p>Correções de desempenho e de estabilidade chegam por três vias. No Windows, vá em <strong>Configurações &gt; Windows Update</strong> e confira também as <strong>opções avançadas &gt; atualizações opcionais</strong>, onde costumam aparecer drivers de componentes. Depois, atualize o driver de vídeo pelo site oficial do fabricante: a NVIDIA, por exemplo, publica drivers Game Ready testados em lançamentos e informa a compatibilidade WHQL. Por fim, deixe o jogo e a plataforma atualizados — na Steam, a biblioteca oferece a opção de <strong>verificar integridade dos arquivos do jogo</strong>, que repara arquivos corrompidos sem reinstalar tudo.</p>
+
+      <h3>2. Corte o que roda em segundo plano e na inicialização</h3>
+      <p>Programas que abrem sozinhos continuam consumindo CPU, RAM e disco mesmo com o jogo fechado. Vá em <strong>Configurações &gt; Aplicativos &gt; Inicialização</strong> e desligue o que não é essencial; a aba <strong>Aplicativos de inicialização</strong> do Gerenciador de Tarefas mostra o impacto de cada um na hora de ligar o PC. Durante a partida, feche navegador com muitas abas, launchers que não estão em uso e overlays que você não consulta. A própria Microsoft lista isso entre as soluções para melhorar o desempenho do Windows.</p>
+      <h3>3. Ajuste gráficos, energia e preferência de placa</h3>
+      <p>No jogo, comece pelo que mais pesa: resolução, sombras, reflexos, ray tracing e v-sync. Mude um item por vez. No Windows, três ajustes gratuitos valem a pena: ativar <strong>Otimizações para jogos em janela</strong> (Configurações &gt; Sistema &gt; Exibição &gt; Gráfico), que reduz a latência em jogos DirectX 10 e 11 em janela e habilita recursos como Auto HDR; escolher a <strong>preferência de gráfico</strong> do executável e marcar <em>Alto desempenho</em>, importante em notebooks com duas GPUs; e usar um plano de energia de alto desempenho quando a tomada estiver disponível — um dos recursos recomendados pela Microsoft para recuperar velocidade.</p>
+
+      <h3>4. Libere e organize o disco</h3>
+      <p>Jogo instalado em disco quase cheio e sistema operacional em HD é a combinação que mais produz travamento de carregamento. Use o <strong>Armazenamento temporário</strong> do Windows para liberar espaço, ative o <strong>Armazenamento inteligente</strong> (Storage Sense) para limpar arquivos temporários sozinho e rode <strong>Defragmentar e Otimizar Unidades</strong> no caso de discos mecânicos. Se o diagnóstico mostrou disco a 100%, a troca por SSD é a mudança com maior efeito percebido — e <a href="/tecnologia/ssd-nvme-vs-sata-como-escolher-armazenamento">o guia de SSD NVMe vs. SATA</a> explica como escolher sem pagar caro demais.</p>
+
+      <h3>5. Cheque temperatura e saúde do hardware</h3>
+      <p>Quando o processador ou a placa de vídeo esquentam além do confortável, eles reduzem o clock para se proteger — e o FPS cai sem nenhum programa pesado aberto. Ferramentas de sensores como o HWMonitor (versão gratuita da CPUID) mostram temperatura, tensão e ventoinhas, e também leem dados S.M.A.R.T. de discos rígidos e SSDs. Observe os valores com o jogo rodando por alguns minutos: quedas de FPS acompanhadas de temperatura em alta indicam problema de refrigeração — poeira, ventilador desgastado, pasta térmica velha ou gabinete sem fluxo de ar —, não falta de placa nova.</p>
+
+      <h3>6. Isole a causa com um teste controlado</h3>
+      <p>Antes de concluir qualquer coisa, faça o teste mais barato de todos: reduza a resolução do jogo por alguns minutos. Se o FPS sobe muito, o limite é gráfico. Se praticamente não muda, o problema está em CPU, memória ou disco. Repita o raciocínio fechando programas de segundo plano e, a cada mudança, anote o FPS de novo. Uma variável por vez é o que transforma achismo em diagnóstico.</p>
+
+      <h2>Quando o Upgrade Faz Sentido (e Quando Não)</h2>
+      <p>Depois dos seis ajustes, meça de novo. O upgrade só se justifica se o mesmo gargalo persistir e aparecer de forma consistente:</p>
+      <ul>
+        <li><strong>GPU a 100% em quase todas as cenas, CPU folgada:</strong> a placa de vídeo é o limite — <a href="/games/como-escolher-placa-de-video-para-pc-gamer">veja como escolher uma placa</a> dentro do seu orçamento e confira fonte, espaço no gabinete e conexões.</li>
+        <li><strong>Memória sempre no limite, mesmo com o jogo fechado:</strong> vale mais RAM — <a href="/games/quanto-de-ram-um-pc-gamer-precisa">quanto de RAM um PC gamer precisa</a> mostra o dimensionamento por tipo de uso, sem exagerar na compra.</li>
+        <li><strong>Disco em 100% ou carregamentos absurdamente lentos:</strong> SSD resolve antes de qualquer outra peça.</li>
+        <li><strong>CPU saturada em todos os núcleos:</strong> o upgrade de processador costuma arrastar placa-mãe e memória junto — pense no conjunto, como ensina <a href="/games/como-montar-um-pc-gamer">o guia de montagem de PC</a>.</li>
+      </ul>
+      <p>Dois casos em que não vale gastar: quando os números mostram que o problema era configuração (os ajustes gratuitos resolveram) e quando a máquina é antiga a ponto de nenhum upgrade isolado dar conta. Nesse segundo cenário, primeiro olhe <a href="/games/setup-gamer-barato-3-upgrades-que-fazem-diferenca">os upgrades baratos que fazem diferença</a> e, se ainda assim o hardware não acompanha, considere <a href="/games/cloud-gaming">jogar na nuvem</a> como alternativa a comprar peça hoje.</p>
+
+      <h2>Conclusão</h2>
+      <p>Travamento não é sinônimo de hardware velho. Medir no Gerenciador de Tarefas, atualizar o que importa, cortar programas em segundo plano, liberar o disco, checar a temperatura e isolar uma variável por vez resolve a maioria dos casos sem abrir a carteira. Com os números na mão, a decisão de upgrade deixa de ser palpite: você compra a peça que realmente está faltando — ou descobre que nenhuma está.</p>
+    `,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['pc gamer', 'performance', 'queda de fps', 'diagnóstico', 'upgrade', 'windows'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-14',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Workstation-PC_20240412_HOF2052-HDR_RAW-Export.png/960px-Workstation-PC_20240412_HOF2052-HDR_RAW-Export.png',
+    imageAlt: 'Interior de um computador desktop aberto, com placa de vídeo instalada, coolers e cabos visíveis.',
+    imageLicense: 'CC BY 4.0',
+    imageArtist: 'PantheraLeo1359531',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Workstation-PC_20240412_HOF2052-HDR_RAW-Export.png',
+    sources: [
+      { title: 'Microsoft — Tips to improve PC performance in Windows', url: 'https://support.microsoft.com/en-us/windows/experience/performance-optimization/tips-to-improve-pc-performance-in-windows', type: 'official' },
+      { title: 'Microsoft — Configure Startup applications in Windows', url: 'https://support.microsoft.com/en-us/windows/experience/startup-boot/configure-startup-applications-in-windows', type: 'official' },
+      { title: 'Microsoft — Free up drive space in Windows', url: 'https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/free-up-drive-space-in-windows', type: 'official' },
+      { title: 'Microsoft — Optimizations for windowed games in Windows 11', url: 'https://support.microsoft.com/en-us/Windows/Hardware/Display-Graphics/optimizations-for-windowed-games-in-windows-11', type: 'official' },
+      { title: 'Microsoft DirectX Developer Blog — GPUs in the task manager', url: 'https://devblogs.microsoft.com/directx/gpus-in-the-task-manager/', type: 'documentation' },
+      { title: 'Xbox Wire — October 2019 Xbox Game Bar Update Enables FPS Counter And Achievement Tracking', url: 'https://news.xbox.com/en-us/2019/10/22/october-2019-xbox-game-bar-update-enables-fps-counter-and-achievement-tracking/', type: 'official' },
+      { title: 'NVIDIA — Download The Official NVIDIA Drivers', url: 'https://www.nvidia.com/en-us/drivers/', type: 'company' },
+      { title: 'Steam Support — Verify Integrity of Game Files', url: 'https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB', type: 'official' },
+      { title: 'CPUID — HWMonitor: monitoramento de voltagens, temperaturas e ventoinhas', url: 'https://www.cpuid.com/softwares/hwmonitor.html', type: 'company' },
+    ],
+    relatedArticles: [
+      'ssd-nvme-vs-sata-como-escolher-armazenamento',
+      'setup-gamer-barato-3-upgrades-que-fazem-diferenca',
+      'como-escolher-placa-de-video-para-pc-gamer',
+    ],
+    // TAREFA 62 — produtos ja catalogados no projeto, reutilizados literalmente.
+    // Nenhum link novo foi gerado. O SSD entra so quando o diagnostico aponta o
+    // disco; a GPU so quando as medicoes mostram limitacao grafica.
+    affiliate: {
+      products: [
+        {
+          label: 'SSD SATA 480 GB',
+          category: 'armazenamento',
+          amazonUrl: 'https://link.amazon/B03mAh2an',
+          reason:
+            'Entra so quando o diagnostico aponta o disco como gargalo: disco a 100%, carregamentos lentos ou sistema ainda em HD mecanico. Confira antes se o formato e a conexao do modelo sao compativeis com o seu equipamento — a diferenca entre SATA e NVMe esta explicada no guia de armazenamento deste site.'
+        },
+        {
+          label: 'Placa de vídeo GeForce RTX 5060 8GB Dual Fan (linha PNY)',
+          category: 'placa-de-video-rtx-50',
+          amazonUrl: 'https://link.amazon/B0bVOOrGS',
+          reason:
+            'So faz sentido quando as medicoes repetidas mostram a GPU a 100% com a CPU folgada em quase todas as cenas: ai o gargalo e grafico de verdade. Antes de comprar, confirme o tamanho da fonte, o espaco no gabinete e o tipo de conexao da sua placa-mae.'
+        },
+      ]
+    }
+  },
+  {
+    id: '264',
+    slug: 'mini-pc-vs-desktop',
+    title: 'Mini PC vs Desktop: Qual Faz Mais Sentido para Seu Uso?',
+    excerpt: 'Espaço, consumo, ruído, desempenho, upgrade, conectividade e IA local: compare mini PC e desktop em cenários reais de estudo, trabalho, uso doméstico e jogos — sem vencedor universal.',
+    content: `
+      <p>Mini PC cabe na mão, some atrás da TV e liga silencioso; desktop ocupa espaço e aceita qualquer peça que você queira trocar. A pergunta "qual é melhor?" não tem resposta universal — ela depende do que você faz na maior parte do tempo e de quanto pretende mexer na máquina depois. Este artigo compara os dois formatos em espaço, consumo, ruído, desempenho, manutenção, conectividade e upgrade, traduz isso em cenários concretos e entrega critérios de decisão sem empurrar um vencedor.</p>
+
+      <h2>O Que Muda de Verdade entre os Dois</h2>
+
+      <h3>Espaço e Instalação</h3>
+      <p>É a diferença mais óbvia. Um mini PC é do tamanho de um livro, costuma ser montado atrás do monitor ou sob a mesa e viaja numa mochila. Um desktop de torre pede um lugar fixo — mesa, chão ou rack — e mais um monitor, teclado e mouse. Quem divide cômodo, mora em apartamento pequeno ou monta um rig de trabalho em escritório compartilhado sente essa diferença todos os dias.</p>
+
+      <h3>Consumo e Ruído</h3>
+      <p>Menos peças, componentes de perfil móvel e dissipação compacta costumam significar menos consumo e menos calor gerado — mas isso varia de modelo para modelo, e a referência confiável é sempre a ficha técnica do fabricante, não a categoria. No ruído, o padrão é parecido: mini PCs sem fan (passivos) praticamente não fazem barulho; os que têm ventoinha usam hélices menores, que podem girar mais rápido sob carga. Desktops generosos em espaço cabem ventoinhas grandes e dissipadores altos, o que costuma resultar em menos rotação para o mesmo trabalho — desde que o gabinete tenha fluxo de ar decente.</p>
+
+      <h3>Desempenho</h3>
+      <p>Aqui mora o maior mal-entendido. Um mini PC premium pode ter processador mais rápido que um desktop de entrada, e um desktop montado com peças de ponta passa longe de qualquer mini PC. O que muda estruturalmente é a <strong>sustentação</strong>: em gabinetes de torre, processador e placa de vídeo têm orçamento térmico generoso; em chassi de poucos centímetros, os componentes normalmente são de perfil móvel e trabalham mais perto do limite térmico. Para decidir, compare o modelo exato do processador e da placa de vídeo — não a categoria ("Ryzen 7", "Core i7") nem a promessa de marketing.</p>
+
+      <h3>Upgrade e Manutenção</h3>
+      <p>Desktop é feito para ser aberto: slots de memória vagos, baias para discos, espaço para trocar placa de vídeo e fonte, e peças padronizadas de mercado. <a href="/games/como-montar-um-pc-gamer">Montar um PC do zero</a> é exatamente isso — você escolhe cada componente e troca um por vez depois. No mini PC, boa parte da memória costuma ser soldada e o espaço para expansão se resume, na melhor das hipóteses, a um slot de SSD. O próprio exemplo da Apple ilustra o ponto: na página de especificações do Mac mini, a memória aparece como opção de configuração <em>na compra</em> (16 GB, ou 24 GB/32 GB conforme o chip), sem etapa de upgrade posterior. É o formato certo para quem quer uma máquina pronta, e o formato errado para quem gosta de evoluir o hardware aos poucos.</p>
+
+      <h3>Conectividade</h3>
+      <p>Mini PCs entregam poucas portas — normalmente de dois a quatro USB, uma saída de vídeo e, dependendo do modelo, USB-C. Isso é suficiente para teclado, mouse e um monitor, mas esbarra rápido se você usa HD externo, leitor de cartão e webcamera ao mesmo tempo; nesses casos, um hub ou uma estação USB-C resolve, como explica <a href="/tecnologia/usb-c-thunderbolt-hubs-como-funcionam">o guia de hubs USB-C e Thunderbolt</a>. Desktops, por padrão, trazem mais portas na traseira da placa-mãe e ainda sobram slots de expansão.</p>
+      <h2>Cinco Cenários Concretos</h2>
+
+      <h3>Estudo</h3>
+      <p>Texto, planilhas, videoaulas, dezenas de abas e videoconferência: qualquer um dos dois formatos atende. O desempate é logístico — se o estudante leva o computador entre casa e faculdade, o que precisa viajar é um notebook; se a máquina fica fixa no quarto, um mini PC econômico e discreto costuma ser o mais prático, e um desktop de entrada também funciona, desde que caiba na mesa.</p>
+
+      <h3>Trabalho</h3>
+      <p>Escritório, atendimento, programação e gestão pedem estabilidade, boa quantidade de RAM e portas para monitores duplos. Escritórios com frota padronizada gostam de mini PCs: ocupam pouco, são fáceis de trocar em lote e passam despercebidos. Já quem trabalha com renderização, edição de vídeo, múltiplas máquinas virtuais ou compilação pesada sente falta de espaço térmico e de upgrade — aí o desktop ganha pela capacidade de crescimento.</p>
+
+      <h3>Uso Doméstico</h3>
+      <p>Streaming, navegador, contas e serviços rodando o dia inteiro: é o cenário mais amigável para o mini PC, que pode ficar fixo atrás da TV ou ao lado do roteador, com consumo baixo e barulho mínimo. Se além disso a casa quer jogar de vez em quando na TV, verifique o modelo de placa de vídeo integrada antes de decidir — e lembre que <a href="/games/cloud-gaming">jogar na nuvem</a> é uma saída que dispensa hardware potente, desde que a conexão acompanhe.</p>
+
+      <h3>Jogos</h3>
+      <p>Placa de vídeo dedicada, dissipação folgada e fonte dimensionada: o desktop continua sendo o formato mais direto para jogos exigentes, e é nele que entra o upgrade gradual — trocar só a placa de vídeo daqui a dois anos, por exemplo. Mini PCs com GPU dedicada existem, mas são nichos com preço e refrigeração próprios; confira reviews de modelos específicos e compare o processador e a GPU exatos, não os rótulos. Para jogos leves e competitivos, o critério muda: aí o que importa é a latência da rede e a fluidez, e formatsos mais simples dão conta.</p>
+
+      <h3>Execução Local de IA</h3>
+      <p>Rodar modelos de linguagem ou de imagem na própria máquina é onde a ficha técnica decide tudo. Do lado do acelerador: a Microsoft define os PCs Copilot+ a partir de NPUs capazes de mais de 40 TOPS, e documenta como acessar e medir o desempenho desses modelos no dispositivo — um mini PC com NPU pode ser uma forma econômica de ter esse recurso. Do lado da memória: é ela que define quanto modelo cabe na máquina — o FAQ do Ollama mostra um modelo de 70 bilhões ocupando 42 GB apenas para ficar carregado. Do lado do sistema: mini PCs com processadores Arm rodam aplicações x86 e x64 por emulação no Windows, com desempenho ideal apenas em versões nativas, segundo a documentação de Windows on Arm. Conclusão prática: antes de prometer qualquer coisa, verifique memória, arquitetura e suporte de software do modelo que você pretende rodar — <a href="/inteligencia-artificial/pcs-gamers-viram-maquinas-de-ia">este artigo explica por que PCs gamers viraram máquinas de IA</a>.</p>
+
+      <h2>Como Ler a Ficha Técnica Antes de Comprar</h2>
+      <p>O rótulo vendedor ("Ryzen 7 com 16 GB") não basta. Na página do produto, confira:</p>
+      <ul>
+        <li><strong>Modelo exato do processador</strong>, incluindo geração e sufixo — dois "Ryzen 7" de anos diferentes não têm o mesmo desempenho.</li>
+        <li><strong>Memória:</strong> capacidade, tipo e se é soldada ou está em slot. Soldada é o teto da máquina.</li>
+        <li><strong>Armazenamento:</strong> tipo (SATA ou NVMe), quantidade de slots livres e possibilidade de troca sem perder a garantia.</li>
+        <li><strong>Portas:</strong> quantas USB-A, se há USB-C/Thunderbolt, quantas saídas de vídeo e se a rede é cabeada e Wi-Fi.</li>
+        <li><strong>Refrigeração e ruído:</strong> o modelo é passivo ou tem ventoinha; o fabricante informa consumo.</li>
+        <li><strong>Atualizações:</strong> quem publica drivers e BIOS — em marcas pequenas, esse suporte costuma ser mais curto.</li>
+        <li><strong>Para IA local:</strong> NPU (se haverá aceleração), memória disponível e arquitetura (x86 ou Arm).</li>
+      </ul>
+      <p>A ficha do mini PC da imagem é um bom exemplo do nível de detalhe esperado: a descrição no Wikimedia Commons registra processador, memória, armazenamento e as dimensões do aparelho (cerca de 12,7 × 11,3 × 4,2 cm). É essa informação — e não o anúncio — que deve guiar a compra.</p>
+      <h2>Critérios de Decisão, Sem Vencedor Universal</h2>
+      <ul>
+        <li><strong>Escolha o mini PC se</strong> o espaço é curto, o uso gira em torno de escritório, estudo, streaming e navegação, você quer uma máquina pronta e silenciosa e não pretende trocar peças ao longo dos anos.</li>
+        <li><strong>Escolha o desktop se</strong> você joga em alta configuração, pretende evoluir o hardware aos poucos, precisa de várias portas e slots, ou quer rodar modelos de IA locais com memória e placa de vídeo dimensionadas para isso.</li>
+        <li><strong>Escolha híbrido se</strong> o orçamento aperta: um desktop como máquina principal e um mini PC barato como segundo posto (TV, home server, cópia de segurança) cobrem bem os dois lados.</li>
+        <li><strong>Em qualquer caso,</strong> leia a ficha técnica do modelo exato antes de pagar — nenhum conselho genérico substitui as especificações do aparelho que está na sua frente.</li>
+      </ul>
+
+      <h2>Conclusão</h2>
+      <p>Mini PC e desktop não disputam o mesmo título: um otimiza espaço, discrição e simplicidade; outro otimiza desempenho sustentável, expansão e liberdade de manutenção. Comece pelo seu cenário — estudo, trabalho, uso doméstico, jogos ou IA local —, liste o que não pode faltar (RAM, portas, GPU, silêncio) e só então abra a ficha técnica. Fazendo isso, você compra a máquina certa na primeira vez, sem depender da promessa do anúncio.</p>
+    `,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['mini pc', 'desktop', 'hardware', 'comparativo', 'compra', 'upgrade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-14',
+    readingTime: 8,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Trigkey_S5_Mini_PC.jpg/960px-Trigkey_S5_Mini_PC.jpg',
+    imageAlt: 'Mini PC Trigkey S5 preto, aparelho compacto de aproximadamente 13 cm de largura, fotografado de frente.',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Bruno413',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Trigkey_S5_Mini_PC.jpg',
+    sources: [
+      { title: 'Microsoft Learn — Copilot+ PCs developer guide (NPU 40+ TOPS)', url: 'https://learn.microsoft.com/en-us/windows/ai/npu-devices/', type: 'documentation' },
+      { title: 'Microsoft Learn — Windows on Arm documentation', url: 'https://learn.microsoft.com/en-us/windows/arm/overview', type: 'documentation' },
+      { title: 'Apple — Mac mini Technical Specifications', url: 'https://www.apple.com/mac-mini/specs/', type: 'company' },
+      { title: 'Wikimedia Commons — Trigkey S5 Mini PC (ficha técnica da imagem)', url: 'https://commons.wikimedia.org/wiki/File:Trigkey_S5_Mini_PC.jpg', type: 'other' },
+      { title: 'Ollama Documentation — FAQ (tamanho de modelo em memória)', url: 'https://docs.ollama.com/faq', type: 'documentation' },
+    ],
+    relatedArticles: [
+      'raspberry-pi-5-o-que-da-pra-fazer-mini-pc-barato',
+      'usb-c-thunderbolt-hubs-como-funcionam',
+      'pcs-gamers-viram-maquinas-de-ia',
+    ],
+    // TAREFA 62 — produtos ja catalogados no projeto, reutilizados literalmente.
+    // Nenhuma URL nova foi gerada. As caracteristicas do mini PC NAO sao
+    // afirmadas aqui: o reason pede que o leitor confira a ficha tecnica.
+    affiliate: {
+      products: [
+        {
+          label: 'Mini PC com NPU para IA local (ex.: Ryzen 7 + 16GB + SSD 1TB)',
+          category: 'hardware-ia',
+          amazonUrl: 'https://link.amazon/B0f60YPD5',
+          reason:
+            'Modelo para conferir contra a lista de checagem do artigo: antes de comprar, confirme na ficha tecnica a memoria (soldada ou slot), o armazenamento, as portas e o NPU, e verifique se o modelo de IA que voce pretende rodar cabe na memoria disponivel.'
+        },
+        {
+          label: 'TP-Link UH400 Hub USB 3.0 4 portas 5Gbps',
+          category: 'hub-usb',
+          amazonUrl: 'https://www.amazon.com.br/dp/B00V4BGD00?th=1&linkCode=sl2&tag=dizzritimia-20&linkId=7670aa267c4ba69afb903ee3384ed2a0&ref_=as_li_ss_tl',
+          reason:
+            'Mini PCs costumam trazer poucas portas: quatro USB 3.0 resolvem teclado, mouse, pendrive e perifericos no dia a dia. Para varios HDs externos ao mesmo tempo, prefira um hub com alimentacao externa.'
+        },
+      ]
+    }
+  },
+  {
+    id: '265',
+    slug: 'curso-ia-vs-estudar-sozinho',
+    title: 'Curso de IA ou Estudar Sozinho: Quando Vale a Pena Pagar?',
+    excerpt: 'Recursos gratuitos de alta qualidade existem, e cursos pagos também cumprem papel real. Compare custo, estrutura, prática, feedback e atualização — e aprenda a avaliar a ementa antes de comprar.',
+    content: `
+      <p>A internet está cheia de trilhas gratuitas de inteligência artificial, e ao mesmo tempo não faltam cursos pagos prometendo transformar você em profissional em poucos meses. A pergunta certa não é "curso ou sozinho?", e sim "o que eu preciso pagar — com dinheiro ou com disciplina — para não parar no meio?". Este artigo compara os dois caminhos em custo, estrutura, prática, feedback, atualização do conteúdo e autonomia, mostra para que perfil cada um funciona e entrega uma lista objetiva para avaliar a ementa de qualquer curso antes de comprar.</p>
+
+      <h2>O Que um Curso Pago Costuma Entregar de Verdade</h2>
+      <p>Quando um curso é bom, o que você está comprando não é informação — informação rara é. O valor está no que economiza tempo e sustenta o hábito:</p>
+      <ul>
+        <li><strong>Sequência curada:</strong> alguém decidiu a ordem dos tópicos, o que aprender antes de quê e onde parar. Sozinho, você perde horas pesquisando o próximo passo.</li>
+        <li><strong>Prazo e ritual:</strong> datas, módulos e entregas criam compromisso. O maior risco do estudo solo não é falta de material, é abandonar na terceira semana.</li>
+        <li><strong>Feedback:</strong> correção de projetos e revisão de código é o que mais falta no caminho gratuito — e é o que mais rápido evolui quem recebe.</li>
+        <li><strong>Certificação quando ela importa:</strong> alguns formatos só entregam certificado pago. No Coursera, por exemplo, a página da especialização em Machine Learning informa que o certificado exige assinatura paga, e que existe auxílio financeiro para quem não pode arcar com a mensalidade.</li>
+        <li><strong>Acompanhamento humano:</strong> fórum moderado, monitoria, plantão de dúvidas. Sem isso, o curso pago vira apenas vídeos — e vídeos, a seguir sozinho, você também consegue.</li>
+      </ul>
+
+      <h2>O Que Recursos Gratuitos Já Resolvem</h2>
+      <p>Longe de serem "pior versão" dos cursos, os melhores materiais gratuitos são completos e atuais:</p>
+      <ul>
+        <li><strong>Google Machine Learning Crash Course:</strong> vídeos animados, visualizações interativas e exercícios práticos, organizados em módulos autocontidos — dá para pular direto para o tema que falta. A Google mantém o curso desde 2018 e atualizou a versão para incluir avanços recentes de IA; os conceitos de base que ele usa — modelo, treinamento, overfitting — estão explicados em <a href="/inteligencia-artificial/aprendizado-de-maquina-explicado">aprendizado de máquina explicado</a>.</li>
+        <li><strong>MIT OpenCourseWare (6.036 — Introduction to Machine Learning):</strong> material completo do curso do MIT, gratuito, com opção de se inscrever para acompanhar o progresso ou simplesmente usar os materiais sem inscrição.</li>
+        <li><strong>Tutorial oficial de Python:</strong> se a barreira é programar, a documentação da linguagem é um ponto de partida gratuito, em português e com exemplos executáveis — e <a href="/tecnologia/python-para-iniciantes-por-onde-comecar-gastando-pouco">nosso guia de Python para iniciantes</a> mostra como organizar esse começo gastando pouco.</li>
+        <li><strong>freeCodeCamp:</strong> currículo aberto no GitHub, certificações gratuitas e uma comunidade com fórum onde dúvidas e projetos recebem retorno — o feedback elementar que muita gente julga só existir em curso pago.</li>
+      </ul>
+      <p>Na prática, esse conjunto cobre fundamentos, prática de código e projeto de portfólio. O que ele não dá de graça é cobrança com data e correção individual — exatamente os dois pontos a seguir.</p>
+
+      <h2>Onde o Curso Costuma Decepcionar</h2>
+      <p>Nem toda oferta paga resiste a uma leitura atenta. Sinais recorrentes de problema:</p>
+      <ul>
+        <li><strong>Promessa de emprego, salário, renda ou domínio profissional garantido.</strong> Nenhum curso — nem o melhor do mundo — controla o mercado de trabalho. Quem promete resultado garantido está vendendo, não ensinando.</li>
+        <li><strong>Ementa vaga:</strong> "do zero ao avançado" sem listar tópicos, carga horária e projetos.</li>
+        <li><strong>Conteúdo de IA desatualizado:</strong> o campo muda rápido; pergunte em que data o último módulo foi atualizado e quais ferramentas são usadas.</li>
+        <li><strong>Projetos que você faz sozinho e entrega sem correção.</strong> Se não há feedback, o que sobra são os vídeos — que são a parte barata.</li>
+        <li><strong>Dependência de plataforma:</strong> confira por quanto tempo você tem acesso, se o conteúdo é atualizado dentro do mesmo preço e qual é a política de reembolso.</li>
+      </ul>
+      <h2>Como Avaliar a Ementa Antes de Pagar</h2>
+      <p>Abra a página da oferta e responda, por escrito, a estas perguntas. Se metade ficar sem resposta, não é uma decisão — é um impulso:</p>
+      <ol>
+        <li><strong>A lista de tópicos é específica?</strong> Deve aparecer o que exatamente será coberto, na ordem em que será coberto — não apenas benefícios.</li>
+        <li><strong>Os pré-requisitos estão declarados?</strong> Se o curso exige Python e estatística e não diz isso, você vai descobrir tarde e caro.</li>
+        <li><strong>Existe projeto prático com correção?</strong> Procure o nome do projeto, os dados usados e quem avalia.</li>
+        <li><strong>Qual é a carga real?</strong> Horas por semana, duração total e prazo de acesso — comparados com a sua agenda real, não com a ideal.</li>
+        <li><strong>Quem é o autor?</strong> Portfólio verificável (repositório, artigos, projetos públicos, histórico profissional) vale mais do que título genérico de "especialista".</li>
+        <li><strong>Quando foi atualizado pela última vez?</strong> Em IA, conteúdo com mais de um ano sem revisão pede atenção — confira quais ferramentas e versões ele ensina.</li>
+        <li><strong>Qual é a política de reembolso e o canal de suporte?</strong> Anote o prazo antes de comprar, não depois.</li>
+        <li><strong>Há promessa de resultado garantido?</strong> Se sim, considere isso um ponto contra, não a favor.</li>
+      </ol>
+
+      <h2>Para Quem Cada Caminho Funciona</h2>
+      <ul>
+        <li><strong>Curso pago compensa quando:</strong> você já tentou sozinho e parou; tem um prazo real (mudança de carreira, projeto com entrega); precisa de correção humana no seu código; ou o tema é específico demais (uma ferramenta, uma certificação) e você quer o caminho mais curto.</li>
+        <li><strong>Gratuito basta quando:</strong> você consegue seguir um currículo sem alguém cobrar; gosta de aprender resolvendo problemas próprios; tem — ou quer construir — disciplina de rotina; ou o orçamento não permite. Nesses casos, o risco não é de conteúdo: é de abandono, e ele se resolve com calendário e projeto definido antes de começar.</li>
+        <li><strong>O caminho do meio é o mais comum:</strong> começar por materiais gratuitos como o crash course do Google e o MIT OCW, e pagar apenas na etapa em que travou — estatística, portfólio revisado, mentoria. Enquanto isso, o uso prático do dia a dia continua gratuito em <a href="/inteligencia-artificial/como-escrever-bons-prompts-de-ia">como escrever bons prompts de IA</a>. Ofertas pagas, como o curso de Python para data science indicado abaixo, devem passar pela mesma lista de checagem antes do cartão sair do bolso.</li>
+      </ul>
+
+      <h2>Conclusão</h2>
+      <p>Gratuito já é suficiente para aprender os fundamentos de IA e programar de verdade; curso pago se paga quando entrega estrutura, prazo e feedback que você sozinho não consegue manter. A decisão madura é saber qual dos seus dois problemas é o real: falta de conteúdo (grátis resolve) ou falta de método e correção (aí o investimento faz sentido). Avalie a ementa com a lista acima, desconfie de quem promete emprego ou renda, e lembre-se de que o que mantém você estudando vale mais do que a plataforma onde estuda.</p>
+    `,
+    category: { id: 'inteligencia-artificial', slug: 'inteligencia-artificial', name: 'Inteligência Artificial', description: 'IA generativa, ferramentas, pesquisa e futuro da IA', color: '#ec4899' },
+    tags: ['inteligência artificial', 'curso', 'estudo', 'aprendizado', 'carreira', 'recursos gratuitos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-14',
+    readingTime: 6,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Woman_studies_at_a_desk_with_a_laptop_notebook_and_drink_in_a_bright_room.jpg/960px-Woman_studies_at_a_desk_with_a_laptop_notebook_and_drink_in_a_bright_room.jpg',
+    imageAlt: 'Pessoa estudando em uma mesa com notebook aberto, caderno de anotações e uma bebida, em ambiente iluminado.',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Shixart1985',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Woman_studies_at_a_desk_with_a_laptop_notebook_and_drink_in_a_bright_room.jpg',
+    sources: [
+      { title: 'Google — Machine Learning Crash Course', url: 'https://developers.google.com/machine-learning/crash-course', type: 'company' },
+      { title: 'MIT OpenCourseWare — 6.036 Introduction to Machine Learning', url: 'https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/', type: 'university' },
+      { title: 'Coursera — Machine Learning Specialization (certificado e auxílio financeiro)', url: 'https://www.coursera.org/specializations/machine-learning-introduction', type: 'company' },
+      { title: 'Python Software Foundation — The Python Tutorial', url: 'https://docs.python.org/3/tutorial/', type: 'official' },
+      { title: 'freeCodeCamp — currículo aberto e certificações gratuitas (repositório)', url: 'https://github.com/freeCodeCamp/freeCodeCamp', type: 'other' },
+    ],
+    relatedArticles: [
+      'aprendizado-de-maquina-explicado',
+      'python-para-iniciantes-por-onde-comecar-gastando-pouco',
+      'como-escrever-bons-prompts-de-ia',
+    ],
+    // TAREFA 62 — link oficial da Hotmart ja existente no projeto (produto
+    // 1228268), reaproveitado literalmente. A pagina da oferta foi verificada
+    // e o titulo do produto confere; nenhuma URL foi montada ou reconstruida.
+    affiliate: {
+      products: [
+        {
+          label: 'Python para Data Science e Analytics',
+          category: 'curso-python-data-science',
+          url: 'https://go.hotmart.com/F107891497S',
+          store: 'Hotmart',
+          reason:
+            'O artigo mostra quando vale pagar por estrutura, prazo e feedback: este e um exemplo de trilha paga de Python para analise de dados, com link oficial verificado. Antes de comprar, aplique a lista de checagem do texto: tópicos da ementa, pré-requisitos, projetos com correção, data da última atualização e política de reembolso.'
+        },
+      ]
+    }
   }
 ];
