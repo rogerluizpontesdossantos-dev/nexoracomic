@@ -15443,4 +15443,510 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
 <p>Krakatoa, 1883, é o cruzamento perfeito entre geologia, física e história: um som que dobrou o planeta, uma nuvem que alterou o clima e uma tragédia humana de mais de 36 mil mortos. Os números que impressionam vêm de fontes oficiais e registros de época — e a distinção entre medição e estimativa, como no caso dos 172 dB, é parte do que torna a história confiável de verdade.</p>
 `,
   },
+  {
+    id: '281',
+    slug: 'eleicoes-2026-o-que-esta-em-jogo-no-segundo-turno-presidencial',
+    title: 'Eleições 2026: o que está em jogo no segundo turno presidencial',
+    excerpt: 'No segundo turno das eleições presidenciais de 2026, o Brasil define quem comandará o país pelos próximos quatro anos. Entenda o calendário, o papel do TSE e o que está em disputa.',
+    content: `
+<h2>O que o segundo turno decide</h2>
+<p>O segundo turno das eleições presidenciais de 2026 é a etapa final da escolha do presidente da República. Se nenhum candidato obtiver mais da metade dos votos válidos no primeiro turno, os dois mais votados disputam a presidência em uma nova votação. O vencedor assumirá o cargo em 1º de janeiro de 2027 para um mandato de quatro anos, até 31 de dezembro de 2030.</p>
+<p>O presidente da República é o chefe do Poder Executivo federal. Entre suas atribuições estão sancionar ou vetar leis aprovadas pelo Congresso, editar medidas provisórias com força de lei temporária, nomear ministros de estado e chefes de órgãos públicos, e representar o Brasil no exterior. A escolha, portanto, define não apenas quem ocupará o Palácio do Planalto, mas a direção das políticas públicas em áreas como saúde, educação, segurança, economia e meio ambiente.</p>
+
+<h2>Calendário e regras definidas pelo TSE</h2>
+<p>O Tribunal Superior Eleitoral (TSE) é o órgão responsável por organizar, supervisionar e julgar o processo eleitoral no Brasil. O segundo turno presidencial só ocorre se nenhum candidato obtiver mais da metade dos votos válidos no primeiro turno.</p>
+<p>O segundo turno só ocorre para os cargos de presidente da República, governador de estado e prefeito de municípios com mais de 200 mil eleitores. Para presidente e governador, vence quem obtiver a maioria dos votos válidos — excluem-se brancos e nulos da contagem. Se houver empate, a lei eleitoral prevê critérios de desempate, como a idade mais elevada dos candidatos.</p>
+<p>O TSE também rege o uso da urna eletrônica, a apuração dos votos, a propaganda eleitoral e as prestações de contas de campanhas e partidos. Todas essas regras estão consolidadas no Código Eleitoral e em resoluções específicas do tribunal para cada pleito. As datas exatas do primeiro e do segundo turno devem ser confirmadas diretamente no calendário oficial do TSE.</p>
+
+<h2>O papel dos ministros do TSE</h2>
+<p>O TSE é composto por sete ministros: três são escolhidos entre os ministros do Supremo Tribunal Federal (STF), dois entre os do Superior Tribunal de Justiça (STJ) e um entre juristas de notável saber jurídico indicados pelo STF. O presidente do TSE é um ministro do STF eleito pelos pares para um biênio. Essa composição mistura diferentes ramos do Judiciário com o objetivo de conferir imparcialidade ao julgamento eleitoral.</p>
+<p>Os ministros decidem sobre registros de candidatura, questionamentos sobre a urna eletrônica, pedidos de impugnação e recursos contra decisões dos tribunais regionais eleitorais (TREs). Suas decisões têm efeito imediato no processo eleitoral e podem determinar, por exemplo, a inelegibilidade de um candidato ou a anulação de votos.</p>
+
+<h2>O que está em disputa na prática</h2>
+<p>Além da presidência, o segundo turno define quem terá a caneta para vetar ou sancionar projetos do Congresso nos próximos quatro anos. O presidente eleito também poderá indicar novos ministros para o STF quando surgirem vagas, além de nomear dirigentes para agências reguladoras, autarquias e empresas estatais.</p>
+<p>Para o eleitor, o segundo turno é o momento de escolher entre duas propostas concretas de país. O que cada candidato defende sobre tributação, reforma tributária, política externa, educação pública, saúde e segurança pública passa a ter chances reais de ser implementado — ou não — a partir de janeiro de 2027.</p>
+
+<h2>Conclusão</h2>
+<p>O segundo turno presidencial de 2026 fecha o ciclo eleitoral e define o chefe do Executivo para o próximo mandato. O TSE mantém as regras e o calendário do pleito, enquanto o voto do cidadão determina quem dirigirá as políticas públicas do Brasil. A escolha do presidente reverbera no dia a dia da população por meio dos serviços, investimentos e normas que o governo federal implementará entre 2027 e 2030.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['eleições 2026', 'segundo turno', 'presidente da República', 'TSE', 'voto', 'democracia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palácio_do_Planalto.jpg?width=960',
+    imageLicense: 'CC BY-SA 2.0',
+    imageArtist: 'Eduardo Coutinho',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Palácio_do_Planalto.jpg',
+    imageAlt: 'Palácio do Planalto, Brasília',
+    sources: [
+      { title: 'Tribunal Superior Eleitoral - Eleições 2026', url: 'https://www.tse.jus.br/eleicoes/eleicoes-2026', type: 'agency' },
+      { title: 'Código Eleitoral (Lei nº 4.737/1965)', url: 'https://www.planalto.gov.br/ccivil_03/leis/L4737.htm', type: 'agency' },
+      { title: 'Constituição Federal de 1988 - Poder Executivo', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/Constituicao compilada.pdf', type: 'agency' },
+    ],
+    relatedArticles: ['congresso-poder-presidente-limitar-ampliar-proximo', 'stf-congresso-presidencia-competencias'],
+  },
+  {
+    id: '282',
+    slug: 'congresso-poder-presidente-limitar-ampliar-proximo',
+    title: 'Por que o Congresso pode limitar ou ampliar o poder do próximo presidente',
+    excerpt: 'O Congresso Nacional tem papel decisivo na governabilidade presidencial: pode aprovar ou rejeitar projetos, vetos e indicações. Entenda como o Legislativo afeta o poder do presidente eleito em 2026.',
+    content: `
+<h2>O Congresso e o poder presidencial</h2>
+<p>No sistema presidencialista brasileiro, o presidente eleito em 2026 não governa sozinho. O Congresso Nacional — composto pela Câmara dos Deputados e pelo Senado Federal — detém poderes que podem tanto facilitar quanto limitar a gestão do próximo presidente. A relação entre Executivo e Legislativo determina se a agenda do governo avança ou trava no plenário.</p>
+<p>Entre as principais ferramentas do Congresso estão a aprovação de leis, a análise de vetos presidenciais, a apreciação de medidas provisórias e a votação de indicações para cargos estratégicos, como ministros do STF e diretores de agências reguladoras. Sem apoio parlamentar, mesmo um presidente com forte votação popular pode ter dificuldade para colocar suas propostas em prática.</p>
+
+<h2>Leis e orçamento: o controle das contas públicas</h2>
+<p>Uma das formas mais concretas de o Congresso influenciar o governo é por meio do orçamento. A Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA) são elaboradas pelo Executivo, mas precisam ser aprovadas pelos deputados e senadores. Parlamentares podem incluir emendas ao orçamento, direcionando recursos para projetos e localidades de suas bases eleitorais.</p>
+<p>As emendas parlamentares, especialmente as de comissão e as individuais, tornaram-se um instrumento de negociação entre o Palácio do Planalto e o Congresso. Um presidente que não consegue articulação política com as bancadas pode ver suas prioridades orçamentárias relegadas a segundo plano em favor de demandas dos parlamentares.</p>
+
+<h2>Vetos e medidas provisórias</h2>
+<p>Quando o Congresso aprova um projeto de lei, o presidente pode sancioná-lo ou vetá-lo total ou parcialmente. No entanto, o veto presidencial não é definitivo: cabe ao Congresso analisá-lo em sessão conjunta. Se deputados e senadores derrubarem o veto por maioria, o texto vetado volta a vigorar como lei.</p>
+<p>Já as medidas provisórias (MPs) são normas editadas pelo presidente com força de lei imediata, usadas em casos de urgência e relevância. Elas perdem validade se não forem aprovadas pelo Congresso dentro de um prazo máximo. Assim, mesmo uma medida de iniciativa presidencial depende de apreciação parlamentar para se tornar permanente.</p>
+
+<h2>Indicações e o STF</h2>
+<p>O presidente também precisa do Senado para nomear ministros do Supremo Tribunal Federal, do Tribunal de Contas da União e dirigentes de órgãos como o Banco Central e agências reguladoras. Os sabatinados e aprovados pelos senadores assumem os cargos; os rejeitados ficam de fora. Esse processo dá ao Legislativo influência direta sobre o Judiciário e sobre instituições de controle.</p>
+<p>Além disso, o Congresso pode iniciar processos de impeachment contra o presidente, uma ferramenta de controle extremo que, se aprovada, pode levar à perda do cargo. Isso não significa que o presidente esteja subordinado ao Congresso, mas que sua gestão está sujeita a freios e contrapesos institucionais.</p>
+
+<h2>Conclusão</h2>
+<p>O Congresso Nacional não é apenas um espectador do governo federal. Por meio de leis, orçamento, vetos, medidas provisórias e indicações, ele pode ampliar ou restringir o poder do próximo presidente. Para quem for eleito em 2026, a habilidade de negociar com deputados e senadores será tão importante quanto as propostas de campanha.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['Congresso Nacional', 'presidente da República', 'governabilidade', 'veto presidencial', 'medida provisória', 'orçamento'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Congresso_Nacional_do_Brasil.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Agência Brasil',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Congresso_Nacional_do_Brasil.jpg',
+    imageAlt: 'Sede do Congresso Nacional em Brasília',
+    sources: [
+      { title: 'Constituição Federal de 1988 - Poder Legislativo', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/Constituicao compilada.pdf', type: 'agency' },
+      { title: 'Câmara dos Deputados - Como funciona', url: 'https://www.camara.leg.br/', type: 'agency' },
+      { title: 'Senado Federal - Como funciona', url: 'https://www.senado.leg.br/', type: 'agency' },
+    ],
+    relatedArticles: ['eleicoes-2026-o-que-esta-em-jogo-no-segundo-turno-presidencial', 'stf-congresso-presidencia-competencias'],
+  },
+  {
+    id: '283',
+    slug: 'fim-escala-6x1-proposta-senado-trabalho',
+    title: 'Fim da escala 6x1: o que a proposta em tramitação prevê',
+    excerpt: 'Uma proposta em tramitação no Congresso prevê mudanças na escala de trabalho 6x1. Entenda o que está em discussão e quais os próximos passos.',
+    content: `
+<h2>O que é a escala 6x1</h2>
+<p>A escala 6x1 é uma forma de organização do trabalho em que o empregado trabalha seis dias consecutivos e folga um. É comum no comércio, em serviços de alimentação, em call centers e em setores que funcionam aos fins de semana e feriados. Embora esteja prevista na Consolidação das Leis do Trabalho (CLT), a escala tem sido alvo de críticas por sindicatos e movimentos de trabalhadores, que apontam impactos na saúde, no convívio familiar e na qualidade de vida.</p>
+<p>Atualmente, a CLT estabelece a jornada máxima de 44 horas semanais e prevê o descanso semanal remunerado, preferencialmente aos domingos. No entanto, a legislação permite diferentes formas de escala, incluindo a 6x1, desde que respeitados os limites de jornada e o pagamento de horas extras quando aplicável.</p>
+
+<h2>O que está em discussão no Congresso</h2>
+<p>Uma proposta de emenda à Constituição (PEC) em tramitação no Congresso Nacional visa acabar com a escala 6x1 no Brasil. A PEC determina que o descanso semanal seja de dois dias, sendo um deles preferencialmente domingo, e limita a escala de trabalho a cinco dias de trabalho por dois de folga.</p>
+<p>É importante observar que, até a data de referência deste artigo (15 de outubro de 2026), não foi possível confirmar de forma independente se a PEC foi aprovada pelo Senado ou em que fase de tramitação se encontra. Uma PEC precisa ser aprovada em dois turnos tanto no Senado quanto na Câmara dos Deputados, com pelo menos três quintos dos votos de cada Casa, para ser promulgada. Somente após a promulgação a mudança entra na Constituição.</p>
+
+<h2>O que muda para o trabalhador</h2>
+<p>Se a proposta for promulgada e regulamentada, trabalhadores que hoje seguem a escala 6x1 passariam a ter dois dias de descanso por semana, o que poderia ampliar o tempo de lazer, descanso e convívio familiar. A mudança também poderia reduzir o acúmulo de cansaço e o estresse relacionados a jornadas intensas.</p>
+<p>No entanto, o impacto prático dependerá de como a nova regra será aplicada. Setores que funcionam sete dias por semana, como comércio e serviços, podem precisar contratar mais funcionários para cobrir as escalas, o que geraria custos adicionais para os empregadores.</p>
+
+<h2>O que muda para as empresas</h2>
+<p>Empresas que dependem da escala 6x1 para operar aos finais de semana poderiam enfrentar dificuldades de escalonamento de equipes. A necessidade de mais folgas pode exigir contratações, reorganização de turnos e ajustes nos pagamentos de horas extras. Pequenos comércios, em particular, podem ter menos flexibilidade para absorver esses custos.</p>
+<p>Por outro lado, defensores da proposta argumentam que trabalhadores com mais descanso tendem a ser mais produtivos e a ter menor rotatividade, o que poderia compensar parte dos custos para os empregadores a longo prazo.</p>
+
+<h2>Próximos passos da tramitação</h2>
+<p>Após a aprovação no Senado, a PEC segue para a Câmara dos Deputados, onde precisa passar por comissões e votações em plenário em dois turnos. Se aprovada pelos deputados, retorna ao Senado para promulgação. É uma tramitação que pode levar meses, e o texto pode sofrer alterações ao longo do caminho.</p>
+<p>É fundamental não confundir aprovação no Senado com lei em vigor. Até que a PEC seja aprovada pela Câmara e promulgada, a escala 6x1 continua permitida pela CLT, desde que respeitados os limites atuais de jornada e descanso.</p>
+
+<h2>Conclusão</h2>
+<p>A proposta aprovada no Senado representa um passo significativo para mudar a escala de trabalho no Brasil, mas ainda está longe de se tornar regra. Trabalhadores e empresas devem acompanhar a tramitação na Câmara para entender como e quando — se for o caso — a mudança afetará o dia a dia do emprego no país.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['escala 6x1', 'trabalho', 'CLT', 'PEC', 'Senado Federal', 'direitos trabalhistas', 'descanso semanal'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Senado_Federal.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Julio Cesar Paganotti',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Senado_Federal.jpg',
+    imageAlt: 'Sede do Senado Federal em Brasília',
+    sources: [
+      { title: 'Senado Federal - PEC sobre escala de trabalho 6x1', url: 'https://www.senado.leg.br/', type: 'agency' },
+      { title: 'Consolidação das Leis do Trabalho (CLT)', url: 'https://www.planalto.gov.br/ccivil_03/', type: 'agency' },
+      { title: 'Câmara dos Deputados - Tramitação de PECs', url: 'https://www.camara.leg.br/', type: 'agency' },
+    ],
+    relatedArticles: ['congresso-poder-presidente-limitar-ampliar-proximo'],
+  },
+  {
+    id: '284',
+    slug: 'reforma-tributaria-consumidores-empresas-brasil',
+    title: 'Reforma tributária: como as mudanças podem afetar consumidores e empresas',
+    excerpt: 'A reforma tributária aprovada no Brasil muda a forma como impostos são cobrados. Entenda o que pode mudar no bolso do consumidor e no custo das empresas.',
+    content: `
+<h2>O que é a reforma tributária</h2>
+<p>A reforma tributária brasileira, promulgada por meio de emendas constitucionais recentes, substitui cinco impostos sobre o consumo por um sistema de Imposto sobre Valor Agregado (IVA) dual. O objetivo é simplificar a cobrança de tributos, reduzir a sonegação e tornar o sistema mais transparente. Até a data de referência deste artigo (15 de outubro de 2026), a reforma está em fase de regulamentação e implementação gradual.</p>
+<p>Os impostos que serão unificados são o IPI (industrializados), IOF (operações financeiras), ISS (serviços, municipal), ICMS (circulação de mercadorias e serviços, estadual) e o restante do IOF. No lugar deles, entrarão em vigor o IBS (Imposto sobre Bens e Serviços, de competência de estados e municípios) e a CBS (Contribuição sobre Bens e Serviços, federal), que juntos formam o IVA sobre o consumo.</p>
+
+<h2>Como pode afetar o consumidor</h2>
+<p>Para o consumidor final, o impacto direto dependerá da alíquota do IVA que será definida pelo governo. A ideia é que o tributo seja cobrado apenas no destino do produto ou serviço — ou seja, onde ele é consumido — em vez de em cada etapa da cadeia produtiva. Isso pode reduzir o efeito cascata de impostos que hoje encarece produtos.</p>
+<p>No entanto, nem todos os produtos terão o mesmo tratamento. O governo prevê uma cesta básica nacional de alimentos com alíquota reduzida ou zero, além do "cashback" de tributos para famílias de baixa renda inscritas no CadÚnico. Itens fora da cesta, serviços e produtos de maior valor podem ter alíquotas diferentes, o que fará com que o impacto no bolso varie de acordo com o que cada pessoa consome.</p>
+<p>É cedo para afirmar com certeza se os preços subirão ou cairão no curto prazo. A transição depende de como as alíquotas serão fixadas, da velocidade da implementação e da capacidade das empresas de repassar ou não os ganhos de eficiência para os consumidores.</p>
+
+<h2>Como pode afetar as empresas</h2>
+<p>Para as empresas, a principal mudança é a simplificação tributária. Hoje, empresas precisam calcular e recolher diversos impostos federais, estaduais e municipais, cada um com suas próprias regras e alíquotas. Com o IVA dual, a apuração se concentra em dois tributos, o que pode reduzir custos de compliance e a burocracia tributária.</p>
+<p>Outra mudança relevante é o fim da guerra fiscal entre estados. Hoje, estados oferecem incentivos tributários para atrair empresas, o que cria distorções competitivas. Com o IVA baseado no destino, o imposto vai para onde o consumo ocorre, reduzindo o incentivo a essas disputas.</p>
+<p>Setores que hoje gozam de regimes especiais ou isenções podem perder benefícios ou ter que se adaptar ao novo sistema. Pequenas empresas poderão optar por um regime simplificado de apuração, ainda em definição pelos órgãos responsáveis.</p>
+
+<h2>O papel do Comitê Gestor e da Receita</h2>
+<p>O IBS será administrado por um Comitê Gestor, com representação de estados, municípios e Distrito Federal. A CBS ficará sob a responsabilidade da Receita Federal. Esses órgãos definirão alíquotas, regras de apuração e procedimentos de fiscalização. A implementação está prevista para ocorrer de forma escalonada ao longo de alguns anos.</p>
+
+<h2>Conclusão</h2>
+<p>A reforma tributária muda as regras de cobrança de impostos sobre o consumo no Brasil, com potencial de simplificar a vida de empresas e consumidores. Se o impacto será positivo no bolso da população depende das alíquotas que serão definidas e da forma como a transição será conduzida. Acompanhar a regulamentação é essencial para entender quem ganha e quem perde com a mudança.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['reforma tributária', 'IVA', 'IBS', 'CBS', 'impostos', 'consumidor', 'empresa', 'economia pública'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Banco_Central_do_Brasil.jpg?width=960',
+    imageLicense: 'CC BY-SA 2.0',
+    imageArtist: 'Paulo Rená da Silva Santarém',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Banco_Central_do_Brasil.jpg',
+    imageAlt: 'Sede do Banco Central do Brasil em Brasília',
+    sources: [
+      { title: 'Ministério da Fazenda - Reforma Tributária', url: 'https://www.fazenda.gov.br/', type: 'agency' },
+      { title: 'Receita Federal - IVA e Reforma Tributária', url: 'https://www.gov.br/receitafederal/', type: 'agency' },
+      { title: 'Constituição Federal de 1988 - Planalto', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/', type: 'agency' },
+    ],
+    relatedArticles: ['congresso-poder-presidente-limitar-ampliar-proximo'],
+  },
+  {
+    id: '285',
+    slug: 'stf-congresso-presidencia-quem-pode-fazer-o-que',
+    title: 'STF, Congresso e Presidência: quem pode fazer o quê na política brasileira',
+    excerpt: 'Entenda as competências de cada um dos três Poderes da República e como os freios e contrapesos funcionam no dia a dia da política brasileira.',
+    content: `
+<h2>Os três Poderes da República</h2>
+<p>A Constituição Federal de 1988 divide o poder público brasileiro entre três Poderes harmônicos e independentes: o Legislativo, o Executivo e o Judiciário. Cada um tem competências próprias e nenhum pode sobrepujar os outros. Esse sistema de freios e contrapesos (checks and balances) evita que um único órgão concentre autoridade excessiva.</p>
+<p>Para entender a política brasileira, é essencial saber quem pode fazer o quê. Abaixo, detalhamos as atribuições principais de cada Poder, com base no texto constitucional e na prática institucional.</p>
+
+<h2>Presidência da República — Poder Executivo</h2>
+<p>O presidente da República é o chefe de Estado e de governo. Ele comanda a administração federal e é responsável por executar as leis aprovadas pelo Congresso. Entre suas atribuições principais estão:</p>
+<ul>
+  <li>Sancionar ou vetar projetos de lei aprovados pelo Congresso Nacional;</li>
+  <li>Editar medidas provisórias com força de lei imediata, sujeitas a apreciação posterior do Congresso;</li>
+  <li>Nomear ministros de Estado, diretores de autarquias e empresas estatais;</li>
+  <li>Indicar ministros do Supremo Tribunal Federal, do Superior Tribunal de Justiça e de outros tribunais, com aprovação do Senado;</li>
+  <li>Representar o Brasil em atos internacionais e celebrar tratados, sujeitos à aprovação do Congresso;</li>
+  <li>Editar decretos e regulamentos para a execução das leis.</li>
+</ul>
+<p>O presidente não pode criar leis por conta própria nem interpretar a Constituição de forma vinculante para os outros Poderes. Seus atos estão sujeitos a controle do Judiciário e fiscalização do Legislativo.</p>
+<h2>Congresso Nacional — Poder Legislativo</h2>
+<p>O Congresso Nacional é bicameral, formado pela Câmara dos Deputados e pelo Senado Federal. Sua função principal é legislar. Entre suas competências estão:</p>
+<ul>
+  <li>Aprovar ou rejeitar projetos de lei, incluindo o orçamento anual (LOA) e as diretrizes orçamentárias (LDO);</li>
+  <li>Analisar e manter ou derrubar vetos presidenciais;</li>
+  <li>Apreciar medidas provisórias editadas pelo presidente;</li>
+  <li>Aprovar ou rejeitar indicações presidenciais para ministros de tribunais e dirigentes de órgãos;</li>
+  <li>Autorizar operações de crédito externas e internas do governo;</li>
+  <li>Iniciar processos de impeachment contra o presidente, ministros e ministros de tribunais superiores;</li>
+  <li>Aprovar tratados e atos internacionais celebrados pelo presidente.</li>
+</ul>
+<p>O Congresso não pode executar leis nem julgar causas. Sua atuação se limita à criação de normas e à fiscalização dos atos do Executivo.</p>
+
+<h2>Supremo Tribunal Federal — Poder Judiciário</h2>
+<p>O STF é o guardião da Constituição e o último recurso para questões de constitucionalidade. Suas principais atribuições incluem:</p>
+<ul>
+  <li>Julgar ações diretas de inconstitucionalidade (ADINs) e ações de declaração de constitucionalidade (ADCs), podendo invalidar leis ou atos normativos que contrariam a Constituição;</li>
+  <li>Julgar recursos extraordinários em que se discuta a aplicação da Constituição;</li>
+  <li>Julgar processos contra o presidente da República, governadores e ministros de tribunais superiores em crimes de responsabilidade;</li>
+  <li>Conceder habeas corpus e outras medidas de proteção de direitos fundamentais;</li>
+  <li>Decidir sobre conflitos de autoridade entre os Poderes ou entre entes da Federação.</li>
+</ul>
+<p>O STF não cria leis e não administra políticas públicas. Seu papel é interpretar a Constituição e garantir que as ações dos outros Poderes estejam dentro dos limites legais.</p>
+
+<h2>Como os freios e contrapesos funcionam na prática</h2>
+<p>O sistema de freios e contrapesos significa que cada Poder pode limitar o outro. Por exemplo:</p>
+<ul>
+  <li>O presidente pode vetar uma lei do Congresso, mas o Congresso pode derrubar o veto;</li>
+  <li>O Congresso aprova as indicações do presidente para o STF, mas o STF pode declarar inconstitucional uma lei aprovada pelo Congresso;</li>
+  <li>O presidente pode propor medidas provisórias, mas o Congresso decide se elas viram lei permanente;</li>
+  <li>O STF pode julgar atos do presidente inconstitucionais, mas o Congresso pode iniciar um processo de impeachment contra ministros do STF por crime de responsabilidade.</li>
+</ul>
+<p>Essa divisão não impede desentendimentos entre os Poderes, que são comuns na democracia. O objetivo é garantir que nenhuma decisão de grande impacto seja tomada por um único órgão sem escrutínio dos outros.</p>
+
+<h2>Conclusão</h2>
+<p>Presidência, Congresso e STF têm papéis distintos e complementares na política brasileira. Conhecer as competências de cada um ajuda o cidadão a entender quem é responsável por cada decisão e a cobrar as autoridades corretamente. Os freios e contrapesos existem justamente para que o poder seja exercido de forma dividida e fiscalizada.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['STF', 'Congresso Nacional', 'Presidência', 'Poderes da República', 'Constituição', 'freios e contrapesos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 8,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Supremo_Tribunal_Federal.jpg?width=960',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'Everton137',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Supremo_Tribunal_Federal.jpg',
+    imageAlt: 'Supremo Tribunal Federal, Brasília',
+    sources: [
+      { title: 'Constituição Federal de 1988 - Dos Poderes da União', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/Constituicao compilada.pdf', type: 'agency' },
+      { title: 'Supremo Tribunal Federal - Competências', url: 'https://www.stf.jus.br/', type: 'agency' },
+      { title: 'Congresso Nacional - Competências', url: 'https://www.congressonacional.leg.br/', type: 'agency' },
+      { title: 'Palácio do Planalto - Atribuições do Presidente', url: 'https://www.gov.br/planalto/', type: 'agency' },
+    ],
+    relatedArticles: ['eleicoes-2026-o-que-esta-em-jogo-no-segundo-turno-presidencial', 'congresso-poder-presidente-limitar-ampliar-proximo'],
+  },
+  {
+    id: '286',
+    slug: 'seguranca-publica-responsabilidades-governo-federal-estado-municipio',
+    title: 'Segurança pública: quais são as responsabilidades de cada governo',
+    excerpt: 'No Brasil, a segurança pública é dividida entre União, estados e municípios. Entenda quem faz o quê entre polícias, guardas e forças federais.',
+    content: `
+<h2>A segurança pública é de todos</h2>
+<p>No Brasil, a segurança pública não é responsabilidade exclusiva de um único governo. A Constituição Federal de 1988 divide as competências entre União, estados, Distrito Federal e municípios. Essa divisão pode gerar confusão na população sobre a quem recorrer ou a quem cobrar quando um crime ocorre ou quando há falta de policiamento em uma região.</p>
+<p>Entender quem é responsável por cada frente é essencial para cobrar as autoridades certas e para compreender por que a segurança pública exige coordenação entre diferentes esferas de poder.</p>
+
+<h2>O papel dos estados e do Distrito Federal</h2>
+<p>Os estados e o Distrito Federal são os principais responsáveis pela segurança pública em seus territórios. Cabe a eles organizar e manter as polícias civis e militares, além dos corpos de bombeiros militares.</p>
+<ul>
+  <li><strong>Polícia Civil:</strong> responde ao governador do estado e é responsável pela investigação de crimes, inquéritos policiais, perícias e apuração de autoria e materialidade de infrações penais.</li>
+  <li><strong>Polícia Militar:</strong> também subordinada ao governador, atua no ostensivo e preventivo, ou seja, no patrulhamento de ruas, abordagens, flagrantes e contenção de distúrbios. Apesar do nome, é uma força estadual, não federal.</li>
+  <li><strong>Corpo de Bombeiros Militar:</strong> atua em resgates, incêndios, salvamentos e defesa civil estadual.</li>
+</ul>
+<p>Os governadores definem as políticas de segurança de seus estados, como planos de enfrentamento a facções criminosas, contratação de efetivo e compra de equipamentos.</p>
+<h2>O papel do governo federal</h2>
+<p>A União, por meio do Ministério da Justiça e Segurança Pública, coordena forças e políticas nacionais, mas não tem policiamento ordinário nas ruas dos estados. Suas principais atribuições são:</p>
+<ul>
+  <li><strong>Polícia Federal:</strong> investiga crimes contra a União, crimes internacionais, tráfico de drogas, crimes ambientais, cibercrimes e faz a segurança de aeroportos e fronteiras.</li>
+  <li><strong>Polícia Rodoviária Federal (PRF):</strong> fiscaliza e patrulha rodovias federais, combater crimes nas estradas e atuar em acidentes de trânsito em vias federais.</li>
+  <li><strong>Força Nacional:</strong> composta por agentes cedidos por estados e pelo Distrito Federal, atua a pedido dos governadores ou do presidente em situações de crise, como grandes eventos ou aumento de violência local.</li>
+  <li><strong>Forças Armadas:</strong> podem ser empregadas em garantia da lei e da ordem (GLO) por decisão presidencial, com autorização ou apreciação do Congresso, em casos excepcionais.</li>
+</ul>
+<p>O governo federal também elabora o Plano Nacional de Segurança Pública e define diretrizes nacionais, como o Sistema Único de Segurança Pública (SUSP), que busca integrar dados e ações entre os entes federados.</p>
+
+<h2>O papel dos municípios</h2>
+<p>Os municípios têm papel limitado, mas importante, na segurança pública. Eles são responsáveis pelas guardas municipais, cuja atuação está restrita à proteção de bens, serviços e instalações municipais (como prédios da prefeitura, escolas e parques). As guardas não têm poder de investigação criminal nem de patrulhamento ostensivo geral, que é atribuição das polícias estaduais.</p>
+<p>Os prefeitos também podem atuar em políticas de prevenção da violência, como programas sociais, iluminação pública, ocupação de espaços urbanos e integração com conselhos comunitários de segurança.</p>
+
+<h2>O Sistema Único de Segurança Pública (SUSP)</h2>
+<p>Criado para integrar as ações de segurança pública em todo o país, o SUSP prevê que União, estados, Distrito Federal e municípios compartilhem informações, planejem ações conjuntas e padronizem procedimentos. A ideia é que policiais civis, militares, federais e guardas municipais troquem dados e operem de forma coordenada, especialmente no combate ao crime organizado e a facções que atuam em mais de um estado.</p>
+<p>Na prática, a integração ainda enfrenta desafios, como diferenças de sistemas de dados, rivalidades institucionais e falta de recursos em alguns entes federados.</p>
+
+<h2>Conclusão</h2>
+<p>A segurança pública no Brasil é compartilhada. Estados e Distrito Federal comandam as polícias que patrulham e investigam no dia a dia. A União atua em crimes federais, fronteiras, rodovias federais e coordenação nacional. Municípios cuidam das guardas municipais e de políticas de prevenção. Saber quem faz o quê ajuda o cidadão a cobrar a autoridade correta e a entender que a redução da violência exige cooperação entre todos os níveis de governo.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['segurança pública', 'polícia civil', 'polícia militar', 'Polícia Federal', 'PRF', 'estados', 'municípios', 'SUSP'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Polícia_Federal_do_Brasil.jpg?width=960',
+    imageLicense: 'Public domain',
+    imageArtist: 'Polícia Federal',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Polícia_Federal_do_Brasil.jpg',
+    imageAlt: 'Logotipo da Polícia Federal do Brasil',
+    sources: [
+      { title: 'Constituição Federal de 1988 - Segurança Pública', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/Constituicao compilada.pdf', type: 'agency' },
+      { title: 'Polícia Federal - Atribuições', url: 'https://www.gov.br/pf/', type: 'agency' },
+      { title: 'Polícia Rodoviária Federal - Atribuições', url: 'https://www.gov.br/prf/', type: 'agency' },
+    ],
+    relatedArticles: ['congresso-poder-presidente-limitar-ampliar-proximo'],
+  },
+  {
+    id: '287',
+    slug: 'amazonia-desafios-politica-preservacao-producao-soberania',
+    title: 'Amazônia: os desafios políticos entre preservação, produção e soberania',
+    excerpt: 'A Amazônia está no centro de debates sobre meio ambiente, agronegócio, indígenas e soberania nacional. Entenda os principais temas políticos que envolvem a região.',
+    content: `
+<h2>Por que a Amazônia é um tema político</h2>
+<p>A Amazônia brasileira cobre cerca de 4 milhões de km² e abriga a maior floresta tropical do mundo, além de povos indígenas e comunidades tradicionais. A região também é alvo de pressões econômicas, como agropecuária, mineração, madeireira e infraestrutura. Isso torna a Amazônia um tema central da política brasileira, com disputas entre preservação ambiental, desenvolvimento econômico e soberania nacional.</p>
+<p>As decisões tomadas em Brasília e nos governos estaduais da Amazônia Legal (Acre, Amapá, Amazonas, Maranhão, Mato Grosso, Pará, Rondônia, Roraima e Tocantins) afetam diretamente o desmatamento, as queimadas, a regularização fundiária e os direitos dos povos originários.</p>
+
+<h2>Desmatamento e políticas ambientais</h2>
+<p>O desmatamento na Amazônia é monitorado pelo Instituto Nacional de Pesquisas Espaciais (INPE), por meio do sistema DETER, que emite alertas de desmatamento em tempo quase real, e pelo PRODES, que calcula a taxa anual. Os dados são públicos e servem de base para ações de fiscalização e políticas públicas.</p>
+<p>O combate ao desmatamento envolve o Ministério do Meio Ambiente e Mudança do Clima, o Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA) e o Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio). Esses órgãos aplicam multas, embargam áreas e coordenam operações de fiscalização, frequentemente com apoio das Forças Armadas.</p>
+<p>O Fundo Amazônia, gerido pelo Banco Nacional de Desenvolvimento Econômico e Social (BNDES), recebe doações internacionais para apoiar projetos de preservação e desenvolvimento sustentável na região. Os recursos são destinados a estados, municípios, organizações da sociedade civil e órgãos públicos.</p>
+<h2>Povos indígenas e terras tradicionalmente ocupadas</h2>
+<p>A Constituição de 1988 reconhece o direito dos povos indígenas às terras que tradicionalmente ocupam. A demarcação dessas terras é de competência da Funai (Fundação Nacional dos Povos Indígenas), vinculada ao Ministério dos Povos Indígenas, com homologação pelo presidente da República.</p>
+<p>Terras indígenas têm status de proteção especial: não podem ser alvo de exploração comercial de recursos minerais ou hídricos sem autorização do Congresso Nacional e ouvidas as comunidades afetadas. Esse ponto é frequentemente debatido no Legislativo, com projetos de lei que propõem mudanças nas regras de demarcação e exploração.</p>
+
+<h2>Produção agropecuária e desenvolvimento</h2>
+<p>A Amazônia também é uma região de produção agropecuária. Pecuária, agricultura, mineração e madeireira geram empregos e renda para milhões de pessoas. Governos estaduais e bancadas parlamentares da região frequentemente defendem políticas que equilibrem a produção com a preservação, como o zoneamento ecológico-econômico e incentivos à agrofloresta e à bioeconomia.</p>
+<p>O desafio político é permitir o desenvolvimento econômico sem acelerar o desmatamento ilegal e sem prejudicar comunidades tradicionais. A implementação do Cadastro Ambiental Rural (CAR) é uma das ferramentas para monitorar e regularizar propriedades rurais.</p>
+
+<h2>Soberania e interesse internacional</h2>
+<p>A Amazônia desperta atenção de governos e organizações internacionais devido à sua importância para o clima global e a biodiversidade. O Brasil afirma que a soberania sobre a Amazônia é exclusiva e que as decisões sobre a região são soberanas. Ao mesmo tempo, acordos de financiamento e cooperação técnica com outros países e com organismos multilaterais fazem parte da política externa brasileira sobre o tema.</p>
+<p>Declarações de líderes estrangeiros sobre a Amazônia geram, por vezes, tensões diplomáticas, especialmente quando há críticas ao nível de desmatamento ou à proteção de terras indígenas. O Itamaraty costuma defender que a gestão da Amazônia cabe ao Brasil, respeitados acordos internacionais assinados pelo país.</p>
+
+<h2>Conclusão</h2>
+<p>A Amazônia está no cruzamento entre preservação ambiental, produção econômica, direitos dos povos indígenas e soberania nacional. As decisões políticas tomadas em Brasília e nos estados da região definem o futuro da floresta e de quem nela vive. Acompanhar os dados oficiais, as leis em tramitação e as ações de fiscalização é essencial para entender o que está em jogo.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['Amazônia', 'desmatamento', 'meio ambiente', 'povos indígenas', 'agropecuária', 'soberania', 'INPE', 'IBAMA'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 8,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Amazônia.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Ana Cotta',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Amazônia.jpg',
+    imageAlt: 'Floresta Amazônica',
+    sources: [
+      { title: 'INPE - Monitoramento da Amazônia', url: 'https://www.inpe.br/', type: 'agency' },
+      { title: 'Ministério do Meio Ambiente e Mudança do Clima', url: 'https://www.gov.br/mma/', type: 'agency' },
+      { title: 'Funai - Povos Indígenas', url: 'https://www.gov.br/funai/', type: 'agency' },
+    ],
+    relatedArticles: ['brasil-estados-unidos-china-politica-externa', 'agronegocio-politica-brasil-decisoes-campo'],
+  },
+  {
+    id: '288',
+    slug: 'brasil-estados-unidos-china-escolhas-politica-externa',
+    title: 'Brasil entre Estados Unidos e China: as escolhas estratégicas da política externa',
+    excerpt: 'O Brasil mantém relações comerciais e diplomáticas com os Estados Unidos e a China. Entenda os dilemas da política externa brasileira e o que está em jogo.',
+    content: `
+<h2>O contexto da disputa global</h2>
+<p>Estados Unidos e China são as duas maiores economias do mundo e mantêm uma competição por influência tecnológica, comercial e geopolítica. Esse embate afeta países de todos os continentes, incluindo o Brasil, que precisa equilibrar relações com ambas as potências sem se alinhar formalmente a nenhum bloco.</p>
+<p>Para o Brasil, a questão não é escolher um lado e abandonar o outro, mas definir prioridades em comércio, investimentos, tecnologia e segurança, sempre respeitando o princípio constitucional da autonomia nacional e a política de não alinhamento.</p>
+
+<h2>Relações comerciais com a China</h2>
+<p>A China é o principal parceiro comercial do Brasil. O país asiático é destino de grande parte das exportações brasileiras de soja, minério de ferro, petróleo, celulose e carne bovina. Em troca, o Brasil importa da China produtos manufaturados, equipamentos de telecomunicações, veículos e bens de consumo.</p>
+<p>Empresas chinesas também investem no Brasil em setores como energia renovável, transmissão de eletricidade, mineração e tecnologia da informação. Esses investimentos são negociados diretamente entre empresas e governos, sujeitos às leis brasileiras e, em alguns casos, à aprovação de órgãos reguladores.</p>
+<p>A dependência do mercado chinês pode ser um risco se houver queda na demanda por commodities, mas também é uma fonte importante de receita para o agronegócio e a mineração brasileiros.</p>
+<h2>Relações com os Estados Unidos</h2>
+<p>Os Estados Unidos são um parceiro histórico do Brasil em defesa, tecnologia e investimentos. Empresas americanas têm forte presença no Brasil em setores como tecnologia da informação, serviços financeiros, automotivo e aeroespacial. Os EUA também são destino importante para serviços brasileiros e para parte das exportações industriais.</p>
+<p>A cooperação em defesa inclui acordos de compra de equipamentos militares e troca de informações. Em tecnologia, parcerias entre empresas e pesquisadores brasileiros e americanos são comuns em áreas como inteligência artificial, computação quântica e biotecnologia.</p>
+<p>O governo brasileiro busca ampliar o comércio com os EUA, mas enfrenta barreiras protecionistas americanas a produtos como açúcar, etanol e aço, além de disputas na Organização Mundial do Comércio (OMC).</p>
+
+<h2>Os dilemas da política externa brasileira</h2>
+<p>O Brasil adota uma política externa de diversificação, buscando manter boas relações com os dois polos. No entanto, há situações em que o país precisa tomar posição ou definir prioridades:</p>
+<ul>
+  <li><strong>Tecnologia 5G e infraestrutura crítica:</strong> a participação de empresas chinesas em redes de telecomunicações no Brasil gerou debates sobre segurança nacional. O governo definiu regras para equipamentos considerados de risco, sem proibir categoricamente qualquer fornecedor.</li>
+  <li><strong>Investimentos estrangeiros diretos:</strong> algumas operações de empresas chinesas em setores sensíveis são analisadas por órgãos reguladores e podem exigir autorização do governo.</li>
+  <li><strong>Acordos comerciais:</strong> o Brasil negocia acordos comerciais com diferentes blocos, e a posição dos EUA ou da China pode influenciar o andamento dessas negociações na OMC e em fóruns regionais.</li>
+</ul>
+<p>A Constituição brasileira prevê que a política externa seja pauta da independência nacional, da defesa dos direitos humanos e da cooperação entre os povos. Isso significa que o Brasil busca evitar alinhamentos automáticos e preservar sua autonomia de decisão.</p>
+
+<h2>O papel do Itamaraty e do MDIC</h2>
+<p>O Ministério das Relações Exteriores (Itamaraty) conduz a diplomacia brasileira, negocia tratados e representa o Brasil em organismos internacionais. O Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC) é responsável pela política comercial, incluindo barreiras comerciais, defesa comercial e acordos de exportação.</p>
+<p>Ambos os ministérios trabalham para ampliar mercados para produtos brasileiros e atrair investimentos, independentemente da origem dos investidores, desde que respeitadas as leis e a soberania nacional.</p>
+
+<h2>Conclusão</h2>
+<p>O Brasil não precisa escolher entre Estados Unidos e China, mas precisa definir estratégias claras para cada relação. O desafio da política externa é maximizar os benefícios comerciais e de investimento com ambos os países, preservando a autonomia nacional e evitando que a disputa entre as potências limite as opções do Brasil. Acompanhar as negociações comerciais, os investimentos e os acordos diplomáticos é essencial para entender para onde o país está se direcionando.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['Estados Unidos', 'China', 'política externa', 'comércio exterior', 'Itamaraty', 'MDIC', 'investimento estrangeiro'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Palácio_Itamaraty.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Albery Santini Júnior',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Palácio_Itamaraty.jpg',
+    imageAlt: 'Palácio Itamaraty, Brasília',
+    sources: [
+      { title: 'Ministério das Relações Exteriores', url: 'https://www.gov.br/mre/', type: 'agency' },
+      { title: 'Ministério do Desenvolvimento, Indústria, Comércio e Serviços', url: 'https://www.gov.br/mdic/', type: 'agency' },
+      { title: 'Banco Central do Brasil - Balanço de Pagamentos', url: 'https://www.bcb.gov.br/', type: 'agency' },
+    ],
+    relatedArticles: ['amazonia-desafios-politica-preservacao-producao-soberania', 'agronegocio-politica-brasil-decisoes-campo'],
+  },
+  {
+    id: '289',
+    slug: 'agronegocio-politica-brasil-decisoes-campo',
+    title: 'Agronegócio e política: como decisões de Brasília afetam o campo',
+    excerpt: 'O agronegócio brasileiro depende de políticas públicas definidas em Brasília. Entenda como crédito, tributação, meio ambiente e relações externas afetam o produtor rural.',
+    content: `
+<h2>O agronegócio na economia brasileira</h2>
+<p>O agronegócio é uma das principais bases da economia brasileira. O setor responde por uma parcela significativa do PIB nacional e de uma parte relevante das exportações, com produtos como soja, milho, carne bovina, suína, de frango, café, açúcar, laranja e algodão. A produção agrícola e pecuária acontece em todos os estados, com destaque para Centro-Oeste, Sul e partes do Nordeste e do Matopiba (Maranhão, Tocantins, Piauí e Bahia).</p>
+<p>Por ser um setor fortemente integrado ao mercado internacional, o agronegócio é sensível a decisões políticas tomadas em Brasília e no exterior. Crédito rural, tributação, política ambiental, acordos comerciais e infraestrutura de escoamento são algumas das áreas em que o governo federal exerce influência direta.</p>
+
+<h2>Crédito rural e políticas de financiamento</h2>
+<p>O crédito rural é fundamental para o produtor financiar custeio, investimento e comercialização. Os principais recursos vêm do Plano Safra, definido anualmente pelo governo federal, e de instituições como o Banco do Brasil, o Banco do Nordeste e o Banco da Amazônia, além de cooperativas de crédito.</p>
+<p>As taxas de juros, os limites de financiamento e as regras de renegociação de dívidas são definidas pelo Banco Central e pelo Ministério da Fazenda, com participação do Ministério da Agricultura e Pecuária. Mudanças nessas regras podem tornar o crédito mais acessível ou mais caro para o produtor, afetando sua capacidade de investir em sementes, máquinas, defensivos e expansão da área plantada.</p>
+<p>Pequenos e médios produtores têm acesso a linhas específicas, como o Pronaf, enquanto grandes produtores costumam usar o Pronamp e outras linhas de mercado. A divisão de recursos entre esses públicos é sempre um tema de negociação política.</p>
+<h2>Tributação e incentivos fiscais</h2>
+<p>O agronegócio brasileiro goza de alguns benefícios tributários, como a isenção de Imposto de Renda sobre a venda de produção própria (para pessoas físicas) e regimes especiais de tributação. Além disso, produtos agrícolas são insumos básicos da cesta básica, o que afeta a cobrança de tributos sobre o consumo.</p>
+<p>A reforma tributária em andamento pode mudar a forma como os insumos e os produtos do campo são tributados. A transição para um IVA dual (IBS e CBS) prevê cestas básicas com alíquotas reduzidas ou zero, o que pode beneficiar alimentos in natura. No entanto, insumos como defensivos agrícolas, fertilizantes e máquinas podem ter tratamentos diferentes, dependendo das regras finais de regulamentação.</p>
+<p>Qualquer mudança na tributação de diesel, usado em máquinas agrícolas e caminhões de escoamento, também tem impacto direto no custo de produção.</p>
+
+<h2>Meio ambiente e licenciamento</h2>
+<p>O Cadastro Ambiental Rural (CAR) é obrigatório para imóveis rurais e serve de base para o controle de desmatamento e para a regularização ambiental. O Programa de Regularização Ambiental (PRA) permite que produtores em situação irregular se adequem às regras do Código Florestal.</p>
+<p>O Código Florestal de 2012 define reservas legais e áreas de preservação permanente (APP) nas propriedades rurais. Em áreas da Amazônia, por exemplo, a porcentagem de floresta que deve ser mantida em pé é maior do que em outros biomas. Essas regras são definidas por lei federal e podem ser alteradas pelo Congresso, gerando debates entre produtores e defensores do meio ambiente.</p>
+<p>Licenças ambientais para abertura de novas áreas, construção de barragens e expansão de atividades agropecuárias são concedidas por órgãos estaduais e federais, como o IBAMA e as secretarias estaduais de meio ambiente, seguindo critérios técnicos e legais.</p>
+
+<h2>Comércio exterior e abertura de mercados</h2>
+<p>O agronegócio depende de acordos comerciais e da abertura de mercados externos. O Itamaraty e o MDIC negociam com outros países para que o Brasil exporte carne, grãos, frutas e outros produtos com menos barreiras tarifárias e sanitárias.</p>
+<p>Embarques podem ser suspensos ou restringidos por países importadores devido a questões sanitárias (como casos de doenças animais) ou por padrões ambientais e trabalhistas. O governo brasileiro atua diplomáticamente para reabrir mercados e evitar restrições que prejudiquem os produtores.</p>
+<p>A política de câmbio, definida em parte pelo Banco Central, também afeta o setor: um real mais valorizado pode tornar as exportações menos competitivas, enquanto um real mais desvalorizado pode beneficiar quem vende para o exterior, mas encarece insumos importados, como fertilizantes.</p>
+
+<h2>Infraestrutura e escoamento</h2>
+<p>A produção do campo depende de estradas, ferrovias, portos e armazenagem para chegar aos mercados. O governo federal, por meio do Ministério dos Transportes e de programas como o Arco Norte e o escoamento por ferrovias, define onde investir em infraestrutura de transporte.</p>
+<p>Falta de manutenção de rodovias, insuficiência de armazéns e gargalos portuários aumentam o custo de escoamento e reduzem a competitividade do produtor brasileiro no mercado internacional. Essas decisões de investimento são de competência pública e entram no orçamento da União.</p>
+
+<h2>Conclusão</h2>
+<p>O agronegócio não funciona isolado da política. Decisões de Brasília sobre crédito, tributação, meio ambiente, comércio exterior e infraestrutura têm efeito direto no dia a dia do produtor rural e na competitividade do setor. Acompanhar essas políticas e participar dos debates públicos é essencial para quem vive do campo e para quem consome os alimentos produzidos por ele.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['agronegócio', 'crédito rural', 'Plano Safra', 'reforma tributária', 'Código Florestal', 'comércio exterior', 'infraestrutura', 'produção agrícola'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 8,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Colheita.jpg?width=960',
+    imageLicense: 'Public domain',
+    imageArtist: 'Wolf Seeds do Brasil',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Colheita.jpg',
+    imageAlt: 'Campo de produção agrícola',
+    sources: [
+      { title: 'Ministério da Agricultura e Pecuária', url: 'https://www.gov.br/agricultura/', type: 'agency' },
+      { title: 'Banco Central do Brasil - Crédito Rural', url: 'https://www.bcb.gov.br/', type: 'agency' },
+      { title: 'CONAB - Companhia Nacional de Abastecimento', url: 'https://www.conab.gov.br/', type: 'agency' },
+    ],
+    relatedArticles: ['reforma-tributaria-consumidores-empresas-brasil', 'amazonia-desafios-politica-preservacao-producao-soberania'],
+  },
+  {
+    id: '290',
+    slug: 'moradia-transporte-saude-decisoes-politicas-cidade',
+    title: 'Por que problemas como moradia, transporte e saúde dependem de decisões políticas',
+    excerpt: 'Moradia, transporte e saúde são problemas urbanos que parecem individuais, mas são decididos por governos. Entenda como orçamento, leis e gestão pública afetam a vida na cidade.',
+    content: `
+<h2>Problemas urbanos são decisões políticas</h2>
+<p>Falta de moradia acessível, transporte público precário e filas no sistema de saúde são queixas comuns nas cidades brasileiras. Embora pareçam problemas individuais ou de gestão local, eles são resultado direto de decisões políticas tomadas por governos federal, estaduais e municipais. Orçamento, leis, regulamentos e escolhas de prioridades definem quantas casas serão construídas, onde as linhas de ônibus passarão e quantos leitos de hospital existirão.</p>
+<p>Entender essa conexão ajuda o cidadão a cobrar as autoridades certas e a avaliar propostas de candidatos e gestores com base em instrumentos concretos de política pública.</p>
+
+<h2>Moradia: onde construir e para quem</h2>
+<p>A política de habitação no Brasil envolve principalmente o programa Minha Casa, Minha Vida, gerido pelo Ministério das Cidades em parceria com prefeituras e governos estaduais. O governo federal define as regras, os subsídios e os limites de renda para quem pode acessar os imóveis, enquanto estados e municípios doam terrenos, aprovam projetos e oferecem infraestrutura como água, esgoto e luz.</p>
+<p>O orçamento da União destina recursos anuais para o programa, e essas verbas são definidas no processo orçamentário pelo Congresso Nacional. Se houver cortes ou aumentos no orçamento habitacional, o número de casas construídas ou de famílias atendidas muda diretamente.</p>
+<p>Além disso, leis de zoneamento e uso do solo, aprovadas pelos municípios, determinam onde é permitido construir moradias de interesse popular e onde não é. Restrições de zoneamento podem encarecer o terreno e limitar a oferta de moradia perto dos centros de emprego.</p>
+
+<h2>Transporte: quem paga e onde o ônibus passa</h2>
+<p>O transporte público urbano é responsabilidade principalmente dos municípios, que regulam linhas de ônibus, trens metropolitanos, metrôs e ciclovias. Em muitas cidades, o serviço é operado por empresas privadas sob contrato com a prefeitura, que define o valor da tarifa, a frota mínima e os horários de operação.</p>
+<p>O governo federal também participa por meio de financiamentos para metrôs, trens urbanos e corredores de ônibus, liberados por meio de programas do Ministério das Cidades e de bancos públicos como a Caixa e o BNDES. Esses recursos dependem de prioridades orçamentárias definidas em Brasília.</p>
+<p>Decisões sobre criar ou não faixas exclusivas para ônibus, instalar ciclovias ou reajustar tarifas são tomadas pelas prefeituras, com apreciação das câmaras municipais quando há impacto no orçamento local. Por isso, o transporte público varia tanto de cidade para cidade: reflete escolhas políticas locais.</p>
+
+<h2>Saúde: recursos, leitos e a gestão do SUS</h2>
+<p>O Sistema Único de Saúde (SUS) é universal e gratuito, mas sua qualidade e sua cobertura dependem de decisões políticas em três níveis de governo. O Ministério da Saúde define a política nacional, transfere recursos para estados e municípios e programa ações como campanhas de vacinação e distribuição de medicamentos.</p>
+<p>Os recursos do SUS vêm do orçamento da União, dos estados e dos municípios. Cada ente federado tem uma obrigação constitucional de aplicar um percentual mínimo de sua receita em saúde. Se um município ou estado investe abaixo do necessário, faltam leitos, médicos e remédios na rede pública.</p>
+<p>A decisão de construir ou fechar um hospital, de abrir ou não uma unidade básica de saúde e de contratar mais profissionais é tomada pelos gestores locais (prefeitos e governadores), dentro dos limites do orçamento aprovado pelas câmaras municipais e pelas assembleias legislativas. Filas para exames e cirurgias, portanto, estão diretamente ligadas à quantidade de recursos alocados e à forma como são geridos.</p>
+
+<h2>O papel do orçamento e das leis</h2>
+<p>Todas essas áreas — moradia, transporte e saúde — competem por recursos no orçamento público. O Congresso Nacional vota o orçamento anual da União, e as assembleias legislativas e câmaras municipais votam os orçamentos estaduais e municipais. Cada real destinado a um setor deixa de estar disponível para outro, e essas escolhas refletem prioridades políticas.</p>
+<p>Leis também criam direitos e obrigações. Por exemplo, a lei que estabelece a gratuidade do transporte para idosos, a lei que define o piso salarial de enfermeiros e a lei que regulamenta o Minha Casa, Minha Vida são instrumentos que afetam diretamente a vida urbana.</p>
+
+<h2>Conclusão</h2>
+<p>Moradia, transporte e saúde não são apenas problemas de gestão ou de falta de dinheiro. São resultados de decisões políticas sobre quanto investir, onde investir e para quem investir. Votar em prefeitos, governadores, deputados e senadores é, portanto, escolher quem definirá essas prioridades. Para melhorar a vida na cidade, o cidadão precisa acompanhar não apenas a execução dos serviços, mas também as leis e os orçamentos que os tornam possíveis.</p>
+`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['moradia', 'transporte público', 'saúde', 'SUS', 'Minha Casa Minha Vida', 'orçamento público', 'política urbana'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Metrô_de_São_Paulo.jpg?width=960',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Hudson Rodrigues',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Metrô_de_São_Paulo.jpg',
+    imageAlt: 'Transporte público de São Paulo',
+    sources: [
+      { title: 'Ministério das Cidades', url: 'https://www.gov.br/cidades/', type: 'agency' },
+      { title: 'Ministério da Saúde - SUS', url: 'https://www.gov.br/saude/', type: 'agency' },
+      { title: 'Constituição Federal de 1988 - Saúde e Previdência', url: 'https://www.planalto.gov.br/ccivil_03/constituicao/Constituicao compilada.pdf', type: 'agency' },
+    ],
+    relatedArticles: ['congresso-poder-presidente-limitar-ampliar-proximo', 'seguranca-publica-responsabilidades-governo-federal-estado-municipio'],
+  },
 ];
