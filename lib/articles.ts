@@ -968,34 +968,49 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     id: '15',
     slug: 'edicao-genetica-crispr',
     title: 'Edição Genética CRISPR: Como Funciona e o que Pode Mudar',
-    excerpt: 'A técnica CRISPR permite modificar o DNA com precisão, abrindo caminhos na medicina e na biotecnologia. Entenda como ela funciona e seus desafios.',
+    excerpt: 'CRISPR corta e reprograma trechos específicos do DNA. Entenda como a tesoura molecular funciona, o que já saiu do laboratório — do primeiro medicamento aprovado com a tecnologia à agricultura — e quais limites éticos estão em discussão.',
     content: `
-      <h2>Revolução na Biologia</h2>
-      <p>A edição CRISPR é uma das técnicas mais importantes da biologia moderna. Inspirada em um mecanismo natural de defesa de bactérias, ela permite cortar e modificar trechos específicos do DNA com precisão inédita.</p>
+            <h2>Revolução na Biologia</h2>
+            <p>A edição genética com CRISPR é uma das técnicas mais transformadoras da biologia moderna. Inspirada em um mecanismo natural de defesa das bactérias, ela permite cortar e modificar trechos específicos do DNA com uma precisão, uma velocidade e um custo que as gerações anteriores de ferramentas não alcançavam. Em pouco mais de uma década, a técnica saiu do laboratório até um medicamento aprovado por reguladores de saúde — e continua gerando debate sobre até onde é aceitável ir.</p>
 
-      <h2>De Onde Vem o CRISPR?</h2>
-      <p>O nome vem de sequências repetitivas encontradas no DNA de bactérias. Na natureza, esse sistema ajuda as bactérias a reconhecer e destruir o DNA de vírus invasores. Cientistas adaptaram esse mecanismo como uma "tesoura molecular" controlável.</p>
+            <h2>De Onde Vem o CRISPR?</h2>
+            <p>O nome vem de <em>Clustered Regularly Interspaced Short Palindromic Repetitions</em> — repetições curtas agrupadas e espaçadas regularmente, sequências encontradas no DNA de muitas bactérias. Na natureza, o sistema funciona como um arquivo de memória imunológica: quando um vírus (um bacteriófago) ataca, a bactéria guarda um pedaço do DNA invasor entre essas repetições. Se o mesmo vírus aparecer de novo, ela reconhece a sequência e usa enzimas associadas ao CRISPR — as proteínas Cas — para cortar o material genético do invasor.</p>
+            <p>Essas sequências foram observadas pela primeira vez em bactérias no início dos anos 1990, mas só nos anos 2000 a comunidade científica entendeu como o sistema reconhece alvos e os corta. Em 2011, Emmanuelle Charpentier descreveu a molécula tracrRNA em <em>Streptococcus pyogenes</em> e iniciou a colaboração com Jennifer Doudna. Em 2012, as duas mostraram que a tesoura poderia ser reprogramada para cortar qualquer sequência de DNA escolhida pelo pesquisador. Em 2020, receberam juntas o Prêmio Nobel de Química pelo desenvolvimento de um método de edição genética.</p>
 
-      <h3>A Tesoura Molecular</h3>
-      <p>Com uma proteína guiada por uma sequência de RNA, a ferramenta encontra o trecho de DNA desejado e faz um corte. Depois, a célula pode corrigir o local, permitindo remover, inserir ou <a href="/ciencia/base-editing-lapis-edicao-genetica-desenvolvimento-humano">trocar genes</a>.</p>
+            <h3>Como a Tesoura Molecular Funciona</h3>
+            <p>O coração do sistema é uma dupla: uma enzima (a Cas9, a mais utilizada) e um RNA-guia sintético. O pesquisador desenha um RNA-guia de cerca de 20 letras, complementar ao trecho de DNA que quer cortar — é como programar o endereço de destino. O guia leva a enzima até o local, e a proteína só corta se encontrar, logo ao lado do alvo, uma breve sequência de sinalização chamada PAM (no Cas9 mais usado, a padrão é NGG). Sem essa sequência, a enzima não age — detalhe que explica por que nem todo ponto do genoma é editável e por que o RNA-guia precisa ser escolhido com cuidado.</p>
+            <p>Feito o corte de fita dupla, a parte mais fácil acabou: quem conserta o DNA é a própria célula, por uma de duas vias principais:</p>
+            <ul>
+              <li><strong>Junção de extremidades (NHEJ):</strong> é a rota mais rápida, funciona em quase qualquer momento do ciclo celular e não precisa de molde. Ela religa as pontas quebradas e, no processo, costuma inserir ou apagar algumas letras. Quando esse desvio acontece no meio de um gene, a proteína deixa de funcionar — é assim que se desliga um gene num experimento.</li>
+              <li><strong>Reparação por homologia (HDR):</strong> usa um molde de DNA fornecido pelo pesquisador e copia a sequência correta a partir dele, o que permite corrigir uma mutação pontual ou inserir um gene inteiro. É a via precisa, porém bem menos frequente na prática: aumentar a eficiência da HDR segue como um dos grandes desafios técnicos da área.</li>
+            </ul>
+            <p>Como a reparação por junção de extremidades é muito mais frequente, a maior parte dos experimentos de CRISPR produz interrupções de gene. A edição de escrita fina — corrigir letra por letra — ainda é o alvo de muita pesquisa, e é justamente o que ferramentas mais recentes tentam viabilizar.</p>
 
-      <h2>Testes e Pesquisas em Saúde</h2>
-      <p>O CRISPR abre possibilidades para tratar doenças genéticas diretamente na origem. Em laboratório, pesquisadores exploram aplicações como corrigir mutações causadoras de doenças hereditárias e desenvolver terapias celulares mais eficazes.</p>
+            <h2>Por Que o CRISPR Virou Padrão</h2>
+            <p>Editar genes não é novidade. Antes do CRISPR existiam as nucleases de dedo de zinco (ZFN) e os TALENs, que funcionam bem, mas exigiam projetar e construir uma proteína nova para cada alvo — um trabalho caro, lento e sujeito a erros de montagem. Com o CRISPR, basta sintetizar um RNA-guia diferente. Num estudo comparativo em peixes-zebra, a tecnologia foi seis vezes mais eficiente que ZFNs e TALENs na criação de mutações direcionadas. Essa simplicidade explica a disseminação explosiva da técnica desde 2012.</p>
 
-      <p>Porém, boa parte dessas aplicações ainda está em fases iniciais de pesquisa. O caminho do laboratório à prática clínica é longo e envolve rigorosas avaliações de segurança e eficácia.</p>
+            <h2>Do Laboratório à Clínica</h2>
+            <p>Vale separar duas coisas. A principal aplicação do CRISPR hoje ainda é a pesquisa básica: editar genes de leveduras, bactérias, camundongos e peixes-zebra para entender como o genoma dá origem a traços e doenças. A conversa clínica, porém, deixou de ser futurística.</p>
+            <p>Em dezembro de 2023, a FDA aprovou o Casgevy, o primeiro medicamento a utilizar CRISPR/Cas9, para o tratamento da anemia falciforme. O procedimento é feito fora do corpo: células-tronco do sangue do paciente são retiradas, editadas em laboratório e devolvidas a ele. O que esse resultado significa na prática — e o que ele não significa — está detalhado em <a href="/ciencia/crispr-terapia-genica-doencas-tratamento">CRISPR e terapia gênica</a>, junto com a diferença entre um número de ensaio e um tratamento de rotina.</p>
 
-      <h2>Aplicações na Agricultura e Indústria</h2>
-      <ul>
-        <li><strong>Culturas:</strong> variedades mais resistentes a pragas e clima</li>
-        <li><strong>Micro-organismos:</strong> fábricas biológicas de compostos úteis</li>
-        <li><strong>Pesquisa:</strong> modelos animais e celulares para estudo</li>
-      </ul>
+            <h2>Aplicações na Agricultura e Indústria</h2>
+            <ul>
+              <li><strong>Culturas:</strong> plantas com mais resistência a pragas, doenças e seca — avanços nessa linha foram destacados pela Academia Nobel ao anunciar o prêmio de 2020.</li>
+              <li><strong>Micro-organismos:</strong> bactérias e leveduras programadas para produzir enzimas, compostos químicos e biocombustíveis.</li>
+              <li><strong>Pesquisa:</strong> modelos animais e celulares de doenças, o motor silencioso de quase todos os avanços citados acima.</li>
+            </ul>
 
-      <h2>Desafios e Ética</h2>
-      <p>Editar o DNA humano levanta questões éticas profundas, especialmente sobre alterações hereditárias que afetariam futuras gerações. Decisões sobre limites de uso exigem discussão global, regras claras e supervisão responsável.</p>
+            <h2>O Que Pode Dar Errado</h2>
+            <p>Nenhuma ferramenta é perfeita. Se o RNA-guia reconhecer um trecho parecido em outro ponto do genoma, a enzima pode cortar fora do alvo — os chamados <em>off-targets</em> — e introduzir mudanças indesejadas. Por isso, os guias são validados experimentalmente e estratégias como o uso de enzimas modificadas foram desenvolvidas justamente para reduzir cortes acidentais. Há também o desafio prático de entregar a maquinaria até as células certas do corpo: relativamente simples num tubo de ensaio, complicado num organismo inteiro. E, para a edição precisa, a baixa eficiência da HDR limita o que é possível fazer hoje.</p>
+            <p>Uma evolução já em uso é a <a href="/ciencia/base-editing-lapis-edicao-genetica-desenvolvimento-humano">edição de bases</a>, que troca uma letra do DNA sem cortar as duas fitas, reduzindo o risco associado ao corte convencional.</p>
 
-      <h2>Conclusão</h2>
-      <p>O CRISPR representa um avanço transformador, mas com grande responsabilidade. Seu potencial é enorme para tratar doenças e melhorar a biotecnologia, desde que acompanhado de diálogo ético e governança rigorosa.</p>
+            <h2>Ética: Até Onde se Pode Ir</h2>
+            <p>Editar células do próprio paciente (edição somática) para tratar uma doença é avaliado de forma parecida com qualquer outra terapia: exige ensaios, aprovação e acompanhamento. Editar embriões é outra história: mudanças herdáveis podem ser transmitidas às gerações seguintes, alterando traços de pessoas que ainda não existem.</p>
+            <p>O caso que tirou o debate do papel aconteceu em novembro de 2018, quando um pesquisador chinês anunciou o nascimento de gêmeas com o genoma editado — a primeira reclamação pública de bebês editados em seres humanos — e provocou choque e condenação entre cientistas do mundo inteiro. Em julho de 2021, a Organização Mundial da Saúde publicou o primeiro conjunto global de recomendações sobre edição do genoma humano, propondo um registro de pesquisas e regras de governança em nove áreas, com atenção especial às edições herdáveis.</p>
+            <p>Decisões sobre limites exigem discussão global, regras claras e supervisão responsável — e seguem sendo, essencialmente, uma pergunta que a ciência sozinha não responde.</p>
+
+            <h2>Conclusão</h2>
+            <p>O CRISPR transformou um sistema de defesa imunológica de bactérias na ferramenta mais versátil de edição genética já criada. Do primeiro medicamento aprovado com a tecnologia à agricultura e à pesquisa básica, o potencial é enorme — e vem acompanhado de riscos técnicos e de decisões éticas que ainda estão em construção. Entre tesouras mais precisas, vias de reparo melhores e governança internacional, o capítulo mais difícil da história está sendo escrito agora.</p>
     `,
     category: {
       id: 'ciencia',
@@ -1015,14 +1030,44 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     imageAlt: 'Laboratório de pesquisa com equipamentos científicos e vidraria',
     sources: [
       {
-        title: 'NIH - How Does Genome Editing Work?',
+        title: 'NIH/NHGRI - How Does Genome Editing Work?',
         url: 'https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works',
         type: 'agency'
       },
       {
-        title: 'Nature - CRISPR Technology',
-        url: 'https://www.nature.com/subjects/crispr',
-        type: 'journal'
+        title: 'Nobel Prize - Nobel Prize in Chemistry 2020 press release',
+        url: 'https://www.nobelprize.org/prizes/chemistry/2020/press-release/',
+        type: 'official'
+      },
+      {
+        title: 'FDA - FDA Approves First Gene Therapies to Treat Patients with Sickle Cell Disease',
+        url: 'https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapies-treat-patients-sickle-cell-disease',
+        type: 'agency'
+      },
+      {
+        title: 'WHO - New recommendations on human genome editing (2021)',
+        url: 'https://www.who.int/news/item/12-07-2021-who-issues-new-recommendations-on-human-genome-editing-for-the-advancement-of-public-health',
+        type: 'agency'
+      },
+      {
+        title: 'Nature - Genome-edited baby claim provokes international outcry',
+        url: 'https://www.nature.com/articles/d41586-018-07545-0',
+        type: 'news'
+      },
+      {
+        title: 'Addgene - CRISPR 101: Non-Homologous End Joining',
+        url: 'https://blog.addgene.org/crispr-101-non-homologous-end-joining',
+        type: 'documentation'
+      },
+      {
+        title: 'Addgene - CRISPR 101: Homology Directed Repair',
+        url: 'https://blog.addgene.org/crispr-101-homology-directed-repair',
+        type: 'documentation'
+      },
+      {
+        title: 'Addgene - CRISPR Guide (PAM e enzimas Cas)',
+        url: 'https://www.addgene.org/guides/crispr/',
+        type: 'documentation'
       }
     ]
   },
@@ -3506,29 +3551,39 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     id: '55',
     slug: 'oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar',
     title: 'Oceanos Profundos: O Que Ainda Não Conhecemos do Fundo do Mar',
-    excerpt: 'Mais de 80% do oceano continua inexplorado. Entre espécies desconhecidas e fenômenos extremos, descubra por que o fundo do mar é uma das últimas fronteiras do planeta.',
+    excerpt: 'Mais de 80% do oceano segue sem mapeamento e observação, e quase dois terços das espécies marinhas ainda não foram descritas. Veja as zonas das profundezas, a vida que existe sem luz e os números de 2026 que explicam por que o fundo do mar ainda é fronteira.',
     content: `
-      <h2>A Fronteira Mais Próxima e Menos Conhecida</h2>
-      <p>Quando imaginamos explorar o desconhecido, pensamos no espaço. Mas há um lugar igualmente misterioso bem aqui na Terra: <strong>as profundezas do oceano</strong>. Estima-se que grande parte do fundo do mar nunca tenha sido mapeada em detalhe e que um número imenso de espécies ainda esteja por ser descoberto.</p>
+            <h2>A Fronteira Mais Próxima e Menos Conhecida</h2>
+            <p>Quando imaginamos explorar o desconhecido, pensamos no espaço. Mas há um lugar igualmente misterioso bem aqui na Terra: <strong>as profundezas do oceano</strong>. O mar cobre cerca de 70% do planeta, tem uma área superficial de aproximadamente 360 milhões de quilômetros quadrados e uma profundidade média de 3.682 metros — e, mesmo assim, a NOAA resume o estado das coisas assim: mais de 80% do oceano continua não mapeado, não observado e não explorado.</p>
+            <p>Os números das espécies contam a mesma história: estima-se que de 700 mil a 1 milhão de espécies vivam no mar, e cerca de dois terços ainda esperam ser descritas oficialmente. A cada ano, a comunidade científica aceita em torno de 2.000 espécies novas — um ritmo que mede bem o quanto falta para conhecer a maior parte do nosso próprio planeta.</p>
 
-      <h2>Um Ambiente Extremo</h2>
-      <p>Nas fossas oceânicas, condições são hostis: <strong>escuridão total, pressões esmagadoras e frio intenso</strong>. Mesmo assim, a vida prospera. Fontes hidrotermais no fundo do mar abrigam ecossistemas que não dependem da luz solar, alimentando-se de energia química e desafiando o que achávamos que era necessário para a vida.</p>
+            <h2>Quão Profundo é o Oceano?</h2>
+            <p>O oceano se organiza em zonas definidas principalmente pela luz. Nos primeiros 200 metros fica a zona fotossintética, onde a luz ainda alcança e sustenta plantas e algas. Abaixo dela começa a zona crepuscular, em que a luz cai rapidamente; a partir dos 1.000 metros não resta luz alguma e a fotossíntese é impossível. Mais de 90% do volume oceânico está nesse mar profundo, abaixo dos 200 metros.</p>
+            <p>As condições mudam de patamar nesse ponto: a temperatura média das profundezas fica perto de 4 °C e a pressão varia de cerca de 40 a mais de 110 vezes a pressão da atmosfera na superfície. Em média, o fundo está a 3.682 metros, mas o relevo é irregular: o ponto mais profundo do planeta é a Depressão Challenger, na Fossa das Marianas, no Pacífico, com 10.935 metros.</p>
 
-      <h2>Descobertas Que Impressionam</h2>
-      <ul>
-        <li><strong>Espécies novas:</strong> organismos bizarros surgem a cada expedição</li>
-        <li><strong>Compostos úteis:</strong> substâncias com potencial para medicamentos e biotecnologia</li>
-        <li><strong>Registros do clima:</strong> sedimentos profundos guardam a história do clima do planeta</li>
-      </ul>
+            <h2>Um Ambiente Extremo e uma Vida Sem Sol</h2>
+            <p>Nas fossas oceânicas, condições são hostis: <strong>escuridão total, pressões esmagadoras e frio intenso</strong>. Mesmo assim, a vida prospera — e de um jeito que desafia a ideia de que tudo depende da luz do Sol.</p>
+            <p>Em vez da fotossíntese, muitos organismos profundos vivem de <strong>quimossíntese</strong>: bactérias usam a energia de reações químicas, como a oxidação do sulfeto de hidrogênio, para produzir alimento. Esse modo de vida só ficou visível em 1977, quando cientistas encontraram uma comunidade florescente ao redor de uma fonte hidrotermal no fundo do mar, sem um raio de luz. Desde então, comunidades quimossintéticas apareceram em fontes quentes, seepagens frias de gás, carcaças de baleias e até navios afundados — verdadeiros oásis num ambiente pobre em alimentos.</p>
 
-      <h2>Por Que Explorar é Tão Difícil</h2>
-      <p>Mergulhar no fundo do mar é tecnologicamente desafiador e caro. A pressão esmaga equipamentos comuns, e a comunicação subaquática é limitada. Por isso, veículos operados à distância e missões robóticas são essenciais, mas ainda alcançam apenas uma fração da vasta extensão oceânica.</p>
+            <h2>Descobertas Que Impressionam</h2>
+            <ul>
+              <li><strong>Espécies novas:</strong> quase 2.000 são descritas por ano, e a maior parte dos animais marinhos ainda não foi catalogada.</li>
+              <li><strong>Compostos úteis:</strong> organismos que vivem em condições extremas produzem substâncias com potencial para medicamentos e biotecnologia.</li>
+              <li><strong>Registros do clima:</strong> os sedimentos profundos guardam a história do clima do planeta, camada por camada.</li>
+            </ul>
 
-      <h2>O Futuro da Exploração</h2>
-      <p>Novas tecnologias de mapeamento, sensores e robôs autônomos prometem acelerar a exploração. O objetivo é <strong>mapear a fundo o oceano</strong> e entender melhor a biodiversidade marinha — essencial para proteger ecossistemas e lidar com mudanças climáticas.</p>
+            <h2>Por Que Explorar é Tão Difícil</h2>
+            <p>Mergulhar no fundo do mar é caro e tecnologicamente exigente. A pressão esmaga equipamentos comuns, a comunicação subaquática é limitada e a escuridão torna indispensáveis veículos operados à distância e missões robóticas — que, ainda assim, alcançam apenas uma fração da vasta extensão oceânica.</p>
+            <p>Antes de observar qualquer coisa, é preciso mapear. Satélites medem a superfície do mar e deduzem o formato do fundo, mas a leitura é grossa; para enxergar montes submarinos, cânones e naufrágios é necessário sonar multifeixe embarcado. Em abril de 2026, o projeto Seabed 2030 anunciou que 28,7% do assoalho oceânico global já estava mapeado em alta resolução — cerca de 104 milhões de km², com dados contribuídos por 220 organizações. E mapear não é o mesmo que ver: segundo a NOAA, menos de 0,001% do assoalho profundo já foi observado diretamente por expedições.</p>
 
-      <h2>Conclusão</h2>
-      <p>O oceano profundo é um lembrete de quanto ainda temos a aprender sobre nosso próprio planeta. Cada expedição revela que a vida é mais resistente e variada do que imaginamos — e que as maiores descobertas podem estar muito abaixo da superfície.</p>
+            <h2>O Futuro da Exploração</h2>
+            <p>O objetivo declarado é completar o mapa até 2030: o Seabed 2030, iniciativa da Fundação Nippon com o GEBCO, trabalha para consolidar todos os dados batimétricos num acervo público e gratuito, como projeto em destaque da Década do Oceano da ONU. Ao lado do mapeamento, chegam veículos autônomos, sensores mais precisos e câmeras de alta definição que prometem acelerar a exploração e reduzir o custo de cada expedição.</p>
+
+            <h2>Por Que Isso Importa</h2>
+            <p>Explorar o oceano não é apenas curiosidade. Os dados coletados ajudam a gerir e conservar recursos marinhos de forma sustentável, a encontrar compostos com potencial para terapias e alimentos, a entender mudanças de clima e tempo, e a responder melhor a terremotos e tsunamis. Cada missão também gera tecnologia que vira inovação e aproxima o público de um dos lugares mais desconhecidos do planeta.</p>
+
+            <h2>Conclusão</h2>
+            <p>O oceano profundo é um lembrete de quanto ainda temos a aprender sobre nosso próprio planeta: cerca de dois terços das espécies marinhas são desconhecidas e a maior parte do fundo nunca foi vista de perto. Cada expedição mostra que a vida é mais resistente e variada do que imaginamos — e que as maiores descobertas podem estar bem abaixo da superfície.</p>
     `,
     category: {
       id: 'curiosidades',
@@ -3548,12 +3603,42 @@ export const DEMONSTRATION_ARTICLES: Article[] = [
     imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Uncinateridae_Tretopleura_2.jpg',
     sources: [
       {
-        title: 'NOAA - Ocean exploration and research',
-        url: 'https://oceanexplorer.noaa.gov',
+        title: 'NOAA Ocean Exploration - How much of the ocean has been explored?',
+        url: 'https://oceanexplorer.noaa.gov/ocean-fact/explored/',
         type: 'agency'
       },
       {
-        title: 'Nature - Ocean science',
+        title: 'NOAA Ocean Exploration - How deep is the ocean?',
+        url: 'https://oceanexplorer.noaa.gov/ocean-fact/ocean-depth/',
+        type: 'agency'
+      },
+      {
+        title: 'NOAA Ocean Exploration - What is the "deep" ocean?',
+        url: 'https://oceanexplorer.noaa.gov/ocean-fact/deep-ocean/',
+        type: 'agency'
+      },
+      {
+        title: 'NOAA Ocean Exploration - Photosynthesis vs. chemosynthesis',
+        url: 'https://oceanexplorer.noaa.gov/ocean-fact/photochemo/',
+        type: 'agency'
+      },
+      {
+        title: 'NOAA National Ocean Service - How Many Species Live in the Ocean?',
+        url: 'https://oceanservice.noaa.gov/facts/ocean-species.html',
+        type: 'agency'
+      },
+      {
+        title: 'NOAA Ocean Exploration - Why do we explore the ocean?',
+        url: 'https://oceanexplorer.noaa.gov/ocean-fact/why/',
+        type: 'agency'
+      },
+      {
+        title: 'Seabed 2030 - Global seabed mapping reaches new milestone (April 2026)',
+        url: 'https://seabed2030.org/2026/04/20/global-seabed-mapping-reaches-new-milestone-as-five-million-square-kilometres-added-in-a-year/',
+        type: 'official'
+      },
+      {
+        title: 'Nature - Ocean sciences',
         url: 'https://www.nature.com/subjects/ocean-sciences',
         type: 'publication'
       }
@@ -13948,7 +14033,22 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     imageAlt: 'Computador pessoal clássico com monitor, ilustrando a evolução do hardware de PC.',
     sources: [
       { title: 'Microsoft — suporte oficial do Windows', url: 'https://support.microsoft.com/pt-br/windows', type: 'official' },
-    ]
+    ],
+    // Tarefa 60 — bloco adicionado ao artigo de maior intenção comercial do
+    // catálogo que ainda não tinha um ("devo fazer upgrade?"). A URL da RTX
+    // 5060 já é usada e verificada no artigo de escolha de placa de vídeo;
+    // nenhuma URL nova foi criada ou deduzida.
+    affiliate: {
+      products: [
+        {
+          label: 'Placa de vídeo GeForce RTX 5060 8GB Dual Fan (linha PNY)',
+          category: 'placa-de-video-rtx-50',
+          amazonUrl: 'https://link.amazon/B0bVOOrGS',
+          reason:
+            'Se o diagnóstico deste guia apontou a GPU como gargalo, esta é a placa de entrada da geração atual citada no nosso guia de escolha de placa de vídeo — confira o preço antes de decidir, porque em muitos casos ajustar resolução e sombras resolve sem gastar nada.'
+        },
+      ]
+    }
   },
   {
     id: '257',
@@ -14474,5 +14574,873 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
         },
       ]
     }
-  }
+  },
+  {
+    id: '266',
+    slug: 'como-reduzir-input-lag-jogos',
+    title: 'Como Reduzir o Input Lag em Jogos Competitivos',
+    excerpt: 'Input lag é o atraso entre apertar um botão e ver a ação na tela. Descubra de onde ele vem — monitor, VSync, GPU ou rede — e sete ajustes concretos para deixar a resposta mais imediata sem trocar de hardware.',
+    content: `
+      <p>Em jogo competitivo, poucos milissegundos separam um abate de uma derrota. <strong>Input lag</strong> é o tempo entre você apertar um botão e a resposta aparecer na tela — e, diferente do FPS, ele não aparece em nenhum contador por padrão. A boa notícia: boa parte desse atraso vem de configurações que você pode mudar de graça. Este artigo mostra de onde o input lag vem, como medi-lo e quais ajustes reduzem a latência percebida antes de qualquer upgrade.</p>
+
+      <h2>De Onde Vem o Input Lag</h2>
+      <p>A latência total é a soma de várias etapas, e cada uma contribui com alguns milissegundos:</p>
+      <ul>
+        <li><strong>Mouse/teclado → PC:</strong> taxa de polling do periférico e do driver. Mouses comuns usam 125 Hz (8 ms); os de alto desempenho chegam a 1000 Hz (1 ms).</li>
+        <li><strong>Processamento da CPU/GPU:</strong> o tempo para calcular o próximo quadro. Quanto maior o FPS, menor o intervalo entre quadros e menor a latência.</li>
+        <li><strong>Fila de renderização:</strong> buffers que suavizam o FPS médio, mas adicionam atraso — é o principal custo do VSync.</li>
+        <li><strong>Monitor:</strong> tempo de resposta dos pixels e taxa de atualização. Um painel de 60 Hz, no melhor caso, entrega um quadro a cada 16,7 ms.</li>
+        <li><strong>Rede (só em online):</strong> ping até o servidor, distinto do input lag local, mas soma na percepção de resposta.</li>
+      </ul>
+      <p>Perceba que monitor e taxa de atualização costumam dominar a conta. Um setup de 360 Hz entrega quadros a cada 2,8 ms, contra 16,7 ms de um painel de 60 Hz — uma diferença que o jogador sente na hora.</p>
+
+      <h2>Sete Ajustes para Reduzir a Latência</h2>
+
+      <h3>1. Desligue o VSync (ou use baixa latência)</h3>
+      <p>O VSync sincroniza o jogo à taxa do monitor para eliminar o <em>screen tearing</em>, mas cria filas de quadros que aumentam o atraso. Em jogo competitivo, o padrão é desligá-lo e priorizar a resposta. Se o rasgo de imagem incomodar, prefira as tecnologias de baixa latência em vez do VSync clássico.</p>
+
+      <h3>2. Ative as tecnologias de baixa latência</h3>
+      <p>Placas NVIDIA trazem o <strong>Reflex</strong>, que limita a fila de renderização e reduz a latência especialmente quando a GPU não está saturada. Placas AMD têm o <strong>Anti-Lag</strong>, com função parecida. Os dois atuam no driver e valem a pena em títulos competitivos — muitos monitores modernos também trazem certificação que atesta a latência de ponta a ponta do sistema.</p>
+
+      <h3>3. Use taxa de atualização variável (VRR)</h3>
+      <p>Quando o FPS do jogo oscila, o VRR (G-SYNC Compatible na NVIDIA, FreeSync na AMD) ajusta a atualização do monitor ao ritmo dos quadros. Isso elimina o tearing <em>sem</em> a fila de quadros do VSync, mantendo a latência baixa. Confirme que o VRR está ativo no driver e na configuração do Windows.</p>
+
+      <h3>4. Suba o FPS antes de tudo</h3>
+      <p>Latência e FPS andam juntos: mais quadros por segundo significam intervalos menores entre eles. Se o desempenho está baixo, o caminho é o diagnóstico de sempre — <a href="/games/fps-caindo-como-descobrir-gargalo-pc-gamer">descobrir o gargalo antes de trocar peças</a> rende mais do que qualquer configuração. Resolução e detalhes gráficos mais baixos também elevam o FPS em cenas competitivas.</p>
+
+      <h3>5. Aumente a taxa de polling do periférico</h3>
+      <p>No software do mouse, eleve a taxa de polling para 1000 Hz quando o cabo e a porta USB permitirem. Em teclados, o <em>debounce</em> e a taxa de varredura têm efeito menor, mas ainda perceptível. Em controle, use conexão com fio em vez de Bluetooth, que adiciona atraso.</p>
+
+      <h3>6. Escolha o modo de exibição correto</h3>
+      <p>Deixe o jogo em tela cheia exclusiva, não em janela sem borda, quando possível — a composição do desktop insere uma camada extra de latência. Desative recursos do sistema que redesenham a tela durante a partida e mantenha o monitor na entrada e na taxa de atualização mais altas suportadas pelo cabo.</p>
+
+      <h3>7. Cheque o cabo e a porta do monitor</h3>
+      <p>DisplayPort costuma entregar taxas de atualização mais altas que HDMI em placas e monitores da mesma geração. Um cabo ruim ou uma porta antiga limitam silenciosamente os Hz — e o monitor roda em 60 Hz sem você notar. Confirme nas configurações de vídeo do Windows a taxa real em uso.</p>
+
+      <h2>Monitor é o Maior Retorno</h2>
+      <p>Se depois de todos os ajustes ainda quiser ganhar resposta, o monitor é o componente com maior efeito percebido, à frente da placa de vídeo. Um painel de 144–240 Hz com baixo tempo de resposta muda a sensação de controle mais do que qualquer outra peça — e o mercado de <a href="/games/monitores-oled-gamers-nova-geracao">monitores gamers de nova geração</a> já traz tempos de resposta na casa do submilissegundo. Antes de comprar, vale ler <a href="/games/como-escolher-placa-de-video-para-pc-gamer">como escolher placa de vídeo</a> para garantir que a GPU consegue alimentar a taxa de quadros que o novo monitor pede.</p>
+
+      <h2>Conclusão</h2>
+      <p>Input lag raramente tem uma causa única: é a soma de periférico, configuração, GPU e monitor. Desligar o VSync, ativar Reflex ou Anti-Lag, usar VRR, maximizar o FPS, subir a taxa de polling, jogar em tela cheia e conferir o cabo resolve a maior parte do atraso sem gastar nada. Meça a sensação antes e depois de cada mudança — em jogo competitivo, milissegundos são moeda de troca.</p>`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['input lag', 'latência', 'jogos competitivos', 'monitor', 'vsync', 'performance'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Gaming-Monitor_ausgestellt_20190202_185511_Kopie.jpg/960px-Gaming-Monitor_ausgestellt_20190202_185511_Kopie.jpg',
+    imageAlt: 'Monitor gamer em exposição, com a tela ligada exibindo imagens coloridas.',
+    imageLicense: 'CC BY 4.0',
+    imageArtist: 'PantheraLeo1359531',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Gaming-Monitor_ausgestellt_20190202_185511_Kopie.jpg',
+    sources: [
+      { title: 'NVIDIA — Reflex: Latency Reduction Technologies', url: 'https://www.nvidia.com/en-us/geforce/technologies/reflex/', type: 'company' },
+      { title: 'AMD — FreeSync Premium e FreeSync Premium Pro', url: 'https://www.amd.com/en/technologies/freesync', type: 'company' },
+      { title: 'NVIDIA — Variable Refresh Rate e monitores G-SYNC Compatible', url: 'https://www.nvidia.com/en-us/geforce/products/g-sync-monitors/', type: 'company' }
+    ],
+    relatedArticles: ['fps-caindo-como-descobrir-gargalo-pc-gamer', 'monitores-oled-gamers-nova-geracao', 'como-escolher-placa-de-video-para-pc-gamer'],
+  },
+  {
+    id: '267',
+    slug: 'pcs-portateis-para-jogos-handhelds-guia',
+    title: 'PCs Portáteis para Jogos: O Que Saber Antes de Comprar',
+    excerpt: 'Handhelds PC rodam sua biblioteca de jogos no sofá ou no transporte, mas têm bateria modesta e pedem ajustes. Veja o que observar na tela, autonomia, calor, ergonomia e armazenamento antes de comprar.',
+    content: `
+      <p>PCs portáteis para jogos — os <em>handhelds</em> — saíram de nicho e viraram uma categoria própria. Em vez de um notebook grande e pesado, você carrega um aparelho do tamanho de um controle, com tela embutida, que roda a sua biblioteca de jogos de PC. Mas será que ele serve para o seu uso? Este guia explica o que existe no mercado, no que prestar atenção na hora de escolher e para quem esse formato faz sentido.</p>
+
+      <h2>O Que É um PC Portátil para Jogos</h2>
+      <p>Diferente de um console portátil tradicional, um handheld PC roda um sistema operacional de desktop (Windows ou Linux) e acessa a mesma biblioteca de jogos do seu computador — Steam, Epic, Game Pass e por aí vai. O resultado é um aparelho que combina a conveniência de jogar no sofá ou no transporte com o catálogo aberto do PC.</p>
+      <p>Para entender o contexto, vale lembrar a diferença de proposta: um <a href="/games/cloud-gaming">serviço de jogos na nuvem</a> transmite o jogo de um servidor remoto, enquanto o handheld processa tudo localmente, no aparelho que está na sua mão. Isso significa independência de internet, mas também limite de hardware e bateria.</p>
+
+      <h2>O Que Observar Antes de Comprar</h2>
+      <ul>
+        <li><strong>Tela:</strong> tamanho e resolução definem o consumo e o desempenho. Telas de 7 a 8 polegadas em 1280×800 são o padrão; resoluções maiores exigem mais da GPU e gastam mais bateria.</li>
+        <li><strong>Autonomia:</strong> o ponto fraco da categoria. Jogos 3D pesados costumam durar de 1 a 2 horas; títulos leves e indie passam disso. Desconfie de estimativas otimistas e procure medições independentes.</li>
+        <li><strong>Desempenho e calor:</strong> o processador e a placa integrada definem quais jogos rodam e em que nível gráfico. Corpo compacto esquenta, e o controle térmico muda mais a experiência do que o papel especifica.</li>
+        <li><strong>Ergonomia:</strong> peso e distribuição importam. Acima de certa marca, segurar o aparelho por muito tempo cansa. Se puder, teste antes.</li>
+        <li><strong>Armazenamento:</strong> jogos de PC são grandes. Modelos com slot para cartão microSD ou SSD substituível dão folga depois.</li>
+        <li><strong>Sistema e compatibilidade:</strong> verifique se os seus jogos rodam no aparelho. Títulos com anticheat online às vezes barram o Linux, e nem tudo que roda no seu desktop de mesa roda igual no portátil.</li>
+      </ul>
+
+      <h2>Como Ajustar para Ganhar Bateria e Desempenho</h2>
+      <p>Esses aparelhos expõem controles que um desktop comum esconde. Aprender a usá-los é o que separa uma boa experiência de uma frustração:</p>
+      <ul>
+        <li><strong>Limite de taxa de quadros (FPS):</strong> travar o jogo em 40 ou 60 FPS, em vez de deixar solto, reduz consumo e calor sem perder muito na percepção.</li>
+        <li><strong>Limite de energia (TDP):</strong> reduzir a potência do processador e da GPU aumenta a bateria e diminui o ruído, às custas de desempenho — o melhor amigo em jogo leve.</li>
+        <li><strong>Resolução e escala:</strong> rodar em resolução nativa costuma ser melhor do que forçar números maiores. Ajuste por jogo, não vale uma configuração única.</li>
+        <li><strong>Brilho da tela:</strong> o painel é um dos maiores consumidores. Em ambiente fechado, baixar o brilho estende bastante a autonomia.</li>
+      </ul>
+
+      <h2>Para Quem Faz Sentido</h2>
+      <p>O handheld PC é uma boa pedida para quem já tem uma biblioteca de jogos de PC e quer jogar em mais lugares, valoriza o catálogo aberto e topa ajustar configurações para equilibrar bateria e desempenho. Se a prioridade é só desempenho máximo em casa, um <a href="/games/como-montar-um-pc-gamer">PC de mesa montado sob medida</a> entrega mais pelo mesmo dinheiro. E se o que você quer é conveniência sem se preocupar com ajuste, talvez o <a href="/games/cloud-gaming">jogo na nuvem</a> ou um console tradicional seja mais simples.</p>
+      <p>Em resumo: o PC portátil não substitui o desktop — ele complementa. Entendido como um segundo aparelho, para jogar longe da mesa, o formato entrega exatamente o que promete.</p>
+
+      <h2>Conclusão</h2>
+      <p>PCs portáteis transformaram a conversa sobre onde é possível jogar. Eles rodam sua biblioteca de PC em qualquer lugar, ao custo de bateria modesta e da necessidade de ajustar cada título. Sabendo o que esperar — tela, autonomia, calor, ergonomia e armazenamento — e como configurar limite de FPS, TDP e brilho, o handheld deixa de ser curiosidade e vira uma forma prática de levar seus jogos para o sofá.</p>`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['handheld', 'pc portatil', 'steam deck', 'jogos', 'guia de compra'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 6,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Steam_Deck_%28front%29.png/960px-Steam_Deck_%28front%29.png',
+    imageAlt: 'Console portátil para jogos de PC visto de frente, com tela e dois controles nas laterais.',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Liam Dawe/GamingOnLinux, PNG version by VulcanSphere',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Steam_Deck_(front).png',
+    sources: [
+      { title: 'Valve — Steam Deck (página oficial e especificações)', url: 'https://store.steampowered.com/steamdeck', type: 'company' },
+      { title: 'Wikipedia — Handheld game console (contexto da categoria)', url: 'https://en.wikipedia.org/wiki/Handheld_game_console', type: 'other' }
+    ],
+    relatedArticles: ['cloud-gaming', 'como-montar-um-pc-gamer', 'quanto-de-ram-um-pc-gamer-precisa'],
+  },
+  {
+    id: '268',
+    slug: 'como-escolher-um-dns-mais-rapido-e-privado',
+    title: 'Como Escolher um DNS Mais Rápido e Privado',
+    excerpt: 'O DNS traduz nomes de sites em endereços IP. Trocar o resolvedor padrão do provedor por um serviço público confiável pode melhorar velocidade, privacidade e filtragem. Veja como escolher e trocar sem quebrar nada.',
+    content: `
+      <p>Quando você digita um endereço no navegador, o computador precisa traduzir aquele nome em um endereço IP antes de conectar. Quem faz essa tradução é o <strong>DNS</strong>, o sistema de nomes de domínio da internet. O provedor de internet já oferece um resolvedor por padrão, mas trocá-lo por outro pode deixar a navegação mais rápida, mais privada e, em alguns casos, mais segura. Este guia explica o que é DNS, por que a escolha do resolvedor importa e como trocar sem quebrar nada.</p>
+
+      <h2>O Que É DNS e Por Que Ele Importa</h2>
+      <p>Pense no DNS como a agenda de contatos da internet: você lembra do nome, ele devolve o número. Sem o DNS, você teria de decorar endereços IP para cada site. Esse processo acontece em milissegundos e se repete a cada nova conexão.</p>
+      <p>A escolha do resolvedor afeta três coisas na prática:</p>
+      <ul>
+        <li><strong>Velocidade:</strong> um resolvedor mais próximo e bem dimensionado responde antes, reduzindo o tempo até o site começar a carregar.</li>
+        <li><strong>Privacidade:</strong> por padrão, consultas DNS costumam trafegar em texto simples, de modo que o resolvedor enxerga quais sites você procura. Resolvedores que suportam DNS cifrado (DoH/DoT) reduzem essa exposição na rede local.</li>
+        <li><strong>Segurança e filtragem:</strong> alguns resolvedores bloqueiam domínios conhecidamente maliciosos ou usados para phishing antes de a conexão sequer começar.</li>
+      </ul>
+      <p>Vale conectar isso ao básico: se você ainda não sabe como o endereçamento funciona, comece por <a href="/tecnologia/como-a-internet-funciona">como a internet funciona</a>. Para o lado de proteção, veja também <a href="/tecnologia/ciberseguranca-para-iniciantes">cibersegurança para iniciantes</a>.</p>
+
+      <h2>Resolvedores Públicos Conhecidos</h2>
+      <p>Existem serviços gratuitos mantidos por empresas e organizações. Cada um publica seus endereços e sua política de privacidade — leia antes de escolher:</p>
+      <ul>
+        <li><strong>Cloudflare (1.1.1.1):</strong> aposta em velocidade e privacidade, com suporte a DNS cifrado e uma variante que filtra domínios maliciosos.</li>
+        <li><strong>Google Public DNS (8.8.8.8):</strong> um dos mais antigos e usados, focado em desempenho e estabilidade.</li>
+        <li><strong>Quad9 (9.9.9.9):</strong> operado por uma fundação, bloqueia por padrão domínios associados a malware e botnets.</li>
+      </ul>
+      <p>Nenhum desses serviços exige conta nem rastreia seu histórico para vender anúncios, segundo suas próprias políticas — mas a política de cada um pode mudar, então confirme na documentação oficial na hora de configurar.</p>
+
+      <h2>Como Trocar o DNS no Seu Dispositivo</h2>
+      <p>A troca é feita nas configurações de rede. O caminho difere por sistema, mas a lógica é a mesma: informar os endereços do resolvedor primário e do secundário.</p>
+      <ul>
+        <li><strong>Windows:</strong> em Configurações &gt; Rede e Internet &gt; propriedades do adaptador, edite a atribuição do servidor DNS e informe os endereços IPv4 (e IPv6, se quiser).</li>
+        <li><strong>Roteador:</strong> a forma mais abrangente é trocar o DNS no roteador, protegendo todos os aparelhos da casa de uma vez. Consulte o painel do fabricante.</li>
+        <li><strong>Por aparelho:</strong> celulares e computadores permitem DNS manual nas configurações de Wi-Fi, útil quando você não controla o roteador.</li>
+      </ul>
+      <p>Se a conexão doméstica é o gargalo, antes de culpar o DNS confira <a href="/tecnologia/wi-fi-lento-como-escolher-roteador-que-resolva">o que fazer quando o Wi-Fi está lento</a> — às vezes o problema é o roteador, não o resolvedor.</p>
+
+      <h2>Cuidados Antes de Mudar</h2>
+      <p>Trocar de DNS é reversível e de baixo risco, mas três pontos merecem atenção:</p>
+      <ul>
+        <li><strong>Anote os valores antigos</strong> para poder voltar atrás se algo sair do esperado.</li>
+        <li><strong>Filtragem pode bloquear demais:</strong> resolvedores com filtro de conteúdo às vezes barram sites legítimos. Se um site específico parar de abrir, teste com outro resolvedor antes de culpar o site.</li>
+        <li><strong>DNS cifrado não é anonimato:</strong> ele esconde as consultas de quem observa a rede, mas o resolvedor ainda processa os pedidos. Para navegação totalmente anônima, a conversa é outra.</li>
+      </ul>
+
+      <h2>Conclusão</h2>
+      <p>O DNS funciona nos bastidores e passa despercebido — até o momento em que a navegação parece lenta ou você começa a pensar em privacidade. Trocar o resolvedor por um serviço público confiável é um ajuste gratuito, reversível e que pode melhorar velocidade e privacidade. Teste um resolvedor, meça a diferença no dia a dia e, se não gostar, volte à configuração anterior em minutos.</p>`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['dns', 'privacidade', 'rede', 'velocidade', 'internet'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 6,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Server_Rack_%2854126210834%29.jpg/960px-Server_Rack_%2854126210834%29.jpg',
+    imageAlt: 'Rack de servidores em datacenter, com equipamentos de rede empilhados e cabos conectados.',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Tony Webster',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Server_Rack_(54126210834).jpg',
+    sources: [
+      { title: 'Cloudflare — 1.1.1.1: documentação do resolvedor público', url: 'https://developers.cloudflare.com/1.1.1.1/', type: 'company' },
+      { title: 'Google — Google Public DNS: documentação', url: 'https://developers.google.com/speed/public-dns', type: 'company' },
+      { title: 'Quad9 — resolvedor público focado em segurança', url: 'https://www.quad9.net/', type: 'other' }
+    ],
+    relatedArticles: ['como-a-internet-funciona', 'ciberseguranca-para-iniciantes', 'wi-fi-lento-como-escolher-roteador-que-resolva'],
+  },
+  {
+    id: '269',
+    slug: 'como-detectar-conteudo-gerado-por-ia-marcas-dagua',
+    title: 'Como Detectar Conteúdo Gerado por IA: Marcas de Água e Proveniência',
+    excerpt: 'Imagens, vídeos e textos feitos por IA já enganam o olho humano. Entenda por que detectar é difícil, quais sinais e ferramentas existem e como marcas de água como SynthID e o padrão C2PA ajudam a comprovar a origem.',
+    content: `
+      <p>Imagens, vídeos, áudios e textos gerados por inteligência artificial estão por toda parte — e, em muitos casos, são indistinguíveis do conteúdo humano a olho nu. À medida que deepfakes e imagens sintéticas se espalham, cresce a procura por formas de detectar o que é real. Este artigo explica por que detectar conteúdo de IA é difícil, quais sinais e ferramentas existem hoje e o que muda com as marcas de proveniência.</p>
+
+      <h2>Por Que Detectar É Difícil</h2>
+      <p>Os modelos generativos atuais produzem resultados cada vez mais coerentes. O que antes entregava mãos com seis dedos ou texto com erros óbvios, hoje passa por real na maioria das visualizações rápidas. Some-se a isso o fato de que não existe um único "carimbo" universal: cada ferramenta gera conteúdo de um jeito, e muitas não deixam assinatura evidente.</p>
+      <p>Ou seja: confiar na observação humana já não basta. A detecção precisa combinar sinais técnicos, ferramentas especializadas e, principalmente, metadados de proveniência — informação que acompanha o arquivo desde a criação.</p>
+
+      <h2>Sinais Que Podem Levantar Suspeita</h2>
+      <p>Nenhum sinal isolado prova que algo é falso, mas alguns padrões merecem atenção:</p>
+      <ul>
+        <li><strong>Incoerências anatômicas e de contexto:</strong> mãos, dentes, óculos, sombras e reflexos continuam sendo pontos fracos frequentes da geração de imagem.</li>
+        <li><strong>Texto embutido na imagem:</strong> placas, telas e rótulos com letras embaralhadas são um clássico defeito de modelos de imagem.</li>
+        <li><strong>Áudio e vídeo:</strong> dessincronia labial, padrões de piscada estranhos e voz metálica podem indicar síntese — assunto que já tratamos em <a href="/filmes-series/deepfake-cinema-rostos-sinteticos-impacto">deepfakes e rostos sintéticos no cinema</a>.</li>
+        <li><strong>Ausência de metadados:</strong> arquivos sem informação de câmera, software ou histórico levantam dúvida, mas a ausência não é prova — metadados são fáceis de remover.</li>
+      </ul>
+      <p>Importante: esses sinais ajudam a desconfiar, não a concluir. Interpretação errada de um detalhe pode condenar conteúdo legítimo.</p>
+
+      <h2>Marcas de Água e Proveniência</h2>
+      <p>A resposta mais robusta não é detectar depois, e sim registrar na origem. Duas frentes se destacam:</p>
+      <ul>
+        <li><strong>Marcas d'água em modelos:</strong> algumas empresas incorporam marcas imperceptíveis nas saídas dos próprios modelos de IA. O <strong>SynthID</strong>, do Google DeepMind, marca conteúdo gerado por texto, imagem, áudio e vídeo para que possa ser identificado depois, sem estragar a qualidade percebida.</li>
+        <li><strong>Proveniência de conteúdo (C2PA):</strong> um padrão aberto que anexa "credenciais" ao arquivo, registrando quem e como ele foi criado ou editado. A ideia é um selo de autenticidade que viaja com a mídia.</li>
+      </ul>
+      <p>Quando o criador e a plataforma adotam essas tecnologias, verificar a origem fica muito mais confiável do que adivinhar por pixels.</p>
+
+      <h2>Ferramentas e Limites</h2>
+      <p>Existem detectores automáticos — alguns públicos, outros comerciais — que tentam classificar se um conteúdo veio de IA. Todos compartilham o mesmo calcanhar de Aquiles: foram treinados em exemplares do passado e perdem precisão conforme surgem modelos novos. Um resultado "98% IA" não é sentença; é mais um dado a considerar.</p>
+      <p>Por isso, a abordagem responsável combina três camadas: os sinais visuais e contextuais, as ferramentas de detecção e a checagem de proveniência. No terreno da ética e do uso correto dessas tecnologias, vale ler também <a href="/inteligencia-artificial/etica-e-vieses-da-ia">ética e vieses da IA</a>. E, como a IA generativa já roda dentro do celular, <a href="/inteligencia-artificial/ia-no-celular-o-que-roda-no-aparelho-vs-nuvem">o que roda no aparelho versus na nuvem</a> ajuda a entender de onde vem esse conteúdo.</p>
+
+      <h2>Conclusão</h2>
+      <p>Detectar conteúdo gerado por IA está se tornando menos sobre "adivinhar pelo arquivo" e mais sobre "comprovar pela origem". Sinais técnicos e detectores automáticos ajudam, mas têm limite. O caminho mais confiável é a adoção de marcas de água e de padrões de proveniência como o C2PA, que permitem rastrear a autoria da mídia. Até essa adoção ser ampla, desconfie de certezas absolutas — dos dois lados.</p>`,
+    category: { id: 'inteligencia-artificial', slug: 'inteligencia-artificial', name: 'Inteligência Artificial', description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA', color: '#ec4899' },
+    tags: ['deepfake', 'detecao de ia', 'marcas de agua', 'c2pa', 'synthid', 'proveniencia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Artificial_Neural_Network_with_Chip.jpg/960px-Artificial_Neural_Network_with_Chip.jpg',
+    imageAlt: 'Representação de rede neural artificial ao lado de um chip, ilustrando modelos de aprendizado de máquina.',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'mikemacmarketing',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Artificial_Neural_Network_with_Chip.jpg',
+    sources: [
+      { title: 'Google DeepMind — SynthID: marcação de conteúdo gerado por IA', url: 'https://deepmind.google/technologies/synthid/', type: 'company' },
+      { title: 'C2PA — Content Credentials e especificações de proveniência', url: 'https://c2pa.org/specifications/', type: 'other' },
+      { title: 'NIST — AI Risk Management Framework', url: 'https://www.nist.gov/itl/ai-risk-management-framework', type: 'government' },
+      { title: 'Comissão Europeia — Regulatory Framework for AI (AI Act)', url: 'https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai', type: 'government' }
+    ],
+    relatedArticles: ['deepfake-cinema-rostos-sinteticos-impacto', 'etica-e-vieses-da-ia', 'ia-no-celular-o-que-roda-no-aparelho-vs-nuvem'],
+  },
+  {
+    id: '270',
+    slug: 'terras-raras-controles-exportacao-china-tecnologia',
+    title: 'Terras-Raras: Como os Controles de Exportação da China Mexem com a Tecnologia',
+    excerpt: 'Em outubro de 2025 a China ampliou os controles de exportação de terras-raras, com regra de 0,1% e alcance extraterritorial. Separe fatos de análise e entenda por que isso afeta a cadeia de tecnologia global.',
+    content: `
+      <p>Em outubro de 2025, a China anunciou um conjunto de controles de exportação sobre terras-raras e tecnologias relacionadas que foi descrito por analistas como um dos mais abrangentes já impostos nessa área. Como a China domina boa parte do processamento desses minerais — essenciais para eletrônicos, carros elétricos e defesa —, a medida teve efeitos imediatos sobre cadeias de produção globais. Este artigo separa o que é fato documentado do que é análise e explica por que isso importa para a tecnologia do dia a dia.</p>
+
+      <h2>O Que Aconteceu (Fatos)</h2>
+      <p>Os pontos abaixo vêm de fontes oficiais e de instituições de análise, e são fatos, não interpretações:</p>
+      <ul>
+        <li>Em <strong>9 de outubro de 2025</strong>, o Ministério do Comércio da China (MOFCOM) publicou o <strong>Anúncio nº 61 de 2025</strong>, que estende controles de exportação a itens de terras-raras fabricados no exterior quando contiverem materiais ou tecnologia de origem chinesa.</li>
+        <li>O anúncio estabelece uma regra de <strong>mínimo de 0,1%</strong>: produtos feitos fora da China que incorporem materiais chineses de terras-raras a partir desse percentual de valor passam a exigir licença de exportação chinesa.</li>
+        <li>A medida tem <strong>alcance extraterritorial</strong> declarado: alcança também itens produzidos no exterior usando tecnologia chinesa de mineração, separação, fundição e fabricação de ímãs de terras-raras.</li>
+        <li>Segundo o próprio texto, a parte relativa a itens de origem chinesa entrou em vigor na data da publicação, enquanto os trechos sobre itens estrangeiros com conteúdo ou tecnologia chinesa têm início previsto para <strong>1º de dezembro de 2025</strong>.</li>
+        <li>A análise do <strong>CSIS</strong> registra que a maior produtora de terras-raras separadas fora da China, a australiana <strong>Lynas</strong>, ainda envia óxidos para refinamento na China, e que a Austrália deve depender do refino chinês de terras-raras <strong>até pelo menos 2026</strong>.</li>
+      </ul>
+
+      <h2>Por Que Isso Importa</h2>
+      <p>Terras-raras não são um metal único, mas um grupo de 17 elementos usados em ímãs permanentes de alta performance. Esses ímãs estão em motores elétricos, turbinas eólicas, discos rígidos, alto-falantes e em diversos componentes de defesa. Elementos mais pesados, como disprósio e térbio, são especialmente concentrados nas mãos de poucos produtores.</p>
+      <p>O efeito prático de um controle de exportação com regra de mínimo tão baixa é que ele alcança cadeias de fornecimento muito além das fronteiras chinesas: um componente montado na Europa ou na Coreia do Sul pode cair na regra se usar material ou tecnologia chinesa acima do limite. Isso transforma uma decisão regulatória nacional em um fator de risco para indústrias no mundo inteiro.</p>
+      <p>O tema se conecta diretamente a algo que já explicamos aqui: <a href="/tecnologia/por-que-taiwan-importa-tanto-para-os-chips">por que Taiwan importa tanto para os chips</a>. Em ambos os casos, a concentração geográfica de uma etapa crítica da produção — litografia avançada em um, refino de terras-raras no outro — cria vulnerabilidades que o mercado só percebe quando há turbulência. É a mesma lógica de risco que aparece em <a href="/tecnologia/exportacoes-petroleo-golfo-persico-estreito-de-ormuz">petróleo e o Estreito de Ormuz</a>, mas aplicada a minerais industriais em vez de energia.</p>
+
+      <h2>Fato versus Análise</h2>
+      <p>Vale manter a distinção clara entre o que está documentado e o que é interpretação:</p>
+      <ul>
+        <li><strong>Fato:</strong> a existência do Anúncio nº 61 de 2025, sua data, a regra de 0,1% e o alcance extraterritorial constam do texto oficial do MOFCOM.</li>
+        <li><strong>Fato:</strong> a dependência do refino de terras-raras fora da China, incluindo o caso da Lynas, está registrada em análise do CSIS.</li>
+        <li><strong>Análise:</strong> as consequências de médio prazo — mudanças de preço, aceleração de projetos de mineração alternativos, respostas de blocos comerciais — são projeções de especialistas, não resultados garantidos, e seguem em aberto.</li>
+      </ul>
+      <p>Essa separação importa porque o assunto avança rápido: anúncios, suspensões e negociações podem alterar o quadro em semanas. O que não muda é a estrutura de fundo — alta concentração de uma etapa essencial da produção em um único país.</p>
+
+      <h2>Conclusão</h2>
+      <p>Os controles de exportação de terras-raras anunciados pela China em outubro de 2025 mostram como insumos pouco visíveis podem se tornar centrais na disputa tecnológica e econômica global. Os fatos — a regra de 0,1%, o alcance extraterritorial e a concentração do refino — são documentados; os desdobramentos futuros, não. Acompanhar as fontes oficiais e separar dado de interpretação é a melhor forma de entender um tema que continua em movimento.</p>`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['terras-raras', 'china', 'exportacao', 'minerais criticos', 'geopolitica', 'tecnologia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mountain_Pass_Rare_Earth_Mine_%26_Processing_Facility.jpg/960px-Mountain_Pass_Rare_Earth_Mine_%26_Processing_Facility.jpg',
+    imageAlt: 'Vista aérea da mina e unidade de processamento de terras-raras de Mountain Pass, nos Estados Unidos.',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Tmy350',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Mountain_Pass_Rare_Earth_Mine_%26_Processing_Facility.jpg',
+    sources: [
+      { title: 'MOFCOM — Anúncio nº 61 de 2025 (controles de exportação de terras-raras)', url: 'https://www.mofcom.gov.cn/zfxxgk/gkml/art/2025/art_439da9350b8d439cba2b9f0ed57a1de6.html', type: 'government' },
+      { title: 'CSIS — The Consequences of China\'s New Rare Earths Export Restrictions', url: 'https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions', type: 'other' },
+      { title: 'CSET (Georgetown) — Tradução do MOFCOM Notice 2025 No. 61', url: 'https://cset.georgetown.edu/publication/mofcom-notice-2025-61/', type: 'university' }
+    ],
+    relatedArticles: ['por-que-taiwan-importa-tanto-para-os-chips', 'exportacoes-petroleo-golfo-persico-estreito-de-ormuz'],
+  },
+  {
+    id: '271',
+    slug: 'conselho-seguranca-onu-veto-como-funciona',
+    title: 'Conselho de Segurança da ONU: Como Funciona o Veto que Paralisa o Mundo',
+    excerpt:
+      'Entenda quem tem poder de veto no Conselho de Segurança da ONU, como as resoluções são aprovadas e por que esse mecanismo, criado em 1945, continua no centro das maiores crises internacionais.',
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['onu', 'conselho-de-seguranca', 'veto', 'diplomacia', 'geopolitica'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 6,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/United_Nations_Security_Council_4-3-crop.jpeg/960px-United_Nations_Security_Council_4-3-crop.jpeg',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'Patrick Gruban',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:United_Nations_Security_Council_4-3-crop.jpeg',
+    sources: [
+      { title: 'What is the Security Council?', url: 'https://www.un.org/securitycouncil/content/what-security-council' },
+      { title: 'Voting System', url: 'https://main.un.org/securitycouncil/en/content/voting-system' },
+      { title: 'Vetoes since 1946', url: 'https://main.un.org/securitycouncil/en/content/vetoes-since-1946' },
+      { title: 'Security Council', url: 'https://main.un.org/securitycouncil/en' },
+      { title: 'The journey of a UN Security Council resolution', url: 'https://www.un.org/en/delegate/explainer-journey-un-security-council-resolution' },
+    ],
+    relatedArticles: [
+      'otan-artigo-5-como-funciona-alianca',
+      'terras-raras-controles-exportacao-china-tecnologia',
+      'exportacoes-petroleo-golfo-persico-estreito-de-ormuz',
+    ],
+    content: `
+<p>Quando um conflito explode em qualquer lugar do planeta, cedo ou tarde surge a mesma pergunta: o que as Nações Unidas vão fazer? Na prática, a resposta passa por um órgão de quinze países — e por um mecanismo que pode travar qualquer decisão: o <strong>poder de veto</strong>. Entender como ele funciona é entender os limites reais da diplomacia multilateral.</p>
+
+<h2>O que é o Conselho de Segurança</h2>
+<p>O Conselho de Segurança é o órgão das Nações Unidas ao qual foi atribuída a <strong>responsabilidade principal pela manutenção da paz e da segurança internacionais</strong>, segundo a própria ONU. Diferente de outras instâncias da organização, cujas resoluções muitas vezes são recomendações, as decisões do Conselho têm força obrigatória sobre os Estados-membros. Sua primeira sessão ocorreu em <strong>17 de janeiro de 1946</strong>, em Londres, na Church House; desde então, a sede do órgão é Nova York.</p>
+<p>O Conselho tem <strong>15 membros</strong>: cinco permanentes — China, Estados Unidos, França, Reino Unido e Rússia — e dez membros não permanentes, eleitos pela Assembleia Geral para mandatos de dois anos. Essa divisão não é uma formalidade decorativa: ela concentra poder em poucas mãos e é a raiz de quase todas as controvérsias sobre o funcionamento do órgão.</p>
+
+<h2>Como uma resolução é aprovada</h2>
+<p>O Artigo 27 da Carta da ONU estabelece a matemática do assunto. Decisões sobre questões processuais exigem <strong>nove votos</strong> entre os quinze membros. Para decisões de fundo — sanções, embargo de armas, autorização de uso da força — também são necessários nove votos, mas <strong>incluindo os votos concordantes dos membros permanentes</strong>. É esse detalhe que caracteriza o veto.</p>
+<p>Na prática, um texto só chega à votação formal depois de longas negociações. Um projeto passa por rascunhos iniciais, que circulam informalmente entre os membros. Quando nenhum acordo é possível, um membro permanente pode colocar seu voto contrário — e o texto morre ali, mesmo que tenha o apoio de catorze dos quinze países.</p>
+<p>Há um ponto de precisão jurídica que costuma passar despercebido: a <strong>abstenção não é, necessariamente, um veto</strong>. Um membro permanente pode se abster sem bloquear a aprovação, e a própria ONU reconhece que a prática do órgão interpreta a abstenção como não obstrutiva. O que importa é o voto negativo explícito.</p>
+
+<h2>O valor de registro e da contabilidade</h2>
+<p>A ONU mantém um registro público dos vetos desde 1946, organizado por país, data e assunto. Esse histórico permite uma observação simples e documentada pela própria organização: <strong>mais de dois terços de todos os vetos da história do Conselho de Segurança foram emitidos durante a era da Guerra Fria</strong>. O padrão refletia o bloqueio Leste-Oeste: enquanto Estados Unidos e União Soviética dominavam a contagem, os demais membros permanentes usavam a prerrogativa com muito menos frequência.</p>
+<p>Depois do fim da Guerra Fria, o padrão se pulverizou. A própria ONU descreve que o Conselho, antes concentrado em conflitos entre Estados, passou a atuar cada vez mais em <strong>conflitos internos e guerras civis</strong>, além de temas novos como terrorismo e proliferação. Com isso, o veto deixou de ser um instrumento simétrico entre dois blocos e passou a ser usado de forma mais dispersa — inclusive em situções de crise humanitária aguda.</p>
+
+<h2>A mudança de 2022: o veto que gera debate em plenário</h2>
+<p>Por décadas, um projeto vetado simplesmente desaparecia da pauta. Isso deixou de ser inteiramente verdade. Uma iniciativa proposta em 2015 pelo Liechtenstein, fortalecida ao longo dos anos seguintes, estabeleceu que, <strong>quando um veto é emitido, a Assembleia Geral se reúne automaticamente em dez dias úteis</strong> para discutir a questão. Desde então, o veto passou a ter um custo diplomático explícito: o membro que o utiliza é obrigado a se justificar diante de todos os países da ONU.</p>
+<p>O mecanismo não anula o veto — nada o faz —, mas muda a dinâmica política. Ele transforma um fim de discussão em início de debate, com registro público de quem bloqueou o quê, quando e por quê.</p>
+
+<h2>Por que o veto ainda existe</h2>
+<p>A explicação habitual remonta a 1945: os vencedores da Segunda Guerra não aceitariam um sistema de segurança coletiva capaz de autorizar ação contra eles próprios. Setenta e cinco anos depois, a estrutura permanece, e a discussão sobre sua reforma — composição do Conselho, novos membros permanentes, limitação do uso do veto em situações de atrocidades em massa — é um dos debates mais antigos e menos resolvidos da diplomacia contemporânea.</p>
+<p>Para o leitor que acompanha notícias internacionais, a utilidade prática desse conhecimento é direta: quando uma crise ganha os noticiários, a pergunta correta raramente é “a ONU vai intervir?”. A pergunta correta é <strong>“algum dos cinco membros permanentes barraria a decisão?”</strong> — porque é aí que a geopolítica real costuma aparecer. Vale a mesma lógica de outros choques recentes entre segurança e economia, como os <a href="/geopolitica/terras-raras-controles-exportacao-china-tecnologia">controles de exportação de terras-raras</a>, os tensionamentos no <a href="/tecnologia/exportacoes-petroleo-golfo-persico-estreito-de-ormuz">estreito de Ormuz</a> e o próprio equilíbrio militar da <a href="/geopolitica/otan-artigo-5-como-funciona-alianca">OTAN</a>.</p>
+
+<h2>Conclusão</h2>
+<p>O veto não é um detalhe protocolares do funcionamento da ONU: é o mecanismo que define o teto do que a organização consegue fazer diante de uma crise. Conhecer a regra dos nove votos, o registro público desde 1946 e a exigência de justificar-se na Assembleia Geral desde 2022 ajuda a ler manchetes com mais precisão — e a evitar a confusão entre o que a ONU decide, o que ela pode decidir e o que ela nunca decidirá.</p>
+`,
+  },
+  {
+    id: '272',
+    slug: 'otan-artigo-5-como-funciona-alianca',
+    title: 'OTAN: Como Funciona a Aliança Militar e o Artigo 5',
+    excerpt:
+      'Um guia direto sobre a OTAN: o que diz o Artigo 5, como são tomadas as decisões, quem paga a conta e o que mudou com o compromisso de 5% do PIB firmado em 2025.',
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['otan', 'nato', 'artigo-5', 'defesa', 'geopolitica'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 6,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Finland_flag_raising_at_NATO_Headquarters_4_April_2023.jpg/960px-Finland_flag_raising_at_NATO_Headquarters_4_April_2023.jpg',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'UK Government Picture by Rory Arnold / No 10 Downing Street',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Finland_flag_raising_at_NATO_Headquarters_4_April_2023.jpg',
+    sources: [
+      { title: 'The North Atlantic Treaty', url: 'https://www.nato.int/cps/en/natohq/official_texts_17120.htm' },
+      { title: 'Collective defence - Article 5', url: 'https://www.nato.int/en/what-we-do/introduction-to-nato/collective-defence-and-article-5' },
+      { title: 'NATO member countries', url: 'https://www.nato.int/en/about-us/organization/nato-member-countries' },
+      { title: 'The Hague Summit Declaration', url: 'https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration' },
+      { title: 'Defence investment and NATO’s 5% commitment', url: 'https://www.nato.int/en/what-we-do/introduction-to-nato/defence-expenditures-and-natos-5-commitment' },
+      { title: 'NATO concludes historic Summit in The Hague', url: 'https://www.nato.int/en/news-and-events/articles/news/2025/06/27/nato-concludes-historic-summit-in-the-hague' },
+    ],
+    relatedArticles: [
+      'conselho-seguranca-onu-veto-como-funciona',
+      'por-que-taiwan-importa-tanto-para-os-chips',
+      'robos-humanoides-fabricas-bmw-figure',
+    ],
+    content: `
+<p>A OTAN voltou ao centro do noticiário mundial nos últimos anos — e, com ela, a expressão “Artigo 5” passou a aparecer em manchetes sobre ameaças militares, ataques cibernéticos e debate sobre gastos de defesa. Mas o que exatamente prevê esse artigo, como a aliança decide e quanto seus membros de fato gastam?</p>
+
+<h2>O que é a OTAN</h2>
+<p>A Organização do Tratado do Atlântico Norte (OTAN, ou NATO) é uma <strong>aliança político-militar</strong> criada pelo Tratado do Atlântico Norte, assinado em Washington em 1949. Seu propósito original era dissuadir agressões contra os países-membros no contexto da Guerra Fria. Hoje, a aliança reúne <strong>32 países</strong>, segundo a lista oficial publicada pela própria organização — um número que cresceu sobretudo com as adesões finlandesa e sueca na década de 2020.</p>
+
+<h2>O Artigo 5, em uma frase</h2>
+<p>O Artigo 5º do tratado original estabelece que um ataque armado contra um ou mais membros, na Europa ou na América do Norte, <strong>será considerado um ataque contra todos</strong>. Essa formulação foi reafirmada publicamente na Declaração da Cúpula de Haia, em junho de 2025 — “an attack on one is an attack on all” —, mas o texto do tratado tem um detalhe importante: a resposta não é automática no sentido jurídico estrito. Cada país-membro compromete-se a auxiliar o membro atacado <strong>“com a ação que julgar necessária, incluindo o uso da força armada”</strong>, o que preserva a soberania de cada Estado sobre como responder.</p>
+
+<h3>Quantas vezes foi acionado?</h3>
+<p>Na história da aliança, o Artigo 5 foi invocado <strong>uma única vez</strong>: após os atentados de 11 de setembro de 2001 contra os Estados Unidos. A resposta coletiva tomou a forma de medidas militares e de apoio operacional, e não de uma declaração de guerra automática — o que ilustra exatamente como o mecanismo funciona na prática.</p>
+
+<h2>Como a OTAN decide</h2>
+<p>Decisões na OTAN são tomadas por <strong>consenso</strong>, não por votação majoritária. O órgão central de deliberação política é o Conselho do Atlântico Norte, no qual cada país-membro tem assento. Na prática, isso significa que qualquer país — inclusive os menores — dispõe de poder de barganha, e que acordos exigem negociação política intensa antes de qualquer anúncio público.</p>
+
+<h2>Quem paga a conta</h2>
+<p>A OTAN tem orçamento civil e militar próprio, mas o grosso do gasto em defesa é feito nacionalmente, por cada país. Durante décadas, o critério informal de referência foi o compromisso de <strong>2% do PIB</strong> em defesa, herdado de declarações de cúpulas anteriores e reafirmado em Vilnius, em 2023 — quando os líderes também fixaram a meta de destinar pelo menos 20% do orçamento de defesa a grandes equipamentos e pesquisa.</p>
+<p>Em <strong>25 de junho de 2025</strong>, na Cúpula de Haia, os aliados deram um salto simbólico e orçamentário: comprometeram-se a investir <strong>5% do PIB anualmente em defesa até 2035</strong>, divididos em duas partes:</p>
+<ul>
+<li><strong>3,5% do PIB</strong> para necessidades centrais de defesa — forças, capacidades e equipamentos;</li>
+<li><strong>1,5% do PIB</strong> para despesas relacionadas à defesa e à segurança, como proteção de infraestrutura crítica, defesa de redes, preparação civil e fortalecimento da base industrial de defesa.</li>
+</ul>
+<p>Os números oficiais da aliança mostram movimento nessa direção: aliados europeus e o Canadá aumentaram seus gastos de defesa em quase <strong>20% em termos reais em 2025</strong> comparado a 2024, com elevação de mais de 90 bilhões de dólares (a preços de 2021). Na década, a participação da defesa no PIB combinado desses países saiu de <strong>1,4% em 2014 para 2,3% em 2025</strong>, num total superior a 570 bilhões de dólares. A declaração de Haia prevê ainda uma revisão da trajetória desses gastos em 2029.</p>
+
+<h2>O que a aliança se propõe a fazer</h2>
+<p>A Declaração da Cúpula de Haia organiza a missão da aliança em três tarefas centrais: <strong>dissuasão e defesa</strong>, <strong>prevenção e gestão de crises</strong> e <strong>segurança cooperativa</strong>. O mesmo documento nomeia as ameaças percebidas — "a ameaça de longo prazo representada pela Rússia à segurança euro-atlântica e a ameaça persistente do terrorismo" —, e o secretário-geral Mark Rutte, no encerramento da cúpula, descreveu o inimigo em termos igualmente amplos: "seja da Rússia ou do terrorismo, ciberataques, sabotagem ou competição estratégica".</p>
+<p>Essa amplitude é deliberada: ela permite que a aliança atue em domínios que vão do militar ao cibernético sem alterar o tratado original — mas também torna difícil medir "sucesso" em indicadores simples, o que ajuda a explicar por que tanto a retórica quanto os orçamentos da aliança giraram tanto nas últintes décadas.</p>
+
+<h2>Fato, meta e expectativa</h2>
+<p>Vale separar três coisas que os noticiários costumam misturar. O <strong>fato</strong> é que o compromisso de 5% existe, está registrado em documento oficial e tem prazo — 2035. A <strong>meta</strong> é a trajetória anual que cada país se comprometeu a apresentar. Já as <strong>projeções</strong> sobre impacto econômico, capacidade industrial ou dissuasão são análises, não obrigações do tratado. Quando o tema envolve tecnologia, o mesmo cuidado se aplica a iniciativas de defesa que dependem de cadeias de suprimentos sensíveis — das <a href="/tecnologia/por-que-taiwan-importa-tanto-para-os-chips">terras-raras e semicondutores</a> à automação industrial de <a href="/futuro/robos-humanoides-fabricas-bmw-figure">robôs humanoides</a>.</p>
+
+<h2>Conclusão</h2>
+<p>A OTAN não é um exército único, mas uma aliança de países soberanos que decidem por consenso — e cuja promessa central, o Artigo 5, foi acionada apenas uma vez em mais de sete décadas. O compromisso de 5% do PIB firmado em 2025 é o sinal mais claro de que a aliança está em processo de rearmamento orçamentário; os efeitos disso, no entanto, só aparecerão nos próximos anos, e dependerão mais de execução do que de retórica.</p>
+`,
+  },
+  {
+    id: '273',
+    slug: 'como-funciona-o-gps',
+    title: 'Como Funciona o GPS: Dos Satélites ao Seu Celular em Milésimos de Segundo',
+    excerpt:
+      'O GPS calcula onde você está medindo o tempo que a luz leva para chegar de satélites a 20 mil km de altitude. Entenda os três segmentos do sistema, a trilateração e por que a relatividade de Einstein está envolvida.',
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['gps', 'satelites', 'navegacao', 'trilateracao', 'relatividade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/GPS_Satellite_NASA_art-iif.jpg/960px-GPS_Satellite_NASA_art-iif.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'NASA',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:GPS_Satellite_NASA_art-iif.jpg',
+    sources: [
+      { title: 'The Global Positioning System', url: 'https://www.gps.gov/gps' },
+      { title: 'Space Segment', url: 'https://www.gps.gov/space-segment' },
+      { title: 'What is Trilateration?', url: 'https://www.gps.gov/trilateration' },
+      { title: 'Putting Einstein to the Test With the World’s Most Accurate Clocks', url: 'https://www.nist.gov/blogs/taking-measure/putting-einstein-test-worlds-most-accurate-clocks' },
+      { title: 'Knowing Where We Are', url: 'https://www.nist.gov/atomic-clocks/knowing-where-we-are' },
+    ],
+    relatedArticles: [
+      'sondas-voyager-1-2-onde-estao-2026',
+      'como-a-internet-funciona',
+      '5g-6g-a-proxima-era-da-conectividade',
+    ],
+    content: `
+<p>Você abre o mapa do celular, vê um ponto azul e confia que ele está a poucos metros de você. Para produzir essa resposta, um sistema com milhares de quilômetros de alcance, relógios atômicos em órbita e correções previstas pela teoria da relatividade trabalha em conjunto — tudo para localizar um ponto com precisão de poucos metros, milhões de vezes por segundo.</p>
+
+<h2>Os três segmentos do sistema</h2>
+<p>O GPS (Global Positioning System) é operado pelo governo dos Estados Unidos e, segundo a documentação oficial, divide-se em três partes:</p>
+<ul>
+<li><strong>Segmento espacial:</strong> a constelação de satélites. O GPS.gov informa que a operação atual conta com <strong>31 satélites operacionais</strong>, em seis planos orbitais diferentes, e que os Estados Unidos mantêm o compromisso de dispor de <strong>24 satélites disponíveis ao menos 95% do tempo</strong>.</li>
+<li><strong>Segmento de controle:</strong> estações terrestres — uma estação de controle mestre, antenas dedicadas e estações de monitoramento — que rastreiam os satélites, corrigem suas órbitas e sincronizam seus relógios.</li>
+<li><strong>Segmento do usuário:</strong> tudo o que recebe os sinais: celulares, carros, aviões, relógios, equipamentos agrícolas.</li>
+</ul>
+<p>Vale notar que o GPS é o sistema de navegação por satélite norte-americano; outros países e blocos operam sistemas próprios, com lógica semelhante.</p>
+
+<h2>A ideia central: tempo é distância</h2>
+<p>Todo o GPS se apoia em uma equação enganosamente simples: <strong>distância = velocidade × tempo</strong>. Cada satélite transmite continuamente um sinal que viaja à velocidade da luz — cerca de 300 mil km/s. Como a velocidade é conhecida, medir o <strong>tempo</strong> que o sinal levou para chegar entrega a <strong>distância</strong> até o satélite.</p>
+<p>Com a distância até um satélite, você sabe que está em algum ponto de uma esfera ao redor dele. Com dois satélites, a interseção é um círculo. Com três, restam dois pontos — e a lógica do sistema resolve a ambiguidade por trilateração. Na prática, um receptor precisa de <strong>pelo menos quatro satélites</strong>: o quarto serve para resolver um problema inevitável — o relógio interno do seu celular não é atômico, e é preciso corrigir esse atraso desconhecido simultaneamente à posição.</p>
+<p>O resultado é o ponto azul: uma posição tridimensional (latitude, longitude e altitude) sincronizada com precisão temporal de bilionésimos de segundo.</p>
+
+<h2>Einstein em funcionamento prático</h2>
+<p>Aqui a história sai da engenharia e entra na física. Como explica o NIST, instituto de padrões e tecnologia dos EUA, os relógios dos satélites enfrentam dois efeitos relativísticos opostos:</p>
+<ul>
+<li>a <strong>velocidade orbital</strong> dos satélites (cerca de 14 mil km/h) os faria <strong>atrasar em torno de 7 microssegundos por dia</strong> — efeito da relatividade especial;</li>
+<li>a <strong>gravidade mais fraca</strong> na altitude de órbita média os faria <strong>adiantar em torno de 45 microssegundos por dia</strong> — efeito da relatividade geral.</li>
+</ul>
+<p>O saldo líquido é de aproximadamente <strong>38 microssegundos por dia</strong> de adiantamento. Sem as correções aplicadas ao projeto, os relógios a bordo se desviariam a ponto de tornar os sinais inúteis para posicionamento em poucas horas. É por isso que se costuma dizer que o GPS é o teste contínuo mais longo já realizado das teorias de Einstein: sem a física do século XX, o mapa do seu celular simplesmente não funcionaria.</p>
+
+<h2>Quando o sinal falha: interferência e falsificação</h2>
+<p>Como os sinais de GPS chegam ao solo com potência baixíssima — sua origem é uma antena de satélite a dezenas de milhares de quilômetros de distância —, eles são relativamente fáceis de sobrescrever. O NIST observa que os sinais de GPS "podem ser bloqueados ou falsificados com relativa facilidade" e que essas tecnologias se tornam cada vez mais acessíveis. O instituto registra ainda que a interferência ficou especialmente comum em zonas de conflito, como Ucrânia e Oriente Médio, causando interrupções generalizadas em serviços que dependem do sinal.</p>
+<p>A resposta em estudo é a redundância: relógios atômicos portáteis e sensores inerciais que permitam manter posição e — sobretudo — tempo confiável quando o GPS é perdido. Vale lembrar também de onde veio o sistema: no início, apenas militares tinham acesso ao sinal de alta resolução, enquanto usuários civis recebiam uma versão degradada; hoje, o uso civil está em todo lugar, de torres de celular a colheitadeiras.</p>
+
+<h2>Para que o GPS serve além de mapas</h2>
+<p>O GPS é fundamentalmente um sistema de <strong>distribuição de tempo</strong>. Redes de telecomunicações usam-no para sincronizar torres de celular e equipamentos de transmissão; mercados financeiros, para registrar transações; usinas elétricas, para coordenar medições. O NIST cita estudo patrocinado pelo instituto que estimou, já em 2019, algo próximo de <strong>700 bilhões de dólares</strong> em benefícios ao setor de telecomunicações apenas pelo uso do sinal de tempo do GPS.</p>
+<p>Esse é o mesmo princípio que permite a <a href="/tecnologia/5g-6g-a-proxima-era-da-conectividade">a sincronização de estações 5G</a> e que viabiliza desde o <a href="/tecnologia/como-a-internet-funciona">roteamento de dados na internet</a> até a navegação de sondas interestelares como as <a href="/espaco/sondas-voyager-1-2-onde-estao-2026">Voyager</a> — que determinam posição com base na física de sinais de rádio, não em mapas terrestres.</p>
+
+<h2>Conclusão</h2>
+<p>O GPS converte tempo em distância, distância em trilateração e correções relativísticas em metros de precisão. Entender essa cadeia explica por que o sistema é frágil diante de interferência e ruído — e por que ele é infraestrutura crítica de muito mais coisas do que o aplicativo de mapas do seu telefone.</p>
+`,
+  },
+  {
+    id: '274',
+    slug: 'vpn-o-que-e-e-quando-vale-a-pena',
+    title: 'VPN: O Que É, Como Funciona e Quando Realmente Vale a Pena',
+    excerpt:
+      'Uma VPN cria um túnel criptografado entre você e um servidor remoto. Veja o que ela resolve de verdade, o que ela não faz, os riscos do próprio serviço e como escolher com base em recomendações oficiais.',
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['vpn', 'seguranca', 'privacidade', 'criptografia', 'internet'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://upload.wikimedia.org/wikipedia/commons/7/77/VPN_topologie.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'Philippe Belet (Dutch Wikipedia)',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:VPN_topologie.jpg',
+    sources: [
+      { title: 'In the market for a VPN app?', url: 'https://www.ftc.gov/business-guidance/blog/2018/02/market-vpn-app' },
+      { title: 'NSA/CISA Release Guidance on Selecting and Hardening Remote Access VPNs', url: 'https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2791320/nsa-cisa-release-guidance-on-selecting-and-hardening-remote-access-vpns' },
+      { title: 'CISA and NSA Release Guidance on Selecting and Hardening VPNs', url: 'https://www.cisa.gov/news-events/alerts/2021/09/28/cisa-and-nsa-release-guidance-selecting-and-hardening-vpns' },
+      { title: 'WireGuard: Next Generation Kernel Network Tunnel', url: 'https://www.wireguard.com/papers/wireguard.pdf' },
+    ],
+    relatedArticles: [
+      'ciberseguranca-para-iniciantes',
+      'criptografia-pos-quantica-padroes-nist',
+      'como-escolher-um-dns-mais-rapido-e-privado',
+    ],
+    content: `
+<p>VPN é uma daquelas siglas que aparecem em anúncios de todo aplicativo de celular, sempre prometendo anonimato na internet. A realidade é mais modesta — e, justamente por isso, mais útil. Este texto explica o que uma VPN faz, o que ela não faz e como avaliar um serviço com base em orientação oficial, não em marketing.</p>
+
+<h2>O problema que a VPN resolve</h2>
+<p>Quando você acessa um site, seus dados saem do seu aparelho e passam por uma série de pontos intermediários — a rede Wi-Fi do aeroporto, a conexão do hotel, os backbones do provedor. Uma VPN (Virtual Private Network, rede privada virtual) cria um <strong>túnel criptografado</strong> até um servidor do provedor de VPN. Para quem estiver na mesma rede local, o tráfego aparece como dados opacos destinados àquele servidor. A partir daí, é o servidor da VPN que conversa com o site de destino.</p>
+<p>Em linguagem da FTC, a agência de defesa do consumidor dos EUA, uma VPN pode “proteger a informação que você envia por meio de redes Wi-Fi públicas ou abertas” — um benefício objetivo e verificável. O ponto negativo, aponta a mesma agência, é que a VPN <strong>desloca a confiança</strong>: em vez de confiar no dono do Wi-Fi ou no provedor de internet, você passa a confiar no provedor de VPN. Toda a sua navegação passa a ser visível para ele.</p>
+
+<h2>Como o túnel é construído</h2>
+<p>Uma VPN combina três peças: <strong>autenticação</strong> (provar que você é usuário autorizado), <strong>criptografia</strong> (embaralhar o conteúdo do tráfego) e <strong>encapsulamento</strong> (empacotar o tráfego para viajar até o servidor remoto). Os protocolos usados variam. A orientação conjunta da NSA e da CISA — a agência de segurança cibernética dos EUA — recomenda <strong>soluções baseadas em padrões, como IKE/IPsec</strong>, e <strong>módulos criptográficos validados pelo FIPS</strong>, programa do governo norte-americano que testa implementações de criptografia.</p>
+<p>Protocolos mais recentes, como o <strong>WireGuard</strong> — descrito em seu próprio documento técnico oficial como um túnel de rede de próxima geração —, buscaram simplificar a implementação para reduzir erros de configuração, que historicamente são a maior fonte de falhas. A lição prática das três fontes converge: mais importante que a marca é o protocolo e a qualidade da implementação.</p>
+
+<h2>O que uma VPN não faz</h2>
+<p>A primeira informação a fixar é a que o marketing menos gosta: <strong>uma VPN não deixa você anônimo</strong>. A FTC afirma isso de forma direta, e a consequência prática é simples. O servidor da VPN sabe quem você é e o que acessa — ele precisa saber, para entregar o tráfego. Sites conseguem detectar o uso de VPN; contas e cookies continuam identificando você; e nada do que você compartilha diretamente (formulários, e-mails, arquivos enviados) fica protegido.</p>
+<p>Uma VPN também não opera milagres de segurança. Ela não impede malware, não bloqueia phishing e não corrig senhas fracas. Como todo software de rede exposto à internet, <strong>os próprios servidores de VPN são alvos</strong>: a NSA e a CISA registram que agentes maliciosos exploram vulnerabilidades conhecidas em serviços VPN de borda, como vazamentos de memória e execução remota de código — o que torna a velocidade de correção do fornecedor mais relevante que qualquer outro atributo.</p>
+
+<h2>Riscos do outro lado: o próprio app</h2>
+<p>Se o servidor da VPN vê todo o tráfego, a confiança no fornecedor passa a ser o ponto crítico. Em 2018, a FTC publicou uma análise de cerca de <strong>300 aplicativos de VPN</strong> disponíveis nas lojas. Entre os problemas relatados: ausência de criptografia em parte dos serviços avaliados, solicitação de permissões sensíveis que a função não exigia e compartilhamento de informações com terceiros. O padrão de falhas era sério o suficiente para justificar a conclusão óbvia do relatório — VPN gratuita costuma monetizar o usuário, seja por anúncios, seja por dados.</p>
+
+<h2>Como escolher</h2>
+<p>Combinando as recomendações oficiais citadas, um checklist pragmático:</p>
+<ol>
+<li><strong>Prefira protocolos baseados em padrões</strong> (IKE/IPsec, ou implementações modernas e auditadas), com criptografia validada por programas de teste reconhecidos — como o FIPS, para ambientes corporativos.</li>
+<li><strong>Exija autenticação forte.</strong> A orientação da NSA/CISA inclui o uso de múltiplos fatores para acesso remoto por VPN, sobretudo em ambientes corporativos.</li>
+<li><strong>Verifique o histórico de correções do fornecedor.</strong> Velocidade de resposta a vulnerabilidades é o melhor indicador de maturidade operacional.</li>
+<li><strong>Leia a política de privacidade</strong> antes de instalar: o que é registrado, por quanto tempo e com quem é compartilhado.</li>
+<li><strong>Desconfie de “100% gratuito e ilimitado”</strong> e de promessas de anonimato absoluto — ambas contrariam o que as autoridades de consumo e segurança cibernética documentaram.</li>
+</ol>
+<p>Para usuário comum, a regra de bolso da própria FTC resume bem: pesquise o aplicativo, verifique o que ele pede e o que faz com seus dados, e use VPN quando o cenário justificar — Wi-Fi público, redes de terceiros, acesso remoto corporativo — e não como selo de invisibilidade. Para uma defesa em camadas, vale combinar com boas práticas como escolher um <a href="/tecnologia/como-escolher-um-dns-mais-rapido-e-privado">DNS mais rápido e privado</a>, manter <a href="/tecnologia/ciberseguranca-para-iniciantes">higiene básica de segurança</a> e acompanhar a transição para a <a href="/tecnologia/criptografia-pos-quantica-padroes-nist">criptografia pós-quântica</a>, que um dia afetará até os protocolos de VPN.</p>
+
+<h2>Conclusão</h2>
+<p>VPN é ferramenta específica, não capa de invisibilidade. Ela resolve um problema real — proteger dados em trânsito em redes que você não controla —, criando outro: transferir confiança para um provedor que passa a enxergar tudo. Escolher com base em padrões, transparência e histórico de correções, e não em promessas de anonimato, é a diferença entre usar a ferramenta certa e comprar uma ilusão.</p>
+`,
+  },
+  {
+    id: '275',
+    slug: 'o-que-sao-tokens-em-ia',
+    title: 'Tokens em IA: O Que São e Por Que Eles Definem o Que o Modelo Consegue Fazer',
+    excerpt:
+      'Modelos de linguagem não leem palavras, leem tokens. Entenda como o texto é fatiado, o que isso significa para limite de contexto, custo por token e por que idiomas diferentes contam diferente.',
+    category: { id: 'inteligencia-artificial', slug: 'inteligencia-artificial', name: 'Inteligência Artificial', description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA', color: '#ec4899' },
+    tags: ['tokens', 'tokenizacao', 'llm', 'ia', 'api'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 6,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/T-SNE_visualisation_of_word_embeddings_generated_using_19th_century_literature.png/960px-T-SNE_visualisation_of_word_embeddings_generated_using_19th_century_literature.png',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Siobhán Grayson',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:T-SNE_visualisation_of_word_embeddings_generated_using_19th_century_literature.png',
+    sources: [
+      { title: 'What are tokens and how to count them?', url: 'https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them' },
+      { title: 'NLP Course – Chapter 6: Tokenizers', url: 'https://huggingface.co/learn/nlp-course/chapter6/1' },
+      { title: 'tokenizers (Hugging Face)', url: 'https://github.com/huggingface/tokenizers' },
+    ],
+    relatedArticles: [
+      'como-funciona-o-transformer-atencao-ia',
+      'como-escrever-bons-prompts-de-ia',
+      'inteligencia-artificial-generativa',
+    ],
+    content: `
+<p>Se você já comparou preços de APIs de inteligência artificial, viu que a cobrança não é por palavra: é por <strong>token</strong>. E se já recebeu um aviso de “limite de contexto excedido”, esse limite também é medido em tokens. Entender o que é um token é entender a unidade básica com a qual os modelos de linguagem realmente trabalham.</p>
+
+<h2>O que é um token</h2>
+<p>Um token é um fragmento de texto — pode ser um caractere, parte de uma palavra, uma palavra inteira ou um sinal de pontuação. Segundo a documentação oficial da OpenAI, a regra prática para o idioma inglês é que <strong>um token corresponde a aproximadamente 4 caracteres, ou três quartos de uma palavra</strong>: 100 tokens equivalem a cerca de 75 palavras. Nada disso é arbitrário: os tokens são a saída de um <em>tokenizador</em>, um algoritmo que converte texto em números.</p>
+<p>A divisão também é sensível a detalhes aparentemente triviais. A própria OpenAI observa que a forma do texto — capitalização, espaços no início — pode mudar a tokenização de uma mesma palavra. Em hebraico, por exemplo, palavras com a mesma raiz podem compartilhar o token base, enquanto certas palavras em inglês são divididas em vários fragmentos.</p>
+
+<h2>Como o texto é fatiado</h2>
+<p>O curso oficial de NLP da Hugging Face explica que a tokenização moderna se apoia em <strong>algoritmos subword</strong> — as três famílias principais são WordPiece, BPE (byte pair encoding) e Unigram. Em vez de ter um vocabulário fixo de palavras inteiras (que falha com gírias, estrangeirismos e erros de digitação), o tokenizador aprende, a partir de um <em>corpus</em> de treinamento, quais fragmentos de texto são mais úteis para representar a língua.</p>
+<p>Isso gera duas consequências práticas. Primeira: <strong>a contagem depende do tokenizador</strong> — o mesmo texto gera quantidades diferentes de tokens em modelos diferentes, e os IDs numéricos dos tokens também não são comparáveis entre modelos. Segunda: a qualidade da tokenização depende do <strong>corpus de treinamento</strong> do tokenizador — a Hugging Face mostra que um tokenizador treinado majoritariamente em inglês tem desempenho ruim ao fatiar textos em outros idiomas, como o japonês.</p>
+
+<h2>Por que o limite de contexto é medido em tokens</h2>
+<p>Todo modelo de linguagem tem uma janela de contexto — a quantidade máxima de informação (sua instrução + documentos anexados + histórico da conversa) que ele consegue considerar de uma vez. Como o modelo processa tokens, e não palavras, <strong>essa janela é expressa em tokens</strong>. Quando você envia um PDF ou uma conversa longa, o sistema converte tudo em tokens antes de decidir o que cabe.</p>
+<p>Daí uma diferença importante para quem escreve em português: palavras de línguas latinas tendem a consumir mais tokens por palavra do que o inglês de referência, porque o vocabulário do tokenizador é otimizado para o corpus em que foi treinado. Um texto de “mil palavras” em português não ocupa, necessariamente, o mesmo espaço contextual que mil palavras em inglês — e o mesmo vale para o custo.</p>
+
+<h2>Custo: tokens de entrada, de saída e de raciocínio</h2>
+<p>As APIs modulares de hoje discriminam pelo menos três tipos de tokens, segundo a documentação da OpenAI:</p>
+<ul>
+<li><strong>Tokens de entrada:</strong> o que você envia — instruções, contexto, exemplos.</li>
+<li><strong>Tokens de saída:</strong> o que o modelo gera.</li>
+<li><strong>Tokens de raciocínio:</strong> usados internamente por modelos que “pensam” antes de responder; são contabilizados e cobrados, mesmo sem aparecer na resposta final.</li>
+</ul>
+<p>Entender essa decomposição muda a forma de usar a ferramenta. Reduzir contexto redundante numa instrução recorrente, reaproveitar prefixos estáveis e evitar reprocessar o mesmo documento a cada pergunta são estratégias que atacam diretamente a fatura — e, de quebra, reduzem a chance de o modelo “esquecer” instruções importantes no meio da janela.</p>
+
+<h2>Um exemplo de contagem</h2>
+<p>Suponha a frase "NaoConfieNoModelo" e sua versão acentuada e espaçada, "Não confie no modelo". Pela regra prática da OpenAI — cerca de 4 caracteres por token, três quartos de uma palavra para o inglês —, a segunda forma, com sete palavras e 21 caracteres, ficaria em torno de 9 a 12 tokens. A primeira, sem espaços e toda em maiúsculas, tende a ser fatiada em fragmentos diferentes, porque capitalização e ausência de espaços alteram a tokenização. A lição prática: ao estimar custo ou ocupação de contexto, conte palavras e mantenha uma folga de segurança — e, quando a exatidão importa, use uma ferramenta oficial em vez de estimar no olho.</p>
+
+<h2>Como contar tokens na prática</h2>
+<p>Não é preciso estimar no escuro. Provedores mantêm ferramentas oficiais: a OpenAI disponibiliza um <em>tokenizer</em> interativo em seu site de desenvolvedores e uma biblioteca de contagem chamada <strong>tiktoken</strong>, além de parâmetros de API que devolvem a contagem de tokens usados em uma chamada. Para modelos abertos, a biblioteca <code>tokenizers</code> da Hugging Face, mantida no GitHub, permite tokenizar e inspecionar texto localmente — inclusive verificando como uma frase seria fatiada antes de enviá-la a um serviço pago.</p>
+
+<h2>Conclusão</h2>
+<p>Tokens são a moeda corrente da inteligência artificial generativa: definem o que cabe na janela de contexto, o que a chamada vai custar e como o modelo “enxerga” seu texto. Quem entende a tokenização escreve instruções mais enxutas, controla melhor o consumo e evita surpresas ao usar ferramentas como as discutidas em <a href="/inteligencia-artificial/como-escrever-bons-prompts-de-ia">boas práticas de prompt</a> ou ao avaliar o que muda entre uma <a href="/inteligencia-artificial/como-funciona-o-transformer-atencao-ia">arquitetura transformer e outra</a>.</p>
+`,
+  },
+  {
+    id: '276',
+    slug: 'rag-como-a-ia-consulta-documentos',
+    title: 'RAG: Como a IA Consulta Seus Documentos Antes de Responder',
+    excerpt:
+      'Retrieval-Augmented Generation combina busca e geração para que modelos de linguagem respondam com base em documentos específicos. Veja como funciona, quando usar e quais são seus limites.',
+    category: { id: 'inteligencia-artificial', slug: 'inteligencia-artificial', name: 'Inteligência Artificial', description: 'IA generativa, ferramentas de IA, pesquisa e futuro da IA', color: '#ec4899' },
+    tags: ['rag', 'ia', 'embeddings', 'banco-vetorial', 'llm'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 6,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Vector_database_diagram.png/960px-Vector_database_diagram.png',
+    imageLicense: 'CC BY-SA 4.0',
+    imageArtist: 'Jonas R L Goncalves',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Vector_database_diagram.png',
+    sources: [
+      { title: 'Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks', url: 'https://arxiv.org/abs/2005.11401' },
+      { title: 'What is Retrieval-Augmented Generation (RAG)?', url: 'https://aws.amazon.com/what-is/retrieval-augmented-generation/' },
+    ],
+    relatedArticles: [
+      'como-escrever-bons-prompts-de-ia',
+      'agentes-autonomos-ia-tomada-de-decisao',
+      'como-detectar-conteudo-gerado-por-ia-marcas-dagua',
+    ],
+    content: `
+<p>Pergunte a um assistente de IA sobre a política de férias da sua empresa ou sobre um documento que acabou de ser publicado, e há boa chance de ele responder com confiança — e inventar. O RAG (Retrieval-Augmented Generation, ou geração aumentada por recuperação) existe exatamente para atacar esse problema: em vez de confiar apenas no que o modelo decorou durante o treinamento, o sistema <strong>busca documentos relevantes e os entrega ao modelo antes da resposta</strong>.</p>
+
+<h2>O problema de origem</h2>
+<p>A Wikipedia da área não deixa margem a dúvida: segundo a AWS, modelos de linguagem apresentam desafios conhecidos — fabricar informação quando não sabem a resposta, responder com dados desatualizados porque o treinamento é estático, basear-se em fontes não autoritativas e confundir termos que significam coisas diferentes em contextos diferentes. A fórmula da AWS para descrever o comportamento é precisa: um LLM é como “um funcionário novo entusiasmado demais, que se recusa a se informar sobre os acontecimentos atuais, mas responde a toda pergunta com absoluta confiança”.</p>
+<p>O RAG redireciona o modelo para <strong>recuperar informação de fontes autoritativas e predeterminadas</strong> antes de gerar texto, mantendo controle sobre o que ele pode usar.</p>
+
+<h2>A pesquisa que batizou a técnica</h2>
+<p>O termo vem do artigo acadêmico <em>Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks</em>, de Lewis e colegas (2020). A proposta é direta: combinam-se uma <strong>memória paramétrica</strong> — o modelo de linguagem treinado, com seus parâmetros — e uma <strong>memória não paramétrica</strong> — um índice vetorial denso, por exemplo da Wikipedia, consultado por um recuperador de texto. O recuperador seleciona passagens relevantes, e o gerador as utiliza como contexto.</p>
+<p>Os resultados relatados no artigo sustentam três vantagens centrais: respostas <strong>mais específicas, variadas e factuais</strong>; conhecimento atualizável <strong>sem retreinar o modelo</strong>; e funcionamento com modelos expressivos mesmo quando o acesso a dados de treinamento em grande escala é limitado.</p>
+
+<h2>Como funciona, passo a passo</h2>
+<p>A AWS descreve o fluxo em quatro estágios, úteis como mapa mental para quem avalia um produto ou monta um projeto:</p>
+<ol>
+<li><strong>Criar os dados externos.</strong> Documentos — arquivos, registros de banco, artigos — são convertidos em representações numéricas (<em>embeddings</em>) por modelos de incorporação e armazenados em um <strong>banco de dados vetorial</strong>. É essa biblioteca que o sistema sabe consultar.</li>
+<li><strong>Recuperar informação relevante.</strong> A pergunta do usuário também é convertida em representação vetorial e comparada com o índice; os trechos mais próximos retornam como candidatos.</li>
+<li><strong>Aumentar o prompt.</strong> Os trechos recuperados são inseridos no contexto enviado ao modelo, junto da pergunta original. Agora o modelo responde com base nesse material — e não apenas na memória de treinamento.</li>
+<li><strong>Atualizar os dados.</strong> Manter o índice fresco exige processos de atualização contínua ou em lote; descuidar dessa etapa é uma das causas mais comuns de respostas erradas em produção.</li>
+</ol>
+
+<h2>Um exemplo completo</h2>
+<p>Imagine um assistente de suporte interno. A empresa tem a política de férias em um PDF, o organograma em um sistema de RH e as perguntas frequentes em uma base de tickets. Tudo isso é indexado: os documentos são convertidos em embeddings e guardados em um banco vetorial. Quando o funcionário pergunta "posso acumular férias?", a pergunta é convertida em vetor, os trechos mais próximos — o capítulo de férias do PDF, talvez um ticket similar — são recuperados e inseridos no prompt. A resposta então cita a regra correta, com a fonte ao lado. Se o tema não estiver no acervo, um sistema bem construído diz que não sabe — em vez de inventar uma regra que não existe.</p>
+
+<h2>O que o RAG não é</h2>
+<p>RAG não é fine-tuning. Ajustar pesos de um modelo custa caro em computação e cristaliza conhecimento novo em parâmetros; o RAG mantém o modelo fixo e troca <strong>a base de conhecimento</strong> a qualquer momento. Também não é garantia de verdade: se a recuperação trouxer documentos ruins ou desatualizados, a resposta será ruim — o princípio de “lixo entra, lixo sai” continua valendo. E, embora a AWS aponte que o RAG permite apresentar <strong>respostas com atribuição de fontes</strong>, aumentando a confiança do usuário, a citação correta ainda depende da qualidade da recuperação e da honestidade do prompt — o que conecta essa técnica ao terreno das <a href="/inteligencia-artificial/como-escrever-bons-prompts-de-ia">boas práticas de prompt</a>.</p>
+
+<h2>Quando faz sentido</h2>
+<p>O RAG se justifica em tarefas intensivas em conhecimento — assistentes sobre documentação interna, busca semântica sobre bases jurídicas ou técnicas, aplicações que precisam operar sobre dados proprietários ou muito recentes para estar no treinamento. Também é a base de muitos <a href="/inteligencia-artificial/agentes-autonomos-ia-tomada-de-decisao">agentes autônomos</a>, que consultam ferramentas e bases antes de agir. Para quem avalia ferramentas de IA geradora de conteúdo, saber separar o que veio de fonte recuperada do que foi inventado pelo modelo é habilidade diretamente relacionada — e o mercado de <a href="/inteligencia-artificial/como-detectar-conteudo-gerado-por-ia-marcas-dagua">detecção e marcação de conteúdo gerado por IA</a> evolui nessa direção.</p>
+
+<h2>Conclusão</h2>
+<p>RAG transforma um modelo de linguagem de “respondedor de memória” em “respondedor com biblioteca”: a qualidade da resposta passa a depender tanto do modelo quanto do acervo que você monta. Entender o fluxo — indexar, recuperar, aumentar, atualizar — é o que separa uma demo impressionante de um sistema que continua confiável depois do primeiro mês de uso.</p>
+`,
+  },
+  {
+    id: '277',
+    slug: 'como-funciona-a-memoria',
+    title: 'Como Funciona a Memória: O Que a Ciência Sabe Sobre Lembrar e Esquecer',
+    excerpt:
+      'A memória não fica em um único lugar do cérebro: ela depende de sinapses, do hipocampo e de um processo chamado reconsolidação. Entenda como guardamos — e reescrevemos — nossas lembranças.',
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['memoria', 'cerebro', 'neurociencia', 'hipocampo', 'ciencia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Hippocampus_%28brain%29.jpg/960px-Hippocampus_%28brain%29.jpg',
+    imageLicense: 'CC BY-SA 3.0',
+    imageArtist: 'Frank Gaillard',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Hippocampus_(brain).jpg',
+    sources: [
+      { title: 'Storing Memories', url: 'https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory/2012/storing-memories' },
+      { title: 'What Memories Are Made Of', url: 'https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory/2021/what-memories-are-made-of-100121' },
+      { title: 'The Shape of Our Memories', url: 'https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory/2025/the-shape-of-our-memories-101625' },
+      { title: 'How the Aging Brain Affects Thinking', url: 'https://www.nia.nih.gov/health/brain-health/how-aging-brain-affects-thinking' },
+    ],
+    relatedArticles: [
+      'curiosidades-do-corpo-humano',
+      'como-funciona-o-sistema-imunologico',
+      'microbioma-intestinal',
+    ],
+    content: `
+<p>Nenhuma lembrança mora em uma gaveta. O que chamamos de memória é o produto de bilhões de conexões entre neurônios se fortalecendo — e, sobretudo, se reorganizando. A neurociência já descreve com razoável precisão como esse processo funciona, e a resposta é mais fascinante (e mais frágil) do que a imagem de um arquivo digital.</p>
+
+<h2>Memória não tem um endereço único</h2>
+<p>Uma das conclusões mais firmes da neurociência, resumida pelo BrainFacts — publicação da Society for Neuroscience —, é que <strong>as memórias não ficam em uma parte só do cérebro: elas estão amplamente distribuídas pelo córtex</strong>. Um cheiro, uma música ou um rosto não estão guardados em um único ponto; são rearranjados a partir de múltiplas regiões que participaram da experiência original. A metáfora do “arquivo” falha justamente aí: lembrar é mais próximo de <strong>reconstruir</strong> do que de consultar.</p>
+
+<h2>A base física: sinapses que se fortalecem</h2>
+<p>No nível microscópico, a unidade da memória é a <strong>sinapse</strong> — a junção de comunicação entre neurônios. O BrainFacts explica que, quando dois neurônios disparam repetidamente juntos, a sinapse entre eles pode se fortalecer, um fenômeno conhecido como <strong>potenciação de longa duração (LTP)</strong>, amplamente estudado como base fisiológica do aprendizado.</p>
+<p>Detalhe elegante do mecanismo: o <strong>receptor NMDA</strong> funciona como um detector de coincidência — só reage quando dois eventos ocorrem quase simultaneamente. Quando isso acontece, uma cascata química ativa fatores de transcrição como a <strong>CREB</strong>, que ligam genes e estimulam a síntese de proteínas para <strong>consolidar</strong> a mudança sináptica de forma duradoura. Em resumo: a experiência de curto prazo exige sinal elétrico; a memória que persiste exige que a célula fabrique material novo.</p>
+
+<h2>Como se demonstra em laboratório</h2>
+<p>Em 1949, o psicólogo canadense Donald Hebb propôs que a aprendizagem ocorre quando dois neurônios conectados disparam ao mesmo tempo ou em sequência próxima — ideia parafraseada como "neurônios que disparam juntos, se conectam". A demonstração experimental veio com o estudo da potenciação de longa duração em fatias de cérebro de roedores: usando a técnica de <em>patch clamp</em>, pesquisadores estimulam e registram neurônios individualmente e medem o aumento da resposta sináptica.</p>
+<p>O mecanismo identificado dá precisão à hipótese de Hebb. O <strong>receptor NMDA</strong> funciona como detector de coincidência: ele fica bloqueado por magnésio, mas o bloqueio é removido quando o neurônio é ativado. Se, nesse instante, o neurônio anterior também dispara, o receptor abre suas comportas e uma cascata de sinalização leva à incorporação de mais receptores AMPA na sinapse — o que aumenta a força da conexão. Memória, nessa escala, é bioquímica: uma sinapse que passou a responder mais forte do que antes.</p>
+
+<h2>O papel do hipocampo — e a migração para o córtex</h2>
+<p>Se as memórias são distribuídas, o <strong>hipocampo</strong>, estrutura em forma de cavalo-marinho no lobo temporal, é o maestro inicial. O BrainFacts o descreve como responsável por converter percepções passageiras em memórias de longo prazo; com o tempo, essas memórias vão sendo distribuídas pelo córtex em um processo de <strong>consolidação</strong>. A relevância clínica desse papel aparece na doença de Alzheimer: o Instituto Nacional sobre o Envelhecimento (NIA) dos EUA observa que os danos iniciais da doença ocorrem justamente no hipocampo e no córtex entorrinal — regiões centrais para formar novas memórias —, o que explica por que a perda de memória recente costuma ser um dos primeiros sintomas.</p>
+
+<h2>O engrama: a memória como um grupo de células</h2>
+<p>Há mais de um século, pesquisadores especulam que uma memória deixa um traço físico no cérebro — o <strong>engrama</strong>. Em 2025, uma revisão publicada pelo BrainFacts descreveu como técnicas modernas de imagem de todo o cérebro permitiram localizar conjuntos de células ligados a memórias específicas, fortalecendo a ideia de que lembrar é reativar uma população de neurônios, e não ler um arquivo.</p>
+
+<h2>Lembrar é reescrever</h2>
+<p>A consequência mais contraintuitiva da neurociência moderna é que toda recordação <strong>edita a lembrança</strong>. Quando você resgata uma memória, ela se torna temporariamente instável e é rearmazenada — processo chamado <strong>reconsolidação</strong>. Ou seja: uma lembrança frequentemente evocada não é uma lembrança “gasta”, é uma lembrança <em>atualizada</em> a cada acesso. É por isso que relatos de testemunhas oculares merecem cautela, e por que a precisão de uma memória não cresce com o número de vezes que a contamos.</p>
+
+<h2>Esquecer faz parte — e o cuidado também</h2>
+<p>Esquecer não é apenas falha: é função. O NIA afirma que <strong>algum grau de esquecimento pode ser normal com o envelhecimento</strong>, e descreve estudos de “superidosos” — pessoas com mais de 80 anos e desempenho de memória comparável ao de adultos duas décadas mais jovens —, cujo exemplo sustenta a hipótese de reserva cognitiva. O instituto reúne evidências de que hábitos como <strong>atividade física regular, interação social e controle de fatores de risco cardiovascular</strong> estão associados a melhor saúde cerebral na velhice. Nada disso garante imunidade, mas desloca a conversa da psique para o comportamento mensurável.</p>
+<p>O mesmo princípio de sistemas interligados aparece em outras áreas da fisiologia humana: um <a href="/curiosidades/curiosidades-do-corpo-humano">corpo cheio de peculiaridades biológicas</a>, um <a href="/ciencia/como-funciona-o-sistema-imunologico">sistema imune distribuído</a> e até mesmo o <a href="/ciencia/microbioma-intestinal">microbioma intestinal</a> conversando com o cérebro desafiam a ideia de que cada função tem um órgão-dono.</p>
+
+<h2>Conclusão</h2>
+<p>A memória é um processo ativo: sinapses que se fortalecem por coincidência, um hipocampo que forma e depois distribui, e um cérebro que reescreve cada lembrança sempre que a consulta. Entender isso não é apenas curiosidade científica — muda a forma como interpretamos depoimentos, como estudamos e como pensamos o envelhecimento saudável.</p>
+`,
+  },
+  {
+    id: '278',
+    slug: 'netcode-rollback-vs-delay-based',
+    title: 'Netcode: Rollback vs Delay-Based e Por Que Isso Muda Sua Partida',
+    excerpt:
+      'Em jogos online, tudo depende de como o jogo reconcilia ações de jogadores distantes. Entenda a diferença entre netcode delay-based e rollback, os custos de cada abordagem e por que jogos de luta adotaram o rollback.',
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['netcode', 'rollback', 'jogos-online', 'games', 'latencia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Sega-Dreamcast-Arcade-Stick.jpg/960px-Sega-Dreamcast-Arcade-Stick.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'Evan-Amos',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Sega-Dreamcast-Arcade-Stick.jpg',
+    sources: [
+      { title: 'The lag-fighting techniques behind GGPO’s netcode', url: 'https://www.gamedeveloper.com/programming/the-lag-fighting-techniques-behind-ggpo-s-netcode' },
+      { title: 'GGPO: Good Game, Peace Out (repositório oficial)', url: 'https://github.com/pond3r/ggpo' },
+      { title: 'Formalizing Rollback Netcodes for Robust and Real-Time Client-Server Architectures', url: 'https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.OPODIS.2025.11' },
+      { title: 'Explaining how fighting games use delay-based and rollback netcode', url: 'https://arstechnica.com/gaming/2019/10/explaining-how-fighting-games-use-delay-based-and-rollback-netcode' },
+    ],
+    relatedArticles: [
+      'cloud-gaming',
+      'cloud-gaming-esports-latencia-competitivo-2026',
+      'como-reduzir-input-lag-jogos',
+    ],
+    content: `
+<p>Duas pessoas apertam o mesmo botão no mesmo frame. Uma está em São Paulo, outra em Tóquio. Quem venceu o confronto? A resposta não está só nas mãos dos jogadores — está no <strong>netcode</strong>, o conjunto de algoritmos que decide como um jogo online reconcilia eventos que acontecem em máquinas diferentes e demoram milissegundos preciosos para se encontrar.</p>
+
+<h2>O que é netcode</h2>
+<p>Em termos gerais, netcode designa os sistemas e algoritmos que gerenciam a comunicação entre os jogadores de uma partida online, com dois objetivos que frequentemente competem: manter todos os participantes sincronizados e preservar a <strong>responsividade</strong> — a sensação de que o jogo responde na hora ao seu controle. Um artigo acadêmico publicado na conferência OPODIS 2025 formalizou justamente esse trade-off, definindo propriedades de imersão e responsividade como prioridade dos projetistas de jogos.</p>
+
+<h2>Delay-based: todos esperam por todos</h2>
+<p>A abordagem mais simples de sincronização é o netcode <em>delay-based</em> (baseado em atraso). A lógica é conservadora: o jogo <strong>segura</strong> a execução até que as entradas de todos os jogadores cheguem. O resultado é sincronização perfeita entre as máquinas — mas ao custo de introduzir atraso artificial em toda ação.</p>
+<p>O cálculo é fácil de visualizar. Em um jogo a 60 quadros por segundo, cada quadro dura cerca de 16,7 ms. A Ars Technica mostra que, com 90 ms de ping, o atraso de ida e volta consumiria aproximadamente <strong>3 quadros</strong> de espera antes de qualquer comando aparecer na tela. Em jogos de tiro ou estratégia, isso é tolerável. Em jogos de luta, onde a janela de um movimento é de poucos quadros, significa o morte do jogo competitivo sério.</p>
+
+<h2>Rollback: prever, corrigir, seguir em frente</h2>
+<p>A alternativa popularizada pelo <strong>GGPO</strong> — middleware de netcode criado por Tony Cannon, cujo repositório oficial detalha o funcionamento — é o <em>rollback</em>. A lógica inverte o problema:</p>
+<ol>
+<li>O jogo <strong>prevê</strong> o que o adversário fará, assumindo por padrão que ele repete a última entrada enviada;</li>
+<li>A simulação local <strong>segue imediatamente</strong>, sem esperar a rede;</li>
+<li>Quando as entradas reais chegam e divergem da previsão, o jogo <strong>volta no tempo</strong> até o primeiro quadro errado, reexecuta com os dados corretos e avança rapidamente até o presente.</li>
+</ol>
+<p>Para o jogador, o efeito é a ilusão de uma partida sem atraso — desde que a previsão acerte. E ela costuma acertar: em combos e sequências, a entrada anterior se repete por quadros e mais quadros.</p>
+
+<h3>O preço técnico</h3>
+<p>Rollback não é gratuito. Ele exige um <strong>simulador determinístico</strong>: se o estado do jogo não for 100% reprodutível, a reexecução produz mundos diferentes — o infame <em>desync</em>. Ele também impõe limites práticos: a documentação do GGPO explica que o ajuste entre <strong>atraso de quadro deliberado</strong> e <strong>execução especulativa</strong> (quantos quadros o jogo se permite prever antes de forçar sincronização) é um equilíbrio delicado, e que o número de rollbacks não pode crescer sem degradar a experiência — razão pela qual o sistema precisa de conexões razoavelmente estáveis para funcionar bem.</p>
+
+<h2>O que a academia acrescentou</h2>
+<p>O estudo da OPODIS 2025 — “Formalizing Rollback Netcodes for Robust and Real-Time Client-Server Architectures” — trouxe duas contribuições relevantes. Primeiro, consolidou definições formais das propriedades de imersão e consistência, antes informais. Segundo, e mais importante: mostrou que netcodes de rollback, apesar de populares, são <strong>suscetíveis a ataques baseados em latência</strong> — como o <em>lag-switch</em>, em que um jogador manipula artificialmente seu fluxo de pacotes, e ataques DDoS que degradam a conexão de um oponente. Em outras palavras, a mesma flexibilidade que faz o rollback funcionar abre superfície para abuso competitivo, um problema de segurança, não apenas de performance.</p>
+
+<h2>Por que jogos de luta lideraram a adoção</h2>
+<p>A revista Game Developer documenta que o GGPO foi adotado em títulos de luta de grande porte justamente porque o gênero é o mais sensível a atraso: <strong>precisão de quadros</strong> é parte da mecânica de jogo. Um atraso de dois ou três quadros transforma um contra-ataque garantido em derrota. A difusão do rollback em títulos modernos do gênero é, em grande medida, resultado dessa pressão — combinada à implementação de baixa latência em servidores regionais, que reduz o problema antes mesmo de o algoritmo entrar em cena.</p>
+
+<h2>O que fazer como jogador</h2>
+<p>Independentemente do algoritmo, três fatores práticos continuam sob seu controle: <strong>conexão com fio</strong> em vez de Wi-Fi, <strong>proximidade geográfica do servidor</strong> (ou do par, em arquiteturas ponto a ponto) e <strong>fechar aplicativos que competem por banda</strong>. Em jogos que oferecem escolha de região, ela importa mais que qualquer configuração de qualidade gráfica. Vale o mesmo princípio discutido em <a href="/games/como-reduzir-input-lag-jogos">como reduzir input lag</a> — no <a href="/games/cloud-gaming">cloud gaming</a>, onde a latência de rede é o gargalo dominante da experiência, e no <a href="/games/cloud-gaming-esports-latencia-competitivo-2026">uso competitivo de cloud gaming</a>, onde cada milissegundo conta.</p>
+
+<h2>Conclusão</h2>
+<p>Delay-based e rollback são respostas diferentes para a mesma pergunta: o que fazer com informação que ainda não chegou. O primeiro prefere esperar e sincronizar; o segundo arrisca uma previsão e corrige o rumo. Entender a diferença explica por que um jogo de luta “sem lag” é uma obra de engenharia, e por que nem toda promessa de partida perfeita sobrevive a 100 ms de ping.</p>
+`,
+  },
+  {
+    id: '279',
+    slug: 'triangulo-das-bermudas-o-que-a-ciencia-explica',
+    title: 'Triângulo das Bermudas: O Que a Ciência Realmente Explica',
+    excerpt:
+      'Navios e aviões desapareceriam em número anormal no Atlântico? A NOAA e a Guarda Costeira dos EUA reúnem as explicações documentadas — e desmentem o sobrenatural.',
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['bermudas', 'triangulo-das-bermudas', 'mitos', 'noaa', 'curiosidades'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Bermuda_aerial_overall_view_1993.JPEG/960px-Bermuda_aerial_overall_view_1993.JPEG',
+    imageLicense: 'Public domain',
+    imageArtist: 'PH1 Doolittle, USN',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Bermuda_aerial_overall_view_1993.JPEG',
+    sources: [
+      { title: 'What is the Bermuda Triangle?', url: 'https://oceanservice.noaa.gov/facts/bermudatri.html' },
+      { title: 'Bermuda Triangle (Perguntas Frequentes)', url: 'https://www.history.uscg.mil/Frequently-Asked-Questions/' },
+    ],
+    relatedArticles: [
+      'oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar',
+      'biotwang-sound-mystery-solved-whale',
+    ],
+    content: `
+<p>Poucas regiões do planeta têm endereço tão impreciso e fama tão grande. O “Triângulo das Bermudas” descreve, segundo a NOAA, uma área do oeste do Atlântico Norte onde navios, aviões e pessoas teriam desaparecido em circunstâncias misteriosas. A lista de explicações propostas é enorme — de anomalias geomagnéticas a civilizações perdidas. O que as autoridades conseguiram demonstrar, no entanto, é bem menos cinematográfico.</p>
+
+<h2>O que o triângulo (não) é</h2>
+<p>A primeira constatação oficial é geográfica: <strong>não existe delimitação reconhecida</strong>. A NOAA explica que os limites da região são definidos de forma diferente por diferentes autores, e que o Conselho dos Estados Unidos para Nomes Geográficos — o órgão oficial do país para nomes de lugares — não reconhece a denominação. Não há, portanto, mapa oficial do “Triângulo das Bermudas”: ele é um produto da imprensa e da cultura popular, não da cartografia.</p>
+<p>A segunda constatação envolve um mito comum. Circula a ideia de que seguradoras cobram prêmios extras para operações na região. Segundo a NOAA, <strong>a Lloyd’s de Londres nunca adotou essa prática</strong>, e a própria Lloyd’s publicou uma declaração nesse sentido em 2006. Se até o lobby dos seguros nega tratar a área como anormal, isso já é um sinal.</p>
+
+<h2>A posição da Guarda Costeira e da Marinha</h2>
+<p>Diante de supostas explicações paranormais, a resposta combinada da Marinha e da Guarda Costeira dos EUA, reproduzida pela página de perguntas frequentes da Guarda Costeira e citada pela NOAA, foi categórica: <strong>“não há explicações sobrenaturais para perdas de vidas no mar”</strong>. Na leitura das agências, o que explica os incidentes é “a combinação de forças da natureza e falibilidade humana” — clima severo, erro de cálculo, falha de equipamento.</p>
+<p>Sobre uma explicação específica que sobreviveu por décadas, a Guarda Costeira foi igualmente direta: a hipótese de <strong>interferência magnética alterando bússolas</strong> não é aceita pelos práticos da navegação. Mudanças na declinação magnética acontecem sim em vários pontos do globo — inclusive nas proximidades da região —, mas isso é fenômeno conhecido, previsto e rotineiro na navegação marítima.</p>
+
+<h2>As explicações ambientais documentadas</h2>
+<p>A NOAA reúne causas verificáveis que, somadas, elevam o risco da região sem recorrer a mistério:</p>
+<ul>
+<li><strong>Ciclones tropicais.</strong> A maioria das tempestades e furacões tropicais do Atlântico passa pela área — com a frequência de eventos extremos que isso implica.</li>
+<li><strong>Corrente do Golfo.</strong> A correnteza flui com velocidade e violência suficientes para gerar mudanças abruptas de condições meteorológicas — e para apagar rapidamente destroços que ajudariam numa investigação.</li>
+<li><strong>Águas rasas e recifes.</strong> Partes da região têm águas rasas e fundo rochoso, cenário clássico de encalhes e acidentes de navegação.</li>
+<li><strong>Variação da bússola.</strong> Nas proximidades, a agulha da bússola aponta mais próximo do norte verdadeiro (geográfico) do que em outras regiões, exigindo correções de navegação que nem todo praticante faz corretamente.</li>
+</ul>
+<p>A história mais recente ilustra o ponto: a NOAA cita o naufrágio do cargueiro <strong>El Faro</strong>, em outubro de 2015, durante o furacão Joaquim — uma tragédia documentada cujas causas concretas não deixam espaço para hipóteses exóticas.</p>
+
+<h2>A estatística que falta</h2>
+<p>O argumento mais forte contra o mito é a ausência de padrão. A NOAA resume: <strong>“não há evidências de que desaparecimentos misteriosos ocorram com mais frequência no Triângulo das Bermudas do que em qualquer outra área oceânica movimentada e bem percorrida”</strong>. A região é uma das mais navegadas do mundo; tráfego intenso produz, inevitavelmente, mais incidentes em números absolutos. O que sustentaria a lenda seria uma taxa anormal de desaparecimentos inexplicáveis — e ela simplesmente não foi demonstrada.</p>
+
+<h2>Como avaliar um "mistério" destes</h2>
+<p>O caso ilustra um método útil para qualquer alegação extraordinária. Primeiro: verificar se o fenômeno tem <strong>limite definido por autoridade competente</strong> — aqui, não tem. Segundo: buscar <strong>fontes primárias</strong> — a documentação da NOAA e da Guarda Costeira é primária; relatos sensacionalistas, não. Terceiro: separar <strong>fatos documentados</strong> (tempestades, correntes, naufrágios) de <strong>hipóteses não testadas</strong> (anomalias magnéticas, portais). Quarto: perguntar qual é a <strong>taxa base</strong> — quantos desaparecimentos ocorreriam por acaso em uma área com aquele volume de tráfego? É a quarta pergunta que mais falta no debate público, sobre o Triângulo das Bermudas e sobre muitos outros "mistérios" anunciados como se fossem fenômenos.</p>
+
+<h2>Por que a lenda persiste</h2>
+<p>Se a ciência e as autoridades explicam os casos, por que o Triângulo das Bermudas continua vivo na imaginação popular? Três fatores ajudam: <strong>viés de confirmação</strong> — lembramos dos casos “sem explicação” e esquecemos a maioria dos tráfegos que cruzam a região sem incidente; <strong>lacunas informativas</strong> — investigações demoradas ou inconclusivas deixam espaço para narrativas; e o <strong>interesse cultural</strong> — um mistério insolúvel vende mais que um relatório de falha humana. O oceano, de resto, guarda outros <a href="/curiosidades/oceanos-profundos-o-que-nao-conhecemos-do-fundo-do-mar">mistérios reais e pouco resolvidos</a> — como ruídos de origem desconhecida, a exemplo do <a href="/curiosidades/biotwang-sound-mystery-solved-whale">“biotwang” já explicado pela ciência</a>.</p>
+
+<h2>Conclusão</h2>
+<p>O Triângulo das Bermudas, como zona de desaparecimentos anormais, não se sustenta diante das fontes oficiais: não tem limites reconhecidos, não tem seguradores tratando a área como zona de risco, não tem explicação sobrenatural aceita pelas autoridades e — sobretudo — não tem taxa de incidentes fora do normal. O que sobra é uma região oceanográfica genuinamente perigosa, cruzada por furacões, correntes violentas e milhares de embarcações. Como tantas histórias do mar, a versão real é menos misteriosa, mas ainda assim respeitável.</p>
+`,
+  },
+  {
+    id: '280',
+    slug: 'erupcao-krakatoa-o-som-mais-alto-da-historia',
+    title: 'A Erupção do Krakatoa e o Som Mais Alto da História Registrada',
+    excerpt:
+      'Em agosto de 1883, uma ilha da Indonésia explodiu, gerou tsunamis que mataram mais de 36 mil pessoas e produziu um som ouvido a 4.600 km — além de ondas de pressão que deram voltas ao redor do planeta.',
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['krakatoa', 'vulcao', '1883', 'tsunami', 'curiosidades'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 7,
+    featuredImage: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Krakatoa_eruption_lithograph.jpg/960px-Krakatoa_eruption_lithograph.jpg',
+    imageLicense: 'Public domain',
+    imageArtist: 'Parker & Coward (litogravura de 1888)',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Krakatoa_eruption_lithograph.jpg',
+    sources: [
+      { title: 'On This Day: Historic Krakatau Eruption of 1883', url: 'https://www.ncei.noaa.gov/news/day-historic-krakatau-eruption-1883' },
+      { title: 'Krakatau 1883: The Volcanic Eruption and Its Effects', url: 'https://pubs.usgs.gov/publication/70168593' },
+      { title: 'Krakatau (Global Volcanism Program)', url: 'https://volcano.si.edu/volcano.cfm?vn=262000' },
+      { title: 'The Loudest Sound Ever Heard', url: 'https://www.discovermagazine.com/the-loudest-sound-ever-heard-198' },
+    ],
+    relatedArticles: [
+      'greenland-landslide-nine-day-earthquake',
+      'tempestade-poeira-mali-vista-do-espaco',
+    ],
+    content: `
+<p>Em maio de 1883, o capitão de um navio de guerra alemão que passava pelo Estreito de Sunda relatou, pela primeira vez, uma nuvem incomum sobre uma ilha chamada Krakatoa, entre Java e Sumatra. Três meses depois, essa mesma ilha daria início ao que os registros históricos consideram <strong>um dos sons mais altos já produzidos na Terra</strong> — e a uma das erupções mais letais da história documentada.</p>
+
+<h2>O que aconteceu</h2>
+<p>Nas primeiras horas de <strong>27 de agosto de 1883</strong>, episódios sucessivos culminaram no colapso de toda a parte norte da ilha. O Centro Nacional de Informação Ambiental (NCEI) da NOAA descreve o desfecho: uma explosão que lançou <strong>cinzas a cerca de 80 km de altitude</strong>, escureceu uma área em torno de <strong>800 mil km²</strong> por dois dias e meio, e disparou tsunamis que atingiram o Havaí e a América do Sul.</p>
+<p>O saldo humano foi devastador. O Programa Global de Vulcanismo do Instituto Smithsonian estima <strong>mais de 36 mil mortes</strong>, a maior parte provocada pelos tsunamis; o NCEI detalha que <strong>165 povoados costeiros</strong> foram inteiramente destruídos, que a maior onda registrada — cerca de <strong>41 metros</strong> — atingiu a região de Banten, e que a estimativa histórica de mortos supera <strong>34 mil vítimas de tsunami</strong>. A publicação <em>Krakatau 1883: The Volcanic Eruption and Its Effects</em>, de Simkin e Fiske (USGS, 1983), consolidou o caso como referência científica sobre o evento.</p>
+<p>O evento, aliás, não deixou a ilha desaparecida sem rastro: restou uma <strong>caldeira de cerca de 7 km de largura</strong>, segundo o registro do Smithsonian.</p>
+
+<h2>O som</h2>
+<p>A descrição mais precisa do fenômeno sonoro vem dos registros de época resumidos pelo NCEI: a explosão final produziu <strong>o som mais alto já registrado na história moderna</strong>, ouvido em uma área que cobre mais de <strong>10% da superfície da Terra</strong>. Relatos de locais tão distantes quanto Austrália e a ilha Maurício, a mais de <strong>4.600 km</strong> do vulcão, comparavam o barulho ao de artilharia distante.</p>
+<p>Um barômetro instalado numa estação de gás em Batávia (atual Jacarta), a cerca de <strong>160 km</strong> do vulcão, registrou uma variação de pressão que convertida corresponde a aproximadamente <strong>172 decibéis</strong> — análise reproduzida pela revista Discover com base nos dados de época. Para dimensionar: a revista observa que uma britadeira gira em torno de 100 dB, o limiar de dor humana fica perto de 130 dB e um motor de avião de perto, em 150 dB. O Krakatoa estava, literalmente, no limite do que se pode chamar de som.</p>
+<p>Há, porém, uma diferença entre estimativa e medição direta: os 172 dB são uma conversão moderna de um registro de pressão de 1883, não uma gravação. O fato documentado — o som — é indiscutível; o número exato, uma reconstrução.</p>
+
+<h2>A onda que deu a volta ao mundo</h2>
+<p>O que elevou o evento de tragédia local a fenômeno global foi o que veio depois do som em si. Como detalha o NCEI, as <strong>ondas de pressão atmosférica</strong> geradas pela explosão <strong>deram várias voltas ao redor do planeta</strong>, sendo registradas por barómetros em estações da Grã-Bretanha e dos Estados Unidos. A revista Discover detalha a progressão: quase 7 horas após a explosão, o pulso chegou a Calcutá; em 8 horas, a Maurício e à Austrália; em 12, a São Petersburgo, Viena, Roma, Paris e Berlim; em 18, a Nova York, Washington e Toronto. Por até cinco dias, cerca de 50 estações meteorológicas registraram picos recorrentes de pressão, apropriadamente apelidados na época de “a grande onda de ar”.</p>
+
+<h2>O clima depois do estrondo</h2>
+<p>A erupção lançou aerossóis na estratosfera em quantidade suficiente para afetar o clima global. Segundo o NCEI, as temperaturas médias caíram até <strong>0,5 °C</strong> no ano seguinte, e os padrões meteorológicos só retornaram ao normal <strong>a partir de 1888</strong>. Foi um experimento involuntário de vulcanismo e clima que a ciência moderna voltaria a estudar mais de um século depois.</p>
+
+<h2>Depois: uma ilha renasce</h2>
+<p>A história não terminou em 1883. Desde <strong>1927</strong>, segundo o Smithsonian, atividade vulcânica ergueu no mesmo lugar uma nova ilha — o <strong>Anak Krakatau</strong> (“filho do Krakatoa”). Em dezembro de 2018, o colapso de um flanco da ilha gerou novo tsunami mortal, confirmando que a região segue tectônica e socialmente ativa. O episódio, como outros eventos geológicos recentes — do <a href="/curiosidades/greenland-landslide-nine-day-earthquake">deslizamento de nove dias na Groenlândia</a> às <a href="/curiosidades/tempestade-poeira-mali-vista-do-espaco">tempestades vistas do espaço</a> —, mostra que a Terra continua produzindo fenômenos capazes de rivalizar com a ficção.</p>
+
+<h2>Conclusão</h2>
+<p>Krakatoa, 1883, é o cruzamento perfeito entre geologia, física e história: um som que dobrou o planeta, uma nuvem que alterou o clima e uma tragédia humana de mais de 36 mil mortos. Os números que impressionam vêm de fontes oficiais e registros de época — e a distinção entre medição e estimativa, como no caso dos 172 dB, é parte do que torna a história confiável de verdade.</p>
+`,
+  },
 ];

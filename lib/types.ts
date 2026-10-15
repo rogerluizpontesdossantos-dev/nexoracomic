@@ -238,5 +238,13 @@ export const CATEGORIES: Category[] = [
     seoTitle: 'Curiosidades: Bichos, Natureza e Estranhos Fenômenos',
     description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns',
     color: '#14b8a6'
+  },
+  {
+    id: 'geopolitica',
+    slug: 'geopolitica',
+    name: 'Geopolítica',
+    seoTitle: 'Geopolítica: Conflitos, Energia e Poder Global',
+    description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas',
+    color: '#0ea5e9'
   }
 ];
