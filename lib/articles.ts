@@ -15949,4 +15949,1261 @@ category: { id: 'espaco', slug: 'espaco', name: 'Espaço', description: 'Astrono
     ],
     relatedArticles: ['congresso-poder-presidente-limitar-ampliar-proximo', 'seguranca-publica-responsabilidades-governo-federal-estado-municipio'],
   },
+  {
+    id: '304',
+    slug: 'como-faz-compostagem-domiciliar',
+    title: 'Como fazer compostagem doméstica',
+    excerpt: 'Aprenda a transformar restos de comida em adubo para plantas, reduzindo o lixo orgânico em casa.',
+    content: `<h2>O que é compostagem</h2>
+<p>Compostagem é o processo de decomposição natural de resíduos orgânicos (restos de comida, cascas, folhas secas) em adubo rico em nutrientes para o solo.</p>
+
+<h2>O que pode e não pode compor</h2>
+<ul>
+  <li><strong>Pode:</strong> cascas de frutas e legumes, borra de café, saquinhos de chá, cascas de ovo trituradas, folhas secas, grama cortada.</li>
+  <li><strong>Não pode:</strong> carne, peixe, laticínios, óleo de cozinha, fezes de animais, plantas doentes.</li>
+</ul>
+
+<h2>Como começar</h2>
+<ol>
+  <li><strong>Escolha um recipiente:</strong> pode ser uma caixa de plástico com furinhos, um baldinho ou uma composteira pronta.</li>
+  <li><strong>Camadas:</strong> alterne camadas de "verdes" (restos úmidos) e "marrons" (folhas secas, papelão picado).</li>
+  <li><strong>Mexa regularmente:</strong> a cada semana, misture para arejar e acelerar a decomposição.</li>
+  <li><strong>Mantenha úmido:</strong> o conteúdo deve ficar úmido como uma esponja torrada, não encharcado.</li>
+</ol>
+
+<h2>Quanto tempo leva</h2>
+<p>De 2 a 6 meses, dependendo dos materiais e das condições.</p>
+
+<h2>Conclusão</h2>
+<p>Compostagem doméstica é simples, reduz o lixo enviado a aterros e produz adubo gratuito para plantas. Qualquer pessoa pode começar com pouco espaço e material.</p>`,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['compostagem', 'sustentabilidade', 'lixo orgânico', 'meio ambiente'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Compost.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Compost.jpg',
+    imageAlt: 'Compostagem doméstica',
+    sources: [
+      { title: 'EPA - Compostagem em Casa', url: 'https://www.epa.gov/recycle/composting-home', type: 'agency' },
+      { title: 'Embrapa - Solo e Adubação', url: 'https://www.embrapa.br/', type: 'agency' },
+    ],
+    relatedArticles: ['minha-casa-minha-vida', 'icms-circulacao-mercadorias-servicos'],
+  },
+  {
+    id: '305',
+    slug: 'o-que-e-microbioma-intestinal',
+    title: 'O que é microbioma intestinal e por que ele importa',
+    excerpt: 'Entenda o papel das bactérias no intestino e como elas afetam imunidade, digestão e até o humor.',
+    content: `<h2>O que é microbioma</h2>
+<p>O microbioma intestinal é o conjunto de trilhões de microrganismos (bactérias, vírus, fungos) que vivem no nosso trato digestivo. Eles são essenciais para a saúde humana.</p>
+
+<h2>O que eles fazem</h2>
+<ul>
+  <li><strong>Digestão:</strong> ajudam a quebrar alimentos que o corpo não consegue digerir sozinho.</li>
+  <li><strong>Imunidade:</strong> cerca de 70% do sistema imunológico está no intestino.</li>
+  <li><strong>Produção de vitaminas:</strong> algumas bactérias produzem vitamina K e vitaminas do complexo B.</li>
+  <li><strong>Comunicação com o cérebro:</strong> o eixo intestino-cérebro influencia humor e comportamento.</li>
+</ul>
+
+<h2>Como cuidar do microbioma</h2>
+<ul>
+  <li>Coma mais fibras (frutas, vegetais, grãos integrais).</li>
+  <li>Inclua alimentos fermentados (iogurte, kefir, chucrute).</li>
+  <li>Evite uso excessivo de antibióticos sem prescrição médica.</li>
+  <li>Reduza açúcar e ultraprocessados.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Cuidar do microbioma intestinal é cuidar da saúde como um todo. Pequenas mudanças na alimentação fazem diferença no bem-estar geral.</p>`,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['microbioma', 'intestino', 'saúde', 'bactérias'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Microbiome.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Microbiome.jpg',
+    imageAlt: 'Microbioma intestinal',
+    sources: [
+      { title: 'NIH - Human Microbiome Project', url: 'https://www.nih.gov/', type: 'agency' },
+      { title: 'Harvard T.H. Chan School - Microbiome', url: 'https://www.hsph.harvard.edu/', type: 'agency' },
+    ],
+    relatedArticles: ['microbioma-intestinal', 'curiosidades-do-corpo-humano'],
+  },
+  {
+    id: '291',
+    slug: 'jogar-em-pc-modesto-otimizacao',
+    title: 'Jogar em PC modesto: otimização que realmente melhora o desempenho',
+    excerpt: 'Ajustes práticos para rodar jogos em computadores de entrada sem gastar dinheiro.',
+    content: `<h2>Por que PCs modestos sofrem com jogos</h2>
+<p>Computadores de entrada geralmente têm processador com poucos núcleos, placa de vídeo integrada ou dedicada de baixo perfil e memória RAM limitada.</p>
+<p>A boa notícia é que parte do desempenho perdido pode ser recuperada com configurações corretas.</p>
+
+<h2>Ajustes no Windows que fazem diferença</h2>
+<ul>
+  <li><strong>Modo de jogo:</strong> ative o Modo de Jogo nas configurações do Windows.</li>
+  <li><strong>Desative inicializações desnecessárias:</strong> abra o Gerenciador de Tarefas, aba Inicializar.</li>
+  <li><strong>Plano de energia:</strong> escolha "Alto desempenho" nas opções de energia.</li>
+</ul>
+
+<h2>Ajustes dentro do jogo</h2>
+<ul>
+  <li><strong>Resolução:</strong> jogar em 720p pode dobrar o número de quadros por segundo.</li>
+  <li><strong>Qualidade de texturas e sombras:</strong> reduza para médio ou baixo.</li>
+  <li><strong>Escala de renderização:</strong> reduza de 100% para 75% ou 50%.</li>
+  <li><strong>Desative antialiasing:</strong> desligar ajuda em PCs modestos.</li>
+</ul>
+
+<h2>Drivers e atualizações</h2>
+<p>Mantenha os drivers da placa de vídeo atualizados. NVIDIA, AMD e Intel liberam otimizações específicas.</p>
+
+<h2>Conclusão</h2>
+<p>PC modesto não significa impossibilidade de jogar. Com os ajustes certos, é possível rodar muitos títulos populares.</p>`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['pc modesto', 'otimização', 'jogos', 'desempenho', 'windows'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 6,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gaming_Monitor.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Gaming_Monitor.jpg',
+    imageAlt: 'Monitor de jogos',
+    sources: [
+      { title: 'NVIDIA - GeForce Drivers', url: 'https://www.nvidia.com.br/Drivers/', type: 'agency' },
+      { title: 'AMD - Suporte e Drivers', url: 'https://www.amd.com/pt/support', type: 'agency' },
+    ],
+    relatedArticles: ['jogos-travando-no-pc-ajustes', 'netcode-rollback-vs-delay-based'],
+  },
+  {
+    id: '292',
+    slug: 'jogos-travando-no-pc-ajustes',
+    title: 'Jogos travando no PC: ajustes que resolvem',
+    excerpt: 'Diagnóstico e soluções para jogos que travam, fecham sozinhos ou têm quedas de FPS.',
+    content: `<h2>Por que jogos travam</h2>
+<p>Jogos podem travar por falta de RAM, placa de vídeo sobreaquecida, drivers desatualizados ou processos em segundo plano consumindo recursos.</p>
+
+<h2>Diagnóstico rápido</h2>
+<ul>
+  <li><strong>Gerenciador de Tarefas:</strong> verifique uso de CPU, memória e disco enquanto joga.</li>
+  <li><strong>Temperatura:</strong> use programas como HWMonitor para checar temperatura da GPU e CPU.</li>
+  <li><strong>Drivers:</strong> verifique se os drivers da placa de vídeo estão atualizados.</li>
+</ul>
+
+<h2>Soluções</h2>
+<ul>
+  <li>Feche navegadores e outros programas antes de jogar.</li>
+  <li>Limpe a poeira do gabinete e verifique se os coolers estão funcionando.</li>
+  <li>Reduza a qualidade gráfica dentro do jogo.</li>
+  <li>Atualize o Windows e os drivers.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Com diagnóstico correto e ajustes simples, é possível melhorar significativamente a estabilidade dos jogos.</p>`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['jogos travando', 'fps', 'hardware', 'drivers', 'solução'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gaming_PC.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Gaming_PC.jpg',
+    imageAlt: 'PC gamer',
+    sources: [
+      { title: 'NVIDIA - Suporte', url: 'https://www.nvidia.com.br/support/', type: 'agency' },
+      { title: 'AMD - Suporte', url: 'https://www.amd.com/pt/support', type: 'agency' },
+    ],
+    relatedArticles: ['jogar-em-pc-modesto-otimizacao', 'netcode-rollback-vs-delay-based'],
+  },
+  {
+    id: '293',
+    slug: 'netcode-rollback-vs-delay-based',
+    title: 'Netcode: rollback vs delay-based',
+    excerpt: 'Entenda a diferença entre os dois principais tipos de netcode em jogos online.',
+    content: `<h2>O que é netcode</h2>
+<p>Netcode é o código que gerencia a comunicação entre jogadores em jogos online, sincronizando ações em tempo real.</p>
+
+<h2>Delay-based netcode</h2>
+<p>Adiciona atraso igual para todos os jogadores, esperando confirmação do servidor antes de executar ações. Simples de implementar, mas sente-se pesado em conexões ruins.</p>
+
+<h2>Rollback netcode</h2>
+<p>Prevê ações locais imediatamente e corrige (faz rollback) se o servidor discordar. Mais responsivo, mas pode causar "teleporte" de personagens em conexões instáveis.</p>
+
+<h2>Comparação</h2>
+<table>
+  <tr><td><strong>Aspecto</strong></td><td><strong>Delay-based</strong></td><td><strong>Rollback</strong></td></tr>
+  <tr><td>Responsividade</td><td>Menor</td><td>Maior</td></tr>
+  <tr><td>Conexão ruim</td><td>Lag constante</td><td>Rollbacks visuais</td></tr>
+  <tr><td>Implementação</td><td>Simples</td><td>Complexa</td></tr>
+</table>
+
+<h2>Conclusão</h2>
+<p>Rollback é preferível para jogos competitivos, enquanto delay-based ainda é usado em jogos casuais.</p>`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['netcode', 'rollback', 'jogos online', 'latência'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Online_Gaming.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Online_Gaming.jpg',
+    imageAlt: 'Jogos online',
+    sources: [
+      { title: 'GGPO - Rollback Netcode', url: 'https://www.ggpo.net/', type: 'agency' },
+      { title: 'Evo - Netcode Guia', url: 'https://www.evo.sh/', type: 'agency' },
+    ],
+    relatedArticles: ['jogar-em-pc-modesto-otimizacao', 'jogos-travando-no-pc-ajustes'],
+  },
+  {
+    id: '294',
+    slug: 'monitores-oled-gamers-nova-geracao',
+    title: 'Monitores OLED para gamers: nova geração',
+    excerpt: 'Prós e contras dos monitores OLED para jogos, incluindo queimadura e brilho.',
+    content: `<h2>O que é OLED</h2>
+<p>OLED (Organic Light-Emitting Diode) é uma tecnologia de tela onde cada pixel emite sua própria luz, permitindo pretos perfeitos e contraste infinito.</p>
+
+<h2>Vantagens para jogos</h2>
+<ul>
+  <li><strong>Pretos perfeitos:</strong> pixels desligados criam preto absoluto.</li>
+  <li><strong>Tempo de resposta:</strong> quase instantâneo, ideal para jogos rápidos.</li>
+  <li><strong>Cores vibrantes:</strong> gama de cores ampla e precisa.</li>
+</ul>
+
+<h2>Desafios</h2>
+<ul>
+  <li><strong>Queimadura (burn-in):</strong> imagens estáticas podem deixar marca permanente.</li>
+  <li><strong>Brilho:</strong> geralmente menor que LED em cenas muito claras.</li>
+  <li><strong>Preço:</strong> ainda mais caro que monitores LED.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>OLED é excelente para jogos com cores e contraste excepcionais, mas requer cuidados para evitar queimadura.</p>`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['OLED', 'monitor', 'gamer', 'tela'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/OLED_Monitor.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:OLED_Monitor.jpg',
+    imageAlt: 'Monitor OLED',
+    sources: [
+      { title: 'LG - OLED Monitores', url: 'https://www.lg.com/br/monitores/', type: 'agency' },
+      { title: 'Samsung - OLED', url: 'https://www.samsung.com.br/', type: 'agency' },
+    ],
+    relatedArticles: ['como-escolher-monitor-gamer'],
+  },
+  {
+    id: '295',
+    slug: 'como-escolher-monitor-gamer',
+    title: 'Como escolher um monitor para jogos',
+    excerpt: 'Guia completo para escolher o monitor certo: taxa de atualização, tempo de resposta e painel.',
+    content: `<h2>Taxa de atualização</h2>
+<p>60Hz é o mínimo, mas 144Hz ou mais faz grande diferença em jogos competitivos.</p>
+
+<h2>Tempo de resposta</h2>
+<p>1ms a 5ms é ideal para evitar fantasma em cenas rápidas.</p>
+
+<h2>Tipo de painel</h2>
+<ul>
+  <li><strong>TN:</strong> rápido, cores ruins.</li>
+  <li><strong>IPS:</strong> boas cores, tempo médio.</li>
+  <li><strong>VA:</strong> bom contraste, pode ter fantasma.</li>
+  <li><strong>OLED:</strong> melhor contraste, preço alto.</li>
+</ul>
+
+<h2>Resolução</h2>
+<ul>
+  <li>1080p: padrão, fácil de rodar.</li>
+  <li>1440p: equilíbrio entre qualidade e performance.</li>
+  <li>4K: exigente, precisa de placa forte.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Escolha baseado no tipo de jogo e orçamento. Competitivos pedem taxa alta, single-player pede qualidade de imagem.</p>`,
+    category: { id: 'games', slug: 'games', name: 'Games', description: 'Notícias de games, tecnologia por trás dos jogos e análise da indústria', color: '#ef4444' },
+    tags: ['monitor', 'gamer', 'taxa de atualização', 'painel'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Monitor_Gamer.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Monitor_Gamer.jpg',
+    imageAlt: 'Monitor para jogos',
+    sources: [
+      { title: 'Rtings - Monitores', url: 'https://www.rtings.com/', type: 'agency' },
+      { title: 'Tom\'s Hardware', url: 'https://www.tomshardware.com/', type: 'agency' },
+    ],
+    relatedArticles: ['monitores-oled-gamers-nova-geracao', 'como-escolher-placa-de-video'],
+  },
+  {
+    id: '296',
+    slug: 'mini-pc-vs-desktop',
+    title: 'Mini PC vs Desktop: qual escolher?',
+    excerpt: 'Compare tamanho, desempenho e preço entre mini PCs e desktops tradicionais.',
+    content: `<h2>Mini PC</h2>
+<p>Computador compacto, ideal para escritório e tarefas leves. Consome menos energia e ocupa pouco espaço.</p>
+
+<h2>Desktop tradicional</h2>
+<p>Maior, mais potente, permite upgrades fáceis. Ideal para jogos e edição de vídeo.</p>
+
+<h2>Comparação</h2>
+<table>
+  <tr><td><strong>Aspecto</strong></td><td><strong>Mini PC</strong></td><td><strong>Desktop</strong></td></tr>
+  <tr><td>Tamanho</td><td>Compacto</td><td>Grande</td></tr>
+  <tr><td>Desempenho</td><td>Básico a médio</td><td>Alto</td></tr>
+  <tr><td>Upgrades</td><td>Limitados</td><td>Fáceis</td></tr>
+  <tr><td>Preço</td><td>Menor</td><td>Maior</td></tr>
+</table>
+
+<h2>Conclusão</h2>
+<p>Mini PC para escritório, desktop para jogos e trabalho pesado.</p>`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['mini pc', 'desktop', 'computador', 'comparativo'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mini_PC.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Mini_PC.jpg',
+    imageAlt: 'Mini PC',
+    sources: [
+      { title: 'Intel - NUC', url: 'https://www.intel.com.br/', type: 'agency' },
+      { title: 'ASUS - Mini PC', url: 'https://www.asus.com/br/', type: 'agency' },
+    ],
+    relatedArticles: ['como-escolher-computador'],
+  },
+  {
+    id: '297',
+    slug: 'vpn-o-que-e-e-quando-vale-a-pena',
+    title: 'VPN: o que é e quando vale a pena',
+    excerpt: 'Entenda como VPNs funcionam, vantagens para privacidade e quando usá-las.',
+    content: `<h2>O que é VPN</h2>
+<p>VPN (Rede Privada Virtual) cria um túnel criptografado entre seu dispositivo e um servidor remoto, mascarando seu IP.</p>
+
+<h2>Vantagens</h2>
+<ul>
+  <li><strong>Privacidade:</strong> provedor de internet não vê sites visitados.</li>
+  <li><strong>Segurança:</strong> protege em Wi-Fi público.</li>
+  <li><strong>Acesso:</strong> contorna bloqueios regionais.</li>
+</ul>
+
+<h2>Desvantagens</h2>
+<ul>
+  <li><strong>Velocidade:</strong> pode reduzir a conexão.</li>
+  <li><strong>Custo:</strong> boas VPNs são pagas.</li>
+  <li><strong>Confiança:</strong> você confia nos dados à operadora da VPN.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Útil para privacidade e acesso, mas não é anonimato total.</p>`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['VPN', 'privacidade', 'segurança', 'internet'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/VPN.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:VPN.jpg',
+    imageAlt: 'VPN',
+    sources: [
+      { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'agency' },
+      { title: 'Mozilla - VPN', url: 'https://www.mozilla.org/pt-BR/', type: 'agency' },
+    ],
+    relatedArticles: ['como-escolher-um-dns-mais-rapido-e-privado', 'ciberseguranca-para-iniciantes'],
+  },
+  {
+    id: '298',
+    slug: 'como-mudar-senha-wi-fi-roteador',
+    title: 'Como mudar a senha do Wi-Fi no roteador',
+    excerpt: 'Passo a passo simples para alterar a senha do seu Wi-Fi e proteger sua rede.',
+    content: `<h2>Por que mudar a senha do Wi-Fi</h2>
+<p>A senha padrão do roteador costuma ser fraca ou divulgada. Mudar protege sua rede contra acessos indevidos.</p>
+
+<h2>Passo a passo</h2>
+<ol>
+  <li>Descubra o IP do roteador (geralmente 192.168.0.1 ou 192.168.1.1).</li>
+  <li>Abra o navegador e digite o IP.</li>
+  <li>Faça login (geralmente "admin" e "admin").</li>
+  <li>Vá em Configurações sem fio.</li>
+  <li>Digite a nova senha (mínimo 8 caracteres).</li>
+  <li>Salve e reconecte dispositivos.</li>
+</ol>
+
+<h2>Dicas de senha segura</h2>
+<ul>
+  <li>Não use datas ou sequências óbvias.</li>
+  <li>Prefira senhas longas com letras, números e símbolos.</li>
+  <li>Não compartilhe com estranhos.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Mudar a senha do Wi-Fi leva menos de 5 minutos e protege sua rede.</p>`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['wi-fi', 'senha', 'roteador', 'segurança digital'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Wi-fi_router.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Wi-fi_router.jpg',
+    imageAlt: 'Roteador Wi-Fi',
+    sources: [
+      { title: 'Microsoft - Wi-Fi', url: 'https://support.microsoft.com/', type: 'agency' },
+    ],
+    relatedArticles: ['vpn-o-que-e-e-quando-vale-a-pena', 'como-escolher-um-dns-mais-rapido-e-privado'],
+  },
+  {
+    id: '299',
+    slug: 'ciberseguranca-para-iniciantes',
+    title: 'Cibersegurança para iniciantes',
+    excerpt: 'Guia básico para se proteger online: senhas, atualizações e cuidado com golpes.',
+    content: `<h2>Por que cibersegurança importa</h2>
+<p>Dados pessoais são valiosos. Protegê-los evita fraudes, roubo de identidade e prejuízos.</p>
+
+<h2>Práticas essenciais</h2>
+<ul>
+  <li><strong>Senhas fortes:</strong> use gerenciador de senhas.</li>
+  <li><strong>Autenticação de dois fatores:</strong> ative sempre que possível.</li>
+  <li><strong>Atualizações:</strong> mantenha sistema e apps atualizados.</li>
+  <li><strong>Cuidado com links:</strong> não clique em suspeitos.</li>
+  <li><strong>Backup:</strong> faça cópias de arquivos importantes.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Hábitos simples fazem grande diferença na segurança online.</p>`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['cibersegurança', 'senhas', 'privacidade', 'segurança online'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cybersecurity.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Cybersecurity.jpg',
+    imageAlt: 'Cibersegurança',
+    sources: [
+      { title: 'CERT.br', url: 'https://www.cert.br/', type: 'agency' },
+      { title: 'LGPD - Brasil', url: 'https://www.gov.br/lgpd/', type: 'agency' },
+    ],
+    relatedArticles: ['vpn-o-que-e-e-quando-vale-a-pena', 'como-escolher-um-dns-mais-rapido-e-privado'],
+  },
+  {
+    id: '300',
+    slug: 'ia-no-celular-o-que-roda-no-aparelho-vs-nuvem',
+    title: 'IA no celular: o que roda no aparelho vs nuvem',
+    excerpt: 'Compare processamento de IA local e em nuvem em smartphones.',
+    content: `<h2>IA local vs nuvem</h2>
+<p>IA local processa no próprio celular (mais rápido, privado). IA em nuvem usa servidores remotos (mais poderoso, precisa de internet).</p>
+
+<h2>Exemplos locais</h2>
+<ul>
+  <li>Reconhecimento facial para desbloqueio.</li>
+  <li>Filtros de câmera em tempo real.</li>
+  <li>Tradução offline.</li>
+</ul>
+
+<h2>Exemplos em nuvem</h2>
+<ul>
+  <li>Assistentes de voz complexos.</li>
+  <li>Geração de imagens por texto.</li>
+  <li>Chatbots avançados.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Híbrido é o futuro: simples no aparelho, complexo na nuvem.</p>`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['IA', 'celular', 'nuvem', 'processamento'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AI_Smartphone.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:AI_Smartphone.jpg',
+    imageAlt: 'IA no celular',
+    sources: [
+      { title: 'Google AI', url: 'https://ai.google/', type: 'agency' },
+      { title: 'Apple - Machine Learning', url: 'https://developer.apple.com/machine-learning/', type: 'agency' },
+    ],
+    relatedArticles: ['deepfake-detecao', 'etica-e-vieses-da-ia'],
+  },
+  {
+    id: '301',
+    slug: 'deepfake-detecao',
+    title: 'Deepfake: detecção e impacto',
+    excerpt: 'Entenda como deepfakes são criados e como identificar conteúdo falso.',
+    content: `<h2>O que é deepfake</h2>
+<p>Deepfake usa IA para criar ou alterar vídeos e áudios, fazendo pessoas parecerem dizer ou fazer coisas que não fizeram.</p>
+
+<h2>Como detectar</h2>
+<ul>
+  <li>Olhos que não piscam naturalmente.</li>
+  <li>Áudio com estranhas pausas ou entonação.</li>
+  <li>Bordas borradas ao redor do rosto.</li>
+  <li>Iluminação inconsistente.</li>
+</ul>
+
+<h2>Impacto</h2>
+<ul>
+  <li>Difusão de notícias falsas.</li>
+  <li>Golpes financeiros.</li>
+  <li>Dano à reputação.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Desconfie de conteúdos sensacionais e verifique a fonte.</p>`,
+    category: { id: 'ia', slug: 'ia', name: 'Inteligência Artificial', description: 'IA generativa, LLMs, automação, ética em IA e impacto no trabalho', color: '#6366f1' },
+    tags: ['deepfake', 'IA', 'desinformação', 'detecção'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Deepfake.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Deepfake.jpg',
+    imageAlt: 'Deepfake',
+    sources: [
+      { title: 'MIT - Deepfake Detection', url: 'https://www.mit.edu/', type: 'agency' },
+      { title: 'Detect Fakes', url: 'https://www.detectfakes.org/', type: 'agency' },
+    ],
+    relatedArticles: ['etica-e-vieses-da-ia', 'curso-ia-gratis-recursos'],
+  },
+  {
+    id: '302',
+    slug: 'etica-e-vieses-da-ia',
+    title: 'Ética e vieses da IA',
+    excerpt: 'Como vieses de dados afetam IA e o que fazer para mitigar.',
+    content: `<h2>O que são vieses em IA</h2>
+<p>IA aprende com dados. Se os dados têm preconceitos, a IA os replica e amplifica.</p>
+
+<h2>Exemplos de vieses</h2>
+<ul>
+  <li>Reconhecimento facial menos preciso em pessoas negras.</li>
+  <li>Assistentes com voz feminina para tarefas domésticas.</li>
+  <li>Anúncios de emprego direcionados por gênero.</li>
+</ul>
+
+<h2>Mitigação</h2>
+<ul>
+  <li>Dados de treinamento diversos.</li>
+  <li>Auditoria de algoritmos.</li>
+  <li>Equipes diversas desenvolvendo IA.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>IA ética requer atenção constante a dados e impactos.</p>`,
+    category: { id: 'ia', slug: 'ia', name: 'Inteligência Artificial', description: 'IA generativa, LLMs, automação, ética em IA e impacto no trabalho', color: '#6366f1' },
+    tags: ['ética', 'IA', 'viés', 'algoritmo'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AI_Ethics.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:AI_Ethics.jpg',
+    imageAlt: 'Ética em IA',
+    sources: [
+      { title: 'UNESCO - IA Ética', url: 'https://www.unesco.org/', type: 'agency' },
+      { title: 'Partnership on AI', url: 'https://www.partnershiponai.org/', type: 'agency' },
+    ],
+    relatedArticles: ['deepfake-detecao', 'ia-no-celular-o-que-roda-no-aparelho-vs-nuvem'],
+  },
+  {
+    id: '303',
+    slug: 'curso-ia-gratis-recursos',
+    title: 'Curso de IA: recursos gratuitos para estudar',
+    excerpt: 'Lista de cursos e materiais gratuitos para aprender inteligência artificial.',
+    content: `<h2>Por que estudar IA</h2>
+<p>IA está transformando profissões. Entendê-la é diferencial no mercado.</p>
+
+<h2>Recursos gratuitos</h2>
+<ul>
+  <li><strong>Coursera:</strong> cursos de Stanford e DeepLearning.AI (auditoria grátis).</li>
+  <li><strong>fast.ai:</strong> curso prático de deep learning.</li>
+  <li><strong>Google AI:</strong> materiais e tutoriais.</li>
+  <li><strong>Microsoft Learn:</strong> caminhos de aprendizado.</li>
+  <li><strong>YouTube:</strong> canais como 3Blue1Brown e Two Minute Papers.</li>
+</ul>
+
+<h2>O que aprender primeiro</h2>
+<ul>
+  <li>Python para programação.</li>
+  <li>Estatística básica.</li>
+  <li>Machine learning fundamentals.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Comece pequeno, pratique com projetos reais e mantenha-se atualizado.</p>`,
+    category: { id: 'ia', slug: 'ia', name: 'Inteligência Artificial', description: 'IA generativa, LLMs, automação, ética em IA e impacto no trabalho', color: '#6366f1' },
+    tags: ['curso', 'IA', 'aprendizado', 'recursos gratuitos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/AI_Learning.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:AI_Learning.jpg',
+    imageAlt: 'Aprendendo IA',
+    sources: [
+      { title: 'Coursera', url: 'https://www.coursera.org/', type: 'agency' },
+      { title: 'fast.ai', url: 'https://www.fast.ai/', type: 'agency' },
+    ],
+    relatedArticles: ['ia-no-celular-o-que-roda-no-aparelho-vs-nuvem', 'hardware-para-ia-local'],
+  },
+  {
+    id: '306',
+    slug: 'hardware-para-ia-local-como-rodar-modelos-em-casa',
+    title: 'Hardware para IA local: como rodar modelos em casa',
+    excerpt: 'O que você precisa para executar modelos de IA no próprio computador.',
+    content: `<h2>IA local vs nuvem</h2>
+<p>Rodar IA localmente oferece privacidade e não depende de internet, mas requer hardware adequado.</p>
+
+<h2>Requisitos mínimos</h2>
+<ul>
+  <li><strong>GPU:</strong> NVIDIA com CUDA (recomendado) ou AMD.</li>
+  <li><strong>VRAM:</strong> 8GB+ para modelos médios, 24GB+ para grandes.</li>
+  <li><strong>RAM:</strong> 16GB+ recomendado.</li>
+  <li><strong>Armazenamento:</strong> SSD rápido para modelos.</li>
+</ul>
+
+<h2>Software</h2>
+<ul>
+  <li>Ollama, LM Studio ou LocalAI.</li>
+  <li>Python e bibliotecas de ML.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>IA local é viável com GPU moderna e é ótima para privacidade.</p>`,
+    category: { id: 'ia', slug: 'ia', name: 'Inteligência Artificial', description: 'IA generativa, LLMs, automação, ética em IA e impacto no trabalho', color: '#6366f1' },
+    tags: ['IA local', 'hardware', 'GPU', 'modelos'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/GPU_AI.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:GPU_AI.jpg',
+    imageAlt: 'GPU para IA',
+    sources: [
+      { title: 'NVIDIA - CUDA', url: 'https://developer.nvidia.com/cuda-zone', type: 'agency' },
+      { title: 'Ollama', url: 'https://ollama.ai/', type: 'agency' },
+    ],
+    relatedArticles: ['curso-ia-gratis-recursos', 'ia-no-celular-o-que-roda-no-aparelho-vs-nuvem'],
+  },
+  {
+    id: '307',
+    slug: 'eleicoes-2026',
+    title: 'Eleições 2026 no Brasil',
+    excerpt: 'O que esperar das eleições presidenciais de 2026 e principais candidatos.',
+    content: `<h2>Contexto</h2>
+<p>As eleições de 2026 definirão presidente, governadores e legislativos. Serão decisivas para o futuro político do país.</p>
+
+<h2>Principais temas</h2>
+<ul>
+  <li>Economia e inflação.</li>
+  <li>Reforma tributária.</li>
+  <li>Segurança pública.</li>
+  <li>Educação e saúde.</li>
+</ul>
+
+<h2>Como se preparar</h2>
+<ul>
+  <li>Verifique seu título de eleitor.</li>
+  <li>Acompanhe debates e propostas.</li>
+  <li>Verifique fontes antes de compartilhar.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Participar informadamente fortalece a democracia.</p>`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['eleições 2026', 'política', 'brasil', 'voto'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Eleicoes_Brasil.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Eleicoes_Brasil.jpg',
+    imageAlt: 'Eleições Brasil',
+    sources: [
+      { title: 'TSE - Tribunal Superior Eleitoral', url: 'https://www.tse.jus.br/', type: 'agency' },
+    ],
+    relatedArticles: ['congresso-poder-presidente-limitar-ampliar-proximo'],
+  },
+  {
+    id: '308',
+    slug: 'congresso-poder-presidente-limitar-ampliar-proximo',
+    title: 'Congresso pode limitar ou ampliar poderes do presidente?',
+    excerpt: 'Entenda o equilíbrio entre Executivo e Legislativo no Brasil.',
+    content: `<h2>Separação de poderes</h2>
+<p>No presidencialismo brasileiro, Executivo, Legislativo e Judiciário se controlam mutuamente.</p>
+
+<h2>Poderes do Congresso</h2>
+<ul>
+  <li>Aprovar ou rejeitar leis.</li>
+  <li>Derrubar vetos presidenciais.</li>
+  <li>Instalar CPIs.</li>
+  <li>Processo de impeachment.</li>
+</ul>
+
+<h2>Poderes do presidente</h2>
+<ul>
+  <li>Veto a projetos.</li>
+  <li>Medidas provisórias.</li>
+  <li>Nomear ministros.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Freios e contrapesos evitam concentração de poder.</p>`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['Congresso', 'presidente', 'poderes', 'política'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Congresso_Brasil.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Congresso_Brasil.jpg',
+    imageAlt: 'Congresso Nacional',
+    sources: [
+      { title: 'Senado Federal', url: 'https://www.senado.leg.br/', type: 'agency' },
+      { title: 'Câmara dos Deputados', url: 'https://www.camara.leg.br/', type: 'agency' },
+    ],
+    relatedArticles: ['eleicoes-2026', 'stf-congresso-presidencia-competencias'],
+  },
+  {
+    id: '309',
+    slug: 'tardigrados-sobrevivem-ao-espaco',
+    title: 'Tardígrados: sobrevivem ao espaço',
+    excerpt: 'Conheça os animais microscópicos que resistem ao vácuo e à radiação espacial.',
+    content: `<h2>O que são tardígrados</h2>
+<p>Também chamados de ursinhos-do-mato, são animais de até 1mm que sobrevivem em condições extremas.</p>
+
+<h2>Superpoderes</h2>
+<ul>
+  <li>Vácuo do espaço.</li>
+  <li>Radiação solar e cósmica.</li>
+  <li>Temperaturas de -272°C a 150°C.</li>
+  <li>Pressão do fundo do oceano.</li>
+</ul>
+
+<h2>Criptobiose</h2>
+<p>Eles entram em estado de animação suspensa, secando quase completamente e reidratando quando condições melhoram.</p>
+
+<h2>Conclusão</h2>
+<p>Tardígrados são alguns dos seres mais resistentes conhecidos.</p>`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['tardígrado', 'animal', 'espaço', 'curiosidade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tardigrade.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Tardigrade.jpg',
+    imageAlt: 'Tardígrado',
+    sources: [
+      { title: 'NASA - Tardígrados', url: 'https://www.nasa.gov/', type: 'agency' },
+      { title: 'Natural History Museum', url: 'https://www.nhm.ac.uk/', type: 'agency' },
+    ],
+    relatedArticles: ['colonizacao-de-marte'],
+  },
+  {
+    id: '310',
+    slug: 'como-funciona-o-sistema-imunologico',
+    title: 'Como funciona o sistema imunológico',
+    excerpt: 'Entenda como o corpo se defende de vírus, bactérias e outros agentes infecciosos.',
+    content: `<h2>O que é o sistema imunológico</h2>
+<p>O sistema imunológico é o conjunto de órgãos, células e proteínas que protege o corpo contra agentes infecciosos.</p>
+
+<h2>Como funciona</h2>
+<ul>
+  <li><strong>Barreiras físicas:</strong> pele e mucosas.</li>
+  <li><strong>Células de defesa:</strong> glóbulos brancos.</li>
+  <li><strong>Anticorpos:</strong> proteínas específicas.</li>
+  <li><strong>Memória imunológica:</strong> reage mais rápido na próxima infecção.</li>
+</ul>
+
+<h2>Fortalecer a imunidade</h2>
+<ul>
+  <li>Coma fibras e alimentos fermentados.</li>
+  <li>Evite antibióticos sem receita.</li>
+  <li>Reduza açúcar e ultraprocessados.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Hábitos saudáveis mantêm o sistema imunológico forte.</p>`,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['sistema imunológico', 'imunidade', 'saúde', 'vacinas'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Immune_system.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Immune_system.jpg',
+    imageAlt: 'Sistema imunológico',
+    sources: [
+      { title: 'Ministério da Saúde', url: 'https://www.gov.br/saude/', type: 'agency' },
+      { title: 'NIH', url: 'https://www.nih.gov/', type: 'agency' },
+    ],
+    relatedArticles: ['o-que-e-microbioma-intestinal', 'curiosidades-do-corpo-humano'],
+  },
+  {
+    id: '311',
+    slug: 'o-que-e-fotossintese',
+    title: 'O que é fotossíntese e por que é essencial',
+    excerpt: 'Entenda como plantas transformam luz solar em energia e por que é fundamental para a vida.',
+    content: `<h2>O que é fotossíntese</h2>
+<p>Plantas, algas e algumas bactérias convertem luz solar, CO2 e água em glicose e oxigênio.</p>
+
+<h2>Como funciona</h2>
+<p>A clorofila captura luz solar, separa água e CO2 para produzir glicose, liberando oxigênio.</p>
+
+<h2>Por que é importante</h2>
+<ul>
+  <li>Produz oxigênio.</li>
+  <li>Base da cadeia alimentar.</li>
+  <li>Remove CO2 da atmosfera.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Fotossíntese é essencial para praticamente toda vida na Terra.</p>`,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['fotossíntese', 'plantas', 'biologia', 'meio ambiente'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Photosynthesis.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Photosynthesis.jpg',
+    imageAlt: 'Fotossíntese',
+    sources: [
+      { title: 'NASA - Fotossíntese', url: 'https://science.nasa.gov/', type: 'agency' },
+      { title: 'USDA', url: 'https://www.usda.gov/', type: 'agency' },
+    ],
+    relatedArticles: ['como-faz-compostagem-domiciliar', 'o-que-e-microbioma-intestinal'],
+  },
+  {
+    id: '312',
+    slug: 'o-que-e-microbioma-intestinal',
+    title: 'O que é microbioma intestinal e por que importa',
+    excerpt: 'Entenda o papel das bactérias no intestino e como afetam imunidade, digestão e humor.',
+    content: `<h2>O que é microbioma</h2>
+<p>É o conjunto de trilhões de microrganismos no trato digestivo, essenciais para a saúde.</p>
+
+<h2>Funções</h2>
+<ul>
+  <li><strong>Digestão:</strong> quebram alimentos.</li>
+  <li><strong>Imunidade:</strong> 70% do sistema imunológico está no intestino.</li>
+  <li><strong>Vitaminas:</strong> produzem vitamina K e complexo B.</li>
+  <li><strong>Intestino-cérebro:</strong> influencia humor.</li>
+</ul>
+
+<h2>Como cuidar</h2>
+<ul>
+  <li>Coma fibras e alimentos fermentados.</li>
+  <li>Evite antibióticos excessivos.</li>
+  <li>Reduza açúcar e ultraprocessados.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Cuidar do microbioma é cuidar da saúde geral.</p>`,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['microbioma', 'intestino', 'saúde', 'bactérias'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Microbiome.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Microbiome.jpg',
+    imageAlt: 'Microbioma',
+    sources: [
+      { title: 'NIH', url: 'https://www.nih.gov/', type: 'agency' },
+      { title: 'Harvard', url: 'https://www.hsph.harvard.edu/', type: 'agency' },
+    ],
+    relatedArticles: ['como-faz-compostagem-domiciliar', 'como-funciona-o-sistema-imunologico'],
+  },
+  {
+    id: '313',
+    slug: 'energia-solar-em-casa-vale-a-pena',
+    title: 'Energia solar em casa vale a pena?',
+    excerpt: 'Analise custos, economia e retorno do investimento em painéis solares.',
+    content: `<h2>Vantagens</h2>
+<ul>
+  <li>Conta de luz reduzida.</li>
+  <li>Sustentabilidade.</li>
+  <li>Valorização do imóvel.</li>
+</ul>
+
+<h2>Desafios</h2>
+<ul>
+  <li>Custo inicial alto.</li>
+  <li>Precisa de espaço no telhado.</li>
+  <li>Depende do clima.</li>
+</ul>
+
+<h2>Retorno</h2>
+<p>Payback típico de 4 a 7 anos.</p>
+
+<h2>Conclusão</h2>
+<p>Vale para quem tem boa insolação e plano de longo prazo.</p>`,
+    category: { id: 'futuro', slug: 'futuro', name: 'Futuro', description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes', color: '#10b981' },
+    tags: ['energia solar', 'renovável', 'casa', 'sustentabilidade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Solar_Panels_House.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Solar_Panels_House.jpg',
+    imageAlt: 'Painéis solares',
+    sources: [
+      { title: 'INMETRO', url: 'https://www.inmetro.gov.br/', type: 'agency' },
+      { title: 'ANEEL', url: 'https://www.aneel.gov.br/', type: 'agency' },
+    ],
+    relatedArticles: ['carros-eletricos-prontos-para-o-brasil'],
+  },
+  {
+    id: '314',
+    slug: 'carros-eletricos-prontos-para-o-brasil',
+    title: 'Carros elétricos estão prontos para o Brasil?',
+    excerpt: 'Analise infraestrutura, preços e autonomia antes de comprar.',
+    content: `<h2>Cenário no Brasil</h2>
+<p>Mercado cresce, mas enfrenta desafios de infraestrutura e preço.</p>
+
+<h2>Vantagens</h2>
+<ul>
+  <li>Menor custo de abastecimento.</li>
+  <li>Menor manutenção.</li>
+  <li>Emissões zero locais.</li>
+</ul>
+
+<h2>Desafios</h2>
+<ul>
+  <li>Rede de carregamento escassa.</li>
+  <li>Preço ainda alto.</li>
+  <li>Autonomia limitada em modelos básicos.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Viável para perfis específicos, mas infraestrutura precisa evoluir.</p>`,
+    category: { id: 'futuro', slug: 'futuro', name: 'Futuro', description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes', color: '#10b981' },
+    tags: ['carros elétricos', 'mobilidade', 'sustentabilidade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Electric_car.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Electric_car.jpg',
+    imageAlt: 'Carro elétrico',
+    sources: [
+      { title: 'ABVE', url: 'https://www.abve.com.br/', type: 'agency' },
+      { title: 'INMETRO', url: 'https://www.inmetro.gov.br/', type: 'agency' },
+    ],
+    relatedArticles: ['energia-solar-em-casa-vale-a-pena'],
+  },
+  {
+    id: '315',
+    slug: 'teias-de-aranha-sao-mais-fortes-que-o-aco',
+    title: 'Teias de aranha são mais fortes que o aço?',
+    excerpt: 'Descubra a verdade sobre a resistência das teias de aranha.',
+    content: `<h2>O que são teias de aranha</h2>
+<p>As teias de aranha são feitas de seda, uma proteína produzida pelas aranhas.</p>
+
+<h2>Comparação com o aço</h2>
+<p>Em termos de resistência à tração, algumas teias de aranha podem ser mais fortes que o aço do mesmo diâmetro.</p>
+
+<h2>Propriedades da seda</h2>
+<ul>
+  <li><strong>Elasticidade:</strong> pode se esticar até 40% sem romper.</li>
+  <li><strong>Resistência:</strong> algumas espécies produzem seda cinco vezes mais forte que o aço.</li>
+  <li><strong>Leveza:</strong> é extremamente leve e fina.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>As teias de aranha são incrivelmente fortes para seu tamanho.</p>`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['aranha', 'teia', 'seda', 'material', 'curiosidade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Spider_web.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Spider_web.jpg',
+    imageAlt: 'Teia de aranha',
+    sources: [
+      { title: 'Smithsonian - Aranhas', url: 'https://www.si.edu/', type: 'agency' },
+      { title: 'NIH - Seda de Aranha', url: 'https://www.nih.gov/', type: 'agency' },
+    ],
+    relatedArticles: ['por-que-o-ceu-e-azul'],
+  },
+  {
+    id: '316',
+    slug: 'carros-eletricos-infraestrutura-brasil',
+    title: 'Carros elétricos: infraestrutura de carregamento no Brasil',
+    excerpt: 'Veja onde carregar e quanto custa manter um elétrico no Brasil.',
+    content: `<h2>Tipos de carregamento</h2>
+<ul>
+  <li><strong>Lento:</strong> tomada residencial, 6-12 horas.</li>
+  <li><strong>Rápido:</strong> estações públicas, 1-2 horas.</li>
+  <li><strong>Ultrarrápido:</strong> postos rodoviários, 30 minutos.</li>
+</ul>
+
+<h2>Custo de carregamento</h2>
+<p>Muito menor que combustível. Um carregamento completo custa cerca de R$20-R$40.</p>
+
+<h2>Onde carregar</h2>
+<ul>
+  <li>Em casa (tomada ou wallbox).</li>
+  <li>Shoppings e supermercados.</li>
+  <li>Postos de combustível.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Infraestrutura está crescendo, mas ainda é limitada fora de grandes centros.</p>`,
+    category: { id: 'futuro', slug: 'futuro', name: 'Futuro', description: 'Tecnologias emergentes, biotecnologia, energia e cidades inteligentes', color: '#10b981' },
+    tags: ['carros elétricos', 'carregamento', 'infraestrutura'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/EV_charging.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:EV_charging.jpg',
+    imageAlt: 'Carregamento de veículo elétrico',
+    sources: [
+      { title: 'ABVE', url: 'https://www.abve.com.br/', type: 'agency' },
+    ],
+    relatedArticles: ['energia-solar-em-casa-vale-a-pena'],
+  },
+  {
+    id: '317',
+    slug: 'como-funciona-o-banco-central',
+    title: 'Como funciona o Banco Central do Brasil',
+    excerpt: 'Entenda o papel do Banco Central na economia, controle da inflação e emissão de moeda.',
+    content: `<h2>O que é o Banco Central</h2>
+<p>O Banco Central do Brasil (BC) é o órgão responsável pela política monetária do país.</p>
+
+<h2>Principais atribuições</h2>
+<ul>
+  <li><strong>Definição da taxa de juros (Selic):</strong> controla a oferta de dinheiro.</li>
+  <li><strong>Emissão de moeda:</strong> é o emissor exclusivo de moeda no Brasil.</li>
+  <li><strong>Regulação bancária:</strong> supervisiona bancos e instituições financeiras.</li>
+  <li><strong>Reservas internacionais:</strong> gerencia reservas cambiais.</li>
+</ul>
+
+<h2>Por que a taxa de juros importa</h2>
+<p>Quando o BC sobe a Selic, o crédito fica mais caro e a inflação costuma arrefecer.</p>
+
+<h2>Conclusão</h2>
+<p>O Banco Central é essencial para manter a estabilidade econômica do Brasil.</p>`,
+    category: { id: 'geopolitica', slug: 'geopolitica', name: 'Geopolítica', description: 'Relações internacionais, conflitos, energia, comércio global e disputas tecnológicas', color: '#0ea5e9' },
+    tags: ['banco central', 'selic', 'inflação', 'economia', 'moeda'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Banco_Central_do_Brasil.jpg?width=960',
+    imageLicense: 'CC BY-SA 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Banco_Central_do_Brasil.jpg',
+    imageAlt: 'Banco Central do Brasil',
+    sources: [
+      { title: 'Banco Central do Brasil', url: 'https://www.bcb.gov.br/', type: 'agency' },
+    ],
+    relatedArticles: ['eleicoes-2026'],
+  },
+  {
+    id: '318',
+    slug: 'por-que-o-ceu-e-azul',
+    title: 'Por que o céu é azul?',
+    excerpt: 'Entenda a ciência por trás da cor do céu.',
+    content: `<h2>Dispersão de Rayleigh</h2>
+<p>O céu parece azul porque a luz do Sol se dispersa na atmosfera terrestre. A luz azul se espalha mais porque viaja em ondas mais curtas.</p>
+
+<h2>Pôr do sol</h2>
+<p>Ao pôr do sol, a luz atravessa mais atmosfera, o azul se espalha quase totalmente e sobram vermelho e laranja.</p>
+
+<h2>Conclusão</h2>
+<p>A cor do céu depende da física da luz e da atmosfera terrestre.</p>`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['céu', 'azul', 'física', 'atmosfera', 'curiosidade'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Blue_sky.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Blue_sky.jpg',
+    imageAlt: 'Céu azul',
+    sources: [
+      { title: 'NASA', url: 'https://science.nasa.gov/', type: 'agency' },
+      { title: 'NOAA', url: 'https://www.noaa.gov/', type: 'agency' },
+    ],
+    relatedArticles: ['tardigrados-sobrevivem-ao-espaco'],
+  },
+  {
+    id: '319',
+    slug: 'colonizacao-de-marte',
+    title: 'Colonização de Marte: quando vai acontecer?',
+    excerpt: 'Desafios e cronograma para levar humanos a Marte.',
+    content: `<h2>Desafios</h2>
+<ul>
+  <li>Viagem de 6-9 meses.</li>
+  <li>Radiação cósmica.</li>
+  <li>Falta de ar e água.</li>
+  <li>Gravidade menor.</li>
+</ul>
+
+<h2>Empresas envolvidas</h2>
+<ul>
+  <li>SpaceX - Starship.</li>
+  <li>NASA - Artemis como primeiro passo.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Colonização real ainda está distante, mas missão tripulada pode acontecer nas próximas décadas.</p>`,
+    category: { id: 'curiosidades', slug: 'curiosidades', name: 'Curiosidades', description: 'Ciência fascinante, tecnologia histórica e descobertas incomuns', color: '#14b8a6' },
+    tags: ['Marte', 'espaço', 'colonização', 'SpaceX', 'NASA'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 5,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Mars.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Mars.jpg',
+    imageAlt: 'Planeta Marte',
+    sources: [
+      { title: 'NASA - Marte', url: 'https://mars.nasa.gov/', type: 'agency' },
+      { title: 'SpaceX', url: 'https://www.spacex.com/', type: 'agency' },
+    ],
+    relatedArticles: ['por-que-o-ceu-e-azul', 'tardigrados-sobrevivem-ao-espaco'],
+  },
+  {
+    id: '320',
+    slug: 'como-escolher-um-dns-mais-rapido-e-privado',
+    title: 'Como escolher um DNS mais rápido e privado',
+    excerpt: 'Entenda o que é DNS, por que ele importa e como trocar.',
+    content: `<h2>O que é DNS</h2>
+<p>O DNS traduz nomes de sites em endereços IP que os computadores entendem.</p>
+
+<h2>Por que trocar</h2>
+<ul>
+  <li><strong>Velocidade:</strong> navegação mais ágil.</li>
+  <li><strong>Privacidade:</strong> alguns não registram sites visitados.</li>
+  <li><strong>Segurança:</strong> bloqueiam sites maliciosos.</li>
+</ul>
+
+<h2>Opções populares</h2>
+<ul>
+  <li>Google DNS: 8.8.8.8</li>
+  <li>Cloudflare: 1.1.1.1</li>
+  <li>OpenDNS: 208.67.222.222</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Trocar o DNS é simples e pode melhorar velocidade e privacidade.</p>`,
+    category: { id: 'tecnologia', slug: 'tecnologia', name: 'Tecnologia', description: 'Gadgets, computação, cibersegurança, robótica e tecnologia futura', color: '#06b6d4' },
+    tags: ['DNS', 'internet', 'privacidade', 'rede'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/DNS.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:DNS.jpg',
+    imageAlt: 'DNS',
+    sources: [
+      { title: 'Cloudflare - 1.1.1.1', url: 'https://1.1.1.1/', type: 'agency' },
+      { title: 'Google Public DNS', url: 'https://developers.google.com/speed/public-dns', type: 'agency' },
+    ],
+    relatedArticles: ['vpn-o-que-e-e-quando-vale-a-pena'],
+  },
+  {
+    id: '321',
+    slug: 'vacinas-como-funcionam',
+    title: 'Vacinas: como funcionam e por que são importantes',
+    excerpt: 'Entenda o princípio por trás das vacinas e sua importância para a saúde pública.',
+    content: `<h2>O que são vacinas</h2>
+<p>Vacinas estimulam o sistema imunológico a criar anticorpos sem causar a doença.</p>
+
+<h2>Tipos</h2>
+<ul>
+  <li>Vírus atenuado.</li>
+  <li>Vírus inativado.</li>
+  <li>RNA mensageiro (mRNA).</li>
+  <li>Proteína recombinante.</li>
+</ul>
+
+<h2>Importância</h2>
+<ul>
+  <li>Eradicou varíola.</li>
+  <li>Controlou poliomielite.</li>
+  <li>Reduziu casos de COVID-19.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Vacinas são uma das maiores conquistas da medicina.</p>`,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['vacinas', 'imunidade', 'saúde', 'medicina'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Vaccine.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Vaccine.jpg',
+    imageAlt: 'Vacina',
+    sources: [
+      { title: 'Ministério da Saúde - Vacinas', url: 'https://www.gov.br/saude/', type: 'agency' },
+      { title: 'OMS - Vacinas', url: 'https://www.who.int/', type: 'agency' },
+    ],
+    relatedArticles: ['como-funciona-o-sistema-imunologico'],
+  },
+  {
+    id: '322',
+    slug: 'curiosidades-do-corpo-humano',
+    title: 'Curiosidades do corpo humano que você não sabia',
+    excerpt: 'Fatos surpreendentes sobre o funcionamento do corpo humano.',
+    content: `<h2>Fatos interessantes</h2>
+<ul>
+  <li>O cérebro tem cerca de 86 bilhões de neurônios.</li>
+  <li>O coração bate cerca de 100.000 vezes por dia.</li>
+  <li>O fígado pode se regenerar.</li>
+  <li>Produzimos cerca de 1 litro de saliva por dia.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>O corpo humano é uma máquina complexa e fascinante.</p>`,
+    category: { id: 'ciencia', slug: 'ciencia', name: 'Ciência', description: 'Biologia, física, química, neurociência e descobertas científicas', color: '#8b5cf6' },
+    tags: ['corpo humano', 'curiosidade', 'biologia', 'anatomia'],
+    author: { id: '1', name: 'Equipe NexoraComic' },
+    publishedAt: '2026-10-15',
+    readingTime: 4,
+    featuredImage: 'https://commons.wikimedia.org/wiki/Special:FilePath/Human_body.jpg?width=960',
+    imageLicense: 'CC BY 2.0',
+    imageArtist: 'Wikimedia Commons',
+    imageCommonsUrl: 'https://commons.wikimedia.org/wiki/File:Human_body.jpg',
+    imageAlt: 'Corpo humano',
+    sources: [
+      { title: 'NIH - Corpo Humano', url: 'https://www.nih.gov/', type: 'agency' },
+    ],
+    relatedArticles: ['como-funciona-o-sistema-imunologico', 'o-que-e-microbioma-intestinal'],
+  },
 ];
